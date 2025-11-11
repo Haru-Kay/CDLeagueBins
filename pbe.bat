@@ -4,6 +4,6 @@ snip-snip https://raw.communitydragon.org/pbe/game/en_us/data/menu/en_us/ --filt
 snip-snip https://raw.communitydragon.org/pbe/cdragon/arena/ --filter "en_us.json" -o "arena"
 
 snip-snip https://raw.communitydragon.org/pbe/game/data/characters/ --max-depth 2
-snip-snip https://raw.communitydragon.org/pbe/game/ --filter "items.cdtb.bin.json" -o "items"
+snip-snip https://raw.communitydragon.org/pbe/game/ --filter "items.cdtb.bin.json" -o "items" --max-depth 1
 
 ruby cleanup.rb

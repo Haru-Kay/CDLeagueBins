@@ -87,6 +87,7 @@ File.open("#{home}/arena/en_us.json", 'wb') { |f| f.write(JSON.pretty_generate(a
 
 deletions = []
 Dir.each_child("#{home}/out") { |path|
+    next
     basepath = home + "/out/" + path
     if filter.any? { |prefix| path.start_with?(prefix) }
         deletions.push(basepath)
@@ -105,19 +106,17 @@ Dir.each_child("#{home}/out") { |path|
 }
 
 items = {}
-File.open("#{home}/items/items.cdtb.bin.json", 'rb') { |f| champ = JSON.parse(f.read()) }
-items.each { |item, value|
-    puts item
-    if value.is_a?(Hash)
-        value.transform_values! { |k, v|
-            if k == "mDisplayName"
-                $lang.fetch(v.downcase, v)
-            else
-                v
-            end
+File.open("#{home}/items/items.cdtb.bin.json", 'rb') { |f| items = JSON.parse(f.read()) }
+
+items.each { |item, itemObj|
+    if itemObj.is_a?(Hash)
+        itemObj.each { |k, v|
+            next if !v.is_a?(String)
+            itemObj[k] = $lang.fetch(v.downcase, v) if k == "mDisplayName"
         }
     end
 }
+
 File.open("#{home}/items/items.cdtb.bin.json", 'wb') { |f| f.write(JSON.pretty_generate(items)) }
 
 FileUtils.rm_rf(deletions)
