@@ -28,22 +28,35 @@ def langFetch(obj)
     name
 end
 
-def localizeItems(obj)
+def localizeItems(obj, current_key = nil)
   case obj
-    when Hash
-        obj.transform_values { |v| localizeItems(v) }
-    when Array
-        obj.map { |v| localizeItems(v) }
-    when Integer
-        langFetch(obj)
-    when String
-        if obj.start_with?("Item/")
-            langFetch(obj)
-        else
-            obj
-        end
+  when Hash
+    obj.each do |k, v|
+      # If the key is in $item_searches, transform its value
+      if $itemSearches.include?(k.to_s)
+        obj[k] = localizeItems(v, k)
+      else
+        # Recurse normally without transforming
+        obj[k] = localizeItems(v, k)
+      end
+    end
+  when Array
+    obj.map! { |v| localizeItems(v, current_key) }
+  when Integer
+    # Optionally, only transform integers if the parent key matches
+    if $itemSearches.include?(current_key.to_s)
+      langFetch(obj)
     else
-        obj
+      obj
+    end
+  when String
+    if $itemSearches.include?(current_key.to_s) || obj.start_with?("Item/")
+      langFetch(obj)
+    else
+      obj
+    end
+  else
+    obj
   end
 end
 
@@ -76,11 +89,6 @@ filter = [
 ]
 
 
-#nasus = {}
-#File.open("D:/CommunityDragon/out/nasus/nasus.bin.json", 'rb') { |f| nasus = JSON.parse(f.read()) }
-#File.open("D:/CommunityDragon/out/nasus/nasus.bin.json", 'wb') { |f| f.write(JSON.pretty_generate(nasus)) }
-
-#=begin
 # Arena handling
 arena = {}
 File.open("D:/CommunityDragon/arena/en_us.json", 'rb') { |f| arena = JSON.parse(f.read()) }
@@ -98,13 +106,11 @@ Dir.each_child(home) { |path|
                 deletions.push(filepath)
             else
                 champ = {}
-                File.open(filepath, 'rb') { |f| champ = JSON.parse(f.read()) }
-                champ.extend(Hashie::Extensions::DeepLocate)
-                File.open(filepath, 'wb') { |f| f.write(JSON.pretty_generate(champ)) }
+                File.open(filepath, 'rb') { |f| champ = JSON.parse(f.read()) }                
+                File.open(filepath, 'wb') { |f| f.write(JSON.pretty_generate(localizeItems(champ))) }
             end
         }
     end
 }
 
 FileUtils.rm_rf(deletions)
-#=end
