@@ -87,7 +87,6 @@ File.open("#{home}/arena/en_us.json", 'wb') { |f| f.write(JSON.pretty_generate(a
 
 deletions = []
 Dir.each_child("#{home}/out") { |path|
-    next
     basepath = home + "/out/" + path
     if filter.any? { |prefix| path.start_with?(prefix) }
         deletions.push(basepath)

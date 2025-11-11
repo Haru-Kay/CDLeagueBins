@@ -7,3 +7,4 @@ snip-snip https://raw.communitydragon.org/pbe/game/data/characters/ --max-depth 
 snip-snip https://raw.communitydragon.org/pbe/game/ --filter "items.cdtb.bin.json" -o "items" --max-depth 1
 
 ruby cleanup.rb
+pause
