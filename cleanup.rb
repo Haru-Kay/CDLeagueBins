@@ -28,39 +28,30 @@ def langFetch(obj)
     name
 end
 
-def localizeItems(obj, current_key = nil)
-  case obj
-  when Hash
-    obj.each do |k, v|
-      # If the key is in $item_searches, transform its value
-      if $itemSearches.include?(k.to_s)
-        obj[k] = localizeItems(v, k)
-      else
-        # Recurse normally without transforming
-        obj[k] = localizeItems(v, k)
-      end
+def localizeChampItems(obj, current_key = nil)
+    case obj
+        when Hash
+            obj.each { |k, v| obj[k] = localizeChampItems(v, k) }
+        when Array
+            obj.map! { |v| localizeChampItems(v, current_key) }
+        when Integer
+            if $itemSearches.include?(current_key.to_s)
+                langFetch(obj)
+            else
+                obj
+            end
+        when String
+            if $itemSearches.include?(current_key.to_s) || obj.start_with?("Item/")
+                langFetch(obj)
+            else
+                obj
+            end
+        else
+            obj
     end
-  when Array
-    obj.map! { |v| localizeItems(v, current_key) }
-  when Integer
-    # Optionally, only transform integers if the parent key matches
-    if $itemSearches.include?(current_key.to_s)
-      langFetch(obj)
-    else
-      obj
-    end
-  when String
-    if $itemSearches.include?(current_key.to_s) || obj.start_with?("Item/")
-      langFetch(obj)
-    else
-      obj
-    end
-  else
-    obj
-  end
 end
 
-home = "D:/CommunityDragon/out"
+home = "D:/CommunityDragon"
 
 filter = [
     "bloom_",
@@ -91,12 +82,12 @@ filter = [
 
 # Arena handling
 arena = {}
-File.open("D:/CommunityDragon/arena/en_us.json", 'rb') { |f| arena = JSON.parse(f.read()) }
-File.open("D:/CommunityDragon/arena/en_us.json", 'wb') { |f| f.write(JSON.pretty_generate(arena)) }
+File.open("#{home}/arena/en_us.json", 'rb') { |f| arena = JSON.parse(f.read()) }
+File.open("#{home}/arena/en_us.json", 'wb') { |f| f.write(JSON.pretty_generate(arena)) }
 
 deletions = []
-Dir.each_child(home) { |path|
-    basepath = home + "/" + path
+Dir.each_child("#{home}/out") { |path|
+    basepath = home + "/out/" + path
     if filter.any? { |prefix| path.start_with?(prefix) }
         deletions.push(basepath)
     else
@@ -107,10 +98,26 @@ Dir.each_child(home) { |path|
             else
                 champ = {}
                 File.open(filepath, 'rb') { |f| champ = JSON.parse(f.read()) }                
-                File.open(filepath, 'wb') { |f| f.write(JSON.pretty_generate(localizeItems(champ))) }
+                File.open(filepath, 'wb') { |f| f.write(JSON.pretty_generate(localizeChampItems(champ))) }
             end
         }
     end
 }
+
+items = {}
+File.open("#{home}/items/items.cdtb.bin.json", 'rb') { |f| champ = JSON.parse(f.read()) }
+items.each { |item, value|
+    puts item
+    if value.is_a?(Hash)
+        value.transform_values! { |k, v|
+            if k == "mDisplayName"
+                $lang.fetch(v.downcase, v)
+            else
+                v
+            end
+        }
+    end
+}
+File.open("#{home}/items/items.cdtb.bin.json", 'wb') { |f| f.write(JSON.pretty_generate(items)) }
 
 FileUtils.rm_rf(deletions)
