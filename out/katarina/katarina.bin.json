@@ -756,417 +756,6 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Katarina/Spells/KatarinaPassiveAbility": {
-    "mRootSpell": "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPassive",
-    "mChildSpells": [
-      "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPassive",
-      "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaDaggerPickupPBAoE",
-      "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPickupPBAoE"
-    ],
-    "mName": "KatarinaPassiveAbility",
-    "mType": 3,
-    "__type": "AbilityObject"
-  },
-  "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPickupPBAoE": {
-    "ObjectName": "KatarinaPickupPBAoE",
-    "mScriptName": "KatarinaPickupPBAoE",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 6144,
-      "mAnimationName": "Spell2",
-      "mImgIconName": [
-        "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_DaggerSpin.dds"
-      ],
-      "mCastTime": 0.25,
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "useAnimatorFramerate": true,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 15.0,
-      "missileSpeed": 1800.0,
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPassive": {
-    "ObjectName": "KatarinaPassive",
-    "mScriptName": "KatarinaPassive",
-    "mSpell": {
-      "DataValues": [
-        {
-          "mName": "ResetWindow",
-          "mValues": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "ResetCDR",
-          "mValues": [
-            15.0,
-            15.0,
-            15.0,
-            15.0,
-            15.0,
-            15.0,
-            15.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "DaggerRadius",
-          "mValues": [
-            340.0,
-            340.0,
-            340.0,
-            340.0,
-            340.0,
-            340.0,
-            340.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "DaggerDuration",
-          "mValues": [
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "BonusADRatio",
-          "mValues": [
-            0.6000000238418579,
-            0.6000000238418579,
-            0.6000000238418579,
-            0.6000000238418579,
-            0.6000000238418579,
-            0.6000000238418579,
-            0.6000000238418579
-          ],
-          "__type": "SpellDataValue"
-        }
-      ],
-      "DataValuesModeOverride": {
-        "cherry": {
-          "SpellDataValues": [
-            {
-              "mName": "BonusADRatio",
-              "mValues": [
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "__type": "SpellDataValue"
-            },
-            {
-              "mName": "ResetCDR",
-              "mValues": [
-                75.0,
-                75.0,
-                75.0,
-                75.0,
-                75.0,
-                75.0,
-                75.0
-              ],
-              "__type": "SpellDataValue"
-            }
-          ],
-          "__type": "SpellDataValueVector"
-        }
-      },
-      "mSpellCalculations": {
-        "TotalDamage": {
-          "mFormulaParts": [
-            {
-              "mValues": [
-                0.0,
-                68.18461608886719,
-                72.13845825195312,
-                76.86154174804688,
-                82.35384368896484,
-                88.61538696289062,
-                95.64615631103516,
-                103.44615173339844,
-                112.015380859375,
-                121.35384368896484,
-                131.46153259277344,
-                142.3384552001953,
-                153.984619140625,
-                166.39999389648438,
-                179.58460998535156,
-                193.53846740722656,
-                208.26153564453125,
-                223.75384521484375,
-                240.015380859375,
-                257.046142578125,
-                274.8461608886719,
-                293.4153747558594,
-                312.75384521484375,
-                332.8615417480469,
-                353.73846435546875,
-                375.3846130371094,
-                397.79998779296875,
-                420.984619140625,
-                444.9384765625,
-                469.6615295410156,
-                495.1538391113281
-              ],
-              "__type": "ByCharLevelFormulaCalculationPart"
-            },
-            {
-              "mStat": 2,
-              "mStatFormula": 2,
-              "mDataValue": "BonusADRatio",
-              "__type": "StatByNamedDataValueCalculationPart"
-            },
-            {
-              "mSubpart": {
-                "mLevel1Value": 0.699999988079071,
-                "mBreakpoints": [
-                  {
-                    "mLevel": 6,
-                    "mAdditionalBonusAtThisLevel": 0.10000000149011612,
-                    "__type": "Breakpoint"
-                  },
-                  {
-                    "mLevel": 11,
-                    "mAdditionalBonusAtThisLevel": 0.10000000149011612,
-                    "__type": "Breakpoint"
-                  },
-                  {
-                    "mLevel": 16,
-                    "mAdditionalBonusAtThisLevel": 0.10000000149011612,
-                    "__type": "Breakpoint"
-                  }
-                ],
-                "__type": "ByCharLevelBreakpointsCalculationPart"
-              },
-              "__type": "StatBySubPartCalculationPart"
-            }
-          ],
-          "__type": "GameCalculation"
-        },
-        "{e1ba6b0f}": {
-          "mFormulaParts": [
-            {
-              "mLevel1Value": 0.7799999713897705,
-              "mBreakpoints": [
-                {
-                  "mLevel": 6,
-                  "mAdditionalBonusAtThisLevel": 0.05999999865889549,
-                  "__type": "Breakpoint"
-                },
-                {
-                  "mLevel": 11,
-                  "mAdditionalBonusAtThisLevel": 0.05999999865889549,
-                  "__type": "Breakpoint"
-                },
-                {
-                  "mLevel": 16,
-                  "mAdditionalBonusAtThisLevel": 0.05999999865889549,
-                  "__type": "Breakpoint"
-                }
-              ],
-              "__type": "ByCharLevelBreakpointsCalculationPart"
-            }
-          ],
-          "__type": "GameCalculation"
-        }
-      },
-      "mImgIconName": [
-        "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_Passive.dds"
-      ],
-      "castRange": [
-        340.0,
-        340.0,
-        340.0,
-        340.0,
-        340.0,
-        340.0,
-        340.0
-      ],
-      "mClientData": {
-        "mTooltipData": {
-          "mObjectName": "KatarinaPassive",
-          "mFormat": "{476ec0b8}",
-          "mLocKeys": {
-            "keyName": "Spell_KatarinaPassive_Name",
-            "keySummary": "Spell_KatarinaPassive_Summary",
-            "keyTooltip": "Spell_KatarinaPassive_Tooltip",
-            "keyTooltipExtended": "Spell_KatarinaPassive_TooltipExtended"
-          },
-          "__type": "TooltipInstanceSpell"
-        },
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_KatarinaPassive",
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaDaggerPickupPBAoE": {
-    "ObjectName": "KatarinaDaggerPickupPBAoE",
-    "mScriptName": "KatarinaDaggerPickupPBAoE",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 2048,
-      "mAnimationName": "Spell2",
-      "mImgIconName": [
-        "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_DaggerSpin.dds"
-      ],
-      "mCastTime": 0.25,
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "useAnimatorFramerate": true,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 15.0,
-      "missileSpeed": 1800.0,
-      "bHaveHitBone": true,
-      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "SelfAoe"
-      },
-      "mCastingBreaksStealth": true,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
   "Characters/Katarina/Spells/KatarinaQAbility": {
     "mRootSpell": "Characters/Katarina/Spells/KatarinaQAbility/KatarinaQ",
     "mChildSpells": [
@@ -2937,6 +2526,345 @@
       "mClientData": {
         "mTargeterDefinitions": [
           {
+            "__type": "TargeterDefinitionRange"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Katarina/Spells/KatarinaPassiveAbility": {
+    "mRootSpell": "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPassive",
+    "mChildSpells": [
+      "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPassive",
+      "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaDaggerPickupPBAoE"
+    ],
+    "mName": "KatarinaPassiveAbility",
+    "mType": 3,
+    "__type": "AbilityObject"
+  },
+  "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPassive": {
+    "ObjectName": "KatarinaPassive",
+    "mScriptName": "KatarinaPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ResetWindow",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "ResetCDR",
+          "mValues": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "DaggerRadius",
+          "mValues": [
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "DaggerDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "BonusADRatio",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "__type": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BonusADRatio",
+              "mValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "__type": "SpellDataValue"
+            },
+            {
+              "mName": "ResetCDR",
+              "mValues": [
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0
+              ],
+              "__type": "SpellDataValue"
+            }
+          ],
+          "__type": "SpellDataValueVector"
+        }
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mValues": [
+                0.0,
+                68.18461608886719,
+                72.13845825195312,
+                76.86154174804688,
+                82.35384368896484,
+                88.61538696289062,
+                95.64615631103516,
+                103.44615173339844,
+                112.015380859375,
+                121.35384368896484,
+                131.46153259277344,
+                142.3384552001953,
+                153.984619140625,
+                166.39999389648438,
+                179.58460998535156,
+                193.53846740722656,
+                208.26153564453125,
+                223.75384521484375,
+                240.015380859375,
+                257.046142578125,
+                274.8461608886719,
+                293.4153747558594,
+                312.75384521484375,
+                332.8615417480469,
+                353.73846435546875,
+                375.3846130371094,
+                397.79998779296875,
+                420.984619140625,
+                444.9384765625,
+                469.6615295410156,
+                495.1538391113281
+              ],
+              "__type": "ByCharLevelFormulaCalculationPart"
+            },
+            {
+              "mStat": 2,
+              "mStatFormula": 2,
+              "mDataValue": "BonusADRatio",
+              "__type": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mSubpart": {
+                "mLevel1Value": 0.699999988079071,
+                "mBreakpoints": [
+                  {
+                    "mLevel": 6,
+                    "mAdditionalBonusAtThisLevel": 0.10000000149011612,
+                    "__type": "Breakpoint"
+                  },
+                  {
+                    "mLevel": 11,
+                    "mAdditionalBonusAtThisLevel": 0.10000000149011612,
+                    "__type": "Breakpoint"
+                  },
+                  {
+                    "mLevel": 16,
+                    "mAdditionalBonusAtThisLevel": 0.10000000149011612,
+                    "__type": "Breakpoint"
+                  }
+                ],
+                "__type": "ByCharLevelBreakpointsCalculationPart"
+              },
+              "__type": "StatBySubPartCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
+        },
+        "{e1ba6b0f}": {
+          "mFormulaParts": [
+            {
+              "mLevel1Value": 0.7799999713897705,
+              "mBreakpoints": [
+                {
+                  "mLevel": 6,
+                  "mAdditionalBonusAtThisLevel": 0.05999999865889549,
+                  "__type": "Breakpoint"
+                },
+                {
+                  "mLevel": 11,
+                  "mAdditionalBonusAtThisLevel": 0.05999999865889549,
+                  "__type": "Breakpoint"
+                },
+                {
+                  "mLevel": 16,
+                  "mAdditionalBonusAtThisLevel": 0.05999999865889549,
+                  "__type": "Breakpoint"
+                }
+              ],
+              "__type": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
+        }
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_Passive.dds"
+      ],
+      "castRange": [
+        340.0,
+        340.0,
+        340.0,
+        340.0,
+        340.0,
+        340.0,
+        340.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mObjectName": "KatarinaPassive",
+          "mFormat": "{476ec0b8}",
+          "mLocKeys": {
+            "keyName": "Spell_KatarinaPassive_Name",
+            "keySummary": "Spell_KatarinaPassive_Summary",
+            "keyTooltip": "Spell_KatarinaPassive_Tooltip",
+            "keyTooltipExtended": "Spell_KatarinaPassive_TooltipExtended"
+          },
+          "__type": "TooltipInstanceSpell"
+        },
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KatarinaPassive",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaDaggerPickupPBAoE": {
+    "ObjectName": "KatarinaDaggerPickupPBAoE",
+    "mScriptName": "KatarinaDaggerPickupPBAoE",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 2048,
+      "mAnimationName": "Spell2",
+      "mImgIconName": [
+        "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_DaggerSpin.dds"
+      ],
+      "mCastTime": 0.25,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mCantCancelWhileWindingUp": true,
+      "useAnimatorFramerate": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "missileSpeed": 1800.0,
+      "bHaveHitBone": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "selectionPriority": 1,
+      "mTargetingTypeData": {
+        "__type": "SelfAoe"
+      },
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
             "__type": "TargeterDefinitionRange"
           }
         ],

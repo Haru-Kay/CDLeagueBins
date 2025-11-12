@@ -2511,7 +2511,6 @@
     "mChildSpells": [
       "Characters/Yuumi/Spells/YuumiPAbility/YuumiP",
       "Characters/Yuumi/Spells/YuumiPAbility/YuumiPAttack",
-      "Characters/Yuumi/Spells/YuumiPAbility/YuumiPAttackMissile",
       "Characters/Yuumi/Spells/YuumiPAbility/YuumiPHealMis",
       "Characters/Yuumi/Spells/YuumiPAbility/YuumiPMat",
       "Characters/Yuumi/Spells/YuumiPAbility/YuumiPShield",
@@ -2668,67 +2667,6 @@
         "__type": "TooltipInstanceBuff"
       },
       "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Yuumi/Spells/YuumiPAbility/YuumiPAttackMissile": {
-    "ObjectName": "YuumiPAttackMissile",
-    "mScriptName": "YuumiPAttackMissile",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 7375,
-      "mAffectsStatusFlags": 48,
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "cannotBeSuppressed": true,
-      "canCastWhileDisabled": true,
-      "mDoesntBreakChannels": true,
-      "castRange": [
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0
-      ],
-      "castConeDistance": 100.0,
-      "mMissileSpec": {
-        "movementComponent": {
-          "mTargetHeightAugment": 50.0,
-          "mOffsetInitialTargetHeight": 50.0,
-          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-          "mSpeed": 2000.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "BlendedLinearHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VeritcalFacingMatchVelocity"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnMovementComplete"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "missileSpeed": 3500.0,
-      "mMissileEffectKey": "Yuumi_BA_mis",
-      "bHaveHitBone": true,
-      "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
   },

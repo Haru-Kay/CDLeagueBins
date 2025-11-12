@@ -1041,8 +1041,7 @@
       "Characters/Swain/Spells/SwainEAbility/SwainE",
       "Characters/Swain/Spells/SwainEAbility/SwainE2",
       "{51330b76}",
-      "{51eae544}",
-      "{5bdfb55f}"
+      "{51eae544}"
     ],
     "mName": "SwainEAbility",
     "AbilityTraits": 2560,
@@ -1764,83 +1763,6 @@
         }
       ],
       "__type": "BotsSpellData"
-    },
-    "__type": "SpellObject"
-  },
-  "{5bdfb55f}": {
-    "ObjectName": "SwainESoulCollectAudio",
-    "mScriptName": "SwainESoulCollectAudio",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 4106,
-      "mRequiredUnitTags": {
-        "mObjectTagList": [
-          "{ea595ca6}"
-        ],
-        "__type": "ObjectTags"
-      },
-      "mAlternateName": "VladimirTransfusionHeal",
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "mDoesntBreakChannels": true,
-      "mProjectTargetToCastRange": true,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castConeDistance": 100.0,
-      "mMissileSpec": {
-        "mMissileWidth": 60.0,
-        "movementComponent": {
-          "mUseHeightOffsetAtEnd": true,
-          "mTracksTarget": false,
-          "mStartBoneName": "spine",
-          "mSpeed": 4000.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "BlendedLinearHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VerticalFacingFaceTarget"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnHit"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "castFrame": 1.0,
-      "missileSpeed": 4000.0,
-      "mMissileEffectKey": "Swain_R_DmgMis",
-      "mLineWidth": 60.0,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
   },

@@ -11,8 +11,6 @@
     "mRootSpell": "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPassive",
     "mChildSpells": [
       "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPassive",
-      "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriEnergized",
-      "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriEnergizedShieldTracker",
       "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPShieldMissile",
       "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPassiveShield"
     ],
@@ -88,15 +86,6 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriEnergizedShieldTracker": {
-    "ObjectName": "ZeriEnergizedShieldTracker",
-    "mScriptName": "ZeriEnergizedShieldTracker",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_RengarWEmp",
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
   "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPassiveShield": {
     "ObjectName": "ZeriPassiveShield",
     "mScriptName": "ZeriPassiveShield",
@@ -141,11 +130,6 @@
       },
       "__type": "BuffData"
     },
-    "__type": "SpellObject"
-  },
-  "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriEnergized": {
-    "ObjectName": "ZeriEnergized",
-    "mScriptName": "ZeriEnergized",
     "__type": "SpellObject"
   },
   "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPassive": {
@@ -1070,6 +1054,13 @@
           "__type": "GameCalculation"
         }
       },
+      "{fe87f21e}": [
+        {
+          "{6166b756}": "PassiveExecuteThreshold",
+          "{7a9d64ea}": true,
+          "__type": "{fe87f21e}"
+        }
+      ],
       "mCoefficient": 1.100000023841858,
       "mAnimationName": "Spell1",
       "mImgIconName": [
@@ -2643,13 +2634,13 @@
         {
           "mName": "MSPercent",
           "mValues": [
-            0.004999999888241291,
-            0.004999999888241291,
-            0.004999999888241291,
-            0.004999999888241291,
-            0.004999999888241291,
-            0.004999999888241291,
-            0.004999999888241291
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582
           ],
           "__type": "SpellDataValue"
         },

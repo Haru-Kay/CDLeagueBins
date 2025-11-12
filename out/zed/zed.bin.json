@@ -648,6 +648,40 @@
             "__type": "HasBuffCastRequirement"
           },
           "__type": "GameCalculationConditional"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "{a8cb9c14}": true,
+              "mStat": 12,
+              "mSubpart": {
+                "mSpellCalculationKey": "MaxHPDamage",
+                "__type": "{f3cbe7b2}"
+              },
+              "__type": "StatBySubPartCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
+        },
+        "FinalDamage": {
+          "mConditionalGameCalculation": "TotalDamage",
+          "mConditionalCalculationRequirements": {
+            "mSubRequirements": [
+              {
+                "mInvertResult": true,
+                "mBuffName": "{0f6b8c16}",
+                "__type": "HasBuffCastRequirement"
+              },
+              {
+                "mInvertResult": true,
+                "{137cf12a}": "{eb2d78a3}",
+                "__type": "AboveHealthPercentCastRequirement"
+              }
+            ],
+            "__type": "HasAllSubRequirementsCastRequirement"
+          },
+          "{353099b0}": true,
+          "__type": "GameCalculationConditional"
         }
       },
       "mImgIconName": [
@@ -697,8 +731,6 @@
     "mRootSpell": "Characters/Zed/Spells/ZedWAbility/ZedW",
     "mChildSpells": [
       "Characters/Zed/Spells/ZedWAbility/ZedW",
-      "Characters/Zed/Spells/ZedWAbility/ZedShadowDash",
-      "Characters/Zed/Spells/ZedWAbility/ZedShadowDashMissile",
       "Characters/Zed/Spells/ZedWAbility/ZedW2",
       "Characters/Zed/Spells/ZedWAbility/ZedWHandler",
       "Characters/Zed/Spells/ZedWAbility/ZedWHandlerBuffName",
@@ -1320,362 +1352,6 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Zed/Spells/ZedWAbility/ZedShadowDashMissile": {
-    "ObjectName": "ZedShadowDashMissile",
-    "mScriptName": "ZedShadowDashMissile",
-    "mSpell": {
-      "mAlternateName": "EzrealMysticShotMissile",
-      "mEffectAmount": [
-        {
-          "value": [
-            30.0,
-            90.0,
-            150.0,
-            245.0,
-            315.0,
-            440.0,
-            565.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            2.25,
-            2.5,
-            2.75,
-            3.0,
-            3.25,
-            3.5,
-            3.75
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 1.2000000476837158,
-      "mAnimationName": "Spell1",
-      "mImgIconName": [
-        "FallenAngel_DarkBinding.dds"
-      ],
-      "mCastTime": 0.25099998712539673,
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "mProjectTargetToCastRange": true,
-      "useAnimatorFramerate": true,
-      "castRange": [
-        650.0,
-        650.0,
-        650.0,
-        650.0,
-        650.0,
-        650.0,
-        650.0
-      ],
-      "castRangeDisplayOverride": [
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0
-      ],
-      "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "castConeDistance": 100.0,
-      "luaOnMissileUpdateDistanceInterval": 51.0,
-      "mMissileSpec": {
-        "mMissileWidth": 60.0,
-        "movementComponent": {
-          "mUseHeightOffsetAtEnd": true,
-          "mTracksTarget": false,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "L_hand",
-          "mSpeed": 1500.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "BlendedLinearHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VerticalFacingFaceTarget"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnHit"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "castFrame": 7.53000020980835,
-      "missileSpeed": 1500.0,
-      "mLineWidth": 60.0,
-      "bHaveHitBone": true,
-      "mHitBoneName": "root",
-      "selectionPriority": 2,
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "hideWithLineIndicator": true,
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "__type": "DrawablePositionLocator"
-            },
-            "lineStopsAtEndPosition": true,
-            "lineWidth": {
-              "mPerLevelValues": [
-                60.0,
-                60.0,
-                60.0,
-                60.0,
-                60.0,
-                60.0
-              ],
-              "mValueType": 2,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionLine"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zed/Spells/ZedWAbility/ZedShadowDash": {
-    "ObjectName": "ZedShadowDash",
-    "mScriptName": "ZedShadowDash",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 6154,
-      "mSpellTags": [
-        "PositiveEffect_MoveBlock"
-      ],
-      "mEffectAmount": [
-        {
-          "value": [
-            37.5,
-            50.0,
-            62.5,
-            75.0,
-            87.5,
-            100.0,
-            112.5
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.0,
-            5.0,
-            10.0,
-            15.0,
-            20.0,
-            25.0,
-            30.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            15.0,
-            20.0,
-            25.0,
-            30.0,
-            35.0,
-            40.0,
-            45.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            6.0,
-            6.0,
-            6.0,
-            6.0,
-            6.0,
-            6.0,
-            6.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 0.8999999761581421,
-      "mAnimationName": "Spell2_cast",
-      "mImgIconName": [
-        "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_w.dds"
-      ],
-      "cooldownTime": [
-        19.0,
-        18.0,
-        17.0,
-        16.0,
-        15.0,
-        14.0,
-        14.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "mProjectTargetToCastRange": true,
-      "useAnimatorFramerate": true,
-      "castRange": [
-        600.0,
-        600.0,
-        600.0,
-        600.0,
-        600.0,
-        600.0,
-        600.0
-      ],
-      "castRangeDisplayOverride": [
-        550.0,
-        550.0,
-        550.0,
-        550.0,
-        550.0,
-        550.0,
-        550.0
-      ],
-      "castRadius": [
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 1.9800000190734863,
-      "missileSpeed": 1600.0,
-      "mLineWidth": 40.0,
-      "mana": [
-        40.0,
-        35.0,
-        30.0,
-        25.0,
-        20.0,
-        15.0
-      ],
-      "selectionPriority": 2,
-      "mTargetingTypeData": {
-        "__type": "Direction"
-      },
-      "mCastingBreaksStealth": true,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "hideWithLineIndicator": true,
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "__type": "DrawablePositionLocator"
-            },
-            "lineStopsAtEndPosition": true,
-            "lineWidth": {
-              "mPerLevelValues": [
-                40.0,
-                40.0,
-                40.0,
-                40.0,
-                40.0,
-                40.0
-              ],
-              "mValueType": 2,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionLine"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
   "Characters/Zed/Spells/ZedWAbility/ZedW2": {
     "ObjectName": "ZedW2",
     "mScriptName": "ZedW2",
@@ -1846,12 +1522,7 @@
       "Characters/Zed/Spells/ZedRAbility/ZedRHandler",
       "Characters/Zed/Spells/ZedRAbility/ZedRMissile",
       "Characters/Zed/Spells/ZedRAbility/ZedRPassiveBuff",
-      "Characters/Zed/Spells/ZedRAbility/ZedUlt",
-      "Characters/Zed/Spells/ZedRAbility/ZedUltDash",
-      "Characters/Zed/Spells/ZedRAbility/ZedUltDashCloneMaker",
-      "Characters/Zed/Spells/ZedRAbility/ZedUltExecute",
-      "Characters/Zed/Spells/ZedRAbility/ZedUltMissile",
-      "Characters/Zed/Spells/ZedRAbility/ZedUltWDelay"
+      "Characters/Zed/Spells/ZedRAbility/ZedUltExecute"
     ],
     "mLifetimeManuallyManaged": true,
     "mName": "ZedRAbility",
@@ -1862,15 +1533,6 @@
   "Characters/Zed/Spells/ZedRAbility/ZedRPassiveBuff": {
     "ObjectName": "ZedRPassiveBuff",
     "mScriptName": "ZedRPassiveBuff",
-    "__type": "SpellObject"
-  },
-  "Characters/Zed/Spells/ZedRAbility/ZedUltWDelay": {
-    "ObjectName": "ZedUltWDelay",
-    "mScriptName": "ZedUltWDelay",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_RumbleDangerZone",
-      "__type": "BuffData"
-    },
     "__type": "SpellObject"
   },
   "Characters/Zed/Spells/ZedRAbility/ZedRADBuff": {
@@ -1897,180 +1559,6 @@
         0
       ],
       "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zed/Spells/ZedRAbility/ZedUltMissile": {
-    "ObjectName": "ZedUltMissile",
-    "mScriptName": "ZedUltMissile",
-    "mSpell": {
-      "mAlternateName": "EzrealMysticShotMissile",
-      "mEffectAmount": [
-        {
-          "value": [
-            30.0,
-            90.0,
-            150.0,
-            245.0,
-            315.0,
-            440.0,
-            565.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            2.25,
-            2.5,
-            2.75,
-            3.0,
-            3.25,
-            3.5,
-            3.75
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 1.2000000476837158,
-      "mAnimationName": "Spell1",
-      "mImgIconName": [
-        "FallenAngel_DarkBinding.dds"
-      ],
-      "mCastTime": 0.25099998712539673,
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "mProjectTargetToCastRange": true,
-      "useAnimatorFramerate": true,
-      "castRange": [
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0
-      ],
-      "castRangeDisplayOverride": [
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0
-      ],
-      "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "castConeDistance": 100.0,
-      "luaOnMissileUpdateDistanceInterval": 51.0,
-      "mMissileSpec": {
-        "mMissileWidth": 60.0,
-        "movementComponent": {
-          "mUseHeightOffsetAtEnd": true,
-          "mTracksTarget": false,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "L_hand",
-          "mSpeed": 3000.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "BlendedLinearHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VerticalFacingFaceTarget"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnHit"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "castFrame": 7.53000020980835,
-      "missileSpeed": 3000.0,
-      "mLineWidth": 60.0,
-      "bHaveHitBone": true,
-      "mHitBoneName": "root",
-      "selectionPriority": 2,
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "hideWithLineIndicator": true,
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "__type": "DrawablePositionLocator"
-            },
-            "lineStopsAtEndPosition": true,
-            "lineWidth": {
-              "mPerLevelValues": [
-                60.0,
-                60.0,
-                60.0,
-                60.0,
-                60.0,
-                60.0
-              ],
-              "mValueType": 2,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionLine"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
   },
@@ -2349,144 +1837,6 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Zed/Spells/ZedRAbility/ZedUlt": {
-    "ObjectName": "ZedUlt",
-    "mScriptName": "ZedUlt",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 4106,
-      "mRequiredUnitTags": {
-        "mObjectTagList": [
-          "{ea595ca6}"
-        ],
-        "__type": "ObjectTags"
-      },
-      "mSpellTags": [
-        "PositiveEffect_MoveBlock",
-        "Trait_Ultimate"
-      ],
-      "mEffectAmount": [
-        {
-          "value": [
-            0.0,
-            50.0,
-            125.0,
-            200.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.0,
-            20.0,
-            35.0,
-            50.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.0,
-            1.0,
-            1.5,
-            2.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.0,
-            6.0,
-            6.0,
-            6.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 1.0,
-      "mAnimationName": "Spell4",
-      "mImgIconName": [
-        "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_R.dds"
-      ],
-      "cooldownTime": [
-        10.0,
-        120.0,
-        100.0,
-        80.0,
-        10.0,
-        10.0,
-        5.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "cantCastWhileRooted": true,
-      "useAnimatorFramerate": true,
-      "castRange": [
-        625.0,
-        625.0,
-        625.0,
-        625.0,
-        700.0,
-        700.0,
-        700.0
-      ],
-      "castRadius": [
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 25.850000381469727,
-      "missileSpeed": 0.0,
-      "selectionPriority": 1,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
   "Characters/Zed/Spells/ZedRAbility/ZedR2": {
     "ObjectName": "ZedR2",
     "mScriptName": "ZedR2",
@@ -2680,15 +2030,6 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Zed/Spells/ZedRAbility/ZedUltDashCloneMaker": {
-    "ObjectName": "ZedUltDashCloneMaker",
-    "mScriptName": "ZedUltDashCloneMaker",
-    "mSpell": {
-      "mAlternateName": "ZedUlt",
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
   "Characters/Zed/Spells/ZedRAbility/ZedRHandler": {
     "ObjectName": "ZedRHandler",
     "mScriptName": "ZedRHandler",
@@ -2828,15 +2169,6 @@
       "mTargetingTypeData": {
         "__type": "Self"
       },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zed/Spells/ZedRAbility/ZedUltDash": {
-    "ObjectName": "ZedUltDash",
-    "mScriptName": "ZedUltDash",
-    "mSpell": {
-      "mAlternateName": "ZedUlt",
       "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
@@ -3075,599 +2407,11 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Zed/Spells/ZedEAbility": {
-    "mRootSpell": "Characters/Zed/Spells/ZedEAbility/ZedE",
-    "mChildSpells": [
-      "Characters/Zed/Spells/ZedEAbility/ZedE",
-      "Characters/Zed/Spells/ZedEAbility/ZedPBAOE",
-      "Characters/Zed/Spells/ZedEAbility/ZedPBAOEDummy"
-    ],
-    "mName": "ZedEAbility",
-    "__type": "AbilityObject"
-  },
-  "Characters/Zed/Spells/ZedEAbility/ZedPBAOE": {
-    "ObjectName": "ZedPBAOE",
-    "mScriptName": "ZedPBAOE",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 6154,
-      "mEffectAmount": [
-        {
-          "value": [
-            30.0,
-            80.0,
-            130.0,
-            180.0,
-            230.0,
-            280.0,
-            330.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            15.0,
-            20.0,
-            25.0,
-            30.0,
-            35.0,
-            40.0,
-            45.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            22.5,
-            30.0,
-            37.5,
-            45.0,
-            52.5,
-            60.0,
-            67.5
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 0.699999988079071,
-      "mAnimationName": "Spell2",
-      "mImgIconName": [
-        "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_E.dds"
-      ],
-      "cooldownTime": [
-        6.0,
-        6.0,
-        6.0,
-        6.0,
-        6.0,
-        6.0,
-        6.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "castRange": [
-        325.0,
-        325.0,
-        325.0,
-        325.0,
-        325.0,
-        325.0,
-        325.0
-      ],
-      "castRadius": [
-        325.0,
-        325.0,
-        325.0,
-        325.0,
-        325.0,
-        325.0,
-        325.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 11.395000457763672,
-      "missileSpeed": 0.0,
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "SelfAoe"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zed/Spells/ZedEAbility/ZedPBAOEDummy": {
-    "ObjectName": "ZedPBAOEDummy",
-    "mScriptName": "ZedPBAOEDummy",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "ZedPBAOEDummy",
-      "mEffectAmount": [
-        {
-          "value": [
-            30.0,
-            60.0,
-            90.0,
-            120.0,
-            150.0,
-            180.0,
-            210.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            15.0,
-            20.0,
-            25.0,
-            30.0,
-            35.0,
-            40.0,
-            45.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            22.5,
-            30.0,
-            37.5,
-            45.0,
-            52.5,
-            60.0,
-            67.5
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 0.800000011920929,
-      "mAnimationName": "Spell2",
-      "mImgIconName": [
-        "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_E.dds"
-      ],
-      "cooldownTime": [
-        4.0,
-        4.0,
-        4.0,
-        4.0,
-        4.0,
-        4.0,
-        4.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "castRange": [
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0
-      ],
-      "castRadius": [
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 11.395000457763672,
-      "missileSpeed": 0.0,
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "mana": [
-        50.0,
-        50.0,
-        50.0,
-        50.0,
-        50.0,
-        50.0
-      ],
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "SelfAoe"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zed/Spells/ZedEAbility/ZedE": {
-    "ObjectName": "ZedE",
-    "mScriptName": "ZedE",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "ZedPBAOEDummy",
-      "DataValues": [
-        {
-          "mName": "BaseDamage",
-          "mValues": [
-            45.0,
-            70.0,
-            95.0,
-            120.0,
-            145.0,
-            170.0,
-            195.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "ADRatio",
-          "mValues": [
-            0.800000011920929,
-            0.800000011920929,
-            0.800000011920929,
-            0.800000011920929,
-            0.800000011920929,
-            0.800000011920929,
-            0.800000011920929
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "MoveSpeedMod",
-          "mValues": [
-            -0.15000000596046448,
-            -0.20000000298023224,
-            -0.25,
-            -0.30000001192092896,
-            -0.3499999940395355,
-            -0.4000000059604645,
-            -0.44999998807907104
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "MoveSpeedModBonus",
-          "mValues": [
-            -0.22499999403953552,
-            -0.30000001192092896,
-            -0.375,
-            -0.44999998807907104,
-            -0.5249999761581421,
-            -0.6000000238418579,
-            -0.675000011920929
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "SlowDuration",
-          "mValues": [
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "ShadowHitCDR",
-          "mValues": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "ZedRadius",
-          "mValues": [
-            315.0,
-            315.0,
-            315.0,
-            315.0,
-            315.0,
-            315.0,
-            315.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "ShadowRadius",
-          "mValues": [
-            290.0,
-            290.0,
-            290.0,
-            290.0,
-            290.0,
-            290.0,
-            290.0
-          ],
-          "__type": "SpellDataValue"
-        }
-      ],
-      "mSpellCalculations": {
-        "TotalDamage": {
-          "mFormulaParts": [
-            {
-              "mDataValue": "BaseDamage",
-              "__type": "NamedDataValueCalculationPart"
-            },
-            {
-              "mStat": 2,
-              "mStatFormula": 2,
-              "mDataValue": "ADRatio",
-              "__type": "StatByNamedDataValueCalculationPart"
-            }
-          ],
-          "__type": "GameCalculation"
-        }
-      },
-      "mAnimationName": "Spell2",
-      "mImgIconName": [
-        "ASSETS/Characters/Zed/HUD/Icons2D/ZedE.dds"
-      ],
-      "cooldownTime": [
-        5.0,
-        5.0,
-        4.5,
-        4.0,
-        3.5,
-        3.0,
-        3.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "castRange": [
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0
-      ],
-      "castRadius": [
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0,
-        290.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 11.395000457763672,
-      "missileSpeed": 0.0,
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "mana": [
-        40.0,
-        40.0,
-        40.0,
-        40.0,
-        40.0,
-        40.0
-      ],
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "SelfAoe"
-      },
-      "mCastingBreaksStealth": true,
-      "mClientData": {
-        "mTooltipData": {
-          "mObjectName": "ZedE",
-          "mFormat": "{d7c27163}",
-          "mLocKeys": {
-            "keyName": "Spell_ZedE_Name",
-            "keySummary": "Spell_ZedE_Summary",
-            "keyTooltip": "Spell_ZedE_Tooltip"
-          },
-          "mLists": {
-            "LevelUp": {
-              "levelCount": 5,
-              "Elements": [
-                {
-                  "type": "BaseDamage",
-                  "typeIndex": 1,
-                  "nameOverride": "Spell_ListType_Damage",
-                  "__type": "TooltipInstanceListElement"
-                },
-                {
-                  "type": "MoveSpeedMod",
-                  "multiplier": -100.0,
-                  "nameOverride": "Spell_ListType_Slow",
-                  "Style": 1,
-                  "__type": "TooltipInstanceListElement"
-                },
-                {
-                  "type": "Cooldown",
-                  "__type": "TooltipInstanceListElement"
-                }
-              ],
-              "__type": "TooltipInstanceList"
-            }
-          },
-          "__type": "TooltipInstanceSpell"
-        },
-        "mTargeterDefinitions": [
-          {
-            "centerLocator": {
-              "basePosition": 1,
-              "__type": "DrawablePositionLocator"
-            },
-            "overrideBaseRange": {
-              "mPerLevelValues": [
-                290.0,
-                290.0,
-                290.0,
-                290.0,
-                290.0,
-                290.0
-              ],
-              "mValueType": 2,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "BotData": {
-      "DamageTag": 0,
-      "{6d548702}": {
-        "mFormulaParts": [
-          {
-            "mSpellCalculationKey": "TotalDamage",
-            "__type": "{f3cbe7b2}"
-          }
-        ],
-        "__type": "GameCalculation"
-      },
-      "{ec17e271}": [
-        {
-          "EffectTag": 1,
-          "EffectCalculation": {
-            "mFormulaParts": [
-              {
-                "mDataValue": "MoveSpeedMod",
-                "__type": "NamedDataValueCalculationPart"
-              }
-            ],
-            "__type": "GameCalculation"
-          },
-          "__type": "{b09016f6}"
-        }
-      ],
-      "__type": "BotsSpellData"
-    },
-    "__type": "SpellObject"
-  },
   "Characters/Zed/Spells/ZedQAbility": {
     "mRootSpell": "Characters/Zed/Spells/ZedQAbility/ZedQ",
     "mChildSpells": [
       "Characters/Zed/Spells/ZedQAbility/ZedQ",
-      "Characters/Zed/Spells/ZedQAbility/ZedQMissile",
-      "Characters/Zed/Spells/ZedQAbility/ZedShurikenMisOne",
-      "Characters/Zed/Spells/ZedQAbility/ZedShurikenMisThree",
-      "Characters/Zed/Spells/ZedQAbility/ZedShurikenMisTwo"
+      "Characters/Zed/Spells/ZedQAbility/ZedQMissile"
     ],
     "mName": "ZedQAbility",
     "__type": "AbilityObject"
@@ -3982,328 +2726,6 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Zed/Spells/ZedQAbility/ZedShurikenMisOne": {
-    "ObjectName": "ZedShurikenMisOne",
-    "mScriptName": "ZedShurikenMisOne",
-    "mSpell": {
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "ZedShuriken",
-      "mAnimationName": "Attack2",
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "canCastWhileDisabled": true,
-      "castRange": [
-        925.0,
-        925.0,
-        925.0,
-        925.0,
-        925.0,
-        925.0,
-        925.0
-      ],
-      "castRadius": [
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875
-      ],
-      "castConeDistance": 100.0,
-      "mMissileSpec": {
-        "mMissileWidth": 50.0,
-        "movementComponent": {
-          "mUseHeightOffsetAtEnd": true,
-          "mTracksTarget": false,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "buffbone_glb_ground_loc",
-          "mProjectTargetToCastRange": true,
-          "mSpeed": 1700.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "BlendedLinearHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VerticalFacingFaceTarget"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnHit"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "castFrame": 15.074999809265137,
-      "missileSpeed": 1700.0,
-      "mMissileEffectKey": "Zed_Q_Mis",
-      "mLineWidth": 50.0,
-      "bHaveHitBone": true,
-      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "hideWithLineIndicator": true,
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "__type": "DrawablePositionLocator"
-            },
-            "lineStopsAtEndPosition": false,
-            "lineWidth": {
-              "mPerLevelValues": [
-                50.0,
-                50.0,
-                50.0,
-                50.0,
-                50.0,
-                50.0
-              ],
-              "mValueType": 2,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionLine"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zed/Spells/ZedQAbility/ZedShurikenMisTwo": {
-    "ObjectName": "ZedShurikenMisTwo",
-    "mScriptName": "ZedShurikenMisTwo",
-    "mSpell": {
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "ZedShuriken",
-      "mAnimationName": "Attack2",
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "canCastWhileDisabled": true,
-      "castRange": [
-        925.0,
-        925.0,
-        925.0,
-        925.0,
-        925.0,
-        925.0,
-        925.0
-      ],
-      "castRadius": [
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875
-      ],
-      "castConeDistance": 100.0,
-      "mMissileSpec": {
-        "mMissileWidth": 50.0,
-        "movementComponent": {
-          "mUseHeightOffsetAtEnd": true,
-          "mTracksTarget": false,
-          "mTargetHeightAugment": -100.0,
-          "mStartBoneName": "buffbone_glb_ground_loc",
-          "mProjectTargetToCastRange": true,
-          "mSpeed": 1700.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "BlendedLinearHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VerticalFacingFaceTarget"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnHit"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "castFrame": 15.074999809265137,
-      "missileSpeed": 1700.0,
-      "mLineWidth": 50.0,
-      "bHaveHitBone": true,
-      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "hideWithLineIndicator": true,
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "__type": "DrawablePositionLocator"
-            },
-            "lineStopsAtEndPosition": false,
-            "lineWidth": {
-              "mPerLevelValues": [
-                50.0,
-                50.0,
-                50.0,
-                50.0,
-                50.0,
-                50.0
-              ],
-              "mValueType": 2,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionLine"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zed/Spells/ZedQAbility/ZedShurikenMisThree": {
-    "ObjectName": "ZedShurikenMisThree",
-    "mScriptName": "ZedShurikenMisThree",
-    "mSpell": {
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "ZedShuriken",
-      "mAnimationName": "Attack2",
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "canCastWhileDisabled": true,
-      "castRange": [
-        925.0,
-        925.0,
-        925.0,
-        925.0,
-        925.0,
-        925.0,
-        925.0
-      ],
-      "castRadius": [
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875
-      ],
-      "castConeDistance": 100.0,
-      "mMissileSpec": {
-        "mMissileWidth": 50.0,
-        "movementComponent": {
-          "mUseHeightOffsetAtEnd": true,
-          "mTracksTarget": false,
-          "mTargetHeightAugment": -100.0,
-          "mStartBoneName": "root",
-          "mProjectTargetToCastRange": true,
-          "mSpeed": 1700.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "BlendedLinearHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VerticalFacingFaceTarget"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnHit"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "castFrame": 15.074999809265137,
-      "missileSpeed": 1700.0,
-      "mLineWidth": 50.0,
-      "bHaveHitBone": true,
-      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "hideWithLineIndicator": true,
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "__type": "DrawablePositionLocator"
-            },
-            "lineStopsAtEndPosition": false,
-            "lineWidth": {
-              "mPerLevelValues": [
-                50.0,
-                50.0,
-                50.0,
-                50.0,
-                50.0,
-                50.0
-              ],
-              "mValueType": 2,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionLine"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
   "Characters/Zed/Spells/ZedQAbility/ZedQMissile": {
     "ObjectName": "ZedQMissile",
     "mScriptName": "ZedQMissile",
@@ -4414,6 +2836,14 @@
     },
     "__type": "SpellObject"
   },
+  "Characters/Zed/Spells/ZedEAbility": {
+    "mRootSpell": "Characters/Zed/Spells/ZedEAbility/ZedE",
+    "mChildSpells": [
+      "Characters/Zed/Spells/ZedEAbility/ZedE"
+    ],
+    "mName": "ZedEAbility",
+    "__type": "AbilityObject"
+  },
   "Characters/Zed/Spells/ZedCritAttack": {
     "ObjectName": "ZedCritAttack",
     "mScriptName": "ZedCritAttack",
@@ -4465,6 +2895,298 @@
         "__type": "SpellDataResourceClient"
       },
       "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Zed/Spells/ZedEAbility/ZedE": {
+    "ObjectName": "ZedE",
+    "mScriptName": "ZedE",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ZedPBAOEDummy",
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            45.0,
+            70.0,
+            95.0,
+            120.0,
+            145.0,
+            170.0,
+            195.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeedMod",
+          "mValues": [
+            -0.15000000596046448,
+            -0.20000000298023224,
+            -0.25,
+            -0.30000001192092896,
+            -0.3499999940395355,
+            -0.4000000059604645,
+            -0.44999998807907104
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeedModBonus",
+          "mValues": [
+            -0.22499999403953552,
+            -0.30000001192092896,
+            -0.375,
+            -0.44999998807907104,
+            -0.5249999761581421,
+            -0.6000000238418579,
+            -0.675000011920929
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "ShadowHitCDR",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "ZedRadius",
+          "mValues": [
+            315.0,
+            315.0,
+            315.0,
+            315.0,
+            315.0,
+            315.0,
+            315.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "ShadowRadius",
+          "mValues": [
+            290.0,
+            290.0,
+            290.0,
+            290.0,
+            290.0,
+            290.0,
+            290.0
+          ],
+          "__type": "SpellDataValue"
+        }
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamage",
+              "__type": "NamedDataValueCalculationPart"
+            },
+            {
+              "mStat": 2,
+              "mStatFormula": 2,
+              "mDataValue": "ADRatio",
+              "__type": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
+        }
+      },
+      "mAnimationName": "Spell2",
+      "mImgIconName": [
+        "ASSETS/Characters/Zed/HUD/Icons2D/ZedE.dds"
+      ],
+      "cooldownTime": [
+        5.0,
+        5.0,
+        4.5,
+        4.0,
+        3.5,
+        3.0,
+        3.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mCantCancelWhileWindingUp": true,
+      "castRange": [
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0
+      ],
+      "castRadius": [
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 11.395000457763672,
+      "missileSpeed": 0.0,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "selectionPriority": 1,
+      "mTargetingTypeData": {
+        "__type": "SelfAoe"
+      },
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mObjectName": "ZedE",
+          "mFormat": "{d7c27163}",
+          "mLocKeys": {
+            "keyName": "Spell_ZedE_Name",
+            "keySummary": "Spell_ZedE_Summary",
+            "keyTooltip": "Spell_ZedE_Tooltip"
+          },
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 5,
+              "Elements": [
+                {
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "nameOverride": "Spell_ListType_Damage",
+                  "__type": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "MoveSpeedMod",
+                  "multiplier": -100.0,
+                  "nameOverride": "Spell_ListType_Slow",
+                  "Style": 1,
+                  "__type": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "__type": "TooltipInstanceListElement"
+                }
+              ],
+              "__type": "TooltipInstanceList"
+            }
+          },
+          "__type": "TooltipInstanceSpell"
+        },
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 1,
+              "__type": "DrawablePositionLocator"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                290.0,
+                290.0,
+                290.0,
+                290.0,
+                290.0,
+                290.0
+              ],
+              "mValueType": 2,
+              "__type": "FloatPerSpellLevel"
+            },
+            "__type": "TargeterDefinitionRange"
+          },
+          {
+            "__type": "TargeterDefinitionRange"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "BotData": {
+      "DamageTag": 0,
+      "{6d548702}": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "__type": "{f3cbe7b2}"
+          }
+        ],
+        "__type": "GameCalculation"
+      },
+      "{ec17e271}": [
+        {
+          "EffectTag": 1,
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MoveSpeedMod",
+                "__type": "NamedDataValueCalculationPart"
+              }
+            ],
+            "__type": "GameCalculation"
+          },
+          "__type": "{b09016f6}"
+        }
+      ],
+      "__type": "BotsSpellData"
     },
     "__type": "SpellObject"
   },

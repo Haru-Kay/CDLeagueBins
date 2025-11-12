@@ -347,419 +347,6 @@
     "stoneName": "AsheFullStunCrystalArrow",
     "__type": "StatStoneData"
   },
-  "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility": {
-    "mRootSpell": "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawk",
-    "mChildSpells": [
-      "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawk",
-      "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawkCast"
-    ],
-    "mName": "AsheSpiritOfTheHawkAbility",
-    "__type": "AbilityObject"
-  },
-  "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawkCast": {
-    "ObjectName": "AsheSpiritOfTheHawkCast",
-    "mScriptName": "AsheSpiritOfTheHawkCast",
-    "mSpell": {
-      "mAffectsTypeFlags": 8192,
-      "mAlternateName": "AsheSpiritOfTheHawk",
-      "mEffectAmount": [
-        {
-          "value": [
-            0.0,
-            1.0,
-            2.0,
-            3.0,
-            4.0,
-            5.0,
-            6.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            10.0,
-            50.0,
-            90.0,
-            130.0,
-            170.0,
-            210.0,
-            250.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 0.75,
-      "mAnimationName": "Spell3",
-      "mImgIconName": [
-        "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_E.dds"
-      ],
-      "cooldownTime": [
-        60.0,
-        60.0,
-        60.0,
-        60.0,
-        60.0,
-        60.0,
-        60.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "mProjectTargetToCastRange": true,
-      "mSpellRevealsChampion": false,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castRadius": [
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 11.3100004196167,
-      "missileSpeed": 1500.0,
-      "bHaveHitBone": true,
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawk": {
-    "ObjectName": "AsheSpiritOfTheHawk",
-    "mScriptName": "AsheSpiritOfTheHawk",
-    "mSpell": {
-      "mAffectsTypeFlags": 16384,
-      "mAlternateName": "AsheSpiritOfTheHawk",
-      "mEffectAmount": [
-        {
-          "value": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            10.0,
-            50.0,
-            90.0,
-            130.0,
-            170.0,
-            210.0,
-            250.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "DataValues": [
-        {
-          "mName": "BaseCooldown",
-          "mValues": [
-            100.0,
-            90.0,
-            80.0,
-            70.0,
-            60.0,
-            50.0,
-            40.0
-          ],
-          "__type": "SpellDataValue"
-        }
-      ],
-      "mSpellCalculations": {
-        "ChargeCooldown": {
-          "mSimpleTooltipCalculationDisplay": 5,
-          "mExpandedTooltipCalculationDisplay": 5,
-          "tooltipOnly": true,
-          "mFormulaParts": [
-            {
-              "mPart1": {
-                "__type": "CooldownMultiplierCalculationPart"
-              },
-              "mPart2": {
-                "mDataValue": "BaseCooldown",
-                "__type": "NamedDataValueCalculationPart"
-              },
-              "__type": "ProductOfSubPartsCalculationPart"
-            }
-          ],
-          "__type": "GameCalculation"
-        }
-      },
-      "mCoefficient": 0.75,
-      "mAnimationName": "Spell3",
-      "mImgIconName": [
-        "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_E.dds"
-      ],
-      "cooldownTime": [
-        5.0,
-        5.0,
-        5.0,
-        5.0,
-        5.0,
-        5.0,
-        5.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mMaxAmmo": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "mAmmoRechargeTime": [
-        100.0,
-        90.0,
-        80.0,
-        70.0,
-        60.0,
-        50.0,
-        50.0
-      ],
-      "mCantCancelWhileWindingUp": true,
-      "mProjectTargetToCastRange": true,
-      "mSpellRevealsChampion": false,
-      "mUseMinimapTargeting": true,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castRadius": [
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875
-      ],
-      "castConeDistance": 100.0,
-      "luaOnMissileUpdateDistanceInterval": 100.0,
-      "mMissileSpec": {
-        "movementComponent": {
-          "mUseHeightOffsetAtEnd": true,
-          "mTracksTarget": false,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "head",
-          "mSpeed": 1400.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "BlendedLinearHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VerticalFacingFaceTarget"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnHit"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "{c195fba6}": true,
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "castFrame": 11.3100004196167,
-      "missileSpeed": 1400.0,
-      "mMissileEffectKey": "Ashe_E_mis",
-      "bHaveHitBone": true,
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "mClientData": {
-        "mTooltipData": {
-          "mObjectName": "AsheSpiritOfTheHawk",
-          "mFormat": "{d7c27163}",
-          "mLocKeys": {
-            "keyName": "Spell_AsheSpiritOfTheHawk_Name",
-            "keySummary": "Spell_AsheSpiritOfTheHawk_Summary",
-            "keyTooltip": "Spell_AsheSpiritOfTheHawk_Tooltip",
-            "keyCost": "Spell_Cost_NoCost"
-          },
-          "mLists": {
-            "LevelUp": {
-              "levelCount": 5,
-              "Elements": [
-                {
-                  "type": "AmmoRechargeTime",
-                  "__type": "TooltipInstanceListElement"
-                }
-              ],
-              "__type": "TooltipInstanceList"
-            }
-          },
-          "__type": "TooltipInstanceSpell"
-        },
-        "mTargeterDefinitions": [
-          {
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "__type": "TargeterDefinitionMinimap"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "{93b9a272}": {
-    "ObjectName": "AsheEVisionMarker",
-    "mScriptName": "AsheEVisionMarker",
-    "mSpell": {
-      "mImgIconName": [
-        "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_E.dds"
-      ],
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "Buff_AsheSpiritOfTheHawkAbility_Tooltip",
-      "mTooltipData": {
-        "mObjectName": "AsheEVisionMarker",
-        "mFormat": "{b34f999a}",
-        "mLocKeys": {
-          "keyName": "Spell_AsheSpiritOfTheHawk_Name",
-          "keyTooltip": "Buff_AsheSpiritOfTheHawkAbility_Tooltip"
-        },
-        "__type": "TooltipInstanceBuff"
-      },
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
   "Characters/Ashe/Spells/AsheQAbility": {
     "mRootSpell": "Characters/Ashe/Spells/AsheQAbility/AsheQ",
     "mChildSpells": [
@@ -771,6 +358,14 @@
       "Characters/Ashe/Spells/AsheQAbility/AsheQManager"
     ],
     "mName": "AsheQAbility",
+    "__type": "AbilityObject"
+  },
+  "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility": {
+    "mRootSpell": "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawk",
+    "mChildSpells": [
+      "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawk"
+    ],
+    "mName": "AsheSpiritOfTheHawkAbility",
     "__type": "AbilityObject"
   },
   "Characters/Ashe/Spells/AsheQAbility/AsheQCastReady": {
@@ -986,10 +581,10 @@
           "value": [
             25.0,
             25.0,
-            37.5,
-            50.0,
-            62.5,
-            75.0,
+            35.0,
+            45.0,
+            55.0,
+            65.0,
             75.0
           ],
           "__type": "SpellEffectAmount"
@@ -1386,7 +981,6 @@
     "mRootSpell": "Characters/Ashe/Spells/EnchantedCrystalArrowAbility/EnchantedCrystalArrow",
     "mChildSpells": [
       "Characters/Ashe/Spells/EnchantedCrystalArrowAbility/EnchantedCrystalArrow",
-      "Characters/Ashe/Spells/EnchantedCrystalArrowAbility/Enchanted_Crystal_Arrow",
       "Characters/Ashe/Spells/EnchantedCrystalArrowAbility/EnchantedCrystalArrowSlow"
     ],
     "mName": "EnchantedCrystalArrowAbility",
@@ -1399,15 +993,6 @@
     "mScriptName": "EnchantedCrystalArrowSlow",
     "mBuff": {
       "mDescription": "game_buff_tooltip_Chilled",
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Ashe/Spells/EnchantedCrystalArrowAbility/Enchanted_Crystal_Arrow": {
-    "ObjectName": "Enchanted_Crystal_Arrow",
-    "mScriptName": "Enchanted_Crystal_Arrow",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_Enchanted_Crystal_Arrow",
       "__type": "BuffData"
     },
     "__type": "SpellObject"
@@ -5403,6 +4988,288 @@
     },
     "__type": "SpellObject"
   },
+  "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawk": {
+    "ObjectName": "AsheSpiritOfTheHawk",
+    "mScriptName": "AsheSpiritOfTheHawk",
+    "mSpell": {
+      "mAffectsTypeFlags": 16384,
+      "mAlternateName": "AsheSpiritOfTheHawk",
+      "mEffectAmount": [
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            50.0,
+            90.0,
+            130.0,
+            170.0,
+            210.0,
+            250.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        }
+      ],
+      "DataValues": [
+        {
+          "mName": "BaseCooldown",
+          "mValues": [
+            100.0,
+            90.0,
+            80.0,
+            70.0,
+            60.0,
+            50.0,
+            40.0
+          ],
+          "__type": "SpellDataValue"
+        }
+      ],
+      "mSpellCalculations": {
+        "ChargeCooldown": {
+          "mSimpleTooltipCalculationDisplay": 5,
+          "mExpandedTooltipCalculationDisplay": 5,
+          "tooltipOnly": true,
+          "mFormulaParts": [
+            {
+              "mPart1": {
+                "__type": "CooldownMultiplierCalculationPart"
+              },
+              "mPart2": {
+                "mDataValue": "BaseCooldown",
+                "__type": "NamedDataValueCalculationPart"
+              },
+              "__type": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
+        }
+      },
+      "mCoefficient": 0.75,
+      "mAnimationName": "Spell3",
+      "mImgIconName": [
+        "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_E.dds"
+      ],
+      "cooldownTime": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mMaxAmmo": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mAmmoRechargeTime": [
+        100.0,
+        90.0,
+        80.0,
+        70.0,
+        60.0,
+        50.0,
+        50.0
+      ],
+      "mCantCancelWhileWindingUp": true,
+      "mProjectTargetToCastRange": true,
+      "mSpellRevealsChampion": false,
+      "mUseMinimapTargeting": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castConeDistance": 100.0,
+      "luaOnMissileUpdateDistanceInterval": 100.0,
+      "mMissileSpec": {
+        "movementComponent": {
+          "mUseHeightOffsetAtEnd": true,
+          "mTracksTarget": false,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "head",
+          "mSpeed": 1400.0,
+          "__type": "FixedSpeedMovement"
+        },
+        "heightSolver": {
+          "__type": "BlendedLinearHeightSolver"
+        },
+        "verticalFacing": {
+          "__type": "VerticalFacingFaceTarget"
+        },
+        "behaviors": [
+          {
+            "__type": "CastOnHit"
+          },
+          {
+            "__type": "DestroyOnMovementComplete"
+          }
+        ],
+        "{c195fba6}": true,
+        "__type": "MissileSpecification"
+      },
+      "mCastType": 3,
+      "castFrame": 11.3100004196167,
+      "missileSpeed": 1400.0,
+      "mMissileEffectKey": "Ashe_E_mis",
+      "bHaveHitBone": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "selectionPriority": 1,
+      "mTargetingTypeData": {
+        "__type": "Location"
+      },
+      "mClientData": {
+        "mTooltipData": {
+          "mObjectName": "AsheSpiritOfTheHawk",
+          "mFormat": "{d7c27163}",
+          "mLocKeys": {
+            "keyName": "Spell_AsheSpiritOfTheHawk_Name",
+            "keySummary": "Spell_AsheSpiritOfTheHawk_Summary",
+            "keyTooltip": "Spell_AsheSpiritOfTheHawk_Tooltip",
+            "keyCost": "Spell_Cost_NoCost"
+          },
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 5,
+              "Elements": [
+                {
+                  "type": "AmmoRechargeTime",
+                  "__type": "TooltipInstanceListElement"
+                }
+              ],
+              "__type": "TooltipInstanceList"
+            }
+          },
+          "__type": "TooltipInstanceSpell"
+        },
+        "mTargeterDefinitions": [
+          {
+            "__type": "TargeterDefinitionRange"
+          },
+          {
+            "__type": "TargeterDefinitionMinimap"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
+  },
+  "{93b9a272}": {
+    "ObjectName": "AsheEVisionMarker",
+    "mScriptName": "AsheEVisionMarker",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_E.dds"
+      ],
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "Buff_AsheSpiritOfTheHawkAbility_Tooltip",
+      "mTooltipData": {
+        "mObjectName": "AsheEVisionMarker",
+        "mFormat": "{b34f999a}",
+        "mLocKeys": {
+          "keyName": "Spell_AsheSpiritOfTheHawk_Name",
+          "keyTooltip": "Buff_AsheSpiritOfTheHawkAbility_Tooltip"
+        },
+        "__type": "TooltipInstanceBuff"
+      },
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
   "Characters/Ashe/Spells/AshePassiveAbility": {
     "mRootSpell": "Characters/Ashe/Spells/AshePassiveAbility/AshePassive",
     "mChildSpells": [
@@ -5516,8 +5383,24 @@
           ],
           "mDisplayAsPercent": true,
           "__type": "GameCalculation"
+        },
+        "{da9201cc}": {
+          "mMultiplier": {
+            "mStat": 2,
+            "mCoefficient": 1.0,
+            "__type": "StatByCoefficientCalculationPart"
+          },
+          "mModifiedGameCalculation": "DamageBonus",
+          "__type": "GameCalculationModified"
         }
       },
+      "{fe87f21e}": [
+        {
+          "{6166b756}": "{da9201cc}",
+          "{7a9d64ea}": true,
+          "__type": "{fe87f21e}"
+        }
+      ],
       "mImgIconName": [
         "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_P.dds"
       ],

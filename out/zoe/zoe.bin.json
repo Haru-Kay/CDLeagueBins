@@ -14,12 +14,10 @@
       "Characters/Zoe/Spells/ZoeEAbility/ZoeEDistanceSolver3",
       "Characters/Zoe/Spells/ZoeEAbility/ZoeEDistanceSolver4",
       "Characters/Zoe/Spells/ZoeEAbility/ZoeEMis",
-      "Characters/Zoe/Spells/ZoeEAbility/ZoeEMis2",
       "Characters/Zoe/Spells/ZoeEAbility/ZoeEMisAudio",
       "Characters/Zoe/Spells/ZoeEAbility/ZoeESleepCountdown",
       "Characters/Zoe/Spells/ZoeEAbility/ZoeESleepCountdownSlow",
       "Characters/Zoe/Spells/ZoeEAbility/ZoeESleepStun",
-      "Characters/Zoe/Spells/ZoeEAbility/ZoeEv8",
       "Characters/Zoe/Spells/ZoeEAbility/ZoeWPassive"
     ],
     "mName": "ZoeEAbility",
@@ -474,444 +472,6 @@
         0
       ],
       "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zoe/Spells/ZoeEAbility/ZoeEv8": {
-    "ObjectName": "ZoeEv8",
-    "mScriptName": "ZoeEv8",
-    "mSpell": {
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "ZoeEv8",
-      "mEffectAmount": [
-        {
-          "value": [
-            0.0,
-            60.0,
-            90.0,
-            120.0,
-            150.0,
-            180.0,
-            0.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.0,
-            2.5,
-            2.75,
-            3.0,
-            3.25,
-            3.5,
-            0.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            5.0,
-            5.0,
-            15.0,
-            25.0,
-            35.0,
-            45.0,
-            55.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 0.3499999940395355,
-      "mAnimationName": "Spell3",
-      "mImgIconName": [
-        "ASSETS/Characters/Zoe/HUD/Icons2D/Zoe_E.dds"
-      ],
-      "mCastTime": 0.25,
-      "cooldownTime": [
-        16.0,
-        16.0,
-        15.5,
-        15.0,
-        14.5,
-        14.0,
-        13.5
-      ],
-      "delayCastOffsetPercent": -1.0,
-      "delayTotalTimePercent": -1.0,
-      "mCantCancelWhileWindingUp": true,
-      "useAnimatorFramerate": true,
-      "mIgnoreRangeCheck": true,
-      "mMinimapIconDisplayFlag": 0,
-      "castRange": [
-        875.0,
-        875.0,
-        875.0,
-        875.0,
-        875.0,
-        875.0,
-        875.0
-      ],
-      "castRangeDisplayOverride": [
-        800.0,
-        800.0,
-        800.0,
-        800.0,
-        800.0,
-        800.0,
-        800.0
-      ],
-      "castRadius": [
-        250.0,
-        250.0,
-        250.0,
-        250.0,
-        250.0,
-        250.0,
-        250.0
-      ],
-      "castConeDistance": 100.0,
-      "luaOnMissileUpdateDistanceInterval": 51.0,
-      "mMissileSpec": {
-        "mMissileWidth": 40.0,
-        "movementComponent": {
-          "mUseHeightOffsetAtEnd": true,
-          "mTracksTarget": false,
-          "mStartBoneName": "Buffbone_Glb_Head_Loc",
-          "mProjectTargetToCastRange": true,
-          "mSpeed": 2100.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "FollowTerrainHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VerticalFacingFaceTarget"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnHit"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "castFrame": 7.53000020980835,
-      "missileSpeed": 2100.0,
-      "mLineWidth": 40.0,
-      "mHitEffectOrientType": 2,
-      "mHitEffectKey": "Zoe_E_Tar",
-      "bHaveHitBone": true,
-      "mHitBoneName": "root",
-      "mana": [
-        80.0,
-        80.0,
-        80.0,
-        80.0,
-        80.0,
-        80.0
-      ],
-      "selectionPriority": 2,
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "hideWithLineIndicator": true,
-            "useCasterBoundingBox": false,
-            "overrideBaseRange": {
-              "mPerLevelValues": [
-                975.0,
-                975.0,
-                975.0,
-                975.0,
-                975.0,
-                975.0
-              ],
-              "mValueType": 1,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "__type": "DrawablePositionLocator"
-            },
-            "lineWidth": {
-              "mPerLevelValues": [
-                70.0,
-                70.0,
-                70.0,
-                70.0,
-                70.0,
-                70.0
-              ],
-              "mValueType": 2,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionLine"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zoe/Spells/ZoeEAbility/ZoeEMis2": {
-    "ObjectName": "ZoeEMis2",
-    "mScriptName": "ZoeEMis2",
-    "mSpell": {
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "ZoeE",
-      "mEffectAmount": [
-        {
-          "value": [
-            60.0,
-            60.0,
-            100.0,
-            140.0,
-            180.0,
-            220.0,
-            260.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.10000000149011612,
-            0.10000000149011612,
-            0.15000000596046448,
-            0.20000000298023224,
-            0.25,
-            0.30000001192092896,
-            0.3499999940395355
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            5.0,
-            5.0,
-            15.0,
-            25.0,
-            35.0,
-            45.0,
-            55.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.30000001192092896,
-            0.30000001192092896,
-            0.4000000059604645,
-            0.5,
-            0.6000000238418579,
-            0.699999988079071,
-            0.800000011920929
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            60.0,
-            60.0,
-            100.0,
-            140.0,
-            180.0,
-            220.0,
-            260.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.4000000059604645,
-            0.4000000059604645,
-            0.4000000059604645,
-            0.4000000059604645,
-            0.4000000059604645,
-            0.4000000059604645,
-            0.4000000059604645
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            1.2999999523162842,
-            1.2999999523162842,
-            1.2999999523162842,
-            1.2999999523162842,
-            1.2999999523162842,
-            1.2999999523162842,
-            1.2999999523162842
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            2.25,
-            2.25,
-            2.25,
-            2.25,
-            2.25,
-            2.25,
-            2.25
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 0.4000000059604645,
-      "mCoefficient2": 0.4000000059604645,
-      "mAnimationName": "Spell3",
-      "mImgIconName": [
-        "ASSETS/Characters/Zoe/HUD/Icons2D/Zoe_E.dds"
-      ],
-      "mCastTime": 0.30000001192092896,
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -1.0,
-      "delayTotalTimePercent": -1.0,
-      "mCantCancelWhileWindingUp": true,
-      "mProjectTargetToCastRange": true,
-      "alwaysSnapFacing": true,
-      "useAnimatorFramerate": true,
-      "mIgnoreRangeCheck": true,
-      "mMinimapIconDisplayFlag": 0,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castRangeDisplayOverride": [
-        800.0,
-        800.0,
-        800.0,
-        800.0,
-        800.0,
-        800.0,
-        800.0
-      ],
-      "castRadius": [
-        250.0,
-        250.0,
-        250.0,
-        250.0,
-        250.0,
-        250.0,
-        250.0
-      ],
-      "castConeDistance": 100.0,
-      "luaOnMissileUpdateDistanceInterval": 51.0,
-      "mMissileSpec": {
-        "movementComponent": {
-          "mStartBoneName": "Glb_Buffbone_Center_Loc",
-          "mSpeed": 1850.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "GravityHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VeritcalFacingMatchVelocity"
-        },
-        "behaviors": [
-          {
-            "__type": "DestroyOnMovementComplete"
-          },
-          {
-            "__type": "DestroyOnHit"
-          },
-          {
-            "__type": "CastOnHit"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "castFrame": 7.53000020980835,
-      "missileSpeed": 1700.0,
-      "mMissileEffectKey": "Zoe_E_mis",
-      "mLineWidth": 40.0,
-      "mHitEffectOrientType": 2,
-      "mHitEffectKey": "Zoe_E_Tar",
-      "bHaveHitBone": true,
-      "mHitBoneName": "root",
-      "selectionPriority": 2,
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
   },
@@ -5717,478 +5277,6 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Zoe/Spells/ZoePassiveAbility": {
-    "mRootSpell": "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassive",
-    "mChildSpells": [
-      "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassive",
-      "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassiveSheenBuff",
-      "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassiveYoYoAttack",
-      "Characters/Zoe/Spells/ZoePassiveAbility/ZoePYoYoAttack2"
-    ],
-    "mName": "ZoePassiveAbility",
-    "mType": 3,
-    "__type": "AbilityObject"
-  },
-  "Characters/Zoe/Spells/ZoePassiveAbility/ZoePYoYoAttack2": {
-    "ObjectName": "ZoePYoYoAttack2",
-    "mScriptName": "ZoePYoYoAttack2",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 6155,
-      "mAffectsStatusFlags": 8,
-      "mAlternateName": "ZoeEStun",
-      "mEffectAmount": [
-        {
-          "value": [
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            0.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            5.0,
-            5.0,
-            10.0,
-            15.0,
-            20.0,
-            25.0,
-            25.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mAnimationName": "Spell2",
-      "mImgIconName": [
-        "ZoeE.dds"
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -1.0,
-      "delayTotalTimePercent": -1.0,
-      "mCantCancelWhileWindingUp": true,
-      "mChannelIsInterruptedByDisables": false,
-      "mShowChannelBar": false,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castRadius": [
-        710.0,
-        710.0,
-        710.0,
-        710.0,
-        710.0,
-        710.0,
-        710.0
-      ],
-      "castConeDistance": 100.0,
-      "luaOnMissileUpdateDistanceInterval": 51.0,
-      "mMissileSpec": {
-        "movementComponent": {
-          "mTargetHeightAugment": 100.0,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "neck",
-          "mSpeed": 1200.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "__type": "VeritcalFacingMatchVelocity"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnMovementComplete"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 1,
-      "castFrame": 8.699999809265137,
-      "missileSpeed": 1200.0,
-      "selectionPriority": 1,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassive": {
-    "ObjectName": "ZoePassive",
-    "mScriptName": "ZoePassive",
-    "mSpell": {
-      "mAlternateName": "ZoePassive",
-      "mEffectAmount": [
-        {
-          "value": [
-            20.0,
-            20.0,
-            20.0,
-            20.0,
-            20.0,
-            20.0,
-            20.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            20.0,
-            20.0,
-            20.0,
-            20.0,
-            20.0,
-            20.0,
-            20.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            40.0,
-            40.0,
-            40.0,
-            40.0,
-            40.0,
-            40.0,
-            40.0
-          ],
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "DataValues": [
-        {
-          "mName": "APRatio",
-          "mValues": [
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224
-          ],
-          "__type": "SpellDataValue"
-        }
-      ],
-      "DataValuesModeOverride": {
-        "cherry": {
-          "SpellDataValues": [
-            {
-              "mName": "APRatio",
-              "mValues": [
-                0.3499999940395355,
-                0.3499999940395355,
-                0.3499999940395355,
-                0.3499999940395355,
-                0.3499999940395355,
-                0.3499999940395355,
-                0.3499999940395355
-              ],
-              "__type": "SpellDataValue"
-            }
-          ],
-          "__type": "SpellDataValueVector"
-        }
-      },
-      "mSpellCalculations": {
-        "PassiveDamage": {
-          "mFormulaParts": [
-            {
-              "mLevel1Value": 16.0,
-              "mInitialBonusPerLevel": 4.0,
-              "mBreakpoints": [
-                {
-                  "mLevel": 7,
-                  "mBonusPerLevelAtAndAfter": 6.0,
-                  "__type": "Breakpoint"
-                },
-                {
-                  "mLevel": 12,
-                  "mBonusPerLevelAtAndAfter": 8.0,
-                  "__type": "Breakpoint"
-                },
-                {
-                  "mLevel": 15,
-                  "mBonusPerLevelAtAndAfter": 10.0,
-                  "__type": "Breakpoint"
-                }
-              ],
-              "__type": "ByCharLevelBreakpointsCalculationPart"
-            },
-            {
-              "mDataValue": "APRatio",
-              "__type": "StatByNamedDataValueCalculationPart"
-            }
-          ],
-          "__type": "GameCalculation"
-        }
-      },
-      "mCoefficient": 0.20000000298023224,
-      "mImgIconName": [
-        "ASSETS/Characters/Zoe/HUD/Icons2D/Zoe_P.dds"
-      ],
-      "castRange": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "mTargetingTypeData": {
-        "__type": "Self"
-      },
-      "mClientData": {
-        "mTooltipData": {
-          "mObjectName": "ZoePassive",
-          "mFormat": "{476ec0b8}",
-          "mLocKeys": {
-            "keyName": "game_spell_displayname_ZoePassive",
-            "keyTooltip": "Spell_ZoePassive_Tooltip",
-            "keyTooltipExtended": "Spell_ZoePassive_TooltipExtended"
-          },
-          "__type": "TooltipInstanceSpell"
-        },
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_ZoePassive",
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassiveYoYoAttack": {
-    "ObjectName": "ZoePassiveYoYoAttack",
-    "mScriptName": "ZoePassiveYoYoAttack",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 5327,
-      "mAlternateName": "AsheBasicAttack",
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.08070000261068344,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castRangeDisplayOverride": [
-        600.0,
-        600.0,
-        600.0,
-        600.0,
-        600.0,
-        600.0,
-        600.0
-      ],
-      "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "castConeDistance": 100.0,
-      "mMissileSpec": {
-        "movementComponent": {
-          "mTargetHeightAugment": 100.0,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "R_hand",
-          "mSpeed": 2500.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "__type": "VeritcalFacingMatchVelocity"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnMovementComplete"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 1,
-      "castFrame": 9.0,
-      "missileSpeed": 2500.0,
-      "mMissileEffectName": "Zoe_Temp_YoYo_Heimerdinger_Base_E_Mis.troy\n",
-      "bHaveHitBone": true,
-      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassiveSheenBuff": {
-    "ObjectName": "ZoePassiveSheenBuff",
-    "mScriptName": "ZoePassiveSheenBuff",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_ZoePassiveSheenBuff",
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
   "Characters/Zoe/Spells/ZoeQAbility": {
     "mRootSpell": "Characters/Zoe/Spells/ZoeQAbility/ZoeQ",
     "mChildSpells": [
@@ -7954,6 +7042,248 @@
     },
     "__type": "SpellObject"
   },
+  "Characters/Zoe/Spells/ZoePassiveAbility": {
+    "mRootSpell": "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassive",
+    "mChildSpells": [
+      "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassive",
+      "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassiveSheenBuff"
+    ],
+    "mName": "ZoePassiveAbility",
+    "mType": 3,
+    "__type": "AbilityObject"
+  },
+  "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassive": {
+    "ObjectName": "ZoePassive",
+    "mScriptName": "ZoePassive",
+    "mSpell": {
+      "mAlternateName": "ZoePassive",
+      "mEffectAmount": [
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "__type": "SpellEffectAmount"
+        }
+      ],
+      "DataValues": [
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "__type": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355
+              ],
+              "__type": "SpellDataValue"
+            }
+          ],
+          "__type": "SpellDataValueVector"
+        }
+      },
+      "mSpellCalculations": {
+        "PassiveDamage": {
+          "mFormulaParts": [
+            {
+              "mLevel1Value": 16.0,
+              "mInitialBonusPerLevel": 4.0,
+              "mBreakpoints": [
+                {
+                  "mLevel": 7,
+                  "mBonusPerLevelAtAndAfter": 6.0,
+                  "__type": "Breakpoint"
+                },
+                {
+                  "mLevel": 12,
+                  "mBonusPerLevelAtAndAfter": 8.0,
+                  "__type": "Breakpoint"
+                },
+                {
+                  "mLevel": 15,
+                  "mBonusPerLevelAtAndAfter": 10.0,
+                  "__type": "Breakpoint"
+                }
+              ],
+              "__type": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "__type": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
+        }
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mImgIconName": [
+        "ASSETS/Characters/Zoe/HUD/Icons2D/Zoe_P.dds"
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mTargetingTypeData": {
+        "__type": "Self"
+      },
+      "mClientData": {
+        "mTooltipData": {
+          "mObjectName": "ZoePassive",
+          "mFormat": "{476ec0b8}",
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_ZoePassive",
+            "keyTooltip": "Spell_ZoePassive_Tooltip",
+            "keyTooltipExtended": "Spell_ZoePassive_TooltipExtended"
+          },
+          "__type": "TooltipInstanceSpell"
+        },
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZoePassive",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Zoe/Spells/ZoePassiveAbility/ZoePassiveSheenBuff": {
+    "ObjectName": "ZoePassiveSheenBuff",
+    "mScriptName": "ZoePassiveSheenBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZoePassiveSheenBuff",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
   "Characters/Zoe/Spells/ZoeBasicAttackSpecial2": {
     "ObjectName": "ZoeBasicAttackSpecial2",
     "mScriptName": "ZoeBasicAttackSpecial2",
@@ -8411,8 +7741,7 @@
     "mRootSpell": "Characters/Zoe/Spells/ZoeRAbility/ZoeR",
     "mChildSpells": [
       "Characters/Zoe/Spells/ZoeRAbility/ZoeR",
-      "Characters/Zoe/Spells/ZoeRAbility/ZoeRVFXTrail",
-      "Characters/Zoe/Spells/ZoeRAbility/ZoeRv7Atk"
+      "Characters/Zoe/Spells/ZoeRAbility/ZoeRVFXTrail"
     ],
     "mName": "ZoeRAbility",
     "mType": 2,
@@ -8758,82 +8087,6 @@
         }
       ],
       "__type": "BotsSpellData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zoe/Spells/ZoeRAbility/ZoeRv7Atk": {
-    "ObjectName": "ZoeRv7Atk",
-    "mScriptName": "ZoeRv7Atk",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "ZoeRv7",
-      "mAnimationName": "None",
-      "mImgIconName": [
-        "Annie_Disintegrate.dds"
-      ],
-      "mCastTime": 0.25,
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castRadius": [
-        710.0,
-        710.0,
-        710.0,
-        710.0,
-        710.0,
-        710.0,
-        710.0
-      ],
-      "castConeDistance": 100.0,
-      "luaOnMissileUpdateDistanceInterval": 51.0,
-      "mMissileSpec": {
-        "movementComponent": {
-          "mTargetHeightAugment": 100.0,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "spine",
-          "mSpeed": 1400.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "__type": "VeritcalFacingMatchVelocity"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnMovementComplete"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 1,
-      "castFrame": 7.5,
-      "missileSpeed": 1400.0,
-      "mMissileEffectKey": "Zoe_BA_mis",
-      "bHaveHitBone": true,
-      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-      "selectionPriority": 1,
-      "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
   },

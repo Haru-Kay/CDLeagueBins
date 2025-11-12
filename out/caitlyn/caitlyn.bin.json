@@ -256,12 +256,12 @@
                     "mBreakpoints": [
                       {
                         "mLevel": 7,
-                        "mAdditionalBonusAtThisLevel": 0.30000001192092896,
+                        "mAdditionalBonusAtThisLevel": 0.20000000298023224,
                         "__type": "Breakpoint"
                       },
                       {
                         "mLevel": 13,
-                        "mAdditionalBonusAtThisLevel": 0.30000001192092896,
+                        "mAdditionalBonusAtThisLevel": 0.20000000298023224,
                         "__type": "Breakpoint"
                       }
                     ],
@@ -308,12 +308,12 @@
                       "mBreakpoints": [
                         {
                           "mLevel": 7,
-                          "mAdditionalBonusAtThisLevel": 0.25,
+                          "mAdditionalBonusAtThisLevel": 0.20000000298023224,
                           "__type": "Breakpoint"
                         },
                         {
                           "mLevel": 13,
-                          "mAdditionalBonusAtThisLevel": 0.25,
+                          "mAdditionalBonusAtThisLevel": 0.20000000298023224,
                           "__type": "Breakpoint"
                         }
                       ],
@@ -330,6 +330,8 @@
           "__type": "GameCalculation"
         },
         "BrushAttackTotal": {
+          "mSimpleTooltipCalculationDisplay": 5,
+          "mExpandedTooltipCalculationDisplay": 5,
           "mFormulaParts": [
             {
               "mSubparts": [
@@ -346,8 +348,49 @@
             }
           ],
           "__type": "GameCalculation"
+        },
+        "{42962485}": {
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mSpellCalculationKey": "HeadShotMinionBonusDamage",
+                  "__type": "{f3cbe7b2}"
+                },
+                {
+                  "mSpellCalculationKey": "HeadShotBonusDamage",
+                  "__type": "{f3cbe7b2}"
+                }
+              ],
+              "__type": "SumOfSubPartsCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
         }
       },
+      "{fe87f21e}": [
+        {
+          "{6166b756}": "{42962485}",
+          "{01987941}": [
+            {
+              "mSuccessesRequired": 1,
+              "mSubRequirements": [
+                {
+                  "{d6b6109c}": "Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveDriver",
+                  "{7b66f15d}": false,
+                  "__type": "HasBuffCastRequirement"
+                },
+                {
+                  "{d6b6109c}": "Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveRangeMarker",
+                  "__type": "HasBuffCastRequirement"
+                }
+              ],
+              "__type": "HasAtleastNSubRequirementsCastRequirement"
+            }
+          ],
+          "__type": "{fe87f21e}"
+        }
+      ],
       "mAnimationName": "",
       "mImgIconName": [
         "ASSETS/Characters/Caitlyn/HUD/Icons2D/CaitlynP.dds",

@@ -1198,666 +1198,6 @@
     "mType": 2,
     "__type": "AbilityObject"
   },
-  "Characters/Karma/Spells/KarmaSpiritBindAbility": {
-    "mRootSpell": "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBind",
-    "mChildSpells": [
-      "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBind",
-      "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBindRoot",
-      "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBindSlow"
-    ],
-    "mName": "KarmaSpiritBindAbility",
-    "AbilityTraits": 2048,
-    "__type": "AbilityObject"
-  },
-  "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBindSlow": {
-    "ObjectName": "KarmaSpiritBindSlow",
-    "mScriptName": "KarmaSpiritBindSlow",
-    "mSpell": {
-      "mAffectsTypeFlags": 6154,
-      "mEffectAmount": [
-        {
-          "value": [
-            40.0,
-            85.0,
-            130.0,
-            175.0,
-            225.0,
-            275.0,
-            320.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            10.0,
-            20.0,
-            30.0,
-            40.0,
-            50.0,
-            60.0,
-            70.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            25.0,
-            25.0,
-            25.0,
-            25.0,
-            25.0,
-            25.0,
-            25.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 1.0,
-      "mAnimationName": "Spell3",
-      "mImgIconName": [
-        "ASSETS/Characters/Karma/HUD/Icons2D/Karma_W2.dds"
-      ],
-      "cooldownTime": [
-        6.0,
-        6.0,
-        6.0,
-        6.0,
-        6.0,
-        6.0,
-        6.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "bHaveHitEffect": true,
-      "castRange": [
-        550.0,
-        550.0,
-        550.0,
-        550.0,
-        550.0,
-        550.0,
-        550.0
-      ],
-      "castConeDistance": 100.0,
-      "mMissileSpec": {
-        "movementComponent": {
-          "mTargetHeightAugment": 100.0,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "rider_L_hand",
-          "mSpeed": 1000.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "__type": "VeritcalFacingMatchVelocity"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnMovementComplete"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 1,
-      "castFrame": 15.444999694824219,
-      "missileSpeed": 1000.0,
-      "mMissileEffectName": "yeti_iceBlast_mis.troy",
-      "mHitEffectName": "yeti_iceBlast_tar.troy",
-      "bHaveHitBone": true,
-      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-      "mana": [
-        75.0,
-        85.0,
-        95.0,
-        105.0,
-        115.0,
-        125.0
-      ],
-      "selectionPriority": 1,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_KarmaMantraSBSlow",
-      "__type": "BuffData"
-    },
-    "BotData": {
-      "DamageTag": 1,
-      "{6d548702}": {
-        "mFormulaParts": [
-          {
-            "mNumber": 150.0,
-            "__type": "NumberCalculationPart"
-          }
-        ],
-        "__type": "GameCalculation"
-      },
-      "{ec17e271}": [
-        {
-          "EffectTag": 32,
-          "EffectCalculation": {
-            "mFormulaParts": [
-              {
-                "mNumber": 0.20000000298023224,
-                "__type": "NumberCalculationPart"
-              }
-            ],
-            "__type": "GameCalculation"
-          },
-          "__type": "{b09016f6}"
-        },
-        {
-          "EffectTag": 4096,
-          "EffectCalculation": {
-            "mFormulaParts": [
-              {
-                "mNumber": 1.0,
-                "__type": "NumberCalculationPart"
-              }
-            ],
-            "__type": "GameCalculation"
-          },
-          "__type": "{b09016f6}"
-        }
-      ],
-      "__type": "BotsSpellData"
-    },
-    "__type": "SpellObject"
-  },
-  "{88a75e39}": {
-    "ObjectName": "KarmaWBeamMantra",
-    "mScriptName": "KarmaWBeamMantra",
-    "__type": "SpellObject"
-  },
-  "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBind": {
-    "ObjectName": "KarmaSpiritBind",
-    "mScriptName": "KarmaSpiritBind",
-    "mSpell": {
-      "mAffectsTypeFlags": 6146,
-      "mAlternateName": "KarmaSpiritBind",
-      "mSpellTags": [
-        "Trait_ImmobilizingCCSpell"
-      ],
-      "DataValues": [
-        {
-          "mName": "BaseDamage",
-          "mValues": [
-            15.0,
-            40.0,
-            65.0,
-            90.0,
-            115.0,
-            140.0,
-            165.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "APRatio",
-          "mValues": [
-            0.44999998807907104,
-            0.44999998807907104,
-            0.44999998807907104,
-            0.44999998807907104,
-            0.44999998807907104,
-            0.44999998807907104,
-            0.44999998807907104
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "RootDuration",
-          "mValues": [
-            1.5,
-            1.600000023841858,
-            1.7000000476837158,
-            1.7999999523162842,
-            1.899999976158142,
-            2.0,
-            2.0999999046325684
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "TetherDuration",
-          "mValues": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "LeashBreakRange",
-          "mValues": [
-            825.0,
-            825.0,
-            825.0,
-            825.0,
-            825.0,
-            825.0,
-            825.0
-          ],
-          "__type": "SpellDataValue"
-        }
-      ],
-      "mSpellCalculations": {
-        "InitialDamage": {
-          "mFormulaParts": [
-            {
-              "mDataValue": "BaseDamage",
-              "__type": "NamedDataValueCalculationPart"
-            },
-            {
-              "mDataValue": "APRatio",
-              "__type": "StatByNamedDataValueCalculationPart"
-            }
-          ],
-          "__type": "GameCalculation"
-        }
-      },
-      "mAnimationName": "Spell2",
-      "mImgIconName": [
-        "ASSETS/Characters/Karma/HUD/Icons2D/Karma_W1.dds",
-        "ASSETS/Characters/Karma/HUD/Icons2D/Karma_W2.dds"
-      ],
-      "mCastTime": 0.25,
-      "cooldownTime": [
-        12.0,
-        12.0,
-        12.0,
-        12.0,
-        12.0,
-        12.0,
-        12.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "mSpellRevealsChampion": false,
-      "useAnimatorFramerate": true,
-      "bIsToggleSpell": true,
-      "castRange": [
-        675.0,
-        675.0,
-        675.0,
-        675.0,
-        675.0,
-        675.0,
-        675.0
-      ],
-      "castRadius": [
-        175.0,
-        175.0,
-        175.0,
-        175.0,
-        175.0,
-        175.0,
-        175.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 7.5,
-      "missileSpeed": 2200.0,
-      "mLineWidth": 60.0,
-      "bHaveHitBone": true,
-      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
-      "mFloatVarsDecimals": [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "mana": [
-        50.0,
-        55.0,
-        60.0,
-        65.0,
-        70.0,
-        75.0
-      ],
-      "selectionPriority": 2,
-      "mCastingBreaksStealth": true,
-      "mClientData": {
-        "mTooltipData": {
-          "mObjectName": "KarmaSpiritBind",
-          "mFormat": "{d7c27163}",
-          "mLocKeys": {
-            "keyName": "Spell_KarmaSpiritBind_Name",
-            "keySummary": "Spell_KarmaSpiritBind_Summary",
-            "keyTooltip": "Spell_KarmaSpiritBind_Tooltip",
-            "keyTooltipExtended": "Spell_KarmaSpiritBind_TooltipExtended"
-          },
-          "mLists": {
-            "LevelUp": {
-              "levelCount": 5,
-              "Elements": [
-                {
-                  "type": "BaseDamage",
-                  "typeIndex": 1,
-                  "nameOverride": "Spell_ListType_Damage",
-                  "__type": "TooltipInstanceListElement"
-                },
-                {
-                  "type": "RootDuration",
-                  "typeIndex": 2,
-                  "nameOverride": "Spell_ListType_RootDuration",
-                  "__type": "TooltipInstanceListElement"
-                },
-                {
-                  "type": "Cost",
-                  "__type": "TooltipInstanceListElement"
-                }
-              ],
-              "__type": "TooltipInstanceList"
-            }
-          },
-          "__type": "TooltipInstanceSpell"
-        },
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_KarmaSpiritBind",
-      "PersistentEffectConditions": [
-        {
-          "SourceCondition": {
-            "Spell": "{cbe079fc}",
-            "__type": "HasBuffDynamicMaterialBoolDriver"
-          },
-          "ForceRenderVfx": true,
-          "PersistentVfxs": [
-            {
-              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
-              "targetBoneName": "L_BUFFBONE_GLB_HAND_LOC",
-              "effectKey": "Karma_W_beam",
-              "__type": "PersistentVfxData"
-            }
-          ],
-          "__type": "PersistentEffectConditionData"
-        },
-        {
-          "SourceCondition": {
-            "Spell": "{88a75e39}",
-            "__type": "HasBuffDynamicMaterialBoolDriver"
-          },
-          "ForceRenderVfx": true,
-          "PersistentVfxs": [
-            {
-              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
-              "targetBoneName": "L_BUFFBONE_GLB_HAND_LOC",
-              "effectKey": "Karma_W_beam_R",
-              "__type": "PersistentVfxData"
-            }
-          ],
-          "__type": "PersistentEffectConditionData"
-        },
-        {
-          "SourceCondition": {
-            "mDrivers": [
-              {
-                "Spell": "{cbe079fc}",
-                "__type": "HasBuffDynamicMaterialBoolDriver"
-              },
-              {
-                "championName": "Characters/Karma",
-                "__type": "{635d04b7}"
-              },
-              {
-                "mDrivers": [
-                  {
-                    "SkinID": 54,
-                    "__type": "{9bc366ca}"
-                  },
-                  {
-                    "SkinID": 70,
-                    "__type": "{9bc366ca}"
-                  }
-                ],
-                "__type": "OneTrueMaterialDriver"
-              }
-            ],
-            "__type": "AllTrueMaterialDriver"
-          },
-          "ForceRenderVfx": true,
-          "PersistentVfxs": [
-            {
-              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
-              "targetBoneName": "CSTM_Tether_Buffbone_Loc",
-              "effectKey": "{9539a1b6}",
-              "__type": "PersistentVfxData"
-            }
-          ],
-          "__type": "PersistentEffectConditionData"
-        },
-        {
-          "SourceCondition": {
-            "mDrivers": [
-              {
-                "Spell": "{88a75e39}",
-                "__type": "HasBuffDynamicMaterialBoolDriver"
-              },
-              {
-                "championName": "Characters/Karma",
-                "__type": "{635d04b7}"
-              },
-              {
-                "mDrivers": [
-                  {
-                    "SkinID": 54,
-                    "__type": "{9bc366ca}"
-                  },
-                  {
-                    "SkinID": 70,
-                    "__type": "{9bc366ca}"
-                  }
-                ],
-                "__type": "OneTrueMaterialDriver"
-              }
-            ],
-            "__type": "AllTrueMaterialDriver"
-          },
-          "ForceRenderVfx": true,
-          "PersistentVfxs": [
-            {
-              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
-              "targetBoneName": "CSTM_Tether_Buffbone_Loc",
-              "effectKey": "{739e563b}",
-              "__type": "PersistentVfxData"
-            }
-          ],
-          "__type": "PersistentEffectConditionData"
-        },
-        {
-          "SourceCondition": {
-            "mDrivers": [
-              {
-                "Spell": "{cbe079fc}",
-                "__type": "HasBuffDynamicMaterialBoolDriver"
-              },
-              {
-                "mDrivers": [
-                  {
-                    "championName": "Characters/Sylas",
-                    "__type": "{635d04b7}"
-                  },
-                  {
-                    "championName": "Characters/Viego",
-                    "__type": "{635d04b7}"
-                  }
-                ],
-                "__type": "OneTrueMaterialDriver"
-              }
-            ],
-            "__type": "AllTrueMaterialDriver"
-          },
-          "ForceRenderVfx": true,
-          "PersistentVfxs": [
-            {
-              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
-              "targetBoneName": "L_BUFFBONE_GLB_HAND_LOC",
-              "effectKey": "{9539a1b6}",
-              "__type": "PersistentVfxData"
-            }
-          ],
-          "__type": "PersistentEffectConditionData"
-        },
-        {
-          "SourceCondition": {
-            "mDrivers": [
-              {
-                "Spell": "{88a75e39}",
-                "__type": "HasBuffDynamicMaterialBoolDriver"
-              },
-              {
-                "mDrivers": [
-                  {
-                    "championName": "Characters/Sylas",
-                    "__type": "{635d04b7}"
-                  },
-                  {
-                    "championName": "Characters/Viego",
-                    "__type": "{635d04b7}"
-                  }
-                ],
-                "__type": "OneTrueMaterialDriver"
-              }
-            ],
-            "__type": "AllTrueMaterialDriver"
-          },
-          "ForceRenderVfx": true,
-          "PersistentVfxs": [
-            {
-              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
-              "targetBoneName": "L_BUFFBONE_GLB_HAND_LOC",
-              "effectKey": "{739e563b}",
-              "__type": "PersistentVfxData"
-            }
-          ],
-          "__type": "PersistentEffectConditionData"
-        }
-      ],
-      "__type": "BuffData"
-    },
-    "BotData": {
-      "DamageTag": 1,
-      "{6d548702}": {
-        "mFormulaParts": [
-          {
-            "mSpellCalculationKey": "InitialDamage",
-            "__type": "{f3cbe7b2}"
-          }
-        ],
-        "__type": "GameCalculation"
-      },
-      "{ec17e271}": [
-        {
-          "EffectTag": 32,
-          "EffectCalculation": {
-            "mFormulaParts": [
-              {
-                "mEffectIndex": 1,
-                "__type": "EffectValueCalculationPart"
-              }
-            ],
-            "__type": "GameCalculation"
-          },
-          "__type": "{b09016f6}"
-        },
-        {
-          "EffectTag": 4096,
-          "EffectCalculation": {
-            "mFormulaParts": [
-              {
-                "mEffectIndex": 2,
-                "__type": "EffectValueCalculationPart"
-              }
-            ],
-            "__type": "GameCalculation"
-          },
-          "__type": "{b09016f6}"
-        }
-      ],
-      "__type": "BotsSpellData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBindRoot": {
-    "ObjectName": "KarmaSpiritBindRoot",
-    "mScriptName": "KarmaSpiritBindRoot",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_KarmaSpiritBindRoot",
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "{cbe079fc}": {
-    "ObjectName": "KarmaWBeam",
-    "mScriptName": "KarmaWBeam",
-    "__type": "SpellObject"
-  },
   "Characters/Karma/Spells/KarmaQAbility": {
     "mRootSpell": "Characters/Karma/Spells/KarmaQAbility/KarmaQ",
     "mChildSpells": [
@@ -2889,6 +2229,470 @@
       },
       "__type": "SpellDataResource"
     },
+    "__type": "SpellObject"
+  },
+  "Characters/Karma/Spells/KarmaSpiritBindAbility": {
+    "mRootSpell": "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBind",
+    "mChildSpells": [
+      "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBind",
+      "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBindRoot"
+    ],
+    "mName": "KarmaSpiritBindAbility",
+    "AbilityTraits": 2048,
+    "__type": "AbilityObject"
+  },
+  "{88a75e39}": {
+    "ObjectName": "KarmaWBeamMantra",
+    "mScriptName": "KarmaWBeamMantra",
+    "__type": "SpellObject"
+  },
+  "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBind": {
+    "ObjectName": "KarmaSpiritBind",
+    "mScriptName": "KarmaSpiritBind",
+    "mSpell": {
+      "mAffectsTypeFlags": 6146,
+      "mAlternateName": "KarmaSpiritBind",
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            15.0,
+            40.0,
+            65.0,
+            90.0,
+            115.0,
+            140.0,
+            165.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "RootDuration",
+          "mValues": [
+            1.5,
+            1.600000023841858,
+            1.7000000476837158,
+            1.7999999523162842,
+            1.899999976158142,
+            2.0,
+            2.0999999046325684
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "TetherDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "LeashBreakRange",
+          "mValues": [
+            825.0,
+            825.0,
+            825.0,
+            825.0,
+            825.0,
+            825.0,
+            825.0
+          ],
+          "__type": "SpellDataValue"
+        }
+      ],
+      "mSpellCalculations": {
+        "InitialDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamage",
+              "__type": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "__type": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
+        }
+      },
+      "mAnimationName": "Spell2",
+      "mImgIconName": [
+        "ASSETS/Characters/Karma/HUD/Icons2D/Karma_W1.dds",
+        "ASSETS/Characters/Karma/HUD/Icons2D/Karma_W2.dds"
+      ],
+      "mCastTime": 0.25,
+      "cooldownTime": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mCantCancelWhileWindingUp": true,
+      "mSpellRevealsChampion": false,
+      "useAnimatorFramerate": true,
+      "bIsToggleSpell": true,
+      "castRange": [
+        675.0,
+        675.0,
+        675.0,
+        675.0,
+        675.0,
+        675.0,
+        675.0
+      ],
+      "castRadius": [
+        175.0,
+        175.0,
+        175.0,
+        175.0,
+        175.0,
+        175.0,
+        175.0
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "missileSpeed": 2200.0,
+      "mLineWidth": 60.0,
+      "bHaveHitBone": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0
+      ],
+      "selectionPriority": 2,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mObjectName": "KarmaSpiritBind",
+          "mFormat": "{d7c27163}",
+          "mLocKeys": {
+            "keyName": "Spell_KarmaSpiritBind_Name",
+            "keySummary": "Spell_KarmaSpiritBind_Summary",
+            "keyTooltip": "Spell_KarmaSpiritBind_Tooltip",
+            "keyTooltipExtended": "Spell_KarmaSpiritBind_TooltipExtended"
+          },
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 5,
+              "Elements": [
+                {
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "nameOverride": "Spell_ListType_Damage",
+                  "__type": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "RootDuration",
+                  "typeIndex": 2,
+                  "nameOverride": "Spell_ListType_RootDuration",
+                  "__type": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "__type": "TooltipInstanceListElement"
+                }
+              ],
+              "__type": "TooltipInstanceList"
+            }
+          },
+          "__type": "TooltipInstanceSpell"
+        },
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "__type": "TargeterDefinitionRange"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KarmaSpiritBind",
+      "PersistentEffectConditions": [
+        {
+          "SourceCondition": {
+            "Spell": "{cbe079fc}",
+            "__type": "HasBuffDynamicMaterialBoolDriver"
+          },
+          "ForceRenderVfx": true,
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
+              "targetBoneName": "L_BUFFBONE_GLB_HAND_LOC",
+              "effectKey": "Karma_W_beam",
+              "__type": "PersistentVfxData"
+            }
+          ],
+          "__type": "PersistentEffectConditionData"
+        },
+        {
+          "SourceCondition": {
+            "Spell": "{88a75e39}",
+            "__type": "HasBuffDynamicMaterialBoolDriver"
+          },
+          "ForceRenderVfx": true,
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
+              "targetBoneName": "L_BUFFBONE_GLB_HAND_LOC",
+              "effectKey": "Karma_W_beam_R",
+              "__type": "PersistentVfxData"
+            }
+          ],
+          "__type": "PersistentEffectConditionData"
+        },
+        {
+          "SourceCondition": {
+            "mDrivers": [
+              {
+                "Spell": "{cbe079fc}",
+                "__type": "HasBuffDynamicMaterialBoolDriver"
+              },
+              {
+                "championName": "Characters/Karma",
+                "__type": "{635d04b7}"
+              },
+              {
+                "mDrivers": [
+                  {
+                    "SkinID": 54,
+                    "__type": "{9bc366ca}"
+                  },
+                  {
+                    "SkinID": 70,
+                    "__type": "{9bc366ca}"
+                  }
+                ],
+                "__type": "OneTrueMaterialDriver"
+              }
+            ],
+            "__type": "AllTrueMaterialDriver"
+          },
+          "ForceRenderVfx": true,
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
+              "targetBoneName": "CSTM_Tether_Buffbone_Loc",
+              "effectKey": "{9539a1b6}",
+              "__type": "PersistentVfxData"
+            }
+          ],
+          "__type": "PersistentEffectConditionData"
+        },
+        {
+          "SourceCondition": {
+            "mDrivers": [
+              {
+                "Spell": "{88a75e39}",
+                "__type": "HasBuffDynamicMaterialBoolDriver"
+              },
+              {
+                "championName": "Characters/Karma",
+                "__type": "{635d04b7}"
+              },
+              {
+                "mDrivers": [
+                  {
+                    "SkinID": 54,
+                    "__type": "{9bc366ca}"
+                  },
+                  {
+                    "SkinID": 70,
+                    "__type": "{9bc366ca}"
+                  }
+                ],
+                "__type": "OneTrueMaterialDriver"
+              }
+            ],
+            "__type": "AllTrueMaterialDriver"
+          },
+          "ForceRenderVfx": true,
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
+              "targetBoneName": "CSTM_Tether_Buffbone_Loc",
+              "effectKey": "{739e563b}",
+              "__type": "PersistentVfxData"
+            }
+          ],
+          "__type": "PersistentEffectConditionData"
+        },
+        {
+          "SourceCondition": {
+            "mDrivers": [
+              {
+                "Spell": "{cbe079fc}",
+                "__type": "HasBuffDynamicMaterialBoolDriver"
+              },
+              {
+                "mDrivers": [
+                  {
+                    "championName": "Characters/Sylas",
+                    "__type": "{635d04b7}"
+                  },
+                  {
+                    "championName": "Characters/Viego",
+                    "__type": "{635d04b7}"
+                  }
+                ],
+                "__type": "OneTrueMaterialDriver"
+              }
+            ],
+            "__type": "AllTrueMaterialDriver"
+          },
+          "ForceRenderVfx": true,
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
+              "targetBoneName": "L_BUFFBONE_GLB_HAND_LOC",
+              "effectKey": "{9539a1b6}",
+              "__type": "PersistentVfxData"
+            }
+          ],
+          "__type": "PersistentEffectConditionData"
+        },
+        {
+          "SourceCondition": {
+            "mDrivers": [
+              {
+                "Spell": "{88a75e39}",
+                "__type": "HasBuffDynamicMaterialBoolDriver"
+              },
+              {
+                "mDrivers": [
+                  {
+                    "championName": "Characters/Sylas",
+                    "__type": "{635d04b7}"
+                  },
+                  {
+                    "championName": "Characters/Viego",
+                    "__type": "{635d04b7}"
+                  }
+                ],
+                "__type": "OneTrueMaterialDriver"
+              }
+            ],
+            "__type": "AllTrueMaterialDriver"
+          },
+          "ForceRenderVfx": true,
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_CHEST_LOC",
+              "targetBoneName": "L_BUFFBONE_GLB_HAND_LOC",
+              "effectKey": "{739e563b}",
+              "__type": "PersistentVfxData"
+            }
+          ],
+          "__type": "PersistentEffectConditionData"
+        }
+      ],
+      "__type": "BuffData"
+    },
+    "BotData": {
+      "DamageTag": 1,
+      "{6d548702}": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "InitialDamage",
+            "__type": "{f3cbe7b2}"
+          }
+        ],
+        "__type": "GameCalculation"
+      },
+      "{ec17e271}": [
+        {
+          "EffectTag": 32,
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 1,
+                "__type": "EffectValueCalculationPart"
+              }
+            ],
+            "__type": "GameCalculation"
+          },
+          "__type": "{b09016f6}"
+        },
+        {
+          "EffectTag": 4096,
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 2,
+                "__type": "EffectValueCalculationPart"
+              }
+            ],
+            "__type": "GameCalculation"
+          },
+          "__type": "{b09016f6}"
+        }
+      ],
+      "__type": "BotsSpellData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Karma/Spells/KarmaSpiritBindAbility/KarmaSpiritBindRoot": {
+    "ObjectName": "KarmaSpiritBindRoot",
+    "mScriptName": "KarmaSpiritBindRoot",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KarmaSpiritBindRoot",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "{cbe079fc}": {
+    "ObjectName": "KarmaWBeam",
+    "mScriptName": "KarmaWBeam",
     "__type": "SpellObject"
   },
   "Characters/Karma/Spells/KarmaPassiveAbility": {

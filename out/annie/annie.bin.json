@@ -349,8 +349,7 @@
     "mRootSpell": "Characters/Annie/Spells/AnnieEAbility/AnnieE",
     "mChildSpells": [
       "Characters/Annie/Spells/AnnieEAbility/AnnieE",
-      "Characters/Annie/Spells/AnnieEAbility/AnnieESpeedBuff",
-      "Characters/Annie/Spells/AnnieEAbility/MoltenShield"
+      "Characters/Annie/Spells/AnnieEAbility/AnnieESpeedBuff"
     ],
     "mName": "AnnieEAbility",
     "AbilityTraits": 8,
@@ -1246,119 +1245,227 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Annie/Spells/AnnieEAbility/MoltenShield": {
-    "ObjectName": "MoltenShield",
-    "mScriptName": "MoltenShield",
+  "Characters/Annie/Spells/Infernal_Guardian": {
+    "ObjectName": "Infernal_Guardian",
+    "mScriptName": "Infernal_Guardian",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Infernal_Guardian",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Annie/Spells/AnnieQAbility": {
+    "mRootSpell": "Characters/Annie/Spells/AnnieQAbility/AnnieQ",
+    "mChildSpells": [
+      "Characters/Annie/Spells/AnnieQAbility/AnnieQ"
+    ],
+    "mName": "AnnieQAbility",
+    "__type": "AbilityObject"
+  },
+  "Characters/Annie/Spells/AnnieQAbility/AnnieQ": {
+    "ObjectName": "AnnieQ",
+    "mScriptName": "AnnieQ",
     "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 9221,
-      "mRequiredUnitTags": {
-        "mObjectTagList": [
-          "{ea595ca6}"
-        ],
-        "__type": "ObjectTags"
-      },
-      "mEffectAmount": [
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "Disintegrate",
+      "DataValues": [
         {
-          "value": [
-            10.0,
-            16.0,
-            22.0,
-            28.0,
-            34.0,
+          "mName": "BaseDamage",
+          "mValues": [
             40.0,
-            46.0
+            80.0,
+            120.0,
+            160.0,
+            200.0,
+            240.0,
+            280.0
           ],
-          "__type": "SpellEffectAmount"
+          "__type": "SpellDataValue"
         },
         {
-          "value": [
-            10.0,
-            20.0,
-            30.0,
-            40.0,
-            50.0,
-            60.0,
-            70.0
+          "mName": "APRatio",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
           ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
+          "__type": "SpellDataValue"
         }
       ],
-      "mCoefficient": 0.20000000298023224,
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                25.0,
+                60.0,
+                95.0,
+                130.0,
+                165.0,
+                200.0,
+                235.0
+              ],
+              "__type": "SpellDataValue"
+            },
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.6499999761581421,
+                0.6499999761581421,
+                0.6499999761581421,
+                0.6499999761581421,
+                0.6499999761581421,
+                0.6499999761581421,
+                0.6499999761581421
+              ],
+              "__type": "SpellDataValue"
+            }
+          ],
+          "__type": "SpellDataValueVector"
+        }
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamage",
+              "__type": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "__type": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
+        }
+      },
+      "mCoefficient": 0.800000011920929,
       "mAnimationName": "Spell1",
       "mImgIconName": [
-        "ASSETS/Characters/Annie/HUD/Icons2D/Annie_E.dds"
+        "ASSETS/Characters/Annie/HUD/Icons2D/Annie_Q.dds"
       ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
       "mCantCancelWhileWindingUp": true,
       "castRange": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
       ],
       "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
       ],
       "castConeDistance": 100.0,
-      "castFrame": 25.0,
-      "missileSpeed": 20.0,
-      "bHaveHitBone": true,
-      "mHitBoneName": "head",
+      "mMissileSpec": {
+        "movementComponent": {
+          "mTargetHeightAugment": 100.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "neck",
+          "mSpeed": 1400.0,
+          "__type": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "__type": "VeritcalFacingMatchVelocity"
+        },
+        "behaviors": [
+          {
+            "__type": "CastOnMovementComplete"
+          },
+          {
+            "__type": "DestroyOnMovementComplete"
+          }
+        ],
+        "__type": "MissileSpecification"
+      },
+      "mCastType": 1,
+      "castFrame": 8.699999809265137,
+      "missileSpeed": 1400.0,
+      "mMissileEffectKey": "Annie_Q_mis",
       "mana": [
-        20.0,
-        20.0,
-        20.0,
-        20.0,
-        20.0,
-        20.0
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0
       ],
       "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "Self"
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mObjectName": "AnnieQ",
+          "mFormat": "{d7c27163}",
+          "mLocKeys": {
+            "keyName": "Spell_AnnieQ_Name",
+            "keySummary": "Spell_AnnieQ_Summary",
+            "keyTooltip": "Spell_AnnieQ_Tooltip"
+          },
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 5,
+              "Elements": [
+                {
+                  "type": "BaseDamage",
+                  "nameOverride": "Spell_ListType_Damage",
+                  "__type": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "__type": "TooltipInstanceListElement"
+                }
+              ],
+              "__type": "TooltipInstanceList"
+            }
+          },
+          "__type": "TooltipInstanceSpell"
+        },
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "__type": "TargeterDefinitionRange"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
       },
       "__type": "SpellDataResource"
+    },
+    "BotData": {
+      "DamageTag": 1,
+      "{6d548702}": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "__type": "{f3cbe7b2}"
+          }
+        ],
+        "__type": "GameCalculation"
+      },
+      "__type": "BotsSpellData"
     },
     "__type": "SpellObject"
   },
@@ -1680,230 +1787,6 @@
           "__type": "{b09016f6}"
         }
       ],
-      "__type": "BotsSpellData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Annie/Spells/Infernal_Guardian": {
-    "ObjectName": "Infernal_Guardian",
-    "mScriptName": "Infernal_Guardian",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_Infernal_Guardian",
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Annie/Spells/AnnieQAbility": {
-    "mRootSpell": "Characters/Annie/Spells/AnnieQAbility/AnnieQ",
-    "mChildSpells": [
-      "Characters/Annie/Spells/AnnieQAbility/AnnieQ"
-    ],
-    "mName": "AnnieQAbility",
-    "__type": "AbilityObject"
-  },
-  "Characters/Annie/Spells/AnnieQAbility/AnnieQ": {
-    "ObjectName": "AnnieQ",
-    "mScriptName": "AnnieQ",
-    "mSpell": {
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "Disintegrate",
-      "DataValues": [
-        {
-          "mName": "BaseDamage",
-          "mValues": [
-            40.0,
-            80.0,
-            120.0,
-            160.0,
-            200.0,
-            240.0,
-            280.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "APRatio",
-          "mValues": [
-            0.800000011920929,
-            0.800000011920929,
-            0.800000011920929,
-            0.800000011920929,
-            0.800000011920929,
-            0.800000011920929,
-            0.800000011920929
-          ],
-          "__type": "SpellDataValue"
-        }
-      ],
-      "DataValuesModeOverride": {
-        "cherry": {
-          "SpellDataValues": [
-            {
-              "mName": "BaseDamage",
-              "mValues": [
-                25.0,
-                60.0,
-                95.0,
-                130.0,
-                165.0,
-                200.0,
-                235.0
-              ],
-              "__type": "SpellDataValue"
-            },
-            {
-              "mName": "APRatio",
-              "mValues": [
-                0.6499999761581421,
-                0.6499999761581421,
-                0.6499999761581421,
-                0.6499999761581421,
-                0.6499999761581421,
-                0.6499999761581421,
-                0.6499999761581421
-              ],
-              "__type": "SpellDataValue"
-            }
-          ],
-          "__type": "SpellDataValueVector"
-        }
-      },
-      "mSpellCalculations": {
-        "TotalDamage": {
-          "mFormulaParts": [
-            {
-              "mDataValue": "BaseDamage",
-              "__type": "NamedDataValueCalculationPart"
-            },
-            {
-              "mDataValue": "APRatio",
-              "__type": "StatByNamedDataValueCalculationPart"
-            }
-          ],
-          "__type": "GameCalculation"
-        }
-      },
-      "mCoefficient": 0.800000011920929,
-      "mAnimationName": "Spell1",
-      "mImgIconName": [
-        "ASSETS/Characters/Annie/HUD/Icons2D/Annie_Q.dds"
-      ],
-      "cooldownTime": [
-        4.0,
-        4.0,
-        4.0,
-        4.0,
-        4.0,
-        4.0,
-        4.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "castRange": [
-        625.0,
-        625.0,
-        625.0,
-        625.0,
-        625.0,
-        625.0,
-        625.0
-      ],
-      "castRadius": [
-        710.0,
-        710.0,
-        710.0,
-        710.0,
-        710.0,
-        710.0,
-        710.0
-      ],
-      "castConeDistance": 100.0,
-      "mMissileSpec": {
-        "movementComponent": {
-          "mTargetHeightAugment": 100.0,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "neck",
-          "mSpeed": 1400.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "__type": "VeritcalFacingMatchVelocity"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnMovementComplete"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 1,
-      "castFrame": 8.699999809265137,
-      "missileSpeed": 1400.0,
-      "mMissileEffectKey": "Annie_Q_mis",
-      "mana": [
-        60.0,
-        65.0,
-        70.0,
-        75.0,
-        80.0,
-        85.0
-      ],
-      "selectionPriority": 1,
-      "mSpellCooldownOrSealedQueueThreshold": 0.5,
-      "mCastingBreaksStealth": true,
-      "mClientData": {
-        "mTooltipData": {
-          "mObjectName": "AnnieQ",
-          "mFormat": "{d7c27163}",
-          "mLocKeys": {
-            "keyName": "Spell_AnnieQ_Name",
-            "keySummary": "Spell_AnnieQ_Summary",
-            "keyTooltip": "Spell_AnnieQ_Tooltip"
-          },
-          "mLists": {
-            "LevelUp": {
-              "levelCount": 5,
-              "Elements": [
-                {
-                  "type": "BaseDamage",
-                  "nameOverride": "Spell_ListType_Damage",
-                  "__type": "TooltipInstanceListElement"
-                },
-                {
-                  "type": "Cost",
-                  "__type": "TooltipInstanceListElement"
-                }
-              ],
-              "__type": "TooltipInstanceList"
-            }
-          },
-          "__type": "TooltipInstanceSpell"
-        },
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "BotData": {
-      "DamageTag": 1,
-      "{6d548702}": {
-        "mFormulaParts": [
-          {
-            "mSpellCalculationKey": "TotalDamage",
-            "__type": "{f3cbe7b2}"
-          }
-        ],
-        "__type": "GameCalculation"
-      },
       "__type": "BotsSpellData"
     },
     "__type": "SpellObject"

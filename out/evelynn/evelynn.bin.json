@@ -940,7 +940,6 @@
     "mChildSpells": [
       "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnW",
       "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnWApplyMark",
-      "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnWDebuff",
       "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnWMissile",
       "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnWShred"
     ],
@@ -1083,146 +1082,6 @@
     "mBuff": {
       "mDescription": "game_buff_tooltip_EvelynnW",
       "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnWDebuff": {
-    "ObjectName": "EvelynnWDebuff",
-    "mScriptName": "EvelynnWDebuff",
-    "mSpell": {
-      "mAffectsTypeFlags": 2050,
-      "mSpellTags": [
-        ""
-      ],
-      "mEffectAmount": [
-        {
-          "value": [
-            70.0,
-            70.0,
-            100.0,
-            130.0,
-            160.0,
-            200.0,
-            200.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            -0.30000001192092896,
-            -0.30000001192092896,
-            -0.30000001192092896,
-            -0.30000001192092896,
-            -0.30000001192092896,
-            -0.30000001192092896,
-            -0.30000001192092896
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 0.5,
-      "mCoefficient2": 0.800000011920929,
-      "mAnimationName": "Spell4",
-      "mImgIconName": [
-        "Ahri_Charm.dds"
-      ],
-      "mCastTime": 0.15000000596046448,
-      "cooldownTime": [
-        17.0,
-        17.0,
-        15.0,
-        13.0,
-        11.0,
-        9.0,
-        9.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "useAnimatorFramerate": true,
-      "castRange": [
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 7.5,
-      "missileSpeed": 2400.0,
-      "mLineWidth": 100.0,
-      "mFloatVarsDecimals": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "mana": [
-        50.0,
-        50.0,
-        50.0,
-        50.0,
-        50.0,
-        50.0
-      ],
-      "selectionPriority": 1,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
   },
@@ -2451,7 +2310,6 @@
       "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnE",
       "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnE2",
       "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnE2Dash",
-      "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnE2DummyCast",
       "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnEHaste"
     ],
     "mName": "EvelynnEAbility",
@@ -3270,43 +3128,6 @@
         }
       ],
       "__type": "BotsSpellData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnE2DummyCast": {
-    "ObjectName": "EvelynnE2DummyCast",
-    "mScriptName": "EvelynnE2DummyCast",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 8192,
-      "mAnimationName": "Spell3_Empowered",
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "useAnimatorFramerate": true,
-      "castRange": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "mTargetingTypeData": {
-        "__type": "Self"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_RengarPassiveBuff",
-      "__type": "BuffData"
     },
     "__type": "SpellObject"
   },

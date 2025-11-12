@@ -807,6 +807,22 @@
     "mSpell": {
       "flags": 4,
       "mAffectsTypeFlags": 6154,
+      "mCastRequirementsCaster": [
+        {
+          "{675c02b0}": 1028,
+          "{cec18a6a}": 32,
+          "mUnitsRequirements": [
+            {
+              "mBuffName": "{b6af5616}",
+              "__type": "HasBuffCastRequirement"
+            }
+          ],
+          "mUnitsRequired": 1,
+          "mRange": 25000.0,
+          "mDistanceType": 1,
+          "__type": "HasNNearbyUnitsRequirement"
+        }
+      ],
       "mEffectAmount": [
         {
           "value": [
@@ -1363,8 +1379,7 @@
     "mChildSpells": [
       "Characters/Azir/Spells/AzirEWrapperAbility/AzirEWrapper",
       "Characters/Azir/Spells/AzirEWrapperAbility/AzirE",
-      "Characters/Azir/Spells/AzirEWrapperAbility/AzirEShield",
-      "Characters/Azir/Spells/AzirEWrapperAbility/AzirEVisualMissile"
+      "Characters/Azir/Spells/AzirEWrapperAbility/AzirEShield"
     ],
     "mName": "AzirEWrapperAbility",
     "__type": "AbilityObject"
@@ -1892,193 +1907,6 @@
         "__type": "SpellDataResourceClient"
       },
       "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Azir/Spells/AzirEWrapperAbility/AzirEVisualMissile": {
-    "ObjectName": "AzirEVisualMissile",
-    "mScriptName": "AzirEVisualMissile",
-    "mSpell": {
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "AzirMaxWhirlwind",
-      "mEffectAmount": [
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mAnimationName": "Spell1",
-      "mImgIconName": [
-        "Nocturne_Duskbringer.dds"
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "mSpellRevealsChampion": false,
-      "useAnimatorFramerate": true,
-      "castRange": [
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0
-      ],
-      "castRangeDisplayOverride": [
-        1125.0,
-        1125.0,
-        1125.0,
-        1125.0,
-        1125.0,
-        1125.0,
-        1125.0
-      ],
-      "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "castConeDistance": 100.0,
-      "luaOnMissileUpdateDistanceInterval": 100.0,
-      "mMissileSpec": {
-        "mMissileWidth": 100.0,
-        "movementComponent": {
-          "mUseHeightOffsetAtEnd": true,
-          "mTracksTarget": false,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "Spine",
-          "mProjectTargetToCastRange": true,
-          "mSpeed": 2000.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "BlendedLinearHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VerticalFacingFaceTarget"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnHit"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "castFrame": 7.5,
-      "missileSpeed": 2000.0,
-      "mMissileEffectName": "Azir_W_mis.troy",
-      "mLineWidth": 100.0,
-      "bHaveHitBone": true,
-      "mFloatVarsDecimals": [
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "Direction"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "hideWithLineIndicator": true,
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "__type": "DrawablePositionLocator"
-            },
-            "lineStopsAtEndPosition": false,
-            "lineWidth": {
-              "mPerLevelValues": [
-                100.0,
-                100.0,
-                100.0,
-                100.0,
-                100.0,
-                100.0
-              ],
-              "mValueType": 2,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionLine"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_NocturneDuskbringer",
-      "__type": "BuffData"
     },
     "__type": "SpellObject"
   },

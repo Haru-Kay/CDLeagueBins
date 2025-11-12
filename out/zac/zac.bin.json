@@ -1003,292 +1003,31 @@
     "mScriptName": "ZacPassiveSpawnChunk",
     "__type": "SpellObject"
   },
+  "Characters/Zac/Spells/ZacRebirthReady": {
+    "ObjectName": "ZacRebirthReady",
+    "mScriptName": "ZacRebirthReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacRebirthReady",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacGooMove": {
+    "ObjectName": "ZacGooMove",
+    "mScriptName": "ZacGooMove",
+    "__type": "SpellObject"
+  },
   "Characters/Zac/Spells/ZacQAbility": {
     "mRootSpell": "Characters/Zac/Spells/ZacQAbility/ZacQ",
     "mChildSpells": [
       "Characters/Zac/Spells/ZacQAbility/ZacQ",
       "{6771dc74}",
-      "{45a34608}",
-      "{61d14c3e}",
-      "{27653256}"
+      "{45a34608}"
     ],
     "mLifetimeManuallyManaged": true,
     "mName": "ZacQAbility",
     "AbilityTraits": 2560,
     "__type": "AbilityObject"
-  },
-  "{27653256}": {
-    "ObjectName": "ZacQRecast",
-    "mScriptName": "ZacQRecast",
-    "mSpell": {
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "ZacQ",
-      "mSpellTags": [
-        "Trait_AttackReset"
-      ],
-      "mEffectAmount": [
-        {
-          "value": [
-            25.0,
-            40.0,
-            55.0,
-            70.0,
-            85.0,
-            100.0,
-            100.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.07999999821186066,
-            0.07999999821186066,
-            0.07999999821186066,
-            0.07999999821186066,
-            0.07999999821186066,
-            0.07999999821186066,
-            0.07999999821186066
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            800.0,
-            800.0,
-            800.0,
-            800.0,
-            800.0,
-            800.0,
-            800.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            -0.6000000238418579,
-            -0.6000000238418579,
-            -0.6000000238418579,
-            -0.6000000238418579,
-            -0.6000000238418579,
-            -0.6000000238418579,
-            -0.6000000238418579
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5,
-            2.5
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            1000.0,
-            1000.0,
-            1000.0,
-            1000.0,
-            1000.0,
-            1000.0,
-            1000.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            700.0,
-            700.0,
-            700.0,
-            700.0,
-            700.0,
-            700.0,
-            700.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            300.0,
-            300.0,
-            300.0,
-            300.0,
-            300.0,
-            300.0,
-            300.0
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            300.0,
-            300.0,
-            300.0,
-            300.0,
-            300.0,
-            300.0,
-            300.0
-          ],
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 0.30000001192092896,
-      "mCoefficient2": 0.02500000037252903,
-      "mAnimationName": "Spell1",
-      "mImgIconName": [
-        "ASSETS/Characters/Zac/HUD/Icons2D/ZacQ.dds"
-      ],
-      "mCastTime": 0.33000001311302185,
-      "cooldownTime": [
-        13.0,
-        13.0,
-        12.0,
-        11.0,
-        10.0,
-        9.0,
-        9.0
-      ],
-      "delayCastOffsetPercent": -1.0,
-      "delayTotalTimePercent": -1.0,
-      "mCantCancelWhileWindingUp": true,
-      "alwaysSnapFacing": true,
-      "bIsToggleSpell": true,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castRangeDisplayOverride": [
-        800.0,
-        800.0,
-        800.0,
-        800.0,
-        800.0,
-        800.0,
-        800.0
-      ],
-      "castFrame": 10.0,
-      "missileSpeed": 0.0,
-      "mLineWidth": 120.0,
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "mTargetingTypeData": {
-        "__type": "Location"
-      },
-      "mSpellCooldownOrSealedQueueThreshold": 0.30000001192092896,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "hideWithLineIndicator": true,
-            "overrideBaseRange": {
-              "mPerLevelValues": [
-                825.0,
-                825.0,
-                825.0,
-                825.0,
-                825.0,
-                825.0
-              ],
-              "mValueType": 1,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "__type": "DrawablePositionLocator"
-            },
-            "lineWidth": {
-              "mPerLevelValues": [
-                70.0,
-                70.0,
-                70.0,
-                70.0,
-                70.0,
-                70.0
-              ],
-              "mValueType": 1,
-              "__type": "FloatPerSpellLevel"
-            },
-            "overrideBaseRange": {
-              "mPerLevelValues": [
-                825.0,
-                825.0,
-                825.0,
-                825.0,
-                825.0,
-                825.0
-              ],
-              "mValueType": 1,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionLine"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_ZacQMissile",
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
   },
   "{45a34608}": {
     "ObjectName": "ZacQAttack",
@@ -1710,104 +1449,6 @@
     },
     "__type": "SpellObject"
   },
-  "{61d14c3e}": {
-    "ObjectName": "ZacQMissileRecast",
-    "mScriptName": "ZacQMissileRecast",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 6154,
-      "mImgIconName": [
-        "SadMummy_BandageFlinger.dds"
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "mCantCancelWhileWindingUp": true,
-      "mProjectTargetToCastRange": true,
-      "castRange": [
-        951.0,
-        951.0,
-        951.0,
-        951.0,
-        951.0,
-        951.0,
-        951.0
-      ],
-      "mMissileSpec": {
-        "mMissileWidth": 80.0,
-        "movementComponent": {
-          "mUseHeightOffsetAtEnd": true,
-          "mTracksTarget": false,
-          "mStartBoneName": "R_Buffbone_Glb_Hand_Loc",
-          "mSpeed": 2800.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "__type": "BlendedLinearHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VerticalFacingFaceTarget"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnHit"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 3,
-      "missileSpeed": 2800.0,
-      "mMissileEffectKey": "Zac_Q_Mis",
-      "mLineWidth": 80.0,
-      "mTargetingTypeData": {
-        "__type": "LocationClamped"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "hideWithLineIndicator": true,
-            "__type": "TargeterDefinitionRange"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "__type": "DrawablePositionLocator"
-            },
-            "lineStopsAtEndPosition": true,
-            "lineWidth": {
-              "mPerLevelValues": [
-                70.0,
-                70.0,
-                70.0,
-                70.0,
-                70.0,
-                70.0
-              ],
-              "mValueType": 2,
-              "__type": "FloatPerSpellLevel"
-            },
-            "__type": "TargeterDefinitionLine"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_ZacQMissile",
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
   "{6771dc74}": {
     "ObjectName": "ZacQMissile",
     "mScriptName": "ZacQMissile",
@@ -1904,20 +1545,6 @@
       "mDescription": "game_buff_tooltip_ZacQMissile",
       "__type": "BuffData"
     },
-    "__type": "SpellObject"
-  },
-  "Characters/Zac/Spells/ZacRebirthReady": {
-    "ObjectName": "ZacRebirthReady",
-    "mScriptName": "ZacRebirthReady",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_ZacRebirthReady",
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Zac/Spells/ZacGooMove": {
-    "ObjectName": "ZacGooMove",
-    "mScriptName": "ZacGooMove",
     "__type": "SpellObject"
   },
   "Characters/Zac/Spells/ZacEAbility": {

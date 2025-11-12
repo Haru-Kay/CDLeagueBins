@@ -877,8 +877,6 @@
     "mChildSpells": [
       "Characters/Ivern/Spells/IvernPAbility/IvernP",
       "Characters/Ivern/Spells/IvernPAbility/IvernPApplication",
-      "Characters/Ivern/Spells/IvernPAbility/IvernPBuffTransferMissile",
-      "Characters/Ivern/Spells/IvernPAbility/IvernPBuffTransferMissileRed",
       "Characters/Ivern/Spells/IvernPAbility/IvernPCollection"
     ],
     "mName": "IvernPAbility",
@@ -1355,75 +1353,6 @@
     "DescriptionAppendTra": "Spell_IvernP_Tooltip_NexusBlitz",
     "__type": "SpellModifier"
   },
-  "Characters/Ivern/Spells/IvernPAbility/IvernPBuffTransferMissileRed": {
-    "ObjectName": "IvernPBuffTransferMissileRed",
-    "mScriptName": "IvernPBuffTransferMissileRed",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 7375,
-      "mAlternateName": "VladimirTransfusionHeal",
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "mDoesntBreakChannels": true,
-      "castRange": [
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0
-      ],
-      "castConeDistance": 100.0,
-      "mMissileSpec": {
-        "movementComponent": {
-          "mTargetHeightAugment": 100.0,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "Spine1",
-          "mSpeed": 700.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "mGravity": 3000.0,
-          "__type": "GravityHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VeritcalFacingMatchVelocity"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnMovementComplete"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 1,
-      "castFrame": 1.0,
-      "missileSpeed": 700.0,
-      "mMissileEffectKey": "Ivern_P_BuffTransfer_Mis_Red2",
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
   "{f09d5cae}": {
     "ObjectName": "IvernPNexusBlitz",
     "mScriptName": "IvernPNexusBlitz",
@@ -1436,75 +1365,6 @@
     "mBuff": {
       "mDescription": "game_spell_displayname_IvernPNexusBlitz",
       "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Ivern/Spells/IvernPAbility/IvernPBuffTransferMissile": {
-    "ObjectName": "IvernPBuffTransferMissile",
-    "mScriptName": "IvernPBuffTransferMissile",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 7375,
-      "mAlternateName": "VladimirTransfusionHeal",
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "mDoesntBreakChannels": true,
-      "castRange": [
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0
-      ],
-      "castConeDistance": 100.0,
-      "mMissileSpec": {
-        "movementComponent": {
-          "mTargetHeightAugment": 100.0,
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "Spine1",
-          "mSpeed": 700.0,
-          "__type": "FixedSpeedMovement"
-        },
-        "heightSolver": {
-          "mGravity": 3000.0,
-          "__type": "GravityHeightSolver"
-        },
-        "verticalFacing": {
-          "__type": "VeritcalFacingMatchVelocity"
-        },
-        "behaviors": [
-          {
-            "__type": "CastOnMovementComplete"
-          },
-          {
-            "__type": "DestroyOnMovementComplete"
-          }
-        ],
-        "__type": "MissileSpecification"
-      },
-      "mCastType": 1,
-      "castFrame": 1.0,
-      "missileSpeed": 700.0,
-      "mMissileEffectKey": "Ivern_P_BuffTransfer_Mis",
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
   },

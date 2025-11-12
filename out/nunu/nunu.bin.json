@@ -44,8 +44,7 @@
       "Characters/Nunu/Spells/NunuWAbility/NunuW_Recast",
       "Characters/Nunu/Spells/NunuWAbility/NunuWCircleMissile2",
       "Characters/Nunu/Spells/NunuWAbility/NunuWKnockup",
-      "Characters/Nunu/Spells/NunuWAbility/NunuWSnowballMissile",
-      "Characters/Nunu/Spells/NunuWAbility/NunuWStun"
+      "Characters/Nunu/Spells/NunuWAbility/NunuWSnowballMissile"
     ],
     "mName": "NunuWAbility",
     "AbilityTraits": 2048,
@@ -828,15 +827,6 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Nunu/Spells/NunuWAbility/NunuWStun": {
-    "ObjectName": "NunuWStun",
-    "mScriptName": "NunuWStun",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_NunuWStun",
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
   "Characters/Nunu/Spells/NunuWAbility/NunuWSnowballMissile": {
     "ObjectName": "NunuWSnowballMissile",
     "mScriptName": "NunuWSnowballMissile",
@@ -1184,7 +1174,6 @@
     "mRootSpell": "Characters/Nunu/Spells/NunuPassiveAbility/NunuPassive",
     "mChildSpells": [
       "Characters/Nunu/Spells/NunuPassiveAbility/NunuPassive",
-      "Characters/Nunu/Spells/NunuPassiveAbility/BloodBoil",
       "Characters/Nunu/Spells/NunuPassiveAbility/NunuPBloodBoil",
       "Characters/Nunu/Spells/NunuPassiveAbility/NunuPBloodBoilMissile"
     ],
@@ -1205,169 +1194,6 @@
         },
         "__type": "TooltipInstanceBuff"
       },
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Nunu/Spells/NunuPassiveAbility/BloodBoil": {
-    "ObjectName": "BloodBoil",
-    "mScriptName": "BloodBoil",
-    "mSpell": {
-      "flags": 4,
-      "mAffectsTypeFlags": 1029,
-      "mAlternateName": "CalloftheFreljord",
-      "mSpellTags": [
-        "PositiveEffect_Boon"
-      ],
-      "mEffectAmount": [
-        {
-          "value": [
-            0.20000000298023224,
-            0.20000000298023224,
-            0.23999999463558197,
-            0.2800000011920929,
-            0.3199999928474426,
-            0.36000001430511475,
-            0.4000000059604645
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224,
-            0.20000000298023224
-          ],
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        },
-        {
-          "__type": "SpellEffectAmount"
-        }
-      ],
-      "mCoefficient": 0.05000000074505806,
-      "mCoefficient2": 0.05000000074505806,
-      "mAnimationName": "Spell2",
-      "mImgIconName": [
-        "ASSETS/Characters/Nunu/HUD/Icons2D/NunuPassive.dds"
-      ],
-      "cooldownTime": [
-        15.0,
-        15.0,
-        15.0,
-        15.0,
-        15.0,
-        15.0,
-        15.0
-      ],
-      "mCantCancelWhileWindingUp": true,
-      "castRange": [
-        700.0,
-        700.0,
-        700.0,
-        700.0,
-        700.0,
-        700.0,
-        700.0
-      ],
-      "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 0.6600000262260437,
-      "missileSpeed": 0.0,
-      "bHaveHitBone": true,
-      "mHitBoneName": "R_hand",
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "mana": [
-        50.0,
-        50.0,
-        50.0,
-        50.0,
-        50.0,
-        50.0
-      ],
-      "selectionPriority": 2,
-      "mTargetingTypeData": {
-        "__type": "TargetOrLocation"
-      },
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_NunuP",
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
       "__type": "BuffData"
     },
     "__type": "SpellObject"
@@ -2421,8 +2247,7 @@
     "mChildSpells": [
       "Characters/Nunu/Spells/NunuRAbility/NunuR",
       "Characters/Nunu/Spells/NunuRAbility/NunuR_Recast",
-      "Characters/Nunu/Spells/NunuRAbility/NunuRShield",
-      "Characters/Nunu/Spells/NunuRAbility/NunuRSlow"
+      "Characters/Nunu/Spells/NunuRAbility/NunuRShield"
     ],
     "mLifetimeManuallyManaged": true,
     "mName": "NunuRAbility",
@@ -2613,15 +2438,6 @@
     "mScriptName": "NunuRShield",
     "mBuff": {
       "mDescription": "game_buff_tooltip_Absolute_Zero_Shield",
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Nunu/Spells/NunuRAbility/NunuRSlow": {
-    "ObjectName": "NunuRSlow",
-    "mScriptName": "NunuRSlow",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_NunuRSlow",
       "__type": "BuffData"
     },
     "__type": "SpellObject"
