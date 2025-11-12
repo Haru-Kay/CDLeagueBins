@@ -12,43 +12,18 @@ $maps = {
     30 => "Arena",
 }
 
-$itemSearches = [
-    "mPopularItems",
-    "mItemList",
-    "mChoices",
-    "items"
-]
+def removeFluff(obj)
+    values = [
+        "ItemRecommendationOverrideSet",
+        "RecSpellRankUpInfoList",
+        "ItemRecommendationContextList",
+        "ChampionRuneRecommendationsContext",
+        "JunglePathRecommendation"
+    ]
+    obj.delete_if { |key, value|
+        key == "__linked" || (value.is_a?(Hash) && values.include?(value["__type"]))
+    }
 
-def langFetch(obj)
-    obj = obj.split("/")[1] if obj.is_a?(String)
-    obj = obj.to_s
-    obj = obj.to_s[-4..] if obj.length > 0
-    name = $lang.fetch("item_#{obj}_name", obj)
-    name = $lang.fetch("game_item_displayname_#{obj}", obj) if name.to_s.include?("{")
-    name
-end
-
-def localizeChampItems(obj, current_key = nil)
-    case obj
-        when Hash
-            obj.each { |k, v| obj[k] = localizeChampItems(v, k) }
-        when Array
-            obj.map! { |v| localizeChampItems(v, current_key) }
-        when Integer
-            if $itemSearches.include?(current_key.to_s)
-                langFetch(obj)
-            else
-                obj
-            end
-        when String
-            if $itemSearches.include?(current_key.to_s) || obj.start_with?("Item/")
-                langFetch(obj)
-            else
-                obj
-            end
-        else
-            obj
-    end
 end
 
 home = "D:/CommunityDragon"
@@ -98,7 +73,7 @@ Dir.each_child("#{home}/out") { |path|
             else
                 champ = {}
                 File.open(filepath, 'rb') { |f| champ = JSON.parse(f.read()) }                
-                File.open(filepath, 'wb') { |f| f.write(JSON.pretty_generate(localizeChampItems(champ))) }
+                File.open(filepath, 'wb') { |f| f.write(JSON.pretty_generate(removeFluff(champ))) }
             end
         }
     end
