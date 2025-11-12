@@ -60,6 +60,11 @@ arena = {}
 File.open("#{home}/arena/en_us.json", 'rb') { |f| arena = JSON.parse(f.read()) }
 File.open("#{home}/arena/en_us.json", 'wb') { |f| f.write(JSON.pretty_generate(arena)) }
 
+# ARAM: Mayhem Augment handling
+aram = {}
+File.open("#{home}/mayhem/augments.bin.json", 'rb') { |f| aram = JSON.parse(f.read()) }
+File.open("#{home}/mayhem/augments.bin.json", 'wb') { |f| f.write(JSON.pretty_generate(aram)) }
+
 deletions = []
 Dir.each_child("#{home}/out") { |path|
     basepath = home + "/out/" + path

@@ -6,5 +6,6 @@ snip-snip https://raw.communitydragon.org/pbe/cdragon/arena/ --filter "en_us.jso
 snip-snip https://raw.communitydragon.org/pbe/game/data/characters/ --max-depth 2
 snip-snip https://raw.communitydragon.org/pbe/game/ --filter "items.cdtb.bin.json" -o "items" --max-depth 1
 
+snip-snip https://raw.communitydragon.org/pbe/game/maps/modespecificdata/ --filter "augments.bin.json" -o "mayhem" --max-depth 1
 ruby cleanup.rb
 pause
