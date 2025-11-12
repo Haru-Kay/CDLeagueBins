@@ -804,6 +804,247 @@
     },
     "__type": "SpellObject"
   },
+  "Characters/Tryndamere/Spells/TryndamereWAbility": {
+    "mRootSpell": "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereW",
+    "mChildSpells": [
+      "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereW",
+      "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereWAttackDown",
+      "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereWSlow"
+    ],
+    "mName": "TryndamereWAbility",
+    "__type": "AbilityObject"
+  },
+  "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereWAttackDown": {
+    "ObjectName": "TryndamereWAttackDown",
+    "mScriptName": "TryndamereWAttackDown",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TryndamereW_AttackDown",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereW": {
+    "ObjectName": "TryndamereW",
+    "mScriptName": "TryndamereW",
+    "mSpell": {
+      "mAffectsTypeFlags": 6154,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "{ea595ca6}"
+        ],
+        "__type": "ObjectTags"
+      },
+      "DataValues": [
+        {
+          "mName": "ADReduction",
+          "mValues": [
+            -5.0,
+            -20.0,
+            -35.0,
+            -50.0,
+            -65.0,
+            -80.0,
+            -95.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPotency",
+          "mValues": [
+            -0.22499999403953552,
+            -0.30000001192092896,
+            -0.375,
+            -0.44999998807907104,
+            -0.5249999761581421,
+            -0.6000000238418579,
+            -0.675000011920929
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "ReductionDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "__type": "SpellDataValue"
+        }
+      ],
+      "mAnimationName": "Spell2",
+      "mImgIconName": [
+        "ASSETS/Characters/Tryndamere/HUD/Icons2D/Tryndamere_W.dds"
+      ],
+      "cooldownTime": [
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mCantCancelWhileWindingUp": true,
+      "bHaveHitEffect": true,
+      "mPingableWhileDisabled": true,
+      "castRangeDisplayOverride": [
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0
+      ],
+      "castRadius": [
+        830.0,
+        830.0,
+        830.0,
+        830.0,
+        830.0,
+        830.0,
+        830.0
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "mHitEffectKey": "Tryndamere_W_Tar_01",
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "selectionPriority": 1,
+      "mTargetingTypeData": {
+        "__type": "SelfAoe"
+      },
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mObjectName": "TryndamereW",
+          "mFormat": "{d7c27163}",
+          "mLocKeys": {
+            "keyName": "Spell_TryndamereW_Name",
+            "keySummary": "Spell_TryndamereW_Summary",
+            "keyTooltip": "Spell_TryndamereW_Tooltip",
+            "keyCost": "Spell_Cost_NoCost"
+          },
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 5,
+              "Elements": [
+                {
+                  "type": "ADReduction",
+                  "typeIndex": 1,
+                  "multiplier": -1.0,
+                  "nameOverride": "Spell_ListType_PhysicalDamageReduction",
+                  "__type": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "SlowPotency",
+                  "typeIndex": 2,
+                  "multiplier": -100.0,
+                  "nameOverride": "Spell_ListType_Slow",
+                  "Style": 1,
+                  "__type": "TooltipInstanceListElement"
+                }
+              ],
+              "__type": "TooltipInstanceList"
+            }
+          },
+          "__type": "TooltipInstanceSpell"
+        },
+        "mTargeterDefinitions": [
+          {
+            "__type": "TargeterDefinitionRange"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TryndamereW_AttackDown",
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "__type": "BuffData"
+    },
+    "BotData": {
+      "{ec17e271}": [
+        {
+          "EffectTag": 1,
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowPotency",
+                "__type": "NamedDataValueCalculationPart"
+              }
+            ],
+            "__type": "GameCalculation"
+          },
+          "__type": "{b09016f6}"
+        }
+      ],
+      "__type": "BotsSpellData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereWSlow": {
+    "ObjectName": "TryndamereWSlow",
+    "mScriptName": "TryndamereWSlow",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TryndamereW_Slow",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
   "Characters/Tryndamere/Spells/TryndamereBasicAttack": {
     "ObjectName": "TryndamereBasicAttack",
     "mScriptName": "TryndamereBasicAttack",
@@ -1329,237 +1570,6 @@
         "__type": "SpellDataResourceClient"
       },
       "__type": "SpellDataResource"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Tryndamere/Spells/TryndamereWAbility": {
-    "mRootSpell": "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereW",
-    "mChildSpells": [
-      "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereW",
-      "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereWSlow"
-    ],
-    "mName": "TryndamereWAbility",
-    "__type": "AbilityObject"
-  },
-  "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereW": {
-    "ObjectName": "TryndamereW",
-    "mScriptName": "TryndamereW",
-    "mSpell": {
-      "mAffectsTypeFlags": 6154,
-      "mRequiredUnitTags": {
-        "mObjectTagList": [
-          "{ea595ca6}"
-        ],
-        "__type": "ObjectTags"
-      },
-      "DataValues": [
-        {
-          "mName": "ADReduction",
-          "mValues": [
-            -5.0,
-            -20.0,
-            -35.0,
-            -50.0,
-            -65.0,
-            -80.0,
-            -95.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "SlowPotency",
-          "mValues": [
-            -0.22499999403953552,
-            -0.30000001192092896,
-            -0.375,
-            -0.44999998807907104,
-            -0.5249999761581421,
-            -0.6000000238418579,
-            -0.675000011920929
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "ReductionDuration",
-          "mValues": [
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "SlowDuration",
-          "mValues": [
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0,
-            4.0
-          ],
-          "__type": "SpellDataValue"
-        }
-      ],
-      "mAnimationName": "Spell2",
-      "mImgIconName": [
-        "ASSETS/Characters/Tryndamere/HUD/Icons2D/Tryndamere_W.dds"
-      ],
-      "cooldownTime": [
-        14.0,
-        14.0,
-        14.0,
-        14.0,
-        14.0,
-        14.0,
-        14.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mCantCancelWhileWindingUp": true,
-      "bHaveHitEffect": true,
-      "mPingableWhileDisabled": true,
-      "castRangeDisplayOverride": [
-        850.0,
-        850.0,
-        850.0,
-        850.0,
-        850.0,
-        850.0,
-        850.0
-      ],
-      "castRadius": [
-        830.0,
-        830.0,
-        830.0,
-        830.0,
-        830.0,
-        830.0,
-        830.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 7.5,
-      "mHitEffectKey": "Tryndamere_W_Tar_01",
-      "mFloatVarsDecimals": [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "selectionPriority": 1,
-      "mTargetingTypeData": {
-        "__type": "SelfAoe"
-      },
-      "mCastingBreaksStealth": true,
-      "mClientData": {
-        "mTooltipData": {
-          "mObjectName": "TryndamereW",
-          "mFormat": "{d7c27163}",
-          "mLocKeys": {
-            "keyName": "Spell_TryndamereW_Name",
-            "keySummary": "Spell_TryndamereW_Summary",
-            "keyTooltip": "Spell_TryndamereW_Tooltip",
-            "keyCost": "Spell_Cost_NoCost"
-          },
-          "mLists": {
-            "LevelUp": {
-              "levelCount": 5,
-              "Elements": [
-                {
-                  "type": "ADReduction",
-                  "typeIndex": 1,
-                  "multiplier": -1.0,
-                  "nameOverride": "Spell_ListType_PhysicalDamageReduction",
-                  "__type": "TooltipInstanceListElement"
-                },
-                {
-                  "type": "SlowPotency",
-                  "typeIndex": 2,
-                  "multiplier": -100.0,
-                  "nameOverride": "Spell_ListType_Slow",
-                  "Style": 1,
-                  "__type": "TooltipInstanceListElement"
-                }
-              ],
-              "__type": "TooltipInstanceList"
-            }
-          },
-          "__type": "TooltipInstanceSpell"
-        },
-        "mTargeterDefinitions": [
-          {
-            "__type": "TargeterDefinitionRange"
-          }
-        ],
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_TryndamereW_AttackDown",
-      "mFloatVarsDecimals": [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ],
-      "__type": "BuffData"
-    },
-    "BotData": {
-      "{ec17e271}": [
-        {
-          "EffectTag": 1,
-          "EffectCalculation": {
-            "mFormulaParts": [
-              {
-                "mDataValue": "SlowPotency",
-                "__type": "NamedDataValueCalculationPart"
-              }
-            ],
-            "__type": "GameCalculation"
-          },
-          "__type": "{b09016f6}"
-        }
-      ],
-      "__type": "BotsSpellData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereWSlow": {
-    "ObjectName": "TryndamereWSlow",
-    "mScriptName": "TryndamereWSlow",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_TryndamereW_Slow",
-      "__type": "BuffData"
     },
     "__type": "SpellObject"
   },

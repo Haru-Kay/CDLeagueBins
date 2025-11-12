@@ -1057,6 +1057,7 @@
       "Characters/Aatrox/Spells/AatroxQAbility/AatroxQ",
       "Characters/Aatrox/Spells/AatroxQAbility/AatroxQ2",
       "Characters/Aatrox/Spells/AatroxQAbility/AatroxQ3",
+      "Characters/Aatrox/Spells/AatroxQAbility/AatroxQChannel1",
       "Characters/Aatrox/Spells/AatroxQAbility/AatroxQWrapperCast"
     ],
     "mName": "AatroxQAbility",
@@ -1140,15 +1141,6 @@
         },
         {
           "mName": "QMonsterBonus",
-          "mValues": [
-            40.0,
-            40.0,
-            40.0,
-            40.0,
-            40.0,
-            40.0,
-            40.0
-          ],
           "__type": "SpellDataValue"
         },
         {
@@ -1175,6 +1167,16 @@
             {
               "mStat": 2,
               "mDataValue": "QTotalADRatio",
+              "__type": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
+        },
+        "{46898f30}": {
+          "mFormulaParts": [
+            {
+              "mStat": 2,
+              "mDataValue": "QMonsterBonus",
               "__type": "StatByNamedDataValueCalculationPart"
             }
           ],
@@ -1391,6 +1393,11 @@
       ],
       "__type": "BotsSpellData"
     },
+    "__type": "SpellObject"
+  },
+  "Characters/Aatrox/Spells/AatroxQAbility/AatroxQChannel1": {
+    "ObjectName": "AatroxQChannel1",
+    "mScriptName": "AatroxQChannel1",
     "__type": "SpellObject"
   },
   "Characters/Aatrox/Spells/AatroxQAbility/AatroxQ3": {
@@ -1894,16 +1901,6 @@
             {
               "mStartValue": 22.0,
               "mEndValue": 10.0,
-              "__type": "ByCharLevelInterpolationCalculationPart"
-            }
-          ],
-          "__type": "GameCalculation"
-        },
-        "MonsterDamageCap": {
-          "mFormulaParts": [
-            {
-              "mStartValue": 100.0,
-              "mEndValue": 320.0,
               "__type": "ByCharLevelInterpolationCalculationPart"
             }
           ],

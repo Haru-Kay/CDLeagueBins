@@ -932,19 +932,6 @@
             400.0
           ],
           "__type": "SpellDataValue"
-        },
-        {
-          "mName": "MonsterDamageMod",
-          "mValues": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ],
-          "__type": "SpellDataValue"
         }
       ],
       "DataValuesModeOverride": {
@@ -1126,8 +1113,7 @@
           "mLocKeys": {
             "keyName": "Spell_Obduracy_Name",
             "keySummary": "Spell_Obduracy_Summary",
-            "keyTooltip": "Spell_Obduracy_Tooltip",
-            "keyTooltipExtendedBelowLine": "Spell_Obduracy_TooltipExtendedBelowLine"
+            "keyTooltip": "Spell_Obduracy_Tooltip"
           },
           "mLists": {
             "LevelUp": {
@@ -1586,7 +1572,8 @@
     "mRootSpell": "Characters/Malphite/Spells/SeismicShardAbility/SeismicShard",
     "mChildSpells": [
       "Characters/Malphite/Spells/SeismicShardAbility/SeismicShard",
-      "Characters/Malphite/Spells/SeismicShardAbility/SeismicShardBuff"
+      "Characters/Malphite/Spells/SeismicShardAbility/SeismicShardBuff",
+      "Characters/Malphite/Spells/SeismicShardAbility/SeismicShardReturn"
     ],
     "mName": "SeismicShardAbility",
     "__type": "AbilityObject"
@@ -1596,6 +1583,148 @@
     "mScriptName": "MalphiteDamageBuff",
     "mBuff": {
       "mDescription": "game_buff_tooltip_MalphiteDamageBuff",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Malphite/Spells/SeismicShardAbility/SeismicShardReturn": {
+    "ObjectName": "SeismicShardReturn",
+    "mScriptName": "SeismicShardReturn",
+    "mSpell": {
+      "mAffectsTypeFlags": 8193,
+      "DataValues": [
+        {
+          "mName": "SpeedSteal",
+          "mValues": [
+            75.0,
+            90.0,
+            105.0,
+            120.0,
+            135.0,
+            150.0,
+            165.0
+          ],
+          "__type": "SpellDataValue"
+        }
+      ],
+      "mCoefficient": 0.4000000059604645,
+      "mAnimationName": "Spell2",
+      "mImgIconName": [
+        "ASSETS/Characters/Malphite/HUD/Icons2D/Malphite_Q.dds"
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mCantCancelWhileWindingUp": true,
+      "castRange": [
+        99999.0,
+        99999.0,
+        99999.0,
+        99999.0,
+        99999.0,
+        99999.0,
+        99999.0
+      ],
+      "castRadius": [
+        780.0,
+        780.0,
+        780.0,
+        780.0,
+        780.0,
+        780.0,
+        780.0
+      ],
+      "castConeDistance": 100.0,
+      "mMissileSpec": {
+        "mMissileWidth": 1.0,
+        "movementComponent": {
+          "mUseHeightOffsetAtEnd": true,
+          "mTargetHeightAugment": 225.0,
+          "mStartBoneName": "BUFFBONE_GLB_GROUND_LOC",
+          "mTargetBoneName": "BUFFBONE_GLB_GROUND_LOC",
+          "mUseGroundHeightAtTarget": false,
+          "mTravelTime": 0.30000001192092896,
+          "__type": "FixedTimeMovement"
+        },
+        "heightSolver": {
+          "__type": "BlendedLinearHeightSolver"
+        },
+        "verticalFacing": {
+          "__type": "VeritcalFacingMatchVelocity"
+        },
+        "behaviors": [
+          {
+            "__type": "CastOnMovementComplete"
+          },
+          {
+            "__type": "DestroyOnMovementComplete"
+          }
+        ],
+        "__type": "MissileSpecification"
+      },
+      "mCastType": 1,
+      "castFrame": 10.0,
+      "missileSpeed": 2000.0,
+      "mMissileEffectKey": "Malphite_Q_return_mis",
+      "bHaveHitBone": true,
+      "mHitBoneName": "BUFFBONE_GLB_GROUND_LOC",
+      "selectionPriority": 1,
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mClientData": {
+        "mTooltipData": {
+          "mObjectName": "SeismicShardReturn",
+          "mFormat": "{d7c27163}",
+          "mLocKeys": {
+            "keyName": "Spell_SeismicShard_Name",
+            "keySummary": "Spell_SeismicShard_Summary",
+            "keyTooltip": "Spell_SeismicShard_Tooltip"
+          },
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 5,
+              "Elements": [
+                {
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "nameOverride": "Spell_ListType_Damage",
+                  "__type": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Effect%dAmount",
+                  "typeIndex": 2,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "Style": 1,
+                  "__type": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "__type": "TooltipInstanceListElement"
+                }
+              ],
+              "__type": "TooltipInstanceList"
+            }
+          },
+          "__type": "TooltipInstanceSpell"
+        },
+        "mTargeterDefinitions": [
+          {
+            "__type": "TargeterDefinitionRange"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SeismicShard",
       "__type": "BuffData"
     },
     "__type": "SpellObject"

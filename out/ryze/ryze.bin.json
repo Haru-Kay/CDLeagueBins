@@ -612,8 +612,11 @@
     "mChildSpells": [
       "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQWrapper",
       "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQ",
+      "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQCharged",
       "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQMissile",
-      "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQMS"
+      "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQMS",
+      "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQShield",
+      "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQUncharged"
     ],
     "mName": "RyzeQWrapperAbility",
     "__type": "AbilityObject"
@@ -829,6 +832,119 @@
         "__type": "SpellDataResourceClient"
       },
       "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQUncharged": {
+    "ObjectName": "RyzeQUncharged",
+    "mScriptName": "RyzeQUncharged",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "{ea595ca6}"
+        ],
+        "__type": "ObjectTags"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            10.0,
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        }
+      ],
+      "mCoefficient": 1.0,
+      "mAnimationName": "Spell2",
+      "mImgIconName": [
+        "ASSETS/Characters/Ryze/HUD/Icons2D/Ryze_Q_grey.dds"
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mCantCancelWhileWindingUp": true,
+      "bHaveHitEffect": true,
+      "bIsToggleSpell": true,
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 5.364999771118164,
+      "missileSpeed": 1200.0,
+      "mHitEffectKey": "Ryze_Q_ManaLeach_chrg_01",
+      "selectionPriority": 1,
+      "mTargetingTypeData": {
+        "__type": "Self"
+      },
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RyzeQUncharged",
+      "__type": "BuffData"
     },
     "__type": "SpellObject"
   },
@@ -1431,6 +1547,232 @@
       ],
       "selectionPriority": 1,
       "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQShield": {
+    "ObjectName": "RyzeQShield",
+    "mScriptName": "RyzeQShield",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "{ea595ca6}"
+        ],
+        "__type": "ObjectTags"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            10.0,
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        }
+      ],
+      "mCoefficient": 1.0,
+      "mAnimationName": "Spell2",
+      "mImgIconName": [
+        "ASSETS/Characters/Ryze/HUD/Icons2D/Ryze_Q_Shield.dds"
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mCantCancelWhileWindingUp": true,
+      "bHaveHitEffect": true,
+      "bIsToggleSpell": true,
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 5.364999771118164,
+      "missileSpeed": 1200.0,
+      "mHitEffectKey": "Ryze_Q_ManaLeach_chrg_01",
+      "selectionPriority": 1,
+      "mTargetingTypeData": {
+        "__type": "Self"
+      },
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RyzeQShield",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Ryze/Spells/RyzeQWrapperAbility/RyzeQCharged": {
+    "ObjectName": "RyzeQCharged",
+    "mScriptName": "RyzeQCharged",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "{ea595ca6}"
+        ],
+        "__type": "ObjectTags"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            10.0,
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        }
+      ],
+      "mCoefficient": 1.0,
+      "mAnimationName": "Spell2",
+      "mImgIconName": [
+        "ASSETS/Characters/Ryze/HUD/Icons2D/Ryze_Q.dds"
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mCantCancelWhileWindingUp": true,
+      "bHaveHitEffect": true,
+      "bIsToggleSpell": true,
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 5.364999771118164,
+      "missileSpeed": 1200.0,
+      "mHitEffectKey": "Ryze_Q_ManaLeach_chrg_01",
+      "selectionPriority": 1,
+      "mTargetingTypeData": {
+        "__type": "Self"
+      },
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RyzeQCharged",
+      "__type": "BuffData"
     },
     "__type": "SpellObject"
   },

@@ -1072,7 +1072,8 @@
       "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolRManager",
       "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolRMissile",
       "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR2",
-      "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR2Missile"
+      "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR2Missile",
+      "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR2ShockwaveMinimap"
     ],
     "mName": "AurelionSolRAbility",
     "mType": 2,
@@ -1839,6 +1840,55 @@
   "{bab26ff8}": {
     "ObjectName": "AurelionSolRAnnouncement",
     "mScriptName": "AurelionSolRAnnouncement",
+    "__type": "SpellObject"
+  },
+  "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR2ShockwaveMinimap": {
+    "ObjectName": "AurelionSolR2ShockwaveMinimap",
+    "mScriptName": "AurelionSolR2ShockwaveMinimap",
+    "mSpell": {
+      "flags": 4194340,
+      "mAffectsTypeFlags": 9216,
+      "mMinimapIconName": "ASSETS/Characters/AurelionSol/HUD/MiniMapShockwave.tex",
+      "mMinimapIconRotation": true,
+      "mIgnoreRangeCheck": true,
+      "mMinimapIconDisplayFlag": 3,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "luaOnMissileUpdateDistanceInterval": 500.0,
+      "mMissileSpec": {
+        "movementComponent": {
+          "mVisualsTrackHiddenTargets": true,
+          "mAngularVelocity": 1.0,
+          "mLifetime": 12.0,
+          "__type": "SyncCircleMovement"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 25.0,
+          "__type": "Defaultvisibility"
+        },
+        "verticalFacing": {
+          "__type": "VeritcalFacingMatchVelocity"
+        },
+        "behaviors": [
+          {
+            "__type": "DestroyOnMovementComplete"
+          }
+        ],
+        "__type": "MissileSpecification"
+      },
+      "mCastType": 7,
+      "mTargetingTypeData": {
+        "__type": "TargetOrLocation"
+      },
+      "__type": "SpellDataResource"
+    },
     "__type": "SpellObject"
   },
   "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR": {

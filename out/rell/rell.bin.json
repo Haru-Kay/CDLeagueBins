@@ -4,7 +4,8 @@
     "mChildSpells": [
       "Characters/Rell/Spells/RellPAbility/RellP",
       "Characters/Rell/Spells/RellPAbility/RellP_Buff",
-      "Characters/Rell/Spells/RellPAbility/RellP_Debuff"
+      "Characters/Rell/Spells/RellPAbility/RellP_Debuff",
+      "Characters/Rell/Spells/RellPAbility/RellP_VFXMis"
     ],
     "mName": "RellPAbility",
     "mType": 3,
@@ -25,6 +26,56 @@
     "mBuff": {
       "mDescription": "buff_desc_RellP_Buff",
       "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Rell/Spells/RellPAbility/RellP_VFXMis": {
+    "ObjectName": "RellP_VFXMis",
+    "mScriptName": "RellP_VFXMis",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 3,
+      "mAnimationName": "",
+      "canCastOrQueueWhileCasting": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mDoesNotConsumeMana": true,
+      "mDoesNotConsumeCooldown": true,
+      "castRange": [
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0
+      ],
+      "luaOnMissileUpdateDistanceInterval": 80.0,
+      "mMissileSpec": {
+        "mMissileWidth": 90.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mTravelTime": 0.4000000059604645,
+          "__type": "FixedTimeMovement"
+        },
+        "heightSolver": {
+          "__type": "GravityHeightSolver"
+        },
+        "verticalFacing": {
+          "__type": "VeritcalFacingMatchVelocity"
+        },
+        "behaviors": [
+          {
+            "__type": "CastOnHit"
+          },
+          {
+            "__type": "DestroyOnMovementComplete"
+          }
+        ],
+        "__type": "MissileSpecification"
+      },
+      "mCastType": 1,
+      "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
   },
@@ -127,12 +178,6 @@
           "__type": "GameCalculation"
         }
       },
-      "{fe87f21e}": [
-        {
-          "{6166b756}": "OnHitDamage",
-          "__type": "{fe87f21e}"
-        }
-      ],
       "mImgIconName": [
         "ASSETS/Characters/Rell/HUD/Icons2D/RellP.dds"
       ],
@@ -999,6 +1044,7 @@
     "mRootSpell": "Characters/Rell/Spells/RellEAbility/RellE",
     "mChildSpells": [
       "Characters/Rell/Spells/RellEAbility/RellE",
+      "Characters/Rell/Spells/RellEAbility/RellE_AllySpellCast",
       "Characters/Rell/Spells/RellEAbility/RellE_Passive",
       "Characters/Rell/Spells/RellEAbility/RellE_VFXMis",
       "Characters/Rell/Spells/RellEAbility/RellE_VFXMis2",
@@ -1030,6 +1076,50 @@
         1200.0,
         1200.0
       ],
+      "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Rell/Spells/RellEAbility/RellE_AllySpellCast": {
+    "ObjectName": "RellE_AllySpellCast",
+    "mScriptName": "RellE_AllySpellCast",
+    "mSpell": {
+      "mAffectsTypeFlags": 16385,
+      "mAffectsStatusFlags": 32,
+      "mAnimationName": "Spell3_Cast",
+      "mCastTime": 0.25,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "canCastOrQueueWhileCasting": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mProjectTargetToCastRange": true,
+      "mCanMoveWhileChanneling": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mIgnoreRangeCheck": true,
+      "castRange": [
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0
+      ],
+      "castFrame": 9.0,
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Rell/Spells/RellEAbility/RellE",
+        "__type": "SpellDataResourceClient"
+      },
       "__type": "SpellDataResource"
     },
     "__type": "SpellObject"

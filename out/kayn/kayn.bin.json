@@ -611,7 +611,8 @@
     "mRootSpell": "Characters/Kayn/Spells/KaynWAbility/KaynW",
     "mChildSpells": [
       "Characters/Kayn/Spells/KaynWAbility/KaynW",
-      "Characters/Kayn/Spells/KaynWAbility/KaynAssW"
+      "Characters/Kayn/Spells/KaynWAbility/KaynAssW",
+      "Characters/Kayn/Spells/KaynWAbility/KaynAssWJumpOut"
     ],
     "mName": "KaynWAbility",
     "AbilityTraits": 2048,
@@ -1193,6 +1194,69 @@
         }
       ],
       "__type": "BotsSpellData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynWAbility/KaynAssWJumpOut": {
+    "ObjectName": "KaynAssWJumpOut",
+    "mScriptName": "KaynAssWJumpOut",
+    "mSpell": {
+      "flags": 36,
+      "mImgIconName": [
+        "Kayn_WGTFO.dds"
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mCantCancelWhileWindingUp": true,
+      "mSpellRevealsChampion": false,
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "mLineWidth": 100.0,
+      "mTargetingTypeData": {
+        "__type": "LocationClamped"
+      },
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "__type": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "minimumDisplayedRange": 10.0,
+            "lineWidth": {
+              "mPerLevelValues": [
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0
+              ],
+              "mValueType": 1,
+              "__type": "FloatPerSpellLevel"
+            },
+            "__type": "TargeterDefinitionLine"
+          }
+        ],
+        "mRightClickSpellAction": 1,
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
   },

@@ -4,6 +4,7 @@
     "mChildSpells": [
       "Characters/Diana/Spells/DianaPassiveAbility/DianaPassive",
       "Characters/Diana/Spells/DianaPassiveAbility/DianaAttackSpeed",
+      "Characters/Diana/Spells/DianaPassiveAbility/DianaPassiveDeathRecap",
       "Characters/Diana/Spells/DianaPassiveAbility/DianaPassiveMarker"
     ],
     "mName": "DianaPassiveAbility",
@@ -1279,7 +1280,8 @@
   "Characters/Diana/Spells/DianaRAbility": {
     "mRootSpell": "Characters/Diana/Spells/DianaRAbility/DianaR",
     "mChildSpells": [
-      "Characters/Diana/Spells/DianaRAbility/DianaR"
+      "Characters/Diana/Spells/DianaRAbility/DianaR",
+      "Characters/Diana/Spells/DianaRAbility/DianaVortex"
     ],
     "mName": "DianaRAbility",
     "mType": 2,
@@ -1679,6 +1681,283 @@
     },
     "__type": "SpellObject"
   },
+  "Characters/Diana/Spells/DianaRAbility/DianaVortex": {
+    "ObjectName": "DianaVortex",
+    "mScriptName": "DianaVortex",
+    "__type": "SpellObject"
+  },
+  "Characters/Diana/Spells/DianaPassiveAbility/DianaPassiveDeathRecap": {
+    "ObjectName": "DianaPassiveDeathRecap",
+    "mScriptName": "DianaPassiveDeathRecap",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Diana/HUD/Icons2D/Diana_Passive_LunarBlade.dds"
+      ],
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_DianaPassive",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Diana/Spells/DianaPassiveAbility/DianaPassiveMarker": {
+    "ObjectName": "DianaPassiveMarker",
+    "mScriptName": "DianaPassiveMarker",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_DianaPassiveMarker",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Diana/Spells/DianaPassiveAbility/DianaAttackSpeed": {
+    "ObjectName": "DianaAttackSpeed",
+    "mScriptName": "DianaAttackSpeed",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Diana/HUD/Icons2D/Diana_Passive_LunarBlade.dds"
+      ],
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mTooltipData": {
+        "mObjectName": "DianaAttackSpeed",
+        "mFormat": "{b34f999a}",
+        "mLocKeys": {
+          "keyName": "Spell_DianaAttackSpeed_Name",
+          "keyTooltip": "Spell_DianaAttackSpeed_Tooltip"
+        },
+        "__type": "TooltipInstanceBuff"
+      },
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Diana/Spells/DianaPassiveAbility/DianaPassive": {
+    "ObjectName": "DianaPassive",
+    "mScriptName": "DianaPassive",
+    "mSpell": {
+      "flags": 20,
+      "mAffectsTypeFlags": 9221,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "{ea595ca6}"
+        ],
+        "__type": "ObjectTags"
+      },
+      "mAlternateName": "DianaPassive",
+      "DataValues": [
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "AttackSpeedValue",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "AttackCount",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "__type": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterMod",
+          "mValues": [
+            2.799999952316284,
+            2.799999952316284,
+            2.799999952316284,
+            2.799999952316284,
+            2.799999952316284,
+            2.799999952316284,
+            2.799999952316284
+          ],
+          "__type": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579
+              ],
+              "__type": "SpellDataValue"
+            }
+          ],
+          "__type": "SpellDataValueVector"
+        }
+      },
+      "mSpellCalculations": {
+        "CleaveDamage": {
+          "mFormulaParts": [
+            {
+              "mLevel1Value": 20.0,
+              "mInitialBonusPerLevel": 5.0,
+              "mBreakpoints": [
+                {
+                  "mLevel": 7,
+                  "mBonusPerLevelAtAndAfter": 10.0,
+                  "__type": "Breakpoint"
+                },
+                {
+                  "mLevel": 12,
+                  "mBonusPerLevelAtAndAfter": 15.0,
+                  "__type": "Breakpoint"
+                },
+                {
+                  "mLevel": 17,
+                  "mBonusPerLevelAtAndAfter": 25.0,
+                  "__type": "Breakpoint"
+                }
+              ],
+              "__type": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "__type": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "__type": "GameCalculation"
+        },
+        "BonusAS": {
+          "mFormulaParts": [
+            {
+              "mStartValue": 0.15000000596046448,
+              "mEndValue": 0.3499999940395355,
+              "__type": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "mDisplayAsPercent": true,
+          "__type": "GameCalculation"
+        },
+        "EmpoweredAS": {
+          "mMultiplier": {
+            "mNumber": 3.0,
+            "__type": "NumberCalculationPart"
+          },
+          "tooltipOnly": true,
+          "mModifiedGameCalculation": "BonusAS",
+          "__type": "GameCalculationModified"
+        }
+      },
+      "mAnimationName": "Spell4",
+      "mImgIconName": [
+        "ASSETS/Characters/Diana/HUD/Icons2D/Diana_Passive_LunarBlade.dds"
+      ],
+      "cooldownTime": [
+        32.0,
+        28.0,
+        24.0,
+        20.0,
+        16.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "cannotBeSuppressed": true,
+      "canCastWhileDisabled": true,
+      "mCantCancelWhileWindingUp": true,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mTargetingTypeData": {
+        "__type": "Self"
+      },
+      "mClientData": {
+        "mTooltipData": {
+          "mObjectName": "DianaPassive",
+          "mFormat": "{476ec0b8}",
+          "mLocKeys": {
+            "keyName": "Spell_DianaPassive_Name",
+            "keySummary": "Spell_DianaPassive_Summary",
+            "keyTooltip": "Spell_DianaPassive_Tooltip",
+            "keyTooltipExtended": "Spell_DianaPassive_TooltipExtended"
+          },
+          "__type": "TooltipInstanceSpell"
+        },
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_DianaPassive",
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
   "Characters/Diana/Spells/DianaEnemyBehind": {
     "ObjectName": "DianaEnemyBehind",
     "mScriptName": "DianaEnemyBehind",
@@ -1956,263 +2235,6 @@
         }
       ],
       "__type": "BotsSpellData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Diana/Spells/DianaPassiveAbility/DianaPassiveMarker": {
-    "ObjectName": "DianaPassiveMarker",
-    "mScriptName": "DianaPassiveMarker",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_DianaPassiveMarker",
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Diana/Spells/DianaPassiveAbility/DianaAttackSpeed": {
-    "ObjectName": "DianaAttackSpeed",
-    "mScriptName": "DianaAttackSpeed",
-    "mSpell": {
-      "mImgIconName": [
-        "ASSETS/Characters/Diana/HUD/Icons2D/Diana_Passive_LunarBlade.dds"
-      ],
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mTooltipData": {
-        "mObjectName": "DianaAttackSpeed",
-        "mFormat": "{b34f999a}",
-        "mLocKeys": {
-          "keyName": "Spell_DianaAttackSpeed_Name",
-          "keyTooltip": "Spell_DianaAttackSpeed_Tooltip"
-        },
-        "__type": "TooltipInstanceBuff"
-      },
-      "__type": "BuffData"
-    },
-    "__type": "SpellObject"
-  },
-  "Characters/Diana/Spells/DianaPassiveAbility/DianaPassive": {
-    "ObjectName": "DianaPassive",
-    "mScriptName": "DianaPassive",
-    "mSpell": {
-      "flags": 20,
-      "mAffectsTypeFlags": 9221,
-      "mRequiredUnitTags": {
-        "mObjectTagList": [
-          "{ea595ca6}"
-        ],
-        "__type": "ObjectTags"
-      },
-      "mAlternateName": "DianaPassive",
-      "DataValues": [
-        {
-          "mName": "APRatio",
-          "mValues": [
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5,
-            0.5
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "BuffDuration",
-          "mValues": [
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "AttackSpeedValue",
-          "mValues": [
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "AttackCount",
-          "mValues": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ],
-          "__type": "SpellDataValue"
-        },
-        {
-          "mName": "MonsterMod",
-          "mValues": [
-            2.799999952316284,
-            2.799999952316284,
-            2.799999952316284,
-            2.799999952316284,
-            2.799999952316284,
-            2.799999952316284,
-            2.799999952316284
-          ],
-          "__type": "SpellDataValue"
-        }
-      ],
-      "DataValuesModeOverride": {
-        "cherry": {
-          "SpellDataValues": [
-            {
-              "mName": "APRatio",
-              "mValues": [
-                0.8500000238418579,
-                0.8500000238418579,
-                0.8500000238418579,
-                0.8500000238418579,
-                0.8500000238418579,
-                0.8500000238418579,
-                0.8500000238418579
-              ],
-              "__type": "SpellDataValue"
-            }
-          ],
-          "__type": "SpellDataValueVector"
-        }
-      },
-      "mSpellCalculations": {
-        "CleaveDamage": {
-          "mFormulaParts": [
-            {
-              "mLevel1Value": 20.0,
-              "mInitialBonusPerLevel": 5.0,
-              "mBreakpoints": [
-                {
-                  "mLevel": 7,
-                  "mBonusPerLevelAtAndAfter": 10.0,
-                  "__type": "Breakpoint"
-                },
-                {
-                  "mLevel": 12,
-                  "mBonusPerLevelAtAndAfter": 15.0,
-                  "__type": "Breakpoint"
-                },
-                {
-                  "mLevel": 17,
-                  "mBonusPerLevelAtAndAfter": 25.0,
-                  "__type": "Breakpoint"
-                }
-              ],
-              "__type": "ByCharLevelBreakpointsCalculationPart"
-            },
-            {
-              "mDataValue": "APRatio",
-              "__type": "StatByNamedDataValueCalculationPart"
-            }
-          ],
-          "__type": "GameCalculation"
-        },
-        "BonusAS": {
-          "mFormulaParts": [
-            {
-              "mStartValue": 0.15000000596046448,
-              "mEndValue": 0.3499999940395355,
-              "__type": "ByCharLevelInterpolationCalculationPart"
-            }
-          ],
-          "mDisplayAsPercent": true,
-          "__type": "GameCalculation"
-        },
-        "EmpoweredAS": {
-          "mMultiplier": {
-            "mNumber": 3.0,
-            "__type": "NumberCalculationPart"
-          },
-          "tooltipOnly": true,
-          "mModifiedGameCalculation": "BonusAS",
-          "__type": "GameCalculationModified"
-        }
-      },
-      "mAnimationName": "Spell4",
-      "mImgIconName": [
-        "ASSETS/Characters/Diana/HUD/Icons2D/Diana_Passive_LunarBlade.dds"
-      ],
-      "cooldownTime": [
-        32.0,
-        28.0,
-        24.0,
-        20.0,
-        16.0,
-        12.0,
-        12.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "cannotBeSuppressed": true,
-      "canCastWhileDisabled": true,
-      "mCantCancelWhileWindingUp": true,
-      "castRadius": [
-        20.0,
-        20.0,
-        20.0,
-        20.0,
-        20.0,
-        20.0,
-        20.0
-      ],
-      "castConeDistance": 100.0,
-      "castFrame": 13.0,
-      "mFloatVarsDecimals": [
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "mTargetingTypeData": {
-        "__type": "Self"
-      },
-      "mClientData": {
-        "mTooltipData": {
-          "mObjectName": "DianaPassive",
-          "mFormat": "{476ec0b8}",
-          "mLocKeys": {
-            "keyName": "Spell_DianaPassive_Name",
-            "keySummary": "Spell_DianaPassive_Summary",
-            "keyTooltip": "Spell_DianaPassive_Tooltip",
-            "keyTooltipExtended": "Spell_DianaPassive_TooltipExtended"
-          },
-          "__type": "TooltipInstanceSpell"
-        },
-        "__type": "SpellDataResourceClient"
-      },
-      "__type": "SpellDataResource"
-    },
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_DianaPassive",
-      "__type": "BuffData"
     },
     "__type": "SpellObject"
   },

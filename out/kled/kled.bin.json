@@ -355,34 +355,67 @@
     },
     "__type": "SpellObject"
   },
-  "Characters/Kled/Spells/KledRAbility": {
-    "mRootSpell": "Characters/Kled/Spells/KledRAbility/KledR",
-    "mChildSpells": [
-      "Characters/Kled/Spells/KledRAbility/KledR",
-      "Characters/Kled/Spells/KledRAbility/KledRChargeAllySpeedBuff",
-      "Characters/Kled/Spells/KledRAbility/KledRDash"
-    ],
-    "mLifetimeManuallyManaged": true,
-    "mName": "KledRAbility",
-    "mType": 2,
-    "AbilityTraits": 2049,
-    "__type": "AbilityObject"
-  },
-  "{2bcd3400}": {
-    "ObjectName": "KledDisMountDash",
-    "mScriptName": "KledDisMountDash",
-    "__type": "SpellObject"
-  },
   "Characters/Kled/Spells/KledEAbility": {
     "mRootSpell": "Characters/Kled/Spells/KledEAbility/KledE",
     "mChildSpells": [
       "Characters/Kled/Spells/KledEAbility/KledE",
       "Characters/Kled/Spells/KledEAbility/KledE2",
+      "Characters/Kled/Spells/KledEAbility/KledE2Dash",
       "Characters/Kled/Spells/KledEAbility/KledEDash",
       "Characters/Kled/Spells/KledEAbility/KledESpeedBuff"
     ],
     "mName": "KledEAbility",
     "__type": "AbilityObject"
+  },
+  "Characters/Kled/Spells/KledEAbility/KledE2Dash": {
+    "ObjectName": "KledE2Dash",
+    "mScriptName": "KledE2Dash",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mSpellTags": [
+        ""
+      ],
+      "mAnimationName": "",
+      "mImgIconName": [
+        ""
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mCantCancelWhileWindingUp": true,
+      "cantCastWhileRooted": true,
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "selectionPriority": 1,
+      "mTargetingTypeData": {
+        "__type": "Location"
+      },
+      "mClientData": {
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Kled/Spells/KledEAbility/KledE",
+        "mTargeterDefinitions": [
+          {
+            "__type": "TargeterDefinitionRange"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
   },
   "Characters/Kled/Spells/KledEAbility/KledE2": {
     "ObjectName": "KledE2",
@@ -772,6 +805,24 @@
       },
       "__type": "SpellDataResource"
     },
+    "__type": "SpellObject"
+  },
+  "Characters/Kled/Spells/KledRAbility": {
+    "mRootSpell": "Characters/Kled/Spells/KledRAbility/KledR",
+    "mChildSpells": [
+      "Characters/Kled/Spells/KledRAbility/KledR",
+      "Characters/Kled/Spells/KledRAbility/KledRChargeAllySpeedBuff",
+      "Characters/Kled/Spells/KledRAbility/KledRDash"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "KledRAbility",
+    "mType": 2,
+    "AbilityTraits": 2049,
+    "__type": "AbilityObject"
+  },
+  "{2bcd3400}": {
+    "ObjectName": "KledDisMountDash",
+    "mScriptName": "KledDisMountDash",
     "__type": "SpellObject"
   },
   "Characters/Kled/Spells/KledRiderQAbility": {

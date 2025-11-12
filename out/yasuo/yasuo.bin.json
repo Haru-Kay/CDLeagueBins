@@ -15,9 +15,12 @@
       "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ",
       "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1",
       "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2W",
       "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2Wrapper",
       "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3",
       "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3Mis",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3MisMinion",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3MisW",
       "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3W",
       "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3Wrapper",
       "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQW"
@@ -140,6 +143,15 @@
         "__type": "SpellDataResourceClient"
       },
       "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3MisW": {
+    "ObjectName": "YasuoQ3MisW",
+    "mScriptName": "YasuoQ3MisW",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQInstaCleave",
+      "__type": "BuffData"
     },
     "__type": "SpellObject"
   },
@@ -617,6 +629,164 @@
     },
     "__type": "SpellObject"
   },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3MisMinion": {
+    "ObjectName": "YasuoQ3MisMinion",
+    "mScriptName": "YasuoQ3MisMinion",
+    "mSpell": {
+      "mAffectsTypeFlags": 6154,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            66.0,
+            132.0,
+            231.0,
+            308.0,
+            440.0,
+            540.0
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.75,
+            3.0,
+            3.25,
+            3.5,
+            3.75,
+            4.0,
+            4.25
+          ],
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        },
+        {
+          "__type": "SpellEffectAmount"
+        }
+      ],
+      "mCoefficient": 1.2000000476837158,
+      "mAnimationName": "Spell1d",
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mCantCancelWhileWindingUp": true,
+      "mProjectTargetToCastRange": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castConeDistance": 100.0,
+      "mMissileSpec": {
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mUseHeightOffsetAtEnd": true,
+          "mTracksTarget": false,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "buffbone_glb_ground_loc",
+          "mSpeed": 1200.0,
+          "__type": "FixedSpeedMovement"
+        },
+        "heightSolver": {
+          "__type": "BlendedLinearHeightSolver"
+        },
+        "verticalFacing": {
+          "__type": "VerticalFacingFaceTarget"
+        },
+        "behaviors": [
+          {
+            "__type": "CastOnHit"
+          },
+          {
+            "__type": "DestroyOnMovementComplete"
+          }
+        ],
+        "__type": "MissileSpecification"
+      },
+      "mCastType": 3,
+      "castFrame": 1.0,
+      "missileSpeed": 1200.0,
+      "mMissileEffectKey": "Yasuo_Q_wind_mis",
+      "mLineWidth": 100.0,
+      "bHaveHitBone": true,
+      "selectionPriority": 2,
+      "mTargetingTypeData": {
+        "__type": "Location"
+      },
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "__type": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "__type": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "__type": "FloatPerSpellLevel"
+            },
+            "__type": "TargeterDefinitionLine"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
+  },
   "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3": {
     "ObjectName": "YasuoQ3",
     "mScriptName": "YasuoQ3",
@@ -1061,6 +1231,102 @@
     "mBuff": {
       "mDescription": "game_buff_tooltip_YasuoQ3W",
       "__type": "BuffData"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2W": {
+    "ObjectName": "YasuoQ2W",
+    "mScriptName": "YasuoQ2W",
+    "mSpell": {
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "YasuoQW",
+      "mCoefficient": 1.0,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q2.dds",
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q2.dds"
+      ],
+      "cooldownTime": [
+        6.5,
+        6.0,
+        5.5,
+        5.0,
+        4.5,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.75,
+      "delayTotalTimePercent": -0.75,
+      "useAnimatorFramerate": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mUseAutoattackCastTimeData": {
+        "__type": "UseAutoattackCastTimeData"
+      },
+      "castRange": [
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0
+      ],
+      "castRangeDisplayOverride": [
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0
+      ],
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castFrame": 7.5,
+      "missileSpeed": 1500.0,
+      "mLineWidth": 55.0,
+      "selectionPriority": 1,
+      "mTargetingTypeData": {
+        "__type": "Location"
+      },
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "__type": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "__type": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0
+              ],
+              "mValueType": 2,
+              "__type": "FloatPerSpellLevel"
+            },
+            "__type": "TargeterDefinitionLine"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
     },
     "__type": "SpellObject"
   },

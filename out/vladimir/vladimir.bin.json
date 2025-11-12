@@ -351,6 +351,7 @@
     "mChildSpells": [
       "Characters/Vladimir/Spells/VladimirEAbility/VladimirE",
       "{08606bf4}",
+      "{8ddd8593}",
       "{d3a3b479}"
     ],
     "mName": "VladimirEAbility",
@@ -417,6 +418,72 @@
       "mTargetingTypeData": {
         "__type": "Direction"
       },
+      "mDimensionBehavior": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "__type": "TargeterDefinitionRange"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
+  },
+  "{8ddd8593}": {
+    "ObjectName": "VladimirE_Temp2",
+    "mScriptName": "VladimirE_Temp2",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "VladimirTransfusionHeal",
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mDoesntBreakChannels": true,
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "castConeDistance": 100.0,
+      "mMissileSpec": {
+        "movementComponent": {
+          "mTargetHeightAugment": 100.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "spine",
+          "mSpeed": 1500.0,
+          "__type": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "__type": "VeritcalFacingMatchVelocity"
+        },
+        "behaviors": [
+          {
+            "__type": "CastOnMovementComplete"
+          },
+          {
+            "__type": "DestroyOnMovementComplete"
+          }
+        ],
+        "__type": "MissileSpecification"
+      },
+      "mCastType": 1,
+      "castFrame": 1.0,
+      "missileSpeed": 1500.0,
+      "mMissileEffectKey": "Vladimir_Q_heal_mis",
       "mDimensionBehavior": 1,
       "mClientData": {
         "mTargeterDefinitions": [
@@ -3674,7 +3741,7 @@
   },
   "Characters/Vladimir/CharacterRecords/Root": {
     "mCharacterName": "Vladimir",
-    "baseHP": 600.0,
+    "baseHP": 607.0,
     "hpPerLevel": 110.0,
     "baseStaticHPRegen": 1.399999976158142,
     "hpRegenPerLevel": 0.11999999731779099,
@@ -3690,7 +3757,7 @@
     },
     "baseDamage": 55.0,
     "damagePerLevel": 3.0,
-    "baseArmor": 24.0,
+    "baseArmor": 27.0,
     "armorPerLevel": 4.5,
     "baseSpellBlock": 30.0,
     "spellBlockPerLevel": 1.2999999523162842,

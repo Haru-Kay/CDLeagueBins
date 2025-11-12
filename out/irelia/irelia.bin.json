@@ -527,6 +527,7 @@
     "mRootSpell": "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassive",
     "mChildSpells": [
       "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassive",
+      "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassiveMissile",
       "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassiveStacks",
       "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassiveStacksMax"
     ],
@@ -549,6 +550,65 @@
   "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassiveStacksMax": {
     "ObjectName": "IreliaPassiveStacksMax",
     "mScriptName": "IreliaPassiveStacksMax",
+    "__type": "SpellObject"
+  },
+  "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassiveMissile": {
+    "ObjectName": "IreliaPassiveMissile",
+    "mScriptName": "IreliaPassiveMissile",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 6826,
+      "mAnimationName": "",
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3999999761581421,
+      "delayTotalTimePercent": -0.25,
+      "mCantCancelWhileWindingUp": true,
+      "mDisableCastBar": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "mMissileSpec": {
+        "movementComponent": {
+          "mTargetHeightAugment": 100.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "__type": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "__type": "VeritcalFacingMatchVelocity"
+        },
+        "behaviors": [
+          {
+            "__type": "CastOnMovementComplete"
+          },
+          {
+            "__type": "DestroyOnMovementComplete"
+          }
+        ],
+        "__type": "MissileSpecification"
+      },
+      "mCastType": 1,
+      "castFrame": 9.0,
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "__type": "SpellDataResource"
+    },
     "__type": "SpellObject"
   },
   "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassive": {

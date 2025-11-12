@@ -3,6 +3,7 @@
     "mRootSpell": "Characters/Galio/Spells/GalioRAbility/GalioR",
     "mChildSpells": [
       "Characters/Galio/Spells/GalioRAbility/GalioR",
+      "Characters/Galio/Spells/GalioRAbility/GalioRAllyBuff",
       "Characters/Galio/Spells/GalioRAbility/GalioRShield",
       "Characters/Galio/Spells/GalioRAbility/GalioRSpellPassive"
     ],
@@ -10,6 +11,39 @@
     "mType": 2,
     "AbilityTraits": 2059,
     "__type": "AbilityObject"
+  },
+  "Characters/Galio/Spells/GalioRAbility/GalioRAllyBuff": {
+    "ObjectName": "GalioRAllyBuff",
+    "mScriptName": "GalioRAllyBuff",
+    "mSpell": {
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "__type": "SpellDataResource"
+    },
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_GalioRAllyBuff",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "__type": "BuffData"
+    },
+    "__type": "SpellObject"
   },
   "Characters/Galio/Spells/GalioRAbility/GalioRShield": {
     "ObjectName": "GalioRShield",
@@ -3204,7 +3238,6 @@
         "__type": "CharacterPassiveData"
       }
     ],
-    "{c5c48b41}": 1,
     "__type": "CharacterRecord"
   },
   "Characters/Galio/Skins/Meta": {

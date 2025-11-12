@@ -753,6 +753,7 @@
       "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQ",
       "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQFloatyMissile",
       "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQMis",
+      "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQReturnMis",
       "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQSlow",
       "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQMisBig"
     ],
@@ -834,6 +835,99 @@
                 70.0,
                 70.0,
                 70.0
+              ],
+              "mValueType": 2,
+              "__type": "FloatPerSpellLevel"
+            },
+            "__type": "TargeterDefinitionLine"
+          }
+        ],
+        "__type": "SpellDataResourceClient"
+      },
+      "__type": "SpellDataResource"
+    },
+    "__type": "SpellObject"
+  },
+  "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQReturnMis": {
+    "ObjectName": "TaliyahQReturnMis",
+    "mScriptName": "TaliyahQReturnMis",
+    "mSpell": {
+      "mAnimationName": "Spell1",
+      "mImgIconName": [
+        "ASSETS/Characters/Taliyah/HUD/Icons2D/Taliyah_Q.dds"
+      ],
+      "mCastTime": 0.25,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mCantCancelWhileWindingUp": true,
+      "mProjectTargetToCastRange": true,
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "mMissileSpec": {
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mTracksTarget": false,
+          "mTargetHeightAugment": 100.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "L_hand",
+          "mTravelTime": 0.4000000059604645,
+          "__type": "FixedTimeMovement"
+        },
+        "heightSolver": {
+          "mGravity": 4000.0,
+          "__type": "GravityHeightSolver"
+        },
+        "verticalFacing": {
+          "__type": "VerticalFacingFaceTarget"
+        },
+        "behaviors": [
+          {
+            "__type": "CastOnHit"
+          },
+          {
+            "__type": "DestroyOnMovementComplete"
+          }
+        ],
+        "__type": "MissileSpecification"
+      },
+      "mCastType": 3,
+      "castFrame": 7.5,
+      "missileSpeed": 10.0,
+      "mMissileEffectName": "Taliyah_Q_ReturnLines.troy",
+      "mLineWidth": 60.0,
+      "mHitBoneName": "root",
+      "mTargetingTypeData": {
+        "__type": "LocationClamped"
+      },
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "__type": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
               ],
               "mValueType": 2,
               "__type": "FloatPerSpellLevel"
