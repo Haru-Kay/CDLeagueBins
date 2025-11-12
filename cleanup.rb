@@ -6,6 +6,15 @@ $lang = {}
 File.open("lang/lol.stringtable.json", 'rb') { |f| $lang = JSON.parse(f.read()) }
 $lang = $lang["entries"] || $lang
 File.open("lang/lol.stringtable.json", 'wb') { |f| f.write(JSON.pretty_generate($lang)) }
+loadtips = {}
+$lang.each { |key, string|
+    next if !key.start_with?("game_startup_tip_")
+    id, category = key.split("game_startup_tip_")[1].split("_")
+    loadtips[category] ||= {}
+    loadtips[category].store(id, string)
+}
+Dir.mkdir("loadtips") unless Dir.exist?("loadtips")
+File.open("loadtips/loadtips.json", 'wb') { |f| f.write(JSON.pretty_generate(loadtips)) }
 
 $maps = {
     11 => "Summoner's Rift",
