@@ -52,49 +52,84 @@ def sortLang
         :misc => {}, #replayui, game_cheats, game_hud, scoreboard, game_floatingtext, game_, standalone, lolmodes, shop_, vanguard, 
                     #stats_filter, message_box, replaycameracontrolpanel, loading_screen, surrender, reminder_, radial_menu,
                     #playercard_switcher_, keyboard_lcd, game_announcement
+        :aprilfools => {},
+        :bots => {},
+        :spellbook => {}
     }
     filters = {
-        ["tft", "teamplanner", "set6", "set8", "tier", "_spiritblossom_", "sgpig_journey_name", "companion"] => :tft,
+        ["tft", "teamplanner", "set6", "set8", "tier", "_spiritblossom_", "sgpig_journey_name", "companion", "durian", "chibi"] => :tft,
         ["game_objecttooltips", "tutorial", "learning_quests", "game_intro", "protips", "newplayerquest"] => :tutorial,
         ["tooltip"] => :tooltips,
-        ["loot", "chroma", "loadout_", "sight_ward", "game_summoner_emote", "game_summoner_description", "summoner_icon", "regalia", "ward_", "player_title"] => :loot,
-        ["game_character_skin", "skin", "current_form_tooltip", "current_meter", "selection_button"] => :skins,
+        ["loot", "chroma", "loadout_", "sight_ward", "game_summoner_emote", "game_summoner_description", "summoner_icon", "regalia", "ward_", "player_title",
+            "mastery_title"] => :loot,
+        ["game_character_skin", "skin_augment", "current_form_tooltip", "current_meter", "selection_button"] => :skins,
         ["skin_line", "skinline"] => :skinlines,
         ["chroma"] => :chromas,
-        ["strawberry", "augment_special", "augment_weapon", "augment_stat", "augment_upgrade", "augment_default", "streaberry", "passive_desc_pickupradius"] => :swarm,
+        ["queue"] => :queues,
+        ["strawberry", "augment_special", "augment_weapon", "augment_stat", "augment_upgrade", "augment_default", "streaberry", "passive_desc_pickupradius",
+            "rewards_details_boss_"] => :swarm,
+        ["kiwi", "kingme", "upgrademodifier"] => :mayhem,
         ["cherry", "lolmode_phase", "augment"] => :arena,
         ["ruby"] => :doombots,
-        ["kiwi"] => :mayhem,
         ["crepe"] => :aracanearam,
         ["slime"] => :nexusblitz,
         ["awesome"] => :urf,
+        ["ultbook"] => :spellbook,
         ["spell"] => :spells,
-        ["buff"] => :buffs,
+        ["buff_", "_buff", "buffdesc", "3181buffname", "3181minionbuff"] => :buffs,
         ["game_character_lore"] => :lore,
         ["game_startup_tip"] => :loadtips,
         ["perk"] => :runes,
         ["stat_stone"] => :eternals,
-        ["queue"] => :queues,
-        ["brawl"] => :brawl,
+        ["brawl_"] => :brawl,
         ["challenges", "challenge_", "rewardgroup"] => :challenges,
         ["item"] => :items,
         ["generatedtip_passive_"] => :champs,
-        ["game_character_"] => :units 
+        ["game_character_"] => :units,
+        ["ap2025", "aprilfools2025", "ap_shacoskin_bothparty"] => :aprilfools,
+        ["bark_", "bountyhunter"] => :misc,
+        ["game_bot"] => :bots
     }
+    reverse = filters.invert
+    champIgnore = reverse[:swarm] + reverse[:mayhem] + reverse[:arena] + reverse[:doombots] + reverse[:aracanearam] + reverse[:nexusblitz] + 
+        reverse[:urf] + reverse[:challenges] + reverse[:misc] + reverse[:tft] + reverse[:aprilfools] + reverse[:skins] + reverse[:eternals]
+    override = [
+        "spell_viktorgravitonfield_augmentslow",
+        "generatedtip_passive_heightenedlearning_description",
+        "generatedtip_passive_heightenedlearning_displayname"
+    ]
     $lang.each { |key, tl|
-        found = false
+        next if tl.empty? || tl == "unused, please delete"
+        found = nil
         filters.each { |filter, dest|
             if filter.any? { |id| key.include?(id) }
                 out[dest].store(key, tl)
-                found = true
+                found = dest
                 break
             end
         }
+        if ($champLang.any? { |champ| key.include?(champ) } && !found) || override.include?(key)
+            out[:champs].store(key, tl)
+            out[found].delete(key) if override.include?(key)
+            found = :champs
+            next
+        end
         out[:misc].store(key, tl) if !found
     }
 
     out.each { |type, data|
-        File.open("lang/#{type}.json", 'wb') { |f| f.write(JSON.pretty_generate(data.sort_by { |k, v| k }.to_h)) }
+        if type == :champs
+            champsort = {}
+            $champLang.sort.each { |champ|
+                data.sort_by { |k, v| k }.to_h.each { |k, v|
+                    champsort.store(k, v) if k.include?(champ)
+                }
+            }
+            
+            File.open("lang/#{type}.json", 'wb') { |f| f.write(JSON.pretty_generate(champsort)) }
+        else
+            File.open("lang/#{type}.json", 'wb') { |f| f.write(JSON.pretty_generate(data.sort_by { |k, v| k }.to_h)) }
+        end
     }
 
 end
@@ -117,6 +152,7 @@ Dir.each_child("game-data") { |path|
 queues = {}
 File.open("game-data/queues.json", 'rb') { |f| queues = JSON.parse(f.read()) }
 champs = {}
+$champLang = []
 File.open("game-data/champion-summary.json", 'rb') { |f| 
     c = JSON.parse(f.read()) 
     c.each { |champ|
@@ -124,6 +160,7 @@ File.open("game-data/champion-summary.json", 'rb') { |f|
         id = champ["id"]
         name = champ["name"]
         champs.store(id, name)
+        $champLang.push(champ["alias"].downcase)
     }
 }
 queues.each { |queue|
