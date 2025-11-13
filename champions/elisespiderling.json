@@ -1,0 +1,142 @@
+{
+  "Characters/EliseSpiderling/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 400.0,
+    "attackRange": 175.0,
+    "attackSpeed": 0.6650000214576721,
+    "attackSpeedRatio": 0.6650000214576721,
+    "baseArmor": 30.0,
+    "baseDamage": 0.0,
+    "baseFactorHPRegen": 0.001500000013038516,
+    "baseHP": 80.0,
+    "baseMoveSpeed": 350.0,
+    "baseSpellBlock": 50.0,
+    "baseStaticHPRegen": 0.5,
+    "basicAttack": {
+      "mAttackProbability": 1.0,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "BaseSpellEffectiveness": 1.0,
+      "ChasingAttackRangePercent": 0.5,
+      "PostAttackMoveDelay": 0.800000011920929,
+      "attackSpeed": 10.0,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "description": "game_character_description_EliseSpiderling",
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "critDamageMultiplier": 1.0,
+    "expGivenOnDeath": 0.0,
+    "extraSpells": [
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8402184,
+    "goldGivenOnDeath": 5.0,
+    "healthBarHeight": 20.0,
+    "mCharacterName": "EliseSpiderling",
+    "mFallbackCharacterName": "Elise",
+    "minimapIconOverride": "NoIcon",
+    "minionScoreValue": 0.0,
+    "name": "game_character_displayname_EliseSpiderling",
+    "overrideGameplayCollisionRadius": 1.0,
+    "pathfindingCollisionRadius": 1.0,
+    "primaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseFactorRegen": 0.001500000013038516,
+      "arBaseStaticRegen": 0.5,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 28.0,
+    "selectionRadius": 35.0,
+    "significance": 0.30000001192092896,
+    "unitTagsString": "Minion | Minion_Summon",
+    "~class": "CharacterRecord"
+  },
+  "Characters/EliseSpiderling/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/EliseSpiderling/Spells/EliseSpiderlingBasicAttack": {
+    "ObjectName": "EliseSpiderlingBasicAttack",
+    "mScriptName": "EliseSpiderlingBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "EliseSpiderlingBasicAttack",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "EliseSpiderling_BA_tar",
+      "mImgIconName": [
+        "ASSETS/Characters/Elise/HUD/Icons2D/ElisePassive.DDS"
+      ],
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

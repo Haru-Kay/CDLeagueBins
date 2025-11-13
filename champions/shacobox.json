@@ -1,0 +1,73 @@
+{
+  "Characters/ShacoBox/CharacterRecords/Root": {
+    "acquisitionRange": 700.0,
+    "attackRange": 600.0,
+    "attackSpeed": 1.3589999675750732,
+    "attackSpeedRatio": 1.3589999675750732,
+    "baseArmor": 50.0,
+    "baseDamage": 15.0,
+    "baseHP": 150.0,
+    "baseMoveSpeed": 325.0,
+    "baseSpellBlock": 100.0,
+    "baseStaticHPRegen": 0.0,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.011979999952018261,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "description": "game_spell_description_JackInTheBox",
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "enemyTooltip": "game_character_enemyTooltip_Skeleton_Minion_Archer",
+    "expGivenOnDeath": 0.0,
+    "flags": 8463616,
+    "friendlyTooltip": "game_character_friendlyTooltip_Skeleton_Minion_Archer",
+    "goldGivenOnDeath": 10.0,
+    "healthBarHeight": 57.0,
+    "mCharacterName": "ShacoBox",
+    "mFallbackCharacterName": "Shaco",
+    "minionScoreValue": 0.0,
+    "name": "game_spell_displayname_JackInTheBox",
+    "overrideGameplayCollisionRadius": 50.0,
+    "pathfindingCollisionRadius": 1.0,
+    "perceptionBubbleRadius": 700.0,
+    "primaryAbilityResource": {
+      "arBase": 60.0,
+      "arBaseStaticRegen": 0.0,
+      "arType": 3,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 75.0,
+    "selectionRadius": 115.0,
+    "significance": 0.30000001192092896,
+    "spellNames": [
+      "ShacoBoxSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "spells": [
+      "Characters/Shaco/Spells/ShacoBoxSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "towerTargetingPriorityBoost": 10.0,
+    "unitTagsString": "Minion | Minion_Summon | Special | Special_TeleportTarget | Special_Trap",
+    "~class": "CharacterRecord"
+  },
+  "Characters/ShacoBox/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  }
+}

@@ -1,0 +1,2590 @@
+{
+  "0x13787781": {
+    "ObjectName": "VelkozEStun",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VelkozEStun",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VelkozEStun",
+    "~class": "SpellObject"
+  },
+  "0x1cd9df10": {
+    "ObjectName": "VelkozQSlow",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VelkozQSlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VelkozQSlow",
+    "~class": "SpellObject"
+  },
+  "0x31343611": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      50,
+      100,
+      125,
+      150,
+      60
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "2adacaec-872c-43dc-97e0-bf2b1b9daacf",
+      "itemID": 126368,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_VelkozRapidPStacks",
+    "mNameTraKey": "stat_stone_name_VelkozRapidPStacks",
+    "stoneName": "VelkozRapidPStacks",
+    "~class": "StatStoneData"
+  },
+  "0x3fbc316b": {
+    "ObjectName": "VelkozWMissile",
+    "mScriptName": "VelkozWMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castFrame": 7.53000020980835,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 175.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25099998712539673,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                87.5,
+                87.5,
+                87.5,
+                87.5,
+                87.5,
+                87.5
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.2000000476837158,
+      "mHitBoneName": "root",
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 87.5,
+      "mMissileEffectKey": "Velkoz_W_Turret",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 20.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 87.5,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1700.0,
+          "mTargetHeightAugment": 20.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1700.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x45d0526b": {
+    "catalogEntry": {
+      "contentId": "a4dce99e-34a1-4549-84b4-acec68516650",
+      "itemID": 66600127,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xfaf3573a",
+      "0xf5c5b63c",
+      "0xa01ba297",
+      "0x767c189a"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x46d053fe": {
+    "catalogEntry": {
+      "contentId": "c59c5daf-6677-4298-b9a1-0733d2cee786",
+      "itemID": 66600527,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x31343611",
+      "0xefcbed9e",
+      "0x4f80ce2f"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x4f80ce2f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9000,
+      23000,
+      45000,
+      54000,
+      68000,
+      27000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ca9867b2-0565-4635-b906-011957776f56",
+      "itemID": 126366,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_VelkozPTdamage",
+    "mNameTraKey": "stat_stone_name_VelkozPTdamage",
+    "stoneName": "VelkozPTdamage",
+    "~class": "StatStoneData"
+  },
+  "0x5f536e1e": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "middle",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "utility",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x6938e80b": {
+    "ObjectName": "VelkozQMissile",
+    "mScriptName": "VelkozQMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castFrame": 7.53000020980835,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 175.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25099998712539673,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.2000000476837158,
+      "mHitBoneName": "root",
+      "mImgIconName": [
+        ""
+      ],
+      "mLineWidth": 50.0,
+      "mMissileEffectKey": "Velkoz_Q_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 50.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1300.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1300.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x7337587a": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "1437c49d-2abf-4428-8d01-b0f86c36c47f",
+      "itemID": 125726,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "VelkozEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x767c189a": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      200,
+      75
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "81f5d8b8-399b-446e-a536-c968c2f024ce",
+      "itemID": 126515,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_VelkozEKnockups",
+    "mNameTraKey": "stat_stone_name_VelkozEKnockups",
+    "stoneName": "VelKozEKnockups",
+    "~class": "StatStoneData"
+  },
+  "0x8113db71": {
+    "ObjectName": "VelkozQMissileSplit",
+    "mScriptName": "VelkozQMissileSplit",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.53000020980835,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                45.0,
+                45.0,
+                45.0,
+                45.0,
+                45.0,
+                45.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.2000000476837158,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            90.0,
+            150.0,
+            245.0,
+            315.0,
+            440.0,
+            565.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.25,
+            2.5,
+            2.75,
+            3.0,
+            3.25,
+            3.5,
+            3.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "root",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 45.0,
+      "mMissileEffectKey": "Velkoz_Q_Split_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 45.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 2100.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 2100.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x8738eb36": {
+    "ObjectName": "VelkozQSplitActivate",
+    "mScriptName": "VelkozQSplitActivate",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 2.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Idle1",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "EnableExtendedTooltip": false,
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VelkozQ_Name",
+            "keySummary": "Spell_VelkozQSplitActivate_Tooltip",
+            "keyTooltip": "Spell_VelkozQSplitActivate_Tooltip"
+          },
+          "mObjectName": "VelkozQSplitActivate",
+          "~class": "TooltipInstanceSpell"
+        },
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Velkoz/Spells/VelkozQAbility/VelkozQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Velkoz/HUD/Icons2D/VelKoz_Q2.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x89e98e63": {
+    "ObjectName": "VelkozEMissile",
+    "mScriptName": "VelkozEMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castFrame": 7.974999904632568,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "mAffectsTypeFlags": 1028,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Velkoz_E_terraform_mis",
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 60.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 120.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 60.0,
+          "mStartBoneName": "Buffbone_Glb_Ground_Loc",
+          "mTargetHeightAugment": 60.0,
+          "mTravelTime": 0.550000011920929,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xa01ba297": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2,
+      4,
+      9,
+      10,
+      15,
+      5
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4abb65e3-1049-41ae-ac60-ad829ec59a54",
+      "itemID": 269,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_VelKozEMultiknockups",
+    "mNameTraKey": "stat_stone_name_VelKozEMultiknockups",
+    "stoneName": "VelKozEMultiknockups",
+    "~class": "StatStoneData"
+  },
+  "0xc3079c03": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "446bc95b-ecf7-4029-8842-dffd185f9a70",
+      "itemID": 125727,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "VelkozTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xd7c6d752": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "70829007-25ea-4df2-913d-758e28363a42",
+      "itemID": 125728,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "VelkozStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xe8604153": {
+    "catalogEntry": {
+      "contentId": "adfafbeb-6b36-48b9-b640-f8dcec99d625",
+      "itemID": 66600263,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x7337587a",
+      "0xc3079c03",
+      "0xd7c6d752"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xefcbed9e": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      60,
+      125,
+      150,
+      175,
+      75
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5c39efb4-3053-4da6-a3e0-ef78239867e1",
+      "itemID": 126367,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_VelkozWMultihits",
+    "mNameTraKey": "stat_stone_name_VelkozWMultihits",
+    "stoneName": "VelkozWMultihits",
+    "~class": "StatStoneData"
+  },
+  "0xf5c5b63c": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      50,
+      125,
+      250,
+      300,
+      375,
+      150
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "7c78d410-ff46-463d-90f9-fbde1a6d225f",
+      "itemID": 268,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_VelKozQ2Hits",
+    "mNameTraKey": "stat_stone_name_VelKozQ2Hits",
+    "stoneName": "VelKozQ2Hits",
+    "~class": "StatStoneData"
+  },
+  "0xfaf3573a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      10,
+      25,
+      30,
+      35,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "6e4363fb-441a-4a29-ae18-101558fa0f23",
+      "itemID": 7206,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_VelKozRKills",
+    "mNameTraKey": "stat_stone_name_VelKozRKills",
+    "stoneName": "VelKozRKills",
+    "~class": "StatStoneData"
+  },
+  "Characters/Velkoz/CharacterRecords/Root": {
+    "0xc1984296": [
+      "0x6938e80b",
+      "0x3fbc316b",
+      "0x89e98e63",
+      "Characters/Velkoz/Spells/VelkozResearchProc",
+      "0x8738eb36",
+      "0x8113db71",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 575.0,
+    "armorPerLevel": 4.699999809265137,
+    "attackRange": 525.0,
+    "attackSpeed": 0.6430000066757202,
+    "attackSpeedPerLevel": 1.590000033378601,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 22.0,
+    "baseDamage": 55.0,
+    "baseHP": 590.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.100000023841858,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "attackRank": 2,
+      "championId": 161,
+      "defenseRank": 2,
+      "description": "game_character_description_Velkoz",
+      "difficultyRank": 8,
+      "magicRank": 10,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "Spell_VelkozPassive_Name",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "MAGE",
+      "searchTags": "mage",
+      "searchTagsSecondary": "support",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackName": "VelkozCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.1415927410125732,
+    "extraAttacks": [
+      {
+        "mAttackName": "VelkozBasicAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "VelkozBasicAttack3",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "VelkozQMissile",
+      "VelkozWMissile",
+      "VelkozEMissile",
+      "VelkozResearchProc",
+      "VelkozQSplitActivate",
+      "VelkozQMissileSplit",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "healthBarHeight": 125.0,
+    "hpPerLevel": 102.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Velkoz/Spells/VelkozQAbility",
+      "Characters/Velkoz/Spells/VelkozWAbility",
+      "Characters/Velkoz/Spells/VelkozEAbility",
+      "Characters/Velkoz/Spells/VelkozRAbility",
+      "Characters/Velkoz/Spells/VelkozPassiveAbility"
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Velkoz",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Velkoz/Spells/VelkozPassiveAbility/VelkozPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Shared/Spells/GlobalRunCycleManager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Velkoz/Spells/VelkozPassiveAbility/VelkozPassive",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "name": "game_character_displayname_Velkoz",
+    "passive1IconName": "ASSETS/Characters/Velkoz/HUD/Icons2D/VelKoz_Passive.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_VelkozPassive_Name",
+    "passiveSpell": "VelkozPassive",
+    "passiveToolTip": "Spell_VelkozPassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 469.0,
+      "arBaseStaticRegen": 1.600000023841858,
+      "arPerLevel": 21.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 302.7778015136719,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "VelkozQAbility/VelkozQ",
+      "VelkozWAbility/VelkozW",
+      "VelkozEAbility/VelkozE",
+      "VelkozRAbility/VelkozR"
+    ],
+    "spells": [
+      "Characters/Velkoz/Spells/VelkozQAbility/VelkozQ",
+      "Characters/Velkoz/Spells/VelkozWAbility/VelkozW",
+      "Characters/Velkoz/Spells/VelkozEAbility/VelkozE",
+      "Characters/Velkoz/Spells/VelkozRAbility/VelkozR"
+    ],
+    "unitTagsString": "Champion | Special_Void",
+    "~class": "CharacterRecord"
+  },
+  "Characters/Velkoz/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Velkoz/Spells/VelkozBasicAttack": {
+    "ObjectName": "VelkozBasicAttack",
+    "mScriptName": "VelkozBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "VelkozBasicAttack",
+      "mAnimationWinddownName": "Tentacles",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "missileSpeed": 8000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozBasicAttack2": {
+    "ObjectName": "VelkozBasicAttack2",
+    "mScriptName": "VelkozBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "VelkozBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mAnimationWinddownName": "Tentacles",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozBasicAttack3": {
+    "ObjectName": "VelkozBasicAttack3",
+    "mScriptName": "VelkozBasicAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "VelkozBasicAttack3",
+      "mAnimationName": "Attack3",
+      "mAnimationWinddownName": "Tentacles",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozCritAttack": {
+    "ObjectName": "VelkozCritAttack",
+    "mScriptName": "VelkozCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "VelkozBasicAttack",
+      "mAnimationName": "Crit",
+      "mAnimationWinddownName": "Tentacles",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "missileSpeed": 8000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozEAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Velkoz/Spells/VelkozEAbility/VelkozE",
+      "0x89e98e63",
+      "0x13787781"
+    ],
+    "mName": "VelkozEAbility",
+    "mRootSpell": "Characters/Velkoz/Spells/VelkozEAbility/VelkozE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Velkoz/Spells/VelkozEAbility/VelkozE": {
+    "ObjectName": "VelkozE",
+    "mScriptName": "VelkozE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PassiveStacksToAdd",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            40.0,
+            70.0,
+            100.0,
+            130.0,
+            160.0,
+            190.0,
+            220.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StunDuration",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveDistance",
+          "mValues": [
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxDetonationTime",
+          "mValues": [
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinDetonationTime",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "castRangeDisplayOverride": [
+        810.0,
+        810.0,
+        810.0,
+        810.0,
+        810.0,
+        810.0,
+        810.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        11.5,
+        11.0,
+        10.5,
+        10.0,
+        10.0
+      ],
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mAnimationWinddownName": "Tentacles",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureOrientation": 3,
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VelkozE_Name",
+            "keySummary": "Spell_VelkozE_Summary",
+            "keyTooltip": "Spell_VelkozE_Tooltip"
+          },
+          "mObjectName": "VelkozE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.30000001192092896,
+      "mImgIconName": [
+        "ASSETS/Characters/Velkoz/HUD/Icons2D/Velkoz_E.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Velkoz/Spells/VelkozPassiveAbility/VelkozPassive"
+    ],
+    "mName": "VelkozPassiveAbility",
+    "mRootSpell": "Characters/Velkoz/Spells/VelkozPassiveAbility/VelkozPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Velkoz/Spells/VelkozPassiveAbility/VelkozPassive": {
+    "ObjectName": "VelkozPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VelkozPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VelkozPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Duration",
+          "mValues": [
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxStacks",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_VelkozPassive_Name",
+            "keySummary": "Spell_VelkozPassive_Summary",
+            "keyTooltip": "Spell_VelkozPassive_Tooltip"
+          },
+          "mObjectName": "VelkozPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Velkoz/HUD/Icons2D/VelKoz_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.6000000238418579,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mEndValue": 180.0,
+              "mStartValue": 35.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozQAbility": {
+    "AbilityTraits": 256,
+    "mChildSpells": [
+      "Characters/Velkoz/Spells/VelkozQAbility/VelkozQ",
+      "0x6938e80b",
+      "0x8113db71",
+      "0x1cd9df10",
+      "0x8738eb36"
+    ],
+    "mName": "VelkozQAbility",
+    "mRootSpell": "Characters/Velkoz/Spells/VelkozQAbility/VelkozQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Velkoz/Spells/VelkozQAbility/VelkozQ": {
+    "ObjectName": "VelkozQ",
+    "mScriptName": "VelkozQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PassiveStacksToAdd",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            40.0,
+            80.0,
+            120.0,
+            160.0,
+            200.0,
+            240.0,
+            280.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            0.6000000238418579,
+            1.0,
+            1.399999976158142,
+            1.7999999523162842,
+            2.200000047683716,
+            2.5999999046325684,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SplitTelegraphTime",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ManaRefund",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TooltipManaRefund",
+          "mValues": [
+            17.5,
+            20.0,
+            22.5,
+            25.0,
+            27.5,
+            30.0,
+            32.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 7.53000020980835,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 13327,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25099998712539673,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_TotalDamage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_SlowDuration",
+                  "type": "SlowDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VelkozQ_Name",
+            "keySummary": "Spell_VelkozQ_Summary",
+            "keyTooltip": "Spell_VelkozQ_Tooltip"
+          },
+          "mObjectName": "VelkozQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Velkoz/HUD/Icons2D/VelKoz_Q1.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.8999999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        40.0,
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0
+      ],
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozRAbility": {
+    "AbilityTraits": 2,
+    "mChildSpells": [
+      "Characters/Velkoz/Spells/VelkozRAbility/VelkozR"
+    ],
+    "mName": "VelkozRAbility",
+    "mRootSpell": "Characters/Velkoz/Spells/VelkozRAbility/VelkozR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Velkoz/Spells/VelkozRAbility/VelkozR": {
+    "ObjectName": "VelkozR",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VelkozR",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VelkozR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PassiveStacksToAddPerTick",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRange": [
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0
+      ],
+      "castRangeDisplayOverride": [
+        1575.0,
+        1575.0,
+        1575.0,
+        1575.0,
+        1575.0,
+        1575.0,
+        1575.0
+      ],
+      "cooldownTime": [
+        10.0,
+        100.0,
+        90.0,
+        80.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.75,
+      "delayTotalTimePercent": -0.75,
+      "flags": 32,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationLoopName": "Spell4_Base",
+      "mAnimationName": "Spell4_In",
+      "mAnimationWinddownName": "Spell4_Leadout",
+      "mCancelChargeOnRecastTime": 1.0,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        2.5999999046325684,
+        2.5999999046325684,
+        2.5999999046325684,
+        2.5999999046325684,
+        2.5999999046325684,
+        2.5999999046325684,
+        2.5999999046325684
+      ],
+      "mChargeUpdateInterval": 0.10000000149011612,
+      "mClientData": {
+        "mLeftClickSpellAction": 0,
+        "mRightClickSpellAction": 0,
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                87.5,
+                87.5,
+                87.5,
+                87.5,
+                87.5,
+                87.5
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1530.0,
+                1530.0,
+                1530.0,
+                1530.0,
+                1530.0,
+                1530.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "textureOverrideName": "ASSETS/Spells/Textures/CircularRangeIndicator_Dark.tex",
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_TotalDamage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VelkozR_Name",
+            "keySummary": "Spell_VelkozR_Summary",
+            "keyTooltip": "Spell_VelkozR_Tooltip"
+          },
+          "mObjectName": "VelkozR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.25,
+      "mDimensionBehavior": 1,
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            450.0,
+            700.0,
+            925.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            20.0,
+            20.0,
+            20.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHideRangeIndicatorWhenCasting": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Velkoz/HUD/Icons2D/Velkoz_R.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.25,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ChannelSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mUseChargeChanneling": true,
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozResearchProc": {
+    "ObjectName": "VelkozResearchProc",
+    "mScriptName": "VelkozResearchProc",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Velkoz/HUD/Icons2D/VelKoz_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozResearchStack": {
+    "ObjectName": "VelkozResearchStack",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VelkozResearchStack",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VelkozResearchStack",
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozResearchedStack": {
+    "ObjectName": "VelkozResearchedStack",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VelkozResearchedStack",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VelkozResearchedStack",
+    "~class": "SpellObject"
+  },
+  "Characters/Velkoz/Spells/VelkozWAbility": {
+    "mChildSpells": [
+      "Characters/Velkoz/Spells/VelkozWAbility/VelkozW",
+      "0x3fbc316b"
+    ],
+    "mName": "VelkozWAbility",
+    "mRootSpell": "Characters/Velkoz/Spells/VelkozWAbility/VelkozW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Velkoz/Spells/VelkozWAbility/VelkozW": {
+    "ObjectName": "VelkozW",
+    "mScriptName": "VelkozW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PassiveStacksToAdd",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseInitialDamage",
+          "mValues": [
+            10.0,
+            30.0,
+            50.0,
+            70.0,
+            90.0,
+            110.0,
+            130.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseSecondaryDamage",
+          "mValues": [
+            15.0,
+            45.0,
+            75.0,
+            105.0,
+            135.0,
+            165.0,
+            195.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.9199999570846558,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0
+      ],
+      "cooldownTime": [
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 12,
+      "mAffectsTypeFlags": 13327,
+      "mAmmoRechargeTime": [
+        19.0,
+        18.0,
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        14.0
+      ],
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                87.5,
+                87.5,
+                87.5,
+                87.5,
+                87.5,
+                87.5
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_InitialDamage",
+                  "type": "BaseInitialDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_VelkozWSecondaryDamage",
+                  "type": "BaseSecondaryDamage",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "AmmoRechargeTime",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VelkozW_Name",
+            "keySummary": "Spell_VelkozW_Summary",
+            "keyTooltip": "Spell_VelkozW_Tooltip"
+          },
+          "mObjectName": "VelkozW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mCoefficient2": 0.25,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            30.0,
+            50.0,
+            70.0,
+            90.0,
+            110.0,
+            130.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            45.0,
+            75.0,
+            105.0,
+            135.0,
+            165.0,
+            195.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            88.0,
+            88.0,
+            88.0,
+            88.0,
+            88.0,
+            88.0,
+            88.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+      "mImgIconName": [
+        "ASSETS/Characters/Velkoz/HUD/Icons2D/Velkoz_W.dds"
+      ],
+      "mLineWidth": 87.5,
+      "mLookAtPolicy": 1,
+      "mMaxAmmo": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "InitialDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseInitialDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.20000000298023224,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "SecondaryDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseSecondaryDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.25,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0
+      ],
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

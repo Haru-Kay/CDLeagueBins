@@ -1,0 +1,154 @@
+{
+  "Characters/ZyraPassive/CharacterRecords/Root": {
+    "acquisitionRange": 600.0,
+    "attackRange": 600.0,
+    "baseArmor": 0.0,
+    "baseDamage": -2.0,
+    "baseHP": 6.0,
+    "baseMoveSpeed": 0.0,
+    "baseStaticHPRegen": 0.0,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.08070175349712372,
+      "mAttackProbability": 0.75,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 3.0,
+      "attackRank": 7,
+      "defenseRank": 3,
+      "description": "game_character_description_ZyraPassive",
+      "difficultyRank": 4,
+      "magicRank": 2,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "Adds a 30% chance of adding an additional attack that hits a random target within a Small Area.",
+        "Adds a 40% chance of adding an additional attack that hits a random target within a Small Area.",
+        "Adds a 50% chance of adding an additional attack that hits a random target within a Small Area.",
+        "Adds a 60% chance of adding an additional attack that hits a random target within a Small Area."
+      ],
+      "passiveData": [
+        {
+          "effect": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "level": [
+            1
+          ],
+          "name": "game_character_passiveName_ZyraThornPlant",
+          "~class": "ToolPassiveData"
+        },
+        {
+          "level": [
+            5
+          ],
+          "~class": "ToolPassiveData"
+        },
+        {
+          "level": [
+            9
+          ],
+          "~class": "ToolPassiveData"
+        },
+        {
+          "level": [
+            17
+          ],
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "searchTags": "carry,ranged,recommended",
+      "spellData": [
+        {
+          "desc": "Ashe fires a missile at any point on the map.  If the arrow encounters a champion it damages him and nearby enemies.  These units are stunned for up to 5 secs, based on how far the arrow has traveled.",
+          "displayName": "Enchanted Crystal Arrow",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Ashe fires a missile at any point on the map.  If the arrow encounters a champion it damages him and nearby enemies.  These units are stunned for up to 5 secs, based on how far the arrow has traveled.",
+          "displayName": "Enchanted Crystal Arrow",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Ashe fires a missile at any point on the map.  If the arrow encounters a champion it damages him and nearby enemies.  These units are stunned for up to 5 secs, based on how far the arrow has traveled.",
+          "displayName": "Enchanted Crystal Arrow",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Ashe fires a missile at any point on the map.  If the arrow encounters a champion it damages him and nearby enemies.  These units are stunned for up to 5 secs, based on how far the arrow has traveled.",
+          "displayName": "Enchanted Crystal Arrow",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.08070175349712372,
+        "mAttackName": "Zyra_plant_Blossom_attack1",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "expGivenOnDeath": 0.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "Zyra_plant_Blossom_attack1",
+        "mAttackProbability": 0.25,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 8463680,
+    "goldGivenOnDeath": 5.0,
+    "mCharacterName": "ZyraPassive",
+    "mFallbackCharacterName": "ZyraThornPlant",
+    "name": "game_character_displayname_ZyraPassive",
+    "overrideGameplayCollisionRadius": 20.0,
+    "passiveLuaName": "",
+    "passiveName": "game_character_passiveName_ZyraThornPlant",
+    "passiveToolTip": "game_character_passiveDescription_ZyraThornPlant",
+    "pathfindingCollisionRadius": 8.5,
+    "primaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 80.0,
+    "selectionRadius": 80.0,
+    "significance": 0.30000001192092896,
+    "spellNames": [
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "spells": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "towerTargetingPriorityBoost": 10.0,
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/ZyraPassive/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  }
+}

@@ -1,0 +1,3756 @@
+{
+  "0x12668db7": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4500,
+      11000,
+      21000,
+      26000,
+      32000,
+      13000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "59ba4217-6616-4b2d-9d88-c53150cac2d5",
+      "itemID": 126302,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_ViegoHealing",
+    "mNameTraKey": "stat_stone_name_ViegoHealing",
+    "stoneName": "ViegoHealing",
+    "~class": "StatStoneData"
+  },
+  "0x263b99a7": {
+    "ObjectName": "ViegoEHaste",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_ViegoE_Name",
+          "keyTooltip": "Buff_ViegoEHaste_Tooltip"
+        },
+        "mObjectName": "ViegoEHaste",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoEHaste",
+    "~class": "SpellObject"
+  },
+  "0x49164508": {
+    "ObjectName": "ViegoWDash",
+    "mScriptName": "ViegoWDash",
+    "~class": "SpellObject"
+  },
+  "0x4f179cb3": {
+    "catalogEntry": {
+      "contentId": "a39ddf18-a8c0-4e75-8e8c-84c768746c64",
+      "itemID": 66600368,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xb78b2e3d",
+      "0x656b12a7",
+      "0x6d0e275a"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x547df52": {
+    "ObjectName": "ViegoEWallFollowMisHead",
+    "mScriptName": "ViegoEWallFollowMisHead",
+    "mSpell": {
+      "MissileEffectMaxTurnSpeedDegreesPerSecond": 100.0,
+      "MissileEffectMaximumAngleDegrees": 50.0,
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0
+      ],
+      "castRange": [
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 550.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCoefficient": 1.0,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Viego_E_Wall_Missile_L",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 130.0,
+        "movementComponent": {
+          "UsePointSmoothing": true,
+          "mInferDirectionFromFacingIfNeeded": false,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mStopHalfwayAround": true,
+          "mTracksTarget": false,
+          "mUseGroundHeightAtTarget": false,
+          "mWallLength": 6000.0,
+          "mWallOffset": 500.0,
+          "mWallSearchRadius": 300.0,
+          "~class": "WallFollowMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "missileSpeed": 200.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5dbf708d": {
+    "ObjectName": "ViegoQMark",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_ViegoQ_Name",
+          "keyTooltip": "Buff_ViegoQMark_Tooltip"
+        },
+        "mObjectName": "ViegoQMark",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoQMark",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Viego/HUD/Icons2D/Viego_Q.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5f2687cb": {
+    "catalogEntry": {
+      "contentId": "9bd8e509-975d-41c3-b4ce-8aeaded2c1db",
+      "itemID": 66600364,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xb5764288",
+      "0xb597d5",
+      "0x61d7d1e1"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x6026895e": {
+    "catalogEntry": {
+      "contentId": "c3990394-21bb-4352-952b-c2af1a94f89f",
+      "itemID": 66600506,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xd59e3836",
+      "0xfa7c002b",
+      "0x12668db7"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x61d7d1e1": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      7,
+      15,
+      15,
+      20,
+      8
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "8eaffe9c-1b23-4307-a877-5ae26a65a756",
+      "itemID": 125887,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_ViegoRChampionsKilled",
+    "mNameTraKey": "stat_stone_name_ViegoRChampionsKilled",
+    "stoneName": "ViegoRChampionsKilled",
+    "~class": "StatStoneData"
+  },
+  "0x656b12a7": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "70527aaa-0448-4795-9898-2acc0b056dfb",
+      "itemID": 125890,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "ViegoStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x6d0e275a": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "219ac373-0f62-4b6b-ad69-b5fe4b74bb46",
+      "itemID": 125891,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "ViegoTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xb1c3aa2f": {
+    "ObjectName": "ViegoRMoveAway",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_ViegoR_Name",
+          "keyTooltip": "Buff_ViegoRMoveAway_Tooltip"
+        },
+        "mObjectName": "ViegoRMoveAway",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoRMoveAway",
+    "~class": "SpellObject"
+  },
+  "0xb20a97f7": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xb5764288": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      6,
+      15,
+      30,
+      35,
+      40,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "e4bd8b4a-30e6-431c-b5ba-036062de1d86",
+      "itemID": 125888,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_ViegoWMaxDurationStuns",
+    "mNameTraKey": "stat_stone_name_ViegoWMaxDurationStuns",
+    "stoneName": "ViegoWMaxDurationStuns",
+    "~class": "StatStoneData"
+  },
+  "0xb597d5": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5000,
+      12000,
+      24000,
+      29000,
+      36000,
+      14000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "9f82c806-703c-4aa9-acdb-ed27d6a0c1e4",
+      "itemID": 125873,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_ViegoPDamageWhileTransformed",
+    "mNameTraKey": "stat_stone_name_ViegoPDamageWhileTransformed",
+    "stoneName": "ViegoPDamageWhileTransformed",
+    "~class": "StatStoneData"
+  },
+  "0xb78b2e3d": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "803b882b-5f12-4855-9551-6a85ab5bbce3",
+      "itemID": 125892,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "ViegoEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xd59e3836": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      40,
+      80,
+      95,
+      125,
+      50
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "23e0e14c-1786-4f6a-a9f6-128a2a0d7658",
+      "itemID": 126304,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_ViegoETakedowns",
+    "mNameTraKey": "stat_stone_name_ViegoETakedowns",
+    "stoneName": "ViegoETakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xe689245c": {
+    "ObjectName": "ViegoEWallFollowMisCounterClockwiseHead",
+    "mScriptName": "ViegoEWallFollowMisCounterClockwiseHead",
+    "mSpell": {
+      "MissileEffectMaxTurnSpeedDegreesPerSecond": 100.0,
+      "MissileEffectMaximumAngleDegrees": 50.0,
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0
+      ],
+      "castRange": [
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 550.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCoefficient": 1.0,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Viego_E_Wall_Missile_R",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 130.0,
+        "movementComponent": {
+          "UsePointSmoothing": true,
+          "mCounterClockwise": true,
+          "mInferDirectionFromFacingIfNeeded": false,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mStopHalfwayAround": true,
+          "mTracksTarget": false,
+          "mUseGroundHeightAtTarget": false,
+          "mWallLength": 8000.0,
+          "mWallOffset": 500.0,
+          "mWallSearchRadius": 300.0,
+          "~class": "WallFollowMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "missileSpeed": 200.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xfa7c002b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10000,
+      25000,
+      50000,
+      60000,
+      76000,
+      30000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f6550154-f40b-45ff-8bf8-f999748b5cf7",
+      "itemID": 126303,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_ViegoQDamage",
+    "mNameTraKey": "stat_stone_name_ViegoQDamage",
+    "stoneName": "ViegoQDamage",
+    "~class": "StatStoneData"
+  },
+  "Characters/Viego/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 775.0,
+    "armorPerLevel": 4.599999904632568,
+    "attackRange": 200.0,
+    "attackSpeed": 0.6579999923706055,
+    "attackSpeedPerLevel": 2.25,
+    "attackSpeedRatio": 0.6579999923706055,
+    "baseArmor": 34.0,
+    "baseDamage": 57.0,
+    "baseHP": 630.0,
+    "baseMoveSpeed": 345.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.399999976158142,
+    "basicAttack": {
+      "mAttackCastTime": 0.25,
+      "mAttackName": "ViegoBasicAttack",
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.5199999809265137,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.30000001192092896,
+      "attackRank": 6,
+      "championId": 234,
+      "classification": "Deadly",
+      "defenseRank": 4,
+      "description": "game_character_description_Viego",
+      "difficultyRank": 5,
+      "magicRank": 2,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "assassin",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.25,
+        "mAttackName": "ViegoCritAttack",
+        "mAttackProbability": 1.0,
+        "mAttackTotalTime": 1.5199999809265137,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "ViegoCritAttack2",
+        "mAttackProbability": 0.0,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "ViegoCritAttack3",
+        "mAttackProbability": 0.0,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.5,
+    "deathEventListeningRadius": 1500.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "ViegoBasicAttack2",
+        "mAttackProbability": 0.0,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "ViegoBasicAttack3",
+        "mAttackProbability": 0.0,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8414472,
+    "healthBarHeight": 104.0,
+    "hpPerLevel": 109.0,
+    "hpRegenPerLevel": 0.14000000059604645,
+    "mAbilities": [
+      "Characters/Viego/Spells/ViegoQAbility",
+      "Characters/Viego/Spells/ViegoWAbility",
+      "Characters/Viego/Spells/ViegoEAbility",
+      "Characters/Viego/Spells/ViegoRAbility",
+      "Characters/Viego/Spells/ViegoPassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      8,
+      14,
+      0,
+      0
+    ],
+    "mCharacterName": "Viego",
+    "mCharacterPassiveBuffs": [
+      {
+        "mChildSpells": [
+          "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveAttack"
+        ],
+        "mComponentBuffs": [
+          "Characters/Viego/Spells/ViegoEAbility/ViegoEMist",
+          "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveNotTransformed"
+        ],
+        "mParentPassiveBuff": "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassive",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassive",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NullifyingOrb",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Precision/PresenceOfMind",
+          "mReplaceWith": "Perks/Styles/Precision/Triumph",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Viego",
+    "passive1IconName": "ASSETS/Characters/Viego/HUD/Icons2D/Viego_Passive.dds",
+    "passiveLuaName": "",
+    "passiveName": "",
+    "passiveSpell": "ViegoPassive",
+    "passiveToolTip": "Spell_ViegoMartialCadence_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 10000.0,
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arIsShown": false,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 100.0,
+    "selectionRadius": 125.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellLevelUpInfo": [
+      {
+        "mRequirements": [
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 6,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 11,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 16,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0x4c8e96d4",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      }
+    ],
+    "spellNames": [
+      "ViegoQAbility/ViegoQ",
+      "ViegoWAbility/ViegoW",
+      "ViegoEAbility/ViegoE",
+      "ViegoRAbility/ViegoR"
+    ],
+    "spells": [
+      "Characters/Viego/Spells/ViegoQAbility/ViegoQ",
+      "Characters/Viego/Spells/ViegoWAbility/ViegoW",
+      "Characters/Viego/Spells/ViegoEAbility/ViegoE",
+      "Characters/Viego/Spells/ViegoRAbility/ViegoR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "weaponMaterials": [
+      "ViegoBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Viego/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Viego/Spells/ViegoBasicAttack": {
+    "ObjectName": "ViegoBasicAttack",
+    "mScriptName": "ViegoBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "ViegoBasicAttack",
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Viego_BA_Tar_01",
+      "mHitEffectOrientType": 2,
+      "mTurnSpeedScalar": 3.0,
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoBasicAttack2": {
+    "ObjectName": "ViegoBasicAttack2",
+    "mScriptName": "ViegoBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "ViegoBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Viego_BA_Tar_02",
+      "mHitEffectOrientType": 2,
+      "mTurnSpeedScalar": 3.0,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoBasicAttack3": {
+    "ObjectName": "ViegoBasicAttack3",
+    "mScriptName": "ViegoBasicAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Attack_Close",
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Viego_BA_Tar_03",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoCritAttack": {
+    "ObjectName": "ViegoCritAttack",
+    "mScriptName": "ViegoCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Crit",
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Viego_BA_Crit_Tar_01",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoCritAttack2": {
+    "ObjectName": "ViegoCritAttack2",
+    "mScriptName": "ViegoCritAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Crit2",
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Viego_BA_Crit_Tar_02",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoEAbility": {
+    "AbilityTraits": 128,
+    "mChildSpells": [
+      "Characters/Viego/Spells/ViegoEAbility/ViegoE",
+      "Characters/Viego/Spells/ViegoEAbility/ViegoEMissile",
+      "Characters/Viego/Spells/ViegoEAbility/ViegoEMist",
+      "Characters/Viego/Spells/ViegoEAbility/ViegoEWallFollowMis",
+      "Characters/Viego/Spells/ViegoEAbility/ViegoEWallFollowMisCounterClockwise"
+    ],
+    "mName": "ViegoEAbility",
+    "mRootSpell": "Characters/Viego/Spells/ViegoEAbility/ViegoE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Viego/Spells/ViegoEAbility/ViegoE": {
+    "ObjectName": "ViegoE",
+    "mScriptName": "ViegoE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MistDuration",
+          "mValues": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeed",
+          "mValues": [
+            0.22499999403953552,
+            0.25,
+            0.2750000059604645,
+            0.30000001192092896,
+            0.32499998807907104,
+            0.3499999940395355,
+            0.375
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackSpeed",
+          "mValues": [
+            0.25,
+            0.30000001192092896,
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CamoRadius",
+          "mValues": [
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RestealthTime",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RestealthTimeAfterHittingLargeMonster",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0
+      ],
+      "cooldownTime": [
+        14.0,
+        14.0,
+        12.0,
+        10.0,
+        8.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 275.0,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                120.0,
+                120.0,
+                120.0,
+                120.0,
+                120.0,
+                120.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "MoveSpeed",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_AttackSpeed",
+                  "type": "AttackSpeed",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_ViegoE_Name",
+            "keySummary": "Spell_ViegoE_Summary",
+            "keyTooltip": "Spell_ViegoE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ViegoE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ViegoE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesNotConsumeCooldown": true,
+      "mDoesntBreakChannels": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Viego/HUD/Icons2D/Viego_E.dds",
+        "ASSETS/Characters/Viego/HUD/Icons2D/Viego_Buff.dds"
+      ],
+      "mLineWidth": 70.0,
+      "mSpellCalculations": {
+        "TotalMovespeed": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "MoveSpeed",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.00039999998989515007,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mTurnSpeedScalar": 3.0,
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoEAbility/ViegoEMissile": {
+    "ObjectName": "ViegoEMissile",
+    "mScriptName": "ViegoEMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        775.0,
+        775.0,
+        775.0,
+        775.0,
+        775.0,
+        775.0,
+        775.0
+      ],
+      "castRangeDisplayOverride": [
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194304,
+      "luaOnMissileUpdateDistanceInterval": 275.0,
+      "mAfterEffectKey": "Viego_E_Mis_End_Wall",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesNotConsumeCooldown": true,
+      "mHitBoneName": "root",
+      "mHitEffectKey": "Viego_E_Mis_End_Wall",
+      "mLineWidth": 70.0,
+      "mMissileEffectKey": "Viego_E_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 120.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mTurnSpeedScalar": 3.0,
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoEAbility/ViegoEMist": {
+    "ObjectName": "ViegoEMist",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ViegoEMist_Name",
+          "keyTooltip": "Buff_ViegoEMist_Tooltip"
+        },
+        "mObjectName": "ViegoEMist",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoEMist",
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoEAbility/ViegoEWallFollowMis": {
+    "ObjectName": "ViegoEWallFollowMis",
+    "mScriptName": "ViegoEWallFollowMis",
+    "mSpell": {
+      "MissileEffectMaxTurnSpeedDegreesPerSecond": 100.0,
+      "MissileEffectMaximumAngleDegrees": 50.0,
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0
+      ],
+      "castRange": [
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 550.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCoefficient": 1.0,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Viego_E_Wall_Trail_L",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "Cycles": 8,
+            "SimulationFrames": 2,
+            "TimeToResimulate": 8.0,
+            "~class": "ResimulateTrailVfxOnEnterVisibility"
+          },
+          {
+            "mActions": [
+              {
+                "~class": "Destroy"
+              }
+            ],
+            "mDelay": 8.0,
+            "~class": "TriggerOnDelay"
+          }
+        ],
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 130.0,
+        "movementComponent": {
+          "UsePointSmoothing": true,
+          "mInferDirectionFromFacingIfNeeded": false,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mStopHalfwayAround": true,
+          "mTracksTarget": false,
+          "mUseGroundHeightAtTarget": false,
+          "mWallLength": 6000.0,
+          "mWallOffset": 500.0,
+          "mWallSearchRadius": 300.0,
+          "~class": "WallFollowMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "TrailTimeToConsiderForVisibility": 8.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "missileSpeed": 200.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoEAbility/ViegoEWallFollowMisCounterClockwise": {
+    "ObjectName": "ViegoEWallFollowMisCounterClockwise",
+    "mScriptName": "ViegoEWallFollowMisCounterClockwise",
+    "mSpell": {
+      "MissileEffectMaxTurnSpeedDegreesPerSecond": 100.0,
+      "MissileEffectMaximumAngleDegrees": 50.0,
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0
+      ],
+      "castRange": [
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0,
+        1550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 550.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCoefficient": 1.0,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Viego_E_Wall_Trail_R",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "Cycles": 8,
+            "SimulationFrames": 2,
+            "TimeToResimulate": 8.0,
+            "~class": "ResimulateTrailVfxOnEnterVisibility"
+          },
+          {
+            "mActions": [
+              {
+                "~class": "Destroy"
+              }
+            ],
+            "mDelay": 8.0,
+            "~class": "TriggerOnDelay"
+          }
+        ],
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 130.0,
+        "movementComponent": {
+          "UsePointSmoothing": true,
+          "mCounterClockwise": true,
+          "mInferDirectionFromFacingIfNeeded": false,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mStopHalfwayAround": true,
+          "mTracksTarget": false,
+          "mUseGroundHeightAtTarget": false,
+          "mWallLength": 8000.0,
+          "mWallOffset": 500.0,
+          "mWallSearchRadius": 300.0,
+          "~class": "WallFollowMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "TrailTimeToConsiderForVisibility": 8.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "missileSpeed": 200.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassive",
+      "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveAttack",
+      "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveCasting",
+      "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveNotTransformed",
+      "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveSoul",
+      "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveTransform"
+    ],
+    "mName": "ViegoPassiveAbility",
+    "mRootSpell": "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassive": {
+    "ObjectName": "ViegoPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SennaPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MoveSpeedPercent",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TransformDuration",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseHealPercent",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TakedownWindow",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "InvulnTimeWhileAttackingSoul",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SoulDuration",
+          "mValues": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_ViegoPassive_Name",
+            "keySummary": "Spell_ViegoPassive_Summary",
+            "keyTooltip": "Spell_ViegoPassive_Tooltip",
+            "keyTooltipExtended": "Spell_ViegoPassive_TooltipExtended"
+          },
+          "mObjectName": "ViegoPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Viego/HUD/Icons2D/Viego_Passive.dds",
+        "ASSETS/Characters/Azir/HUD/Icons2D/Azir_Passive.dds",
+        "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_P_CD.dds"
+      ],
+      "mSpellCalculations": {
+        "PercentHealthHeal": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHealPercent",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.02500000037252903,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 0.019999999552965164,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 5.0,
+              "mStat": 4,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveAttack": {
+    "ObjectName": "ViegoPassiveAttack",
+    "mScriptName": "ViegoPassiveAttack",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 30.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayTotalTimePercent": -0.75,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Passive_Attack",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mOverrideAttackTime": {
+        "mCastTimePercent": 1.0,
+        "~class": "OverrideAttackTimeData"
+      },
+      "missileSpeed": 20.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveCasting": {
+    "ObjectName": "ViegoPassiveCasting",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ViegoPassiveCasting_Name",
+          "keyTooltip": "Buff_ViegoPassiveCasting_Tooltip"
+        },
+        "mObjectName": "ViegoPassiveCasting",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoPassiveCasting",
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveNotTransformed": {
+    "ObjectName": "ViegoPassiveNotTransformed",
+    "mScriptName": "ViegoPassiveNotTransformed",
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveSoul": {
+    "ObjectName": "ViegoPassiveSoul",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ViegoPassiveSoul_Name",
+          "keyTooltip": "Buff_ViegoPassiveSoul_Tooltip"
+        },
+        "mObjectName": "ViegoPassiveSoul",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoPassiveSoul",
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoPassiveAbility/ViegoPassiveTransform": {
+    "ObjectName": "ViegoPassiveTransform",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ViegoPassiveTransform_Name",
+          "keyTooltip": "Buff_ViegoPassiveTransform_Tooltip"
+        },
+        "mObjectName": "ViegoPassiveTransform",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoPassiveTransform",
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoQAbility": {
+    "mChildSpells": [
+      "Characters/Viego/Spells/ViegoQAbility/ViegoQ",
+      "Characters/Viego/Spells/ViegoQAbility/ViegoQDoubleAttack",
+      "Characters/Viego/Spells/ViegoQAbility/ViegoQPassive"
+    ],
+    "mName": "ViegoQAbility",
+    "mRootSpell": "Characters/Viego/Spells/ViegoQAbility/ViegoQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Viego/Spells/ViegoQAbility/ViegoQ": {
+    "ObjectName": "ViegoQ",
+    "mScriptName": "ViegoQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Damage",
+          "mValues": [
+            10.0,
+            25.0,
+            40.0,
+            55.0,
+            70.0,
+            85.0,
+            100.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusDamageVsMonsters",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentHealthOnHit",
+          "mValues": [
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinDamageOnHit",
+          "mValues": [
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterCapOnHit",
+          "mValues": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RectangleRange",
+          "mValues": [
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RectangleWidth",
+          "mValues": [
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealModVsMinions",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealModVsMonsters",
+          "mValues": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealModVsChamps",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MarkDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        5.0,
+        5.0,
+        4.5,
+        4.0,
+        3.5,
+        3.0,
+        3.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.875,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Damage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_CurrentHealthDamage",
+                  "type": "PercentHealthOnHit",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ViegoQ_ListType_MinCurrentHealthDamage",
+                  "type": "MinDamageOnHit",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_ViegoQ_Name",
+            "keySummary": "Spell_ViegoQ_Summary",
+            "keyTooltip": "Spell_ViegoQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ViegoQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ViegoQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+      "mHitEffectName": "globalhit_physical.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/Viego/HUD/Icons2D/Viego_Q.dds"
+      ],
+      "mLineWidth": 70.0,
+      "mSpellCalculations": {
+        "SecondAttackDamage": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.20000000298023224,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 0.15000000596046448,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDamage": {
+          "mExpandedTooltipCalculationDisplay": 0,
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.699999988079071,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mStat": 8,
+              "mSubpart": {
+                "mPart1": {
+                  "mNumber": 0.75,
+                  "~class": "NumberCalculationPart"
+                },
+                "mPart2": {
+                  "mSubparts": [
+                    {
+                      "mDataValue": "Damage",
+                      "~class": "NamedDataValueCalculationPart"
+                    },
+                    {
+                      "mCoefficient": 0.699999988079071,
+                      "mStat": 2,
+                      "~class": "StatByCoefficientCalculationPart"
+                    }
+                  ],
+                  "~class": "SumOfSubPartsCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              },
+              "~class": "StatBySubPartCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalPercentHealthOnHit": {
+          "mDisplayAsPercent": true,
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mDataValue": "PercentHealthOnHit",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mNumber": 0.009999999776482582,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mUseAutoattackCastTimeData": {
+        "mAutoattackCastTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mNumber": 1.399999976158142,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 20.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoQAbility/ViegoQDoubleAttack": {
+    "ObjectName": "ViegoQDoubleAttack",
+    "mScriptName": "ViegoQDoubleAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Double_Attack1",
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Viego_BA_Tar_03",
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoQAbility/ViegoQPassive": {
+    "ObjectName": "ViegoQPassive",
+    "mScriptName": "ViegoQPassive",
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoRAbility": {
+    "mChildSpells": [
+      "Characters/Viego/Spells/ViegoRAbility/ViegoR",
+      "Characters/Viego/Spells/ViegoRAbility/ViegoRCast"
+    ],
+    "mName": "ViegoRAbility",
+    "mRootSpell": "Characters/Viego/Spells/ViegoRAbility/ViegoR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Viego/Spells/ViegoRAbility/ViegoR": {
+    "ObjectName": "ViegoR",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_ViegoR_Name",
+          "keyTooltip": "Buff_ViegoR_Tooltip"
+        },
+        "mObjectName": "ViegoR",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoR",
+    "mSpell": {
+      "0x66769fb4": true,
+      "DataValues": [
+        {
+          "mName": "MaxHealthDamage",
+          "mValues": [
+            8.0,
+            12.0,
+            16.0,
+            20.0,
+            24.0,
+            28.0,
+            32.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercent",
+          "mValues": [
+            0.9900000095367432,
+            0.9900000095367432,
+            0.9900000095367432,
+            0.9900000095367432,
+            0.9900000095367432,
+            0.9900000095367432,
+            0.9900000095367432
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LockoutTime",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockbackBonusRange",
+          "mValues": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockbackSpeed",
+          "mValues": [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockbackGravity",
+          "mValues": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castFrame": 20.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRadiusSecondary": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        100.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "delayTotalTimePercent": -0.75,
+      "mAffectsTypeFlags": 4106,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                500.0,
+                500.0,
+                500.0,
+                500.0,
+                500.0,
+                500.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_leona_outer.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_MissingHealthDamage",
+                  "type": "MaxHealthDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_ViegoR_Name",
+            "keySummary": "Spell_ViegoR_Summary",
+            "keyTooltip": "Spell_ViegoR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ViegoR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ViegoR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesNotConsumeCooldown": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Viego/HUD/Icons2D/Viego_R.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mExpandedTooltipCalculationDisplay": 0,
+          "mFormulaParts": [
+            {
+              "mCoefficient": 1.2000000476837158,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mStat": 8,
+              "mSubpart": {
+                "mPart1": {
+                  "mNumber": 1.0,
+                  "~class": "NumberCalculationPart"
+                },
+                "mPart2": {
+                  "mCoefficient": 1.2000000476837158,
+                  "mStat": 2,
+                  "~class": "StatByCoefficientCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              },
+              "~class": "StatBySubPartCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalPercentHealth": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "MaxHealthDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.05000000074505806,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellTags": [
+        "PositiveEffect_Teleport",
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoRAbility/ViegoRCast": {
+    "ObjectName": "ViegoRCast",
+    "mScriptName": "ViegoRCast",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.875,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Viego/Spells/ViegoRAbility/ViegoR",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            5.0,
+            40.0,
+            75.0,
+            110.0,
+            145.0,
+            180.0,
+            215.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "root",
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoSpecialCaseAniviaRevive": {
+    "ObjectName": "ViegoSpecialCaseAniviaRevive",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ViegoSpecialCaseAniviaRevive_Name",
+          "keyTooltip": "Buff_ViegoSpecialCaseAniviaRevive_Tooltip"
+        },
+        "mObjectName": "ViegoSpecialCaseAniviaRevive",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoSpecialCaseAniviaRevive",
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoSpecialCaseAzirTower": {
+    "ObjectName": "ViegoSpecialCaseAzirTower",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ViegoSpecialCaseAzirTower_Name",
+          "keyTooltip": "Buff_ViegoSpecialCaseAzirTower_Tooltip"
+        },
+        "mObjectName": "ViegoSpecialCaseAzirTower",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoSpecialCaseAzirTower",
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoSpecialCaseZacRevive": {
+    "ObjectName": "ViegoSpecialCaseZacRevive",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ViegoSpecialCaseZacRevive_Name",
+          "keyTooltip": "Buff_ViegoSpecialCaseZacRevive_Tooltip"
+        },
+        "mObjectName": "ViegoSpecialCaseZacRevive",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoSpecialCaseZacRevive",
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoWAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Viego/Spells/ViegoWAbility/ViegoW",
+      "Characters/Viego/Spells/ViegoWAbility/ViegoWMis"
+    ],
+    "mName": "ViegoWAbility",
+    "mRootSpell": "Characters/Viego/Spells/ViegoWAbility/ViegoW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Viego/Spells/ViegoWAbility/ViegoW": {
+    "ObjectName": "ViegoW",
+    "mScriptName": "ViegoW",
+    "mSpell": {
+      "0x8958fee2": {
+        "0x79a2e7aa": 0.2750000059604645,
+        "0xffcbd9e2": 0.13500000536441803,
+        "~class": "0x8958fee2"
+      },
+      "DataValues": [
+        {
+          "mName": "Damage",
+          "mValues": [
+            25.0,
+            80.0,
+            135.0,
+            190.0,
+            245.0,
+            300.0,
+            355.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StunMultPercent",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StunDuration",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxStunTT",
+          "mValues": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashDistance",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinMissileRange",
+          "mValues": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxBonusMissileRange",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SelfSlowPercent",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxChargeTime",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CDWheninterrupted",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "cooldownTime": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationLoopName": "Spell2",
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fade": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                450.0,
+                450.0,
+                450.0,
+                450.0,
+                450.0,
+                450.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthDuration": {
+              "mPerLevelValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthMax": {
+              "mPerLevelValues": [
+                850.0,
+                850.0,
+                850.0,
+                850.0,
+                850.0,
+                850.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthStartTime": {
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fade": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Reticle_Gradient_Base_Q_01.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Reticle_Gradient_Base_Q_02.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hasMaxGrowRange": true,
+            "hideWithLineIndicator": true,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                500.0,
+                500.0,
+                500.0,
+                500.0,
+                500.0,
+                500.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthDuration": {
+              "mPerLevelValues": [
+                1.149999976158142,
+                1.149999976158142,
+                1.149999976158142,
+                1.149999976158142,
+                1.149999976158142,
+                1.149999976158142
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthMax": {
+              "mPerLevelValues": [
+                800.0,
+                800.0,
+                800.0,
+                800.0,
+                800.0,
+                800.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Damage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_ViegoW_Name",
+            "keySummary": "Spell_ViegoW_Summary",
+            "keyTooltip": "Spell_ViegoW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ViegoW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ViegoW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 1,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesNotConsumeMana": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Viego/HUD/Icons2D/Viego_W.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.2750000059604645,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell",
+        "PositiveEffect_MoveBlock",
+        "Trait_AttackReset"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mUseChargeChanneling": true,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viego/Spells/ViegoWAbility/ViegoWMis": {
+    "ObjectName": "ViegoWMis",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_ViegoW_Name",
+          "keyTooltip": "Buff_ViegoWMis_Tooltip"
+        },
+        "mObjectName": "ViegoWMis",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViegoWMis",
+    "mSpell": {
+      "0x8958fee2": {
+        "~class": "0x8958fee2"
+      },
+      "castFrame": 8.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6000000238418579,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Crit",
+      "mApplyAttackEffect": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mCastingRevealsCasterStealth": true,
+      "mDisableCastBar": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Viego/HUD/Icons2D/Viego_W.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mMissileEffectKey": "Viego_W_Missile",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnHit"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mSpeed": 1300.0,
+          "mStartBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mShowChannelBar": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

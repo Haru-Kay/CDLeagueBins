@@ -1,0 +1,361 @@
+{
+  "0x92ef378": {
+    "ObjectName": "KalistaWBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KalistaWBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KalistaWBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/HeimerTYellow/CharacterRecords/Root": {
+    "acquisitionRange": 450.0,
+    "attackRange": 530.0,
+    "attackSpeed": 1.25,
+    "attackSpeedRatio": 1.25,
+    "baseArmor": 10.0,
+    "baseDamage": 0.0010000000474974513,
+    "baseHP": 10000.0,
+    "baseMoveSpeed": 0.0,
+    "baseSpellBlock": 25.0,
+    "baseStaticHPRegen": 0.0,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.011979999952018261,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "description": "game_character_description_HeimerdingerQ",
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "critDamageMultiplier": 1.0,
+    "expGivenOnDeath": 0.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "HeimerTYellowBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 8987904,
+    "goldGivenOnDeath": 5.0,
+    "healthBarFullParallax": true,
+    "healthBarHeight": 110.0,
+    "mCharacterName": "HeimerTYellow",
+    "minionScoreValue": 0.0,
+    "name": "game_character_displayname_HeimerdingerQ",
+    "overrideGameplayCollisionRadius": 35.0,
+    "pathfindingCollisionRadius": 1.0,
+    "perceptionBubbleRadius": 650.0,
+    "primaryAbilityResource": {
+      "arBase": 50.0,
+      "arBaseStaticRegen": 0.0,
+      "arType": 12,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 60.0,
+    "selectionRadius": 60.0,
+    "significance": 0.30000001192092896,
+    "spellNames": [
+      "HeimerdingerTurretEnergyBlast",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "spells": [
+      "Characters/HeimerTYellow/Spells/HeimerdingerTurretEnergyBlast",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "towerTargetingPriorityBoost": 10.0,
+    "unitTagsString": "Minion | Minion_Summon",
+    "~class": "CharacterRecord"
+  },
+  "Characters/HeimerTYellow/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/HeimerTYellow/Spells/HeimerTYellowBasicAttack": {
+    "ObjectName": "HeimerTYellowBasicAttack",
+    "mScriptName": "HeimerTYellowBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.774999618530273,
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "mAffectsTypeFlags": 7375,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Heimerdinger_Q_Turret_Tar",
+      "mMissileEffectKey": "Heimerdinger_Q_Turret_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1599.39990234375,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1599.39990234375,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/HeimerTYellow/Spells/HeimerTYellowBasicAttack2": {
+    "ObjectName": "HeimerTYellowBasicAttack2",
+    "mScriptName": "HeimerTYellowBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.774999618530273,
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "mAffectsTypeFlags": 7375,
+      "mAnimationName": "Attack2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Heimerdinger_Q_Turret_Tar",
+      "mMissileEffectKey": "Heimerdinger_Q_Turret_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1599.39990234375,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1599.39990234375,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/HeimerTYellow/Spells/HeimerdingerTurretEnergyBlast": {
+    "ObjectName": "HeimerdingerTurretEnergyBlast",
+    "mScriptName": "HeimerdingerTurretEnergyBlast",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6499999761581421,
+      "delayTotalTimePercent": -0.699999988079071,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "HeimerdingerTurretEnergyBlast",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.42500001192092896,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "spine",
+      "mLineWidth": 50.0,
+      "mMissileEffectKey": "Heimerdinger_Q_Turret_Charged_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 50.0,
+        "movementComponent": {
+          "mAcceleration": -1000.0,
+          "mInitialSpeed": 1650.0,
+          "mMaxSpeed": 1650.0,
+          "mMinSpeed": 1200.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "weapon",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1650.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

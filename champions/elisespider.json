@@ -1,0 +1,541 @@
+{
+  "Characters/EliseSpider/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Elise/Spells/EliseSpiderQAbility/EliseSpiderQCast",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 4.5,
+    "attackRange": 125.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 1.75,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 30.0,
+    "baseDamage": 55.0,
+    "baseHP": 620.0,
+    "baseMoveSpeed": 355.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.100000023841858,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.09099999815225601,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 4.5,
+      "attackRank": 1,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 60,
+      "classification": "Arcane",
+      "defenseRank": 6,
+      "description": "game_character_description_Elise",
+      "difficultyRank": 9,
+      "inherits": {
+        "recommended": "Elise",
+        "~class": "ToolInheritsData"
+      },
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "+40% Mana Point regeneration.",
+        "+60% Mana Point regeneration.",
+        "+80% Mana Point regeneration."
+      ],
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Elise",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "searchTags": "mage,jungler,ranged",
+      "spellData": [
+        {
+          "desc": "Latches chains of energy onto nearby enemy champions dealing damage and stunning them, and if they move too far from Morgana Hex, they are dealt additional damage and stunned again.",
+          "displayName": "Soul Shackles",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Latches chains of energy onto nearby enemy champions dealing damage and stunning them, and if they move too far from Morgana Hex, they are dealt additional damage and stunned again.",
+          "displayName": "Soul Shackles",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Latches chains of energy onto nearby enemy champions dealing damage and stunning them, and if they move too far from Morgana Hex, they are dealt additional damage and stunned again.",
+          "displayName": "Soul Shackles",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Latches chains of energy onto nearby enemy champions dealing damage and stunning them, and if they move too far from Morgana Hex, they are dealt additional damage and stunned again.",
+          "displayName": "Soul Shackles",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.09099999815225601,
+        "mAttackName": "EliseSpiderCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "EliseSpiderBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "EliseSpiderQCast",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "healthBarHeight": 70.0,
+    "hpPerLevel": 109.0,
+    "hpRegenPerLevel": 0.11999999731779099,
+    "mAbilities": [
+      "Characters/Elise/Spells/EliseSpiderQAbility",
+      "Characters/Elise/Spells/EliseSpiderWAbility",
+      "Characters/Elise/Spells/EliseSpiderEAbility"
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "EliseSpider",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Elise/Spells/ElisePassiveAbility/ElisePassive",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Elise/Spells/ElisePassiveAbility/ElisePassive",
+    "mFallbackCharacterName": "Elise",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Elise",
+    "passive1IconName": "ASSETS/Characters/Elise/HUD/Icons2D/ElisePassive.DDS",
+    "passiveLuaName": "ElisePassive",
+    "passiveName": "game_character_passiveName_Elise",
+    "passiveToolTip": "game_character_passiveDescription_Morgana",
+    "pathfindingCollisionRadius": 35.0,
+    "primaryAbilityResource": {
+      "arBase": 324.0,
+      "arBaseStaticRegen": 1.2000000476837158,
+      "arPerLevel": 50.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged",
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 150.0,
+    "selectionRadius": 145.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellLevelUpInfo": [
+      {
+        "mRequirements": [
+          {
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 6,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 11,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 16,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      }
+    ],
+    "spellNames": [
+      "EliseSpiderQCast",
+      "EliseSpiderW",
+      "EliseSpiderEInitial",
+      "EliseRSpider"
+    ],
+    "spells": [
+      "Characters/Elise/Spells/EliseSpiderQAbility/EliseSpiderQCast",
+      "Characters/Elise/Spells/EliseSpiderWAbility/EliseSpiderW",
+      "Characters/Elise/Spells/EliseSpiderEAbility/EliseSpiderEInitial",
+      "Characters/Elise/Spells/EliseRAbility/EliseRSpider"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/EliseSpider/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/EliseSpider/Spells/EliseSpiderBasicAttack": {
+    "ObjectName": "EliseSpiderBasicAttack",
+    "mScriptName": "EliseSpiderBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        385.0,
+        385.0,
+        385.0,
+        385.0,
+        385.0,
+        385.0,
+        385.0
+      ],
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "SkarnerBasicAttack",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Elise_Spider_BA_tar",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/EliseSpider/Spells/EliseSpiderBasicAttack2": {
+    "ObjectName": "EliseSpiderBasicAttack2",
+    "mScriptName": "EliseSpiderBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "SkarnerBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Elise_Spider_BA_tar",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/EliseSpider/Spells/EliseSpiderBasicAttack3": {
+    "ObjectName": "EliseSpiderBasicAttack3",
+    "mScriptName": "EliseSpiderBasicAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "SkarnerBasicAttack2",
+      "mAnimationName": "Attack3",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Elise_Spider_BA_tar",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/EliseSpider/Spells/EliseSpiderCritAttack": {
+    "ObjectName": "EliseSpiderCritAttack",
+    "mScriptName": "EliseSpiderCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "SkarnerCritAttack",
+      "mAnimationName": "Crit",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Elise_Spider_BA_tar",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

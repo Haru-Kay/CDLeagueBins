@@ -1,0 +1,3138 @@
+{
+  "0x1486c067": {
+    "ObjectName": "LeeSinPassiveBuff",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "L_hand",
+              "effectKey": "LeeSin_P_buf_L",
+              "~class": "PersistentVfxData"
+            },
+            {
+              "boneName": "R_hand",
+              "effectKey": "LeeSin_P_buf_R",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_BlindMonkFlurry",
+      "~class": "BuffData"
+    },
+    "mScriptName": "LeeSinPassiveBuff",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinP.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x1d29f255": {
+    "ObjectName": "LeeSinQManager",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "OwnerCondition": {
+            "~class": "IsLocalPlayerBoolDriver"
+          },
+          "PersistentVfxs": [
+            {
+              "effectKey": "LeeSin_Q_ResonatingStrike_Range_01",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "LeeSinQManager",
+    "~class": "SpellObject"
+  },
+  "0x2659ea7b": {
+    "catalogEntry": {
+      "contentId": "bd3dcec1-7118-475e-9858-9a573a9b3552",
+      "itemID": 66600062,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xef244107",
+      "0x5f65856e",
+      "0x63e049e6"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x2759ec0e": {
+    "catalogEntry": {
+      "contentId": "580b9db6-a81d-46fc-9112-becd33c91fcd",
+      "itemID": 66600433,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xf8a74a19",
+      "0x91b08a5",
+      "0xdb5a60c2"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x39eb402a": {
+    "ObjectName": "LeeSinETwoDebuff",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "effectKey": "LeeSin_E_Debuff_onEnemy",
+              "~class": "PersistentVfxData"
+            },
+            {
+              "effectKey": "LeeSin_E_Debuff_Cas",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_BlindMonkCripple",
+      "~class": "BuffData"
+    },
+    "mScriptName": "LeeSinETwoDebuff",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "LeeSinETwo",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.699999988079071,
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinE2.dds"
+      ],
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x3a3ed245": {
+    "ObjectName": "LeeSinSkin11Manager",
+    "mScriptName": "LeeSinSkin11Manager",
+    "~class": "SpellObject"
+  },
+  "0x442f5b63": {
+    "catalogEntry": {
+      "contentId": "4fb7ac8e-d3ac-49b9-b55b-1ac13762bccd",
+      "itemID": 66600225,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xaec180c7",
+      "0xf8f36530",
+      "0xa3629421"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x45c13604": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSubparts": [
+              {
+                "0x137cf12a": "Q2BaseDamage",
+                "SourceObject": "Characters/LeeSin/Spells/LeeSinQOneAbility/LeeSinQOne",
+                "~class": "0x9e9e2e5c"
+              },
+              {
+                "0x137cf12a": "Q2ADRatio",
+                "0xa519b194": "Characters/LeeSin/Spells/LeeSinQOneAbility/LeeSinQOne",
+                "mStat": 2,
+                "~class": "0x1d452085"
+              }
+            ],
+            "~class": "SumOfSubPartsCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 256,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LeeSinQTwo",
+    "mScriptName": "LeeSinQTwo",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinQTwo_OnCast"
+      },
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 25.850000381469727,
+      "castRadius": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "castRange": [
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0
+      ],
+      "cooldownTime": [
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 23567,
+      "mAlternateName": "LeeSinQTwo",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mObjectName": "LeeSinQTwo",
+          "~class": "TooltipInstanceSpell"
+        },
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/LeeSin/Spells/LeeSinQOneAbility/LeeSinQOne",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient2": 2.0,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinQ2.dds"
+      ],
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0
+      ],
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5c418040": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mCoefficient": 0.699999988079071,
+                "mStat": 2,
+                "~class": "StatByCoefficientCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LeeSinWTwo",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "effectKey": "LeeSin_W_ironWill_armor",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_BlindMonkIronWill",
+      "~class": "BuffData"
+    },
+    "mScriptName": "LeeSinWTwo",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinWTwo_OnCast"
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "castRange": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "castRangeDisplayOverride": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "LeeSinWOne",
+      "mAnimationName": "Spell2b",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mObjectName": "LeeSinWTwo",
+          "~class": "TooltipInstanceSpell"
+        },
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/LeeSin/Spells/LeeSinWOneAbility/LeeSinWOne",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinW2.dds"
+      ],
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0
+      ],
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5f65856e": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      10,
+      20,
+      25,
+      30,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "0724c0d4-565c-4ba8-9574-3838e6fa0550",
+      "itemID": 86,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_LeeSinRHitsTowardTeam",
+    "mNameTraKey": "stat_stone_name_LeeSinRHitsTowardTeam",
+    "stoneName": "LeeSinRHitsTowardTeam",
+    "~class": "StatStoneData"
+  },
+  "0x63e049e6": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8000,
+      20000,
+      40000,
+      48000,
+      60000,
+      24000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d5dfdeec-a171-4e6c-b03d-b64d795825e9",
+      "itemID": 191,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_LeeSinW1Blocks",
+    "mNameTraKey": "stat_stone_name_LeeSinW1Blocks",
+    "stoneName": "LeeSinW1Blocks",
+    "~class": "StatStoneData"
+  },
+  "0x70804247": {
+    "ObjectName": "LeeSinWOneShield",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "ForceRenderVfx": true,
+          "PersistentVfxs": [
+            {
+              "boneName": "C_Buffbone_GLB_Center_Loc",
+              "effectKey": "LeeSin_W_shield_self",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_BlindMonkSafeguard",
+      "~class": "BuffData"
+    },
+    "mScriptName": "LeeSinWOneShield",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "18": "Play_sfx_LeeSin_LeeSinWOneShield_OnBuffActivate",
+        "19": "Play_sfx_LeeSin_LeeSinWOneShield_OnBuffDeactivate"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinW1.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x91b08a5": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      45,
+      90,
+      100,
+      125,
+      55
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "43a80c11-cbb8-4e1d-a8df-588c7c4de545",
+      "itemID": 126085,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_LeeSinQLongRange",
+    "mNameTraKey": "stat_stone_name_LeeSinQLongRange",
+    "stoneName": "LeeSinQLongRange",
+    "~class": "StatStoneData"
+  },
+  "0x9b893b27": {
+    "ObjectName": "LeeSinSkin31Manager",
+    "mScriptName": "LeeSinSkin31Manager",
+    "~class": "SpellObject"
+  },
+  "0xa3629421": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "7be8a9e8-1171-4abd-ad32-4fae1469264e",
+      "itemID": 125614,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "LeeSinStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xa986117e": {
+    "ObjectName": "LeeSinSkin52Manager",
+    "mScriptName": "LeeSinSkin52Manager",
+    "~class": "SpellObject"
+  },
+  "0xaec180c7": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "5581854a-e572-4857-b544-d1e7d4af1f3e",
+      "itemID": 125612,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "LeeSinEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xb7ac1c7a": {
+    "ObjectName": "LeeSinWOneDash",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "effectKey": "LeeSin_W_Dash_ToAlly_Trail",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "LeeSinWOneDash",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "18": "Play_sfx_LeeSin_LeeSinWOneDash_OnBuffActivate"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb7f46b98": {
+    "ObjectName": "LeeSinQTwoDash",
+    "mScriptName": "LeeSinQTwoDash",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.934999942779541,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "cooldownTime": [
+        2.5,
+        2.0,
+        1.5,
+        1.0,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "LeeSinQTwo",
+      "mApplyAttackEffect": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mHitEffectKey": "LeeSin_Q_tar",
+      "missileSpeed": 2200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xda26ea25": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mEarlyLevelOverrides": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xdb5a60c2": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7000,
+      17000,
+      35000,
+      41000,
+      52000,
+      21000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "70af5c89-479a-43a2-81f4-b734ff9d42e9",
+      "itemID": 126083,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_LeeSinRDamage",
+    "mNameTraKey": "stat_stone_name_LeeSinRDamage",
+    "stoneName": "LeeSinRDamage",
+    "~class": "StatStoneData"
+  },
+  "0xe3b299ac": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "0x137cf12a": "SlowDuration",
+                "SourceObject": "Characters/LeeSin/Spells/LeeSinEOneAbility/LeeSinEOne",
+                "~class": "0x9e9e2e5c"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LeeSinETwo",
+    "mScriptName": "LeeSinETwo",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinETwo_OnCast"
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        575.0,
+        575.0,
+        575.0,
+        575.0,
+        575.0,
+        575.0,
+        575.0
+      ],
+      "castRange": [
+        575.0,
+        575.0,
+        575.0,
+        575.0,
+        575.0,
+        575.0,
+        575.0
+      ],
+      "cooldownTime": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "LeeSinETwo",
+      "mAnimationName": "Spell3b",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mObjectName": "LeeSinETwo",
+          "~class": "TooltipInstanceSpell"
+        },
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/LeeSin/Spells/LeeSinEOneAbility/LeeSinEOne",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "pelvis",
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinE2.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0
+      ],
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xef244107": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      75,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "1295cd23-8fe8-45ca-8b27-b46ba5845950",
+      "itemID": 99211,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_LeeSinQ2toKills",
+    "mNameTraKey": "stat_stone_name_LeeSinQ2toKills",
+    "stoneName": "LeeSinQ2toKills",
+    "~class": "StatStoneData"
+  },
+  "0xf8a74a19": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      10,
+      20,
+      25,
+      30,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "9bad538b-1137-41aa-94d1-92c9e5a17c06",
+      "itemID": 126084,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_LeeSinRQCombos",
+    "mNameTraKey": "stat_stone_name_LeeSinRQCombos",
+    "stoneName": "LeeSinRQCombos",
+    "~class": "StatStoneData"
+  },
+  "0xf8f36530": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "ae275e74-1a6a-4a3a-bff8-43bc3656e40b",
+      "itemID": 125613,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "LeeSinTakedowns",
+    "~class": "StatStoneData"
+  },
+  "Characters/LeeSin/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "0xc5c48b41": 1,
+    "acquisitionRange": 400.0,
+    "armorPerLevel": 4.5,
+    "attackRange": 125.0,
+    "attackSpeed": 0.6510000228881836,
+    "attackSpeedPerLevel": 3.0,
+    "attackSpeedRatio": 0.6510000228881836,
+    "baseArmor": 36.0,
+    "baseDamage": 66.0,
+    "baseHP": 645.0,
+    "baseMoveSpeed": 345.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.5,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.10468749701976776,
+      "mAttackProbability": 0.4000000059604645,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "attackRank": 8,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 64,
+      "classification": "Deadly",
+      "defenseRank": 5,
+      "description": "game_character_description_LeeSin",
+      "difficultyRank": 6,
+      "magicRank": 3,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "+40% Mana Point regeneration.",
+        "+60% Mana Point regeneration.",
+        "+80% Mana Point regeneration."
+      ],
+      "passiveData": [
+        {
+          "effect": [
+            "0.2",
+            "0.4",
+            "0.6",
+            "0.8"
+          ],
+          "level": [
+            3,
+            7,
+            11,
+            15
+          ],
+          "name": "game_character_passiveName_LeeSin",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "assassin",
+      "spellData": [
+        {
+          "desc": "Teleport to the location of an allied champion, absorbing damage for the target and Shen for a few seconds.",
+          "displayName": "Stand United",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Teleport to the location of an allied champion, absorbing damage for the target and Shen for a few seconds.",
+          "displayName": "Stand United",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Teleport to the location of an allied champion, absorbing damage for the target and Shen for a few seconds.",
+          "displayName": "Stand United",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Teleport to the location of an allied champion, absorbing damage for the target and Shen for a few seconds.",
+          "displayName": "Stand United",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.10468749701976776,
+        "mAttackName": "LeeSinCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.700000047683716,
+    "extraAttacks": [
+      {
+        "mAttackName": "LeeSinBasicAttack2",
+        "mAttackProbability": 0.30000001192092896,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "LeeSinBasicAttack3",
+        "mAttackProbability": 0.20000000298023224,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "LeeSinBasicAttack4",
+        "mAttackProbability": 0.10000000149011612,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 9446664,
+    "hpPerLevel": 108.0,
+    "hpRegenPerLevel": 0.14000000059604645,
+    "mAbilities": [
+      "Characters/LeeSin/Spells/LeeSinQOneAbility",
+      "Characters/LeeSin/Spells/LeeSinWOneAbility",
+      "Characters/LeeSin/Spells/LeeSinEOneAbility",
+      "Characters/LeeSin/Spells/LeeSinRAbility",
+      "Characters/LeeSin/Spells/LeeSinPassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      14,
+      7
+    ],
+    "mCharacterName": "LeeSin",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/LeeSin/Spells/LeeSinPassiveAbility/LeeSinPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            5
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Shared/Spells/GlobalRecallFacingSouth",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            11
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x3a3ed245",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            31
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x9b893b27",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            52
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0xa986117e",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/LeeSin/Spells/LeeSinPassiveAbility/LeeSinPassive",
+    "mEducationToolData": {
+      "firstItem": 1054,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NullifyingOrb",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Domination",
+    "name": "game_character_displayname_LeeSin",
+    "passive1IconName": "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinPassive.dds",
+    "passiveLuaName": "LeeSinPassive",
+    "passiveName": "game_character_passiveName_LeeSin",
+    "passiveToolTip": "game_character_passiveDescription_LeeSin",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 200.0,
+      "arBaseStaticRegen": 10.0,
+      "arType": 1,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 225.0,
+    "selectionRadius": 102.77780151367188,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "LeeSinQOneAbility/LeeSinQOne",
+      "LeeSinWOneAbility/LeeSinWOne",
+      "LeeSinEOneAbility/LeeSinEOne",
+      "LeeSinRAbility/LeeSinR"
+    ],
+    "spells": [
+      "Characters/LeeSin/Spells/LeeSinQOneAbility/LeeSinQOne",
+      "Characters/LeeSin/Spells/LeeSinWOneAbility/LeeSinWOne",
+      "Characters/LeeSin/Spells/LeeSinEOneAbility/LeeSinEOne",
+      "Characters/LeeSin/Spells/LeeSinRAbility/LeeSinR"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "LeeSinBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/LeeSin/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/LeeSin/Spells/LeeSinBasicAttack": {
+    "ObjectName": "LeeSinBasicAttack",
+    "mScriptName": "LeeSinBasicAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinBasicAttack_OnCast",
+        "13": "Play_sfx_LeeSin_LeeSinBasicAttack_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0
+      ],
+      "delayCastOffsetPercent": -0.17569999396800995,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "LeeSinBasicAttack",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "LeeSin_BA_01",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinBasicAttack2": {
+    "ObjectName": "LeeSinBasicAttack2",
+    "mScriptName": "LeeSinBasicAttack2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinBasicAttack2_OnCast",
+        "13": "Play_sfx_LeeSin_LeeSinBasicAttack2_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0
+      ],
+      "delayCastOffsetPercent": -0.17569999396800995,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "LeeSinBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "LeeSin_BA_01",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinBasicAttack3": {
+    "ObjectName": "LeeSinBasicAttack3",
+    "mScriptName": "LeeSinBasicAttack3",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinBasicAttack3_OnCast",
+        "13": "Play_sfx_LeeSin_LeeSinBasicAttack3_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0
+      ],
+      "delayCastOffsetPercent": -0.17569999396800995,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "LeeSinBasicAttack3",
+      "mAnimationName": "Attack3",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "LeeSin_BA_01",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinBasicAttack4": {
+    "ObjectName": "LeeSinBasicAttack4",
+    "mScriptName": "LeeSinBasicAttack4",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinBasicAttack4_OnCast",
+        "13": "Play_sfx_LeeSin_LeeSinBasicAttack4_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0
+      ],
+      "delayCastOffsetPercent": -0.17569999396800995,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "LeeSinBasicAttack4",
+      "mAnimationName": "Attack4",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "LeeSin_BA_01",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinCritAttack": {
+    "ObjectName": "LeeSinCritAttack",
+    "mScriptName": "LeeSinCritAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinCritAttack_OnCast",
+        "13": "Play_sfx_LeeSin_LeeSinCritAttack_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0,
+        -100.0
+      ],
+      "delayCastOffsetPercent": -0.17569999396800995,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "LeeSinCritAttack",
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "LeeSin_BA_crit_01",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinEOneAbility": {
+    "mChildSpells": [
+      "Characters/LeeSin/Spells/LeeSinEOneAbility/LeeSinEOne",
+      "0xe3b299ac",
+      "0x39eb402a"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "LeeSinEOneAbility",
+    "mRootSpell": "Characters/LeeSin/Spells/LeeSinEOneAbility/LeeSinEOne",
+    "~class": "AbilityObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinEOneAbility/LeeSinEOne": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "InitialDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LeeSinEOne",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "effectKey": "0x3aadd5f1",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_BlindMonkTempest",
+      "~class": "BuffData"
+    },
+    "mScriptName": "LeeSinEOne",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            25.0,
+            35.0,
+            45.0,
+            55.0,
+            65.0,
+            75.0,
+            85.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "E1Damage",
+          "mValues": [
+            10.0,
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ReactivateTime",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "SlowAmount",
+              "mValues": [
+                30.0,
+                40.0,
+                50.0,
+                60.0,
+                70.0,
+                80.0,
+                90.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "E1Damage",
+              "mValues": [
+                20.0,
+                55.0,
+                90.0,
+                125.0,
+                160.0,
+                195.0,
+                230.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinEOne_OnCast",
+        "14": "Play_sfx_LeeSin_LeeSinEOne_OnHitLocation",
+        "18": "Play_sfx_LeeSin_LeeSinEOne_OnBuffActivate"
+      },
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "castRange": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "LeeSinEOne",
+      "mAnimationName": "Spell3",
+      "mApplyAttackEffect": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_LeeSinEDamage",
+                  "type": "E1Damage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_LeeSinESlow",
+                  "type": "SlowAmount",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_BlindMonkEOne_Name",
+            "keySummary": "Spell_BlindMonkEOne_Summary",
+            "keyTooltip": "Spell_BlindMonkEOne_Tooltip"
+          },
+          "mObjectName": "LeeSinEOne",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinE1.dds"
+      ],
+      "mSpellCalculations": {
+        "InitialDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "E1Damage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinPassiveAbility": {
+    "mChildSpells": [
+      "Characters/LeeSin/Spells/LeeSinPassiveAbility/LeeSinPassive",
+      "0x1486c067"
+    ],
+    "mName": "LeeSinPassiveAbility",
+    "mRootSpell": "Characters/LeeSin/Spells/LeeSinPassiveAbility/LeeSinPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinPassiveAbility/LeeSinPassive": {
+    "ObjectName": "LeeSinPassive",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "LeeSinPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PassiveAS",
+          "mValues": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FirstHitEnergyMult",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_LeeSinPassive_Name",
+            "keySummary": "Spell_LeeSinPassive_Summary",
+            "keyTooltip": "Spell_LeeSinPassive_Tooltip"
+          },
+          "mObjectName": "LeeSinPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinP.dds"
+      ],
+      "mSpellCalculations": {
+        "EnergyReturn": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 5.0,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 5.0,
+                  "mLevel": 13,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 10.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "TTFirstHitEnergy": {
+          "mModifiedGameCalculation": "EnergyReturn",
+          "mMultiplier": {
+            "mDataValue": "FirstHitEnergyMult",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculationModified"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinQOneAbility": {
+    "mChildSpells": [
+      "Characters/LeeSin/Spells/LeeSinQOneAbility/LeeSinQOne",
+      "0x45c13604",
+      "0xb7f46b98",
+      "0x1d29f255"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "LeeSinQOneAbility",
+    "mRootSpell": "Characters/LeeSin/Spells/LeeSinQOneAbility/LeeSinQOne",
+    "~class": "AbilityObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinQOneAbility/LeeSinQOne": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSubparts": [
+              {
+                "mSpellCalculationKey": "InitialDamage",
+                "~class": "0xf3cbe7b2"
+              },
+              {
+                "mSpellCalculationKey": "EmpoweredDamage",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "SumOfSubPartsCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 60.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32768,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LeeSinQOne",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "effectKey": "LeeSin_Q_tar_indicator",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_BlindMonkSonicWave",
+      "~class": "BuffData"
+    },
+    "mScriptName": "LeeSinQOne",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            9.5,
+            8.5,
+            7.5,
+            6.5,
+            5.5,
+            4.5,
+            3.5
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "Q1BaseDamage",
+          "mValues": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Q2BaseDamage",
+          "mValues": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Q2ADRatio",
+          "mValues": [
+            0.949999988079071,
+            0.949999988079071,
+            0.949999988079071,
+            0.949999988079071,
+            0.949999988079071,
+            0.949999988079071,
+            0.949999988079071
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Q2MaxMissingHealthMod",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ReactivateTime",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CherryBonusHaste",
+          "mValues": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinQOne_OnCast",
+        "13": "Play_sfx_LeeSin_LeeSinQOne_OnHit",
+        "16": "Play_sfx_LeeSin_LeeSinQOne_OnMissileLaunch",
+        "18": "Play_sfx_LeeSin_LeeSinQOne_OnBuffActivate",
+        "19": "Play_sfx_LeeSin_LeeSinQOne_OnBuffDeactivate"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "castRangeDisplayOverride": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "cooldownTime": [
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "LeeSinQOne",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_LeeSinQSonicWaveDamage",
+                  "type": "Q1BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_LeeSinResonatingStrikeMinimumBaseDamage",
+                  "type": "Q2BaseDamage",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "multiplier": 2.0,
+                  "nameOverride": "Spell_ListType_LeeSinResonatingStrikeMaximumBaseDamage",
+                  "type": "Q2BaseDamage",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_BlindMonkQOne_Name",
+            "keySummary": "Spell_BlindMonkQOne_Summary",
+            "keyTooltip": "Spell_BlindMonkQOne_Tooltip"
+          },
+          "mObjectName": "LeeSinQOne",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient2": 2.0,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mHitEffectKey": "LeeSin_Q_tar",
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinQ1.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mMissileEffectKey": "LeeSin_Q_mis_01",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1800.0,
+          "mStartBoneName": "L_Hand",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "EmpoweredDamage": {
+          "mModifiedGameCalculation": "RecastDamage",
+          "mMultiplier": {
+            "mNumber": 2.0,
+            "~class": "NumberCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 6,
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "InitialDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Q1BaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.949999988079071,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "RecastDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Q2BaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "Q2ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mTurnSpeedScalar": 2.0,
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1800.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinRAbility": {
+    "AbilityTraits": 2560,
+    "mChildSpells": [
+      "Characters/LeeSin/Spells/LeeSinRAbility/LeeSinR"
+    ],
+    "mName": "LeeSinRAbility",
+    "mRootSpell": "Characters/LeeSin/Spells/LeeSinRAbility/LeeSinR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinRAbility/LeeSinR": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "Damage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mMultiplier": {
+              "mDataValue": "0x5f4f6d58",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4194304,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 1.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16777216,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LeeSinR",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "C_Buffbone_Glb_Chest_Loc",
+              "effectKey": "LeeSin_R_self_mis",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_BlindMonkDragonsRage",
+      "~class": "BuffData"
+    },
+    "mScriptName": "LeeSinR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            -50.0,
+            175.0,
+            400.0,
+            625.0,
+            850.0,
+            1075.0,
+            1300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentHPCarryThrough",
+          "mValues": [
+            12.0,
+            12.0,
+            15.0,
+            18.0,
+            21.0,
+            24.0,
+            27.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KickDistance",
+          "mValues": [
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinR_OnCast",
+        "13": "Play_sfx_LeeSin_LeeSinR_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0
+      ],
+      "castRange": [
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0
+      ],
+      "cooldownTime": [
+        100.0,
+        110.0,
+        85.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 4106,
+      "mAlternateName": "LeeSinRKick",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 2,
+              "distanceOffset": 100.0,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "basePosition": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_LeeSinRDamage",
+                  "type": "PercentHPCarryThrough",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_BlindMonkRKick_Name",
+            "keySummary": "Spell_BlindMonkRKick_Summary",
+            "keyTooltip": "Spell_BlindMonkRKick_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_BlindMonkRKick_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "LeeSinR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient2": 0.5,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mHitEffectKey": "LeeSin_R_impact",
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinR.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 2.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinWOneAbility": {
+    "AbilityTraits": 8,
+    "mChildSpells": [
+      "Characters/LeeSin/Spells/LeeSinWOneAbility/LeeSinWOne",
+      "0x70804247",
+      "0x5c418040",
+      "0xb7ac1c7a"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "LeeSinWOneAbility",
+    "mRootSpell": "Characters/LeeSin/Spells/LeeSinWOneAbility/LeeSinWOne",
+    "~class": "AbilityObject"
+  },
+  "Characters/LeeSin/Spells/LeeSinWOneAbility/LeeSinWOne": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 512,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "ShieldAmount",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 262144,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "ShieldAmount",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LeeSinWOne",
+    "mScriptName": "LeeSinWOne",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "LifestealAndSpellVamp",
+          "mValues": [
+            6.0,
+            10.0,
+            14.0,
+            18.0,
+            22.0,
+            26.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldValue",
+          "mValues": [
+            25.0,
+            70.0,
+            115.0,
+            160.0,
+            205.0,
+            250.0,
+            295.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "W1ReactivateTime",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "W1CooldownRecovered",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LifestealAndSpellVampTime",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "LifestealAndSpellVamp",
+              "mValues": [
+                10.0,
+                15.0,
+                20.0,
+                25.0,
+                30.0,
+                35.0,
+                40.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "ShieldValue",
+              "mValues": [
+                0.0,
+                70.0,
+                140.0,
+                210.0,
+                280.0,
+                350.0,
+                420.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_LeeSin_LeeSinWOne_OnCast"
+      },
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.934999942779541,
+      "castRadius": [
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0
+      ],
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 16,
+      "mAffectsTypeFlags": 1045,
+      "mAlternateName": "LeeSinWOne",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_LeeSinWShield",
+                  "type": "ShieldValue",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_LeeSinWLifesteal",
+                  "type": "LifestealAndSpellVamp",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_BlindMonkWOne_Name",
+            "keySummary": "Spell_BlindMonkWOne_Summary",
+            "keyTooltip": "Spell_BlindMonkWOne_Tooltip"
+          },
+          "mObjectName": "LeeSinWOne",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "structure",
+          "0x6f573685"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/LeeSin/HUD/Icons2D/LeeSinW1.dds"
+      ],
+      "mSpellCalculations": {
+        "ShieldAmount": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ShieldValue",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.800000011920929,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

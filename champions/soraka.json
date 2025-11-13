@@ -1,0 +1,2935 @@
+{
+  "0x1ba0772f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9,
+      25,
+      45,
+      55,
+      70,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "7a589e92-81fe-45d3-9c61-f2651810a5bb",
+      "itemID": 2056,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_SorakaRLowHP",
+    "mNameTraKey": "stat_stone_name_SorakaRLowHP",
+    "stoneName": "SorakaRLowHP",
+    "~class": "StatStoneData"
+  },
+  "0x28317d4": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "2e6d194c-cefa-43aa-81b7-451e5e559670",
+      "itemID": 125582,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "SorakaEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x2dbb39f6": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      40,
+      85,
+      100,
+      125,
+      50
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "a452c096-3300-4df1-909f-0ab4b3731a18",
+      "itemID": 126238,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_SorakaEMultihits",
+    "mNameTraKey": "stat_stone_name_SorakaEMultihits",
+    "stoneName": "SorakaEMultihits",
+    "~class": "StatStoneData"
+  },
+  "0x30989a6b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2500,
+      6500,
+      13000,
+      16000,
+      20000,
+      8000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "195bb89d-dc56-4316-a259-69d449d5eff2",
+      "itemID": 126236,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_SorakaQHealing",
+    "mNameTraKey": "stat_stone_name_SorakaQHealing",
+    "stoneName": "SorakaQHealing",
+    "~class": "StatStoneData"
+  },
+  "0x37202a65": {
+    "ObjectName": "SorakaQMissile",
+    "mScriptName": "SorakaQMissile",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.974999904632568,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194304,
+      "luaOnMissileUpdateDistanceInterval": 400.0,
+      "mAffectsTypeFlags": 23567,
+      "mAnimationName": "Spell3",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            230.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mLineWidth": 1.0,
+      "mMissileEffectKey": "Soraka_Q_Mis",
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 1.0,
+        "movementComponent": {
+          "mSpeed": 1100.0,
+          "mStartBoneName": "spine",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "missileSpeed": 1100.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x47a61a93": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      35,
+      70,
+      85,
+      100,
+      45
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "65f96f2c-2994-42d8-accb-7ca88108d9f2",
+      "itemID": 227,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_SorakaERoots",
+    "mNameTraKey": "stat_stone_name_SorakaERoots",
+    "stoneName": "SorakaERoots",
+    "~class": "StatStoneData"
+  },
+  "0x6ae23d3c": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "ebc6c08d-d44c-4a33-8185-9e50889d3a0b",
+      "itemID": 125584,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "SorakaStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x951814bb": {
+    "catalogEntry": {
+      "contentId": "c09d9bc4-91df-41df-8358-61e911a8c7e2",
+      "itemID": 66600215,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x28317d4",
+      "0xf6ce0481",
+      "0x6ae23d3c"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x9f6125d3": {
+    "catalogEntry": {
+      "contentId": "678de27b-a5fd-4f61-8ea7-6467dd44d9ec",
+      "itemID": 66600107,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x1ba0772f",
+      "0x47a61a93",
+      "0xe93b52a0"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xa0612766": {
+    "catalogEntry": {
+      "contentId": "56136a47-577f-46ed-b21b-811e06e42adc",
+      "itemID": 66600484,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x30989a6b",
+      "0xe19ac26",
+      "0x2dbb39f6"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xc424ff9": {
+    "ObjectName": "SorakaEPacify",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SorakaEPacify",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SorakaEPacify",
+    "~class": "SpellObject"
+  },
+  "0xe19ac26": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      10,
+      20,
+      25,
+      30,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "7cd6cf8c-9d18-4bad-9c76-220f99fcd207",
+      "itemID": 126237,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_SorakaRTakedowns",
+    "mNameTraKey": "stat_stone_name_SorakaRTakedowns",
+    "stoneName": "SorakaRTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xe93b52a0": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      65,
+      175,
+      325,
+      400,
+      500,
+      200
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "77d86b0d-bb53-45f2-b9d7-9dd81c35af1b",
+      "itemID": 228,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_SorakaQHits",
+    "mNameTraKey": "stat_stone_name_SorakaQHits",
+    "stoneName": "SorakaQHits",
+    "~class": "StatStoneData"
+  },
+  "0xf15243f": {
+    "ObjectName": "SorakaQReturnMissile",
+    "mScriptName": "SorakaQReturnMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 7375,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mMissileEffectKey": "Soraka_Q_Lifesteal_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1400.0,
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1400.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf39cc43c": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "utility",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xf63cefa4": {
+    "ObjectName": "SorakaESnare",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SorakaESnare",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SorakaESnare",
+    "~class": "SpellObject"
+  },
+  "0xf6ce0481": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "c80c4b1a-e039-4dbd-ac96-3c08715cca4c",
+      "itemID": 125583,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "SorakaTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xfdaed7b0": {
+    "ObjectName": "SorakaQRegen",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SorakaQRegen",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SorakaQRegen",
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Characters/Soraka/Spells/SorakaRCastTime",
+      "0xf15243f",
+      "Characters/Soraka/Spells/SorakaWParticleMissile",
+      "0x37202a65",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 5.0,
+    "attackRange": 550.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 2.140000104904175,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 32.0,
+    "baseDamage": 50.0,
+    "baseHP": 605.0,
+    "baseMoveSpeed": 325.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 0.5,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.11299999803304672,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 4.0,
+      "attackRank": 2,
+      "botDefaultSpell1": "SummonerHeal",
+      "botDefaultSpell2": "SummonerTeleport",
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 16,
+      "classification": "Arcane",
+      "defenseRank": 5,
+      "description": "game_character_description_Soraka",
+      "difficultyRank": 3,
+      "magicRank": 7,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "medium": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "level": [
+            8,
+            15
+          ],
+          "name": "game_character_passiveName_Soraka",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "SUPPORT",
+      "searchTags": "support",
+      "searchTagsSecondary": "mage",
+      "spellData": [
+        {
+          "desc": "Instantly restores health to all friendly Champions.",
+          "displayName": "Wish2",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Instantly restores health to all friendly Champions.",
+          "displayName": "Wish2",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Instantly restores health to all friendly Champions.",
+          "displayName": "Wish2",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Instantly restores health to all friendly Champions.",
+          "displayName": "Wish2",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.11299999803304672,
+        "mAttackName": "SorakaCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "SorakaBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "BaseSpell",
+      "BaseSpell",
+      "SorakaRCastTime",
+      "SorakaQReturnMissile",
+      "SorakaWParticleMissile",
+      "SorakaQMissile",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 9446656,
+    "healthBarHeight": 105.0,
+    "hpPerLevel": 88.0,
+    "hpRegenPerLevel": 0.10000000149011612,
+    "mAbilities": [
+      "Characters/Soraka/Spells/SorakaQAbility",
+      "Characters/Soraka/Spells/SorakaWAbility",
+      "Characters/Soraka/Spells/SorakaEAbility",
+      "Characters/Soraka/Spells/SorakaRAbility",
+      "Characters/Soraka/Spells/Consecration_SelfAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      13,
+      0
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Soraka",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Soraka/Spells/SorakaPassive"
+        ],
+        "mParentPassiveBuff": "Characters/Soraka/Spells/Consecration_SelfAbility/Consecration_Self",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            7
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Shared/Spells/GlobalRecallFacingSouth",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Soraka/Spells/Consecration_SelfAbility/Consecration_Self",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "name": "game_character_displayname_Soraka",
+    "passive1IconName": "ASSETS/Characters/Soraka/HUD/Icons2D/Soraka_Passive.dds",
+    "passiveLuaName": "Consecration_Self",
+    "passiveName": "game_character_passiveName_Soraka",
+    "passiveRange": 2750.0,
+    "passiveToolTip": "game_character_passiveDescription_Soraka",
+    "pathfindingCollisionRadius": 44.20000076293945,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 425.0,
+      "arBaseStaticRegen": 2.299999952316284,
+      "arPerLevel": 40.0,
+      "arRegenPerLevel": 0.07999999821186066,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 145.0,
+    "selectionRadius": 110.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "SorakaQAbility/SorakaQ",
+      "SorakaWAbility/SorakaW",
+      "SorakaEAbility/SorakaE",
+      "SorakaRAbility/SorakaR"
+    ],
+    "spells": [
+      "Characters/Soraka/Spells/SorakaQAbility/SorakaQ",
+      "Characters/Soraka/Spells/SorakaWAbility/SorakaW",
+      "Characters/Soraka/Spells/SorakaEAbility/SorakaE",
+      "Characters/Soraka/Spells/SorakaRAbility/SorakaR"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/Soraka/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Soraka/Spells/Consecration": {
+    "ObjectName": "Consecration",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Consecration",
+      "~class": "BuffData"
+    },
+    "mScriptName": "Consecration",
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/Consecration_SelfAbility": {
+    "mChildSpells": [
+      "Characters/Soraka/Spells/Consecration_SelfAbility/Consecration_Self"
+    ],
+    "mName": "Consecration_SelfAbility",
+    "mRootSpell": "Characters/Soraka/Spells/Consecration_SelfAbility/Consecration_Self",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Soraka/Spells/Consecration_SelfAbility/Consecration_Self": {
+    "ObjectName": "Consecration_Self",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Consecration_Self",
+      "~class": "BuffData"
+    },
+    "mScriptName": "Consecration_Self",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MovementSpeed",
+          "mValues": [
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealthThreshold",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_Consecration_Self_Name",
+            "keySummary": "Spell_Consecration_Self_Summary",
+            "keyTooltip": "Spell_Consecration_Self_Tooltip",
+            "keyTooltipExtended": "Spell_Consecration_Self_TooltipExtended"
+          },
+          "mObjectName": "Consecration_Self",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Soraka/HUD/Icons2D/Soraka_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaBasicAttack": {
+    "ObjectName": "SorakaBasicAttack",
+    "mScriptName": "SorakaBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.11249999701976776,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "SorakaBasicAttack",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mMissileEffectKey": "Soraka_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1000.0,
+          "mStartBoneName": "Buffbone_Cstm_Weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaBasicAttack2": {
+    "ObjectName": "SorakaBasicAttack2",
+    "mScriptName": "SorakaBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.11249999701976776,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "SorakaBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mMissileEffectKey": "Soraka_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1000.0,
+          "mStartBoneName": "Buffbone_Cstm_Weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaCritAttack": {
+    "ObjectName": "SorakaCritAttack",
+    "mScriptName": "SorakaCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.11249999701976776,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "SorakaCritAttack",
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Soraka_BA_crit_tar",
+      "mMissileEffectKey": "Soraka_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1000.0,
+          "mStartBoneName": "R_forarm",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaEAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Soraka/Spells/SorakaEAbility/SorakaE",
+      "0xc424ff9",
+      "0xf63cefa4"
+    ],
+    "mName": "SorakaEAbility",
+    "mRootSpell": "Characters/Soraka/Spells/SorakaEAbility/SorakaE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Soraka/Spells/SorakaEAbility/SorakaE": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "RootDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SorakaE",
+    "mScriptName": "SorakaE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            45.0,
+            70.0,
+            95.0,
+            120.0,
+            145.0,
+            170.0,
+            195.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RootDuration",
+          "mValues": [
+            0.75,
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RootDelay",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0
+      ],
+      "castRange": [
+        875.0,
+        875.0,
+        875.0,
+        875.0,
+        875.0,
+        875.0,
+        875.0
+      ],
+      "castRangeDisplayOverride": [
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0
+      ],
+      "cooldownTime": [
+        20.0,
+        20.0,
+        19.0,
+        18.0,
+        17.0,
+        16.0,
+        16.0
+      ],
+      "mAffectsTypeFlags": 7183,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RootDuration",
+                  "type": "RootDuration",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SorakaE_Name",
+            "keySummary": "Spell_SorakaE_Summary",
+            "keyTooltip": "Spell_SorakaE_Tooltip"
+          },
+          "mObjectName": "SorakaE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Soraka/HUD/Icons2D/Soraka_E.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.4000000059604645,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        70.0,
+        75.0,
+        80.0,
+        85.0,
+        90.0,
+        90.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaPassive": {
+    "ObjectName": "SorakaPassive",
+    "mBuff": {
+      "mDescription": "buff_desc_SorakaPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SorakaPassive",
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaQAbility": {
+    "mChildSpells": [
+      "Characters/Soraka/Spells/SorakaQAbility/SorakaQ",
+      "0x37202a65",
+      "0xfdaed7b0",
+      "0xf15243f"
+    ],
+    "mName": "SorakaQAbility",
+    "mRootSpell": "Characters/Soraka/Spells/SorakaQAbility/SorakaQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Soraka/Spells/SorakaQAbility/SorakaQ": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MoveSpeedDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MoveSpeedDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalHot",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 64,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalHot",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SorakaQ",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SorakaQ",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "SorakaQ",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            50.0,
+            85.0,
+            120.0,
+            155.0,
+            190.0,
+            225.0,
+            260.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseHoT",
+          "mValues": [
+            45.0,
+            60.0,
+            75.0,
+            90.0,
+            105.0,
+            120.0,
+            135.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HotDuration",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeedSlow",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeedHaste",
+          "mValues": [
+            0.17499999701976776,
+            0.20000000298023224,
+            0.22499999403953552,
+            0.25,
+            0.2750000059604645,
+            0.30000001192092896,
+            0.32499998807907104
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeedDuration",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealAPRatio",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseHoT",
+              "mValues": [
+                60.0,
+                75.0,
+                90.0,
+                105.0,
+                120.0,
+                135.0,
+                150.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "HealAPRatio",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseHoT",
+              "mValues": [
+                60.0,
+                75.0,
+                90.0,
+                105.0,
+                120.0,
+                135.0,
+                150.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "HealAPRatio",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseHoT",
+              "mValues": [
+                50.0,
+                80.0,
+                110.0,
+                140.0,
+                170.0,
+                200.0,
+                230.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "HealAPRatio",
+              "mValues": [
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 8.5,
+      "castRadius": [
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "castRangeDisplayOverride": [
+        810.0,
+        810.0,
+        810.0,
+        810.0,
+        810.0,
+        810.0,
+        810.0
+      ],
+      "castTargetAdditionalUnitsRadius": 325.0,
+      "cooldownTime": [
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 1029,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_SorakaHealthRestore(Rejuvenation)",
+                  "type": "BaseHoT",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "MoveSpeedHaste",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SorakaQ_Name",
+            "keySummary": "Spell_SorakaQ_Summary",
+            "keyTooltip": "Spell_SorakaQ_Tooltip"
+          },
+          "mObjectName": "SorakaQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Soraka/HUD/Icons2D/Soraka_Q.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.3499999940395355,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalHot": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHot",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "HealAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        ""
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        65.0
+      ],
+      "missileSpeed": 1750.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaRAbility": {
+    "AbilityTraits": 5,
+    "mChildSpells": [
+      "Characters/Soraka/Spells/SorakaRAbility/SorakaR"
+    ],
+    "mName": "SorakaRAbility",
+    "mRootSpell": "Characters/Soraka/Spells/SorakaRAbility/SorakaR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Soraka/Spells/SorakaRAbility/SorakaR": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "HealingCalc",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "HealingCalc",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SorakaR",
+    "mScriptName": "SorakaR",
+    "mSpell": {
+      "0xf9c2333e": {
+        "0xa110bc47": {
+          "value": [
+            120.0,
+            120.0,
+            110.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseHeal",
+          "mValues": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            450.0,
+            550.0,
+            650.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealingAmpForLowHealthAllies",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        150.0,
+        150.0,
+        135.0,
+        120.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 1029,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "BaseHeal",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SorakaR_Name",
+            "keySummary": "Spell_SorakaR_Summary",
+            "keyTooltip": "Spell_SorakaR_Tooltip"
+          },
+          "mObjectName": "SorakaR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.550000011920929,
+      "mImgIconName": [
+        "ASSETS/Characters/Soraka/HUD/Icons2D/Soraka_R.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "AmpedHealing": {
+          "mModifiedGameCalculation": "HealingCalc",
+          "mMultiplier": {
+            "mSubparts": [
+              {
+                "mNumber": 1.0,
+                "~class": "NumberCalculationPart"
+              },
+              {
+                "mDataValue": "HealingAmpForLowHealthAllies",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "SumOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "HealingCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHeal",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaRCastTime": {
+    "ObjectName": "SorakaRCastTime",
+    "mScriptName": "SorakaRCastTime",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "mAffectsTypeFlags": 1029,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.3499999940395355,
+      "mCoefficient2": 0.15000000596046448,
+      "mEffectAmount": [
+        {
+          "value": [
+            5.0,
+            20.0,
+            35.0,
+            50.0,
+            65.0,
+            80.0,
+            95.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Soraka/HUD/Icons2D/Soraka_W.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "missileSpeed": 2400.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaWAbility": {
+    "AbilityTraits": 4,
+    "mChildSpells": [
+      "Characters/Soraka/Spells/SorakaWAbility/SorakaW"
+    ],
+    "mName": "SorakaWAbility",
+    "mRootSpell": "Characters/Soraka/Spells/SorakaWAbility/SorakaW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Soraka/Spells/SorakaWAbility/SorakaW": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalHeal",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalHeal",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SorakaW",
+    "mScriptName": "SorakaW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseHeal",
+          "mValues": [
+            70.0,
+            90.0,
+            110.0,
+            130.0,
+            150.0,
+            170.0,
+            190.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentHealthCost",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinimumPercentHealth",
+          "mValues": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentHealthCostRefund",
+          "mValues": [
+            0.75,
+            0.800000011920929,
+            0.8500000238418579,
+            0.8999999761581421,
+            0.949999988079071,
+            1.0,
+            1.0499999523162842
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "PercentHealthCost",
+              "mValues": [
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "PercentHealthCost",
+              "mValues": [
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "TargetingForgivenessDefinitions": [
+        {
+          "ForgivenessRange": 175.0,
+          "TargetForgivenessDefinitions": [
+            {
+              "mUnitTags": {
+                "mObjectTagList": [
+                  "champion"
+                ],
+                "~class": "ObjectTags"
+              },
+              "~class": "HasUnitTagsCastRequirement"
+            }
+          ],
+          "~class": "TargetingForgivenessDefinitions"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        6.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        2.0
+      ],
+      "delayTotalTimePercent": -0.75,
+      "mAffectsTypeFlags": 16385,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "BaseHeal",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_SorakaW_HealthCostRefund",
+                  "type": "PercentHealthCostRefund",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_SorakaW_Cost",
+            "keyName": "Spell_SorakaW_Name",
+            "keySummary": "Spell_SorakaW_Summary",
+            "keyTooltip": "Spell_SorakaW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SorakaW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SorakaW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Soraka/HUD/Icons2D/Soraka_W.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "MinimumHealth": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "MinimumPercentHealth",
+              "mStat": 12,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalHeal": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHeal",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mana": [
+        40.0,
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        60.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaWCastTime": {
+    "ObjectName": "SorakaWCastTime",
+    "mScriptName": "SorakaWCastTime",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0
+      ],
+      "cooldownTime": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "mAffectsTypeFlags": 1029,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.3499999940395355,
+      "mCoefficient2": 0.15000000596046448,
+      "mEffectAmount": [
+        {
+          "value": [
+            5.0,
+            20.0,
+            35.0,
+            50.0,
+            65.0,
+            80.0,
+            95.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Soraka/HUD/Icons2D/Soraka_W.dds"
+      ],
+      "mMissileEffectName": "penance.troy",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2400.0,
+          "mStartBoneName": "L_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2400.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/SorakaWParticleMissile": {
+    "ObjectName": "SorakaWParticleMissile",
+    "mScriptName": "SorakaWParticleMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 7375,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mMissileEffectKey": "Soraka_W_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 3000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1700.0,
+          "mStartBoneName": "Buffbone_Cstm_Weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1700.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Soraka/Spells/Soraka_BasicAttack": {
+    "ObjectName": "Soraka_BasicAttack",
+    "mScriptName": "Soraka_BasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.11249999701976776,
+      "mAffectsTypeFlags": 512,
+      "mAlternateName": "SorakaBasicAttack",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mMissileEffectKey": "Soraka_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1000.0,
+          "mStartBoneName": "R_forarm",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

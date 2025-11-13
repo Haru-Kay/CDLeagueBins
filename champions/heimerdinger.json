@@ -1,0 +1,5767 @@
+{
+  "0x422e8191": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      50,
+      100,
+      125,
+      150,
+      60
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "7d6ac0e0-c322-45df-bfc1-45093feca60b",
+      "itemID": 30,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_HeimerdingerEStuns",
+    "mNameTraKey": "stat_stone_name_HeimerdingerEStuns",
+    "stoneName": "HeimerdingerEStuns",
+    "~class": "StatStoneData"
+  },
+  "0x441c6e8d": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      45,
+      125,
+      225,
+      275,
+      350,
+      150
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "0f7d1188-d186-4d48-822e-011d249bee6d",
+      "itemID": 126012,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_HeimerdingerQLasers",
+    "mNameTraKey": "stat_stone_name_HeimerdingerQLasers",
+    "stoneName": "HeimerdingerQLasers",
+    "~class": "StatStoneData"
+  },
+  "0x5456be17": {
+    "catalogEntry": {
+      "contentId": "d11b23b7-6a96-4758-a57c-ded335ca38e6",
+      "itemID": 66600270,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x947c72e6",
+      "0xa2fd6ef7",
+      "0xa569efde"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x573df5f3": {
+    "ObjectName": "Crepe_SingedVsHeimerdinger_HeimerdingerWin",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "Crepe_SingedVsHeimerdinger_HeimerdingerWin",
+    "~class": "SpellObject"
+  },
+  "0x6dbabf8e": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "middle",
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "Top",
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "utility",
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x75d373ee": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      325,
+      800,
+      1500,
+      2000,
+      2500,
+      950
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "e2cb1820-42e9-42a0-bd10-bc3f9d25e1c5",
+      "itemID": 126011,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_HeimerdingerQBlocks",
+    "mNameTraKey": "stat_stone_name_HeimerdingerQBlocks",
+    "stoneName": "HeimerdingerPDuration",
+    "trackingType": 1,
+    "~class": "StatStoneData"
+  },
+  "0x947c72e6": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "0390ba90-854e-4d11-b836-83cf02e4fa74",
+      "itemID": 125747,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "HeimerdingerEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x9b5a3ba7": {
+    "catalogEntry": {
+      "contentId": "c2cc84aa-889d-4629-bd93-15055b5b23e1",
+      "itemID": 66600038,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xbae51ec7",
+      "0x422e8191",
+      "0x9f4e8fcd"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x9c5a3d3a": {
+    "catalogEntry": {
+      "contentId": "1a7a7609-b199-45dc-a20b-16db435a4e2a",
+      "itemID": 66600409,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xb57c04d7",
+      "0x441c6e8d",
+      "0x75d373ee"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x9f4e8fcd": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      23000,
+      58000,
+      125000,
+      150000,
+      175000,
+      69000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "61223df6-71f4-4f4d-bb68-c4b97596aed6",
+      "itemID": 31,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_HeimerdingerQDamage",
+    "mNameTraKey": "stat_stone_name_HeimerdingerQDamage",
+    "stoneName": "HeimerdingerQDamage",
+    "~class": "StatStoneData"
+  },
+  "0xa2fd6ef7": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "45645dd1-26a7-4823-baab-d92c7386d551",
+      "itemID": 125748,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "HeimerdingerTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xa569efde": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "3c0cd9e8-080f-4bca-a166-ee13499fd637",
+      "itemID": 125749,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "HeimerdingerStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xb4013091": {
+    "ObjectName": "Crepe_SingedVsHeimerdinger_SingedLose",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Crepe_SingedLose_Name",
+          "keyTooltip": "Crepe_SingedLose_Tooltip"
+        },
+        "mObjectName": "Crepe_SingedVsHeimerdinger_SingedLose",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "Crepe_SingedVsHeimerdinger_SingedLose",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Jhin/HUD/Icons2D/JhinQuestLoser.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb4cf2b74": {
+    "ObjectName": "Crepe_SingedVsHeimerdinger_HeimerdingerReward",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Crepe_HeimerReward_Name",
+          "keyTooltip": "Crepe_HeimerReward_Tooltip"
+        },
+        "mObjectName": "Crepe_SingedVsHeimerdinger_HeimerdingerReward",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "Crepe_SingedVsHeimerdinger_HeimerdingerReward",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ShieldMaxPer",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TurretRange",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Jhin/HUD/Icons2D/JhinQuestVictory.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb57c04d7": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      35,
+      65,
+      80,
+      100,
+      40
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "2105733c-8f11-4baf-8ee0-c015217ba571",
+      "itemID": 126013,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_HeimerdingerRMultihits",
+    "mNameTraKey": "stat_stone_name_HeimerdingerRMultihits",
+    "stoneName": "HeimerdingerRMultihits",
+    "~class": "StatStoneData"
+  },
+  "0xbae51ec7": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2,
+      6,
+      10,
+      15,
+      20,
+      7
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "88ada415-bd2a-4f65-9ea6-9e6394b69d4e",
+      "itemID": 98930,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_HeimerdingerKillsWithW",
+    "mNameTraKey": "stat_stone_name_HeimerdingerKillsWithW",
+    "stoneName": "HeimerdingerKillsWithW",
+    "~class": "StatStoneData"
+  },
+  "0xdaf47791": {
+    "ObjectName": "Crepe_SingedVsHeimerdinger_HeimerdingerStart",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_SingedVsHeimerdinger_Name",
+          "keyTooltip": "Quests_SingedVsHeimerdinger_Instructions"
+        },
+        "mObjectName": "Crepe_SingedVsHeimerdinger_HeimerdingerStart",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "Crepe_SingedVsHeimerdinger_HeimerdingerStart",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Singed/HUD/Icons2D/SingedHeimerdinger64.HA_CREPE.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerESpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerWAttack2",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerWAttack2Ult",
+      "Characters/Heimerdinger/Spells/HeimerdingerUltWDummySpell",
+      "Characters/Heimerdinger/Spells/HeimerdingerUltEDummySpell",
+      "Characters/Heimerdinger/Spells/HeimerdingerUltQDummySpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 550.0,
+    "armorPerLevel": 4.199999809265137,
+    "attackRange": 550.0,
+    "attackSpeed": 0.6579999923706055,
+    "attackSpeedPerLevel": 1.3600000143051147,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 19.0,
+    "baseDamage": 56.0,
+    "baseHP": 558.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.399999976158142,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "attackRank": 2,
+      "championId": 74,
+      "classification": "Arcane",
+      "defenseRank": 6,
+      "description": "game_character_description_Heimerdinger",
+      "difficultyRank": 8,
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Heimerdinger",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "MAGE",
+      "searchTags": "mage",
+      "searchTagsSecondary": "support",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.09992187470197678,
+        "mAttackName": "HeimerdingerCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 2.700000047683716,
+    "extraAttacks": [
+      {
+        "mAttackName": "HeimerdingerBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "HeimerdingerESpell",
+      "BaseSpell",
+      "BaseSpell",
+      "HeimerdingerWAttack2",
+      "BaseSpell",
+      "BaseSpell",
+      "HeimerdingerWAttack2Ult",
+      "HeimerdingerUltWDummySpell",
+      "HeimerdingerUltEDummySpell",
+      "HeimerdingerUltQDummySpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "healthBarHeight": 87.0,
+    "hpPerLevel": 101.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Heimerdinger/Spells/HeimerdingerRAbility",
+      "Characters/Heimerdinger/Spells/HeimerdingerQAbility",
+      "Characters/Heimerdinger/Spells/HeimerdingerWAbility",
+      "Characters/Heimerdinger/Spells/HeimerdingerEAbility",
+      "Characters/Heimerdinger/Spells/HeimerdingerPassiveAbility"
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Heimerdinger",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Heimerdinger/Spells/HeimerdingerPassiveAbility/HeimerdingerPassiveSpeed"
+        ],
+        "mParentPassiveBuff": "Characters/Heimerdinger/Spells/HeimerdingerPassiveAbility/HeimerdingerPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Characters/Heimerdinger/Spells/HeimerdingerRunCycleManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mComponentBuffs": [
+          "Characters/Heimerdinger/Spells/HeimerdingerTurretReady"
+        ],
+        "mParentPassiveBuff": "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerQAmmo",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Heimerdinger/Spells/HeimerdingerPassiveAbility/HeimerdingerPassive",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "skillOrder": 1,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "name": "game_character_displayname_Heimerdinger",
+    "overrideGameplayCollisionRadius": 55.0,
+    "passive1IconName": "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_Passive.dds",
+    "passiveName": "game_character_passiveName_Heimerdinger",
+    "passiveRange": 300.0,
+    "passiveSpell": "HeimerdingerPassive",
+    "passiveToolTip": "game_character_passiveDescription_Heimerdinger",
+    "pathfindingCollisionRadius": 30.54439926147461,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 385.0,
+      "arBaseStaticRegen": 1.600000023841858,
+      "arPerLevel": 20.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 85.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "HeimerdingerQAbility/HeimerdingerQ",
+      "HeimerdingerWAbility/HeimerdingerW",
+      "HeimerdingerEAbility/HeimerdingerE",
+      "HeimerdingerRAbility/HeimerdingerR"
+    ],
+    "spells": [
+      "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQ",
+      "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerW",
+      "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerE",
+      "Characters/Heimerdinger/Spells/HeimerdingerRAbility/HeimerdingerR"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/Heimerdinger/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerBasicAttack": {
+    "ObjectName": "HeimerdingerBasicAttack",
+    "mScriptName": "HeimerdingerBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.0234375,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "HeimerdingerBasicAttack",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Heimerdinger_AA_Tar",
+      "mMissileEffectKey": "Heimerdinger_AA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerBasicAttack2": {
+    "ObjectName": "HeimerdingerBasicAttack2",
+    "mScriptName": "HeimerdingerBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.0234375,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "HeimerdingerBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Heimerdinger_AA_Tar",
+      "mMissileEffectKey": "Heimerdinger_AA_2_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "L_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerCritAttack": {
+    "ObjectName": "HeimerdingerCritAttack",
+    "mScriptName": "HeimerdingerCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.104999542236328,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "mAffectsTypeFlags": 24527,
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Heimerdinger_Crit_Tar",
+      "mMissileEffectKey": "Heimerdinger_Crit_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerEAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerE",
+      "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerESpell",
+      "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerESpell_ult",
+      "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerESpell_ult2",
+      "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerE_Ult",
+      "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerESpell_ult3"
+    ],
+    "mName": "HeimerdingerEAbility",
+    "mRootSpell": "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerE": {
+    "ObjectName": "HeimerdingerE",
+    "mScriptName": "HeimerdingerE",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0,
+            11.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            20.0,
+            60.0,
+            100.0,
+            140.0,
+            180.0,
+            220.0,
+            260.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercent",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StunDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 14.850000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRadiusSecondary": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0
+      ],
+      "castRangeDisplayOverride": [
+        970.0,
+        970.0,
+        970.0,
+        970.0,
+        970.0,
+        970.0,
+        970.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6794,
+      "mAlternateName": "HeimerdingerE",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                250.0,
+                250.0,
+                250.0,
+                250.0,
+                250.0,
+                250.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_leona_outer.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HeimerdingerE_Name",
+            "keySummary": "Spell_HeimerdingerE_Summary",
+            "keyTooltip": "Spell_HeimerdingerE_Tooltip"
+          },
+          "mObjectName": "HeimerdingerE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mCoefficient2": 0.75,
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_E1.dds",
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_E2.dds"
+      ],
+      "mLineWidth": 120.0,
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6000000238418579,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0
+      ],
+      "missileSpeed": 2500.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerESpell": {
+    "ObjectName": "HeimerdingerESpell",
+    "mScriptName": "HeimerdingerESpell",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0
+      ],
+      "cooldownTime": [
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 7183,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            230.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "pelvis",
+      "mImgIconName": [
+        "Cryophoenix_FrigidOrb.dds"
+      ],
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Heimerdinger_E_Mis",
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 5000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "mMissileWidth": 120.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "head",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1200.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerESpell_ult": {
+    "ObjectName": "HeimerdingerESpell_ult",
+    "mScriptName": "HeimerdingerESpell_ult",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 7183,
+      "mAlternateName": "HeimerdingerUltEDummySpell",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            230.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "pelvis",
+      "mImgIconName": [
+        "Cryophoenix_FrigidOrb.dds"
+      ],
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Heimerdinger_E_Mis_Ult",
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 5000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "mMissileWidth": 120.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "head",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1200.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerESpell_ult2": {
+    "ObjectName": "HeimerdingerESpell_ult2",
+    "mScriptName": "HeimerdingerESpell_ult2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 7183,
+      "mAlternateName": "HeimerdingerUltEDummySpell",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            230.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "pelvis",
+      "mImgIconName": [
+        "Cryophoenix_FrigidOrb.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Heimerdinger_E_Mis_Ult",
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 7500.0,
+          "~class": "GravityHeightSolver"
+        },
+        "mMissileWidth": 120.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "head",
+          "mTargetHeightAugment": 100.0,
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1400.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerESpell_ult3": {
+    "ObjectName": "HeimerdingerESpell_ult3",
+    "mScriptName": "HeimerdingerESpell_ult3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 7183,
+      "mAlternateName": "HeimerdingerUltEDummySpell",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            230.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "pelvis",
+      "mImgIconName": [
+        "Cryophoenix_FrigidOrb.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Heimerdinger_E_Mis_Ult",
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 4500.0,
+          "~class": "GravityHeightSolver"
+        },
+        "mMissileWidth": 120.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "head",
+          "mTargetHeightAugment": 100.0,
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1400.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerE_Ult": {
+    "ObjectName": "HeimerdingerE_Ult",
+    "mScriptName": "HeimerdingerE_Ult",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 14.850000381469727,
+      "castRadius": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "castRadiusSecondary": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0
+      ],
+      "castRangeDisplayOverride": [
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0
+      ],
+      "cooldownTime": [
+        20.0,
+        18.0,
+        16.0,
+        14.0,
+        12.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6794,
+      "mAlternateName": "HeimerdingerUltEDummySpell",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "distanceOffset": 300.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "distanceOffset": 600.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                130.0,
+                130.0,
+                130.0,
+                130.0,
+                130.0,
+                130.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_leona_outer.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "distanceOffset": 300.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_leona_outer.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "distanceOffset": 600.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_leona_outer.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            20.0,
+            60.0,
+            100.0,
+            140.0,
+            180.0,
+            220.0,
+            260.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_E1.dds",
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_E2.dds"
+      ],
+      "mLineWidth": 120.0,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0
+      ],
+      "missileSpeed": 2500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerEVO": {
+    "ObjectName": "HeimerdingerEVO",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_HeimerdingerR",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerEVO",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.130000114440918,
+      "castRadius": [
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0
+      ],
+      "castRange": [
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0
+      ],
+      "cooldownTime": [
+        115.0,
+        100.0,
+        85.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "delayCastOffsetPercent": -0.23749999701976776,
+      "delayTotalTimePercent": -0.23000000417232513,
+      "flags": 4,
+      "mAffectsTypeFlags": 1028,
+      "mAlternateName": "HeimerdingerR",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mCoefficient2": 0.33000001311302185,
+      "mEffectAmount": [
+        {
+          "value": [
+            150.0,
+            225.0,
+            300.0,
+            375.0,
+            0.0,
+            0.0,
+            75.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.11999999731779099,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            500.0,
+            690.0,
+            865.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            70.0,
+            90.0,
+            110.0,
+            130.0,
+            0.0,
+            0.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            90.0,
+            135.0,
+            180.0,
+            225.0,
+            0.0,
+            0.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            28.0,
+            39.0,
+            49.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            0.0,
+            0.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_R.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerEngineAudio": {
+    "ObjectName": "HeimerdingerEngineAudio",
+    "mScriptName": "HeimerdingerEngineAudio",
+    "mSpell": {
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Heimerdinger/Spells/HeimerdingerPassiveAbility/HeimerdingerPassive",
+      "Characters/Heimerdinger/Spells/HeimerdingerPassiveAbility/HeimerdingerPassiveSpeed"
+    ],
+    "mName": "HeimerdingerPassiveAbility",
+    "mRootSpell": "Characters/Heimerdinger/Spells/HeimerdingerPassiveAbility/HeimerdingerPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerPassiveAbility/HeimerdingerPassive": {
+    "ObjectName": "HeimerdingerPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_HeimerdingerPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MovementSpeed",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "EnableExtendedTooltip": false,
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_HeimerdingerPassive_Name",
+            "keyTooltip": "Spell_HeimerdingerPassive_Tooltip"
+          },
+          "mObjectName": "HeimerdingerPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerPassiveAbility/HeimerdingerPassiveSpeed": {
+    "ObjectName": "HeimerdingerPassiveSpeed",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_HeimerdingerPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerPassiveSpeed",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MovementSpeed",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_HeimerdingerPassive_Name",
+            "keyTooltip": "Spell_HeimerdingerPassive_Tooltip"
+          },
+          "mObjectName": "HeimerdingerPassiveSpeed",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerPentakill": {
+    "ObjectName": "HeimerdingerPentakill",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_HeimerdingerPentakill",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerPentakill",
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQAbility": {
+    "AbilityTraits": 8192,
+    "mChildSpells": [
+      "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQ",
+      "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQSpawnDestroyAudio",
+      "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQSpell1",
+      "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQSpell2",
+      "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQSpell3",
+      "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerTurretBehavior",
+      "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerRQEngineAudio",
+      "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerQAmmo"
+    ],
+    "mName": "HeimerdingerQAbility",
+    "mRootSpell": "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerQAmmo": {
+    "ObjectName": "HeimerQAmmo",
+    "mScriptName": "HeimerQAmmo",
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQ": {
+    "ObjectName": "HeimerdingerQ",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_HeimerdingerQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MaxTurrets",
+          "mValues": [
+            0.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxKits",
+          "mValues": [
+            0.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KitCost",
+          "mValues": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DistanceToHeimer",
+          "mValues": [
+            0.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            3.0,
+            7.0,
+            11.0,
+            15.0,
+            19.0,
+            23.0,
+            27.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamageBeam",
+          "mValues": [
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TurretAPRatio",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BeamAPRatio",
+          "mValues": [
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TurretHealthMod",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                2.0,
+                4.0,
+                6.0,
+                8.0,
+                10.0,
+                12.0,
+                14.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamageBeam",
+              "mValues": [
+                15.0,
+                30.0,
+                45.0,
+                60.0,
+                75.0,
+                90.0,
+                105.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BeamAPRatio",
+              "mValues": [
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "TurretHealthMod",
+              "mValues": [
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "TurretAPRatio",
+              "mValues": [
+                0.25,
+                0.25,
+                0.25,
+                0.25,
+                0.25,
+                0.25,
+                0.25
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 14.850000381469727,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "cooldownTime": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 7375,
+      "mAmmoRechargeTime": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mCharacterPassiveBuffs": [
+        {
+          "mParentPassiveBuff": "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQPassive",
+          "~class": "CharacterPassiveData"
+        }
+      ],
+      "mClientData": {
+        "mSpawningUIDefinition": {
+          "buffNameFilter": "HeimerdingerQ",
+          "maxNumberOfUnits": 3,
+          "~class": "SpawningUIDefinition"
+        },
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                590.0,
+                590.0,
+                590.0,
+                590.0,
+                590.0,
+                590.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/Azir_w_indicator.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_HeimerdingerQ_ListType_CannonDamage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HeimerdingerQ_ListType_BeamDamage",
+                  "type": "BaseDamageBeam",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "Spell_HeimerdingerQ_Cooldown",
+            "keyCost": "Spell_HeimerdingerQ_Cost",
+            "keyName": "Spell_HeimerdingerQ_Name",
+            "keySummary": "Spell_HeimerdingerQ_Summary",
+            "keyTooltip": "Spell_HeimerdingerQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_HeimerdingerQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "HeimerdingerQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCursorChangesInGrass": true,
+      "mCursorChangesInTerrain": true,
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_Q1.dds",
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_Q2.dds"
+      ],
+      "mMaxAmmo": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "mSpellCalculations": {
+        "0x8109ae7b": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 0.5,
+                  "mLevel": 8,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.5,
+                  "mLevel": 10,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": 5.0,
+                  "mLevel": 12,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": 10.0,
+                  "mLevel": 18,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "0xf0517331": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 5.0,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 5.0,
+                  "mLevel": 8,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": 5.0,
+                  "mLevel": 10,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": 10.0,
+                  "mLevel": 14,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "BeamCooldown": {
+          "mFormulaParts": [
+            {
+              "mNumber": 90.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "~class": "CooldownMultiplierCalculationPart"
+          },
+          "~class": "GameCalculation"
+        },
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "TurretAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "DamageBeam": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageBeam",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "BeamAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "KitCooldown": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mNumber": 20.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "~class": "CooldownMultiplierCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculation"
+        },
+        "TurretHealth": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 640.0,
+              "mStartValue": 130.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mSubpart": {
+                "mBreakpoints": [
+                  {
+                    "mBonusPerLevelAtAndAfter": 0.03999999910593033,
+                    "mLevel": 10,
+                    "~class": "Breakpoint"
+                  }
+                ],
+                "mInitialBonusPerLevel": 0.004999999888241291,
+                "mLevel1Value": 0.05000000074505806,
+                "~class": "ByCharLevelBreakpointsCalculationPart"
+              },
+              "~class": "StatBySubPartCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mDataValue": "TurretHealthMod",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "missileSpeed": 1450.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQPassive": {
+    "ObjectName": "HeimerdingerQPassive",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerQPassive",
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQSpawnDestroyAudio": {
+    "ObjectName": "HeimerdingerQSpawnDestroyAudio",
+    "mScriptName": "HeimerdingerQSpawnDestroyAudio",
+    "mSpell": {
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQSpell1": {
+    "ObjectName": "HeimerdingerQSpell1",
+    "mScriptName": "HeimerdingerQSpell1",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 12.774999618530273,
+      "mAffectsTypeFlags": 7375,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQSpell2": {
+    "ObjectName": "HeimerdingerQSpell2",
+    "mScriptName": "HeimerdingerQSpell2",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 13.125,
+      "mAffectsTypeFlags": 7375,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQSpell3": {
+    "ObjectName": "HeimerdingerQSpell3",
+    "mScriptName": "HeimerdingerQSpell3",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 13.300000190734863,
+      "mAffectsTypeFlags": 7375,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerRQEngineAudio": {
+    "ObjectName": "HeimerdingerRQEngineAudio",
+    "mScriptName": "HeimerdingerRQEngineAudio",
+    "mSpell": {
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerTurretBehavior": {
+    "ObjectName": "HeimerdingerTurretBehavior",
+    "mScriptName": "HeimerdingerTurretBehavior",
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerQVO": {
+    "ObjectName": "HeimerdingerQVO",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_HeimerdingerR",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerQVO",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.130000114440918,
+      "castRadius": [
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0
+      ],
+      "castRange": [
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0
+      ],
+      "cooldownTime": [
+        115.0,
+        100.0,
+        85.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "delayCastOffsetPercent": -0.23749999701976776,
+      "delayTotalTimePercent": -0.23000000417232513,
+      "flags": 4,
+      "mAffectsTypeFlags": 1028,
+      "mAlternateName": "HeimerdingerR",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mCoefficient2": 0.33000001311302185,
+      "mEffectAmount": [
+        {
+          "value": [
+            150.0,
+            225.0,
+            300.0,
+            375.0,
+            0.0,
+            0.0,
+            75.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.11999999731779099,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            500.0,
+            690.0,
+            865.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            70.0,
+            90.0,
+            110.0,
+            130.0,
+            0.0,
+            0.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            90.0,
+            135.0,
+            180.0,
+            225.0,
+            0.0,
+            0.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            28.0,
+            39.0,
+            49.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            0.0,
+            0.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_R.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerRAbility": {
+    "AbilityTraits": 2,
+    "mChildSpells": [
+      "Characters/Heimerdinger/Spells/HeimerdingerRAbility/HeimerdingerR",
+      "Characters/Heimerdinger/Spells/HeimerdingerRAbility/HeimerdingerQUlt",
+      "Characters/Heimerdinger/Spells/HeimerdingerRAbility/HeimerdingerEUlt",
+      "Characters/Heimerdinger/Spells/HeimerdingerRAbility/HeimerdingerWUlt"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "HeimerdingerRAbility",
+    "mRootSpell": "Characters/Heimerdinger/Spells/HeimerdingerRAbility/HeimerdingerR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerRAbility/HeimerdingerEUlt": {
+    "ObjectName": "HeimerdingerEUlt",
+    "mScriptName": "HeimerdingerEUlt",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 14.850000381469727,
+      "castRadius": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "castRadiusSecondary": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0
+      ],
+      "castRangeDisplayOverride": [
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0
+      ],
+      "cooldownTime": [
+        20.0,
+        18.0,
+        16.0,
+        14.0,
+        12.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6794,
+      "mAlternateName": "HeimerdingerUltEDummySpell",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "distanceOffset": 300.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "distanceOffset": 600.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                130.0,
+                130.0,
+                130.0,
+                130.0,
+                130.0,
+                130.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_leona_outer.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "distanceOffset": 300.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_leona_outer.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "distanceOffset": 600.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_leona_outer.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Heimerdinger/Spells/HeimerdingerEAbility/HeimerdingerE",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            20.0,
+            60.0,
+            100.0,
+            140.0,
+            180.0,
+            220.0,
+            260.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_E2.dds",
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_E2.dds"
+      ],
+      "mLineWidth": 120.0,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell",
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "missileSpeed": 2500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerRAbility/HeimerdingerQUlt": {
+    "ObjectName": "HeimerdingerQUlt",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_HeimerdingerQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerQUlt",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 14.850000381469727,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 7375,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mSpawningUIDefinition": {
+          "buffNameFilter": "HeimerdingerQ",
+          "maxNumberOfUnits": 3,
+          "~class": "SpawningUIDefinition"
+        },
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                590.0,
+                590.0,
+                590.0,
+                590.0,
+                590.0,
+                590.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/Azir_w_indicator.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Heimerdinger/Spells/HeimerdingerQAbility/HeimerdingerQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCursorChangesInGrass": true,
+      "mCursorChangesInTerrain": true,
+      "mFloatVarsDecimals": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_Q2.dds"
+      ],
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1450.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerRAbility/HeimerdingerR": {
+    "ObjectName": "HeimerdingerR",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_HeimerdingerR",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "QUltBaseDamage",
+          "mValues": [
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0,
+            160.0,
+            180.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QUltBaseDamageBeam",
+          "mValues": [
+            60.0,
+            100.0,
+            140.0,
+            180.0,
+            220.0,
+            260.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WUltBaseDamage",
+          "mValues": [
+            90.0,
+            135.0,
+            180.0,
+            225.0,
+            270.0,
+            315.0,
+            360.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WUltExtraHitBaseDamage",
+          "mValues": [
+            19.0,
+            32.0,
+            45.0,
+            58.0,
+            71.0,
+            84.0,
+            97.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WUltTotalBaseDamage",
+          "mValues": [
+            0.0,
+            503.0,
+            697.5,
+            892.0,
+            1086.5,
+            1281.0,
+            1475.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EUltBaseDamage",
+          "mValues": [
+            0.0,
+            100.0,
+            200.0,
+            300.0,
+            400.0,
+            500.0,
+            600.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "QUltBaseDamage",
+              "mValues": [
+                35.0,
+                50.0,
+                65.0,
+                80.0,
+                95.0,
+                110.0,
+                125.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "QUltBaseDamageBeam",
+              "mValues": [
+                55.0,
+                90.0,
+                125.0,
+                160.0,
+                195.0,
+                230.0,
+                265.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bIsToggleSpell": true,
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.130000114440918,
+      "castRadius": [
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0
+      ],
+      "castRange": [
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0
+      ],
+      "castRangeDisplayOverride": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cooldownTime": [
+        100.0,
+        100.0,
+        85.0,
+        70.0,
+        70.0,
+        70.0,
+        75.0
+      ],
+      "delayCastOffsetPercent": -0.23749999701976776,
+      "delayTotalTimePercent": -0.23000000417232513,
+      "flags": 4,
+      "mAffectsTypeFlags": 1028,
+      "mAlternateName": "HeimerdingerR",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HeimerdingerR_QUltBaseDamage",
+                  "type": "QUltBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HeimerdingerR_QUltBaseDamageBeam",
+                  "type": "QUltBaseDamageBeam",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HeimerdingerR_WUltBaseDamage",
+                  "type": "WUltBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HeimerdingerR_WUltTotalBaseDamage",
+                  "type": "WUltTotalBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HeimerdingerR_EUltBaseDamage",
+                  "type": "EUltBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HeimerdingerR_Name",
+            "keySummary": "game_spell_description_HeimerdingerR",
+            "keyTooltip": "Spell_HeimerdingerR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_HeimerdingerR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "HeimerdingerR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.699999988079071,
+      "mCoefficient2": 0.30000001192092896,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            100.0,
+            140.0,
+            180.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            80.0,
+            80.0,
+            80.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            1.5,
+            1.5,
+            1.5,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            500.0,
+            690.0,
+            865.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            80.0,
+            100.0,
+            120.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            135.0,
+            180.0,
+            225.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            28.0,
+            39.0,
+            49.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            150.0,
+            250.0,
+            350.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_R.dds"
+      ],
+      "mSpellCalculations": {
+        "0xa8af07ef": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "WUltExtraHitBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.11999999731779099,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "0xdf0e2e2": {
+          "mModifiedGameCalculation": "WUltTotalDamage",
+          "mMultiplier": {
+            "mNumber": 20.0,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "0xf058914b": {
+          "mModifiedGameCalculation": "0xa8af07ef",
+          "mMultiplier": {
+            "mNumber": 0.5,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "EUltDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "EUltBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6000000238418579,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "QUltDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "QUltBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.3499999940395355,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "QUltDamageBeam": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "QUltBaseDamageBeam",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.699999988079071,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "QUltTurretHealth": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mBonusPerLevelAtAndAfter": 25.0,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": 50.0,
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": 150.0,
+                  "mLevel": 16,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 725.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "RQTurretResists": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mBonusPerLevelAtAndAfter": 5.0,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 30.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "WUltDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "WUltBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.44999998807907104,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "WUltTotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "WUltTotalBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.8300000429153442,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_Upgrade",
+        "Trait_Transformation"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        0.0
+      ],
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerRAbility/HeimerdingerWUlt": {
+    "ObjectName": "HeimerdingerWUlt",
+    "mScriptName": "HeimerdingerWUlt",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1325.0,
+        1325.0,
+        1325.0,
+        1325.0,
+        1325.0,
+        1325.0,
+        1325.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 2.0245819091796875,
+              "distanceOffset": 150.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Tip.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 2.583087205886841,
+              "distanceOffset": 150.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Tip.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 3.1415927410125732,
+              "distanceOffset": 150.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Tip.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 3.7000980377197266,
+              "distanceOffset": 150.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Tip.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 4.258603572845459,
+              "distanceOffset": 150.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Tip.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerW",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.44999998807907104,
+      "mCoefficient2": 0.11999999731779099,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.0,
+            12.0,
+            18.0,
+            24.0,
+            30.0,
+            36.0,
+            42.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            54.0,
+            108.0,
+            162.0,
+            216.0,
+            270.0,
+            324.0,
+            378.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_W2.dds",
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_W2.dds"
+      ],
+      "mLineWidth": 200.0,
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "missileSpeed": 902.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerREVO": {
+    "ObjectName": "HeimerdingerREVO",
+    "mScriptName": "HeimerdingerREVO",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 1028,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerRQVO": {
+    "ObjectName": "HeimerdingerRQVO",
+    "mScriptName": "HeimerdingerRQVO",
+    "mSpell": {
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerRWVO": {
+    "ObjectName": "HeimerdingerRWVO",
+    "mScriptName": "HeimerdingerRWVO",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 1028,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerRunCycleManager": {
+    "ObjectName": "HeimerdingerRunCycleManager",
+    "mScriptName": "HeimerdingerRunCycleManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerSuperTurret": {
+    "ObjectName": "HeimerdingerSuperTurret",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_HeimerdingerSuperTurret",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerSuperTurret",
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerTurretReady": {
+    "ObjectName": "HeimerdingerTurretReady",
+    "mScriptName": "HeimerdingerTurretReady",
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerUltEDummySpell": {
+    "ObjectName": "HeimerdingerUltEDummySpell",
+    "mScriptName": "HeimerdingerUltEDummySpell",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_E2.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerUltQDummySpell": {
+    "ObjectName": "HeimerdingerUltQDummySpell",
+    "mScriptName": "HeimerdingerUltQDummySpell",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_Q2.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerUltWDummySpell": {
+    "ObjectName": "HeimerdingerUltWDummySpell",
+    "mScriptName": "HeimerdingerUltWDummySpell",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_W2.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerWAbility": {
+    "mChildSpells": [
+      "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerW",
+      "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerWAttack2",
+      "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerWAttack2_Ult",
+      "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerWAttack2Ult"
+    ],
+    "mName": "HeimerdingerWAbility",
+    "mRootSpell": "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerW": {
+    "ObjectName": "HeimerdingerW",
+    "mScriptName": "HeimerdingerW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            10.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "Rockets",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            15.0,
+            40.0,
+            65.0,
+            90.0,
+            115.0,
+            140.0,
+            165.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExtraHitBaseDamage",
+          "mValues": [
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TotalBaseDamage",
+          "mValues": [
+            35.0,
+            80.0,
+            125.0,
+            170.0,
+            215.0,
+            260.0,
+            305.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "InitialDamageAPRatio",
+          "mValues": [
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929,
+            0.550000011920929
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "InitialDamageAPRatio",
+              "mValues": [
+                0.6499999761581421,
+                0.6499999761581421,
+                0.6499999761581421,
+                0.6499999761581421,
+                0.6499999761581421,
+                0.6499999761581421,
+                0.6499999761581421
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1325.0,
+        1325.0,
+        1325.0,
+        1325.0,
+        1325.0,
+        1325.0,
+        1325.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 2.0245819091796875,
+              "distanceOffset": 150.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Tip.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 2.583087205886841,
+              "distanceOffset": 150.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Tip.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 3.1415927410125732,
+              "distanceOffset": 150.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Tip.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 3.7000980377197266,
+              "distanceOffset": 150.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Tip.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0,
+                1350.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 4.258603572845459,
+              "distanceOffset": 150.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Lulu_Q_Skillshot_Tip.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HeimerdingerW_Name",
+            "keySummary": "Spell_HeimerdingerW_Summary",
+            "keyTooltip": "Spell_HeimerdingerW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_HeimerdingerW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "HeimerdingerW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.550000011920929,
+      "mCoefficient2": 0.11999999731779099,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.0,
+            12.0,
+            18.0,
+            24.0,
+            30.0,
+            36.0,
+            42.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            54.0,
+            108.0,
+            162.0,
+            216.0,
+            270.0,
+            324.0,
+            378.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_W1.dds",
+        "ASSETS/Characters/Heimerdinger/HUD/Icons2D/Heimerdinger_W2.dds"
+      ],
+      "mLineWidth": 200.0,
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "InitialDamageAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "ExtraHitDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ExtraHitBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.11999999731779099,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "ExtraHitDamageMinions": {
+          "mModifiedGameCalculation": "ExtraHitDamage",
+          "mMultiplier": {
+            "mNumber": 3.0,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "TotalBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0299999713897705,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        90.0
+      ],
+      "missileSpeed": 902.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerWAttack2": {
+    "ObjectName": "HeimerdingerWAttack2",
+    "mScriptName": "HeimerdingerWAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.074999809265137,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "HeimerdingerW",
+      "mAnimationName": "Attack2",
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "spine",
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 40.0,
+      "mMissileEffectKey": "Heimerdinger_W_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 40.0,
+        "movementComponent": {
+          "mAcceleration": 4000.0,
+          "mInitialSpeed": 750.0,
+          "mMaxSpeed": 3000.0,
+          "mMinSpeed": 750.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "R_weapon",
+          "mTargetHeightAugment": -100.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 750.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerWAttack2Ult": {
+    "ObjectName": "HeimerdingerWAttack2Ult",
+    "mScriptName": "HeimerdingerWAttack2Ult",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.074999809265137,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "HeimerdingerUltWDummySpell",
+      "mAnimationName": "Attack2",
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "spine",
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 60.0,
+      "mMissileEffectKey": "Heimerdinger_W_Mis_Ult",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mAcceleration": 4000.0,
+          "mInitialSpeed": 750.0,
+          "mMaxSpeed": 3000.0,
+          "mMinSpeed": 750.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "R_weapon",
+          "mTargetHeightAugment": -100.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 750.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerWAbility/HeimerdingerWAttack2_Ult": {
+    "ObjectName": "HeimerdingerWAttack2_Ult",
+    "mScriptName": "HeimerdingerWAttack2_Ult",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.074999809265137,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0,
+        1350.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "HeimerdingerUltWDummySpell",
+      "mAnimationName": "Attack2",
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "spine",
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 60.0,
+      "mMissileEffectKey": "Heimerdinger_W_Mis_Ult",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mAcceleration": 4000.0,
+          "mInitialSpeed": 750.0,
+          "mMaxSpeed": 3000.0,
+          "mMinSpeed": 750.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "R_weapon",
+          "mTargetHeightAugment": -100.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 750.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/HeimerdingerWVO": {
+    "ObjectName": "HeimerdingerWVO",
+    "mScriptName": "HeimerdingerWVO",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 1028,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/Heimerdinger_Turret_Ready": {
+    "ObjectName": "Heimerdinger_Turret_Ready",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Heimerdinger_Turret_Ready",
+      "~class": "BuffData"
+    },
+    "mScriptName": "Heimerdinger_Turret_Ready",
+    "~class": "SpellObject"
+  },
+  "Characters/Heimerdinger/Spells/TechmaturgicalRepairBots": {
+    "ObjectName": "TechmaturgicalRepairBots",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TechmaturgicalRepairBots",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TechmaturgicalRepairBots",
+    "~class": "SpellObject"
+  }
+}

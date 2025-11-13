@@ -1,0 +1,4092 @@
+{
+  "0x15a9e29f": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "fd4cad8c-133c-4a83-b98d-ff3097553231",
+      "itemID": 125856,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "LilliaTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x1e1c3cb9": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      800,
+      2000,
+      4000,
+      5000,
+      6000,
+      2500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4566f70f-c954-45d0-8cfc-89ea2c1b12ee",
+      "itemID": 125848,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_LilliaPranceTime",
+    "mNameTraKey": "stat_stone_name_LilliaPranceTime",
+    "stoneName": "LilliaPranceTime",
+    "trackingType": 1,
+    "~class": "StatStoneData"
+  },
+  "0x22e6b483": {
+    "catalogEntry": {
+      "contentId": "a4d4904d-fc3d-49d7-8083-dc90f227d13b",
+      "itemID": 66600361,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x32e5dcee",
+      "0xc8e2a36",
+      "0x15a9e29f"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x32e5dcee": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "2e15e6dd-3e38-4a32-aab5-cfe05ed84126",
+      "itemID": 125854,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "LilliaEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x4b5ac8fb": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7,
+      15,
+      35,
+      40,
+      50,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b2b495a2-9531-4198-8cfc-71bb8ec79c2d",
+      "itemID": 126089,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_LilliaRMultihits",
+    "mNameTraKey": "stat_stone_name_LilliaRMultihits",
+    "stoneName": "LilliaRMultihits",
+    "~class": "StatStoneData"
+  },
+  "0x71200b22": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x73340c1b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2,
+      6,
+      10,
+      15,
+      20,
+      7
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b1f4db23-0cb1-4ec9-a2eb-42300d68a930",
+      "itemID": 125849,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_LilliaELongRang",
+    "mNameTraKey": "stat_stone_name_LilliaELongRange",
+    "stoneName": "LilliaELongRange",
+    "~class": "StatStoneData"
+  },
+  "0x9c7b5227": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      7,
+      15,
+      15,
+      20,
+      8
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "fabff45e-6e1a-4716-9e0c-b2f5fb054bcd",
+      "itemID": 125847,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_LilliaWSleepHits",
+    "mNameTraKey": "stat_stone_name_LilliaWSleepHits",
+    "stoneName": "LilliaWSleepHits",
+    "~class": "StatStoneData"
+  },
+  "0xa9e81a73": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10000,
+      25000,
+      49000,
+      59000,
+      74000,
+      29000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "73bf2478-2f01-4e79-8c0f-a52209b2c066",
+      "itemID": 126091,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_LilliaPDamage",
+    "mNameTraKey": "stat_stone_name_LilliaPDamage",
+    "stoneName": "LilliaPDamage",
+    "~class": "StatStoneData"
+  },
+  "0xbcba809b": {
+    "catalogEntry": {
+      "contentId": "010a2615-4e3a-449b-beac-f3f15617ebe2",
+      "itemID": 66600357,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x73340c1b",
+      "0x1e1c3cb9",
+      "0x9c7b5227"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xbdba822e": {
+    "catalogEntry": {
+      "contentId": "debf5b84-1eb4-40b5-8049-063360da9cdd",
+      "itemID": 66600435,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x4b5ac8fb",
+      "0xc786e18f",
+      "0xa9e81a73"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xc786e18f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      65,
+      175,
+      325,
+      400,
+      500,
+      200
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ba358dfc-3434-4722-9b24-8eb8c461cd08",
+      "itemID": 126090,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_LilliaQTrueHits",
+    "mNameTraKey": "stat_stone_name_LilliaQTrueHits",
+    "stoneName": "LilliaQTrueHits",
+    "~class": "StatStoneData"
+  },
+  "0xc8e2a36": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "bb8a6342-0447-4da3-b8c4-9b62f342d4be",
+      "itemID": 125855,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "LilliaStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "Characters/Lillia/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 400.0,
+    "armorPerLevel": 4.5,
+    "attackRange": 325.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 2.700000047683716,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 22.0,
+    "baseDamage": 61.0,
+    "baseHP": 605.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 0.5,
+    "basicAttack": {
+      "mAttackCastTime": 0.25,
+      "mAttackName": "LilliaBasicAttack1",
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.7000000476837158,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "PARFadeColor": "175 0 0",
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 876,
+      "classification": "Strong",
+      "defenseRank": 2,
+      "description": "game_character_description_Lillia",
+      "difficultyRank": 8,
+      "magicRank": 10,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "level": [
+            1,
+            4,
+            7
+          ],
+          "name": "Spell_LilliaPassive_Name",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "mage",
+      "spellData": [
+        {
+          "desc": "Lillia's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Lillia's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Lillia's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Lillia's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.25,
+        "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+        "mAttackName": "LilliaCritAttack",
+        "mAttackTotalTime": 1.7000000476837158,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0999999046325684,
+    "extraAttacks": [
+      {
+        "mAttackName": "LilliaBasicAttack2",
+        "mAttackProbability": 0.0,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "LilliaBasicAttack3",
+        "mAttackProbability": 0.0,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 9446664,
+    "healthBarHeight": 120.0,
+    "hpPerLevel": 105.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Lillia/Spells/LilliaQAbility",
+      "Characters/Lillia/Spells/LilliaWAbility",
+      "Characters/Lillia/Spells/LilliaEAbility",
+      "Characters/Lillia/Spells/LilliaRAbility",
+      "Characters/Lillia/Spells/LilliaPAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      0,
+      14
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterCalculations": {
+      "0xa4367eff": {
+        "mFormulaParts": [
+          {
+            "mNumber": 1.0,
+            "~class": "NumberCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      }
+    },
+    "mCharacterName": "Lillia",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Lillia/Spells/LilliaPAbility/LilliaP",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Lillia/Spells/LilliaPAbility/LilliaP",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "skillOrder": 2,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Domination",
+    "name": "game_character_displayname_Lillia",
+    "passive1IconName": "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_Passive.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_LilliaPassive_Name",
+    "passiveSpell": "LilliaP",
+    "passiveToolTip": "Spell_LilliaPassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 410.0,
+      "arBaseStaticRegen": 2.299999952316284,
+      "arPerLevel": 50.0,
+      "arRegenPerLevel": 0.1899999976158142,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "arAllowMaxValueToBeOverridden": true,
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "arDisplayAsPips": true,
+      "arType": 7,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 180.0,
+    "selectionRadius": 135.0,
+    "spellBlockPerLevel": 1.5499999523162842,
+    "spellNames": [
+      "LilliaQAbility/LilliaQ",
+      "LilliaWAbility/LilliaW",
+      "LilliaEAbility/LilliaE",
+      "LilliaRAbility/LilliaR"
+    ],
+    "spells": [
+      "Characters/Lillia/Spells/LilliaQAbility/LilliaQ",
+      "Characters/Lillia/Spells/LilliaWAbility/LilliaW",
+      "Characters/Lillia/Spells/LilliaEAbility/LilliaE",
+      "Characters/Lillia/Spells/LilliaRAbility/LilliaR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "weaponMaterials": [
+      "LilliaBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Lillia/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Lillia/Spells/LilliaBasicAttack1": {
+    "ObjectName": "LilliaBasicAttack1",
+    "mScriptName": "LilliaBasicAttack1",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.17399999499320984,
+      "mAffectsTypeFlags": 7375,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Lillia_BA_Tar",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaBasicAttack2": {
+    "ObjectName": "LilliaBasicAttack2",
+    "mScriptName": "LilliaBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.17399999499320984,
+      "mAffectsTypeFlags": 7375,
+      "mAnimationName": "Attack2",
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Lillia_BA_Tar",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaBasicAttack3": {
+    "ObjectName": "LilliaBasicAttack3",
+    "mScriptName": "LilliaBasicAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.17399999499320984,
+      "mAffectsTypeFlags": 7375,
+      "mAnimationName": "Attack2",
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Lillia_BA_Tar",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaCritAttack": {
+    "ObjectName": "LilliaCritAttack",
+    "mScriptName": "LilliaCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.17399999499320984,
+      "mAffectsTypeFlags": 7375,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Lillia_BA_Tar",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaEAbility": {
+    "AbilityTraits": 1,
+    "mChildSpells": [
+      "Characters/Lillia/Spells/LilliaEAbility/LilliaE",
+      "Characters/Lillia/Spells/LilliaEAbility/LilliaERollingMissile",
+      "Characters/Lillia/Spells/LilliaEAbility/LilliaERollingMissileShort",
+      "Characters/Lillia/Spells/LilliaEAbility/LilliaESpellPassive"
+    ],
+    "mName": "LilliaEAbility",
+    "mRootSpell": "Characters/Lillia/Spells/LilliaEAbility/LilliaE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Lillia/Spells/LilliaEAbility/LilliaE": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LilliaE",
+    "mBuff": {
+      "mDescription": "buff_desc_LilliaE",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_LilliaE_Name",
+          "keyTooltip": "Buff_LilliaEAbility_Tooltip"
+        },
+        "mObjectName": "LilliaE",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "LilliaE",
+    "mSpell": {
+      "0xf9c2333e": {
+        "0xbffdf499": {
+          "value": [
+            18.0,
+            18.0,
+            17.0,
+            16.0,
+            15.0,
+            14.0,
+            14.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        "ARAM": {
+          "value": [
+            18.0,
+            18.0,
+            17.0,
+            16.0,
+            15.0,
+            14.0,
+            14.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BounceRange",
+          "mValues": [
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ImpactDamage",
+          "mValues": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ImpactRangeCheck",
+          "mValues": [
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0,
+            115.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HitboxWidth",
+          "mValues": [
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HitboxLength",
+          "mValues": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AnimCutoffRange",
+          "mValues": [
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "castTargetAdditionalUnitsRadius": 325.0,
+      "cooldownTime": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAlternateName": "LilliaGrenade",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mCastType": 3,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "alwaysDraw": true,
+            "arrowSize": 50.0,
+            "endLocator": {
+              "basePosition": 3,
+              "distanceOffset": 900.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "maxAngle": 120.0,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1000.0,
+                1000.0,
+                1000.0,
+                1000.0,
+                1000.0,
+                1000.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                140.0,
+                140.0,
+                140.0,
+                140.0,
+                140.0,
+                140.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "ImpactDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_LilliaE_Name",
+            "keySummary": "Spell_LilliaE_Summary",
+            "keyTooltip": "Spell_LilliaE_Tooltip"
+          },
+          "mObjectName": "LilliaE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 2,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_E.dds"
+      ],
+      "mMissileEffectKey": "Lillia_E_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 12000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mSpeed": 1400.0,
+          "mStartBoneName": "Buffbone_Glb_Weapon_1",
+          "mTargetHeightAugment": 50.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mSpellCalculations": {
+        "ImpactDamageTotal": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ImpactDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mUseMinimapTargeting": true,
+      "mana": [
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "missileSpeed": 1750.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaEAbility/LilliaERollingMissile": {
+    "ObjectName": "LilliaERollingMissile",
+    "mScriptName": "LilliaERollingMissile",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.9800000190734863,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        14.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "LilliaGrenade",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                750.0,
+                750.0,
+                750.0,
+                750.0,
+                750.0,
+                750.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOverrideName": "ASSETS/Spells/Textures/CircularRangeIndicator_Empty.tex",
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                750.0,
+                750.0,
+                750.0,
+                750.0,
+                750.0,
+                750.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/CircularRangeIndicator_Empty.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mObjectName": "LilliaERollingMissile",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6499999761581421,
+      "mCoefficient2": 0.6000000238418579,
+      "mDimensionBehavior": 2,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/CuteJungler/HUD/Icons2D/MordekaiserQ2.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 85.0,
+      "mMinimapIconName": "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_E_Seed_Icon_minimap.tex",
+      "mMinimapIconRotation": true,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 30.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 30.0,
+          "mSpeed": 1150.0,
+          "mTargetHeightAugment": 30.0,
+          "mTracksTarget": false,
+          "mUseGroundHeightAtTarget": false,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaEAbility/LilliaERollingMissileShort": {
+    "ObjectName": "LilliaERollingMissileShort",
+    "mScriptName": "LilliaERollingMissileShort",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.9800000190734863,
+      "castRange": [
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "cooldownTime": [
+        14.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "LilliaGrenade",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                750.0,
+                750.0,
+                750.0,
+                750.0,
+                750.0,
+                750.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOverrideName": "ASSETS/Spells/Textures/CircularRangeIndicator_Empty.tex",
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                750.0,
+                750.0,
+                750.0,
+                750.0,
+                750.0,
+                750.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/CircularRangeIndicator_Empty.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mObjectName": "LilliaERollingMissileShort",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6499999761581421,
+      "mCoefficient2": 0.6000000238418579,
+      "mDimensionBehavior": 2,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/CuteJungler/HUD/Icons2D/MordekaiserQ2.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 60.0,
+      "mMinimapIconName": "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_E_Seed_Icon_minimap.tex",
+      "mMinimapIconRotation": true,
+      "mMissileEffectKey": "Lillia_E_Mis_Ground",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 60.0,
+          "mSpeed": 5000.0,
+          "mTargetHeightAugment": 60.0,
+          "mTracksTarget": false,
+          "mUseGroundHeightAtTarget": false,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "missileSpeed": 1750.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaEAbility/LilliaESpellPassive": {
+    "ObjectName": "LilliaESpellPassive",
+    "mScriptName": "LilliaESpellPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DodgeDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSAmount",
+          "mValues": [
+            0.20000000298023224,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.5,
+            0.6000000238418579,
+            0.699999988079071,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 9.75,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        24.0,
+        24.0,
+        22.0,
+        20.0,
+        18.0,
+        16.0,
+        14.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mObjectName": "LilliaESpellPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mCoefficient2": 1.2999999523162842,
+      "mDoesntBreakChannels": true,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/CuteJungler/HUD/Icons2D/Evelynn_E_passive.dds"
+      ],
+      "mLineWidth": 160.0,
+      "mProjectTargetToCastRange": true,
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0
+      ],
+      "missileSpeed": 700.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaPAbility": {
+    "mChildSpells": [
+      "Characters/Lillia/Spells/LilliaPAbility/LilliaP",
+      "Characters/Lillia/Spells/LilliaPAbility/LilliaPDoT"
+    ],
+    "mName": "LilliaPAbility",
+    "mRootSpell": "Characters/Lillia/Spells/LilliaPAbility/LilliaP",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Lillia/Spells/LilliaPAbility/LilliaP": {
+    "ObjectName": "LilliaP",
+    "mBuff": {
+      "mDescription": "buff_desc_LilliaP",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_LilliaP_Name",
+          "keyTooltip": "Buff_LilliaP_Tooltip"
+        },
+        "mObjectName": "LilliaP",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "LilliaP",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Duration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DotDamagePercent",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DotTicks",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterHealingPercent",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ChampionHealingPercent",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LargeMonsterHealMod",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SmallMonsterHealMod",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MultiHealMod",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "DotDamagePercent",
+              "mValues": [
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_LilliaP_Name",
+            "keySummary": "Spell_LilliaP_Summary",
+            "keyTooltip": "Spell_LilliaP_Tooltip",
+            "keyTooltipExtended": "Spell_LilliaP_TooltipExtended"
+          },
+          "mObjectName": "LilliaP",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "0x395ffd44": {
+          "mModifiedGameCalculation": "0xb5d0316f",
+          "mMultiplier": {
+            "mDataValue": "SmallMonsterHealMod",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "0x7969ffc2": {
+          "mModifiedGameCalculation": "0xb5d0316f",
+          "mMultiplier": {
+            "mPart1": {
+              "mDataValue": "DotTicks",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            "mPart2": {
+              "mDataValue": "SmallMonsterHealMod",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            "~class": "ProductOfSubPartsCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "0xb5d0316f": {
+          "mFormulaParts": [
+            {
+              "mNumber": 6.5,
+              "~class": "NumberCalculationPart"
+            },
+            {
+              "mCoefficient": 0.02500000037252903,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "ChampionHeal": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 15.0,
+              "mScaleByStatProgressionMultiplier": true,
+              "mStartValue": 1.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.05000000074505806,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "ChampionHealTT": {
+          "mModifiedGameCalculation": "ChampionHeal",
+          "mMultiplier": {
+            "mDataValue": "DotTicks",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "DotPercentTooltip": {
+          "mModifiedGameCalculation": "DotPercentTotal",
+          "mMultiplier": {
+            "mNumber": 0.009999999776482582,
+            "~class": "NumberCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "DotPercentTotal": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "DotDamagePercent",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.012500000186264515,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mPrecision": -1,
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "MonsterDamageCap": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mNumber": 65.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MonsterHealTT": {
+          "mModifiedGameCalculation": "0xb5d0316f",
+          "mMultiplier": {
+            "mDataValue": "DotTicks",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaPAbility/LilliaPDoT": {
+    "ObjectName": "LilliaPDoT",
+    "mBuff": {
+      "mDescription": "buff_desc_LilliaP",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_LilliaP_Name",
+          "keyTooltip": "Buff_LilliaP_Tooltip"
+        },
+        "mObjectName": "LilliaPDoT",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "LilliaPDoT",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MonsterHealingMod",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Duration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DotDamageFlat",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MultipleHealMod",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LowHealthMod",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LowHealthThreshold",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DotDamagePercent",
+          "mValues": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseHealPercentConversion",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DotTicks",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackSpeedSlow",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeedSlow",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_LilliaP_Name",
+            "keySummary": "Spell_LilliaP_Summary",
+            "keyTooltip": "Spell_LilliaP_Tooltip"
+          },
+          "mObjectName": "LilliaPDoT",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "0x18849f10": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHealPercentConversion",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0024999999441206455,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "0x44c2f9d7": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "DotDamageFlat",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.05000000074505806,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "0x77823978": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.10999999940395355,
+              "mStartValue": 0.05000000074505806,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        },
+        "0x8abdf228": {
+          "mFormulaParts": [
+            {
+              "mLevel1Value": 10.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mDataValue": "LowHealthMod",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculation"
+        },
+        "DotPercentTotal": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "DotDamagePercent",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "HealPerSecond": {
+          "mFormulaParts": [
+            {
+              "mLevel1Value": 7.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MonsterDamageCap": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 100.0,
+              "mStartValue": 40.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaQAbility": {
+    "mChildSpells": [
+      "Characters/Lillia/Spells/LilliaQAbility/LilliaQ",
+      "Characters/Lillia/Spells/LilliaQAbility/LilliaQSpellPassive",
+      "Characters/Lillia/Spells/LilliaQAbility/LilliaPranceStack"
+    ],
+    "mName": "LilliaQAbility",
+    "mRootSpell": "Characters/Lillia/Spells/LilliaQAbility/LilliaQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Lillia/Spells/LilliaQAbility/LilliaPranceStack": {
+    "ObjectName": "LilliaPranceStack",
+    "mBuff": {
+      "mShowAccumulatedDuration": false,
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_LilliaPranceStack_Name",
+          "keyTooltip": "Buff_LilliaPranceStack_Tooltip"
+        },
+        "mObjectName": "LilliaPranceStack",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "LilliaPranceStack",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 9.75,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        24.0,
+        24.0,
+        22.0,
+        20.0,
+        18.0,
+        16.0,
+        14.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mObjectName": "LilliaPranceStack",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mCoefficient2": 1.2999999523162842,
+      "mDoesntBreakChannels": true,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_Buff_Speedup.dds"
+      ],
+      "mLineWidth": 160.0,
+      "mProjectTargetToCastRange": true,
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0
+      ],
+      "missileSpeed": 700.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaQAbility/LilliaQ": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LilliaQ",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_GadgeteerE",
+      "~class": "BuffData"
+    },
+    "mScriptName": "LilliaQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "CAST_VARS",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinimumRadius",
+          "mValues": [
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaximumRadius",
+          "mValues": [
+            485.0,
+            485.0,
+            485.0,
+            485.0,
+            485.0,
+            485.0,
+            485.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FlatDamageBase",
+          "mValues": [
+            25.0,
+            35.0,
+            45.0,
+            55.0,
+            65.0,
+            75.0,
+            85.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FlatDamageTrue",
+          "mValues": [
+            25.0,
+            35.0,
+            45.0,
+            55.0,
+            65.0,
+            75.0,
+            85.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionDamageMod",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PRANCE_VARS",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PranceDuration",
+          "mValues": [
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PranceMaxStacks",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PranceFalloffTime",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PranceBonusPerStack",
+          "mValues": [
+            0.019999999552965164,
+            0.029999999329447746,
+            0.03999999910593033,
+            0.05000000074505806,
+            0.05999999865889549,
+            0.07000000029802322,
+            0.07999999821186066
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRangeDisplayOverride": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        4.0,
+        6.0,
+        5.5,
+        5.0,
+        4.5,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell1",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mLeftClickSpellAction": 0,
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                475.0,
+                475.0,
+                475.0,
+                475.0,
+                475.0,
+                475.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                250.0,
+                250.0,
+                250.0,
+                250.0,
+                250.0,
+                250.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "PranceBonusPerStack",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_LilliaQ_BaseMagicDamage",
+                  "type": "FlatDamageBase",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_LilliaQ_BaseTrueDamage",
+                  "type": "FlatDamageTrue",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_LilliaQ_Name",
+            "keySummary": "Spell_LilliaQ_Summary",
+            "keyTooltip": "Spell_LilliaQ_Tooltip"
+          },
+          "mObjectName": "LilliaQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mCoefficient2": 1.0,
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_Q.dds"
+      ],
+      "mPreCastLockoutDeltaTimeData": {
+        "mSpellLockDeltaTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mNumber": 0.25,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "SpellLockDeltaTimeData"
+      },
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "BonusTrueDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "FlatDamageTrue",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "PranceSpeed": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "PranceBonusPerStack",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0003000000142492354,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "FlatDamageBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaQAbility/LilliaQSpellPassive": {
+    "ObjectName": "LilliaQSpellPassive",
+    "mScriptName": "LilliaQSpellPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DodgeDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSAmount",
+          "mValues": [
+            0.20000000298023224,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.5,
+            0.6000000238418579,
+            0.699999988079071,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 9.75,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        24.0,
+        24.0,
+        22.0,
+        20.0,
+        18.0,
+        16.0,
+        14.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mObjectName": "LilliaQSpellPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mCoefficient2": 1.2999999523162842,
+      "mDoesntBreakChannels": true,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/CuteJungler/HUD/Icons2D/Evelynn_E_passive.dds"
+      ],
+      "mLineWidth": 160.0,
+      "mProjectTargetToCastRange": true,
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0
+      ],
+      "missileSpeed": 700.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaRAbility": {
+    "AbilityTraits": 1,
+    "mChildSpells": [
+      "Characters/Lillia/Spells/LilliaRAbility/LilliaR",
+      "Characters/Lillia/Spells/LilliaRAbility/LilliaRExpungeMissile",
+      "Characters/Lillia/Spells/LilliaRAbility/LilliaRExpungeMissileTwo",
+      "Characters/Lillia/Spells/LilliaRAbility/LilliaRSleep",
+      "Characters/Lillia/Spells/LilliaRAbility/LilliaRSpellPassive"
+    ],
+    "mName": "LilliaRAbility",
+    "mRootSpell": "Characters/Lillia/Spells/LilliaRAbility/LilliaR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Lillia/Spells/LilliaRAbility/LilliaR": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mMultiplier": {
+              "mDataValue": "InitialSlow",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SleepDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SleepDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SleepDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LilliaR",
+    "mScriptName": "LilliaR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DrowsyDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SleepDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ImpactDamage",
+          "mValues": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BreakDamageBase",
+          "mValues": [
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "InitialSlow",
+          "mValues": [
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowIncrement",
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.9800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0
+      ],
+      "castRangeDisplayOverride": [
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0
+      ],
+      "cooldownTime": [
+        140.0,
+        140.0,
+        120.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 2,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.4000000059604645,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_LilliaR_BreakDamage_Level",
+                  "type": "BreakDamageBase",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_LilliaR_Name",
+            "keySummary": "Spell_LilliaR_Summary",
+            "keyTooltip": "Spell_LilliaR_Tooltip",
+            "keyTooltipExtended": "Spell_LilliaR_TooltipExtended",
+            "keyTooltipExtendedBelowLine": "Spell_LilliaR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "LilliaR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.100000023841858,
+      "mCoefficient2": 0.4000000059604645,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_R.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mMissileEffectKey": "Lillia_R_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnHit"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mStartBoneName": "",
+          "mTracksTarget": false,
+          "mTravelTime": 0.20000000298023224,
+          "mUseGroundHeightAtTarget": false,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BreakDamageBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.44999998807907104,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.05000000074505806,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mTurnSpeedScalar": 1.7000000476837158,
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaRAbility/LilliaRExpungeMissile": {
+    "ObjectName": "LilliaRExpungeMissile",
+    "mScriptName": "LilliaRExpungeMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        19500.0,
+        19500.0,
+        19500.0,
+        19500.0,
+        19500.0,
+        19500.0,
+        19500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "PerkSoulFeastVisualMissile",
+      "mCastType": 1,
+      "mDoesntBreakChannels": true,
+      "mHitEffectOrientType": 2,
+      "mMinimapIconDisplayFlag": 0,
+      "mMissileEffectKey": "Lillia_R_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 50.0,
+        "movementComponent": {
+          "mSplineInfo": {
+            "mControlPoint1": [
+              -0.437668114900589,
+              0.0,
+              0.1202002614736557
+            ],
+            "mControlPoint2": [
+              -0.5634464025497437,
+              0.0,
+              -0.8565558791160583
+            ],
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "Weapon_Tip2",
+          "mTargetBoneName": "root",
+          "mTravelTime": 0.30000001192092896,
+          "~class": "FixedTimeSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 300.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaRAbility/LilliaRExpungeMissileTwo": {
+    "ObjectName": "LilliaRExpungeMissileTwo",
+    "mScriptName": "LilliaRExpungeMissileTwo",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        19500.0,
+        19500.0,
+        19500.0,
+        19500.0,
+        19500.0,
+        19500.0,
+        19500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "PerkSoulFeastVisualMissile",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Lillia_R_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 50.0,
+        "movementComponent": {
+          "mSplineInfo": {
+            "mControlPoint1": [
+              0.4296061098575592,
+              0.0,
+              0.4768473207950592
+            ],
+            "mControlPoint2": [
+              0.4572109878063202,
+              0.0,
+              -0.426329642534256
+            ],
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "Weapon_Tip2",
+          "mTargetBoneName": "root",
+          "mTravelTime": 0.30000001192092896,
+          "~class": "FixedTimeSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 300.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaRAbility/LilliaRSleep": {
+    "ObjectName": "LilliaRSleep",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_LilliaRSleep_Name",
+          "keyTooltip": "Buff_LilliaRSleep_Tooltip"
+        },
+        "mObjectName": "LilliaRSleep",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "LilliaRSleep",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_Buff_Sleep.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaRAbility/LilliaRSpellPassive": {
+    "ObjectName": "LilliaRSpellPassive",
+    "mScriptName": "LilliaRSpellPassive",
+    "~class": "SpellObject"
+  },
+  "Characters/Lillia/Spells/LilliaWAbility": {
+    "mChildSpells": [
+      "Characters/Lillia/Spells/LilliaWAbility/LilliaW"
+    ],
+    "mName": "LilliaWAbility",
+    "mRootSpell": "Characters/Lillia/Spells/LilliaWAbility/LilliaW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Lillia/Spells/LilliaWAbility/LilliaW": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "LilliaW",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "LilliaW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "FlatDamageBase",
+          "mValues": [
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0,
+            160.0,
+            180.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaximumDistance",
+          "mValues": [
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxSpeed",
+          "mValues": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinimumDistance",
+          "mValues": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LandingOffset",
+          "mValues": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaximumCastTime",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinimumCastTime",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinimumRadius",
+          "mValues": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SweetSpotRadius",
+          "mValues": [
+            65.0,
+            65.0,
+            65.0,
+            65.0,
+            65.0,
+            65.0,
+            65.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SweetSpotBonus",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AnimRangeCutoff",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionDamageMod",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        18.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.875,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintPosLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                240.0,
+                240.0,
+                240.0,
+                240.0,
+                240.0,
+                240.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintPosLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "FlatDamageBase",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_LilliaW_Name",
+            "keySummary": "Spell_LilliaW_Summary",
+            "keyTooltip": "Spell_LilliaW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_LilliaW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "LilliaW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mCoefficient2": 1.0,
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_W.dds"
+      ],
+      "mPreCastLockoutDeltaTimeData": {
+        "mSpellLockDeltaTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mNumber": 0.25,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "SpellLockDeltaTimeData"
+      },
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "FlatDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "FlatDamageBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.3499999940395355,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "FlatDamageSweetSpot": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "FlatDamageBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.3499999940395355,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mDataValue": "SweetSpotBonus",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

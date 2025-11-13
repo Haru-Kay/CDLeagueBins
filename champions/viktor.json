@@ -1,0 +1,3902 @@
+{
+  "0x179ae3e1": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "845f56f8-676b-4268-8c3f-b52eb14a52ab",
+      "itemID": 125562,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "ViktorTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x22312216": {
+    "ObjectName": "ViktorPassiveCount",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ViktorPassiveCount_Name",
+          "keyTooltip": "Buff_ViktorPassiveCount_Tooltip"
+        },
+        "mObjectName": "ViktorPassiveCount",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorPassiveCount",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Passive.ViktorVGU.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x25682d4e": {
+    "ObjectName": "ViktorEAugMissile",
+    "mScriptName": "ViktorEAugMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 16.15999984741211,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ViktorDeathRay",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mLineWidth": 90.0,
+      "mMissileEffectKey": "Viktor_E_Aug_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1050.0,
+          "mStartBoneName": "Buffbone_Cstm_Laser",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 750.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1050.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x26892851": {
+    "ObjectName": "Crepe_ViktorVsJayce_ViktorWin",
+    "mScriptName": "Crepe_ViktorVsJayce_ViktorWin",
+    "~class": "SpellObject"
+  },
+  "0x3317579c": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "b132fab1-2a4f-4226-b3c2-37819845bc95",
+      "itemID": 125563,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "ViktorStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x356e420c": {
+    "ObjectName": "ViktorEAug",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorEAug",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorEAug",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide2.ViktorVGU.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x40cdc0c2": {
+    "ObjectName": "Crepe_ViktorVsJayce_ViktorReward",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Crepe_ViktorVsJayce_ViktorReward",
+          "keyTooltip": "Crepe_ViktorVsJayce_ViktorReward_Tooltip"
+        },
+        "mObjectName": "Crepe_ViktorVsJayce_ViktorReward",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "Crepe_ViktorVsJayce_ViktorReward",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BonusADPercent",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APPercent",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DetectionRange",
+          "mValues": [
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Jhin/HUD/Icons2D/JhinQuestVictory.dds"
+      ],
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APPercent",
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "BonusADPercent",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x42cbb273": {
+    "ObjectName": "ViktorWStun",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorGravitonStun",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorWStun",
+    "~class": "SpellObject"
+  },
+  "0x4320c594": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      7,
+      15,
+      15,
+      20,
+      8
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "23f9e608-1b80-48d4-8445-aa0177f79c0b",
+      "itemID": 272,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_ViktorRKills",
+    "mNameTraKey": "stat_stone_name_ViktorRKills",
+    "stoneName": "ViktorRKills",
+    "~class": "StatStoneData"
+  },
+  "0x4b144c9c": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      10,
+      20,
+      25,
+      35,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "57953eff-79e4-4abc-9d1e-fe3b56da7569",
+      "itemID": 126307,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_ViktorQKills",
+    "mNameTraKey": "stat_stone_name_ViktorQKills",
+    "stoneName": "ViktorQKills",
+    "~class": "StatStoneData"
+  },
+  "0x5126cdad": {
+    "ObjectName": "ViktorEMissile2",
+    "mScriptName": "ViktorEMissile2",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 16.15999984741211,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ViktorDeathRay",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 90.0,
+      "mMissileEffectKey": "Viktor_E_Aug_Mis2",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "C_ClawMain",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 750.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5294f54c": {
+    "ObjectName": "ViktorEAugParticle",
+    "mScriptName": "ViktorEAugParticle",
+    "mSpell": {
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castFrame": 16.15999984741211,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ViktorDeathRay",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 80.0,
+      "mMissileEffectKey": "Viktor_E_Aug_Mis_buildup",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "C_ClawMain",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 750.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x52c6b644": {
+    "ObjectName": "ViktorQWEAug",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorQWEAug",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorQWEAug",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide2.ViktorVGU.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x52f6c112": {
+    "ObjectName": "ViktorRTimer",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorChaosStormTimer",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorRTimer",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "18": "Play_sfx_Viktor_ViktorRExpirationTimer_OnBuffActivate",
+        "19": "Play_sfx_Viktor_ViktorRExpirationTimer_OnBuffDeactivate"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5569dd6": {
+    "ObjectName": "ViktorWAug",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorWAug",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorWAug",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide2.ViktorVGU.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x55a617c5": {
+    "ObjectName": "ViktorWEAug",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorWEAug",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorWEAug",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide2.ViktorVGU.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5860d709": {
+    "ObjectName": "ViktorQReturn",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorPowerTransferReturn",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorQReturn",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Viktor_ViktorQBuff_OnCast"
+      },
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castFrame": 12.03499984741211,
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 7183,
+      "mAnimationName": "Idle1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "Staff5",
+      "mHitEffectKey": "Viktor_Reverb_ShieldTar_BV2",
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Q_Buff.ViktorVGU.dds"
+      ],
+      "mMissileEffectKey": "0x3f531f23",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5982e7e9": {
+    "ObjectName": "ViktorQWAug",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorQWAug",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorQWAug",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide2.ViktorVGU.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5b9ca4d7": {
+    "ObjectName": "Crepe_ViktorVsJayce_ViktorStart",
+    "mScriptName": "Crepe_ViktorVsJayce_ViktorStart",
+    "~class": "SpellObject"
+  },
+  "0x5f3ebc41": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      40,
+      85,
+      100,
+      125,
+      50
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b003b27e-acc1-4f26-ad40-d5e9c2352562",
+      "itemID": 273,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_ViktorWStuns",
+    "mNameTraKey": "stat_stone_name_ViktorWStuns",
+    "stoneName": "ViktorWStuns",
+    "~class": "StatStoneData"
+  },
+  "0x6fa7279b": {
+    "catalogEntry": {
+      "contentId": "5bd892db-af35-4d79-ae5f-0fda53e87e77",
+      "itemID": 66600129,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xa4fa939d",
+      "0x4320c594",
+      "0x5f3ebc41",
+      "0xcef6f379"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x70a7292e": {
+    "catalogEntry": {
+      "contentId": "56fc4d7f-fc4f-4a44-8ffc-191e9f588fd1",
+      "itemID": 66600507,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x735135c1",
+      "0x4b144c9c",
+      "0xcae39196"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x735135c1": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5000,
+      12000,
+      24000,
+      29000,
+      37000,
+      15000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "a3e83c91-b262-49f9-8873-5a3fec29220a",
+      "itemID": 126305,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_ViktorQBlocks",
+    "mNameTraKey": "stat_stone_name_ViktorQBlocks",
+    "stoneName": "ViktorQBlocks",
+    "~class": "StatStoneData"
+  },
+  "0x7df9bbf6": {
+    "ObjectName": "ViktorWSlow",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorGravitonSlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorWSlow",
+    "~class": "SpellObject"
+  },
+  "0x8917b5c3": {
+    "ObjectName": "ViktorQEAug",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorQEAug",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorQEAug",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide2.ViktorVGU.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x978c7b8d": {
+    "ObjectName": "ViktorEMissile",
+    "mScriptName": "ViktorEMissile",
+    "mSpell": {
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castFrame": 16.15999984741211,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ViktorDeathRay",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mLineWidth": 90.0,
+      "mMissileEffectKey": "Viktor_DeathRay_Fix_Mis_BV2",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1050.0,
+          "mStartBoneName": "Buffbone_Cstm_Laser",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 750.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1050.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x9d3cab33": {
+    "ObjectName": "Crepe_ViktorVsJayce_ViktorTracker",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Quests_ViktorVsJayce_Name",
+          "keyTooltip": "Quests_ViktorVsJayce_ViktorInstructions"
+        },
+        "mObjectName": "Crepe_ViktorVsJayce_ViktorTracker",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "Crepe_ViktorVsJayce_ViktorTracker",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Jayce/HUD/Icons2D/JayceViktor_64.HA_CREPE.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x9d77dd94": {
+    "ObjectName": "ViktorQWERAug",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorQWERAug",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorQWERAug",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide2.ViktorVGU.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xa4fa939d": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      55,
+      100,
+      125,
+      150,
+      65
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "76d84df9-6d87-4f5d-9250-293bf185e687",
+      "itemID": 7209,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_ViktorEDoubleHits",
+    "mNameTraKey": "stat_stone_name_ViktorEDoubleHits",
+    "stoneName": "ViktorEDoubleHits",
+    "~class": "StatStoneData"
+  },
+  "0xa9910d7c": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "middle",
+        "mDefaultPriority": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xaacf09e6": {
+    "ObjectName": "ViktorQBuff",
+    "mScriptName": "ViktorQBuff",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "19": "Play_sfx_Viktor_ViktorQReturn_OnBuffDeactivate"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.0,
+      "castRange": [
+        650.0,
+        650.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.8999999761581421,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "ViktorPowerTransfer",
+      "mAnimationName": "Spell1_Attack",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mHitEffectKey": "Viktor_Q_Empowered_BA",
+      "mImgIconName": [
+        ""
+      ],
+      "mTurnSpeedScalar": 3.0,
+      "missileSpeed": 25000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb84358db": {
+    "ObjectName": "ViktorRGuide",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorChaosStormGuide",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorRGuide",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 20.799999237060547,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ViktorChaosStorm",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mLocKeys": {
+            "keyCooldown": "Spell_Cost_Empty",
+            "keyCost": "Spell_Cost_Empty",
+            "keyName": "Spell_ViktorChaosStormGuide_Name",
+            "keyTooltip": "Spell_ViktorChaosStormGuide_Tooltip"
+          },
+          "mObjectName": "ViktorRGuide",
+          "~class": "TooltipInstanceSpell"
+        },
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Viktor/Spells/ViktorRAbility/ViktorR",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.550000011920929,
+      "mCoefficient2": 0.20000000298023224,
+      "mDoesntBreakChannels": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            150.0,
+            150.0,
+            250.0,
+            350.0,
+            0.0,
+            0.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            175.0,
+            250.0,
+            0.0,
+            0.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            120.0,
+            120.0,
+            100.0,
+            80.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide.ViktorVGU.dds",
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide.ViktorVGU.dds"
+      ],
+      "mSpellTags": [
+        "Trait_UltimateReactivation"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xbf2a94e5": {
+    "ObjectName": "ViktorWDebuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorGravitonSlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorWDebuff",
+    "~class": "SpellObject"
+  },
+  "0xcae39196": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      50,
+      95,
+      125,
+      150,
+      60
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "833018f2-6c85-40d0-88c7-3b08883e3ff1",
+      "itemID": 126385,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_ViktorEMultihits",
+    "mNameTraKey": "stat_stone_name_ViktorEMultihits",
+    "stoneName": "ViktorEMultihits",
+    "~class": "StatStoneData"
+  },
+  "0xcef6f379": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      55,
+      70,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "10efcef7-02e0-455f-95a0-a6dbfa5b180f",
+      "itemID": 126495,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_ViktorRTracker",
+    "mNameTraKey": "stat_stone_name_ViktorRTracker",
+    "stoneName": "ViktorRTracker",
+    "~class": "StatStoneData"
+  },
+  "0xdafa3948": {
+    "ObjectName": "ViktorQAug",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorQAug",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorQAug",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R_Guide2.ViktorVGU.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xe7b86def": {
+    "ObjectName": "Crepe_ViktorVsJayce_JayceLose",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Crepe_ViktorVsJayce_JayceLose",
+          "keyTooltip": "Crepe_ViktorVsJayce_JayceLose_Tooltip"
+        },
+        "mObjectName": "Crepe_ViktorVsJayce_JayceLose",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "Crepe_ViktorVsJayce_JayceLose",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Jhin/HUD/Icons2D/JhinQuestLoser.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf3362383": {
+    "catalogEntry": {
+      "contentId": "ebfb5720-20b4-4cca-a2d8-34de02d884b1",
+      "itemID": 66600208,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xfcc54eb4",
+      "0x179ae3e1",
+      "0x3317579c"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xfcc54eb4": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "52beaab5-7872-49d4-b303-940c2a423bb9",
+      "itemID": 125561,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "ViktorEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "Characters/Viktor/CharacterRecords/Root": {
+    "0x6854087e": [
+      {
+        "0xcf19cb5d": {
+          "hpPerLevel": -8.0,
+          "~class": "0x770f7888"
+        },
+        "0xe4f7105d": "Maps/Shipping/Map11/Modes/SWIFTPLAY",
+        "~class": "0x47f13ab0"
+      }
+    ],
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "0x5860d709",
+      "Shared/Spells/BaseSpell",
+      "0xaacf09e6",
+      "0x25682d4e",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "0xb84358db",
+      "Characters/Viktor/Spells/ViktorPassiveAbility/ViktorPassive",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "0xc5c48b41": 1,
+    "acquisitionRange": 525.0,
+    "armorPerLevel": 4.400000095367432,
+    "attackRange": 525.0,
+    "attackSpeed": 0.6579999923706055,
+    "attackSpeedPerLevel": 2.109999895095825,
+    "attackSpeedRatio": 0.6579999923706055,
+    "baseArmor": 23.0,
+    "baseDamage": 53.0,
+    "baseHP": 600.0,
+    "baseMoveSpeed": 335.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.600000023841858,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.11999999731779099,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "attackRank": 2,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 112,
+      "defenseRank": 4,
+      "description": "game_character_description_Viktor",
+      "difficultyRank": 9,
+      "magicRank": 10,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "easy": true,
+          "hard": true,
+          "intro": true,
+          "medium": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Viktor",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "MAGE",
+      "searchTags": "mage",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.11999999731779099,
+        "mAttackName": "ViktorCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "evolutionData": {
+      "mFlags": 1,
+      "mIconNames": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Q2.ViktorVGU.dds",
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_W2.ViktorVGU.dds",
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_E2.ViktorVGU.dds",
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R2.ViktorVGU.dds"
+      ],
+      "mTitle": "game_character_evolutionBarTitle_Viktor",
+      "mTooltips": [
+        "game_spell_tooltip_ViktorQAug",
+        "game_spell_tooltip_ViktorWAug",
+        "game_spell_tooltip_ViktorEAug",
+        "game_spell_tooltip_ViktorRAug"
+      ],
+      "~class": "EvolutionDescription"
+    },
+    "extraAttacks": [
+      {
+        "mAttackName": "ViktorBasicAttack2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "BaseSpell",
+      "BaseSpell",
+      "ViktorQReturn",
+      "BaseSpell",
+      "ViktorQBuff",
+      "ViktorEAugMissile",
+      "BaseSpell",
+      "BaseSpell",
+      "ViktorRGuide",
+      "ViktorPassive",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "healthBarHeight": 130.0,
+    "hpPerLevel": 100.0,
+    "hpRegenPerLevel": 0.12999999523162842,
+    "mAbilities": [
+      "Characters/Viktor/Spells/ViktorRAbility",
+      "Characters/Viktor/Spells/ViktorQAbility",
+      "Characters/Viktor/Spells/ViktorWAbility",
+      "Characters/Viktor/Spells/ViktorEAbility",
+      "Characters/Viktor/Spells/ViktorPassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      14,
+      0,
+      0
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Viktor",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Viktor/Spells/ViktorPassiveAbility/ViktorPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Characters/Viktor/Spells/ViktorStaffIdleVFXBuff",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Viktor/Spells/ViktorPassiveAbility/ViktorPassive",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Viktor",
+    "passive1IconName": "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Passive.ViktorVGU.dds",
+    "passiveLuaName": "ViktorPassive",
+    "passiveName": "game_character_passiveName_Viktor",
+    "passiveToolTip": "game_character_passiveDescription_Viktor",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 405.0,
+      "arBaseStaticRegen": 1.600000023841858,
+      "arPerLevel": 45.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 140.0,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "ViktorQAbility/ViktorQ",
+      "ViktorWAbility/ViktorW",
+      "ViktorEAbility/ViktorE",
+      "ViktorRAbility/ViktorR"
+    ],
+    "spells": [
+      "Characters/Viktor/Spells/ViktorQAbility/ViktorQ",
+      "Characters/Viktor/Spells/ViktorWAbility/ViktorW",
+      "Characters/Viktor/Spells/ViktorEAbility/ViktorE",
+      "Characters/Viktor/Spells/ViktorRAbility/ViktorR"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "ViktorBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Viktor/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Viktor/Spells/ViktorBasicAttack": {
+    "ObjectName": "ViktorBasicAttack",
+    "mScriptName": "ViktorBasicAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Viktor_ViktorBasicAttack_OnCast",
+        "13": "Play_sfx_Viktor_ViktorBasicAttack_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "delayCastOffsetPercent": -0.8999999761581421,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "HexMageBasicAttack",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "ViktorBasicAttack_tar_BV2",
+      "mMissileEffectKey": "ViktorBasicAttack_mis_BV2",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2300.0,
+          "mStartBoneName": "L_Hand",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 2300.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viktor/Spells/ViktorBasicAttack2": {
+    "ObjectName": "ViktorBasicAttack2",
+    "mScriptName": "ViktorBasicAttack2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Viktor_ViktorBasicAttack2_OnCast",
+        "13": "Play_sfx_Viktor_ViktorBasicAttack2_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "delayCastOffsetPercent": -0.8999999761581421,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "HexMageBasicAttack",
+      "mAnimationName": "Attack2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "ViktorBasicAttack_tar_BV2",
+      "mMissileEffectKey": "ViktorBasicAttack_mis_BV2",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2300.0,
+          "mStartBoneName": "L_Hand",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 2300.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viktor/Spells/ViktorCritAttack": {
+    "ObjectName": "ViktorCritAttack",
+    "mScriptName": "ViktorCritAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Viktor_ViktorCritAttack_OnCast",
+        "13": "Play_sfx_Viktor_ViktorCritAttack_OnHit",
+        "16": "Play_sfx_Viktor_ViktorCritAttack_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRange": [
+        402.0,
+        402.0,
+        402.0,
+        402.0,
+        402.0,
+        402.0,
+        402.0
+      ],
+      "delayCastOffsetPercent": -0.8999999761581421,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "HexMageCritAttack",
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "ViktorBasicAttack_crit_tar_BV2",
+      "mMissileEffectKey": "ViktorBasicAttack_mis_BV2",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2300.0,
+          "mStartBoneName": "L_Hand",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 2300.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viktor/Spells/ViktorEAbility": {
+    "AbilityTraits": 256,
+    "mChildSpells": [
+      "Characters/Viktor/Spells/ViktorEAbility/ViktorE",
+      "0x978c7b8d",
+      "0x25682d4e",
+      "0x5126cdad",
+      "0x5294f54c"
+    ],
+    "mName": "ViktorEAbility",
+    "mRootSpell": "Characters/Viktor/Spells/ViktorEAbility/ViktorE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Viktor/Spells/ViktorEAbility/ViktorE": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "LaserDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "ViktorE",
+    "mScriptName": "ViktorE",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            14.0,
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "LaserRange",
+          "mValues": [
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamageLaser",
+          "mValues": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamageAftershock",
+          "mValues": [
+            -10.0,
+            20.0,
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Delay",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LaserAPRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AftershockAPRatio",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AftershockMinionMulti",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "LaserAPRatio",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Viktor_ViktorE_OnCast"
+      },
+      "bHaveHitBone": true,
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRangeDisplayOverride": [
+        525.0,
+        525.0,
+        525.0,
+        525.0,
+        525.0,
+        525.0,
+        525.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        8.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 6282,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "alwaysDraw": true,
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "basePosition": 5,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_ViktorDamageDeathRay",
+                  "type": "BaseDamageLaser",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ViktorDamageAftershock",
+                  "type": "BaseDamageAftershock",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_ViktorDeathRay_Name",
+            "keySummary": "Spell_ViktorDeathRay_Summary",
+            "keyTooltip": "Spell_ViktorDeathRay_Tooltip"
+          },
+          "mObjectName": "ViktorE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mCoefficient2": 0.699999988079071,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            20.0,
+            60.0,
+            100.0,
+            140.0,
+            180.0,
+            220.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_E1.ViktorVGU.dds",
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_E2.ViktorVGU.dds"
+      ],
+      "mLineDragLength": 700.0,
+      "mLineWidth": 90.0,
+      "mMissileEffectKey": "Viktor_DeathRay_Fix_Mis_BV2",
+      "mSpellCalculations": {
+        "0x86b88e5d": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageAftershock",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "AftershockAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mDataValue": "AftershockMinionMulti",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculation"
+        },
+        "AftershockDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageAftershock",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "AftershockAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "LaserDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageLaser",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "LaserAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "DragDirection"
+      },
+      "mana": [
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        100.0
+      ],
+      "missileSpeed": 1050.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viktor/Spells/ViktorPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Viktor/Spells/ViktorPassiveAbility/ViktorPassive",
+      "0x356e420c",
+      "0xdafa3948",
+      "0x8917b5c3",
+      "0x5569dd6",
+      "0x55a617c5",
+      "0x5982e7e9",
+      "0x52c6b644",
+      "0x9d77dd94",
+      "0x22312216"
+    ],
+    "mName": "ViktorPassiveAbility",
+    "mRootSpell": "Characters/Viktor/Spells/ViktorPassiveAbility/ViktorPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Viktor/Spells/ViktorPassiveAbility/ViktorPassive": {
+    "ObjectName": "ViktorPassive",
+    "mScriptName": "ViktorPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MinionStacks",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CannonStacks",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ChampionStacks",
+          "mValues": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EvolutionStackBreakpoint",
+          "mValues": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "ChampionStacks",
+              "mValues": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_ViktorP_Name",
+            "keySummary": "Spell_ViktorP_Summary",
+            "keyTooltip": "Spell_ViktorP_Tooltip",
+            "keyTooltipExtended": "Spell_ViktorPassive_TooltipExtended"
+          },
+          "mObjectName": "ViktorPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Passive.ViktorVGU.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viktor/Spells/ViktorQAbility": {
+    "mChildSpells": [
+      "Characters/Viktor/Spells/ViktorQAbility/ViktorQ",
+      "0x5860d709",
+      "0xaacf09e6"
+    ],
+    "mName": "ViktorQAbility",
+    "mRootSpell": "Characters/Viktor/Spells/ViktorQAbility/ViktorQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Viktor/Spells/ViktorQAbility/ViktorQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalMissileDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "ShieldValue",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "ViktorQ",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ViktorShield",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ViktorQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MissileDamage",
+          "mValues": [
+            45.0,
+            60.0,
+            75.0,
+            90.0,
+            105.0,
+            120.0,
+            135.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AABonusDamage",
+          "mValues": [
+            -5.0,
+            20.0,
+            45.0,
+            70.0,
+            95.0,
+            120.0,
+            145.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MissileAPRatio",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HitAPRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldManaRatio",
+          "mValues": [
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldAPRatio",
+          "mValues": [
+            0.18000000715255737,
+            0.18000000715255737,
+            0.18000000715255737,
+            0.18000000715255737,
+            0.18000000715255737,
+            0.18000000715255737,
+            0.18000000715255737
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AugmentShieldBonus",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AugmentMoveSpeedBonus",
+          "mValues": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TurretDamageMod",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "MissileDamage",
+              "mValues": [
+                37.5,
+                50.0,
+                62.5,
+                75.0,
+                87.5,
+                100.0,
+                112.5
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "AABonusDamage",
+              "mValues": [
+                5.0,
+                20.0,
+                35.0,
+                50.0,
+                65.0,
+                80.0,
+                95.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "MissileAPRatio",
+              "mValues": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "HitAPRatio",
+              "mValues": [
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Viktor_ViktorQ_OnCast",
+        "13": "Play_sfx_Viktor_ViktorQ_OnHit",
+        "19": "Play_sfx_Viktor_ViktorQ_OnBuffDeactivate"
+      },
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castFrame": 8.0,
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        9.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        5.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ViktorPowerTransfer_MissileDamage",
+                  "type": "MissileDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ViktorPowerTransfer_AttackDamage",
+                  "type": "AABonusDamage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_ViktorPowerTransfer",
+            "keySummary": "game_spell_description_ViktorPowerTransfer",
+            "keyTooltip": "game_spell_tooltip_ViktorPowerTransfer"
+          },
+          "mObjectName": "ViktorQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mCoefficient2": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            60.0,
+            60.0,
+            75.0,
+            90.0,
+            105.0,
+            120.0,
+            145.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            20.0,
+            45.0,
+            70.0,
+            95.0,
+            120.0,
+            135.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.18000000715255737,
+            0.18000000715255737,
+            0.18000000715255737,
+            0.18000000715255737,
+            0.18000000715255737,
+            0.18000000715255737,
+            0.18000000715255737
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mHitEffectKey": "Viktor_Reverb_tar_BV2",
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Q1.ViktorVGU.dds",
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Q2.ViktorVGU.dds"
+      ],
+      "mMissileEffectKey": "Viktor_Reverb_mis_BV2",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "Staff5",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "0x147c7de9": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "0x9aabddee": {
+          "mModifiedGameCalculation": "ShieldLevelScaling",
+          "mMultiplier": {
+            "mDataValue": "AugmentShieldBonus",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculationModified"
+        },
+        "AttackTotalDMG": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "AABonusDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "HitAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "ShieldLevelScaling": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 115.0,
+              "mStartValue": 40.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mDataValue": "ShieldAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "ShieldValue": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ShieldAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalAugmentedShieldValue": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 184.0,
+              "mStartValue": 64.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.28999999165534973,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "TotalMissileDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "MissileDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "MissileAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mana": [
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0
+      ],
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viktor/Spells/ViktorRAbility": {
+    "AbilityTraits": 2,
+    "mChildSpells": [
+      "0xb84358db",
+      "0x52f6c112",
+      "Characters/Viktor/Spells/ViktorRAbility/ViktorR"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "ViktorRAbility",
+    "mRootSpell": "Characters/Viktor/Spells/ViktorRAbility/ViktorR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Viktor/Spells/ViktorRAbility/ViktorR": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "InitialBurstDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 15,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 33554432,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 12,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "ViktorR",
+    "mScriptName": "ViktorR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "InitialBurstBaseDamage",
+          "mValues": [
+            100.0,
+            100.0,
+            175.0,
+            250.0,
+            325.0,
+            400.0,
+            475.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SubsequentBurstBaseDamage",
+          "mValues": [
+            25.0,
+            65.0,
+            105.0,
+            145.0,
+            185.0,
+            225.0,
+            265.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StormDuration",
+          "mValues": [
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TickCadence",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxTicks",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxStormSpeed",
+          "mValues": [
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinStormSpeed",
+          "mValues": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinDistance",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxDistance",
+          "mValues": [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AugmentBoost",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StormRadius",
+          "mValues": [
+            325.0,
+            325.0,
+            325.0,
+            325.0,
+            325.0,
+            325.0,
+            325.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EnhancedSizeMult",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EnhancedSlow",
+          "mValues": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EnhancedSlowDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxGrowths",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SubsequentBurstAPRaio",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "InitialBurstAPRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_DurationExtension",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "SubsequentBurstAPRaio",
+              "mValues": [
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SubsequentBurstBaseDamage",
+              "mValues": [
+                25.0,
+                55.0,
+                85.0,
+                115.0,
+                145.0,
+                175.0,
+                205.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "InitialBurstAPRatio",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "SWIFTPLAY": {
+          "SpellDataValues": [
+            {
+              "mName": "SubsequentBurstBaseDamage",
+              "mValues": [
+                20.0,
+                60.0,
+                100.0,
+                140.0,
+                180.0,
+                220.0,
+                260.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SubsequentBurstAPRaio",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "InitialBurstBaseDamage",
+              "mValues": [
+                25.0,
+                75.0,
+                125.0,
+                175.0,
+                225.0,
+                275.0,
+                325.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Viktor_ViktorR_OnCast",
+        "14": "Play_sfx_Viktor_ViktorR_OnHitLocation",
+        "19": "Play_sfx_Viktor_ViktorRTimer_OnBuffDeactivate"
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        0.0,
+        120.0,
+        100.0,
+        80.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ViktorChaosStorm",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ViktorChaosStorm_InitialBurst",
+                  "type": "InitialBurstBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ViktorChaosStorm_Ticks",
+                  "type": "SubsequentBurstBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_ViktorChaosStormGuide",
+            "keySummary": "game_spell_description_ViktorChaosStorm",
+            "keyTooltip": "game_spell_tooltip_ViktorChaosStorm",
+            "keyTooltipExtendedBelowLine": "Spell_ViktorChaosStorm_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ViktorR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.44999998807907104,
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R1.ViktorVGU.dds",
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R2.ViktorVGU.dds"
+      ],
+      "mSpellCalculations": {
+        "0xd3c6a7eb": {
+          "mFormulaParts": [
+            {
+              "mNumber": 3.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "InitialBurstDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "InitialBurstBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "InitialBurstAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "SubsequentBurstDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "SubsequentBurstBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "SubsequentBurstAPRaio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Viktor/Spells/ViktorStaffIdleVFXBuff": {
+    "ObjectName": "ViktorStaffIdleVFXBuff",
+    "mScriptName": "ViktorStaffIdleVFXBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Viktor/Spells/ViktorWAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Viktor/Spells/ViktorWAbility/ViktorW",
+      "0x7df9bbf6",
+      "0x42cbb273"
+    ],
+    "mName": "ViktorWAbility",
+    "mRootSpell": "Characters/Viktor/Spells/ViktorWAbility/ViktorW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Viktor/Spells/ViktorWAbility/ViktorW": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 1,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 5,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 1,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "ViktorW",
+    "mScriptName": "ViktorW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "SlowPotency",
+          "mValues": [
+            -30.0,
+            -33.0,
+            -36.0,
+            -39.0,
+            -42.0,
+            -45.0,
+            -48.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StunDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FieldDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StackCadence",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StacksForStun",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AugmentSlow",
+          "mValues": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Size",
+          "mValues": [
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Viktor_ViktorW_OnCast",
+        "14": "Play_sfx_Viktor_ViktorW_OnHitLocation"
+      },
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "cooldownTime": [
+        18.0,
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        13.0
+      ],
+      "delayCastOffsetPercent": -0.22220000624656677,
+      "delayTotalTimePercent": -0.33329999446868896,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": -1.0,
+                  "nameOverride": "Spell_ListType_MovementSlow",
+                  "type": "SlowPotency",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_ViktorGravitonField",
+            "keySummary": "game_spell_description_ViktorGravitonField",
+            "keyTooltip": "game_spell_tooltip_ViktorGravitonField",
+            "keyTooltipExtendedBelowLine": "Spell_ViktorGravitonField_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ViktorW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_W1.ViktorVGU.dds",
+        "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_W2.ViktorVGU.dds"
+      ],
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mTurnSpeedScalar": 2.0,
+      "mana": [
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0
+      ],
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "Characters/NasusUlt/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Nasus/Spells/NasusQAbility/NasusQAttack",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 350.0,
+    "armorPerLevel": 3.5,
+    "attackRange": 125.0,
+    "attackSpeed": 0.6380000114440918,
+    "attackSpeedPerLevel": 3.4800000190734863,
+    "attackSpeedRatio": 0.6380000114440918,
+    "baseArmor": 34.0,
+    "baseDamage": 67.0,
+    "baseHP": 561.2000122070312,
+    "baseMoveSpeed": 350.0,
+    "baseSpellBlock": 32.099998474121094,
+    "baseStaticHPRegen": 1.7000000476837158,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.09860365092754364,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "attackRank": 7,
+      "botDefaultSpell1": "SummonerHeal",
+      "botDefaultSpell2": "SummonerTeleport",
+      "championId": 75,
+      "classification": "Deadly",
+      "defenseRank": 5,
+      "description": "game_character_description_Nasus",
+      "difficultyRank": 2,
+      "magicRank": 6,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "Magic damage done to Singed is reduced by 10%."
+      ],
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Nasus",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "tank",
+      "sound": {
+        "attack": [
+          "Singe_K-Attack1.wav",
+          "Singe_K-Attack2.wav",
+          "Singe_K-Attack3.wav",
+          "Singe_K-Attack4.wav"
+        ],
+        "click": [
+          "Singe_K-Click1.wav",
+          "Singe_K-Click2.wav",
+          "Singe_K-Click3.wav",
+          "Singe_K-Click4.wav"
+        ],
+        "death": "Singe_K-Death1.wav",
+        "move": [
+          "Singe_K-Move1.wav",
+          "Singe_K-Move2.wav",
+          "Singe_K-Move3.wav",
+          "Singe_K-Move4.wav"
+        ],
+        "ready": "Singe_K-Ready1.wav",
+        "~class": "ToolSoundData"
+      },
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.09860365092754364,
+        "mAttackName": "NasusCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.5,
+    "extraAttacks": [
+      {
+        "mAttackName": "NasusBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "NasusQAttack",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "hpPerLevel": 90.0,
+    "hpRegenPerLevel": 0.18000000715255737,
+    "mCharacterName": "NasusUlt",
+    "mFallbackCharacterName": "Nasus",
+    "name": "game_character_displayname_Nasus",
+    "overrideGameplayCollisionRadius": 80.0,
+    "passive1IconName": "ASSETS/Characters/Nasus/HUD/Icons2D/Nasus_Passive.dds",
+    "passiveLuaName": "NasusPassive",
+    "passiveName": "game_character_passiveName_Nasus",
+    "passiveToolTip": "game_character_passiveDescription_Nasus",
+    "pathfindingCollisionRadius": 50.0,
+    "primaryAbilityResource": {
+      "arBase": 275.6000061035156,
+      "arBaseStaticRegen": 1.4880000352859497,
+      "arPerLevel": 45.0,
+      "arRegenPerLevel": 0.10000000149011612,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 170.0,
+    "selectionRadius": 135.0,
+    "spellBlockPerLevel": 1.25,
+    "spellNames": [
+      "NasusQ",
+      "NasusW",
+      "NasusE",
+      "NasusR"
+    ],
+    "spells": [
+      "Characters/Nasus/Spells/NasusQAbility/NasusQ",
+      "Characters/Nasus/Spells/NasusWAbility/NasusW",
+      "Characters/Nasus/Spells/NasusEAbility/NasusE",
+      "Characters/Nasus/Spells/NasusRAbility/NasusR"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "NasusBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/NasusUlt/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  }
+}

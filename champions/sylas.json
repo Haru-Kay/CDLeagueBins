@@ -1,0 +1,2996 @@
+{
+  "0x2636d129": {
+    "ObjectName": "SylasSkin46RunAnimation",
+    "mScriptName": "SylasSkin46RunAnimation",
+    "~class": "SpellObject"
+  },
+  "0x3cbc7d88": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2,
+      5,
+      10,
+      10,
+      15,
+      6
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "464ac779-df62-4e03-b3f9-562dd0d433d8",
+      "itemID": 98881,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_SylasTakedownsOnEnemiesHitByUlt",
+    "mNameTraKey": "stat_stone_name_SylasTakedownsOnEnemiesHitByUlt",
+    "stoneName": "SylasTakedownsOnEnemiesHitByUlt",
+    "~class": "StatStoneData"
+  },
+  "0x4000490f": {
+    "catalogEntry": {
+      "contentId": "aeb1421c-526c-49e5-ac4c-52d43862644a",
+      "itemID": 66600296,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x7af20e47",
+      "0xcc801b0",
+      "0x93d154a1"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x52d79f87": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      30,
+      65,
+      75,
+      95,
+      40
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "2c1cbcb6-5d12-4588-ab83-bc003178ea36",
+      "itemID": 126243,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_SylasELongrange",
+    "mNameTraKey": "stat_stone_name_SylasELongrange",
+    "stoneName": "SylasELongrange",
+    "~class": "StatStoneData"
+  },
+  "0x564bdfff": {
+    "catalogEntry": {
+      "contentId": "02534811-ec0b-46c0-9d0a-59d1427b68f2",
+      "itemID": 66600109,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x3cbc7d88",
+      "0xd7d730d6",
+      "0x5f5f9389"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x574be192": {
+    "catalogEntry": {
+      "contentId": "b73db9a5-3cd6-4a5a-94f6-ee45c9e9f2d7",
+      "itemID": 66600486,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xc63d690f",
+      "0xe9572d6b",
+      "0x52d79f87"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x5ed0d714": {
+    "mCalculationStatConversions": [
+      {
+        "mSourceStatOutput": 2,
+        "mSourceStatType": 2,
+        "mSourceToResultConversionRatio": 0.4000000059604645,
+        "~class": "RatioConversion"
+      },
+      {
+        "mSourceStatType": 2,
+        "mSourceToResultConversionRatio": 0.6000000238418579,
+        "~class": "RatioConversion"
+      }
+    ],
+    "mModifierID": "0x89bdf0d7",
+    "mSpellDoesNotIncludeStatScaling": 0,
+    "~class": "SpellModifier"
+  },
+  "0x5f5f9389": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9000,
+      22000,
+      44000,
+      53000,
+      67000,
+      27000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "1ed7ad99-0d32-4b9b-b9f6-922874962220",
+      "itemID": 232,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_SylasWHealing",
+    "mNameTraKey": "stat_stone_name_SylasWHealing",
+    "stoneName": "SylasWHealing",
+    "~class": "StatStoneData"
+  },
+  "0x7af20e47": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "1ae71e2d-2a5a-4508-9613-88dab84b3d20",
+      "itemID": 125825,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "SylasEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x860ca759": {
+    "ObjectName": "SylasSkin46WAttackAnimation",
+    "mScriptName": "SylasSkin46WAttackAnimation",
+    "~class": "SpellObject"
+  },
+  "0x9213a1bb": {
+    "ObjectName": "SylasSkin46Manager",
+    "mScriptName": "SylasSkin46Manager",
+    "~class": "SpellObject"
+  },
+  "0x93d154a1": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "a945cd9d-b6d8-4af7-9016-e94cc8a34ac2",
+      "itemID": 125827,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "SylasStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xc21d0a85": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          2,
+          0,
+          1,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "middle",
+        "mDefaultPriority": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          2,
+          1,
+          0,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xc63d690f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      9,
+      20,
+      20,
+      30,
+      10
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "eda021db-4d96-497f-ba29-723cbde504f7",
+      "itemID": 126244,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_SylasWKills",
+    "mNameTraKey": "stat_stone_name_SylasWKills",
+    "stoneName": "SylasWKills",
+    "~class": "StatStoneData"
+  },
+  "0xcc801b0": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "dcc8a204-dab3-4faf-88a3-ed7bd98e4ed7",
+      "itemID": 125826,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "SylasTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xd7d730d6": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      125,
+      325,
+      650,
+      775,
+      950,
+      375
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "91a7968c-4299-4e30-b1b0-fa7bc199b348",
+      "itemID": 231,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_SylasPHits",
+    "mNameTraKey": "stat_stone_name_SylasPHits",
+    "stoneName": "SylasPHits",
+    "~class": "StatStoneData"
+  },
+  "0xe9572d6b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      45,
+      90,
+      100,
+      125,
+      55
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d1de32b3-c6a3-4d81-b05d-751d620de1d6",
+      "itemID": 126242,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_SylasQMultihits",
+    "mNameTraKey": "stat_stone_name_SylasQMultihits",
+    "stoneName": "SylasQMultihits",
+    "~class": "StatStoneData"
+  },
+  "Characters/Sylas/CharacterRecords/Root": {
+    "acquisitionRange": 525.0,
+    "armorPerLevel": 5.199999809265137,
+    "attackRange": 175.0,
+    "attackSpeed": 0.6449999809265137,
+    "attackSpeedPerLevel": 3.5,
+    "attackSpeedRatio": 0.6449999809265137,
+    "baseArmor": 29.0,
+    "baseDamage": 61.0,
+    "baseHP": 600.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.7999999523162842,
+    "basicAttack": {
+      "mAttackCastTime": 0.25999999046325684,
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.5499999523162842,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 3.0,
+      "attackRank": 3,
+      "championId": 517,
+      "defenseRank": 4,
+      "description": "game_character_description_Sylas",
+      "difficultyRank": 5,
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Sylas",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "mage",
+      "searchTagsSecondary": "assassin",
+      "sound": {
+        "click": [
+          "Cardmaster_Click1.wav",
+          "Cardmaster_Click2.wav",
+          "Cardmaster_Click3.wav",
+          "Cardmaster_Click4.wav"
+        ],
+        "death": "Cardmaster_Death.wav",
+        "move": [
+          "Cardmaster_Move1.wav",
+          "Cardmaster_Move2.wav",
+          "Cardmaster_Move3.wav",
+          "Cardmaster_Move4.wav"
+        ],
+        "ready": "Cardmaster_Ready2.wav",
+        "~class": "ToolSoundData"
+      },
+      "spellData": [
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.09946499764919281,
+        "mAttackName": "SylasCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "SylasBasicAttack2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 8398088,
+    "highlightHealthbarIcons": true,
+    "hpPerLevel": 122.0,
+    "hpRegenPerLevel": 0.18000000715255737,
+    "mAbilities": [
+      "Characters/Sylas/Spells/SylasRAbility",
+      "Characters/Sylas/Spells/SylasQAbility",
+      "Characters/Sylas/Spells/SylasWAbility",
+      "Characters/Sylas/Spells/SylasEAbility",
+      "Characters/Sylas/Spells/SylasPassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      3,
+      0
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Sylas",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Sylas/Spells/SylasPassiveAttack",
+          "Characters/Sylas/Spells/SylasPassiveAttackNoAnim"
+        ],
+        "mParentPassiveBuff": "Characters/Sylas/Spells/SylasPassiveAbility/SylasPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            46
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x9213a1bb",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Sylas/Spells/SylasPassiveAbility/SylasPassive",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Sylas",
+    "outlineBBoxExpansion": 75.0,
+    "passive1IconName": "ASSETS/Characters/Sylas/HUD/Icons2D/SylasP.dds",
+    "passiveLuaName": "",
+    "passiveName": "",
+    "passiveSpell": "SylasPassive",
+    "passiveToolTip": "",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 400.0,
+      "arBaseStaticRegen": 1.600000023841858,
+      "arPerLevel": 70.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "arAllowMaxValueToBeOverridden": true,
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arType": 10,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 135.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 2.549999952316284,
+    "spellNames": [
+      "SylasQAbility/SylasQ",
+      "SylasWAbility/SylasW",
+      "SylasEAbility/SylasE",
+      "SylasRAbility/SylasR"
+    ],
+    "spells": [
+      "Characters/Sylas/Spells/SylasQAbility/SylasQ",
+      "Characters/Sylas/Spells/SylasWAbility/SylasW",
+      "Characters/Sylas/Spells/SylasEAbility/SylasE",
+      "Characters/Sylas/Spells/SylasRAbility/SylasR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "weaponMaterials": [
+      "SylasBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Sylas/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Sylas/Spells/SylasBasicAttack": {
+    "ObjectName": "SylasBasicAttack",
+    "mScriptName": "SylasBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23579999804496765,
+      "mAffectsTypeFlags": 5327,
+      "mApplyAttackDamage": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Sylas_BA_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 1750.0,
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasBasicAttack2": {
+    "ObjectName": "SylasBasicAttack2",
+    "mScriptName": "SylasBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23579999804496765,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Attack2",
+      "mApplyAttackDamage": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Sylas_BA_tar_R",
+      "mHitEffectOrientType": 2,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 1750.0,
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasCheatExtraSpellTest": {
+    "ObjectName": "SylasCheatExtraSpellTest",
+    "mScriptName": "SylasCheatExtraSpellTest",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsStatusFlags": 120,
+      "mAffectsTypeFlags": 8192,
+      "mDisableCastBar": true,
+      "mDoesntBreakChannels": true,
+      "mIsDisabledWhileDead": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasCritAttack": {
+    "ObjectName": "SylasCritAttack",
+    "mScriptName": "SylasCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23579999804496765,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Crit",
+      "mApplyAttackDamage": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Sylas_BA_tar",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 1750.0,
+          "mStartBoneName": "R_hand",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasEAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Sylas/Spells/SylasEAbility/SylasE",
+      "Characters/Sylas/Spells/SylasEAbility/SylasE2",
+      "Characters/Sylas/Spells/SylasEAbility/SylasEShield"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "SylasEAbility",
+    "mRootSpell": "Characters/Sylas/Spells/SylasEAbility/SylasE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Sylas/Spells/SylasEAbility/SylasE": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SylasE",
+    "mScriptName": "SylasE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PullDamage",
+          "mValues": [
+            30.0,
+            80.0,
+            130.0,
+            180.0,
+            230.0,
+            280.0,
+            330.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockUpDuration",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "bIsToggleSpell": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "minimumDisplayedRange": 0.0,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                400.0,
+                400.0,
+                400.0,
+                400.0,
+                400.0,
+                400.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "PullDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "Spell_SylasE_Cooldown",
+            "keyName": "Spell_SylasE_Name",
+            "keySummary": "Spell_SylasE_Summary",
+            "keyTooltip": "Spell_SylasE_Tooltip"
+          },
+          "mObjectName": "SylasE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Sylas/HUD/Icons2D/SylasE.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mSpeed": 1600.0,
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "PullDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_SwapsIntoImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0
+      ],
+      "missileSpeed": 1800.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasEAbility/SylasE2": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mEffectIndex": 1,
+            "~class": "EffectValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SylasE2",
+    "mScriptName": "SylasE2",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0
+      ],
+      "castRange": [
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3_B",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "minimumDisplayedRange": 0.0,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                850.0,
+                850.0,
+                850.0,
+                850.0,
+                850.0,
+                850.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Sylas/Spells/SylasEAbility/SylasE",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            20.0,
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Sylas/HUD/Icons2D/SylasE2.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "0x0"
+          },
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 100.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mAcceleration": -3200.0,
+          "mInitialSpeed": 2500.0,
+          "mMaxSpeed": 2500.0,
+          "mMinSpeed": 400.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "R_hand",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_AttackReset",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasEAbility/SylasEShield": {
+    "ObjectName": "SylasEShield",
+    "mBuff": {
+      "mDescription": "Buff_SylasEShield_Tooltip",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SylasEShield_Name",
+          "keyTooltip": "Buff_SylasEShield_Tooltip"
+        },
+        "mObjectName": "SylasEShield",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SylasEShield",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        16.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "SylasPassive",
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell_Passive",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.10000000149011612,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Sylas/HUD/Icons2D/SylasE.dds"
+      ],
+      "mPostCastLockoutDeltaTime": 0.10000000149011612,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 2200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Sylas/Spells/SylasPassiveAbility/SylasPassive"
+    ],
+    "mName": "SylasPassiveAbility",
+    "mRootSpell": "Characters/Sylas/Spells/SylasPassiveAbility/SylasPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Sylas/Spells/SylasPassiveAbility/SylasPassive": {
+    "ObjectName": "SylasPassive",
+    "mScriptName": "SylasPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "AoE",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PassiveCharges",
+          "mValues": [
+            2.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PassiveDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CheatingThreshold",
+          "mValues": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PassiveAttackSpeed",
+          "mValues": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterDamageMulti",
+          "mValues": [
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 300.0,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "castRangeDisplayOverride": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 36,
+      "mClientData": {
+        "mLeftClickSpellAction": 0,
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_SylasPassive_Name",
+            "keySummary": "Spell_SylasPassive_Summary",
+            "keyTooltip": "Spell_SylasPassive_Tooltip",
+            "keyTooltipExtended": "Spell_SylasPassive_TooltipExtended"
+          },
+          "mObjectName": "SylasPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Sylas/HUD/Icons2D/SylasP.dds"
+      ],
+      "mSpellCalculations": {
+        "PassiveAoEDamage": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.4000000059604645,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 0.20000000298023224,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PassiveDamage": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 1.2999999523162842,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 0.30000001192092896,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasPassiveAttack": {
+    "ObjectName": "SylasPassiveAttack",
+    "mBuff": {
+      "mDescription": "Buff_SylasPassiveAttack_Tooltip",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SylasPassiveAttack_Name",
+          "keyTooltip": "Buff_SylasPassiveAttack_Tooltip"
+        },
+        "mObjectName": "SylasPassiveAttack",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SylasPassiveAttack",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        16.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 22538,
+      "mAlternateName": "SylasPassive",
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell_Passive",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.10000000149011612,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.699999988079071,
+      "mCoefficient2": 0.5,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Sylas/HUD/Icons2D/SylasP.dds"
+      ],
+      "mPostCastLockoutDeltaTime": 0.10000000149011612,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 2200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasPassiveAttackNoAnim": {
+    "ObjectName": "SylasPassiveAttackNoAnim",
+    "mBuff": {
+      "mDescription": "Buff_SylasPassiveAttackNoAnim_Tooltip",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SylasPassiveAttackNoAnim_Name",
+          "keyTooltip": "Buff_SylasPassiveAttackNoAnim_Tooltip"
+        },
+        "mObjectName": "SylasPassiveAttackNoAnim",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SylasPassiveAttackNoAnim",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        16.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 22538,
+      "mAlternateName": "SylasPassive",
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell_Passive",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.10000000149011612,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.699999988079071,
+      "mCoefficient2": 0.5,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Sylas/HUD/Icons2D/SylasP.dds"
+      ],
+      "mPostCastLockoutDeltaTime": 0.10000000149011612,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 2200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasQAbility": {
+    "mChildSpells": [
+      "Characters/Sylas/Spells/SylasQAbility/SylasQ"
+    ],
+    "mName": "SylasQAbility",
+    "mRootSpell": "Characters/Sylas/Spells/SylasQAbility/SylasQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Sylas/Spells/SylasQAbility/SylasQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "Damage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowAmount",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SylasQ",
+    "mScriptName": "SylasQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio1",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExplosionBaseDamage",
+          "mValues": [
+            5.0,
+            60.0,
+            115.0,
+            170.0,
+            225.0,
+            280.0,
+            335.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio2",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            0.10000000149011612,
+            0.15000000596046448,
+            0.20000000298023224,
+            0.25,
+            0.30000001192092896,
+            0.3499999940395355,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionMod",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Q2AoE",
+          "mValues": [
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DetonationDelay",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterMod",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 6.400000095367432,
+      "castRadius": [
+        775.0,
+        775.0,
+        775.0,
+        775.0,
+        775.0,
+        775.0,
+        775.0
+      ],
+      "castRange": [
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0
+      ],
+      "castRangeDisplayOverride": [
+        775.0,
+        775.0,
+        775.0,
+        775.0,
+        775.0,
+        775.0,
+        775.0
+      ],
+      "cooldownTime": [
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.4000000059604645,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 1.5709999799728394,
+              "distanceOffset": 125.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "angleOffsetRadian": 4.711999893188477,
+              "distanceOffset": 125.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                750.0,
+                750.0,
+                750.0,
+                750.0,
+                750.0,
+                750.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                145.0,
+                145.0,
+                145.0,
+                145.0,
+                145.0,
+                145.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_brand.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ExplosionDamage",
+                  "type": "ExplosionBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_Slow",
+                  "type": "SlowAmount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SylasQ_Name",
+            "keySummary": "Spell_SylasQ_Summary",
+            "keyTooltip": "Spell_SylasQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SylasQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SylasQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Sylas/HUD/Icons2D/SylasQ.dds"
+      ],
+      "mLineWidth": 70.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 100.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1800.0,
+          "mStartBoneName": "R_Gauntlet",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio1",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "ExplosionDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ExplosionBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio2",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "SlowAmountCalc": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "SlowAmount",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mTurnSpeedScalar": 4.0,
+      "mana": [
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0
+      ],
+      "missileSpeed": 1800.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasRAbility": {
+    "mChildSpells": [
+      "Characters/Sylas/Spells/SylasRAbility/SylasR"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "SylasRAbility",
+    "mRootSpell": "Characters/Sylas/Spells/SylasRAbility/SylasR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Sylas/Spells/SylasRAbility/SylasR": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SylasR",
+    "mBuff": {
+      "mDescription": "Buff_SylasR_Description",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SylasRAbility_Name",
+          "keyTooltip": "Buff_SylasR_Description"
+        },
+        "mObjectName": "SylasR",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SylasR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "EnemyCooldownPercent",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EnemyCooldownTooltip",
+          "mValues": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinimumEnemyCooldown",
+          "mValues": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "UltHoldDuration",
+          "mValues": [
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 5.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0
+      ],
+      "cooldownTime": [
+        80.0,
+        80.0,
+        55.0,
+        30.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "mAffectsTypeFlags": 2,
+      "mAlternateName": "SylasTumble",
+      "mAnimationName": "Spell4_Cast",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SylasR_Name",
+            "keySummary": "Spell_SylasR_Summary",
+            "keyTooltip": "Spell_SylasR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SylasR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SylasR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.25,
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "0x3a1b93"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Sylas/HUD/Icons2D/SylasR.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mMissileEffectKey": "Sylas_R_hookmis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2200.0,
+          "mStartBoneName": "L_Gauntlet",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "PerTargetCooldown": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mPart1": {
+                "~class": "CooldownMultiplierCalculationPart"
+              },
+              "mPart2": {
+                "mNumber": 200.0,
+                "~class": "NumberCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_AttackReset"
+      ],
+      "mana": [
+        75.0,
+        75.0,
+        75.0,
+        75.0,
+        75.0,
+        75.0
+      ],
+      "missileSpeed": 2200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasRBuff": {
+    "ObjectName": "SylasRBuff",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "C_Buffbone_Glb_Center_Loc",
+              "effectKey": "Sylas_R_Ult_Absorbed_Chest",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "Buff_SylasRBuff_Description",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SylasRBuff_Name",
+          "keyTooltip": "Buff_SylasRBuff_Description"
+        },
+        "mObjectName": "SylasRBuff",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SylasRBuff",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Sylas/HUD/Icons2D/SylasR.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasRCosmeticMissile": {
+    "ObjectName": "SylasRCosmeticMissile",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SylasTumble",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SylasRCosmeticMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 5.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 1,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mLineWidth": 100.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2800.0,
+          "mStartBoneName": "",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasWAbility": {
+    "mChildSpells": [
+      "Characters/Sylas/Spells/SylasWAbility/SylasW",
+      "Characters/Sylas/Spells/SylasWAbility/SylasWDamageAndHeal"
+    ],
+    "mName": "SylasWAbility",
+    "mRootSpell": "Characters/Sylas/Spells/SylasWAbility/SylasW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Sylas/Spells/SylasWAbility/SylasW": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "MinDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "MinHealing",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SylasW",
+    "mScriptName": "SylasW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            13.0,
+            13.0,
+            11.5,
+            10.0,
+            8.5,
+            7.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "Damage",
+          "mValues": [
+            40.0,
+            75.0,
+            110.0,
+            145.0,
+            180.0,
+            215.0,
+            250.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Healing",
+          "mValues": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxHealingPercentAmp",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxExecuteThreshold",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageAPRatio",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealMinAPRatio",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealMinHPRatio",
+          "mValues": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "bIsToggleSpell": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        10.5,
+        9.0,
+        7.5,
+        6.0,
+        5.25
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.15000000596046448,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Damage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "Healing",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SylasW_Name",
+            "keySummary": "Spell_SylasW_Summary",
+            "keyTooltip": "Spell_SylasW_Tooltip"
+          },
+          "mObjectName": "SylasW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Sylas/HUD/Icons2D/SylasW.dds"
+      ],
+      "mSpellCalculations": {
+        "MaxHealing": {
+          "mModifiedGameCalculation": "MinHealing",
+          "mMultiplier": {
+            "mDataValue": "MaxHealingPercentAmp",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "MinDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "DamageAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MinHealing": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Healing",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "HealMinAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "HealMinHPRatio",
+              "mStat": 12,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_AttackReset"
+      ],
+      "mana": [
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sylas/Spells/SylasWAbility/SylasWDamageAndHeal": {
+    "ObjectName": "SylasWDamageAndHeal",
+    "mScriptName": "SylasWDamageAndHeal",
+    "~class": "SpellObject"
+  }
+}

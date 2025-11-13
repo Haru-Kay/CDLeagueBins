@@ -1,0 +1,404 @@
+{
+  "Characters/RammusDBC/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/RammusDBC/Spells/ArmordilloRelentlessAssaultAttack",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 600.0,
+    "attackRange": 0.0,
+    "attackSpeed": 0.625,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 0.0,
+    "baseDamage": 0.0,
+    "baseHP": 0.0,
+    "baseMoveSpeed": 0.0,
+    "baseStaticHPRegen": 0.0,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.07083333283662796,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "Lore2": "As time passed, she became the cause of much trouble in Jugo. People became afraid of Annie because of the sudden fires that erupted when the little girl was in a bad mood. Several years later, she threw a temper tantrum over a dropped teddy bear, and completely incinerated her parents and her home. She has since drifted aimlessly from town to town, sometimes becoming angry over a trivial matter at which point great fire storms erupt leaving only a crying orphan girl in their wake. When the darkness inside of her felt the first call of Chaos, it discovered befitting and truly sinister use for the Dark Child.",
+      "classification": "Strong",
+      "description": "game_character_description_Rammus",
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "effect": [
+            "0.2",
+            "0.4",
+            "0.6",
+            "0.8"
+          ],
+          "level": [
+            1,
+            7,
+            13
+          ],
+          "name": "game_character_passiveName_RammusDBC",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "recItems": [
+        "1054",
+        "3047",
+        "3105",
+        "3075",
+        "3068",
+        "3026"
+      ],
+      "~class": "characterToolData"
+    },
+    "extraSpells": [
+      "ArmordilloRelentlessAssaultAttack",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "healthBarHeight": 85.0,
+    "mAbilities": [
+      "Characters/RammusDBC/Spells/DefensiveBallCurlCancelAbility"
+    ],
+    "mCharacterName": "RammusDBC",
+    "mFallbackCharacterName": "Rammus",
+    "name": "game_character_displayname_Rammus",
+    "passive1IconName": "ASSETS/Characters/Rammus/HUD/Icons2D/Armordillo_ScavengeArmor.dds",
+    "passiveLuaName": "Spiked Shell",
+    "passiveName": "game_character_passiveName_RammusDBC",
+    "passiveToolTip": "game_character_passiveDescription_RammusDBC",
+    "pathfindingCollisionRadius": 35.0,
+    "primaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 120.0,
+    "selectionRadius": 120.0,
+    "spellNames": [
+      "PowerBall",
+      "DefensiveBallCurlCancelAbility/DefensiveBallCurlCancel",
+      "PuncturingTaunt",
+      "Tremors2"
+    ],
+    "spells": [
+      "Characters/Rammus/Spells/PowerBallAbility/PowerBall",
+      "Characters/RammusDBC/Spells/DefensiveBallCurlCancelAbility/DefensiveBallCurlCancel",
+      "Characters/Rammus/Spells/PuncturingTauntAbility/PuncturingTaunt",
+      "Characters/Rammus/Spells/Tremors2Ability/Tremors2"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "ArmordilloBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/RammusDBC/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/RammusDBC/Spells/ArmordilloRelentlessAssaultAttack": {
+    "ObjectName": "ArmordilloRelentlessAssaultAttack",
+    "mScriptName": "ArmordilloRelentlessAssaultAttack",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.125,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.17569999396800995,
+      "mAffectsTypeFlags": 7375,
+      "mAfterEffectKey": "Rammus_Q_tar_01",
+      "mAnimationName": "Spell3",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitEffectKey": "Rammus_W_RAA_tar_01",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RammusDBC/Spells/DefensiveBallCurlCancelAbility": {
+    "mChildSpells": [
+      "Characters/RammusDBC/Spells/DefensiveBallCurlCancelAbility/DefensiveBallCurlCancel"
+    ],
+    "mName": "DefensiveBallCurlCancelAbility",
+    "mRootSpell": "Characters/RammusDBC/Spells/DefensiveBallCurlCancelAbility/DefensiveBallCurlCancel",
+    "~class": "AbilityObject"
+  },
+  "Characters/RammusDBC/Spells/DefensiveBallCurlCancelAbility/DefensiveBallCurlCancel": {
+    "ObjectName": "DefensiveBallCurlCancel",
+    "mScriptName": "DefensiveBallCurlCancel",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ResistPercentTooltip",
+          "mValues": [
+            0.2750000059604645,
+            0.3499999940395355,
+            0.42500001192092896,
+            0.5,
+            0.574999988079071,
+            0.6499999761581421,
+            0.7250000238418579
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 2.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "DefensiveBallCurlCancel",
+      "mAnimationName": "Idle1",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_PercentArmorBonus",
+                  "type": "ResistPercentTooltip",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_PercentMagicResistBonus",
+                  "type": "ResistPercentTooltip",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_DefensiveBallCurl_Name",
+            "keyTooltip": "Spell_DefensiveBallCurlCancel_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_DefensiveBallCurl_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "DefensiveBallCurlCancel",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.25,
+      "mEffectAmount": [
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            25.0,
+            35.0,
+            45.0,
+            55.0,
+            65.0,
+            65.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            60.0,
+            60.0,
+            70.0,
+            80.0,
+            90.0,
+            100.0,
+            110.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Spells/Icons2D/Armordillo_ShellBash.dds"
+      ],
+      "mMissileEffectName": "default.troy",
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

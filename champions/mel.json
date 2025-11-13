@@ -1,0 +1,3690 @@
+{
+  "0x1031c47f": {
+    "ObjectName": "MelBasicAttack",
+    "mScriptName": "MelBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.1437000036239624,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "LuxBasicAttack",
+      "mCastType": 1,
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mHitEffectKey": "Mel_BasicAttack_tar",
+      "mMissileEffectKey": "Mel_BasicAttack_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "r_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x12497dc8": {
+    "ObjectName": "MelPassiveBonusMissileLeft",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "MelPassiveBonusMissileLeft",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6794,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Mel_P_mis_tar",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_Passive.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_P_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 5000.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              -0.4886219799518585,
+              0.0,
+              1.0377732515335083
+            ],
+            "mControlPoint2": [
+              -0.30467015504837036,
+              0.0,
+              1.2794479131698608
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x2152fae8": {
+    "ObjectName": "MelRStackWatcher",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "~class": "BuffData"
+    },
+    "mScriptName": "MelRStackWatcher",
+    "~class": "SpellObject"
+  },
+  "0x40323c5d": {
+    "ObjectName": "MelPassiveBonusMissileRight",
+    "mScriptName": "MelPassiveBonusMissileRight",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6794,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Mel_P_mis_tar",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_Passive.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_P_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 5000.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              0.4886219799518585,
+              0.0,
+              1.0377732515335083
+            ],
+            "mControlPoint2": [
+              0.30467015504837036,
+              0.0,
+              1.2794479131698608
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x4b797443": {
+    "ObjectName": "MelWReflectUltVO",
+    "mScriptName": "MelWReflectUltVO",
+    "~class": "SpellObject"
+  },
+  "0x4ec4a289": {
+    "ObjectName": "MelQMissile10",
+    "mScriptName": "MelQMissile10",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x54b6ccc3": {
+    "ObjectName": "MelQMissile1",
+    "mScriptName": "MelQMissile1",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "mControlPoint2": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x55b6ce56": {
+    "ObjectName": "MelQMissile2",
+    "mScriptName": "MelQMissile2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              0.75,
+              0.0,
+              0.0
+            ],
+            "mControlPoint2": [
+              -0.75,
+              0.0,
+              0.0
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x56b6cfe9": {
+    "ObjectName": "MelQMissile3",
+    "mScriptName": "MelQMissile3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              0.5,
+              0.0,
+              0.0
+            ],
+            "mControlPoint2": [
+              -0.5,
+              0.0,
+              0.0
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x57b6d17c": {
+    "ObjectName": "MelQMissile4",
+    "mScriptName": "MelQMissile4",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              0.25,
+              0.0,
+              0.0
+            ],
+            "mControlPoint2": [
+              -0.25,
+              0.0,
+              0.0
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x58b6d30f": {
+    "ObjectName": "MelQMissile5",
+    "mScriptName": "MelQMissile5",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              0.10000000149011612,
+              0.0,
+              0.0
+            ],
+            "mControlPoint2": [
+              -0.10000000149011612,
+              0.0,
+              0.0
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x59b6d4a2": {
+    "ObjectName": "MelQMissile6",
+    "mScriptName": "MelQMissile6",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              -0.10000000149011612,
+              0.0,
+              0.0
+            ],
+            "mControlPoint2": [
+              0.10000000149011612,
+              0.0,
+              0.0
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5ab6d635": {
+    "ObjectName": "MelQMissile7",
+    "mScriptName": "MelQMissile7",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              -0.25,
+              0.0,
+              0.0
+            ],
+            "mControlPoint2": [
+              0.25,
+              0.0,
+              0.0
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5bb6d7c8": {
+    "ObjectName": "MelQMissile8",
+    "mScriptName": "MelQMissile8",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              -0.5,
+              0.0,
+              0.0
+            ],
+            "mControlPoint2": [
+              0.5,
+              0.0,
+              0.0
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5cb6d95b": {
+    "ObjectName": "MelQMissile9",
+    "mScriptName": "MelQMissile9",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              -0.75,
+              0.0,
+              0.0
+            ],
+            "mControlPoint2": [
+              0.75,
+              0.0,
+              0.0
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x62f88807": {
+    "ObjectName": "MelPassiveOverwhelm",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_MelPassiveOverwhelm_Name",
+          "keyTooltip": "Buff_MelPassiveOverwhelm_Tooltip"
+        },
+        "mObjectName": "MelPassiveOverwhelm",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "MelPassiveOverwhelm",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x64e86cf4": {
+    "ObjectName": "MelPassive",
+    "mScriptName": "MelPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "OverwhelmDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusAttackDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PassiveBonusMissiles",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxPassiveBonusMissiles",
+          "mValues": [
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_MelPassive_Name",
+            "keySummary": "Spell_MelPassive_Summary",
+            "keyTooltip": "Spell_MelPassive_Tooltip",
+            "keyTooltipExtended": "Spell_MelPassive_TooltipExtended"
+          },
+          "mObjectName": "MelPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "PassiveBonusMissileDamage": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 33.0,
+              "mStartValue": 8.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.029999999329447746,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x652d41c3": {
+    "ObjectName": "MelPassiveBonusAttack",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_MelPassiveBonusAttack_Name",
+          "keyTooltip": "Buff_MelPassiveBonusAttack_Tooltip"
+        },
+        "mObjectName": "MelPassiveBonusAttack",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "MelPassiveBonusAttack",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x66b920b1": {
+    "ObjectName": "MelWReflect",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_MelWReflect_Name",
+          "keyTooltip": "Buff_MelWReflect_Tooltip"
+        },
+        "mObjectName": "MelWReflect",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "MelWReflect",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_W.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x70c381df": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      40,
+      100,
+      200,
+      225,
+      300,
+      125
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d5c36eec-a738-4ba8-b574-434e1f6e2ba1",
+      "itemID": 126685,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_MelEChampionsRooted",
+    "mNameTraKey": "stat_stone_name_MelEChampionsRooted",
+    "stoneName": "MelEChampionsRooted",
+    "~class": "StatStoneData"
+  },
+  "0x80dfbd65": {
+    "ObjectName": "MelQMissileBase",
+    "mScriptName": "MelQMissileBase",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCastType": 1,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Mel_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 4500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "mControlPoint2": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Hand",
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x81be74d8": {
+    "ObjectName": "MelERoot",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_MelERoot_Name",
+          "keyTooltip": "Buff_MelERoot_Tooltip"
+        },
+        "mObjectName": "MelERoot",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "MelERoot",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_E.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x89826286": {
+    "mChildSpells": [
+      "0x64e86cf4",
+      "0x12497dc8",
+      "0x40323c5d"
+    ],
+    "mName": "MelPassiveAbility",
+    "mRootSpell": "0x64e86cf4",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "0x9b56fb3b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      30,
+      80,
+      150,
+      200,
+      225,
+      95
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "dbc6fe64-2e34-4238-b0a2-7235decdb320",
+      "itemID": 126682,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_MelQHitAllProjectiles",
+    "mNameTraKey": "stat_stone_name_MelQHitAllProjectiles",
+    "stoneName": "MelQHitAllProjectiles",
+    "~class": "StatStoneData"
+  },
+  "0xa2bd5c7f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      10,
+      20,
+      25,
+      30,
+      10
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "01d3f645-5056-4c0d-8b3b-630137d5ae01",
+      "itemID": 126683,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_MelWReflectCC",
+    "mNameTraKey": "stat_stone_name_MelWReflectCC",
+    "stoneName": "MelWReflectCC",
+    "~class": "StatStoneData"
+  },
+  "0xa55ccb27": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "bottom",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "middle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "utility",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xac615523": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "d6215554-662c-4093-bf17-580f684f4b1a",
+      "itemID": 126678,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_MelStructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_MelStructuresDestroyed",
+    "stoneName": "MelStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xad290bd9": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "95ff8afb-7f60-40c6-a85f-f9474c4afa89",
+      "itemID": 126677,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_MelEpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_MelEpicMonstersKilled",
+    "stoneName": "MelEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xb2fc0af3": {
+    "catalogEntry": {
+      "contentId": "ca934343-3989-4cf0-bcc4-e6ab3773f657",
+      "itemID": 66600578,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xcfca755e",
+      "0xac615523",
+      "0xad290bd9"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xb38b5b8b": {
+    "catalogEntry": {
+      "contentId": "474ebcc4-cf79-45dc-9cf3-af3f7d8b8c31",
+      "itemID": 66600579,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xf9ee4f95",
+      "0x9b56fb3b",
+      "0xd04e3d08"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xb48b5d1e": {
+    "catalogEntry": {
+      "contentId": "66dfb8da-6fbc-4d40-a381-ba2c0cb950d3",
+      "itemID": 66600580,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xa2bd5c7f",
+      "0x70c381df",
+      "0xfae64f8c"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xc1b1d1e": {
+    "ObjectName": "MelWReflectVO",
+    "mScriptName": "MelWReflectVO",
+    "~class": "SpellObject"
+  },
+  "0xcfca755e": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "4cf1a59e-07a3-435a-936b-babc4625502e",
+      "itemID": 126679,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_MelTakedowns",
+    "mNameTraKey": "stat_stone_name_MelTakedowns",
+    "stoneName": "MelTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xd04e3d08": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2,
+      5,
+      10,
+      10,
+      15,
+      6
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "a4200a51-8e50-4179-920f-48e24419e64f",
+      "itemID": 126681,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_MelWReflectUltimates",
+    "mNameTraKey": "stat_stone_name_MelWReflectUltimates",
+    "stoneName": "MelWReflectUltimates",
+    "~class": "StatStoneData"
+  },
+  "0xf1d12415": {
+    "ObjectName": "MelBasicAttackEnhanced",
+    "mScriptName": "MelBasicAttackEnhanced",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.1437000036239624,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "LuxBasicAttack",
+      "mAnimationName": "AttackEmp",
+      "mCastType": 1,
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mHitEffectKey": "Mel_BasicAttack_tar",
+      "mMissileEffectKey": "Mel_BasicAttack_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "r_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf9ee4f95": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9500,
+      23000,
+      47000,
+      56000,
+      70000,
+      28000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ac98e42c-2f67-4a19-8005-cee58d0d534a",
+      "itemID": 126680,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_MelPDealDamage",
+    "mNameTraKey": "stat_stone_name_MelPDealDamage",
+    "stoneName": "MelPDealDamage",
+    "~class": "StatStoneData"
+  },
+  "0xfa3d02a5": {
+    "ObjectName": "MelESlow",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_MelESlow_Name",
+          "keyTooltip": "Buff_MelESlow_Tooltip"
+        },
+        "mObjectName": "MelESlow",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "MelESlow",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_E.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xfae64f8c": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      10,
+      25,
+      30,
+      35,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b0890cc5-0d5a-45e7-b93d-b687ccc5d882",
+      "itemID": 126684,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_MelRDealBigDamage",
+    "mNameTraKey": "stat_stone_name_MelRDealBigDamage",
+    "stoneName": "MelRDealBigDamage",
+    "~class": "StatStoneData"
+  },
+  "Characters/Mel/CharacterRecords/Root": {
+    "acquisitionRange": 625.0,
+    "armorPerLevel": 5.199999809265137,
+    "attackRange": 550.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 2.5,
+    "attackSpeedRatio": 0.4000000059604645,
+    "baseArmor": 21.0,
+    "baseDamage": 54.0,
+    "baseHP": 630.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.2000000476837158,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.14399999380111694,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "attackRank": 2,
+      "championId": 800,
+      "classification": "Arcane",
+      "defenseRank": 4,
+      "description": "game_character_description_Mel",
+      "difficultyRank": 5,
+      "magicRank": 9,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "roles": "MAGE",
+      "searchTags": "mage",
+      "searchTagsSecondary": "support",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.14399999380111694,
+        "mAttackName": "MelCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.299999952316284,
+    "flags": 8414464,
+    "hpPerLevel": 93.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "0x89826286",
+      "Characters/Mel/Spells/MelQAbility",
+      "Characters/Mel/Spells/MelWAbility",
+      "Characters/Mel/Spells/MelEAbility",
+      "Characters/Mel/Spells/MelRAbility"
+    ],
+    "mAbilitySlotCC": [
+      15,
+      0,
+      14,
+      0
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Mel",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "0x64e86cf4",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0x64e86cf4",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Mel",
+    "passive1IconName": "ASSETS/Characters/Mel/HUD/Icons2D/Mel_Passive.dds",
+    "passiveLuaName": "",
+    "passiveName": "game_character_passiveName_Mel",
+    "passiveSpell": "MelPassive",
+    "passiveToolTip": "game_character_passiveDescription_Mel",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 480.0,
+      "arBaseStaticRegen": 1.7999999523162842,
+      "arPerLevel": 28.0,
+      "arRegenPerLevel": 0.18000000715255737,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 85.0,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "MelQAbility/MelQ",
+      "MelWAbility/MelW",
+      "MelEAbility/MelE",
+      "MelRAbility/MelR"
+    ],
+    "spells": [
+      "Characters/Mel/Spells/MelQAbility/MelQ",
+      "Characters/Mel/Spells/MelWAbility/MelW",
+      "Characters/Mel/Spells/MelEAbility/MelE",
+      "Characters/Mel/Spells/MelRAbility/MelR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "~class": "CharacterRecord"
+  },
+  "Characters/Mel/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Mel/Spells/MelCritAttack": {
+    "ObjectName": "MelCritAttack",
+    "mScriptName": "MelCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.14374999701976776,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "MelBasicAttack",
+      "mAnimationName": "AttackEmp",
+      "mCastType": 1,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Mel_BasicAttack_tar_crit",
+      "mMissileEffectKey": "Mel_BasicAttack_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mel/Spells/MelEAbility": {
+    "AbilityTraits": 2306,
+    "mChildSpells": [
+      "Characters/Mel/Spells/MelEAbility/MelE",
+      "0xfa3d02a5"
+    ],
+    "mName": "MelEAbility",
+    "mRootSpell": "Characters/Mel/Spells/MelEAbility/MelE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Mel/Spells/MelEAbility/MelE": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "Damage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "RootDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "MelE",
+    "mScriptName": "MelE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "RootDuration",
+          "mValues": [
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            15.0,
+            60.0,
+            105.0,
+            150.0,
+            195.0,
+            240.0,
+            285.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseAreaDamage",
+          "mValues": [
+            0.0,
+            2.0,
+            4.0,
+            6.0,
+            8.0,
+            10.0,
+            12.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AreaSlowAmount",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AreaSlowDuration",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionMod",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxAreaRadius",
+          "mValues": [
+            260.0,
+            260.0,
+            260.0,
+            260.0,
+            260.0,
+            260.0,
+            260.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TimeToMaxRadius",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AreaTicksPerSecond",
+          "mValues": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DoTDuration",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castRange": [
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        11.5,
+        11.0,
+        10.5,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.875,
+      "luaOnMissileUpdateDistanceInterval": 250.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/LocalLineMissileBase_Gold.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/LocalLineMissileTarget_Gold.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                220.0,
+                220.0,
+                220.0,
+                220.0,
+                220.0,
+                220.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1250.0,
+                1250.0,
+                1250.0,
+                1250.0,
+                1250.0,
+                1250.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/LocalLineMissileBase_Dark_Gold.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/LocalLineMissileTarget_Dark_Gold.tex",
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RootDuration",
+                  "type": "RootDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "multiplier": 8.0,
+                  "nameOverride": "Spell_ListType_DamagePerSecond",
+                  "type": "BaseAreaDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_MelE_Name",
+            "keySummary": "Spell_MelE_Summary",
+            "keyTooltip": "Spell_MelE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_MelE_TooltipBelowLine"
+          },
+          "mObjectName": "MelE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_E.dds"
+      ],
+      "mLineDragLength": 1000.0,
+      "mLineWidth": 150.0,
+      "mMissileEffectKey": "Mel_E_primary_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "CurveTheDifferenceHeightSolver"
+        },
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mSpeed": 1000.0,
+          "mStartBoneName": "root",
+          "mTracksTarget": false,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "TrailTimeToConsiderForVisibility": 0.25,
+          "mPerceptionBubbleRadius": 400.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "0xb8e60a35": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseAreaDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.009999999776482582,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "AreaDamagePerSecond": {
+          "mModifiedGameCalculation": "0xb8e60a35",
+          "mMultiplier": {
+            "mDataValue": "0xe25debb5",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6000000238418579,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MinionModTooltip": {
+          "mDisplayAsPercent": true,
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mNumber": 1.0,
+                  "~class": "NumberCalculationPart"
+                },
+                {
+                  "mPart1": {
+                    "mNumber": -1.0,
+                    "~class": "NumberCalculationPart"
+                  },
+                  "mPart2": {
+                    "mDataValue": "MinionMod",
+                    "~class": "NamedDataValueCalculationPart"
+                  },
+                  "~class": "ProductOfSubPartsCalculationPart"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        70.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mel/Spells/MelQAbility": {
+    "AbilityTraits": 258,
+    "mChildSpells": [
+      "Characters/Mel/Spells/MelQAbility/MelQ",
+      "0x80dfbd65",
+      "0x54b6ccc3",
+      "0x55b6ce56",
+      "0x56b6cfe9",
+      "0x57b6d17c",
+      "0x58b6d30f",
+      "0x59b6d4a2",
+      "0x5ab6d635",
+      "0x5bb6d7c8",
+      "0x5cb6d95b",
+      "0x4ec4a289"
+    ],
+    "mName": "MelQAbility",
+    "mRootSpell": "Characters/Mel/Spells/MelQAbility/MelQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Mel/Spells/MelQAbility/MelQ": {
+    "ObjectName": "MelQ",
+    "mScriptName": "MelQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ExplosionDamage",
+          "mValues": [
+            10.5,
+            13.0,
+            15.5,
+            18.0,
+            20.5,
+            23.0,
+            25.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExplosionCount",
+          "mValues": [
+            5.0,
+            6.0,
+            7.0,
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Spread",
+          "mValues": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExplosionRadius",
+          "mValues": [
+            220.0,
+            220.0,
+            220.0,
+            220.0,
+            220.0,
+            220.0,
+            220.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FirstExplosionDelay",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ChannelDuration",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionMod",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRadius": [
+        140.0,
+        140.0,
+        140.0,
+        140.0,
+        140.0,
+        140.0,
+        140.0
+      ],
+      "castRange": [
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "textureOverrideName": "ASSETS/Spells/Textures/AOE_Gold.tex",
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                900.0,
+                900.0,
+                900.0,
+                900.0,
+                900.0,
+                900.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                260.0,
+                260.0,
+                260.0,
+                260.0,
+                260.0,
+                260.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOrientation": 3,
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_leona_outer_gold.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                900.0,
+                900.0,
+                900.0,
+                900.0,
+                900.0,
+                900.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOrientation": 3,
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/darius_cleave_outside_gold.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_ExplosionDamage",
+                  "type": "ExplosionDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ExplosionCount",
+                  "type": "ExplosionCount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_MelQ_Name",
+            "keySummary": "Spell_MelQ_Summary",
+            "keyTooltip": "Spell_MelQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_MelQ_TooltipBelowLine"
+          },
+          "mObjectName": "MelQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_Q.dds"
+      ],
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "AllDamageHit": {
+          "mModifiedGameCalculation": "TotalExplosionDamage",
+          "mMultiplier": {
+            "mDataValue": "ExplosionCount",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "MonsterModTooltip": {
+          "mDisplayAsPercent": true,
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mNumber": 1.0,
+                  "~class": "NumberCalculationPart"
+                },
+                {
+                  "mPart1": {
+                    "mNumber": -1.0,
+                    "~class": "NumberCalculationPart"
+                  },
+                  "mPart2": {
+                    "mDataValue": "MinionMod",
+                    "~class": "NamedDataValueCalculationPart"
+                  },
+                  "~class": "ProductOfSubPartsCalculationPart"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "TotalExplosionDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ExplosionDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.08500000089406967,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mTurnSpeedScalar": 1.5,
+      "mUpdateRotationWhenCasting": true,
+      "mana": [
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        110.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mel/Spells/MelRAbility": {
+    "AbilityTraits": 1,
+    "mChildSpells": [
+      "Characters/Mel/Spells/MelRAbility/MelR"
+    ],
+    "mName": "MelRAbility",
+    "mRootSpell": "Characters/Mel/Spells/MelRAbility/MelR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Mel/Spells/MelRAbility/MelR": {
+    "ObjectName": "MelR",
+    "mScriptName": "MelR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BasePassiveStackDamage",
+          "mValues": [
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BasePassiveFlatDamage",
+          "mValues": [
+            50.0,
+            60.0,
+            70.0,
+            80.0,
+            90.0,
+            100.0,
+            110.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionMod",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseUltStackDamage",
+          "mValues": [
+            1.0,
+            4.0,
+            7.0,
+            10.0,
+            13.0,
+            16.0,
+            19.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseUltFlatDamage",
+          "mValues": [
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DisintegrateDelay",
+          "mValues": [
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BasePassiveStackDamage",
+              "mValues": [
+                4.0,
+                5.0,
+                6.0,
+                7.0,
+                8.0,
+                9.0,
+                10.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        100.0,
+        80.0,
+        80.0,
+        80.0,
+        60.0
+      ],
+      "delayTotalTimePercent": -0.625,
+      "flags": 32,
+      "mAffectsTypeFlags": 6146,
+      "mAmmoNotAffectedByCDR": true,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.75,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_MelR_UltFlatDamage",
+                  "type": "BaseUltFlatDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_MelR_UltStackDamage",
+                  "type": "BaseUltStackDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_MelRUnleash_PassiveFlatDamage",
+                  "type": "BasePassiveFlatDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_MelR_PassiveStackDamage",
+                  "type": "BasePassiveStackDamage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_MelR_Name",
+            "keySummary": "Spell_MelR_Summary",
+            "keyTooltip": "Spell_MelR_Tooltip"
+          },
+          "mObjectName": "MelR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoNotNeedToFaceTarget": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_R.dds",
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_R2.dds"
+      ],
+      "mSpellCalculations": {
+        "MinionModTooltip": {
+          "mDisplayAsPercent": true,
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mNumber": 1.0,
+                  "~class": "NumberCalculationPart"
+                },
+                {
+                  "mPart1": {
+                    "mNumber": -1.0,
+                    "~class": "NumberCalculationPart"
+                  },
+                  "mPart2": {
+                    "mDataValue": "MinionMod",
+                    "~class": "NamedDataValueCalculationPart"
+                  },
+                  "~class": "ProductOfSubPartsCalculationPart"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "PassiveFlatDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BasePassiveFlatDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PassiveStackDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BasePassiveStackDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.007499999832361937,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "UltFlatDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseUltFlatDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.30000001192092896,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "UltStackDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseUltStackDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.03500000014901161,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mel/Spells/MelWAbility": {
+    "AbilityTraits": 32,
+    "mChildSpells": [
+      "Characters/Mel/Spells/MelWAbility/MelW",
+      "0x66b920b1"
+    ],
+    "mName": "MelWAbility",
+    "mRootSpell": "Characters/Mel/Spells/MelWAbility/MelW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Mel/Spells/MelWAbility/MelW": {
+    "ObjectName": "MelW",
+    "mScriptName": "MelW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            20.0,
+            20.0,
+            19.5,
+            19.0,
+            18.5,
+            18.0,
+            17.5
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "Duration",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldRadius",
+          "mValues": [
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamagePercent",
+          "mValues": [
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929,
+            0.6000000238418579,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeed",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        35.0,
+        35.0,
+        32.0,
+        29.0,
+        26.0,
+        23.0,
+        23.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 8193,
+      "mAnimationName": "Spell2",
+      "mCanMoveWhileChanneling": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_MelW_ReflectedDamage",
+                  "type": "BaseDamagePercent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_MelW_Name",
+            "keySummary": "Spell_MelW_Summary",
+            "keyTooltip": "Spell_MelW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_MelW_TooltipBelowLine"
+          },
+          "mObjectName": "MelW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoNotNeedToFaceTarget": true,
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "0xc87e0da5"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_W.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mSpellCalculations": {
+        "DamagePercent": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamagePercent",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0005000000237487257,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        80.0,
+        60.0,
+        40.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

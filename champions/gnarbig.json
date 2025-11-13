@@ -1,0 +1,377 @@
+{
+  "Characters/GnarBig/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Gnar/Spells/GnarBigAttackTower",
+      "Characters/Gnar/Spells/GnarQAbility/GnarQMissileReturn",
+      "Characters/Gnar/Spells/GnarQAbility/GnarQMissile",
+      "Shared/Spells/BaseSpell",
+      "Characters/Gnar/Spells/GnarBigQAbility/GnarBigQMissile",
+      "Characters/Gnar/Spells/GnarRAbility/GnarR",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 6.699999809265137,
+    "attackRange": 175.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 0.5,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 36.0,
+    "baseDamage": 66.0,
+    "baseHP": 640.0,
+    "baseMoveSpeed": 335.0,
+    "baseSpellBlock": 33.0,
+    "baseStaticHPRegen": 0.8999999761581421,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.09166666865348816,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "PARFadeColor": "255 11 11 255",
+      "attackRank": 8,
+      "defenseRank": 5,
+      "description": "game_character_description_GnarBig",
+      "difficultyRank": 3,
+      "inherits": {
+        "recommended": "Gnar",
+        "~class": "ToolInheritsData"
+      },
+      "magicRank": 2,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_GnarBig",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "Fighter,melee",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.09166666865348816,
+        "mAttackName": "GnarBigCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 5.5,
+    "extraAttacks": [
+      {
+        "mAttackName": "GnarBigBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "GnarBigBasicAttack3",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "GnarBigAttackTower",
+      "GnarQMissileReturn",
+      "GnarQMissile",
+      "BaseSpell",
+      "GnarBigQMissile",
+      "GnarR",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "healthBarHeight": 120.0,
+    "hpPerLevel": 122.0,
+    "hpRegenPerLevel": 0.25,
+    "mAbilities": [
+      "Characters/Gnar/Spells/GnarBigQAbility",
+      "Characters/Gnar/Spells/GnarBigWAbility",
+      "Characters/Gnar/Spells/GnarBigEAbility"
+    ],
+    "mCharacterName": "GnarBig",
+    "mFallbackCharacterName": "Gnar",
+    "name": "game_character_displayname_GnarBig",
+    "overrideGameplayCollisionRadius": 80.0,
+    "passive1IconName": "ASSETS/Characters/Gnar/HUD/Icons2D/Gnar_Passive.dds",
+    "passiveLuaName": "GnarPassive",
+    "passiveName": "game_character_passiveName_GnarBig",
+    "passiveToolTip": "game_character_passiveDescription_GnarBig",
+    "pathfindingCollisionRadius": 50.0,
+    "primaryAbilityResource": {
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arIncrements": 50.0,
+      "arType": 8,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged",
+      "Melee"
+    ],
+    "selectionHeight": 200.0,
+    "selectionRadius": 140.0,
+    "spellBlockPerLevel": 4.800000190734863,
+    "spellNames": [
+      "GnarQ",
+      "GnarW",
+      "GnarE",
+      "GnarR"
+    ],
+    "spells": [
+      "Characters/Gnar/Spells/GnarQAbility/GnarQ",
+      "Characters/Gnar/Spells/GnarWAbility/GnarW",
+      "Characters/Gnar/Spells/GnarEAbility/GnarE",
+      "Characters/Gnar/Spells/GnarRAbility/GnarR"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/GnarBig/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/GnarBig/Spells/GnarBigBasicAttack": {
+    "ObjectName": "GnarBigBasicAttack",
+    "mScriptName": "GnarBigBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 7375,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "L_BUFFBONE_CSTM_GROUND",
+      "mHitEffectKey": "GnarBig_BA_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectName": "TrailMagic1.troy",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/GnarBig/Spells/GnarBigBasicAttack2": {
+    "ObjectName": "GnarBigBasicAttack2",
+    "mScriptName": "GnarBigBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 7375,
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "R_BUFFBONE_CSTM_GROUND",
+      "mHitEffectKey": "GnarBig_BA2_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectName": "TrailMagic1.troy",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/GnarBig/Spells/GnarBigCritAttack": {
+    "ObjectName": "GnarBigCritAttack",
+    "mScriptName": "GnarBigCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 7375,
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "L_BUFFBONE_CSTM_GROUND",
+      "mHitEffectKey": "GnarBig_BA_Crit_Tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectName": "TrailMagic1.troy",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/GnarBig/Spells/GnarBigCritAttack2": {
+    "ObjectName": "GnarBigCritAttack2",
+    "mScriptName": "GnarBigCritAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 7375,
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "L_BUFFBONE_CSTM_GROUND",
+      "mHitEffectKey": "GnarBig_BA_Crit_Tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectName": "TrailMagic1.troy",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

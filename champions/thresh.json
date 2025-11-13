@@ -1,0 +1,4847 @@
+{
+  "0x1097f590": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      6000,
+      15000,
+      30000,
+      36000,
+      46000,
+      18000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "089c8608-24e6-4f90-9e0c-6cf8995f94b9",
+      "itemID": 126264,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_ThreshWBlocks",
+    "mNameTraKey": "stat_stone_name_ThreshWBlocks",
+    "stoneName": "ThreshWBlocks",
+    "~class": "StatStoneData"
+  },
+  "0x19cd01e8": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9,
+      20,
+      45,
+      55,
+      65,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "a9a08428-83a3-4c0e-a7bf-660c0da81612",
+      "itemID": 126265,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_ThreshQTakedowns",
+    "mNameTraKey": "stat_stone_name_ThreshQTakedowns",
+    "stoneName": "ThreshQTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x22c0fa73": {
+    "catalogEntry": {
+      "contentId": "dbf201ee-0e59-467e-9343-a5515273d071",
+      "itemID": 66600116,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x8912afeb",
+      "0x520d910a",
+      "0x45034a1e"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x23c0fc06": {
+    "catalogEntry": {
+      "contentId": "f2864f09-52ec-4171-8fc0-552986268080",
+      "itemID": 66600493,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x1097f590",
+      "0x89008f0a",
+      "0x19cd01e8"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x44427803": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "utility",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x45034a1e": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      40,
+      80,
+      95,
+      125,
+      50
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "89a51dfa-fe02-40b7-a33c-4165bf03bee4",
+      "itemID": 247,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_ThreshWClicks",
+    "mNameTraKey": "stat_stone_name_ThreshWClicks",
+    "stoneName": "ThreshWClicks",
+    "~class": "StatStoneData"
+  },
+  "0x520d910a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      50,
+      100,
+      125,
+      150,
+      60
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f934d210-3fd2-4b47-90e2-e31d27107bf7",
+      "itemID": 246,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_ThreshRHits",
+    "mNameTraKey": "stat_stone_name_ThreshRHits",
+    "stoneName": "ThreshRHits",
+    "~class": "StatStoneData"
+  },
+  "0x5e4bd019": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "563d862f-e26a-4e31-ba88-917bbc4e28e5",
+      "itemID": 125555,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "ThreshEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x89008f0a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      125,
+      325,
+      650,
+      775,
+      975,
+      400
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "545d066c-07be-4f4d-ad5b-29f7e0e88025",
+      "itemID": 126263,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_ThreshPCollected",
+    "mNameTraKey": "stat_stone_name_ThreshPCollected",
+    "stoneName": "ThreshPCollected",
+    "~class": "StatStoneData"
+  },
+  "0x8912afeb": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      30,
+      80,
+      150,
+      200,
+      250,
+      95
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "bf24cb0f-3fa3-408d-99f5-ceea930f49f9",
+      "itemID": 119,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_ThreshDeathSentenceHooks",
+    "mNameTraKey": "stat_stone_name_ThreshDeathSentenceHooks",
+    "stoneName": "ThreshDeathSentenceHooks",
+    "~class": "StatStoneData"
+  },
+  "0xa4d9399e": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "f958a2c3-ff60-4bb7-9442-b8440c36b238",
+      "itemID": 125556,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "ThreshTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xab201b63": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "3a19be31-5c7e-436b-a3f9-2f337453d7a6",
+      "itemID": 125557,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "ThreshStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xfed64ddb": {
+    "catalogEntry": {
+      "contentId": "59a9196f-9217-4a18-9946-366103e9dc1c",
+      "itemID": 66600206,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x5e4bd019",
+      "0xa4d9399e",
+      "0xab201b63"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "Characters/Thresh/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Thresh/Spells/ThreshQAbility/ThreshQMissile",
+      "Characters/Thresh/Spells/ThreshQAbility/ThreshQPullMissile",
+      "Characters/Thresh/Spells/ThreshPassiveSoulsVlad",
+      "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternOut",
+      "Shared/Spells/BaseSpell",
+      "Characters/Thresh/Spells/ThreshEAbility/ThreshEMissile1",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 475.0,
+    "attackRange": 450.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 3.5,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 33.0,
+    "baseDamage": 56.0,
+    "baseHP": 620.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.399999976158142,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.06041666865348816,
+      "mAttackDelayCastOffsetPercentAttackSpeedRatio": 0.25,
+      "mAttackProbability": 1.0,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "attackRank": 5,
+      "botDefaultSpell1": "SummonerHeal",
+      "botDefaultSpell2": "SummonerTeleport",
+      "championId": 412,
+      "classification": "Deadly",
+      "defenseRank": 6,
+      "description": "game_character_description_Thresh",
+      "difficultyRank": 7,
+      "magicRank": 6,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "+40% Mana Point regeneration.",
+        "+60% Mana Point regeneration.",
+        "+80% Mana Point regeneration."
+      ],
+      "passiveData": [
+        {
+          "effect": [
+            "0.2",
+            "0.4",
+            "0.6",
+            "0.8"
+          ],
+          "level": [
+            3,
+            7,
+            11,
+            15
+          ],
+          "name": "game_character_passiveName_Thresh",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "SUPPORT",
+      "searchTags": "support",
+      "searchTagsSecondary": "tank",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.06041666865348816,
+        "mAttackDelayCastOffsetPercentAttackSpeedRatio": 0.25,
+        "mAttackName": "ThreshBasicAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 2.200000047683716,
+    "deathEventListeningRadius": 2000.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "ThreshBasicAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "ThreshBasicAttack1L",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "ThreshBasicAttack1M",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "ThreshBasicAttack1S",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "ThreshBasicAttack1SFast",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "ThreshBasicAttack2L",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "ThreshBasicAttack2M",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "ThreshQMissile",
+      "ThreshQPullMissile",
+      "ThreshPassiveSoulsVlad",
+      "ThreshWLanternOut",
+      "BaseSpell",
+      "ThreshEMissile1",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "healthBarHeight": 105.0,
+    "hpPerLevel": 120.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Thresh/Spells/ThreshQAbility",
+      "Characters/Thresh/Spells/ThreshWAbility",
+      "Characters/Thresh/Spells/ThreshEAbility",
+      "Characters/Thresh/Spells/ThreshRPentaAbility",
+      "Characters/Thresh/Spells/ThreshPassiveSoulsAbility"
+    ],
+    "mAbilitySlotCC": [
+      16,
+      0,
+      12,
+      14
+    ],
+    "mCharacterName": "Thresh",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Thresh/Spells/ThreshPassiveSoulsAbility/ThreshPassiveSouls",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mDisplayFlags": 3,
+        "mParentPassiveBuff": "Characters/Thresh/Spells/ThreshPassiveSoulsAbility/ThreshPassiveSoulsGain",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Thresh/Spells/ThreshPassiveSoulsAbility/ThreshPassiveSouls",
+    "mEducationToolData": {
+      "firstItem": 1054,
+      "skillOrder": 2,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Resolve",
+    "name": "game_character_displayname_Thresh",
+    "passive1IconName": "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_Passive.dds",
+    "passiveLuaName": "ThreshPassiveSouls",
+    "passiveName": "game_character_passiveName_Thresh",
+    "passiveToolTip": "game_character_passiveDescription_Thresh",
+    "pathfindingCollisionRadius": 36.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 274.0,
+      "arBaseStaticRegen": 1.2000000476837158,
+      "arPerLevel": 44.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 150.0,
+    "selectionRadius": 125.0,
+    "spellBlockPerLevel": 1.5499999523162842,
+    "spellNames": [
+      "ThreshQAbility/ThreshQ",
+      "ThreshWAbility/ThreshW",
+      "ThreshEAbility/ThreshE",
+      "ThreshRPentaAbility/ThreshRPenta"
+    ],
+    "spells": [
+      "Characters/Thresh/Spells/ThreshQAbility/ThreshQ",
+      "Characters/Thresh/Spells/ThreshWAbility/ThreshW",
+      "Characters/Thresh/Spells/ThreshEAbility/ThreshE",
+      "Characters/Thresh/Spells/ThreshRPentaAbility/ThreshRPenta"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "ThreshBasicAttack",
+      "None",
+      "ThreshBasicAttack2",
+      "ThreshBasicAttack3"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Thresh/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Thresh/Spells/ThreshBasicAttack": {
+    "ObjectName": "ThreshBasicAttack",
+    "mScriptName": "ThreshBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.15279999375343323,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Attack1_LONG",
+      "mApplyAttackDamage": true,
+      "mApplyMaterialOnHitSound": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Thresh_BA_Tar_01",
+      "mHitEffectOrientType": 2,
+      "mIgnoreAnimContinueUntilCastFrame": true,
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshBasicAttack1M": {
+    "ObjectName": "ThreshBasicAttack1M",
+    "mScriptName": "ThreshBasicAttack1M",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.15279999375343323,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Attack1_MID_BASE",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Thresh_ba2_tar",
+      "mHitEffectOrientType": 2,
+      "mIgnoreAnimContinueUntilCastFrame": true,
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshBasicAttack1S": {
+    "ObjectName": "ThreshBasicAttack1S",
+    "mScriptName": "ThreshBasicAttack1S",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.15279999375343323,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Attack1_SHORT_BASE",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Thresh_ba3_tar",
+      "mHitEffectOrientType": 2,
+      "mIgnoreAnimContinueUntilCastFrame": true,
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshBasicAttack2M": {
+    "ObjectName": "ThreshBasicAttack2M",
+    "mScriptName": "ThreshBasicAttack2M",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.15279999375343323,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Attack2_MID_BASE",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Thresh_ba2_tar_right",
+      "mHitEffectOrientType": 2,
+      "mIgnoreAnimContinueUntilCastFrame": true,
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshBasicAttack2S": {
+    "ObjectName": "ThreshBasicAttack2S",
+    "mScriptName": "ThreshBasicAttack2S",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.15279999375343323,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Attack2_SHORT_BASE",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Thresh_ba3_tar_right",
+      "mHitEffectOrientType": 2,
+      "mIgnoreAnimContinueUntilCastFrame": true,
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshEAbility": {
+    "AbilityTraits": 2560,
+    "mChildSpells": [
+      "Characters/Thresh/Spells/ThreshEAbility/ThreshE",
+      "Characters/Thresh/Spells/ThreshEAbility/ThreshEMissile1",
+      "Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive",
+      "Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive1",
+      "Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive2",
+      "Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive3",
+      "Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive4",
+      "Characters/Thresh/Spells/ThreshEAbility/ThreshEStun"
+    ],
+    "mName": "ThreshEAbility",
+    "mRootSpell": "Characters/Thresh/Spells/ThreshEAbility/ThreshE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Thresh/Spells/ThreshEAbility/ThreshE": {
+    "ObjectName": "ThreshE",
+    "mScriptName": "ThreshE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PassiveADRatioTT",
+          "mValues": [
+            0.6000000238418579,
+            0.8999999761581421,
+            1.2000000476837158,
+            1.5,
+            1.7999999523162842,
+            2.0999999046325684,
+            2.4000000953674316
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PassiveADRatio",
+          "mValues": [
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0,
+            240.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "PassiveADRatioTT",
+              "mValues": [
+                0.5,
+                1.0,
+                1.5,
+                2.0,
+                2.5,
+                3.0,
+                3.5
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "PassiveADRatio",
+              "mValues": [
+                50.0,
+                100.0,
+                150.0,
+                200.0,
+                250.0,
+                300.0,
+                350.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 30.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.25,
+        11.5,
+        10.75,
+        10.0,
+        9.25
+      ],
+      "delayCastOffsetPercent": -0.22220000624656677,
+      "delayTotalTimePercent": -0.33329999446868896,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ThreshE",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "textureOrientation": 3,
+            "textureOverrideName": "ASSETS/Characters/Thresh/HUD/Textures/DirectionalRectangle_Circle.tex",
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_PassiveDamage",
+                  "type": "PassiveADRatio",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ActiveDamage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_Slow",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_ThreshE_Name",
+            "keySummary": "Spell_ThreshE_Summary",
+            "keyTooltip": "Spell_ThreshE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ThreshE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ThreshE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.699999988079071,
+      "mEffectAmount": [
+        {
+          "value": [
+            75.0,
+            75.0,
+            120.0,
+            165.0,
+            210.0,
+            255.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            80.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            225.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.7000000476837158,
+            1.7000000476837158,
+            1.7000000476837158,
+            1.7000000476837158,
+            1.7000000476837158,
+            1.7000000476837158,
+            1.7000000476837158
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_E.dds"
+      ],
+      "mSpellCalculations": {
+        "PAttackDamageMax": {
+          "mFormulaParts": [
+            {
+              "mBuffName": "0x5fbfbf13",
+              "mCoefficient": 1.7000000476837158,
+              "mIconKey": "%i:threshScalingIcon%",
+              "~class": "BuffCounterByCoefficientCalculationPart"
+            },
+            {
+              "mDataValue": "PassiveADRatioTT",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "PAttackDamageMin": {
+          "mFormulaParts": [
+            {
+              "mBuffName": "0x5fbfbf13",
+              "mCoefficient": 1.7000000476837158,
+              "mIconKey": "%i:threshScalingIcon%",
+              "~class": "BuffCounterByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0
+      ],
+      "missileSpeed": 1100.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshEAbility/ThreshEMissile1": {
+    "ObjectName": "ThreshEMissile1",
+    "mScriptName": "ThreshEMissile1",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 16.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.25,
+      "delayTotalTimePercent": -0.25,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 100.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ThreshE",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                110.0,
+                110.0,
+                110.0,
+                110.0,
+                110.0,
+                110.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            75.0,
+            250.0,
+            425.0,
+            600.0,
+            0.0,
+            0.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Spells/Icons2D/Bowmaster_EnchantedArrow.dds"
+      ],
+      "mLineWidth": 110.0,
+      "mMissileEffectKey": "Thresh_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 110.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 2000.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive": {
+    "ObjectName": "ThreshEPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ThreshQPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshEPassive",
+    "mSpell": {
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Thresh/Spells/ThreshEAbility/ThreshE",
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_E0.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive1": {
+    "ObjectName": "ThreshEPassive1",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ThreshQPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshEPassive1",
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive2": {
+    "ObjectName": "ThreshEPassive2",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ThreshQPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshEPassive2",
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive3": {
+    "ObjectName": "ThreshEPassive3",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ThreshQPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshEPassive3",
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive4": {
+    "ObjectName": "ThreshEPassive4",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ThreshQPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshEPassive4",
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshEAbility/ThreshEStun": {
+    "ObjectName": "ThreshEStun",
+    "mBuff": {
+      "mDescription": "buff_desc_ThreshEStun",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshEStun",
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshIdleLanternVFX": {
+    "ObjectName": "ThreshIdleLanternVFX",
+    "mScriptName": "ThreshIdleLanternVFX",
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshIdleLanternVFXFull": {
+    "ObjectName": "ThreshIdleLanternVFXFull",
+    "mScriptName": "ThreshIdleLanternVFXFull",
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshPassiveSoulsAbility": {
+    "mChildSpells": [
+      "Characters/Thresh/Spells/ThreshPassiveSoulsAbility/ThreshPassiveSouls",
+      "Characters/Thresh/Spells/ThreshPassiveSoulsAbility/ThreshPassiveSoulsGain"
+    ],
+    "mName": "ThreshPassiveSoulsAbility",
+    "mRootSpell": "Characters/Thresh/Spells/ThreshPassiveSoulsAbility/ThreshPassiveSouls",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Thresh/Spells/ThreshPassiveSoulsAbility/ThreshPassiveSouls": {
+    "ObjectName": "ThreshPassiveSouls",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshPassiveSouls",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "StatValuePerSoul",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SoulsToGainOnPickUp",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xa110bc47": {
+          "SpellDataValues": [
+            {
+              "mName": "SoulsToGainOnPickUp",
+              "mValues": [
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "SoulsToGainOnPickUp",
+              "mValues": [
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "SoulsToGainOnPickUp",
+              "mValues": [
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "NEXUSBLITZ": {
+          "SpellDataValues": [
+            {
+              "mName": "SoulsToGainOnPickUp",
+              "mValues": [
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ONEFORALL": {
+          "SpellDataValues": [
+            {
+              "mName": "SoulsToGainOnPickUp",
+              "mValues": [
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ULTBOOK": {
+          "SpellDataValues": [
+            {
+              "mName": "SoulsToGainOnPickUp",
+              "mValues": [
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "URF": {
+          "SpellDataValues": [
+            {
+              "mName": "SoulsToGainOnPickUp",
+              "mValues": [
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_ThreshPassiveSouls_Name",
+            "keySummary": "Spell_ThreshPassiveSouls_Summary",
+            "keyTooltip": "Spell_ThreshPassiveSouls_Tooltip",
+            "keyTooltipExtended": "Spell_ThreshPassiveSouls_TooltipExtended"
+          },
+          "mObjectName": "ThreshPassiveSouls",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "CurrentSoulBonus": {
+          "mFormulaParts": [
+            {
+              "mBuffName": "0x5fbfbf13",
+              "mDataValue": "StatValuePerSoul",
+              "mIconKey": "%i:threshScalingIcon%",
+              "~class": "BuffCounterByNamedDataValueCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshPassiveSoulsAbility/ThreshPassiveSoulsGain": {
+    "ObjectName": "ThreshPassiveSoulsGain",
+    "mBuff": {
+      "mBuffAttributeFlag": 8,
+      "mDescription": "game_buff_tooltip_ThreshPassiveSoulsGain",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshPassiveSoulsGain",
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshPassiveSoulsVlad": {
+    "ObjectName": "ThreshPassiveSoulsVlad",
+    "mScriptName": "ThreshPassiveSoulsVlad",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "VladimirTransfusionHeal",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "Lantern",
+      "mLookAtPolicy": 0,
+      "mMissileEffectKey": "Thresh_Soul_Eat",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mAcceleration": 500.0,
+          "mInitialSpeed": 400.0,
+          "mMaxSpeed": 2500.0,
+          "mMinSpeed": 10.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "lantern",
+          "mTargetHeightAugment": 100.0,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 400.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshQAbility": {
+    "AbilityTraits": 2560,
+    "mChildSpells": [
+      "Characters/Thresh/Spells/ThreshQAbility/ThreshQ",
+      "Characters/Thresh/Spells/ThreshQAbility/ThreshQInternal",
+      "Characters/Thresh/Spells/ThreshQAbility/ThreshQLeap",
+      "Characters/Thresh/Spells/ThreshQAbility/ThreshQMissile",
+      "Characters/Thresh/Spells/ThreshQAbility/ThreshQPullMissile",
+      "Characters/Thresh/Spells/ThreshQAbility/ThreshQSelfRoot"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "ThreshQAbility",
+    "mRootSpell": "Characters/Thresh/Spells/ThreshQAbility/ThreshQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Thresh/Spells/ThreshQAbility/ThreshQ": {
+    "ObjectName": "ThreshQ",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ThreshQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshQ",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            11.0,
+            11.0,
+            10.5,
+            10.0,
+            9.5,
+            9.0,
+            9.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TauntLength",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercent",
+          "mValues": [
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HitBonusCooldown",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "APRatio",
+              "mValues": [
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0
+      ],
+      "cooldownTime": [
+        19.0,
+        19.0,
+        16.5,
+        14.0,
+        11.5,
+        9.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ThreshQ",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_ThreshQ_Name",
+            "keySummary": "Spell_ThreshQ_Summary",
+            "keyTooltip": "Spell_ThreshQ_Tooltip"
+          },
+          "mObjectName": "ThreshQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient2": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_Q.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshQAbility/ThreshQInternal": {
+    "ObjectName": "ThreshQInternal",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ThreshQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshQInternal",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ThreshQ",
+      "mAnimationName": "Spell1_IN",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Thresh/Spells/ThreshQAbility/ThreshQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            230.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.75,
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            230.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_Q.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshQAbility/ThreshQLeap": {
+    "ObjectName": "ThreshQLeap",
+    "mScriptName": "ThreshQLeap",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        975.0,
+        975.0,
+        975.0,
+        975.0,
+        975.0,
+        975.0,
+        975.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 20,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "AhriSeduce",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mLocKeys": {
+            "keyCooldown": "Spell_Cost_Empty",
+            "keyCost": "Spell_Cost_Empty",
+            "keyName": "Spell_ThreshQLeap_Name",
+            "keyTooltip": "Spell_ThreshQLeap_Tooltip"
+          },
+          "mObjectName": "ThreshQLeap",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.3499999940395355,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.75,
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_Q3.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshQAbility/ThreshQMissile": {
+    "ObjectName": "ThreshQMissile",
+    "mScriptName": "ThreshQMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "castRangeDisplayOverride": [
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 90.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ThreshQ",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            2.0,
+            2.25,
+            2.5,
+            2.75,
+            3.0,
+            3.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mLineWidth": 70.0,
+      "mMissileEffectKey": "Thresh_Q_whip_beam",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 100.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1900.0,
+          "mStartBoneName": "root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "missileSpeed": 1900.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshQAbility/ThreshQPullMissile": {
+    "ObjectName": "ThreshQPullMissile",
+    "mScriptName": "ThreshQPullMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        220.0,
+        220.0,
+        220.0,
+        220.0,
+        220.0,
+        220.0,
+        220.0
+      ],
+      "castRange": [
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0
+      ],
+      "castRangeDisplayOverride": [
+        825.0,
+        825.0,
+        825.0,
+        825.0,
+        825.0,
+        825.0,
+        825.0
+      ],
+      "cooldownTime": [
+        7.5,
+        7.0,
+        6.5,
+        6.0,
+        5.5,
+        5.0,
+        5.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 66.25,
+      "mAffectsTypeFlags": 7183,
+      "mAlternateName": "ZyraQFissure",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mCoefficient2": 0.20000000298023224,
+      "mEffectAmount": [
+        {
+          "value": [
+            35.0,
+            75.0,
+            115.0,
+            155.0,
+            195.0,
+            235.0,
+            275.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "root",
+      "mLineWidth": 85.0,
+      "mMissileEffectKey": "Thresh_Q_Dummy_controller_01",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 85.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1000.0,
+          "mStartBoneName": "root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshQAbility/ThreshQSelfRoot": {
+    "ObjectName": "ThreshQSelfRoot",
+    "mScriptName": "ThreshQSelfRoot",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0
+      ],
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "RunePrison",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.2418999969959259,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.5,
+            0.75,
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            60.0,
+            95.0,
+            130.0,
+            165.0,
+            200.0,
+            235.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.5,
+            4.5,
+            4.5,
+            4.5,
+            4.5,
+            4.5,
+            4.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "head",
+      "mana": [
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        130.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshRPentaAbility": {
+    "mChildSpells": [
+      "Characters/Thresh/Spells/ThreshRPentaAbility/ThreshRPenta"
+    ],
+    "mName": "ThreshRPentaAbility",
+    "mRootSpell": "Characters/Thresh/Spells/ThreshRPentaAbility/ThreshRPenta",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Thresh/Spells/ThreshRPentaAbility/ThreshRPenta": {
+    "ObjectName": "ThreshRPenta",
+    "mScriptName": "ThreshRPenta",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ThreshRCageRadius",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ThreshRWallThickness",
+          "mValues": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ThreshRWallLength",
+          "mValues": [
+            470.2279968261719,
+            470.2279968261719,
+            470.2279968261719,
+            470.2279968261719,
+            470.2279968261719,
+            470.2279968261719,
+            470.2279968261719
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "APRatio",
+              "mValues": [
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0
+      ],
+      "castRangeDisplayOverride": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        100.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "ThreshRPenta",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.44999998807907104,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "textureOrientation": 3,
+            "textureOverrideName": "ASSETS/Characters/Thresh/HUD/Textures/Pentagram.tex",
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_ThreshRPenta_Name",
+            "keySummary": "Spell_ThreshRPenta_Summary",
+            "keyTooltip": "Spell_ThreshRPenta_Tooltip"
+          },
+          "mObjectName": "ThreshRPenta",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            250.0,
+            400.0,
+            550.0,
+            175.0,
+            175.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            99.0,
+            99.0,
+            99.0,
+            99.0,
+            99.0,
+            99.0,
+            99.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectName": "globalhit_orange_tar.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_R.dds"
+      ],
+      "mOrientRadiusTextureFromPlayer": true,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        0.0
+      ],
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshRTrigger1": {
+    "ObjectName": "ThreshRTrigger1",
+    "mScriptName": "ThreshRTrigger1",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 30.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.22220000624656677,
+      "delayTotalTimePercent": -0.33329999446868896,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ThreshRPenta",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "textureOrientation": 3,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            65.0,
+            100.0,
+            135.0,
+            170.0,
+            205.0,
+            240.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0,
+            200.0,
+            225.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0
+      ],
+      "missileSpeed": 1100.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshRTrigger2": {
+    "ObjectName": "ThreshRTrigger2",
+    "mScriptName": "ThreshRTrigger2",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 30.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.22220000624656677,
+      "delayTotalTimePercent": -0.33329999446868896,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ThreshRPenta",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "textureOrientation": 3,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            65.0,
+            100.0,
+            135.0,
+            170.0,
+            205.0,
+            240.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0,
+            200.0,
+            225.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0
+      ],
+      "missileSpeed": 1100.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshRTrigger3": {
+    "ObjectName": "ThreshRTrigger3",
+    "mScriptName": "ThreshRTrigger3",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 30.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.22220000624656677,
+      "delayTotalTimePercent": -0.33329999446868896,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ThreshRPenta",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "textureOrientation": 3,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            65.0,
+            100.0,
+            135.0,
+            170.0,
+            205.0,
+            240.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0,
+            200.0,
+            225.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0
+      ],
+      "missileSpeed": 1100.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshRTrigger4": {
+    "ObjectName": "ThreshRTrigger4",
+    "mScriptName": "ThreshRTrigger4",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 30.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.22220000624656677,
+      "delayTotalTimePercent": -0.33329999446868896,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ThreshRPenta",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "textureOrientation": 3,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            65.0,
+            100.0,
+            135.0,
+            170.0,
+            205.0,
+            240.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0,
+            200.0,
+            225.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0
+      ],
+      "missileSpeed": 1100.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshRTrigger5": {
+    "ObjectName": "ThreshRTrigger5",
+    "mScriptName": "ThreshRTrigger5",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 30.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.22220000624656677,
+      "delayTotalTimePercent": -0.33329999446868896,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ThreshRPenta",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "textureOrientation": 3,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            65.0,
+            100.0,
+            135.0,
+            170.0,
+            205.0,
+            240.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0,
+            200.0,
+            225.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0
+      ],
+      "missileSpeed": 1100.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshRunCycleManager": {
+    "ObjectName": "ThreshRunCycleManager",
+    "mScriptName": "ThreshRunCycleManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshWAbility": {
+    "AbilityTraits": 8,
+    "mChildSpells": [
+      "Characters/Thresh/Spells/ThreshWAbility/ThreshW",
+      "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternIn",
+      "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternOut",
+      "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternReturn",
+      "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternVisibility",
+      "Characters/Thresh/Spells/ThreshWAbility/ThreshWShield"
+    ],
+    "mName": "ThreshWAbility",
+    "mRootSpell": "Characters/Thresh/Spells/ThreshWAbility/ThreshW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Thresh/Spells/ThreshWAbility/ThreshW": {
+    "ObjectName": "ThreshW",
+    "mScriptName": "ThreshW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ShieldPerSoul",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LanternDuration",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseShieldValue",
+          "mValues": [
+            30.0,
+            50.0,
+            70.0,
+            90.0,
+            110.0,
+            130.0,
+            150.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "castRange": [
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0
+      ],
+      "castRangeDisplayOverride": [
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0
+      ],
+      "castTargetAdditionalUnitsRadius": 325.0,
+      "cooldownTime": [
+        21.0,
+        21.0,
+        20.0,
+        19.0,
+        18.0,
+        17.0,
+        16.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 1029,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_ShieldAmount",
+                  "type": "BaseShieldValue",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_ThreshW_Name",
+            "keySummary": "Spell_ThreshW_Summary",
+            "keyTooltip": "Spell_ThreshW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ThreshW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ThreshW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_W.dds"
+      ],
+      "mLookAtPolicy": 1,
+      "mProjectTargetToCastRange": true,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalShield": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseShieldValue",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mBuffName": "0x5fbfbf13",
+              "mDataValue": "ShieldPerSoul",
+              "mIconKey": "%i:threshScalingIcon%",
+              "~class": "BuffCounterByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0
+      ],
+      "missileSpeed": 150.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternIn": {
+    "ObjectName": "ThreshWLanternIn",
+    "mScriptName": "ThreshWLanternIn",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 20.0,
+      "castRadius": [
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0
+      ],
+      "castRange": [
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        20000.0,
+        20000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 7183,
+      "mAlternateName": "game_spell_displayname_TalonShadowAssault",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            90.0,
+            130.0,
+            170.0,
+            215.0,
+            260.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Spells/Icons2D/Caitlyn_AceintheHole.dds"
+      ],
+      "mLineWidth": 250.0,
+      "mMissileEffectName": "Talon_Base_R_Mis_02.troy",
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 250.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1850.0,
+          "mStartBoneName": "R_hand",
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "~class": "EnterFOWVisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1850.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternOut": {
+    "ObjectName": "ThreshWLanternOut",
+    "mScriptName": "ThreshWLanternOut",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.974999904632568,
+      "castRadius": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194304,
+      "mAffectsTypeFlags": 23567,
+      "mAnimationName": "Spell2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            230.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Thresh_Lantern_mis",
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 5000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "mMissileWidth": 120.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 60.0,
+          "mStartBoneName": "L_Hand",
+          "mTargetHeightAugment": 60.0,
+          "mTravelTime": 0.5,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 800.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternReturn": {
+    "ObjectName": "ThreshWLanternReturn",
+    "mScriptName": "ThreshWLanternReturn",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.974999904632568,
+      "castRadius": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194304,
+      "mAffectsTypeFlags": 23567,
+      "mAlternateName": "MaokaiSapling2",
+      "mAnimationName": "Spell3",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            230.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mLineWidth": 120.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 5000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "mMissileWidth": 120.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 60.0,
+          "mTargetHeightAugment": 60.0,
+          "mTravelTime": 0.8500000238418579,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternVisibility": {
+    "ObjectName": "ThreshWLanternVisibility",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ThreshQPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshWLanternVisibility",
+    "~class": "SpellObject"
+  },
+  "Characters/Thresh/Spells/ThreshWAbility/ThreshWShield": {
+    "ObjectName": "ThreshWShield",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ThreshWShield",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ThreshWShield",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 3.4800000190734863,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 65,
+      "mAlternateName": "ThreshWShield",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mEffectAmount": [
+        {
+          "value": [
+            40.0,
+            80.0,
+            120.0,
+            160.0,
+            200.0,
+            240.0,
+            280.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            14.0,
+            23.0,
+            32.0,
+            41.0,
+            50.0,
+            59.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_W.dds"
+      ],
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mana": [
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

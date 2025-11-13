@@ -1,0 +1,3287 @@
+{
+  "0x128fe65b": {
+    "catalogEntry": {
+      "contentId": "dc9cd751-08c1-4162-8408-ec5f054235b0",
+      "itemID": 66600554,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x63ad9b35",
+      "0x8f3236af",
+      "0xc3564ac0"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x138fe7ee": {
+    "catalogEntry": {
+      "contentId": "fed3aa95-fa02-473a-b300-aa93b6e186de",
+      "itemID": 66600555,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xcd093180",
+      "0x945d4a10",
+      "0xb243a9ee"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x19391cd9": {
+    "ObjectName": "MilioQSlow",
+    "mBuff": {
+      "mDescription": "buff_desc_MilioQSlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "MilioQSlow",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_Q.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x1d73d9c3": {
+    "catalogEntry": {
+      "contentId": "8c6df93a-31ae-4b63-b09b-1dac163f6a08",
+      "itemID": 66600553,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xc4155155",
+      "0xa4fb77af",
+      "0x20ffa252"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x20ffa252": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "b5d98ee1-b531-4327-a6ee-a573c4333498",
+      "itemID": 126550,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "MilioTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x2e13e11f": {
+    "ObjectName": "MilioQHitMinion",
+    "mScriptName": "MilioQHitMinion",
+    "mSpell": {
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mCastType": 3,
+      "mDoesNotConsumeCooldown": true,
+      "mDoesNotConsumeMana": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_Q.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Milio_Q_Kick_Mis_Air",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 5200.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 10.0,
+          "mTargetHeightAugment": 10.0,
+          "mTravelTime": 0.8999999761581421,
+          "mVisualsTrackHiddenTargets": true,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x3e27cfac": {
+    "ObjectName": "MilioPassive",
+    "mBuff": {
+      "mDescription": "game_character_passiveDescription_Milio",
+      "~class": "BuffData"
+    },
+    "mScriptName": "MilioPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MaxMonsterDamage",
+          "mValues": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BurnDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mCanMoveWhileChanneling": true,
+      "mClientData": {
+        "mLeftClickSpellAction": 0,
+        "mRightClickSpellAction": 0,
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_MilioPassive_Name",
+            "keySummary": "Spell_MilioPassive_Summary",
+            "keyTooltip": "Spell_MilioPassive_Tooltip",
+            "keyTooltipExtended": "Spell_MilioPassive_TooltipExtended"
+          },
+          "mObjectName": "MilioPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_P.dds",
+        "Milio_P2.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "ADBurstRatio": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 0.03999999910593033,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.03999999910593033,
+                  "mLevel": 9,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 0.07000000029802322,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "BurnDamage": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 50.0,
+              "mStartValue": 10.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.20000000298023224,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x63ad9b35": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      6,
+      15,
+      30,
+      40,
+      50,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f571d77d-3f19-4cb8-9b4c-5e6bcbdbbcb6",
+      "itemID": 126551,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_MilioRCleanse",
+    "mNameTraKey": "stat_stone_name_MilioRCleanse",
+    "stoneName": "MilioRCleanse",
+    "~class": "StatStoneData"
+  },
+  "0x71323211": {
+    "ObjectName": "MilioQHit",
+    "mScriptName": "MilioQHit",
+    "mSpell": {
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mCastType": 3,
+      "mDoesNotConsumeCooldown": true,
+      "mDoesNotConsumeMana": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_Q.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Milio_Q_Kick_Mis_Air",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 3800.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 10.0,
+          "mTargetHeightAugment": 10.0,
+          "mTravelTime": 0.800000011920929,
+          "mVisualsTrackHiddenTargets": true,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x8f3236af": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      6500,
+      1600,
+      33000,
+      39000,
+      49000,
+      20000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4f42c399-31c3-4848-89ef-f406f5b494bd",
+      "itemID": 126552,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_MilioPDamage",
+    "mNameTraKey": "stat_stone_name_MilioPDamage",
+    "stoneName": "MilioPDamage",
+    "~class": "StatStoneData"
+  },
+  "0x945d4a10": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      11000,
+      29000,
+      57000,
+      68000,
+      86000,
+      34000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "14ab0ecb-0cca-4a4c-b03e-e09ac39317a8",
+      "itemID": 126555,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_MilioWRHealing",
+    "mNameTraKey": "stat_stone_name_MilioWRHealing",
+    "stoneName": "MilioWRHealing",
+    "~class": "StatStoneData"
+  },
+  "0xa4fb77af": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "97f456a2-9687-4f4b-b314-f617a0f49f6a",
+      "itemID": 126549,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "MilioStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xb243a9ee": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      45,
+      90,
+      100,
+      125,
+      55
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "1bd5de71-6443-4dda-a7ce-ad968adc271c",
+      "itemID": 126554,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_MilioWExtendedAttacks",
+    "mNameTraKey": "stat_stone_name_MilioWExtendedAttacks",
+    "stoneName": "MilioWExtendedAttacks",
+    "~class": "StatStoneData"
+  },
+  "0xc3564ac0": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      70,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b380345e-458d-41d4-a41f-f4e7821e5cc0",
+      "itemID": 126553,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_MilioQMultihits",
+    "mNameTraKey": "stat_stone_name_MilioQMultihits",
+    "stoneName": "MilioQMultihits",
+    "~class": "StatStoneData"
+  },
+  "0xc4155155": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "8fe76bd6-f8b3-4043-89f5-dd01281c7e80",
+      "itemID": 126548,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "MilioEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xc64b473e": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 11,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          2,
+          0,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "utility",
+        "mDefaultPriority": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          2,
+          0,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xcd093180": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5500,
+      14000,
+      28000,
+      33000,
+      42000,
+      17000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "45a26c14-99cd-45f5-9dc2-abda5b5fab39",
+      "itemID": 126556,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_MilioEBlocks",
+    "mNameTraKey": "stat_stone_name_MilioEBlocks",
+    "stoneName": "MilioEBlocks",
+    "~class": "StatStoneData"
+  },
+  "0xe8599077": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "utility",
+        "mDefaultPriority": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          2,
+          1,
+          0,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xe86d160c": {
+    "ObjectName": "MilioPBurn",
+    "mBuff": {
+      "mDescription": "buff_desc_MilioPBurn",
+      "~class": "BuffData"
+    },
+    "mScriptName": "MilioPBurn",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_P.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf08b37b8": {
+    "ObjectName": "MilioPBuff",
+    "mBuff": {
+      "mDescription": "buff_desc_MilioPBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "MilioPBuff",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_P.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Milio/CharacterRecords/Root": {
+    "acquisitionRange": 550.0,
+    "armorPerLevel": 4.599999904632568,
+    "attackRange": 525.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 3.0,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 26.0,
+    "baseDamage": 48.0,
+    "baseHP": 560.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "basicAttack": {
+      "mAttackCastTime": 0.27000001072883606,
+      "mAttackName": "MilioBasicAttack",
+      "mAttackProbability": 0.5,
+      "mAttackTotalTime": 1.5750000476837158,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "LevelSpellEffectiveness": 3.0,
+      "Lore2": "poor sod",
+      "attackRank": 2,
+      "attackSpeed": 10.0,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 902,
+      "defenseRank": 4,
+      "description": "game_character_description_Milio",
+      "difficultyRank": 5,
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "5 Astral Spirts"
+      ],
+      "passiveData": [
+        {
+          "effect": [
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "level": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "name": "game_character_passiveName_Milio",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "SUPPORT",
+      "searchTags": "support",
+      "searchTagsSecondary": "mage",
+      "spellData": [
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackName": "MilioCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.200000047683716,
+    "extraAttacks": [
+      {
+        "mAttackCastTime": 0.27000001072883606,
+        "mAttackDelayCastOffsetPercent": -0.07999999821186066,
+        "mAttackName": "MilioBasicAttack2",
+        "mAttackProbability": 0.5,
+        "mAttackTotalTime": 1.5750000476837158,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 9446656,
+    "healthBarHeight": 110.0,
+    "hpPerLevel": 88.0,
+    "hpRegenPerLevel": 0.10000000149011612,
+    "mAbilities": [
+      "Characters/Milio/Spells/MilioWAbility",
+      "Characters/Milio/Spells/MilioPassiveAbility",
+      "Characters/Milio/Spells/MilioQAbility",
+      "Characters/Milio/Spells/MilioEAbility",
+      "Characters/Milio/Spells/MilioRAbility"
+    ],
+    "mAbilitySlotCC": [
+      8,
+      14,
+      0,
+      7
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Milio",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "0x3e27cfac",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0x3e27cfac",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Milio",
+    "outlineBBoxExpansion": 50.0,
+    "overrideGameplayCollisionRadius": 55.0,
+    "passive1IconName": "ASSETS/Characters/Milio/HUD/Icons2D/Milio_P.dds",
+    "passiveLuaName": "MilioPassive",
+    "passiveName": "game_character_passiveName_Milio",
+    "passiveRange": 250.0,
+    "passiveSpell": "MilioPassive",
+    "passiveToolTip": "game_character_passiveDescription_Milio",
+    "pathfindingCollisionRadius": 30.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 365.0,
+      "arBaseStaticRegen": 2.299999952316284,
+      "arPerLevel": 43.0,
+      "arRegenPerLevel": 0.07999999821186066,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "secondaryAbilityResource": {
+      "arBase": 2.0,
+      "arBaseStaticRegen": 0.0,
+      "arIncrements": 1.0,
+      "arMaxSegments": 2,
+      "arOverrideSmallPipName": "JhinSmall",
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 200.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "MilioQAbility/MilioQ",
+      "MilioWAbility/MilioW",
+      "MilioEAbility/MilioE",
+      "MilioRAbility/MilioR"
+    ],
+    "spells": [
+      "Characters/Milio/Spells/MilioQAbility/MilioQ",
+      "Characters/Milio/Spells/MilioWAbility/MilioW",
+      "Characters/Milio/Spells/MilioEAbility/MilioE",
+      "Characters/Milio/Spells/MilioRAbility/MilioR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "~class": "CharacterRecord"
+  },
+  "Characters/Milio/CharacterRecords/SLIME": {
+    "acquisitionRange": 550.0,
+    "armorPerLevel": 4.599999904632568,
+    "attackRange": 525.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 3.0,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 26.0,
+    "baseDamage": 48.0,
+    "baseHP": 560.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "basicAttack": {
+      "mAttackCastTime": 0.27000001072883606,
+      "mAttackName": "MilioBasicAttack",
+      "mAttackProbability": 0.5,
+      "mAttackTotalTime": 1.5750000476837158,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "LevelSpellEffectiveness": 3.0,
+      "Lore2": "poor sod",
+      "attackRank": 2,
+      "attackSpeed": 10.0,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 902,
+      "defenseRank": 4,
+      "description": "game_character_description_Milio",
+      "difficultyRank": 5,
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "5 Astral Spirts"
+      ],
+      "passiveData": [
+        {
+          "effect": [
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "level": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "name": "game_character_passiveName_Milio",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "SUPPORT",
+      "searchTags": "support",
+      "searchTagsSecondary": "mage",
+      "spellData": [
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackName": "MilioCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.200000047683716,
+    "extraAttacks": [
+      {
+        "mAttackCastTime": 0.27000001072883606,
+        "mAttackDelayCastOffsetPercent": -0.07999999821186066,
+        "mAttackName": "MilioBasicAttack2",
+        "mAttackProbability": 0.5,
+        "mAttackTotalTime": 1.5750000476837158,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 9446656,
+    "healthBarHeight": 110.0,
+    "hpPerLevel": 88.0,
+    "hpRegenPerLevel": 0.10000000149011612,
+    "mAbilities": [
+      "Characters/Milio/Spells/MilioWAbility"
+    ],
+    "mAbilitySlotCC": [
+      8,
+      14,
+      0,
+      7
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Milio",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "0x3e27cfac",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0x3e27cfac",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Milio",
+    "outlineBBoxExpansion": 50.0,
+    "overrideGameplayCollisionRadius": 55.0,
+    "passive1IconName": "ASSETS/Characters/Milio/HUD/Icons2D/Milio_P.dds",
+    "passiveLuaName": "MilioPassive",
+    "passiveName": "game_character_passiveName_Milio",
+    "passiveRange": 250.0,
+    "passiveSpell": "MilioPassive",
+    "passiveToolTip": "game_character_passiveDescription_Milio",
+    "pathfindingCollisionRadius": 30.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 365.0,
+      "arBaseStaticRegen": 2.299999952316284,
+      "arPerLevel": 43.0,
+      "arRegenPerLevel": 0.07999999821186066,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "secondaryAbilityResource": {
+      "arBase": 2.0,
+      "arBaseStaticRegen": 0.0,
+      "arIncrements": 1.0,
+      "arMaxSegments": 2,
+      "arOverrideSmallPipName": "JhinSmall",
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 200.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "MilioQAbility/MilioQ",
+      "MilioWAbility/MilioW",
+      "MilioEAbility/MilioE",
+      "MilioRAbility/MilioR"
+    ],
+    "spells": [
+      "Characters/Milio/Spells/MilioQAbility/MilioQ",
+      "Characters/Milio/Spells/MilioWAbility/MilioW",
+      "Characters/Milio/Spells/MilioEAbility/MilioE",
+      "Characters/Milio/Spells/MilioRAbility/MilioR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "~class": "CharacterRecord"
+  },
+  "Characters/Milio/CharacterRecords/URF": {
+    "acquisitionRange": 550.0,
+    "armorPerLevel": 4.599999904632568,
+    "attackRange": 525.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 3.0,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 26.0,
+    "baseDamage": 48.0,
+    "baseHP": 560.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "basicAttack": {
+      "mAttackCastTime": 0.27000001072883606,
+      "mAttackName": "MilioBasicAttack",
+      "mAttackProbability": 0.5,
+      "mAttackTotalTime": 1.5750000476837158,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "LevelSpellEffectiveness": 3.0,
+      "Lore2": "poor sod",
+      "attackRank": 2,
+      "attackSpeed": 10.0,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 902,
+      "defenseRank": 4,
+      "description": "game_character_description_Milio",
+      "difficultyRank": 5,
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "5 Astral Spirts"
+      ],
+      "passiveData": [
+        {
+          "effect": [
+            "-1",
+            "-1",
+            "-1",
+            "-1"
+          ],
+          "level": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "name": "game_character_passiveName_Milio",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "SUPPORT",
+      "searchTags": "support",
+      "searchTagsSecondary": "mage",
+      "spellData": [
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Needs text",
+          "displayName": "Monsoon",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackName": "MilioCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.200000047683716,
+    "extraAttacks": [
+      {
+        "mAttackCastTime": 0.27000001072883606,
+        "mAttackDelayCastOffsetPercent": -0.07999999821186066,
+        "mAttackName": "MilioBasicAttack2",
+        "mAttackProbability": 0.5,
+        "mAttackTotalTime": 1.5750000476837158,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 9446656,
+    "healthBarHeight": 110.0,
+    "hpPerLevel": 88.0,
+    "hpRegenPerLevel": 0.10000000149011612,
+    "mAbilities": [
+      "Characters/Milio/Spells/MilioWAbility"
+    ],
+    "mAbilitySlotCC": [
+      8,
+      14,
+      0,
+      7
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Milio",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "0x3e27cfac",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0x3e27cfac",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Milio",
+    "outlineBBoxExpansion": 50.0,
+    "overrideGameplayCollisionRadius": 55.0,
+    "passive1IconName": "ASSETS/Characters/Milio/HUD/Icons2D/Milio_P.dds",
+    "passiveLuaName": "MilioPassive",
+    "passiveName": "game_character_passiveName_Milio",
+    "passiveRange": 250.0,
+    "passiveSpell": "MilioPassive",
+    "passiveToolTip": "game_character_passiveDescription_Milio",
+    "pathfindingCollisionRadius": 30.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 365.0,
+      "arBaseStaticRegen": 2.299999952316284,
+      "arPerLevel": 43.0,
+      "arRegenPerLevel": 0.07999999821186066,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "secondaryAbilityResource": {
+      "arBase": 2.0,
+      "arBaseStaticRegen": 0.0,
+      "arIncrements": 1.0,
+      "arMaxSegments": 2,
+      "arOverrideSmallPipName": "JhinSmall",
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 200.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "MilioQAbility/MilioQ",
+      "MilioWAbility/MilioW",
+      "MilioEAbility/MilioE",
+      "MilioRAbility/MilioR"
+    ],
+    "spells": [
+      "Characters/Milio/Spells/MilioQAbility/MilioQ",
+      "Characters/Milio/Spells/MilioWAbility/MilioW",
+      "Characters/Milio/Spells/MilioEAbility/MilioE",
+      "Characters/Milio/Spells/MilioRAbility/MilioR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "~class": "CharacterRecord"
+  },
+  "Characters/Milio/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Milio/Spells/MilioBasicAttack": {
+    "ObjectName": "MilioBasicAttack",
+    "mScriptName": "MilioBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 30.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6000000238418579,
+      "mAffectsTypeFlags": 512,
+      "mApplyMaterialOnHitSound": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Milio_BA_Tar",
+      "mHitEffectOrientType": 2,
+      "mIgnoreAnimContinueUntilCastFrame": true,
+      "mMissileEffectKey": "Milio_BA_mis_buddy",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "RenderParticlesAfterDestroy": false,
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 7500.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 120.0,
+          "mSpeed": 1900.0,
+          "mStartBoneName": "R_Buffbone_Glb_Ability_Loc",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1000.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Milio/Spells/MilioBasicAttack2": {
+    "ObjectName": "MilioBasicAttack2",
+    "mScriptName": "MilioBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 30.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6000000238418579,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Milio_BA_Tar",
+      "mHitEffectOrientType": 2,
+      "mIgnoreAnimContinueUntilCastFrame": true,
+      "mMissileEffectKey": "Milio_BA_mis_buddy",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "RenderParticlesAfterDestroy": false,
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 7500.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 120.0,
+          "mSpeed": 1900.0,
+          "mStartBoneName": "L_Buffbone_Glb_Ability_Loc",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1000.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Milio/Spells/MilioCritAttack": {
+    "ObjectName": "MilioCritAttack",
+    "mScriptName": "MilioCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6000000238418579,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Crit",
+      "mApplyMaterialOnHitSound": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Milio_BA_Crit_Tar",
+      "mHitEffectOrientType": 2,
+      "mIgnoreAnimContinueUntilCastFrame": true,
+      "mMissileEffectKey": "Milio_BA_mis_buddy",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "RenderParticlesAfterDestroy": false,
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 7500.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 120.0,
+          "mSpeed": 1900.0,
+          "mStartBoneName": "R_Buffbone_Glb_Ability_Loc",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1000.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Milio/Spells/MilioEAbility": {
+    "AbilityTraits": 8,
+    "mChildSpells": [
+      "Characters/Milio/Spells/MilioEAbility/MilioE"
+    ],
+    "mName": "MilioEAbility",
+    "mRootSpell": "Characters/Milio/Spells/MilioEAbility/MilioE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Milio/Spells/MilioEAbility/MilioE": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MoveSpeedAmount",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MoveSpeedAmount",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "ShieldCalc",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 262144,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "ShieldCalc",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "MilioE",
+    "mBuff": {
+      "mDescription": "buff_desc_MilioE",
+      "~class": "BuffData"
+    },
+    "mScriptName": "MilioE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MoveSpeedAmount",
+          "mValues": [
+            0.10000000149011612,
+            0.11999999731779099,
+            0.14000000059604645,
+            0.1599999964237213,
+            0.18000000715255737,
+            0.20000000298023224,
+            0.2199999988079071
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeedDuration",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldBase",
+          "mValues": [
+            15.0,
+            45.0,
+            75.0,
+            105.0,
+            135.0,
+            165.0,
+            195.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DecayDelay",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "TargetingForgivenessDefinitions": [
+        {
+          "ForgivenessRange": 175.0,
+          "TargetForgivenessDefinitions": [
+            {
+              "mUnitTags": {
+                "mObjectTagList": [
+                  "champion",
+                  "0xc02a7870"
+                ],
+                "~class": "ObjectTags"
+              },
+              "~class": "HasUnitTagsCastRequirement"
+            },
+            {
+              "~class": "SameTeamCastRequirement"
+            }
+          ],
+          "~class": "TargetingForgivenessDefinitions"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        171.89999389648438,
+        171.89999389648438,
+        171.89999389648438,
+        171.89999389648438,
+        171.89999389648438,
+        171.89999389648438,
+        171.89999389648438
+      ],
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "delayCastOffsetPercent": -0.6499999761581421,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 1,
+      "mAmmoRechargeTime": [
+        17.0,
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0
+      ],
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.009999999776482582,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_ShieldAmount",
+                  "type": "ShieldBase",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "MoveSpeedAmount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "AmmoRechargeTime",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "Spell_MilioESingleBuff_Cooldown",
+            "keyName": "Spell_MilioESingleBuff_Name",
+            "keySummary": "Spell_MilioESingleBuff_Summary",
+            "keyTooltip": "Spell_MilioESingleBuff_Tooltip"
+          },
+          "mObjectName": "MilioE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCooldownNotAffectedByCDR": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_E.dds"
+      ],
+      "mMaxAmmo": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mSpellCalculations": {
+        "ShieldCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ShieldBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.44999998807907104,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mana": [
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0
+      ],
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Milio/Spells/MilioPassiveAbility": {
+    "mChildSpells": [
+      "0x3e27cfac"
+    ],
+    "mName": "MilioPassiveAbility",
+    "mRootSpell": "0x3e27cfac",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Milio/Spells/MilioQAbility": {
+    "AbilityTraits": 2304,
+    "mChildSpells": [
+      "Characters/Milio/Spells/MilioQAbility/MilioQ",
+      "0x71323211",
+      "0x2e13e11f",
+      "0x19391cd9"
+    ],
+    "mName": "MilioQAbility",
+    "mRootSpell": "Characters/Milio/Spells/MilioQAbility/MilioQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Milio/Spells/MilioQAbility/MilioQ": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "Damage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "KnockbackDistance",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4194304,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "FallTime",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "FallTime",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "FallTime",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 45.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32768,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "MilioQ",
+    "mBuff": {
+      "mDescription": "buff_desc_MilioQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "MilioQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929,
+            0.6000000238418579,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FallDamage",
+          "mValues": [
+            20.0,
+            80.0,
+            140.0,
+            200.0,
+            260.0,
+            320.0,
+            380.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FallTime",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FallRadius",
+          "mValues": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockbackDistance",
+          "mValues": [
+            140.0,
+            140.0,
+            140.0,
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockbackMinionDistance",
+          "mValues": [
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ImpactAdjustment",
+          "mValues": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExtraVisionDuration",
+          "mValues": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionFallRadius",
+          "mValues": [
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionFallTime",
+          "mValues": [
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RefundRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeAngle": 35.0,
+      "castConeDistance": 500.0,
+      "castFrame": 1.9800000190734863,
+      "castRadius": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 22539,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "FallDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_Slow",
+                  "type": "SlowAmount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_MilioKickballQ_Name",
+            "keySummary": "Spell_MilioKickballQ_Summary",
+            "keyTooltip": "Spell_MilioKickballQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_MilioQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "MilioQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_buffbone_Glb_Center_Loc",
+      "mHitEffectKey": "Milio_Q_Tar",
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_Q.dds"
+      ],
+      "mLineWidth": 45.0,
+      "mMinimapIconDisplayFlag": 0,
+      "mMissileEffectKey": "Milio_Q_Kick_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 40.0,
+          "mMaxSlope": 100.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "Buffbone_Q_Ground_Loc",
+          "mTargetBoneName": "C_buffbone_Glb_Center_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 100.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "FallDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.2000000476837158,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "SlowAmountPercent": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "SlowAmount",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0005000000237487257,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mTurnSpeedScalar": 1.7000000476837158,
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Milio/Spells/MilioRAbility": {
+    "AbilityTraits": 6,
+    "mChildSpells": [
+      "Characters/Milio/Spells/MilioRAbility/MilioR"
+    ],
+    "mName": "MilioRAbility",
+    "mRootSpell": "Characters/Milio/Spells/MilioRAbility/MilioR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Milio/Spells/MilioRAbility/MilioR": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2097152,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "HealCalc",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "HealCalc",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "TenacityAmount",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "TenacityAmount",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 262144,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "MilioR",
+    "mBuff": {
+      "mDescription": "buff_desc_MilioR",
+      "~class": "BuffData"
+    },
+    "mScriptName": "MilioR",
+    "mSpell": {
+      "0xf9c2333e": {
+        "0xa110bc47": {
+          "value": [
+            130.0,
+            130.0,
+            115.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "HealBase",
+          "mValues": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            450.0,
+            550.0,
+            650.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TenacityDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TenacityAmount",
+          "mValues": [
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealFXDelay",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "TargetingForgivenessDefinitions": [
+        {
+          "ForgivenessRange": 100.0,
+          "TargetForgivenessDefinitions": [
+            {
+              "mUnitTags": {
+                "mObjectTagList": [
+                  "0x4dde544f",
+                  "NeverSelf"
+                ],
+                "~class": "ObjectTags"
+              },
+              "~class": "HasUnitTagsCastRequirement"
+            }
+          ],
+          "~class": "TargetingForgivenessDefinitions"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        160.0,
+        160.0,
+        145.0,
+        130.0,
+        70.0,
+        40.0,
+        10.0
+      ],
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 8193,
+      "mAnimationName": "Spell4",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.7129999995231628,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "HealBase",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_MilioRFireflyCannons_Name",
+            "keySummary": "Spell_MilioR_Summary",
+            "keyTooltip": "Spell_MilioRFireflyCannons_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_MilioR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "MilioR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_R.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "HealCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "HealBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Milio/Spells/MilioWAbility": {
+    "AbilityTraits": 4,
+    "mChildSpells": [
+      "Characters/Milio/Spells/MilioWAbility/MilioW",
+      "Characters/Milio/Spells/MilioWAbility/MilioWRetarget"
+    ],
+    "mName": "MilioWAbility",
+    "mRootSpell": "Characters/Milio/Spells/MilioWAbility/MilioW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Milio/Spells/MilioWAbility/MilioW": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "HealingOverTime",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "HealingOverTime",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 64,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "MilioW",
+    "mBuff": {
+      "mDescription": "buff_desc_MilioW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "MilioW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ZoneDuration",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Radius",
+          "mValues": [
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RangePctIncrease",
+          "mValues": [
+            0.07500000298023224,
+            0.10000000149011612,
+            0.125,
+            0.15000000596046448,
+            0.17499999701976776,
+            0.20000000298023224,
+            0.22499999403953552
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealFrequencySeconds",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TotalHealingOverTime",
+          "mValues": [
+            50.0,
+            70.0,
+            90.0,
+            110.0,
+            130.0,
+            150.0,
+            170.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealAPRatio",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "TargetingForgivenessDefinitions": [
+        {
+          "ForgivenessRange": 175.0,
+          "TargetForgivenessDefinitions": [
+            {
+              "mUnitTags": {
+                "mObjectTagList": [
+                  "champion",
+                  "0xc02a7870"
+                ],
+                "~class": "ObjectTags"
+              },
+              "~class": "HasUnitTagsCastRequirement"
+            },
+            {
+              "~class": "SameTeamCastRequirement"
+            }
+          ],
+          "~class": "TargetingForgivenessDefinitions"
+        }
+      ],
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castRadius": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "castRadiusSecondary": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "castRangeDisplayOverride": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "cooldownTime": [
+        29.0,
+        29.0,
+        27.0,
+        25.0,
+        23.0,
+        21.0,
+        19.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 1,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                650.0,
+                650.0,
+                650.0,
+                650.0,
+                650.0,
+                650.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                650.0,
+                650.0,
+                650.0,
+                650.0,
+                650.0,
+                650.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                325.0,
+                325.0,
+                325.0,
+                325.0,
+                325.0,
+                325.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_Range",
+                  "type": "RangePctIncrease",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "TotalHealingOverTime",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_MilioW_Name",
+            "keySummary": "Spell_MilioW_Summary",
+            "keyTooltip": "Spell_MilioW_Tooltip"
+          },
+          "mObjectName": "MilioW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mFloatVarsDecimals": [
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_W.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "HealingOverTime": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "TotalHealingOverTime",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "HealAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "RangePercent": {
+          "mDisplayAsPercent": true,
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mDataValue": "RangePctIncrease",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "mana": [
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        130.0,
+        140.0
+      ],
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Milio/Spells/MilioWAbility/MilioWRetarget": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 64,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "MilioWRetarget",
+    "mScriptName": "MilioWRetarget",
+    "mSpell": {
+      "TargetingForgivenessDefinitions": [
+        {
+          "ForgivenessRange": 175.0,
+          "TargetForgivenessDefinitions": [
+            {
+              "~class": "SameTeamCastRequirement"
+            },
+            {
+              "mUnitTags": {
+                "mObjectTagList": [
+                  "champion",
+                  "0xc02a7870"
+                ],
+                "~class": "ObjectTags"
+              },
+              "~class": "HasUnitTagsCastRequirement"
+            }
+          ],
+          "~class": "TargetingForgivenessDefinitions"
+        }
+      ],
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castFrame": 5.170000076293945,
+      "castRange": [
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0
+      ],
+      "castRangeDisplayOverride": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "cooldownTime": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsStatusFlags": 34,
+      "mAffectsTypeFlags": 1,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                650.0,
+                650.0,
+                650.0,
+                650.0,
+                650.0,
+                650.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "EnableExtendedTooltip": false,
+          "mFormat": "0xd7c27163",
+          "mLocKeys": {
+            "keyName": "Spell_MilioWRetarget_Name",
+            "keySummary": "Spell_MilioWRetarget_Summary",
+            "keyTooltip": "Spell_MilioWRetarget_Tooltip"
+          },
+          "mObjectName": "MilioWRetarget",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCooldownNotAffectedByCDR": true,
+      "mFloatVarsDecimals": [
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Milio/HUD/Icons2D/Milio_W2.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mShowChannelBar": false,
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

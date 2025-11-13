@@ -1,0 +1,4109 @@
+{
+  "0x266a83e5": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4000,
+      9500,
+      19000,
+      23000,
+      29000,
+      11000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "14b3a307-baf8-463a-b41f-5eb91e0862c5",
+      "itemID": 126632,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_BriarPBleed",
+    "mNameTraKey": "stat_stone_name_BriarPBleed",
+    "stoneName": "BriarPBleed",
+    "~class": "StatStoneData"
+  },
+  "0x2c27b469": {
+    "AbilityTraits": 4,
+    "mChildSpells": [
+      "0xcf6ed5a6",
+      "0xe50dfde"
+    ],
+    "mName": "BriarPAbility",
+    "mRootSpell": "0xcf6ed5a6",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "0x2d2d45cb": {
+    "catalogEntry": {
+      "contentId": "7f23ec7a-8c4b-4383-a685-ad64d3ad60a9",
+      "itemID": 66600564,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x531f855",
+      "0xc44e30a7",
+      "0x6575d47c"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x2e2d475e": {
+    "catalogEntry": {
+      "contentId": "f220aabc-3b52-4dae-811d-c77657c99a2e",
+      "itemID": 66600565,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xf14fdd29",
+      "0x266a83e5",
+      "0xc46eabd"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x324bdf8d": {
+    "ObjectName": "BriarWFrenzyBuff",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_BriarWFrenzyBuff_Name",
+          "keyTooltip": "Buff_BriarWFrenzyBuff_Tooltip"
+        },
+        "mObjectName": "BriarWFrenzyBuff",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarWFrenzyBuff",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "20": "Play_sfx_Briar_BriarWFrenzyBuff_OnBuffCast"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x335b8347": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "748e3fc3-c7fe-4a07-857e-187248f1613b",
+      "itemID": 126633,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_BriarEpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_BriarEpicMonstersKilled",
+    "stoneName": "BriarEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x39142cf5": {
+    "ObjectName": "BriarEKnockback",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_BriarEKnockback_Name",
+          "keyTooltip": "Buff_BriarEKnockback_Tooltip"
+        },
+        "mObjectName": "BriarEKnockback",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarEKnockback",
+    "mSpell": {
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x3c5c0e44": {
+    "ObjectName": "BriarWAttackSpell",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_DrMundoE_Name",
+          "keyTooltip": "Buff_DrMundoEAbility_Tooltip"
+        },
+        "mObjectName": "BriarWAttackSpell",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarWAttackSpell",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.225000023841858,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": 1.0,
+      "delayTotalTimePercent": 0.4666999876499176,
+      "flags": 132,
+      "mAffectsTypeFlags": 6154,
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 1.0,
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Briar/Spells/BriarWAbility/BriarW",
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Briar/HUD/Icons2D/BriarW2.dds"
+      ],
+      "mLockedSpellOriginationCastID": true,
+      "mSpellTags": [
+        "Trait_AttackReset",
+        "PositiveEffect_EmpowerAttack"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 20.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x4af13a52": {
+    "ObjectName": "BriarEMisStrong",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_ViegoW_Name",
+          "keyTooltip": "Buff_ViegoWMis_Tooltip"
+        },
+        "mObjectName": "BriarEMisStrong",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarEMisStrong",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "13": "Play_sfx_Briar_BriarEMisStrong_OnHit"
+      },
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castFrame": 8.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.699999988079071,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Crit",
+      "mApplyAttackEffect": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mCastingRevealsCasterStealth": true,
+      "mIgnoreRangeCheck": true,
+      "mMissileEffectKey": "Briar_E_Mis_Max",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 190.0,
+        "movementComponent": {
+          "mSpeed": 1900.0,
+          "mStartBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mShowChannelBar": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x4af86ab3": {
+    "catalogEntry": {
+      "contentId": "868c8aae-f1d9-48f0-819f-b49be8284fd2",
+      "itemID": 66600563,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xa54df8b0",
+      "0x335b8347",
+      "0xe1d483a1"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x4df6a358": {
+    "CcBehaviorData": {
+      "CcBehavior": {
+        "TargetingParametersList": [
+          {
+            "0x791c5fa3": true,
+            "RangeValue": {
+              "NamedDataValue": "TauntRange",
+              "Spell": "Characters/Briar/Spells/BriarWAbility/BriarW",
+              "~class": "0x9d62f7e"
+            },
+            "TargetingParamName": "PrioritizeChamps",
+            "UnitObjectTags": {
+              "mObjectTagList": [
+                "champion"
+              ],
+              "~class": "ObjectTags"
+            },
+            "mAffectsStatusFlags": 64,
+            "mAffectsTypeFlags": 2,
+            "~class": "TargetingParameters"
+          },
+          {
+            "RangeValue": {
+              "NamedDataValue": "TauntRange",
+              "Spell": "Characters/Briar/Spells/BriarWAbility/BriarW",
+              "~class": "0x9d62f7e"
+            },
+            "UnitObjectTags": {
+              "mObjectTagList": [
+                "0x592aa99b",
+                "Monster_Large",
+                "champion",
+                "minion",
+                "0xc02a7870"
+              ],
+              "~class": "ObjectTags"
+            },
+            "mAffectsStatusFlags": 64,
+            "mAffectsTypeFlags": 6154,
+            "~class": "TargetingParameters"
+          },
+          {
+            "RangeValue": {
+              "NamedDataValue": "TauntRange",
+              "Spell": "Characters/Briar/Spells/BriarWAbility/BriarW",
+              "~class": "0x9d62f7e"
+            },
+            "mAffectsStatusFlags": 64,
+            "mAffectsTypeFlags": 6154,
+            "~class": "TargetingParameters"
+          }
+        ],
+        "mSpellFlags": 4194304,
+        "~class": "TargetingPriorityList"
+      },
+      "~class": "CcBehaviorData"
+    },
+    "ObjectName": "BriarWFrenzyStateBuff",
+    "mScriptName": "BriarWFrenzyStateBuff",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "18": "Play_sfx_Briar_BriarWFrenzyStateBuff_OnBuffActivate",
+        "19": "Play_sfx_Briar_BriarWFrenzyStateBuff_OnBuffDeactivate"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x531f855": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      40,
+      80,
+      95,
+      125,
+      50
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d6faba7c-b6fe-4d88-9fce-c8c1ec2bc635",
+      "itemID": 126629,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_BriarFrenziedTakedowns",
+    "mNameTraKey": "stat_stone_name_BriarFrenziedTakedowns",
+    "stoneName": "BriarFrenziedTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x6575d47c": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3000,
+      8000,
+      16000,
+      19000,
+      23000,
+      9500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "decde313-c69d-48e1-860e-6d0fa0f2f0e1",
+      "itemID": 126628,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_BriarWHeals",
+    "mNameTraKey": "stat_stone_name_BriarWHeals",
+    "stoneName": "BriarWHeals",
+    "~class": "StatStoneData"
+  },
+  "0x875ef73b": {
+    "ObjectName": "BriarEKnockup",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_BriarEKnockback_Name",
+          "keyTooltip": "Buff_BriarEKnockback_Tooltip"
+        },
+        "mObjectName": "BriarEKnockup",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarEKnockup",
+    "~class": "SpellObject"
+  },
+  "0xa54df8b0": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "7bd64145-77fc-4bfc-8168-4ed3950447fe",
+      "itemID": 126635,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_BriarTakedowns",
+    "mNameTraKey": "stat_stone_name_BriarTakedowns",
+    "stoneName": "BriarTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xab3f4a6c": {
+    "ObjectName": "BriarRSelf",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_BriarRSelf_Name",
+          "keyTooltip": "Buff_BriarRSelf_Tooltip"
+        },
+        "mObjectName": "BriarRSelf",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarRSelf",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.5,
+      "castRadius": [
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0
+      ],
+      "castRange": [
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": 1.5,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 14346,
+      "mAnimationName": "Spell4_Transform",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 1.25,
+      "mCastingBreaksStealth": true,
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mSpellCooldownOrSealedQueueThreshold": 0.10000000149011612,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mUpdateRotationWhenCasting": true,
+      "missileSpeed": 1500.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb2e2167d": {
+    "ObjectName": "BriarEMis",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_ViegoW_Name",
+          "keyTooltip": "Buff_ViegoWMis_Tooltip"
+        },
+        "mObjectName": "BriarEMis",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarEMis",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "13": "Play_sfx_Briar_BriarEMis_OnHit"
+      },
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castFrame": 8.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.699999988079071,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Crit",
+      "mApplyAttackEffect": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mCastingRevealsCasterStealth": true,
+      "mIgnoreRangeCheck": true,
+      "mMissileEffectKey": "Briar_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 190.0,
+        "movementComponent": {
+          "mSpeed": 1900.0,
+          "mStartBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mShowChannelBar": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb5d63404": {
+    "CcBehaviorData": {
+      "CcBehavior": {
+        "TargetingParametersList": [
+          {
+            "0x791c5fa3": true,
+            "0x9845aa67": true,
+            "0xfc462d60": [
+              {
+                "0xbe161d6e": 1,
+                "Buff": "0xdb75d7ba",
+                "~class": "0xe90af953"
+              }
+            ],
+            "ExitConditions": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "RangeValue": {
+              "Range": 25000.0,
+              "~class": "TargetingRangeValue"
+            },
+            "TargetingParamName": "PrioritizeUltTarget",
+            "mAffectsTypeFlags": 2,
+            "mSpellFlags": 4194304,
+            "~class": "TargetingParameters"
+          },
+          {
+            "RangeValue": {
+              "NamedDataValue": "TauntRange",
+              "Spell": "Characters/Briar/Spells/BriarWAbility/BriarW",
+              "~class": "0x9d62f7e"
+            },
+            "TargetingParamName": "PrioritizeChamps",
+            "UnitObjectTags": {
+              "mObjectTagList": [
+                "champion"
+              ],
+              "~class": "ObjectTags"
+            },
+            "mAffectsStatusFlags": 64,
+            "mAffectsTypeFlags": 2,
+            "~class": "TargetingParameters"
+          },
+          {
+            "RangeValue": {
+              "NamedDataValue": "TauntRange",
+              "Spell": "Characters/Briar/Spells/BriarWAbility/BriarW",
+              "~class": "0x9d62f7e"
+            },
+            "UnitObjectTags": {
+              "mObjectTagList": [
+                "0x592aa99b",
+                "Monster_Large",
+                "champion",
+                "minion",
+                "0xc02a7870"
+              ],
+              "~class": "ObjectTags"
+            },
+            "mAffectsStatusFlags": 64,
+            "mAffectsTypeFlags": 6154,
+            "~class": "TargetingParameters"
+          },
+          {
+            "RangeValue": {
+              "NamedDataValue": "TauntRange",
+              "Spell": "Characters/Briar/Spells/BriarWAbility/BriarW",
+              "~class": "0x9d62f7e"
+            },
+            "mAffectsStatusFlags": 64,
+            "mAffectsTypeFlags": 6154,
+            "~class": "TargetingParameters"
+          },
+          {
+            "RangeValue": {
+              "Range": 25000.0,
+              "~class": "TargetingRangeValue"
+            },
+            "TargetingParamName": "PrioritizeChamps",
+            "UnitObjectTags": {
+              "mObjectTagList": [
+                "champion"
+              ],
+              "~class": "ObjectTags"
+            },
+            "mAffectsStatusFlags": 64,
+            "mAffectsTypeFlags": 2,
+            "~class": "TargetingParameters"
+          },
+          {
+            "RangeValue": {
+              "Range": 25000.0,
+              "~class": "TargetingRangeValue"
+            },
+            "mAffectsStatusFlags": 64,
+            "mAffectsTypeFlags": 6154,
+            "~class": "TargetingParameters"
+          }
+        ],
+        "mSpellFlags": 4194304,
+        "~class": "TargetingPriorityList"
+      },
+      "~class": "CcBehaviorData"
+    },
+    "ObjectName": "BriarRFrenzyStateBuff",
+    "mScriptName": "BriarRFrenzyStateBuff",
+    "~class": "SpellObject"
+  },
+  "0xc44e30a7": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2000,
+      5000,
+      10000,
+      12000,
+      15000,
+      6000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f0162b67-3e39-4031-8075-1834d6a234d3",
+      "itemID": 126627,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_BriarQArmorReduct",
+    "mNameTraKey": "stat_stone_name_BriarQArmorReduct",
+    "stoneName": "BriarQArmorReduct",
+    "~class": "StatStoneData"
+  },
+  "0xc46eabd": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      10,
+      20,
+      25,
+      30,
+      10
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5d4fcb73-2b1a-424c-9e42-860d22f56db6",
+      "itemID": 126631,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_BriarRHitFromDistance",
+    "mNameTraKey": "stat_stone_name_BriarRHitFromDistance",
+    "stoneName": "BriarRHitFromDistance",
+    "~class": "StatStoneData"
+  },
+  "0xcf6ed5a6": {
+    "ObjectName": "BriarP",
+    "mScriptName": "BriarP",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BleedDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BleedTickRate",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealPercent",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealShieldPerMissingHPPercent",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CurrentHealthPercentCost",
+          "mValues": [
+            0.05999999865889549,
+            0.05999999865889549,
+            0.05999999865889549,
+            0.05999999865889549,
+            0.05999999865889549,
+            0.05999999865889549,
+            0.05999999865889549
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BleedPercentAdd",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxBleedStacks",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentOfBleedHealedOnKill",
+          "mValues": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "HealShieldPerMissingHPPercent",
+              "mValues": [
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_BriarP_Name",
+            "keySummary": "Spell_BriarP_Summary",
+            "keyTooltip": "Spell_BriarP_Tooltip",
+            "keyTooltipExtended": "Spell_BriarP_TooltipExtended"
+          },
+          "mObjectName": "BriarP",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Briar/HUD/Icons2D/BriarP.dds"
+      ],
+      "mSpellCalculations": {
+        "0x15da76ad": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 10.0,
+              "mStartValue": 2.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "0xb38f3487": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "HealShieldPerMissingHPPercent",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0002500000118743628,
+              "mStat": 12,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "0xf06e5a79": {
+          "mModifiedGameCalculation": "0x15da76ad",
+          "mMultiplier": {
+            "mNumber": 3.0,
+            "~class": "NumberCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "BleedDamageOverDurationTooltip": {
+          "mModifiedGameCalculation": "0x15da76ad",
+          "mMultiplier": {
+            "mDataValue": "BleedDuration",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "BleedMaxDamageOverDurationTooltip": {
+          "mModifiedGameCalculation": "0x15da76ad",
+          "mMultiplier": {
+            "mPart1": {
+              "mDataValue": "BleedDuration",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            "mPart2": {
+              "mNumber": 2.0,
+              "~class": "NumberCalculationPart"
+            },
+            "~class": "ProductOfSubPartsCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "TotalHealPerMissingHPPercentTooltip": {
+          "mModifiedGameCalculation": "0xb38f3487",
+          "mMultiplier": {
+            "mNumber": 100.0,
+            "~class": "NumberCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xd07cdc7a": {
+    "ObjectName": "BriarWAttack",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_BriarWAttack_Name",
+          "keyTooltip": "Buff_BriarWAttack_Tooltip"
+        },
+        "mObjectName": "BriarWAttack",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarWAttack",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castFrame": 16.0,
+      "cooldownTime": [
+        6.0,
+        6.0,
+        5.5,
+        5.0,
+        4.5,
+        4.0,
+        4.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 15567,
+      "mAnimationName": "Spell2_Attack",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mClientData": {
+        "mLeftClickSpellAction": 0,
+        "mRightClickSpellAction": 0,
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mObjectName": "BriarWAttack",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xd2f2dac0": {
+    "ObjectName": "BriarEDR",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_BriarE_Name",
+          "keyTooltip": "Buff_BriarEDR_Tooltip"
+        },
+        "mObjectName": "BriarEDR",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarEDR",
+    "~class": "SpellObject"
+  },
+  "0xd505aa49": {
+    "ObjectName": "BriarQDummyCast",
+    "mScriptName": "BriarQDummyCast",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -0.699999988079071,
+      "delayTotalTimePercent": -0.925000011920929,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell1_Exit",
+      "mCantCancelWhileWindingUp": true,
+      "mCoefficient": 0.6000000238418579,
+      "mDisableCastBar": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            5.0,
+            40.0,
+            75.0,
+            110.0,
+            145.0,
+            180.0,
+            215.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "root",
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xdb75d7ba": {
+    "ObjectName": "BriarRVictim",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_BriarRVictim_Name",
+          "keyTooltip": "Buff_BriarRVictim_Tooltip"
+        },
+        "mObjectName": "BriarRVictim",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarRVictim",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "18": "Play_sfx_Briar_BriarRVictim_OnBuffActivate"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xdf0eb0c8": {
+    "ObjectName": "BriarQShred",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_BriarQ_Name",
+          "keyTooltip": "Buff_BriarQ_Tooltip"
+        },
+        "mObjectName": "BriarQShred",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarQShred",
+    "~class": "SpellObject"
+  },
+  "0xe08030a5": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          1,
+          2,
+          0,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xe1d483a1": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "bf6147bc-be68-4eaf-a263-a57cc803b577",
+      "itemID": 126634,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_BriarStructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_BriarStructuresDestroyed",
+    "stoneName": "BriarStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xe50dfde": {
+    "ObjectName": "BriarPBleed",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_BriarPAbility_Name",
+          "keyTooltip": "Buff_BriarP_Tooltip"
+        },
+        "mObjectName": "BriarPBleed",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BriarPBleed",
+    "~class": "SpellObject"
+  },
+  "0xe84e547c": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 11,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          2,
+          0,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xf14fdd29": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      10,
+      20,
+      25,
+      30,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "171f54ca-e7c0-4d26-b13a-fa61132d74f1",
+      "itemID": 126630,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_BriarEStuns",
+    "mNameTraKey": "stat_stone_name_BriarEStuns",
+    "stoneName": "BriarEStuns",
+    "~class": "StatStoneData"
+  },
+  "Characters/Briar/CharacterRecords/Root": {
+    "0xc1984296": [
+      "0x0",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 400.0,
+    "armorPerLevel": 4.199999809265137,
+    "attackRange": 125.0,
+    "attackSpeed": 0.6439999938011169,
+    "attackSpeedPerLevel": 2.0,
+    "attackSpeedRatio": 0.6690000295639038,
+    "baseArmor": 30.0,
+    "baseDamage": 60.0,
+    "baseHP": 625.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 0.0,
+    "basicAttack": {
+      "mAttackCastTime": 0.30000001192092896,
+      "mAttackName": "BriarBasicAttack",
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.5529999732971191,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "attackRank": 9,
+      "championId": 233,
+      "classification": "Strong",
+      "defenseRank": 5,
+      "description": "game_character_description_Briar",
+      "difficultyRank": 3,
+      "magicRank": 3,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "assassin",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackName": "BriarCritAttack",
+        "mAttackProbability": 1.0,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "BriarCritAttackFrenzy",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 2.5,
+    "extraAttacks": [
+      {
+        "mAttackName": "BriarBasicAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "BriarBasicAttack3",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "BriarBasicAttack4",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "BriarBasicAttack5",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "BriarBasicAttack6",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "BriarBasicAttackFrenzy",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "BriarBasicAttackFrenzy2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "BriarBasicAttackFrenzy3",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "hpPerLevel": 95.0,
+    "mAbilities": [
+      "0x2c27b469",
+      "Characters/Briar/Spells/BriarWAbility",
+      "Characters/Briar/Spells/BriarQAbility",
+      "Characters/Briar/Spells/BriarRAbility",
+      "Characters/Briar/Spells/BriarEAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      0,
+      17
+    ],
+    "mCharacterName": "Briar",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "0xcf6ed5a6",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0xcf6ed5a6",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NullifyingOrb",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Precision/PresenceOfMind",
+          "mReplaceWith": "Perks/Styles/Precision/Triumph",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Briar",
+    "passive1IconName": "ASSETS/Characters/Briar/HUD/Icons2D/BriarP.dds",
+    "passiveLuaName": "BriarP",
+    "passiveName": "Spell_BriarP_Name",
+    "passiveSpell": "BriarP",
+    "passiveToolTip": "Spell_BriarP_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "0x4eb6a404": 2,
+      "arAllowMaxValueToBeOverridden": true,
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arType": 5,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 191.6667022705078,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "BriarQAbility/BriarQ",
+      "BriarWAbility/BriarW",
+      "BriarEAbility/BriarE",
+      "BriarRAbility/BriarR"
+    ],
+    "spells": [
+      "Characters/Briar/Spells/BriarQAbility/BriarQ",
+      "Characters/Briar/Spells/BriarWAbility/BriarW",
+      "Characters/Briar/Spells/BriarEAbility/BriarE",
+      "Characters/Briar/Spells/BriarRAbility/BriarR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "~class": "CharacterRecord"
+  },
+  "Characters/Briar/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Briar/Spells/BriarBasicAttack": {
+    "ObjectName": "BriarBasicAttack",
+    "mScriptName": "BriarBasicAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarBasicAttack_OnCast",
+        "13": "Play_sfx_Briar_BriarBasicAttack_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarBasicAttack",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Briar_Basic_Attack_Hit_01",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarBasicAttack2": {
+    "ObjectName": "BriarBasicAttack2",
+    "mScriptName": "BriarBasicAttack2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarBasicAttack2_OnCast",
+        "13": "Play_sfx_Briar_BriarBasicAttack2_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarBasicAttack",
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Briar_Basic_Attack_Hit_01",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarBasicAttack3": {
+    "ObjectName": "BriarBasicAttack3",
+    "mScriptName": "BriarBasicAttack3",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarBasicAttack3_OnCast",
+        "13": "Play_sfx_Briar_BriarBasicAttack3_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarBasicAttack",
+      "mAnimationName": "Attack3",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Briar_Basic_Attack_Hit_01",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarBasicAttack4": {
+    "ObjectName": "BriarBasicAttack4",
+    "mScriptName": "BriarBasicAttack4",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarBasicAttack4_OnCast",
+        "13": "Play_sfx_Briar_BriarBasicAttack4_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarBasicAttack",
+      "mAnimationName": "Attack4",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Briar_Basic_Attack_Hit_01",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarBasicAttack5": {
+    "ObjectName": "BriarBasicAttack5",
+    "mScriptName": "BriarBasicAttack5",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarBasicAttack5_OnCast",
+        "13": "Play_sfx_Briar_BriarBasicAttack5_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarBasicAttack",
+      "mAnimationName": "Attack5",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Briar_Basic_Attack_Hit_01",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarBasicAttack6": {
+    "ObjectName": "BriarBasicAttack6",
+    "mScriptName": "BriarBasicAttack6",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarBasicAttack6_OnCast",
+        "13": "Play_sfx_Briar_BriarBasicAttack6_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarBasicAttack",
+      "mAnimationName": "Attack6",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Briar_Basic_Attack_Hit_01",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarBasicAttackFrenzy": {
+    "ObjectName": "BriarBasicAttackFrenzy",
+    "mScriptName": "BriarBasicAttackFrenzy",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarBasicAttackFrenzy_OnCast",
+        "13": "Play_sfx_Briar_BriarBasicAttackFrenzy_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarBasicAttack",
+      "mAnimationName": "Attack1_Frenzy",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "0x7061eced",
+      "mHitEffectOrientType": 3,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarBasicAttackFrenzy2": {
+    "ObjectName": "BriarBasicAttackFrenzy2",
+    "mScriptName": "BriarBasicAttackFrenzy2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarBasicAttackFrenzy2_OnCast",
+        "13": "Play_sfx_Briar_BriarBasicAttackFrenzy2_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarBasicAttack",
+      "mAnimationName": "Attack2_Frenzy",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "0x5261bdb3",
+      "mHitEffectOrientType": 3,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarBasicAttackFrenzy3": {
+    "ObjectName": "BriarBasicAttackFrenzy3",
+    "mScriptName": "BriarBasicAttackFrenzy3",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarBasicAttackFrenzy3_OnCast",
+        "13": "Play_sfx_Briar_BriarBasicAttackFrenzy3_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarBasicAttack",
+      "mAnimationName": "Attack3_Frenzy",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Briar_BA_Frenzy_Tar",
+      "mHitEffectOrientType": 3,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarCritAttack": {
+    "ObjectName": "BriarCritAttack",
+    "mScriptName": "BriarCritAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarCritAttack_OnCast",
+        "13": "Play_sfx_Briar_BriarCritAttack_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarCritAttack",
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Briar_Crit_Attack_Hit_01",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarCritAttackFrenzy": {
+    "ObjectName": "BriarCritAttackFrenzy",
+    "mScriptName": "BriarCritAttackFrenzy",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarCritAttackFrenzy_OnCast",
+        "13": "Play_sfx_Briar_BriarCritAttackFrenzy_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "BriarCritAttack",
+      "mAnimationName": "Crit_Frenzy",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Base_BA_Frenzy_Tar_Crit",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarEAbility": {
+    "AbilityTraits": 2054,
+    "mChildSpells": [
+      "Characters/Briar/Spells/BriarEAbility/BriarE",
+      "0xb2e2167d",
+      "0x4af13a52"
+    ],
+    "mName": "BriarEAbility",
+    "mRootSpell": "Characters/Briar/Spells/BriarEAbility/BriarE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Briar/Spells/BriarEAbility/BriarE": {
+    "ObjectName": "BriarE",
+    "mScriptName": "BriarE",
+    "mSpell": {
+      "0x8958fee2": {
+        "~class": "0x8958fee2"
+      },
+      "DataValues": [
+        {
+          "mName": "MaxBaseDamage",
+          "mValues": [
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0,
+            220.0,
+            255.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WallHitBaseDamage",
+          "mValues": [
+            65.0,
+            140.0,
+            215.0,
+            290.0,
+            365.0,
+            440.0,
+            515.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinMissileRange",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxMissileRange",
+          "mValues": [
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Width",
+          "mValues": [
+            380.0,
+            380.0,
+            380.0,
+            380.0,
+            380.0,
+            380.0,
+            380.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RectangleDistanceBehindCaster",
+          "mValues": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RectangleDistanceInFrontOfCaster",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RKnockupHeight",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RKnockupDuration",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RKnockTowardsSpeed",
+          "mValues": [
+            1800.0,
+            1800.0,
+            1800.0,
+            1800.0,
+            1800.0,
+            1800.0,
+            1800.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WallStunDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockbackDistance",
+          "mValues": [
+            575.0,
+            575.0,
+            575.0,
+            575.0,
+            575.0,
+            575.0,
+            575.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercent",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DRPercent",
+          "mValues": [
+            35.0,
+            35.0,
+            35.0,
+            35.0,
+            35.0,
+            35.0,
+            35.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealHPPercent",
+          "mValues": [
+            0.08500000089406967,
+            0.10000000149011612,
+            0.11500000208616257,
+            0.12999999523162842,
+            0.14499999582767487,
+            0.1599999964237213,
+            0.17499999701976776
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "DRPercent",
+              "mValues": [
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "DRPercent",
+              "mValues": [
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarE_OnCast"
+      },
+      "cannotBeSuppressed": true,
+      "cooldownTime": [
+        16.0,
+        16.0,
+        16.0,
+        16.0,
+        16.0,
+        16.0,
+        16.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "None",
+      "mCanMoveWhileChanneling": true,
+      "mCanTriggerChargeSpellWhileDisabled": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "fade": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                230.0,
+                230.0,
+                230.0,
+                230.0,
+                230.0,
+                230.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                400.0,
+                400.0,
+                400.0,
+                400.0,
+                400.0,
+                400.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthDuration": {
+              "mPerLevelValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthMax": {
+              "mPerLevelValues": [
+                600.0,
+                600.0,
+                600.0,
+                600.0,
+                600.0,
+                600.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthStartTime": {
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hasMaxGrowRange": true,
+            "hideWithLineIndicator": true,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                400.0,
+                400.0,
+                400.0,
+                400.0,
+                400.0,
+                400.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthDuration": {
+              "mPerLevelValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthMax": {
+              "mPerLevelValues": [
+                600.0,
+                600.0,
+                600.0,
+                600.0,
+                600.0,
+                600.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "MaxBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_BriarE_",
+                  "type": "WallHitBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_BriarE_HealRatio",
+                  "type": "HealHPPercent",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_BriarP_Cost",
+            "keyName": "Spell_BriarE_Name",
+            "keySummary": "Spell_BriarE_Summary",
+            "keyTooltip": "Spell_BriarE_Tooltip"
+          },
+          "mObjectName": "BriarE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 1,
+      "mDoesNotConsumeMana": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Briar/HUD/Icons2D/BriarE.dds"
+      ],
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "MaxBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PercentMaxHPHeal": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "HealHPPercent",
+              "mStat": 12,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "WallHitDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "WallHitBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 2.4000000953674316,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 2.4000000953674316,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell",
+        "Trait_ChannelSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mUseChargeChanneling": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarQAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Briar/Spells/BriarQAbility/BriarQ"
+    ],
+    "mName": "BriarQAbility",
+    "mRootSpell": "Characters/Briar/Spells/BriarQAbility/BriarQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Briar/Spells/BriarQAbility/BriarQ": {
+    "ObjectName": "BriarQ",
+    "mScriptName": "BriarQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeedBase",
+          "mValues": [
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExtraDashSpeedBasedOnDistance",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StunDuration",
+          "mValues": [
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShredPercent",
+          "mValues": [
+            0.07500000298023224,
+            0.10000000149011612,
+            0.125,
+            0.15000000596046448,
+            0.17499999701976776,
+            0.20000000298023224,
+            0.22499999403953552
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShredDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "ShredPercent",
+              "mValues": [
+                0.05999999865889549,
+                0.07999999821186066,
+                0.10000000149011612,
+                0.11999999731779099,
+                0.14000000059604645,
+                0.1599999964237213,
+                0.18000000715255737
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarQ_OnCast"
+      },
+      "alwaysSnapFacing": true,
+      "cantCastWhileRooted": true,
+      "castRange": [
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0
+      ],
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsStatusFlags": 16,
+      "mAffectsTypeFlags": 22591,
+      "mAlternateName": "BriarQ",
+      "mAnimationName": "Spell1",
+      "mCancelChargeOnRecastTime": 0.009999999776482582,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                475.0,
+                475.0,
+                475.0,
+                475.0,
+                475.0,
+                475.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_ArmorandMagicResistShred",
+                  "type": "ShredPercent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_BriarP_Cost",
+            "keyName": "Spell_BriarQ_Name",
+            "keySummary": "Spell_BriarQ_Summary",
+            "keyTooltip": "Spell_BriarQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_BriarQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "BriarQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Briar/HUD/Icons2D/BriarQ.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6000000238418579,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 0.800000011920929,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_ImmobilizingCCSpell",
+        "Trait_AttackReset"
+      ],
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarRAbility": {
+    "AbilityTraits": 2051,
+    "mChildSpells": [
+      "Characters/Briar/Spells/BriarRAbility/BriarR",
+      "0xdb75d7ba",
+      "0xab3f4a6c"
+    ],
+    "mName": "BriarRAbility",
+    "mRootSpell": "Characters/Briar/Spells/BriarRAbility/BriarR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Briar/Spells/BriarRAbility/BriarR": {
+    "ObjectName": "BriarR",
+    "mScriptName": "BriarR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            450.0,
+            550.0,
+            650.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HuntDuration",
+          "mValues": [
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FearDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FleeSlowPercent",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AoERadius",
+          "mValues": [
+            575.0,
+            575.0,
+            575.0,
+            575.0,
+            575.0,
+            575.0,
+            575.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinDashSpeed",
+          "mValues": [
+            2500.0,
+            2500.0,
+            2500.0,
+            2500.0,
+            2500.0,
+            2500.0,
+            2500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxDashSpeed",
+          "mValues": [
+            5000.0,
+            5000.0,
+            5000.0,
+            5000.0,
+            5000.0,
+            5000.0,
+            5000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "IdealDashTime",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LifestealPercent",
+          "mValues": [
+            0.05000000074505806,
+            0.10000000149011612,
+            0.15000000596046448,
+            0.20000000298023224,
+            0.25,
+            0.30000001192092896,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ResistADRatio",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExtraMoveSpeedPercent",
+          "mValues": [
+            0.0,
+            0.10000000149011612,
+            0.20000000298023224,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.5,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                25.0,
+                150.0,
+                275.0,
+                400.0,
+                525.0,
+                650.0,
+                775.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "ResistADRatio",
+              "mValues": [
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarR_OnCast",
+        "13": "Play_sfx_Briar_BriarR_OnHit",
+        "15": "Play_sfx_Briar_BriarR_OnMissileCast",
+        "16": "Play_sfx_Briar_BriarR_OnMissileLaunch"
+      },
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        12000.0,
+        12000.0,
+        12000.0,
+        12000.0,
+        12000.0,
+        12000.0,
+        12000.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        100.0,
+        80.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 4106,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 1.0,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Characters/Briar/HUD/Skillshot_Briar_base.tex",
+            "textureTargetOverrideName": "ASSETS/Characters/Briar/HUD/Skillshot_Briar_arrow.tex",
+            "useGlobalLineIndicator": true,
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_LifeSteal",
+                  "type": "LifestealPercent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "ExtraMoveSpeedPercent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_BriarP_Cost",
+            "keyName": "Spell_BriarR_Name",
+            "keySummary": "Spell_BriarR_Summary",
+            "keyTooltip": "Spell_BriarR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_BriarR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "BriarR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_Buffbone_Glb_Chest_Loc",
+      "mHitEffectKey": "Briar_R_Mis_Tar",
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Briar/HUD/Icons2D/BriarR.dds",
+        "ASSETS/Characters/Briar/HUD/Icons2D/BriarWBuff.dds"
+      ],
+      "mLineWidth": 160.0,
+      "mMinimapIconName": "ASSETS/Characters/Briar/HUD/Briar_CertainDeath_Circle.tex",
+      "mMinimapIconRotation": true,
+      "mMissileEffectKey": "Briar_R_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 160.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "Root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.2999999523162842,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalResists": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ResistADRatio",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ImmobilizingCCSpell",
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseMinimapTargeting": true,
+      "missileSpeed": 2200.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Briar/Spells/BriarWAbility": {
+    "AbilityTraits": 4,
+    "mChildSpells": [
+      "Characters/Briar/Spells/BriarWAbility/BriarW",
+      "0xd07cdc7a",
+      "0x3c5c0e44"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "BriarWAbility",
+    "mRootSpell": "Characters/Briar/Spells/BriarWAbility/BriarW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Briar/Spells/BriarWAbility/BriarW": {
+    "ObjectName": "BriarW",
+    "mScriptName": "BriarW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "TauntRange",
+          "mValues": [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinDashDistance",
+          "mValues": [
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxDashDistance",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxRangeOverWalls",
+          "mValues": [
+            650.0,
+            650.0,
+            650.0,
+            650.0,
+            650.0,
+            650.0,
+            650.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BerserkDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BerserkAS",
+          "mValues": [
+            0.44999998807907104,
+            0.550000011920929,
+            0.6499999761581421,
+            0.75,
+            0.8500000238418579,
+            0.949999988079071,
+            1.0499999523162842
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BerserkMS",
+          "mValues": [
+            0.15000000596046448,
+            0.23999999463558197,
+            0.33000001311302185,
+            0.41999998688697815,
+            0.5099999904632568,
+            0.6000000238418579,
+            0.6899999976158142
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackBonusDamage",
+          "mValues": [
+            -10.0,
+            5.0,
+            20.0,
+            35.0,
+            50.0,
+            65.0,
+            80.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackPercentMissingHealth",
+          "mValues": [
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackHealPercent",
+          "mValues": [
+            0.20000000298023224,
+            0.24000000953674316,
+            0.2800000011920929,
+            0.3199999928474426,
+            0.36000001430511475,
+            0.4000000059604645,
+            0.4399999976158142
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxMonsterDamage",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AoEAttackRadius",
+          "mValues": [
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AoEAttackDamagePercent",
+          "mValues": [
+            0.5,
+            0.6000000238418579,
+            0.699999988079071,
+            0.800000011920929,
+            0.8999999761581421,
+            1.0,
+            1.100000023841858
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterAndMinionPercentMod",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BerserkAS",
+              "mValues": [
+                0.4000000059604645,
+                0.5,
+                0.6000000238418579,
+                0.699999988079071,
+                0.800000011920929,
+                0.8999999761581421,
+                1.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Briar_BriarW_OnCast"
+      },
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 4.619999885559082,
+      "castRadius": [
+        675.0,
+        675.0,
+        675.0,
+        675.0,
+        675.0,
+        675.0,
+        675.0
+      ],
+      "castRadiusSecondary": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "cooldownTime": [
+        14.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        10.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 20490,
+      "mAlternateName": "BriarR",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                1000.0,
+                1000.0,
+                1000.0,
+                1000.0,
+                1000.0,
+                1000.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/CircularRangeIndicator.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_AttackSpeed",
+                  "type": "BerserkAS",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "BerserkMS",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_BriarW_AreaDamage",
+                  "type": "AoEAttackDamagePercent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "AttackBonusDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "AttackHealPercent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_BriarP_Cost",
+            "keyName": "Spell_BriarW_Name",
+            "keySummary": "Spell_BriarW_Summary",
+            "keyTooltip": "Spell_BriarW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_BriarW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "BriarW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesNotConsumeCooldown": true,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Briar/HUD/Icons2D/BriarW.dds",
+        "ASSETS/Characters/Briar/HUD/Icons2D/BriarW2.dds",
+        "ASSETS/Characters/Briar/HUD/Icons2D/BriarWBuff.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "AttackMaxHPHeal": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.05000000074505806,
+              "mStat": 12,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalAoEDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "AoEAttackDamagePercent",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalAttackBonusDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "AttackBonusDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0499999523162842,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalAttackPercentMissingHealth": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "AttackPercentMissingHealth",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.02500000037252903,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "PositiveEffect_EmpowerAttack",
+        "Trait_AttackReset"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "Characters/KledRider/CharacterRecords/Root": {
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 3.200000047683716,
+    "attackRange": 125.0,
+    "attackSpeed": 0.6579999923706055,
+    "attackSpeedPerLevel": 3.5,
+    "attackSpeedRatio": 0.6579999923706055,
+    "baseArmor": 26.0,
+    "baseDamage": 40.0,
+    "baseHP": 400.0,
+    "baseMoveSpeed": 300.0,
+    "baseSpellBlock": 32.099998474121094,
+    "baseStaticHPRegen": 1.2000000476837158,
+    "basicAttack": {
+      "mAttackCastTime": 0.33000001311302185,
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.5199999809265137,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "PARFadeColor": "192 192 192",
+      "attackRank": 6,
+      "championId": 242,
+      "defenseRank": 5,
+      "description": "game_character_description_Kled",
+      "difficultyRank": 8,
+      "magicRank": 5,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "tank",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.15399999916553497,
+        "mAttackName": "KledCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 2.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "KledBasicAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "KledBasicAttack3",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 8398088,
+    "healthBarHeight": 80.0,
+    "hpPerLevel": 65.0,
+    "hpRegenPerLevel": 0.15000000596046448,
+    "mCharacterName": "KledRider",
+    "mFallbackCharacterName": "Kled",
+    "name": "game_character_displayname_KledRider",
+    "overrideGameplayCollisionRadius": 55.0,
+    "passiveLuaName": "",
+    "passiveRange": 700.0,
+    "pathfindingCollisionRadius": 30.0,
+    "primaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arIncrements": 10.0,
+      "arMaxSegments": 20,
+      "arType": 8,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "arAllowMaxValueToBeOverridden": true,
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 85.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 1.25,
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/KledRider/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  }
+}

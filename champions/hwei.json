@@ -1,0 +1,5633 @@
+{
+  "0x1f86669b": {
+    "ObjectName": "HweiPassive",
+    "mScriptName": "HweiPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "InkTimeout",
+          "mValues": [
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Duration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_HweiPassive_Name",
+            "keySummary": "Spell_HweiPassive_Summary",
+            "keyTooltip": "Spell_HweiPassive_Tooltip",
+            "keyTooltipExtended": "Spell_HweiPassive_TooltipLong"
+          },
+          "mObjectName": "HweiPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiPassive.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 230.0,
+              "mStartValue": 35.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.3499999940395355,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x23284fe7": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9000,
+      21000,
+      41000,
+      50000,
+      62000,
+      25000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "199dbe1a-db85-41f0-a08a-96128b567080",
+      "itemID": 126622,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_HweiWQDistance",
+    "mNameTraKey": "stat_stone_name_HweiWQDistance",
+    "stoneName": "HweiWQDistance",
+    "trackingType": 2,
+    "~class": "StatStoneData"
+  },
+  "0x35be4224": {
+    "ObjectName": "HweiSignature",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_PassiveMark_Name",
+          "keyTooltip": "Buff_PassiveMark_Tooltip"
+        },
+        "mObjectName": "HweiSignature",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiSignature",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castRadius": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRadiusSecondary": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mCantCancelWhileWindingUp": true,
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiPassive.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x3930d973": {
+    "ObjectName": "HweiQuestGoldenRatioStart",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_HweiVsJhin_HweiStartName",
+          "keyTooltip": "Quests_HweiVsJhin_HweiStartTooltip"
+        },
+        "mObjectName": "HweiQuestGoldenRatioStart",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiQuestGoldenRatioStart",
+    "~class": "SpellObject"
+  },
+  "0x3b581c61": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      10,
+      20,
+      25,
+      30,
+      10
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "6dda2ee0-fc4b-4850-b372-3025238a95c1",
+      "itemID": 126621,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_HweiETakedowns",
+    "mNameTraKey": "stat_stone_name_HweiETakedowns",
+    "stoneName": "HweiETakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x5c7265c8": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      20,
+      45,
+      50,
+      65,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "68ed8860-5b38-458a-bff7-842d1dd76cec",
+      "itemID": 126618,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_HweiQWIsolated",
+    "mNameTraKey": "stat_stone_name_HweiQWIsolated",
+    "stoneName": "HweiQWIsolated",
+    "~class": "StatStoneData"
+  },
+  "0x85b045d0": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "32fa7ec8-a383-4e10-880a-75dffa678baa",
+      "itemID": 126615,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "HweiEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x8a815640": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "middle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "utility",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x8c64b7a4": {
+    "mChildSpells": [
+      "0x1f86669b",
+      "0x35be4224"
+    ],
+    "mName": "HweiPassiveAbility",
+    "mRootSpell": "0x1f86669b",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "0x8e8765db": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      10,
+      25,
+      25,
+      35,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "7df157d7-8915-4606-b2b0-83574ef3adef",
+      "itemID": 126620,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_HweiEWRoot",
+    "mNameTraKey": "stat_stone_name_HweiEWRoot",
+    "stoneName": "HweiEWRoot",
+    "~class": "StatStoneData"
+  },
+  "0xb2115ca5": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "8d92f2f2-90f0-49c3-aa5c-c4052224a8f6",
+      "itemID": 126617,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "HweiTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xb6f6028": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "f323145e-c408-43e7-9827-a70ec3ab2dba",
+      "itemID": 126616,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "HweiStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xbade6abc": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3000,
+      7000,
+      14000,
+      16000,
+      20000,
+      8000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "3a8dd737-0c13-4a0e-9855-fb08a2b487dc",
+      "itemID": 126619,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_HweiPDamage",
+    "mNameTraKey": "stat_stone_name_HweiPDamage",
+    "stoneName": "HweiPDamage",
+    "~class": "StatStoneData"
+  },
+  "0xe1a3ea4d": {
+    "ObjectName": "HweiQuestGoldenRatioWin",
+    "mScriptName": "HweiQuestGoldenRatioWin",
+    "~class": "SpellObject"
+  },
+  "0xe1b22f4": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      30,
+      60,
+      75,
+      90,
+      35
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "31119f89-4894-4d4f-b66b-0e9ade7bf2e5",
+      "itemID": 126623,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_HweiRDetonationHit",
+    "mNameTraKey": "stat_stone_name_HweiRDetonationHit",
+    "stoneName": "HweiRDetonationHit",
+    "~class": "StatStoneData"
+  },
+  "0xf4e47d2e": {
+    "ObjectName": "HweiQuestGoldenRatioReward",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_HweiVsJhin_HweiRewardName",
+          "keyTooltip": "Quests_HweiVsJhin_HweiRewardTooltip"
+        },
+        "mObjectName": "HweiQuestGoldenRatioReward",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiQuestGoldenRatioReward",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiQuestVictory.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf635e0b6": {
+    "ObjectName": "HweiQuestGoldenRatioLoss",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_HweiVsJhin_JhinLossName",
+          "keyTooltip": "Quests_HweiVsJhin_JhinLoss"
+        },
+        "mObjectName": "HweiQuestGoldenRatioLoss",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiQuestGoldenRatioLoss",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiQuestLoser.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf7974217": {
+    "catalogEntry": {
+      "contentId": "5bb34720-27ef-4460-ade7-216ef83b3dc6",
+      "itemID": 66600561,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x8e8765db",
+      "0xbade6abc",
+      "0x5c7265c8"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xf81bf307": {
+    "catalogEntry": {
+      "contentId": "72f3a843-82a2-4266-b14b-994cf503c144",
+      "itemID": 66600560,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xb2115ca5",
+      "0xb6f6028",
+      "0x85b045d0"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xf89743aa": {
+    "catalogEntry": {
+      "contentId": "19b88c07-b55d-4c95-b2d7-5f4898dc56ab",
+      "itemID": 66600562,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x3b581c61",
+      "0x23284fe7",
+      "0xe1b22f4"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "Characters/Hwei/CharacterRecords/Root": {
+    "0xc5c48b41": 1,
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 4.699999809265137,
+    "attackRange": 550.0,
+    "attackSpeed": 0.6899999976158142,
+    "attackSpeedPerLevel": 2.5,
+    "attackSpeedRatio": 0.6579999923706055,
+    "baseArmor": 21.0,
+    "baseDamage": 54.0,
+    "baseHP": 580.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.100000023841858,
+    "basicAttack": {
+      "mAttackCastTime": 0.2800000011920929,
+      "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+      "mAttackName": "HweiBasicAttack",
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.4950000047683716,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 2.0,
+      "PARFadeColor": "175 0 0",
+      "attackRank": 7,
+      "championId": 910,
+      "defenseRank": 1,
+      "description": "game_character_description_Hwei",
+      "difficultyRank": 9,
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "level": [
+            1,
+            4,
+            7
+          ],
+          "name": "Spell_HweiPassive_Name",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "MAGE",
+      "searchTags": "mage",
+      "searchTagsSecondary": "support",
+      "spellData": [
+        {
+          "desc": "Hwei's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Hwei's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Hwei's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Hwei's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.2800000011920929,
+        "mAttackDelayCastOffsetPercent": -0.10999999940395355,
+        "mAttackName": "HweiCritAttack",
+        "mAttackTotalTime": 1.7999999523162842,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.299999952316284,
+    "extraAttacks": [
+      {
+        "mAttackName": "HweiBasicAttack2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 9446656,
+    "hpPerLevel": 109.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Hwei/Spells/HweiQAbility",
+      "Characters/Hwei/Spells/HweiWAbility",
+      "Characters/Hwei/Spells/HweiEAbility",
+      "Characters/Hwei/Spells/HweiRAbility",
+      "0x8c64b7a4"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      14,
+      0,
+      0
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Hwei",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "0x1f86669b",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0x1f86669b",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "skillOrder": 2,
+      "~class": "ToolEducationData"
+    },
+    "mFallbackCharacterName": "Paint",
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Hwei",
+    "passive1IconName": "ASSETS/Characters/Hwei/HUD/Icons2D/HweiPassive.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_HweiPassive_Name",
+    "passiveSpell": "HweiPassive",
+    "passiveToolTip": "Spell_HweiPassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 480.0,
+      "arBaseStaticRegen": 1.5,
+      "arPerLevel": 30.0,
+      "arRegenPerLevel": 0.15000000596046448,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 180.0,
+    "selectionRadius": 135.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellLevelUpInfo": [
+      {
+        "mRequirements": [
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 6,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 11,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 16,
+                "~class": "CharacterLevelRequirement"
+              },
+              {
+                "mBuffName": "0xa57caffe",
+                "~class": "HasBuffRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      }
+    ],
+    "spellNames": [
+      "HweiQAbility/HweiQ",
+      "HweiWAbility/HweiW",
+      "HweiEAbility/HweiE",
+      "HweiRAbility/HweiR"
+    ],
+    "spells": [
+      "Characters/Hwei/Spells/HweiQAbility/HweiQ",
+      "Characters/Hwei/Spells/HweiWAbility/HweiW",
+      "Characters/Hwei/Spells/HweiEAbility/HweiE",
+      "Characters/Hwei/Spells/HweiRAbility/HweiR"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "HweiBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Hwei/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Hwei/Spells/HweiBasicAttack": {
+    "ObjectName": "HweiBasicAttack",
+    "mScriptName": "HweiBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 5327,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Hwei_BA_tar_1",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Hwei_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 2800.0,
+          "mStartBoneName": "Brush3",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTurnSpeedScalar": 10.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiBasicAttack2": {
+    "ObjectName": "HweiBasicAttack2",
+    "mScriptName": "HweiBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Attack2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Hwei_BA_tar_1",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Hwei_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 2800.0,
+          "mStartBoneName": "Brush3",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTurnSpeedScalar": 10.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiCritAttack": {
+    "ObjectName": "HweiCritAttack",
+    "mScriptName": "HweiCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.75,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Hwei_BA_tar_1",
+      "mMissileEffectKey": "Hwei_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 2800.0,
+          "mStartBoneName": "Brush3",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiEAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Hwei/Spells/HweiEAbility/HweiE",
+      "Characters/Hwei/Spells/HweiEAbility/HweiEE",
+      "Characters/Hwei/Spells/HweiEAbility/HweiEQ",
+      "Characters/Hwei/Spells/HweiEAbility/HweiEW",
+      "Characters/Hwei/Spells/HweiRAbility/HweiWashBrush",
+      "Characters/Hwei/Spells/HweiEAbility/HweiEQFlee",
+      "Characters/Hwei/Spells/HweiEAbility/HweiEWTriggerMissile",
+      "Characters/Hwei/Spells/HweiEAbility/HweiEEPull",
+      "Characters/Hwei/Spells/HweiEAbility/HweiEWRoot",
+      "Characters/Hwei/Spells/HweiEAbility/HweiEQSlow"
+    ],
+    "mName": "HweiEAbility",
+    "mRootSpell": "Characters/Hwei/Spells/HweiEAbility/HweiE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Hwei/Spells/HweiEAbility/HweiE": {
+    "ObjectName": "HweiE",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiE",
+    "mSpell": {
+      "0x288b8edc": {
+        "0xda28e4c": [
+          255,
+          0,
+          158,
+          255
+        ],
+        "SpellObjects": [
+          "Characters/Hwei/Spells/HweiEAbility/HweiEQ",
+          "Characters/Hwei/Spells/HweiEAbility/HweiEW",
+          "Characters/Hwei/Spells/HweiEAbility/HweiEE",
+          "Characters/Hwei/Spells/HweiRAbility/HweiWashBrush"
+        ],
+        "~class": "0x6bbc3db6"
+      },
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "Tooltip_EQBaseDamage",
+          "mValues": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_EWBaseDamage",
+          "mValues": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_EWRootDuration",
+          "mValues": [
+            1.0,
+            1.2000000476837158,
+            1.399999976158142,
+            1.600000023841858,
+            1.7999999523162842,
+            2.0,
+            2.200000047683716
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_EEBaseDamage",
+          "mValues": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_EESlowAmount",
+          "mValues": [
+            32.5,
+            40.0,
+            47.5,
+            55.0,
+            62.5,
+            70.0,
+            77.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_EQFleeDuration",
+          "mValues": [
+            0.875,
+            1.0,
+            1.125,
+            1.25,
+            1.375,
+            1.5,
+            1.625
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.5,
+        12.0,
+        11.5,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell3_Act",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_HweiE_EQRankUp1",
+                  "type": "Tooltip_EQBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HweiE_EQRankUp2",
+                  "type": "Tooltip_EQFleeDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HweiE_EWRankUp1",
+                  "type": "Tooltip_EWBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HweiE_EWRankUp2",
+                  "type": "Tooltip_EWRootDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HweiE_EERankUp1",
+                  "type": "Tooltip_EEBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_HweiE_EERankUp2",
+                  "type": "Tooltip_EESlowAmount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiE_Name",
+            "keySummary": "Spell_HweiE_Summary",
+            "keyTooltip": "Spell_HweiE_Tooltip",
+            "keyTooltipExtended": "Spell_HweiE_TooltipExtended"
+          },
+          "mObjectName": "HweiE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesNotConsumeMana": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiE.dds"
+      ],
+      "mSpellCalculations": {
+        "Tooltip_EEDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_EEBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6499999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "Tooltip_EQDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_EQBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6499999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "Tooltip_EWDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_EWBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6499999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        70.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiEAbility/HweiEE": {
+    "ObjectName": "HweiEE",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_HweiEE_Name",
+          "keyTooltip": "Buff_HweiEE_Tooltip"
+        },
+        "mObjectName": "HweiEE",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiEE",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Delay",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Width",
+          "mValues": [
+            320.0,
+            320.0,
+            320.0,
+            320.0,
+            320.0,
+            320.0,
+            320.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Depth",
+          "mValues": [
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            32.5,
+            40.0,
+            47.5,
+            55.0,
+            62.5,
+            70.0,
+            77.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.5,
+        12.0,
+        11.5,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "delayTotalTimePercent": -1.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3E",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                740.0,
+                740.0,
+                740.0,
+                740.0,
+                740.0,
+                740.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "length": {
+              "mPerLevelValues": [
+                680.0,
+                680.0,
+                680.0,
+                680.0,
+                680.0,
+                680.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureWallOverrideName": "ASSETS/Spells/Textures/RectangleLine.tex",
+            "thickness": {
+              "mPerLevelValues": [
+                340.0,
+                340.0,
+                340.0,
+                340.0,
+                340.0,
+                340.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "wallRotation": 20.0,
+            "~class": "TargeterDefinitionWall"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "length": {
+              "mPerLevelValues": [
+                680.0,
+                680.0,
+                680.0,
+                680.0,
+                680.0,
+                680.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureWallOverrideName": "ASSETS/Spells/Textures/RectangleLine.tex",
+            "thickness": {
+              "mPerLevelValues": [
+                340.0,
+                340.0,
+                340.0,
+                340.0,
+                340.0,
+                340.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "wallRotation": -20.0,
+            "~class": "TargeterDefinitionWall"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                125.0,
+                125.0,
+                125.0,
+                125.0,
+                125.0,
+                125.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOrientation": 3,
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_HweiE_SlowAmount",
+                  "type": "SlowAmount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiEE_Name",
+            "keySummary": "Spell_HweiEE_Summary",
+            "keyTooltip": "Spell_HweiEE_Tooltip"
+          },
+          "mObjectName": "HweiEE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiEE.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6499999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        70.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiEAbility/HweiEEPull": {
+    "ObjectName": "HweiEEPull",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_HweiEE_Name",
+          "keyTooltip": "Buff_HweiEE_PullTooltip"
+        },
+        "mObjectName": "HweiEEPull",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiEEPull",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiEE.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiEAbility/HweiEQ": {
+    "ObjectName": "HweiEQ",
+    "mScriptName": "HweiEQ",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FleeDuration",
+          "mValues": [
+            0.875,
+            1.0,
+            1.125,
+            1.25,
+            1.375,
+            1.5,
+            1.625
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxSlow",
+          "mValues": [
+            99.0,
+            99.0,
+            99.0,
+            99.0,
+            99.0,
+            99.0,
+            99.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinSlow",
+          "mValues": [
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.5,
+        12.0,
+        11.5,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3Q",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Duration",
+                  "type": "FleeDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiEQ_Name",
+            "keySummary": "Spell_HweiEQ_Summary",
+            "keyTooltip": "Spell_HweiEQ_Tooltip"
+          },
+          "mObjectName": "HweiEQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiEQ.dds"
+      ],
+      "mMissileEffectKey": "Hwei_E_Q_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1300.0,
+          "mStartBoneName": "root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6499999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        70.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiEAbility/HweiEQFlee": {
+    "ObjectName": "HweiEQFlee",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_HweiEQ_Name",
+          "keyTooltip": "Buff_HweiEQ_Tooltip"
+        },
+        "mObjectName": "HweiEQFlee",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiEQFlee",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiEQ.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiEAbility/HweiEQSlow": {
+    "ObjectName": "HweiEQSlow",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiEQSlow",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiEQ.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiEAbility/HweiEW": {
+    "ObjectName": "HweiEW",
+    "mScriptName": "HweiEW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "StareRadius",
+          "mValues": [
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SetupDelay",
+          "mValues": [
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinSetupDelay",
+          "mValues": [
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RootDuration",
+          "mValues": [
+            1.0,
+            1.2000000476837158,
+            1.399999976158142,
+            1.600000023841858,
+            1.7999999523162842,
+            2.0,
+            2.200000047683716
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FireDelay",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StareDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinStareDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VisibilityRadius",
+          "mValues": [
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRadius": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "castRange": [
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.5,
+        12.0,
+        11.5,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3W",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                850.0,
+                850.0,
+                850.0,
+                850.0,
+                850.0,
+                850.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintPosLocator": {
+              "basePosition": 6,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                900.0,
+                900.0,
+                900.0,
+                900.0,
+                900.0,
+                900.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RootDuration",
+                  "type": "RootDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiEW_Name",
+            "keySummary": "Spell_HweiEW_Summary",
+            "keyTooltip": "Spell_HweiEW_Tooltip"
+          },
+          "mObjectName": "HweiEW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiEW.dds"
+      ],
+      "mMissileEffectKey": "Hwei_E_W_Eye",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "RenderParticlesAfterDestroy": false,
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 1700.0,
+          "mStartBoneName": "root",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "TrailTimeToConsiderForVisibility": 0.20000000298023224,
+          "mPerceptionBubbleRadius": 450.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6499999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        70.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiEAbility/HweiEWRoot": {
+    "ObjectName": "HweiEWRoot",
+    "mBuff": {
+      "mDescription": "Spell_HweiEW_Name",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_HweiEW_Name",
+          "keyTooltip": "Buff_HweiEW_Tooltip"
+        },
+        "mObjectName": "HweiEWRoot",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiEWRoot",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiEW.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiEAbility/HweiEWTriggerMissile": {
+    "ObjectName": "HweiEWTriggerMissile",
+    "mScriptName": "HweiEWTriggerMissile",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 6154,
+      "mCastType": 3,
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "0xb2d9029a"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiEW.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Hwei_E_W_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 30.0,
+        "movementComponent": {
+          "mAcceleration": 2100.0,
+          "mInitialSpeed": 1300.0,
+          "mMaxSpeed": 2100.0,
+          "mMinSpeed": 1300.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "root",
+          "mUseHeightOffsetAtEnd": true,
+          "mVisualsTrackHiddenTargets": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "TrailTimeToConsiderForVisibility": 0.20000000298023224,
+          "mPerceptionBubbleRadius": 450.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion",
+          "0xc02a7870",
+          "Monster",
+          "minion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellRevealsChampion": false,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiQAbility": {
+    "AbilityTraits": 258,
+    "mChildSpells": [
+      "Characters/Hwei/Spells/HweiQAbility/HweiQ",
+      "Characters/Hwei/Spells/HweiQAbility/HweiQE",
+      "Characters/Hwei/Spells/HweiQAbility/HweiQETell",
+      "Characters/Hwei/Spells/HweiQAbility/HweiQQ",
+      "Characters/Hwei/Spells/HweiQAbility/HweiQW",
+      "Characters/Hwei/Spells/HweiRAbility/HweiWashBrush",
+      "Characters/Hwei/Spells/HweiQAbility/HweiQELavaDPS",
+      "Characters/Hwei/Spells/HweiQAbility/HweiQESlow"
+    ],
+    "mName": "HweiQAbility",
+    "mRootSpell": "Characters/Hwei/Spells/HweiQAbility/HweiQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Hwei/Spells/HweiQAbility/HweiQ": {
+    "ObjectName": "HweiQ",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiQ",
+    "mSpell": {
+      "0x288b8edc": {
+        "0xda28e4c": [
+          62,
+          72,
+          245,
+          255
+        ],
+        "SpellObjects": [
+          "Characters/Hwei/Spells/HweiQAbility/HweiQQ",
+          "Characters/Hwei/Spells/HweiQAbility/HweiQW",
+          "Characters/Hwei/Spells/HweiQAbility/HweiQE",
+          "Characters/Hwei/Spells/HweiRAbility/HweiWashBrush"
+        ],
+        "~class": "0x6bbc3db6"
+      },
+      "DataValues": [
+        {
+          "mName": "Tooltip_QQBaseDamage",
+          "mValues": [
+            20.0,
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_QQBonusDamage",
+          "mValues": [
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_QWBaseDamage",
+          "mValues": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_QWBonusDamageMult",
+          "mValues": [
+            1.625,
+            2.0,
+            2.375,
+            2.75,
+            3.125,
+            3.5,
+            3.875
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_QEBaseDamage",
+          "mValues": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_QEBaseDPS",
+          "mValues": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell1_Act",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_HweiQ_QQRankUp1",
+                  "type": "Tooltip_QQBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_HweiQ_QQRankUp2",
+                  "type": "Tooltip_QQBonusDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HweiQ_QWRankUp1",
+                  "type": "Tooltip_QWBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_HweiQ_QWRankUp2",
+                  "type": "Tooltip_QWBonusDamageMult",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HweiQ_QERankUp1",
+                  "type": "Tooltip_QEBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HweiQ_QERankUp2",
+                  "type": "Tooltip_QEBaseDPS",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiQ_Name",
+            "keySummary": "Spell_HweiQ_Summary",
+            "keyTooltip": "Spell_HweiQ_Tooltip",
+            "keyTooltipExtended": "Spell_HweiQ_TooltipExtended"
+          },
+          "mObjectName": "HweiQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesNotConsumeCooldown": true,
+      "mDoesNotConsumeMana": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiQ.dds"
+      ],
+      "mSpellCalculations": {
+        "Tooltip_QEDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_QEBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.30000001192092896,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "Tooltip_QEDamagePerSecond": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_QEBaseDPS",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.20000000298023224,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "Tooltip_QQDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_QQBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.699999988079071,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "Tooltip_QWBonusDamage": {
+          "mModifiedGameCalculation": "Tooltip_QWDamage",
+          "mMultiplier": {
+            "mDataValue": "Tooltip_QWBonusDamageMult",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "Tooltip_QWDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_QWBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.25,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        120.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiQAbility/HweiQE": {
+    "ObjectName": "HweiQE",
+    "mScriptName": "HweiQE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDPS",
+          "mValues": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Duration",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Radius",
+          "mValues": [
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercent",
+          "mValues": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageDuration",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionDamageRatio",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "JungleDamageRatio",
+          "mValues": [
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "cooldownTime": [
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 150.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1E",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1250.0,
+                1250.0,
+                1250.0,
+                1250.0,
+                1250.0,
+                1250.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1250.0,
+                1250.0,
+                1250.0,
+                1250.0,
+                1250.0,
+                1250.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_ExplosionDamage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_DamagePerSecond",
+                  "type": "BaseDPS",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiQE_Name",
+            "keySummary": "Spell_HweiQE_Summary",
+            "keyTooltip": "Spell_HweiQE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_HweiQE_TooltipExtendedBL"
+          },
+          "mObjectName": "HweiQE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiQE.dds"
+      ],
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 90.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 800.0,
+          "mStartBoneName": "C_buffbone_Glb_Center_Loc",
+          "mTargetBoneName": "C_buffbone_Glb_Center_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "0xa8f705ac": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 30.0,
+              "mScalePastDefaultMaxLevel": false,
+              "mStartValue": 15.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.30000001192092896,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "DamagePerSecond": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDPS",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.20000000298023224,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mana": [
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        120.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiQAbility/HweiQELavaDPS": {
+    "ObjectName": "HweiQELavaDPS",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_HweiQE_Name",
+          "keyTooltip": "Buff_HweiQE_Tooltip"
+        },
+        "mObjectName": "HweiQELavaDPS",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiQELavaDPS",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiQE.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiQAbility/HweiQESlow": {
+    "ObjectName": "HweiQESlow",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiQESlow",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiQE.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiQAbility/HweiQETell": {
+    "ObjectName": "HweiQETell",
+    "mScriptName": "HweiQETell",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mCastType": 3,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiQE.dds"
+      ],
+      "mMissileEffectKey": "Hwei_Q_E_Tell_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 90.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiQAbility/HweiQQ": {
+    "ObjectName": "HweiQQ",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_HweiQQ_Name"
+        },
+        "mObjectName": "HweiQQ",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiQQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            20.0,
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Radius",
+          "mValues": [
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusDamage",
+          "mValues": [
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxBonusDamage",
+          "mValues": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRadiusSecondary": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1Q",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                885.0,
+                885.0,
+                885.0,
+                885.0,
+                885.0,
+                885.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "distanceOffset": 90.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                210.0,
+                210.0,
+                210.0,
+                210.0,
+                210.0,
+                210.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOrientation": 1,
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_MaxHealthDamage",
+                  "type": "BonusDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiQQ_Name",
+            "keySummary": "Spell_HweiQQ_Summary",
+            "keyTooltip": "Spell_HweiQQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_HweiQQ_ExtendedBelowLine"
+          },
+          "mObjectName": "HweiQQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiQQ.dds"
+      ],
+      "mMissileEffectKey": "Hwei_Q_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnHit"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.699999988079071,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        120.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiQAbility/HweiQW": {
+    "ObjectName": "HweiQW",
+    "mScriptName": "HweiQW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Delay",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionDamageMod",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Radius",
+          "mValues": [
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusDamageMult",
+          "mValues": [
+            1.625,
+            2.0,
+            2.375,
+            2.75,
+            3.125,
+            3.5,
+            3.875
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRadiusSecondary": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRange": [
+        1900.0,
+        1900.0,
+        1900.0,
+        1900.0,
+        1900.0,
+        1900.0,
+        1900.0
+      ],
+      "cooldownTime": [
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayTotalTimePercent": -1.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1W",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                225.0,
+                225.0,
+                225.0,
+                225.0,
+                225.0,
+                225.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MaximumBonusDamage",
+                  "type": "BonusDamageMult",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiQW_Name",
+            "keySummary": "Spell_HweiQW_Summary",
+            "keyTooltip": "Spell_HweiQW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_HweiQW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "HweiQW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiQW.dds"
+      ],
+      "mSpellCalculations": {
+        "BonusDamage": {
+          "mModifiedGameCalculation": "Damage",
+          "mMultiplier": {
+            "mDataValue": "BonusDamageMult",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.25,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.3499999940395355,
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mUseMinimapTargeting": true,
+      "mana": [
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        120.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiRAbility": {
+    "AbilityTraits": 2,
+    "mChildSpells": [
+      "Characters/Hwei/Spells/HweiRAbility/HweiR",
+      "Characters/Hwei/Spells/HweiRAbility/HweiWashBrush",
+      "Characters/Hwei/Spells/HweiRAbility/HweiRDespair",
+      "Characters/Hwei/Spells/HweiRAbility/HweiRDespairSlow"
+    ],
+    "mName": "HweiRAbility",
+    "mRootSpell": "Characters/Hwei/Spells/HweiRAbility/HweiR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Hwei/Spells/HweiRAbility/HweiR": {
+    "ObjectName": "HweiR",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_HweiR_Name",
+          "keyTooltip": "Buff_HweiR_Tooltip"
+        },
+        "mObjectName": "HweiR",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "RBaseDamage",
+          "mValues": [
+            75.0,
+            200.0,
+            325.0,
+            450.0,
+            575.0,
+            700.0,
+            825.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Duration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamageOverTime",
+          "mValues": [
+            0.0,
+            10.0,
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercentPerStack",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxDamageHelper",
+          "mValues": [
+            100.0,
+            230.0,
+            360.0,
+            490.0,
+            620.0,
+            750.0,
+            880.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRadius": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "castRadiusSecondary": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0
+      ],
+      "castRangeDisplayOverride": [
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0
+      ],
+      "cooldownTime": [
+        140.0,
+        140.0,
+        115.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "delayCastOffsetPercent": -0.25,
+      "mAffectsTypeFlags": 2,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "RBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_DamagePerSecond",
+                  "type": "BaseDamageOverTime",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiR_Name",
+            "keySummary": "Spell_HweiR_Summary",
+            "keyTooltip": "Spell_HweiR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_HweiR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "HweiR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mIgnoreAnimContinueUntilCastFrame": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiR.dds"
+      ],
+      "mMissileEffectKey": "Hwei_R_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnHit"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 90.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1400.0,
+          "mStartBoneName": "root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "TrailTimeToConsiderForVisibility": 0.5,
+          "mPerceptionBubbleRadius": 200.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mNoWinddownIfCancelled": true,
+      "mPostCastLockoutDeltaTime": 0.375,
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "RBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.800000011920929,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "DamageOverTime": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageOverTime",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.05000000074505806,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalMaxDamage": {
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mDataValue": "RBaseDamage",
+                  "~class": "NamedDataValueCalculationPart"
+                },
+                {
+                  "mPart1": {
+                    "mDataValue": "BaseDamageOverTime",
+                    "~class": "NamedDataValueCalculationPart"
+                  },
+                  "mPart2": {
+                    "mDataValue": "duration",
+                    "~class": "NamedDataValueCalculationPart"
+                  },
+                  "~class": "ProductOfSubPartsCalculationPart"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            },
+            {
+              "mCoefficient": 0.949999988079071,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiRAbility/HweiRDespair": {
+    "ObjectName": "HweiRDespair",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiRDespair",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiR.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiRAbility/HweiRDespairSlow": {
+    "ObjectName": "HweiRDespairSlow",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_HweiR_SlowName",
+          "keyTooltip": "Buff_HweiR_SlowTooltip"
+        },
+        "mObjectName": "HweiRDespairSlow",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiRDespairSlow",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiR.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiRAbility/HweiWashBrush": {
+    "ObjectName": "HweiWashBrush",
+    "mScriptName": "HweiWashBrush",
+    "mSpell": {
+      "0x288b8edc": {
+        "~class": "0xf00f3333"
+      },
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 36,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell_WashBrush",
+      "mClientData": {
+        "mTooltipData": {
+          "EnableExtendedTooltip": false,
+          "mFormat": "0xd7c27163",
+          "mLocKeys": {
+            "keyCooldown": "",
+            "keyCost": "",
+            "keyName": "Spell_HweiWashBrush_Name",
+            "keySummary": "Spell_HweiWashBrush_Summary",
+            "keyTooltip": "Spell_HweiWashBrush_Tooltip"
+          },
+          "mObjectName": "HweiWashBrush",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiWashBrush.dds"
+      ],
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiWAbility": {
+    "AbilityTraits": 32776,
+    "mChildSpells": [
+      "Characters/Hwei/Spells/HweiWAbility/HweiW",
+      "Characters/Hwei/Spells/HweiWAbility/HweiWE",
+      "Characters/Hwei/Spells/HweiWAbility/HweiWQ",
+      "Characters/Hwei/Spells/HweiWAbility/HweiWW",
+      "Characters/Hwei/Spells/HweiRAbility/HweiWashBrush",
+      "Characters/Hwei/Spells/HweiWAbility/HweiWEFoxfireMis",
+      "Characters/Hwei/Spells/HweiWAbility/HweiWQMoveSpeed",
+      "Characters/Hwei/Spells/HweiWAbility/HweiWEBuffCounter",
+      "Characters/Hwei/Spells/HweiWAbility/HweiWWShield"
+    ],
+    "mName": "HweiWAbility",
+    "mRootSpell": "Characters/Hwei/Spells/HweiWAbility/HweiW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Hwei/Spells/HweiWAbility/HweiW": {
+    "ObjectName": "HweiW",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiW",
+    "mSpell": {
+      "0x288b8edc": {
+        "0xda28e4c": [
+          193,
+          158,
+          61,
+          255
+        ],
+        "SpellObjects": [
+          "Characters/Hwei/Spells/HweiWAbility/HweiWQ",
+          "Characters/Hwei/Spells/HweiWAbility/HweiWW",
+          "Characters/Hwei/Spells/HweiWAbility/HweiWE",
+          "Characters/Hwei/Spells/HweiRAbility/HweiWashBrush"
+        ],
+        "~class": "0x6bbc3db6"
+      },
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "Tooltip_WQBaseMoveSpeed",
+          "mValues": [
+            27.5,
+            30.0,
+            32.5,
+            35.0,
+            37.5,
+            40.0,
+            42.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_WQAreaDuration",
+          "mValues": [
+            3.5,
+            4.0,
+            4.5,
+            5.0,
+            5.5,
+            6.0,
+            6.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_WWShieldAmountBase",
+          "mValues": [
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0,
+            200.0,
+            225.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_WEBaseOnHitDamage",
+          "mValues": [
+            10.0,
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0,
+            70.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Tooltip_WEOnHitManaRestore",
+          "mValues": [
+            40.0,
+            45.0,
+            50.0,
+            55.0,
+            60.0,
+            65.0,
+            70.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        18.0,
+        18.0,
+        17.5,
+        17.0,
+        16.5,
+        16.0,
+        16.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell2_Act",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_HweiW_WQRankUp1",
+                  "type": "Tooltip_WQBaseMoveSpeed",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HweiW_WQRankUp2",
+                  "type": "Tooltip_WQAreaDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HweiW_WWRankUp1",
+                  "type": "Tooltip_WWShieldAmountBase",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_HweiW_WERankUp1",
+                  "type": "Tooltip_WEBaseOnHitDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "multiplier": 3.0,
+                  "nameOverride": "Spell_HweiW_WERankUp2",
+                  "type": "Tooltip_WEOnHitManaRestore",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiW_Name",
+            "keySummary": "Spell_HweiW_Summary",
+            "keyTooltip": "Spell_HweiW_Tooltip",
+            "keyTooltipExtended": "Spell_HweiW_TooltipExtended"
+          },
+          "mObjectName": "HweiW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesNotConsumeMana": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiW.dds"
+      ],
+      "mSpellCalculations": {
+        "Tooltip_WEOnHitDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_WEBaseOnHitDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.15000000596046448,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "Tooltip_WQMoveSpeed": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_WQBaseMoveSpeed",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.029999999329447746,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mNumber": 0.009999999776482582,
+            "~class": "NumberCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "Tooltip_WWShieldAmount": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_WWShieldAmountBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6000000238418579,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "Tooltip_WWStartShieldAmount": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Tooltip_WWShieldAmountBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6000000238418579,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mNumber": 0.5,
+            "~class": "NumberCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        90.0,
+        95.0,
+        100.0,
+        105.0,
+        110.0,
+        110.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiWAbility/HweiWE": {
+    "ObjectName": "HweiWE",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiWE",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseOnHitDamage",
+          "mValues": [
+            10.0,
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0,
+            70.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Duration",
+          "mValues": [
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "OnHitManaRestore",
+          "mValues": [
+            40.0,
+            45.0,
+            50.0,
+            55.0,
+            60.0,
+            65.0,
+            70.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ManaCostHelper",
+          "mValues": [
+            -85.0,
+            -90.0,
+            -95.0,
+            -100.0,
+            -105.0,
+            -110.0,
+            -115.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        18.0,
+        18.0,
+        17.5,
+        17.0,
+        16.5,
+        16.0,
+        16.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 8194,
+      "mAnimationName": "Spell2E",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseOnHitDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "multiplier": 3.0,
+                  "nameOverride": "Spell_ListType_TotalManaRestore",
+                  "type": "OnHitManaRestore",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiWE_Name",
+            "keySummary": "Spell_HweiWE_Summary",
+            "keyTooltip": "Spell_HweiWE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_HweiWE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "HweiWE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiWE.dds"
+      ],
+      "mSpellCalculations": {
+        "0xa14e3318": {
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mDataValue": "OnHitManaRestore",
+                  "~class": "NamedDataValueCalculationPart"
+                },
+                {
+                  "mNumber": 3.0,
+                  "~class": "NumberCalculationPart"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "OnHitDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseOnHitDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.15000000596046448,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalOnHitDamage": {
+          "mModifiedGameCalculation": "OnHitDamage",
+          "mMultiplier": {
+            "mNumber": 3.0,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mUseMinimapTargeting": true,
+      "mana": [
+        90.0,
+        95.0,
+        100.0,
+        105.0,
+        110.0,
+        110.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiWAbility/HweiWEBuffCounter": {
+    "ObjectName": "HweiWEBuffCounter",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_HweiWE_Name",
+          "keyTooltip": "Buff_HweiWE_Tooltip"
+        },
+        "mObjectName": "HweiWEBuffCounter",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiWEBuffCounter",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiWE.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiWAbility/HweiWEFoxfireMis": {
+    "ObjectName": "HweiWEFoxfireMis",
+    "mScriptName": "HweiWEFoxfireMis",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "luaOnMissileUpdateDistanceInterval": 75.0,
+      "mAffectsTypeFlags": 1,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 4,
+      "mCoefficient": 0.699999988079071,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiWE.dds"
+      ],
+      "mMissileEffectKey": "Hwei_W_E_Foxfire_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mAngularVelocity": -1.8550000190734863,
+          "mLifetime": 9.5,
+          "mLinearVelocity": 600.0,
+          "mStartBoneName": "chest",
+          "~class": "CircleMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mTargetControlsVisibility": true,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 900.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiWAbility/HweiWQ": {
+    "ObjectName": "HweiWQ",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiWQ",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseMoveSpeed",
+          "mValues": [
+            27.5,
+            30.0,
+            32.5,
+            35.0,
+            37.5,
+            40.0,
+            42.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Duration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AreaWidth",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AreaDuration",
+          "mValues": [
+            3.5,
+            4.0,
+            4.5,
+            5.0,
+            5.5,
+            6.0,
+            6.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "cooldownTime": [
+        18.0,
+        18.0,
+        17.5,
+        17.0,
+        16.5,
+        16.0,
+        16.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 100.0,
+      "mAffectsTypeFlags": 1025,
+      "mAnimationName": "Spell2Q",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                145.0,
+                145.0,
+                145.0,
+                145.0,
+                145.0,
+                145.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1375.0,
+                1375.0,
+                1375.0,
+                1375.0,
+                1375.0,
+                1375.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1375.0,
+                1375.0,
+                1375.0,
+                1375.0,
+                1375.0,
+                1375.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "BaseMoveSpeed",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Duration",
+                  "type": "AreaDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiWQ_Name",
+            "keySummary": "Spell_HweiWQ_Summary",
+            "keyTooltip": "Spell_HweiWQ_Tooltip"
+          },
+          "mObjectName": "HweiWQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiWQ.dds"
+      ],
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 50.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 145.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1700.0,
+          "mStartBoneName": "root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "MoveSpeed": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseMoveSpeed",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.029999999329447746,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mNumber": 0.009999999776482582,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mana": [
+        90.0,
+        95.0,
+        100.0,
+        105.0,
+        110.0,
+        110.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiWAbility/HweiWQMoveSpeed": {
+    "ObjectName": "HweiWQMoveSpeed",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_HweiWQ_Name",
+          "keyTooltip": "Buff_HweiWQMoveSpeed_Tooltip"
+        },
+        "mObjectName": "HweiWQMoveSpeed",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiWQMoveSpeed",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiWQ.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiWAbility/HweiWW": {
+    "ObjectName": "HweiWW",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiWW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "AreaDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldAmountBase",
+          "mValues": [
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0,
+            200.0,
+            225.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldAPRatio",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SecsToFullStack",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ZoneRadius",
+          "mValues": [
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AllyMod",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ToolTipAllyMod",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRadius": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        18.0,
+        18.0,
+        17.5,
+        17.0,
+        16.5,
+        16.0,
+        16.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 8193,
+      "mAnimationName": "Spell2W",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.30000001192092896,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                650.0,
+                650.0,
+                650.0,
+                650.0,
+                650.0,
+                650.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Shield",
+                  "type": "ShieldAmountBase",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_HweiWW_Name",
+            "keySummary": "Spell_HweiWW_Summary",
+            "keyTooltip": "Spell_HweiWW_Tooltip"
+          },
+          "mObjectName": "HweiWW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiWW.dds"
+      ],
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 8000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mSpeed": 0.5,
+          "mStartBoneName": "R_buffbone_Glb_Foot_Loc",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "0x20a3d822": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ShieldAmountBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ShieldAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mNumber": 0.5,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculation"
+        },
+        "ShieldAmount": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ShieldAmountBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ShieldAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        90.0,
+        95.0,
+        100.0,
+        105.0,
+        110.0,
+        110.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Hwei/Spells/HweiWAbility/HweiWWShield": {
+    "ObjectName": "HweiWWShield",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_HweiWW_Name",
+          "keyTooltip": "Buff_HweiWW_Tooltip"
+        },
+        "mObjectName": "HweiWWShield",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "HweiWWShield",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Hwei/HUD/Icons2D/HweiWW.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

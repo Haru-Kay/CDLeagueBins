@@ -1,0 +1,390 @@
+{
+  "Characters/KindredWolf/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Characters/KindredWolf/Spells/LuluDummySpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 800.0,
+    "armorPerLevel": 3.5,
+    "attackRange": 200.0,
+    "attackSpeed": 0.5580000281333923,
+    "attackSpeedPerLevel": 2.700000047683716,
+    "attackSpeedRatio": 0.5580000281333923,
+    "baseArmor": 13.0,
+    "baseDamage": 24.0,
+    "baseHP": 300.0,
+    "baseMoveSpeed": 275.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 0.949999988079071,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.12456139922142029,
+      "mAttackDelayCastOffsetPercentAttackSpeedRatio": 0.75,
+      "mAttackProbability": 1.0,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 3.0,
+      "description": "game_character_displayname_KindredWolf",
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.12456139922142029,
+        "mAttackDelayCastOffsetPercentAttackSpeedRatio": 0.75,
+        "mAttackName": "KindredWolfBasicAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 1.5,
+    "extraSpells": [
+      "BaseSpell",
+      "LuluDummySpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8397056,
+    "hpPerLevel": 80.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mCharacterName": "KindredWolf",
+    "mFallbackCharacterName": "Kindred",
+    "name": "game_character_displayname_KindredWolf",
+    "pathfindingCollisionRadius": 0.0,
+    "primaryAbilityResource": {
+      "arBase": 255.0,
+      "arBaseStaticRegen": 1.2999999523162842,
+      "arPerLevel": 35.0,
+      "arRegenPerLevel": 0.10999999940395355,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 0.0,
+    "selectionRadius": 0.0,
+    "~class": "CharacterRecord"
+  },
+  "Characters/KindredWolf/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/KindredWolf/Spells/KindredWolfBasicAttack": {
+    "ObjectName": "KindredWolfBasicAttack",
+    "mScriptName": "KindredWolfBasicAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredWolfBasicAttack_OnCast\n",
+        "13": "Play_sfx_Kindred_KindredWolfBasicAttack_OnHit\n"
+      },
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 5.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "w_attacks",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/KindredWolf/Spells/LuluDummySpell": {
+    "ObjectName": "LuluDummySpell",
+    "mScriptName": "LuluDummySpell",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 2,
+      "mAlternateName": "LuluQ",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                925.0,
+                925.0,
+                925.0,
+                925.0,
+                925.0,
+                925.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "basePosition": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.75,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            80.0,
+            135.0,
+            190.0,
+            245.0,
+            300.0,
+            355.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            40.0,
+            50.0,
+            60.0,
+            70.0,
+            80.0,
+            90.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            25.0,
+            40.0,
+            55.0,
+            70.0,
+            85.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mLineWidth": 80.0,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0
+      ],
+      "missileSpeed": 1400.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

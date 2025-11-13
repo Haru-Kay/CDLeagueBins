@@ -1,0 +1,4769 @@
+{
+  "0x17c5c037": {
+    "catalogEntry": {
+      "contentId": "d994bf70-605e-4ab4-8fcf-53638db0952b",
+      "itemID": 66600156,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x4b99f902",
+      "0x33aebe2b",
+      "0xc2f925ca"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x33aebe2b": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "f2d3772e-19df-4462-90d5-774348e281f0",
+      "itemID": 125406,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "RekSaiTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x36cd608e": {
+    "ObjectName": "RekSaiRWrapper",
+    "mScriptName": "RekSaiRWrapper",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "TravelDistancePercent",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExtraDistance",
+          "mValues": [
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LeapMovementSpeed",
+          "mValues": [
+            1400.0,
+            1400.0,
+            1400.0,
+            1400.0,
+            1400.0,
+            1400.0,
+            1400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VODistance",
+          "mValues": [
+            4000.0,
+            4000.0,
+            4000.0,
+            4000.0,
+            4000.0,
+            4000.0,
+            4000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageCheckRadius",
+          "mValues": [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PreyMarkDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RBaseDamage",
+          "mValues": [
+            0.0,
+            150.0,
+            300.0,
+            450.0,
+            600.0,
+            750.0,
+            900.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentMissingHealthDamage",
+          "mValues": [
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CastBuffDuration",
+          "mValues": [
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castRadius": [
+        0.0,
+        300.0,
+        300.0,
+        300.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        100.0,
+        100.0,
+        90.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "delayCastOffsetPercent": -0.9980000257492065,
+      "delayTotalTimePercent": -0.9994999766349792,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 4106,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastRequirementsCaster": [
+        {
+          "mRange": 1500.0,
+          "mUnitsRequired": 1,
+          "mUnitsRequirements": [
+            {
+              "mBuffName": "0xb8f8d06",
+              "mFromAnyone": true,
+              "~class": "HasBuffCastRequirement"
+            }
+          ],
+          "~class": "HasNNearbyVisibleUnitsRequirement"
+        }
+      ],
+      "mCastRequirementsTarget": [
+        {
+          "mBuffName": "0xb8f8d06",
+          "mFromAnyone": true,
+          "~class": "HasBuffCastRequirement"
+        }
+      ],
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "RBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_PercentMissingHealthDamage",
+                  "type": "PercentMissingHealthDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_RekSaiR_Cost",
+            "keyName": "Spell_RekSaiR_Name",
+            "keySummary": "Spell_RekSaiRWrapper_Summary",
+            "keyTooltip": "Spell_RekSaiR_Tooltip"
+          },
+          "mObjectName": "RekSaiRWrapper",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_R.dds"
+      ],
+      "mPingableWhileDisabled": true,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "RBaseDamageCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "RBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_MoveBlock"
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x37f2e9d8": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5000,
+      13000,
+      26000,
+      31000,
+      39000,
+      16000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "47139ec8-c187-43ca-ac4f-60892de95d4d",
+      "itemID": 126178,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_RekSaiEDamage",
+    "mNameTraKey": "stat_stone_name_RekSaiEDamage",
+    "stoneName": "RekSaiEDamage",
+    "~class": "StatStoneData"
+  },
+  "0x3e616bcb": {
+    "ObjectName": "RekSaiRPrey",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiRPrey",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiRPrey",
+    "~class": "SpellObject"
+  },
+  "0x443e1846": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x4b99f902": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "7bc1bb13-e930-4cba-961e-c43dcebed058",
+      "itemID": 125405,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "RekSaiEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x674a5947": {
+    "catalogEntry": {
+      "contentId": "8f577814-cf79-4c7d-9c4f-95ce7de78480",
+      "itemID": 66600092,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xa00a5e3a",
+      "0xa20b71ff",
+      "0xcb724af3"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x684a5ada": {
+    "catalogEntry": {
+      "contentId": "3821a299-01de-4790-862d-1d4289804305",
+      "itemID": 66600464,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x37f2e9d8",
+      "0xd51f77ed",
+      "0xcd7cfa7e"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x6a816c9f": {
+    "ObjectName": "RekSaiR2",
+    "mScriptName": "RekSaiR2",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "castFrame": 3.5,
+      "castRadius": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        110.0,
+        100.0,
+        90.0,
+        80.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 15567,
+      "mAnimationName": "Idle1",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "0x36cd608e",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.30000001192092896,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            50.0,
+            100.0,
+            150.0,
+            0.0,
+            0.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.5,
+            2.0,
+            2.5,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            425.0,
+            425.0,
+            425.0,
+            425.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitEffectName": "CrypticGaze_tar.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_R.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xa00a5e3a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      10,
+      20,
+      25,
+      30,
+      10
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "0db67036-f2f6-4292-a042-9273f77581e4",
+      "itemID": 3162,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_RekSaiRKills",
+    "mNameTraKey": "stat_stone_name_RekSaiRKills",
+    "stoneName": "RekSaiRKills",
+    "~class": "StatStoneData"
+  },
+  "0xa20b71ff": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      75,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f2e46cf6-2fc6-4ef4-ac00-29d532cc7abc",
+      "itemID": 189,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_RekSaiLongRangeQ",
+    "mNameTraKey": "stat_stone_name_RekSaiLongRangeQ",
+    "stoneName": "RekSaiLongRangeQ",
+    "~class": "StatStoneData"
+  },
+  "0xc2f925ca": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "ba301d2f-1d17-48e1-ae87-b01738bd1172",
+      "itemID": 125407,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "RekSaiStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xcb724af3": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      55,
+      100,
+      125,
+      175,
+      65
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "8d26eb96-3197-4b76-a13c-545f199e73ee",
+      "itemID": 190,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_RekSaiETaken",
+    "mNameTraKey": "stat_stone_name_RekSaiETaken",
+    "stoneName": "RekSaiETaken",
+    "~class": "StatStoneData"
+  },
+  "0xcd7cfa7e": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      175,
+      425,
+      850,
+      1000,
+      1500,
+      500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "51bbe7ec-4e85-4c7f-add3-f7dc5d81991b",
+      "itemID": 126176,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_RekSaiWPSenses",
+    "mNameTraKey": "stat_stone_name_RekSaiWPSenses",
+    "stoneName": "RekSaiWPSenses",
+    "~class": "StatStoneData"
+  },
+  "0xd00ab09c": {
+    "ObjectName": "RekSaiRSpellPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiRPrey",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiRSpellPassive",
+    "~class": "SpellObject"
+  },
+  "0xd51f77ed": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      35,
+      85,
+      175,
+      200,
+      250,
+      100
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "56312798-bfc2-4f39-94cf-ee0aeadbe80f",
+      "itemID": 126177,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_RekSaiWDisplacements",
+    "mNameTraKey": "stat_stone_name_RekSaiWDisplacements",
+    "stoneName": "RekSaiWDisplacements",
+    "~class": "StatStoneData"
+  },
+  "Characters/RekSai/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowedMis",
+      "Shared/Spells/BaseSpell",
+      "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQAttack",
+      "Characters/RekSai/Spells/RekSaiRAbility/RekSaiR",
+      "Shared/Spells/BaseSpell",
+      "Characters/RekSai/Spells/RekSaiWAbility/RekSaiWAttack",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Characters/RekSai/Spells/RekSaiEBurrowedAbility/RekSaiEBurrowed",
+      "Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowed",
+      "Characters/RekSai/Spells/RekSaiWBurrowedAbility/RekSaiWBurrowed",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 4.5,
+    "attackRange": 175.0,
+    "attackSpeed": 0.6669999957084656,
+    "attackSpeedPerLevel": 2.0,
+    "attackSpeedRatio": 0.6669999957084656,
+    "baseArmor": 35.0,
+    "baseDamage": 62.0,
+    "baseHP": 600.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 0.5,
+    "basicAttack": {
+      "mAttackCastTime": 0.30000001192092896,
+      "mAttackDelayCastOffsetPercentAttackSpeedRatio": 0.6000000238418579,
+      "mAttackProbability": 0.16666699945926666,
+      "mAttackTotalTime": 1.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "PARFadeColor": "175 0 0",
+      "attackRank": 8,
+      "championId": 421,
+      "defenseRank": 5,
+      "description": "game_character_description_RekSai",
+      "difficultyRank": 3,
+      "magicRank": 2,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_RekSai",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "tank",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.30000001192092896,
+        "mAttackDelayCastOffsetPercentAttackSpeedRatio": 0.6000000238418579,
+        "mAttackName": "RekSaiCritAttack",
+        "mAttackTotalTime": 1.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "RekSaiBasicAttack2",
+        "mAttackProbability": 0.16666699945926666,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "RekSaiBasicAttack3",
+        "mAttackProbability": 0.16666699945926666,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "RekSaiBasicAttack4",
+        "mAttackProbability": 0.16666699945926666,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "RekSaiBasicAttack5",
+        "mAttackProbability": 0.16666699945926666,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "RekSaiBasicAttack6",
+        "mAttackProbability": 0.16666699945926666,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "RekSaiQBurrowedMis",
+      "BaseSpell",
+      "RekSaiQAttack",
+      "RekSaiR",
+      "BaseSpell",
+      "RekSaiWAttack",
+      "BaseSpell",
+      "BaseSpell",
+      "RekSaiEBurrowed",
+      "RekSaiQBurrowed",
+      "RekSaiWBurrowed",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "hpPerLevel": 99.0,
+    "hpRegenPerLevel": 0.10000000149011612,
+    "mAbilities": [
+      "Characters/RekSai/Spells/RekSaiQAbility",
+      "Characters/RekSai/Spells/RekSaiWAbility",
+      "Characters/RekSai/Spells/RekSaiEAbility",
+      "Characters/RekSai/Spells/RekSaiRAbility",
+      "Characters/RekSai/Spells/RekSaiPassiveAbility",
+      "Characters/RekSai/Spells/RekSaiQBurrowedAbility",
+      "Characters/RekSai/Spells/RekSaiEBurrowedAbility",
+      "Characters/RekSai/Spells/RekSaiWBurrowedAbility"
+    ],
+    "mCharacterName": "RekSai",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/RekSai/Spells/RekSaiInCombat",
+          "Characters/RekSai/Spells/RekSaiRunCycleManager",
+          "Characters/RekSai/Spells/RekSaiJetSkiManager"
+        ],
+        "mParentPassiveBuff": "Characters/RekSai/Spells/RekSaiPassiveAbility/RekSaiPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Characters/RekSai/Spells/RekSaiRunCycleManager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/RekSai/Spells/RekSaiPassiveAbility/RekSaiPassive",
+    "mEducationToolData": {
+      "firstItem": 1054,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NullifyingOrb",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Precision/PresenceOfMind",
+          "mReplaceWith": "Perks/Styles/Precision/Triumph",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Resolve",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_RekSai",
+    "passive1IconName": "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_Passive.dds",
+    "passiveLuaName": "RekSaiPassive",
+    "passiveName": "",
+    "passiveSpell": "RekSaiPassive",
+    "passiveToolTip": "",
+    "pathfindingCollisionRadius": 30.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arType": 8,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 122.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "RekSaiQAbility/RekSaiQ",
+      "RekSaiWAbility/RekSaiW",
+      "RekSaiEAbility/RekSaiE",
+      "RekSaiRAbility/RekSaiR"
+    ],
+    "spells": [
+      "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQ",
+      "Characters/RekSai/Spells/RekSaiWAbility/RekSaiW",
+      "Characters/RekSai/Spells/RekSaiEAbility/RekSaiE",
+      "Characters/RekSai/Spells/RekSaiRAbility/RekSaiR"
+    ],
+    "unitTagsString": "Champion | Special_Void",
+    "~class": "CharacterRecord"
+  },
+  "Characters/RekSai/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/RekSai/Spells/RekSaiBasicAttack": {
+    "ObjectName": "RekSaiBasicAttack",
+    "mScriptName": "RekSaiBasicAttack",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixBasicAttack",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiBasicAttack2": {
+    "ObjectName": "RekSaiBasicAttack2",
+    "mScriptName": "RekSaiBasicAttack2",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiBasicAttack3": {
+    "ObjectName": "RekSaiBasicAttack3",
+    "mScriptName": "RekSaiBasicAttack3",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixBasicAttack",
+      "mAnimationName": "Attack3",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiBasicAttack4": {
+    "ObjectName": "RekSaiBasicAttack4",
+    "mScriptName": "RekSaiBasicAttack4",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixBasicAttack",
+      "mAnimationName": "Attack4",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiBasicAttack5": {
+    "ObjectName": "RekSaiBasicAttack5",
+    "mScriptName": "RekSaiBasicAttack5",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixBasicAttack",
+      "mAnimationName": "Attack5",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiBasicAttack6": {
+    "ObjectName": "RekSaiBasicAttack6",
+    "mScriptName": "RekSaiBasicAttack6",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixBasicAttack",
+      "mAnimationName": "Attack6",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiCritAttack": {
+    "ObjectName": "RekSaiCritAttack",
+    "mScriptName": "RekSaiCritAttack",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixCritAttack",
+      "mAnimationName": "Crit",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiEAbility": {
+    "mChildSpells": [
+      "Characters/RekSai/Spells/RekSaiEAbility/RekSaiE",
+      "Characters/RekSai/Spells/RekSaiEAbility/RekSaiECooldown",
+      "Characters/RekSai/Spells/RekSaiEAbility/RekSaiEReady",
+      "Characters/RekSai/Spells/RekSaiEAbility/RekSaiESpellPassive"
+    ],
+    "mName": "RekSaiEAbility",
+    "mRootSpell": "Characters/RekSai/Spells/RekSaiEAbility/RekSaiE",
+    "~class": "AbilityObject"
+  },
+  "Characters/RekSai/Spells/RekSaiEAbility/RekSaiE": {
+    "ObjectName": "RekSaiE",
+    "mScriptName": "RekSaiE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "EmpoweredBaseDamage",
+          "mValues": [
+            65.0,
+            100.0,
+            135.0,
+            170.0,
+            205.0,
+            240.0,
+            275.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EmpoweredADRatio",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "UnempoweredModifier",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "_____BURROWED_DATA_____",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashDistance",
+          "mValues": [
+            850.0,
+            850.0,
+            850.0,
+            850.0,
+            850.0,
+            850.0,
+            850.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinimumRange",
+          "mValues": [
+            850.0,
+            850.0,
+            850.0,
+            850.0,
+            850.0,
+            850.0,
+            850.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeedBase",
+          "mValues": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeedMod",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaximumTunnels",
+          "mValues": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TunnelDurationMinutes",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TunnelReuseCooldown",
+          "mValues": [
+            7.0,
+            6.0,
+            5.0,
+            4.0,
+            3.0,
+            2.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashCooldown",
+          "mValues": [
+            19.0,
+            18.0,
+            17.0,
+            16.0,
+            15.0,
+            14.0,
+            13.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TunnelTimeRatio",
+          "mValues": [
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRangeDisplayOverride": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "RekSaiE",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "multiplier": 0.800000011920929,
+                  "nameOverride": "Spell_ListType_BaseDamage",
+                  "type": "EmpoweredBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_EmpoweredDamage",
+                  "type": "EmpoweredBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RekSaiEBurrowedCastCooldown",
+                  "type": "DashCooldown",
+                  "typeIndex": 9,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RekSaiEBurrowedUseCooldown",
+                  "type": "TunnelReuseCooldown",
+                  "typeIndex": 8,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RekSaiE_Name",
+            "keySummary": "Spell_RekSaiE_Summary",
+            "keyTooltip": "Spell_RekSaiE_Tooltip",
+            "keyTooltipExtended": "Spell_RekSaiE_TooltipExtended"
+          },
+          "mObjectName": "RekSaiE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mHitEffectName": "CrypticGaze_tar.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_E1.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mProjectTargetToCastRange": true,
+      "mSpellCalculations": {
+        "0x438d87f9": {
+          "mModifiedGameCalculation": "DashSpeed",
+          "mMultiplier": {
+            "mDataValue": "TunnelTimeRatio",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "0x9db1c8": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "TunnelDurationMinutes",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mNumber": 60.0,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculation"
+        },
+        "DashSpeed": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "DashSpeedBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "DashSpeedMod",
+              "mStat": 7,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "EmpoweredDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "EmpoweredBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "EmpoweredADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "baseDamage": {
+          "mModifiedGameCalculation": "EmpoweredDamage",
+          "mMultiplier": {
+            "mDataValue": "0x42702779",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        }
+      },
+      "missileSpeed": 4000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiEAbility/RekSaiECooldown": {
+    "ObjectName": "RekSaiECooldown",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiECooldown",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiECooldown",
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiEAbility/RekSaiEReady": {
+    "ObjectName": "RekSaiEReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiEReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiEReady",
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiEAbility/RekSaiESpellPassive": {
+    "ObjectName": "RekSaiESpellPassive",
+    "mScriptName": "RekSaiESpellPassive",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRangeDisplayOverride": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "RekSaiE",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RekSaiE_Name",
+            "keySummary": "Spell_RekSaiE_Summary",
+            "keyTooltip": "Spell_RekSaiE_Tooltip"
+          },
+          "mObjectName": "RekSaiESpellPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mHitEffectName": "CrypticGaze_tar.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_E1.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mProjectTargetToCastRange": true,
+      "missileSpeed": 4000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiEBurrowedAbility": {
+    "mChildSpells": [
+      "Characters/RekSai/Spells/RekSaiEBurrowedAbility/RekSaiEBurrowed"
+    ],
+    "mName": "RekSaiEBurrowedAbility",
+    "mRootSpell": "Characters/RekSai/Spells/RekSaiEBurrowedAbility/RekSaiEBurrowed",
+    "~class": "AbilityObject"
+  },
+  "Characters/RekSai/Spells/RekSaiEBurrowedAbility/RekSaiEBurrowed": {
+    "ObjectName": "RekSaiEBurrowed",
+    "mScriptName": "RekSaiEBurrowed",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.520000457763672,
+      "castRadius": [
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0
+      ],
+      "cooldownTime": [
+        18.0,
+        18.0,
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        14.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 14346,
+      "mAnimationName": "Idle1",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mSpawningUIDefinition": {
+          "buffNameFilter": "RekSaiTunnel",
+          "maxNumberOfUnits": 8,
+          "~class": "SpawningUIDefinition"
+        },
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyTooltip": "Spell_RekSaiEBurrowed_Tooltip",
+            "keyTooltipExtended": "Spell_RekSaiEBurrowed_TooltipExtended",
+            "keyTooltipExtendedBelowLine": "Spell_RekSaiEBurrowed_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "RekSaiEBurrowed",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mHitEffectName": "CrypticGaze_tar.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_E2.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiInCombat": {
+    "ObjectName": "RekSaiInCombat",
+    "mScriptName": "RekSaiInCombat",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixBasicAttack",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiJetSkiManager": {
+    "ObjectName": "RekSaiJetSkiManager",
+    "mScriptName": "RekSaiJetSkiManager",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixBasicAttack",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiKnockupImmune": {
+    "ObjectName": "RekSaiKnockupImmune",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiKnockupImmune",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiKnockupImmune",
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiPassiveAbility": {
+    "mChildSpells": [
+      "Characters/RekSai/Spells/RekSaiPassiveAbility/RekSaiPassive",
+      "Characters/RekSai/Spells/RekSaiPassiveAbility/RekSaiPRegen"
+    ],
+    "mName": "RekSaiPassiveAbility",
+    "mRootSpell": "Characters/RekSai/Spells/RekSaiPassiveAbility/RekSaiPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/RekSai/Spells/RekSaiPassiveAbility/RekSaiPRegen": {
+    "ObjectName": "RekSaiPRegen",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiPRegen",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiPRegen",
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiPassiveAbility/RekSaiPassive": {
+    "ObjectName": "RekSaiPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "FuryFromAttacks",
+          "mValues": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryFromAbilities",
+          "mValues": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryMinionMod",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PauseDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_RekSaiPassive_Name",
+            "keySummary": "Spell_RekSaiPassive_Summary",
+            "keyTooltip": "Spell_RekSaiPassive_Tooltip",
+            "keyTooltipExtended": "Spell_RekSaiPassive_TooltipExtended"
+          },
+          "mObjectName": "RekSaiPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "HealAmount": {
+          "mFormulaParts": [
+            {
+              "mStat": 12,
+              "mSubpart": {
+                "mEndValue": 0.20000000298023224,
+                "mStartValue": 0.10000000149011612,
+                "~class": "ByCharLevelInterpolationCalculationPart"
+              },
+              "~class": "StatBySubPartCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiQAbility": {
+    "mChildSpells": [
+      "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQ",
+      "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQAttack",
+      "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQAttack2",
+      "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQAttack3",
+      "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQSpellPassive"
+    ],
+    "mName": "RekSaiQAbility",
+    "mRootSpell": "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQ": {
+    "ObjectName": "RekSaiQ",
+    "mBuff": {
+      "mBuffAttributeFlag": 32,
+      "mDescription": "game_buff_tooltip_RekSaiQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "UnburrowedBaseDamage",
+          "mValues": [
+            0.0,
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "UnburrowedADRatio",
+          "mValues": [
+            0.25,
+            0.30000001192092896,
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AoERange",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackSpeed",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "____BURROWED_DATA____",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BurrowedBaseDamage",
+          "mValues": [
+            20.0,
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BurrowedBonusADRatio",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BurrowedAPRatio",
+          "mValues": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BurrowedCooldown",
+          "mValues": [
+            12.5,
+            12.0,
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            9.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BurrowedAoE",
+          "mValues": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BurrowedDebuffDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BurrowedBaseDamage",
+              "mValues": [
+                20.0,
+                70.0,
+                120.0,
+                170.0,
+                220.0,
+                270.0,
+                320.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BurrowedBonusADRatio",
+              "mValues": [
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BurrowedAPRatio",
+              "mValues": [
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "AttackSpeed",
+              "mValues": [
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castConeAngle": 35.0,
+      "castConeDistance": 350.0,
+      "castFrame": 14.520000457763672,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRangeDisplayOverride": [
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        3.5,
+        3.0,
+        2.5,
+        2.0,
+        2.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_RekSaiQRatio",
+                  "type": "UnburrowedADRatio",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RekSaiQCooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RekSaiQBurrowedDamage",
+                  "type": "BurrowedBaseDamage",
+                  "typeIndex": 4,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RekSaiQ_Name",
+            "keySummary": "Spell_RekSaiQ_Summary",
+            "keyTooltip": "Spell_RekSaiQ_Tooltip",
+            "keyTooltipExtended": "Spell_RekSaiQ_TooltipExtended",
+            "keyTooltipExtendedBelowLine": "Spell_RekSaiQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "RekSaiQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_Q1.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "BurrowDamageTooltip": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BurrowedBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "BurrowedBonusADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "BurrowedAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDamageTooltip": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "UnburrowedADRatio",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_AttackReset"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQAttack": {
+    "ObjectName": "RekSaiQAttack",
+    "mScriptName": "RekSaiQAttack",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 24575,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mRollForCriticalHit": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQAttack2": {
+    "ObjectName": "RekSaiQAttack2",
+    "mScriptName": "RekSaiQAttack2",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 24575,
+      "mAnimationName": "Spell1b",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mRollForCriticalHit": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQAttack3": {
+    "ObjectName": "RekSaiQAttack3",
+    "mScriptName": "RekSaiQAttack3",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 24575,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mRollForCriticalHit": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiQAbility/RekSaiQSpellPassive": {
+    "ObjectName": "RekSaiQSpellPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiQSpellPassive",
+    "mSpell": {
+      "castConeAngle": 35.0,
+      "castConeDistance": 350.0,
+      "castFrame": 14.520000457763672,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRangeDisplayOverride": [
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_RekSaiQDamage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RekSaiQBurrowedDamage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 4,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RekSaiQBurrowedCooldown",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 5,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RekSaiQ_Name",
+            "keySummary": "Spell_RekSaiQ_Summary",
+            "keyTooltip": "Spell_RekSaiQ_Tooltip"
+          },
+          "mObjectName": "RekSaiQSpellPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.699999988079071,
+      "mEffectAmount": [
+        {
+          "value": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            60.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.0,
+            12.0,
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            9.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_Q1.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "Trait_AttackReset"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiQBurrowedAbility": {
+    "mChildSpells": [
+      "Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowed",
+      "Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowedMis",
+      "Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowedSlow"
+    ],
+    "mName": "RekSaiQBurrowedAbility",
+    "mRootSpell": "Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowed",
+    "~class": "AbilityObject"
+  },
+  "Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowed": {
+    "ObjectName": "RekSaiQBurrowed",
+    "mScriptName": "RekSaiQBurrowed",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 5.5,
+      "castRadius": [
+        1625.0,
+        1625.0,
+        1625.0,
+        1625.0,
+        1625.0,
+        1625.0,
+        1625.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1625.0,
+        1625.0,
+        1625.0,
+        1625.0,
+        1625.0,
+        1625.0,
+        1625.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "RekSaiQBurrowed",
+      "mAnimationName": "Spell1_Burrowed",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.125,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1450.0,
+                1450.0,
+                1450.0,
+                1450.0,
+                1450.0,
+                1450.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyTooltip": "Spell_RekSaiQBurrowed_Tooltip",
+            "keyTooltipExtended": "Spell_RekSaiQBurrowed_TooltipExtended"
+          },
+          "mObjectName": "RekSaiQBurrowed",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitEffectName": "CrypticGaze_tar.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_Q2.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 4000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowedMis": {
+    "ObjectName": "RekSaiQBurrowedMis",
+    "mScriptName": "RekSaiQBurrowedMis",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "castRangeDisplayOverride": [
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "EzrealMysticShotMissile",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.2000000476837158,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            90.0,
+            150.0,
+            245.0,
+            315.0,
+            440.0,
+            565.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.25,
+            2.5,
+            2.75,
+            3.0,
+            3.25,
+            3.5,
+            3.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "root",
+      "mImgIconName": [
+        ""
+      ],
+      "mLineWidth": 65.0,
+      "mMissileEffectKey": "RekSai_Burrowed_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 65.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": -50.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1950.0,
+          "mStartBoneName": "buffbone_glb_ground_loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1950.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowedSlow": {
+    "ObjectName": "RekSaiQBurrowedSlow",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiQBurrowedSlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiQBurrowedSlow",
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiRAbility": {
+    "mChildSpells": [
+      "0x36cd608e",
+      "0x3e616bcb",
+      "0xd00ab09c",
+      "Characters/RekSai/Spells/RekSaiRAbility/RekSaiR",
+      "0x6a816c9f"
+    ],
+    "mName": "RekSaiRAbility",
+    "mRootSpell": "Characters/RekSai/Spells/RekSaiRAbility/RekSaiR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/RekSai/Spells/RekSaiRAbility/RekSaiR": {
+    "ObjectName": "RekSaiR",
+    "mScriptName": "RekSaiR",
+    "mSpell": {
+      "0xf9c2333e": {
+        "0xa110bc47": {
+          "value": [
+            60.0,
+            60.0,
+            50.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "TravelDistancePercent",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExtraDistance",
+          "mValues": [
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LeapMovementSpeed",
+          "mValues": [
+            1400.0,
+            1400.0,
+            1400.0,
+            1400.0,
+            1400.0,
+            1400.0,
+            1400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VODistance",
+          "mValues": [
+            4000.0,
+            4000.0,
+            4000.0,
+            4000.0,
+            4000.0,
+            4000.0,
+            4000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageCheckRadius",
+          "mValues": [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PreyMarkDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RBaseDamage",
+          "mValues": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            450.0,
+            550.0,
+            650.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentHealthDamage",
+          "mValues": [
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CastBuffDuration",
+          "mValues": [
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "cantCastWhileRooted": true,
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castRadius": [
+        0.0,
+        300.0,
+        300.0,
+        300.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        100.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 4106,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastRequirementsCaster": [
+        {
+          "mRange": 25000.0,
+          "mUnitsRequired": 1,
+          "mUnitsRequirements": [
+            {
+              "mBuffName": "0xb8f8d06",
+              "mFromAnyone": true,
+              "~class": "HasBuffCastRequirement"
+            }
+          ],
+          "~class": "HasNNearbyVisibleUnitsRequirement"
+        }
+      ],
+      "mCastRequirementsTarget": [
+        {
+          "mBuffName": "0xb8f8d06",
+          "mFromAnyone": true,
+          "~class": "HasBuffCastRequirement"
+        }
+      ],
+      "mCastTime": 0.3499999940395355,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "RBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_PercentHealthDamage",
+                  "type": "PercentHealthDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_RekSaiR_Cost",
+            "keyName": "Spell_RekSaiR_Name",
+            "keySummary": "Spell_RekSaiRWrapper_Summary",
+            "keyTooltip": "Spell_RekSaiR_Tooltip"
+          },
+          "mObjectName": "RekSaiR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_R.dds"
+      ],
+      "mPingableWhileDisabled": true,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "RBaseDamageCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "RBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_MoveBlock"
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiRunCycleManager": {
+    "ObjectName": "RekSaiRunCycleManager",
+    "mScriptName": "RekSaiRunCycleManager",
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiWAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/RekSai/Spells/RekSaiWAbility/RekSaiW",
+      "Characters/RekSai/Spells/RekSaiWAbility/RekSaiWAttack",
+      "Characters/RekSai/Spells/RekSaiWAbility/RekSaiWSpellPassive",
+      "Characters/RekSai/Spells/RekSaiWAbility/RekSaiWUnburrowLockout"
+    ],
+    "mName": "RekSaiWAbility",
+    "mRootSpell": "Characters/RekSai/Spells/RekSaiWAbility/RekSaiW",
+    "~class": "AbilityObject"
+  },
+  "Characters/RekSai/Spells/RekSaiWAbility/RekSaiW": {
+    "ObjectName": "RekSaiW",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            5.0,
+            30.0,
+            55.0,
+            80.0,
+            105.0,
+            130.0,
+            155.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockupDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockupImmunity",
+          "mValues": [
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ChampKnockbackRange",
+          "mValues": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "OtherKnockbackRange",
+          "mValues": [
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockbackDuration",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Slow",
+          "mValues": [
+            -0.25,
+            -0.30000001192092896,
+            -0.3499999940395355,
+            -0.4000000059604645,
+            -0.44999998807907104,
+            -0.5,
+            -0.550000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VisionRadiusMod",
+          "mValues": [
+            -0.6499999761581421,
+            -0.6499999761581421,
+            -0.6499999761581421,
+            -0.6499999761581421,
+            -0.6499999761581421,
+            -0.6499999761581421,
+            -0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockupRange",
+          "mValues": [
+            220.0,
+            220.0,
+            220.0,
+            220.0,
+            220.0,
+            220.0,
+            220.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LockoutTime",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "___TREMOR_SENSE___",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SearchRange",
+          "mValues": [
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TremorTickTime",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DistanceCheck",
+          "mValues": [
+            85.0,
+            85.0,
+            85.0,
+            85.0,
+            85.0,
+            85.0,
+            85.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BurrowedMoveSpeed",
+          "mValues": [
+            0.0,
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                25.0,
+                50.0,
+                75.0,
+                100.0,
+                125.0,
+                150.0,
+                175.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BurrowedMoveSpeed",
+              "mValues": [
+                10.0,
+                15.0,
+                20.0,
+                25.0,
+                30.0,
+                35.0,
+                40.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "APRatio",
+              "mValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.520000457763672,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "castRangeDisplayOverride": [
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 15567,
+      "mAnimationName": "Spell3_landing",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mCharacterPassiveBuffs": [
+        {
+          "mParentPassiveBuff": "Characters/RekSai/Spells/RekSaiWAbility/RekSaiWSpellPassive",
+          "~class": "CharacterPassiveData"
+        }
+      ],
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_RekSaiWBurrowedDamage",
+                  "type": "BaseDamage",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RekSaiWBurrowedKnockUpImmunity",
+                  "type": "KnockupImmunity",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RekSaiWBurrowedSpeed",
+                  "type": "BurrowedMoveSpeed",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RekSaiW_Name",
+            "keySummary": "Spell_RekSaiW_Summary",
+            "keyTooltip": "Spell_RekSaiW_Tooltip",
+            "keyTooltipExtended": "Spell_RekSaiW_TooltipExtended"
+          },
+          "mObjectName": "RekSaiW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectName": "CrypticGaze_tar.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W1.dds",
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W2.dds"
+      ],
+      "mSpellCalculations": {
+        "UnburrowDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_SwapsIntoImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiWAbility/RekSaiWAttack": {
+    "ObjectName": "RekSaiWAttack",
+    "mScriptName": "RekSaiWAttack",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6826,
+      "mAnimationName": "",
+      "mApplyAttackDamage": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiWAbility/RekSaiWSpellPassive": {
+    "ObjectName": "RekSaiWSpellPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RekSaiW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RekSaiWSpellPassive",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.520000457763672,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "castRangeDisplayOverride": [
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 15567,
+      "mAnimationName": "Spell3_landing",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_RekSaiWBurrowedDamage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RekSaiW_Name",
+            "keySummary": "Spell_RekSaiW_Summary",
+            "keyTooltip": "Spell_RekSaiW_Tooltip"
+          },
+          "mObjectName": "RekSaiWSpellPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mEffectAmount": [
+        {
+          "value": [
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            55.0,
+            55.0,
+            70.0,
+            85.0,
+            100.0,
+            115.0,
+            130.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectName": "CrypticGaze_tar.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W1.dds",
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W2.dds"
+      ],
+      "mSpellTags": [
+        "Trait_SwapsIntoImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiWAbility/RekSaiWUnburrowLockout": {
+    "ObjectName": "RekSaiWUnburrowLockout",
+    "mScriptName": "RekSaiWUnburrowLockout",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castFrame": 8.0,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        7.0
+      ],
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "RivenMartyr",
+      "mAnimationName": "None",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.26669999957084656,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mDisableCastBar": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        ""
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/RekSai/Spells/RekSaiWBurrowedAbility": {
+    "mChildSpells": [
+      "Characters/RekSai/Spells/RekSaiWBurrowedAbility/RekSaiWBurrowed"
+    ],
+    "mName": "RekSaiWBurrowedAbility",
+    "mRootSpell": "Characters/RekSai/Spells/RekSaiWBurrowedAbility/RekSaiWBurrowed",
+    "~class": "AbilityObject"
+  },
+  "Characters/RekSai/Spells/RekSaiWBurrowedAbility/RekSaiWBurrowed": {
+    "ObjectName": "RekSaiWBurrowed",
+    "mScriptName": "RekSaiWBurrowed",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.520000457763672,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "castRangeDisplayOverride": [
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0,
+        1650.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 7183,
+      "mAnimationName": "Spell3_landing",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyTooltip": "Spell_RekSaiWBurrowed_Tooltip",
+            "keyTooltipExtended": "Spell_RekSaiWBurrowed_TooltipExtended"
+          },
+          "mObjectName": "RekSaiWBurrowed",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            85.0,
+            85.0,
+            85.0,
+            85.0,
+            85.0,
+            85.0,
+            85.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectName": "CrypticGaze_tar.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_W2.dds"
+      ],
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

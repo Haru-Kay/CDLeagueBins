@@ -1,0 +1,2776 @@
+{
+  "0x15af979d": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "middle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x1d2d6b17": {
+    "catalogEntry": {
+      "contentId": "2a194f97-6167-457c-b61b-b85a97847007",
+      "itemID": 66600572,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x2be325ab",
+      "0x48029417",
+      "0x3370351d"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x1e2d6caa": {
+    "catalogEntry": {
+      "contentId": "43dbed1b-9008-4231-9161-7c26080d7d4c",
+      "itemID": 66600573,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x4aa3b835",
+      "0xa788be",
+      "0xda96d0d6"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x2be325ab": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      60,
+      150,
+      300,
+      375,
+      450,
+      175
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "baf0f5e7-85ba-4734-bd20-d2327c675944",
+      "itemID": 126659,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_AuroraQReturnHits",
+    "mNameTraKey": "stat_stone_name_AuroraQReturnHits",
+    "stoneName": "AuroraQReturnHits",
+    "~class": "StatStoneData"
+  },
+  "0x2cce65a3": {
+    "ObjectName": "AuroraPNumSpiritsTracker",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "AuroraPNumSpiritsTracker",
+    "mSpell": {
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x30c5f539": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "a515bebb-c0b6-48e9-8258-63298697c9d8",
+      "itemID": 126666,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_AuroraStructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_AuroraStructuresDestroyed",
+    "stoneName": "AuroraStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x3370351d": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      50,
+      125,
+      250,
+      300,
+      350,
+      150
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "517881a1-30a0-4c6b-bca3-84d4f853dc61",
+      "itemID": 126661,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_AuroraRMultiHits",
+    "mNameTraKey": "stat_stone_name_AuroraRMultiHits",
+    "stoneName": "AuroraRMultiHits",
+    "~class": "StatStoneData"
+  },
+  "0x36b6a65c": {
+    "ObjectName": "AuroraRMissile",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YoneDashWrapper",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AuroraRMissile",
+    "mSpell": {
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AuroraR_Name",
+            "keyTooltip": "Spell_AuroraR_Tooltip"
+          },
+          "mObjectName": "AuroraRMissile",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mIgnoreRangeCheck": true,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 700.0,
+          "mStartBoneName": "root",
+          "~class": "FixedSpeedMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x450988f8": {
+    "mChildSpells": [
+      "0x55fe4142"
+    ],
+    "mName": "AuroraPassiveAbility",
+    "mRootSpell": "0x55fe4142",
+    "~class": "AbilityObject"
+  },
+  "0x48029417": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2,
+      4,
+      8,
+      10,
+      10,
+      5
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d3a2395a-2557-4d83-af5a-a81ad8e983f9",
+      "itemID": 126660,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_AuroraPManySpirits",
+    "mNameTraKey": "stat_stone_name_AuroraPManySpirits",
+    "stoneName": "AuroraPManySpirits",
+    "~class": "StatStoneData"
+  },
+  "0x4aa3b835": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      50,
+      100,
+      125,
+      150,
+      65
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "c48dc6c1-54af-4972-9678-91eb3cc8bd57",
+      "itemID": 126664,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_AuroraQMultiHits",
+    "mNameTraKey": "stat_stone_name_AuroraQMultiHits",
+    "stoneName": "AuroraQMultiHits",
+    "~class": "StatStoneData"
+  },
+  "0x55293a74": {
+    "ObjectName": "AuroraQRecast",
+    "mScriptName": "AuroraQRecast",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "castRadiusSecondary": [
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "castRangeDisplayOverride": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 2048,
+      "mAnimationName": "Spell1_Recast",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Aurora/Spells/AuroraQAbility/AuroraQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "spine",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Aurora/HUD/Icons2D/AuroraQ2.Aurora.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 1800.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x55fe4142": {
+    "ObjectName": "AuroraPassive",
+    "mBuff": {
+      "mDescription": "buff_desc_AuroraPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AuroraPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DebuffDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SpiritModeDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseHPDamage",
+          "mValues": [
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterMaxDamage",
+          "mValues": [
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSIncrease",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusMsIncrease",
+          "mValues": [
+            0.019999999552965164,
+            0.019999999552965164,
+            0.019999999552965164,
+            0.019999999552965164,
+            0.019999999552965164,
+            0.019999999552965164,
+            0.019999999552965164
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Buff_AuroraP_Name",
+            "keySummary": "Spell_Aurora_Passive_Summary",
+            "keyTooltip": "Buff_AuroraP_Tooltip",
+            "keyTooltipExtended": "Buff_AuroraP_TooltipExtended"
+          },
+          "mObjectName": "AuroraPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Aurora/HUD/Icons2D/AuroraPassive.Aurora.dds"
+      ],
+      "mSpellCalculations": {
+        "0x394d1781": {
+          "mFormulaParts": [
+            {
+              "mInitialBonusPerLevel": 10.0,
+              "mLevel1Value": 10.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mDataValue": "MonsterMaxDamage",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "BonusMSCalc": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "BonusMsIncrease",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0001500000071246177,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "CooldownDuration": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 5.0,
+              "mStartValue": 5.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "HealCalc": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 20.0,
+              "mStartValue": 3.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.019999999552965164,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MoveSpeedCalc": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 0.0020000000949949026,
+                  "mBonusPerLevelAtAndAfter": 0.0020000000949949026,
+                  "mLevel": 2,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 0.05000000074505806,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0003000000142492354,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "ProcDamage": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHPDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0002699999895412475,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5b8d407": {
+    "catalogEntry": {
+      "contentId": "0da17597-79fd-4a0a-93e9-78771e776ace",
+      "itemID": 66600574,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xf1664ab8",
+      "0xbc48536f",
+      "0x30c5f539"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x5c9deb39": {
+    "ObjectName": "AuroraBasicAttack",
+    "mScriptName": "AuroraBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23579999804496765,
+      "mAffectsTypeFlags": 5327,
+      "mApplyAttackDamage": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Aurora_BA_tar",
+      "mMissileEffectKey": "Aurora_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 1750.0,
+          "mStartBoneName": "R_hand",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x8ea20d6a": {
+    "ObjectName": "AuroraWMS",
+    "mBuff": {
+      "mDescription": "Buff_AuroraWMS",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AuroraWMS",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Aurora/HUD/Icons2D/AuroraPassive.Aurora.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xa788be": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      30000,
+      70000,
+      150000,
+      175000,
+      225000,
+      85000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "83de8e35-5e4a-44d4-8b79-463c14c4acce",
+      "itemID": 126663,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_AuroraWExitStealthDamage",
+    "mNameTraKey": "stat_stone_name_AuroraWExitStealthDamage",
+    "stoneName": "AuroraWExitStealthDamage",
+    "~class": "StatStoneData"
+  },
+  "0xbc48536f": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "eb73fa56-80d4-41d5-bd9e-72a8c48b4649",
+      "itemID": 126665,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_AuroraEpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_AuroraEpicMonstersKilled",
+    "stoneName": "AuroraEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xda96d0d6": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2000,
+      5000,
+      10000,
+      12000,
+      15000,
+      6000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "813c0675-bb07-4a72-9035-02206238a9d9",
+      "itemID": 126662,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_AuroraEDamageInR",
+    "mNameTraKey": "stat_stone_name_AuroraEDamageInR",
+    "stoneName": "AuroraEDamageinR",
+    "~class": "StatStoneData"
+  },
+  "0xf1664ab8": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "6f131915-c839-4063-be21-4d2522a98ac4",
+      "itemID": 126667,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_AuroraTakedowns",
+    "mNameTraKey": "stat_stone_name_AuroraTakedowns",
+    "stoneName": "AuroraTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xf84a9cce": {
+    "ObjectName": "AuroraRRecast",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AuroraFoxFire",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AuroraRRecast",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "castRadiusSecondary": [
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "castRangeDisplayOverride": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 2048,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Aurora/Spells/AuroraRAbility/AuroraR",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.30000001192092896,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "spine",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Aurora/HUD/Icons2D/AuroraR.Aurora.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 1800.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xfe565ec8": {
+    "ObjectName": "AuroraQReturnMissile",
+    "mScriptName": "AuroraQReturnMissile",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            35.0,
+            70.0,
+            105.0,
+            140.0,
+            175.0,
+            210.0,
+            245.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CDRefund",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CD",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.9800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 14346,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell1",
+      "mApplyAttackEffect": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mCastType": 3,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AuroraQ_Name",
+            "keyTooltip": "Spell_AuroraQ_Tooltip"
+          },
+          "mObjectName": "AuroraQReturnMissile",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient2": 0.15000000596046448,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mIgnoreRangeCheck": true,
+      "mLineWidth": 90.0,
+      "mMissileEffectKey": "Aurora_Q_misreturn",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 125.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 90.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 2000.0,
+          "mTargetBoneName": "R_Hand",
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6499999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.05000000074505806,
+      "mTurnSpeedScalar": 1.7000000476837158,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Aurora/CharacterRecords/Root": {
+    "0xc1984296": [
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "0xc5c48b41": 1,
+    "PackmanagerData": {
+      "0x377491e8": {
+        "0x7863785e": 100.0,
+        "maxDistance": 300.0,
+        "minDistance": 100.0,
+        "~class": "0x1aae122"
+      },
+      "FollowerCrossoverAnimation": "Hop",
+      "LeashDistance": 500.0,
+      "OnLeaderMoveFollowerAnimation": "0x45cbeaa1",
+      "~class": "PackmanagerData"
+    },
+    "acquisitionRange": 525.0,
+    "armorPerLevel": 4.5,
+    "attackRange": 550.0,
+    "attackSpeed": 0.6679999828338623,
+    "attackSpeedPerLevel": 2.0,
+    "attackSpeedRatio": 0.6679999828338623,
+    "baseArmor": 23.0,
+    "baseDamage": 53.0,
+    "baseHP": 607.0,
+    "baseMoveSpeed": 335.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.2000000476837158,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.09946499764919281,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 3.0,
+      "attackRank": 3,
+      "championId": 893,
+      "defenseRank": 4,
+      "description": "game_character_description_Aurora",
+      "difficultyRank": 5,
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "roles": "MAGE",
+      "searchTags": "mage",
+      "searchTagsSecondary": "assassin",
+      "sound": {
+        "attack": [
+          "Cardmaster_Attack1.wav",
+          "Cardmaster_Attack2.wav",
+          "Cardmaster_Attack3.wav",
+          "Cardmaster_Attack4.wav"
+        ],
+        "click": [
+          "Cardmaster_Click1.wav",
+          "Cardmaster_Click2.wav",
+          "Cardmaster_Click3.wav",
+          "Cardmaster_Click4.wav"
+        ],
+        "death": "Cardmaster_Death.wav",
+        "move": [
+          "Cardmaster_Move1.wav",
+          "Cardmaster_Move2.wav",
+          "Cardmaster_Move3.wav",
+          "Cardmaster_Move4.wav"
+        ],
+        "ready": "Cardmaster_Ready2.wav",
+        "~class": "ToolSoundData"
+      },
+      "spellData": [
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.09946499764919281,
+        "mAttackName": "AuroraCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "AuroraBasicAttack2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "",
+      "",
+      "",
+      "",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "hpPerLevel": 110.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Aurora/Spells/AuroraQAbility",
+      "Characters/Aurora/Spells/AuroraWAbility",
+      "Characters/Aurora/Spells/AuroraEAbility",
+      "Characters/Aurora/Spells/AuroraRAbility",
+      "0x450988f8"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      3,
+      0
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Aurora",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "0x55fe4142",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0x55fe4142",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Aurora",
+    "passive1IconName": "ASSETS/Characters/Aurora/HUD/Icons2D/AuroraPassive.Aurora.dds",
+    "passiveLuaName": "AuroraPassive",
+    "passiveName": "game_character_passiveName_Aurora",
+    "passiveToolTip": "game_character_passiveDescription_Aurora",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 475.0,
+      "arBaseStaticRegen": 1.600000023841858,
+      "arPerLevel": 30.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "secondaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arIsShown": false,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 135.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "AuroraQAbility/AuroraQ",
+      "AuroraWAbility/AuroraW",
+      "AuroraEAbility/AuroraE",
+      "AuroraRAbility/AuroraR"
+    ],
+    "spells": [
+      "Characters/Aurora/Spells/AuroraQAbility/AuroraQ",
+      "Characters/Aurora/Spells/AuroraWAbility/AuroraW",
+      "Characters/Aurora/Spells/AuroraEAbility/AuroraE",
+      "Characters/Aurora/Spells/AuroraRAbility/AuroraR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "weaponMaterials": [
+      "AuroraBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Aurora/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Aurora/Spells/AuroraBasicAttack2": {
+    "ObjectName": "AuroraBasicAttack2",
+    "mScriptName": "AuroraBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23579999804496765,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Attack2",
+      "mApplyAttackDamage": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Aurora_BA_tar",
+      "mMissileEffectKey": "Aurora_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 1750.0,
+          "mStartBoneName": "R_hand",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Aurora/Spells/AuroraCritAttack": {
+    "ObjectName": "AuroraCritAttack",
+    "mScriptName": "AuroraCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23579999804496765,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Crit",
+      "mApplyAttackDamage": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Aurora_BA_tar",
+      "mMissileEffectKey": "Aurora_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 1750.0,
+          "mStartBoneName": "R_hand",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Aurora/Spells/AuroraEAbility": {
+    "AbilityTraits": 2,
+    "mChildSpells": [
+      "Characters/Aurora/Spells/AuroraEAbility/AuroraE"
+    ],
+    "mName": "AuroraEAbility",
+    "mRootSpell": "Characters/Aurora/Spells/AuroraEAbility/AuroraE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Aurora/Spells/AuroraEAbility/AuroraE": {
+    "ObjectName": "AuroraE",
+    "mBuff": {
+      "mDescription": "buff_desc_AuroraE",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AuroraE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercent",
+          "mValues": [
+            -0.800000011920929,
+            -0.800000011920929,
+            -0.800000011920929,
+            -0.800000011920929,
+            -0.800000011920929,
+            -0.800000011920929,
+            -0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SelfKnockBackDistance",
+          "mValues": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AoELength",
+          "mValues": [
+            825.0,
+            825.0,
+            825.0,
+            825.0,
+            825.0,
+            825.0,
+            825.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AoEWidth",
+          "mValues": [
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDecay",
+          "mValues": [
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitEffect": true,
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        825.0,
+        825.0,
+        825.0,
+        825.0,
+        825.0,
+        825.0,
+        825.0
+      ],
+      "cooldownTime": [
+        15.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194304,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AuroraE_Name",
+            "keySummary": "Spell_Aurora_E_Summary",
+            "keyTooltip": "Spell_AuroraE_Tooltip"
+          },
+          "mObjectName": "AuroraE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitEffectKey": "Aurora_E_tarPT",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Aurora/HUD/Icons2D/AuroraE.Aurora.dds"
+      ],
+      "mLineWidth": 80.0,
+      "mMissileEffectKey": "0x2c3a2b25",
+      "mSpellCalculations": {
+        "DamageCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.699999988079071,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mTurnSpeedScalar": 10.0,
+      "mana": [
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Aurora/Spells/AuroraQAbility": {
+    "AbilityTraits": 256,
+    "mChildSpells": [
+      "Characters/Aurora/Spells/AuroraQAbility/AuroraQ",
+      "0x55293a74",
+      "0xfe565ec8"
+    ],
+    "mName": "AuroraQAbility",
+    "mRootSpell": "Characters/Aurora/Spells/AuroraQAbility/AuroraQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Aurora/Spells/AuroraQAbility/AuroraQ": {
+    "ObjectName": "AuroraQ",
+    "mBuff": {
+      "mDescription": "buff_desc_AuroraQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AuroraQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            20.0,
+            45.0,
+            70.0,
+            95.0,
+            120.0,
+            145.0,
+            170.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageReduction",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Q2BaseDamage",
+          "mValues": [
+            20.0,
+            45.0,
+            70.0,
+            95.0,
+            120.0,
+            145.0,
+            170.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MarkDuration",
+          "mValues": [
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionDamageReduction",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MissingHealthPercentMod",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Q2MinionMod",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.9800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "cooldownTime": [
+        9.0,
+        9.0,
+        8.5,
+        8.0,
+        7.5,
+        7.0,
+        6.5
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell1",
+      "mApplyAttackEffect": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AuroraQ_Name",
+            "keySummary": "Spell_Aurora_Q_Summary",
+            "keyTooltip": "Spell_AuroraQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_Aurora_Q_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "AuroraQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Aurora/HUD/Icons2D/AuroraQ.Aurora.dds"
+      ],
+      "mLineWidth": 90.0,
+      "mMissileEffectKey": "Aurora_Q_backmis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 150.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 90.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "Buffbone_Glb_Weapon_1",
+          "mTargetBoneName": "C_buffbone_Glb_Center_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "0xf7c018c7": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Q2BaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.4000000059604645,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.4000000059604645,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "Q2DamageMax": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Q2BaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.4000000059604645,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mNumber": 1.5,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.05000000074505806,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mTurnSpeedScalar": 1.7000000476837158,
+      "mana": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "missileSpeed": 1600.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Aurora/Spells/AuroraRAbility": {
+    "AbilityTraits": 4098,
+    "mChildSpells": [
+      "Characters/Aurora/Spells/AuroraRAbility/AuroraR",
+      "0x36b6a65c",
+      "0xf84a9cce"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "AuroraRAbility",
+    "mRootSpell": "Characters/Aurora/Spells/AuroraRAbility/AuroraR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Aurora/Spells/AuroraRAbility/AuroraR": {
+    "ObjectName": "AuroraR",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YoneDashWrapper",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AuroraR",
+    "mSpell": {
+      "0xf4ca428f": 2,
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            75.0,
+            175.0,
+            275.0,
+            375.0,
+            475.0,
+            575.0,
+            675.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercent",
+          "mValues": [
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExitBaseDamage",
+          "mValues": [
+            0.0,
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExitSlowPercent",
+          "mValues": [
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AreaDuration",
+          "mValues": [
+            1.75,
+            2.5,
+            3.25,
+            4.0,
+            4.75,
+            5.5,
+            6.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RBuffDuration",
+          "mValues": [
+            2.75,
+            3.5,
+            4.25,
+            5.0,
+            5.75,
+            6.5,
+            7.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AoESize",
+          "mValues": [
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StunDuration",
+          "mValues": [
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25,
+            2.5,
+            2.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSMultiplier",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "JumpMaxDistance",
+          "mValues": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "JumpMinDistance",
+          "mValues": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castRadius": [
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0
+      ],
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "castRangeDisplayOverride": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "cooldownTime": [
+        140.0,
+        140.0,
+        120.0,
+        100.0,
+        13.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "minimumDisplayedRange": 25.0,
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "distanceOffset": 350.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintPosLocator": {
+              "distanceOffset": 350.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                250.0,
+                250.0,
+                250.0,
+                250.0,
+                250.0,
+                250.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/CircularRangeIndicator.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Duration",
+                  "type": "AreaDuration",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AuroraR_Name",
+            "keySummary": "Spell_Aurora_R_Summary",
+            "keyTooltip": "Spell_AuroraR_Tooltip"
+          },
+          "mObjectName": "AuroraR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Aurora/HUD/Icons2D/AuroraR.Aurora.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "DamageCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.699999988079071,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Aurora/Spells/AuroraWAbility": {
+    "AbilityTraits": 32768,
+    "mChildSpells": [
+      "Characters/Aurora/Spells/AuroraWAbility/AuroraW"
+    ],
+    "mName": "AuroraWAbility",
+    "mRootSpell": "Characters/Aurora/Spells/AuroraWAbility/AuroraW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Aurora/Spells/AuroraWAbility/AuroraW": {
+    "ObjectName": "AuroraW",
+    "mBuff": {
+      "mDescription": "buff_desc_AuroraW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AuroraW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "InvisDuration",
+          "mValues": [
+            0.8500000238418579,
+            1.0,
+            1.149999976158142,
+            1.2999999523162842,
+            1.4500000476837158,
+            1.600000023841858,
+            1.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashBonusSpeed",
+          "mValues": [
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "JumpDistance",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WallCheatDistance",
+          "mValues": [
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeedBonus",
+          "mValues": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "castRadiusSecondary": [
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0
+      ],
+      "castRangeDisplayOverride": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        22.0,
+        22.0,
+        21.0,
+        20.0,
+        19.0,
+        18.0,
+        17.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 2048,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Duration",
+                  "type": "InvisDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "MoveSpeedBonus",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AuroraW_Name",
+            "keySummary": "Spell_Aurora_W_Summary",
+            "keyTooltip": "Spell_AuroraW_Tooltip"
+          },
+          "mObjectName": "AuroraW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.30000001192092896,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "spine",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Aurora/HUD/Icons2D/AuroraW.Aurora.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "missileSpeed": 1800.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

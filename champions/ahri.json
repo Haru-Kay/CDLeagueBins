@@ -1,0 +1,3664 @@
+{
+  "0x112db766": {
+    "ObjectName": "AhriPassiveCounter",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_AhriP_Name",
+          "keyTooltip": "game_buff_tooltip_AhriSoulCrusherCounter"
+        },
+        "mObjectName": "AhriPassiveCounter",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "AhriPassiveCounter",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Ahri/HUD/Icons2D/Icons_Ahri_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x151ec365": {
+    "ObjectName": "AhriWDamageMissile",
+    "mScriptName": "AhriWDamageMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "AhriFoxFire",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ahri_W_tar",
+      "mImgIconName": [
+        "Annie_Disintegrate.dds"
+      ],
+      "mMissileEffectKey": "Ahri_W_mis_02",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "MovementEntries": [
+            {
+              "MovementSpec": {
+                "mOffsetInitialTargetHeight": 100.0,
+                "mSpeed": 1400.0,
+                "mSplineInfo": {
+                  "mControlPoint1": [
+                    -1.325581431388855,
+                    0.0,
+                    0.20828114449977875
+                  ],
+                  "mControlPoint2": [
+                    0.9069766998291016,
+                    0.0,
+                    0.278048574924469
+                  ],
+                  "~class": "HermiteSplineInfo"
+                },
+                "mStartBoneName": "spine",
+                "mTargetHeightAugment": 100.0,
+                "~class": "FixedSpeedSplineMovement"
+              },
+              "~class": "ParametricMovementEntry"
+            },
+            {
+              "MovementSpec": {
+                "mOffsetInitialTargetHeight": 100.0,
+                "mSpeed": 1400.0,
+                "mSplineInfo": {
+                  "mControlPoint1": [
+                    -2.04651141166687,
+                    0.0,
+                    0.07441860437393188
+                  ],
+                  "mControlPoint2": [
+                    0.11162790656089783,
+                    0.0,
+                    -1.1488372087478638
+                  ],
+                  "~class": "HermiteSplineInfo"
+                },
+                "mStartBoneName": "spine",
+                "mTargetHeightAugment": 100.0,
+                "~class": "FixedSpeedSplineMovement"
+              },
+              "value": 90.0,
+              "~class": "ParametricMovementEntry"
+            },
+            {
+              "MovementSpec": {
+                "mOffsetInitialTargetHeight": 100.0,
+                "mSpeed": 1400.0,
+                "mSplineInfo": {
+                  "mControlPoint1": [
+                    -0.5930232405662537,
+                    0.0,
+                    0.4441860318183899
+                  ],
+                  "mControlPoint2": [
+                    0.48139533400535583,
+                    0.0,
+                    -0.09534883499145508
+                  ],
+                  "~class": "HermiteSplineInfo"
+                },
+                "mStartBoneName": "spine",
+                "mTargetHeightAugment": 100.0,
+                "~class": "FixedSpeedSplineMovement"
+              },
+              "value": -90.0,
+              "~class": "ParametricMovementEntry"
+            },
+            {
+              "MovementSpec": {
+                "mOffsetInitialTargetHeight": 100.0,
+                "mSpeed": 1400.0,
+                "mSplineInfo": {
+                  "mControlPoint1": [
+                    -1.469767451286316,
+                    0.0,
+                    0.35116276144981384
+                  ],
+                  "mControlPoint2": [
+                    1.0976743698120117,
+                    0.0,
+                    -0.20232558250427246
+                  ],
+                  "~class": "HermiteSplineInfo"
+                },
+                "mStartBoneName": "spine",
+                "mTargetHeightAugment": 100.0,
+                "~class": "FixedSpeedSplineMovement"
+              },
+              "value": 180.0,
+              "~class": "ParametricMovementEntry"
+            },
+            {
+              "MovementSpec": {
+                "mOffsetInitialTargetHeight": 100.0,
+                "mSpeed": 1400.0,
+                "mSplineInfo": {
+                  "mControlPoint1": [
+                    -2.1953487396240234,
+                    0.0,
+                    -0.020930230617523193
+                  ],
+                  "mControlPoint2": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "~class": "HermiteSplineInfo"
+                },
+                "mStartBoneName": "spine",
+                "mTargetHeightAugment": 100.0,
+                "~class": "FixedSpeedSplineMovement"
+              },
+              "value": -180.0,
+              "~class": "ParametricMovementEntry"
+            }
+          ],
+          "ParametricMovementType": {
+            "~class": "ParametricMovementType_AngleFromTarget"
+          },
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "spine",
+          "mTargetHeightAugment": 100.0,
+          "~class": "ParametricMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1400.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x1a142d0f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      35,
+      40,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "6b94f37c-f131-41ea-aa2f-2503648bf134",
+      "itemID": 99195,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_AhriEToKills",
+    "mNameTraKey": "stat_stone_name_AhriEToKills",
+    "stoneName": "AhriEToKills",
+    "~class": "StatStoneData"
+  },
+  "0x22a3a62f": {
+    "ObjectName": "AhriSkin89Goldfish",
+    "mScriptName": "AhriSkin89Goldfish",
+    "~class": "SpellObject"
+  },
+  "0x28a70038": {
+    "ObjectName": "AhriWSpeedBuff",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "C_Buffbone_Glb_Center_Loc",
+              "effectKey": "Ahri_Q_Speed",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "AhriWSpeedBuff",
+    "~class": "SpellObject"
+  },
+  "0x3fc7446d": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      40,
+      100,
+      200,
+      250,
+      325,
+      125
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "495aa5f9-c122-4a1e-ae7d-93c5d32d771b",
+      "itemID": 125900,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_AhriWChampHits",
+    "mNameTraKey": "stat_stone_name_AhriWChampHits",
+    "stoneName": "AhriWChampHits",
+    "~class": "StatStoneData"
+  },
+  "0x425429e5": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      19000,
+      47000,
+      93000,
+      100000,
+      150000,
+      56000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "e0410f21-9285-4fb2-bfc7-b5b39467b341",
+      "itemID": 125329,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_AhriRDistance",
+    "mNameTraKey": "stat_stone_name_AhriRDistance",
+    "stoneName": "AhriRDistance",
+    "trackingType": 2,
+    "~class": "StatStoneData"
+  },
+  "0x4482545b": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "46f0ca69-1624-4699-9187-fff0a852e571",
+      "itemID": 401,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "AhriEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x44838ea4": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      55,
+      150,
+      275,
+      325,
+      425,
+      175
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "1f5fe01b-26be-4e43-99cb-c58f379c051e",
+      "itemID": 126477,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_AhriExtraR",
+    "mNameTraKey": "stat_stone_name_AhriExtraR",
+    "stoneName": "AhriExtraR",
+    "~class": "StatStoneData"
+  },
+  "0x4cbf1c42": {
+    "ObjectName": "AhriPassiveMissile",
+    "mBuff": {
+      "mBuffAttributeFlag": 8,
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_SennaPassive_Name",
+          "keyTooltip": "Buff_SennaPassiveStacks_Tooltip"
+        },
+        "mObjectName": "AhriPassiveMissile",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "AhriPassiveMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.15000000596046448,
+      "delayTotalTimePercent": -0.6000000238418579,
+      "flags": 4,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 1,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mDimensionBehavior": 1,
+      "mMissileEffectKey": "Ahri_P_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mAcceleration": 800.0,
+          "mInitialSpeed": 1800.0,
+          "mMaxSpeed": 8000.0,
+          "mMinSpeed": 1200.0,
+          "mStartBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTargetBoneName": "C_Buffbone_Glb_Center_Loc",
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1300.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x4f6db13f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7,
+      15,
+      35,
+      40,
+      53,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "577d89f7-660f-455b-91dd-fea90d64834b",
+      "itemID": 125901,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_AhriRFlashCharms",
+    "mNameTraKey": "stat_stone_name_AhriRFlashCharms",
+    "stoneName": "AhriRFlashCharms",
+    "~class": "StatStoneData"
+  },
+  "0x5aa54d24": {
+    "ObjectName": "AhriRMissile",
+    "mScriptName": "AhriRMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "cooldownTime": [
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "AhriTumble",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.699999988079071,
+      "mEffectAmount": [
+        {
+          "value": [
+            40.0,
+            90.0,
+            140.0,
+            190.0,
+            240.0,
+            290.0,
+            340.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ahri_R_Tar",
+      "mImgIconName": [
+        "Annie_Disintegrate.dds"
+      ],
+      "mMissileEffectKey": "Ahri_R_mis_02",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1400.0,
+          "mStartBoneName": "chest",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1400.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x67cca301": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      75,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ff2dcce1-db37-4dbd-a566-6fc6c79f5e69",
+      "itemID": 125899,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_AhriRWSkillshotDodges",
+    "mNameTraKey": "stat_stone_name_AhriRWSkillshotDodges",
+    "stoneName": "AhriRWSkillshotDodges",
+    "~class": "StatStoneData"
+  },
+  "0x6e0ae255": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "162aac1b-8708-48f8-bd6c-58e743afa276",
+      "itemID": 125383,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "AhriStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x87debe7c": {
+    "ObjectName": "AhriQReturnMissile",
+    "mScriptName": "AhriQReturnMissile",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 14346,
+      "mAlternateName": "AhriOrbofDeception",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            35.0,
+            55.0,
+            75.0,
+            95.0,
+            115.0,
+            135.0,
+            155.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "LuxLightStrikeKugel.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 100.0,
+      "mMissileEffectKey": "Ahri_Q_mis_02",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mAcceleration": 1900.0,
+          "mInitialSpeed": 60.0,
+          "mMaxSpeed": 2600.0,
+          "mMinSpeed": 60.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "root",
+          "mUseHeightOffsetAtEnd": true,
+          "mVisualsTrackHiddenTargets": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "~class": "EnterFOWVisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "missileSpeed": 60.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x9d929d96": {
+    "ObjectName": "AhriQMissile",
+    "mScriptName": "AhriQMissile",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "AhriOrbofDeception",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            20.0,
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "LuxLightStrikeKugel.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mMissileEffectKey": "Ahri_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mAcceleration": -3200.0,
+          "mInitialSpeed": 2500.0,
+          "mMaxSpeed": 2500.0,
+          "mMinSpeed": 400.0,
+          "mStartBoneName": "",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 2500.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x9ec33697": {
+    "catalogEntry": {
+      "contentId": "9dff1c82-36ac-4097-bfc1-d3af137fbb3e",
+      "itemID": 66600148,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x4482545b",
+      "0x9f9e89bc",
+      "0x6e0ae255"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x9f9e89bc": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "89003414-8f90-445f-9b76-45b2f3c850d6",
+      "itemID": 125382,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "AhriTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xab059827": {
+    "catalogEntry": {
+      "contentId": "0a0683f9-f1a2-4545-af41-3de52146714c",
+      "itemID": 66600002,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x1a142d0f",
+      "0xb57fd8b6",
+      "0x425429e5",
+      "0x44838ea4"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xac0599ba": {
+    "catalogEntry": {
+      "contentId": "50ab2677-aede-4cdb-a563-a395c43f73b5",
+      "itemID": 66600370,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x3fc7446d",
+      "0x4f6db13f",
+      "0x67cca301"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xae80f79": {
+    "ObjectName": "AhriSkin86Manager",
+    "mScriptName": "AhriSkin86Manager",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "GoldToNextForm",
+          "mValues": [
+            2000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0,
+            6000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SecondsOutOfCombatTillTransform",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SecondsOutOfCombatTillEmote",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb31aa1": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "middle",
+        "mEarlyLevelOverrides": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xb57fd8b6": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      35,
+      85,
+      175,
+      200,
+      250,
+      100
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "05ff143b-695b-45f7-90ea-d2e46cef44fa",
+      "itemID": 125330,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_AhriDoubleQHits",
+    "mNameTraKey": "stat_stone_name_AhriDoubleQHits",
+    "stoneName": "AhriDoubleQHits",
+    "~class": "StatStoneData"
+  },
+  "0xbfd08f86": {
+    "ObjectName": "AhriSkin85Manager",
+    "mScriptName": "AhriSkin85Manager",
+    "~class": "SpellObject"
+  },
+  "0xd2e3b9a": {
+    "ObjectName": "AhriSkin89Manager",
+    "mScriptName": "AhriSkin89Manager",
+    "~class": "SpellObject"
+  },
+  "0xeb5d8742": {
+    "ObjectName": "AhriWMissile",
+    "mScriptName": "AhriWMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        5.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "luaOnMissileUpdateDistanceInterval": 75.0,
+      "mAffectsTypeFlags": 7183,
+      "mAlternateName": "AhriFoxFire",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 4,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.699999988079071,
+      "mEffectAmount": [
+        {
+          "value": [
+            40.0,
+            90.0,
+            140.0,
+            190.0,
+            240.0,
+            290.0,
+            340.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "spine",
+      "mImgIconName": [
+        "Annie_Disintegrate.dds"
+      ],
+      "mMissileEffectKey": "Ahri_W_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mAngularVelocity": -2.6500000953674316,
+          "mLifetime": 5.0,
+          "mLinearVelocity": 900.0,
+          "mStartBoneName": "chest",
+          "~class": "CircleMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mTargetControlsVisibility": true,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 900.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf82834e6": {
+    "ObjectName": "AhriEMissile",
+    "mScriptName": "AhriEMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "castRangeDisplayOverride": [
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "AhriSeduce",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            80.0,
+            135.0,
+            190.0,
+            245.0,
+            300.0,
+            355.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            2.0,
+            2.25,
+            2.5,
+            2.75,
+            3.0,
+            3.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "spine",
+      "mHitEffectKey": "Ahri_E_tar",
+      "mImgIconName": [
+        "FallenAngel_DarkBinding.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mMissileEffectKey": "Ahri_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnHit"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1550.0,
+          "mStartBoneName": "BUFFBONE_CSTM_WEAPON_1",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "missileSpeed": 1550.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/CharacterRecords/Root": {
+    "0xc1984296": [
+      "0x9d929d96",
+      "0x87debe7c",
+      "0xeb5d8742",
+      "Shared/Spells/BaseSpell",
+      "0xf82834e6",
+      "0x5aa54d24",
+      "0x0",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "0xc5c48b41": 1,
+    "acquisitionRange": 525.0,
+    "armorPerLevel": 4.199999809265137,
+    "attackRange": 550.0,
+    "attackSpeed": 0.6679999828338623,
+    "attackSpeedPerLevel": 2.200000047683716,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 21.0,
+    "baseDamage": 53.0,
+    "baseHP": 590.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 0.5,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 3.0,
+      "attackRank": 3,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 103,
+      "defenseRank": 4,
+      "description": "game_character_description_Ahri",
+      "difficultyRank": 5,
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "medium": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "roles": "MAGE",
+      "searchTags": "mage",
+      "searchTagsSecondary": "assassin",
+      "sound": {
+        "attack": [
+          "Cardmaster_Attack1.wav",
+          "Cardmaster_Attack2.wav",
+          "Cardmaster_Attack3.wav",
+          "Cardmaster_Attack4.wav"
+        ],
+        "click": [
+          "Cardmaster_Click1.wav",
+          "Cardmaster_Click2.wav",
+          "Cardmaster_Click3.wav",
+          "Cardmaster_Click4.wav"
+        ],
+        "death": "Cardmaster_Death.wav",
+        "move": [
+          "Cardmaster_Move1.wav",
+          "Cardmaster_Move2.wav",
+          "Cardmaster_Move3.wav",
+          "Cardmaster_Move4.wav"
+        ],
+        "ready": "Cardmaster_Ready2.wav",
+        "~class": "ToolSoundData"
+      },
+      "spellData": [
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Reveals all enemy Champions and slows their movement speed for a short duration.",
+          "displayName": "Destiny",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+        "mAttackName": "AhriCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "AhriBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "AhriQMissile",
+      "AhriQReturnMissile",
+      "AhriWMissile",
+      "BaseSpell",
+      "AhriEMissile",
+      "AhriRMissile",
+      "",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 9446656,
+    "healthBarHeight": 94.0,
+    "hpPerLevel": 104.0,
+    "hpRegenPerLevel": 0.11999999731779099,
+    "mAbilities": [
+      "Characters/Ahri/Spells/AhriRAbility",
+      "Characters/Ahri/Spells/AhriQAbility",
+      "Characters/Ahri/Spells/AhriWAbility",
+      "Characters/Ahri/Spells/AhriEAbility",
+      "Characters/Ahri/Spells/AhriPassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      3,
+      0
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Ahri",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "0x112db766"
+        ],
+        "mParentPassiveBuff": "Characters/Ahri/Spells/AhriPassiveAbility/AhriPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            14
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Ahri/Spells/AhriSkin14Manager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            27
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Ahri/Spells/AhriSkin27Manager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            86
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0xae80f79",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            85
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0xbfd08f86",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "UseValidParentForChroma": false,
+          "skinIds": [
+            89
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0xd2e3b9a",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Ahri/Spells/AhriPassiveAbility/AhriPassive",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Ahri",
+    "passive1IconName": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_SoulEater2.dds",
+    "passiveLuaName": "AhriPassive",
+    "passiveName": "game_character_passiveName_Ahri",
+    "passiveToolTip": "game_character_passiveDescription_Ahri",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 418.0,
+      "arBaseStaticRegen": 1.600000023841858,
+      "arPerLevel": 25.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "secondaryAbilityResource": {
+      "arAllowMaxValueToBeOverridden": true,
+      "arBase": 3.0,
+      "arBaseStaticRegen": 0.0,
+      "arDisplayAsPips": true,
+      "arIncrements": 3.0,
+      "arOverrideSmallPipName": "AhriLarge",
+      "arOverrideSpacerName": "PipSpacer1",
+      "arType": 12,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 135.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "AhriQAbility/AhriQ",
+      "AhriWAbility/AhriW",
+      "AhriEAbility/AhriE",
+      "AhriRAbility/AhriR"
+    ],
+    "spells": [
+      "Characters/Ahri/Spells/AhriQAbility/AhriQ",
+      "Characters/Ahri/Spells/AhriWAbility/AhriW",
+      "Characters/Ahri/Spells/AhriEAbility/AhriE",
+      "Characters/Ahri/Spells/AhriRAbility/AhriR"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "AhriBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Ahri/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Ahri/Spells/AhriBasicAttack": {
+    "ObjectName": "AhriBasicAttack",
+    "mScriptName": "AhriBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23579999804496765,
+      "mAffectsTypeFlags": 5327,
+      "mApplyAttackDamage": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ahri_BA_tar",
+      "mMissileEffectKey": "Ahri_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 1750.0,
+          "mStartBoneName": "R_hand",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/Spells/AhriBasicAttack2": {
+    "ObjectName": "AhriBasicAttack2",
+    "mScriptName": "AhriBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23579999804496765,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Attack2",
+      "mApplyAttackDamage": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ahri_BA_tar",
+      "mMissileEffectKey": "Ahri_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 1750.0,
+          "mStartBoneName": "R_hand",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/Spells/AhriCritAttack": {
+    "ObjectName": "AhriCritAttack",
+    "mScriptName": "AhriCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23579999804496765,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Crit",
+      "mApplyAttackDamage": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ahri_BA_tar",
+      "mMissileEffectKey": "Ahri_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 1750.0,
+          "mStartBoneName": "R_hand",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/Spells/AhriEAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Ahri/Spells/AhriEAbility/AhriE",
+      "0xf82834e6"
+    ],
+    "mName": "AhriEAbility",
+    "mRootSpell": "Characters/Ahri/Spells/AhriEAbility/AhriE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Ahri/Spells/AhriEAbility/AhriE": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowPercent",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "CharmDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "CharmDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 60.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32768,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "AhriE",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_HEAD_LOC",
+              "effectKey": "Ahri_E_buf",
+              "~class": "PersistentVfxData"
+            },
+            {
+              "boneName": "C_BUFFBONE_GLB_LAYOUT_LOC",
+              "effectKey": "0x44fc6ec4",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_AhriSeduce",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AhriE",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            40.0,
+            80.0,
+            120.0,
+            160.0,
+            200.0,
+            240.0,
+            280.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercent",
+          "mValues": [
+            -0.6499999761581421,
+            -0.6499999761581421,
+            -0.6499999761581421,
+            -0.6499999761581421,
+            -0.6499999761581421,
+            -0.6499999761581421,
+            -0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CharmDuration",
+          "mValues": [
+            1.0499999523162842,
+            1.2000000476837158,
+            1.350000023841858,
+            1.5,
+            1.649999976158142,
+            1.7999999523162842,
+            1.9500000476837158
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        975.0,
+        975.0,
+        975.0,
+        975.0,
+        975.0,
+        975.0,
+        975.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 13327,
+      "mAlternateName": "AhriSeduce",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Duration",
+                  "type": "CharmDuration",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AhriSeduce_Name",
+            "keySummary": "Spell_AhriSeduce_Summary",
+            "keyTooltip": "Spell_AhriSeduce_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_AhriSeduce_TooltipExtendedBelowLine",
+            "keyTooltipSimple": "Spell_AhriE_TooltipSimple"
+          },
+          "mObjectName": "AhriE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "head",
+      "mImgIconName": [
+        "ASSETS/Characters/Ahri/HUD/Icons2D/Icons_Ahri_E.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell",
+        "Trait_SignatureSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/Spells/AhriIdleOrbVFXBuff": {
+    "ObjectName": "AhriIdleOrbVFXBuff",
+    "mScriptName": "AhriIdleOrbVFXBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/Spells/AhriPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Ahri/Spells/AhriPassiveAbility/AhriPassive"
+    ],
+    "mName": "AhriPassiveAbility",
+    "mRootSpell": "Characters/Ahri/Spells/AhriPassiveAbility/AhriPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Ahri/Spells/AhriPassiveAbility/AhriPassive": {
+    "ObjectName": "AhriPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AhriPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AhriPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "TakedownWindow",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxStacks",
+          "mValues": [
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 32,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Buff_AhriP_Name",
+            "keySummary": "Buff_AhriP_TooltipSimple",
+            "keyTooltip": "Buff_AhriP_Tooltip"
+          },
+          "mObjectName": "AhriPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ahri/HUD/Icons2D/Icons_Ahri_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "ChampionHeal": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 165.0,
+              "mStartValue": 75.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.30000001192092896,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MinionHeal": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 95.0,
+              "mStartValue": 35.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.20000000298023224,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/Spells/AhriQAbility": {
+    "mChildSpells": [
+      "Characters/Ahri/Spells/AhriQAbility/AhriQ",
+      "0x9d929d96",
+      "0x87debe7c"
+    ],
+    "mName": "AhriQAbility",
+    "mRootSpell": "Characters/Ahri/Spells/AhriQAbility/AhriQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Ahri/Spells/AhriQAbility/AhriQ": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "AhriQ",
+    "mScriptName": "AhriQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            15.0,
+            40.0,
+            65.0,
+            90.0,
+            115.0,
+            140.0,
+            165.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castRadius": [
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        970.0,
+        970.0,
+        970.0,
+        970.0,
+        970.0,
+        970.0,
+        970.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 13327,
+      "mAlternateName": "AhriOrbofDeception",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                110.0,
+                110.0,
+                110.0,
+                110.0,
+                110.0,
+                110.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AhriOrbofDeception_Name",
+            "keySummary": "Spell_AhriOrbofDeception_Summary",
+            "keyTooltip": "Spell_AhriOrbofDeception_Tooltip",
+            "keyTooltipSimple": "Spell_AhriQ_TooltipSimple"
+          },
+          "mObjectName": "AhriQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Ahri/HUD/Icons2D/Icons_Ahri_Q.dds",
+        "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_SoulEater.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        55.0,
+        65.0,
+        75.0,
+        85.0,
+        95.0,
+        95.0
+      ],
+      "missileSpeed": 1100.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/Spells/AhriRAbility": {
+    "mChildSpells": [
+      "Characters/Ahri/Spells/AhriRAbility/AhriR",
+      "0x5aa54d24"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "AhriRAbility",
+    "mRootSpell": "Characters/Ahri/Spells/AhriRAbility/AhriR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Ahri/Spells/AhriRAbility/AhriR": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "RCalculatedDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "RDashDistance",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "AhriR",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "OwnerCondition": {
+            "mValueA": {
+              "Spell": "Characters/Ahri/Spells/AhriRAbility/AhriR",
+              "~class": "BuffCounterDynamicMaterialFloatDriver"
+            },
+            "mValueB": {
+              "mValue": 1.0,
+              "~class": "FloatLiteralMaterialDriver"
+            },
+            "~class": "FloatComparisonMaterialDriver"
+          },
+          "PersistentVfxs": [
+            {
+              "boneName": "C_Buffbone_Glb_Layout_Loc",
+              "effectKey": "Ahri_R_Indicator_1",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        },
+        {
+          "OwnerCondition": {
+            "mValueA": {
+              "Spell": "Characters/Ahri/Spells/AhriRAbility/AhriR",
+              "~class": "BuffCounterDynamicMaterialFloatDriver"
+            },
+            "mValueB": {
+              "mValue": 2.0,
+              "~class": "FloatLiteralMaterialDriver"
+            },
+            "~class": "FloatComparisonMaterialDriver"
+          },
+          "PersistentVfxs": [
+            {
+              "boneName": "C_Buffbone_Glb_Layout_Loc",
+              "effectKey": "Ahri_R_Indicator_2",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        },
+        {
+          "OwnerCondition": {
+            "mValueA": {
+              "Spell": "Characters/Ahri/Spells/AhriRAbility/AhriR",
+              "~class": "BuffCounterDynamicMaterialFloatDriver"
+            },
+            "mValueB": {
+              "mValue": 3.0,
+              "~class": "FloatLiteralMaterialDriver"
+            },
+            "~class": "FloatComparisonMaterialDriver"
+          },
+          "PersistentVfxs": [
+            {
+              "boneName": "C_Buffbone_Glb_Layout_Loc",
+              "effectKey": "Ahri_R_Indicator_3",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_AhriTumble",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AhriR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "RBaseDamage",
+          "mValues": [
+            25.0,
+            75.0,
+            125.0,
+            175.0,
+            225.0,
+            275.0,
+            325.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RMaxTargetsPerCast",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RMaxCasts",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RDashDistance",
+          "mValues": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RBaseDashSpeed",
+          "mValues": [
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RRecastWindow",
+          "mValues": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RAcquisitionRange",
+          "mValues": [
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RDashCooldown",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RAPCoefficient",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RResetCasts",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PDurationExtension",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "RResetCasts",
+              "mValues": [
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        140.0,
+        140.0,
+        120.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "AhriTumble",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "RBaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AhriTumble_Name",
+            "keySummary": "Spell_AhriTumble_Summary",
+            "keyTooltip": "Spell_AhriTumble_Tooltip",
+            "keyTooltipSimple": "Spell_AhriR_TooltipSimple"
+          },
+          "mObjectName": "AhriR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ahri/HUD/Icons2D/Icons_Ahri_R.dds"
+      ],
+      "mSpellCalculations": {
+        "RCalculatedDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "RBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "rAPCoefficient",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "missileSpeed": 2200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/Spells/AhriSkin14Manager": {
+    "ObjectName": "AhriSkin14Manager",
+    "mScriptName": "AhriSkin14Manager",
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/Spells/AhriSkin27Manager": {
+    "ObjectName": "AhriSkin27Manager",
+    "mScriptName": "AhriSkin27Manager",
+    "~class": "SpellObject"
+  },
+  "Characters/Ahri/Spells/AhriWAbility": {
+    "mChildSpells": [
+      "Characters/Ahri/Spells/AhriWAbility/AhriW",
+      "0x151ec365",
+      "0xeb5d8742"
+    ],
+    "mName": "AhriWAbility",
+    "mRootSpell": "Characters/Ahri/Spells/AhriWAbility/AhriW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Ahri/Spells/AhriWAbility/AhriW": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "SingleFireDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MovementSpeed",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "AhriW",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AhriFoxFire",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AhriW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MovementSpeed",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MovementSpeedDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionBonusDamageMultiplier",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionBonusDamageThreshold",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RepeatDamageMod",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AcquisitionRange",
+          "mValues": [
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusAcquisitionRange",
+          "mValues": [
+            725.0,
+            725.0,
+            725.0,
+            725.0,
+            725.0,
+            725.0,
+            725.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "InitialDelay",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SecondaryDelay",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FlameDuration",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "OrbitRadius",
+          "mValues": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "MovementSpeed",
+              "mValues": [
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                45.0,
+                70.0,
+                95.0,
+                120.0,
+                145.0,
+                170.0,
+                195.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "castRadiusSecondary": [
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "castRangeDisplayOverride": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 2048,
+      "mAlternateName": "AhriFoxFire",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AhriFoxFire_Name",
+            "keySummary": "Spell_AhriFoxFire_Summary",
+            "keyTooltip": "Spell_AhriFoxFire_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_AhriFoxFire_TooltipExtendedBelowLine",
+            "keyTooltipSimple": "Spell_AhriW_TooltipSimple"
+          },
+          "mObjectName": "AhriW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "spine",
+      "mImgIconName": [
+        "ASSETS/Characters/Ahri/HUD/Icons2D/Icons_Ahri_W.dds"
+      ],
+      "mSpellCalculations": {
+        "MultiFireDamage": {
+          "mModifiedGameCalculation": "SingleFireDamage",
+          "mMultiplier": {
+            "mDataValue": "RepeatDamageMod",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculationModified"
+        },
+        "SingleFireDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "missileSpeed": 1800.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

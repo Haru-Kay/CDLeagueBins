@@ -1,0 +1,7455 @@
+{
+  "0x16ef8788": {
+    "catalogEntry": {
+      "contentId": "c1827f66-6df9-452a-81ef-a2ef8cb2032c",
+      "itemID": 66600514,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xbeb3b982",
+      "0xff5b0349",
+      "0x39ccffe5"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x19ef8c41": {
+    "catalogEntry": {
+      "contentId": "5629224b-d93f-4b41-b33c-a00ae393cf5c",
+      "itemID": 66600136,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xcb9d3416",
+      "0x30ef8c14",
+      "0xfad771dc"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x30ef8c14": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      65,
+      175,
+      325,
+      400,
+      500,
+      200
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "0437fc71-a001-48d6-8a37-46c0bbf1bb2b",
+      "itemID": 289,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_YasuoWBlocks",
+    "mNameTraKey": "stat_stone_name_YasuoWBlocks",
+    "stoneName": "YasuoWBlocks",
+    "~class": "StatStoneData"
+  },
+  "0x39ccffe5": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9,
+      20,
+      45,
+      55,
+      65,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "6d4be337-06c8-4288-abb9-e5875687bb5b",
+      "itemID": 126328,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_YasuoEHits",
+    "mNameTraKey": "stat_stone_name_YasuoEHits",
+    "stoneName": "YasuoEHits",
+    "~class": "StatStoneData"
+  },
+  "0x689564e5": {
+    "catalogEntry": {
+      "contentId": "12aaee6e-6909-4e79-835c-26f91bf908de",
+      "itemID": 66600221,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xa5a1bc46",
+      "0xefb3f5d7",
+      "0x9d0519be"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x730bf95c": {
+    "ObjectName": "YasuoSkin87Manager",
+    "mScriptName": "YasuoSkin87Manager",
+    "~class": "SpellObject"
+  },
+  "0x81cf1b08": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "middle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x9d0519be": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "68a51516-fcd7-43b7-97f4-7cd2e6746ab5",
+      "itemID": 125602,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "YasuoStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xa5a1bc46": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "6d13180b-7e4e-448d-ad56-728334777973",
+      "itemID": 125600,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "YasuoEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xbeb3b982": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5000,
+      13000,
+      25000,
+      30000,
+      38000,
+      15000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "222cb277-f3d4-4b69-ab46-e5683e0c17cf",
+      "itemID": 126327,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_YasuoPBlocks",
+    "mNameTraKey": "stat_stone_name_YasuoPBlocks",
+    "stoneName": "YasuoPBlocks",
+    "~class": "StatStoneData"
+  },
+  "0xcb9d3416": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2,
+      4,
+      8,
+      10,
+      15,
+      5
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ce950611-6ca4-4d87-9c07-538a357cd889",
+      "itemID": 99228,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_YasuoRMulti",
+    "mNameTraKey": "stat_stone_name_YasuoRMulti",
+    "stoneName": "YasuoRMulti",
+    "~class": "StatStoneData"
+  },
+  "0xdc3a3a15": {
+    "ObjectName": "YasuoQ3WAutoSmartCast",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQ3Open",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQ3WAutoSmartCast",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0
+      ],
+      "castRangeDisplayOverride": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        6.5,
+        6.0,
+        5.5,
+        5.0,
+        4.5,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.75,
+      "delayTotalTimePercent": -0.75,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "YasuoQW",
+      "mAnimationName": "Spell1d",
+      "mAnimationWinddownName": "Spell1_Fire",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mDoNotNeedToFaceTarget": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            10.0,
+            25.0,
+            40.0,
+            55.0,
+            70.0,
+            85.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            85.0,
+            90.0,
+            95.0,
+            100.0,
+            105.0,
+            110.0,
+            115.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            85.0,
+            95.0,
+            105.0,
+            115.0,
+            125.0,
+            135.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.5,
+            6.0,
+            5.5,
+            5.0,
+            4.5,
+            4.0,
+            3.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q3.dds",
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q3.dds"
+      ],
+      "mLineWidth": 90.0,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xefb3f5d7": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "e292bb97-6b8b-40d2-9ea8-50285df3b4ac",
+      "itemID": 125601,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "YasuoTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xfad771dc": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9,
+      20,
+      45,
+      55,
+      65,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d2499ffb-3380-41fe-a400-adc2658295b9",
+      "itemID": 290,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_YasuoLongRangeQ3",
+    "mNameTraKey": "stat_stone_name_YasuoLongRangeQ3",
+    "stoneName": "YasuoLongRangeQ3",
+    "~class": "StatStoneData"
+  },
+  "0xff5b0349": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      10,
+      25,
+      30,
+      35,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4e5a814e-cbf2-49d1-bf4c-32d9c7229e3f",
+      "itemID": 126326,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_YasuoEQCombos",
+    "mNameTraKey": "stat_stone_name_YasuoEQCombos",
+    "stoneName": "YasuoEQCombos",
+    "~class": "StatStoneData"
+  },
+  "Characters/Yasuo/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Yasuo/Spells/YasuoDummySpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 400.0,
+    "armorPerLevel": 4.599999904632568,
+    "attackRange": 175.0,
+    "attackSpeed": 0.6970000267028809,
+    "attackSpeedPerLevel": 3.5,
+    "attackSpeedRatio": 0.6700000166893005,
+    "baseArmor": 32.0,
+    "baseDamage": 60.0,
+    "baseHP": 590.0,
+    "baseMoveSpeed": 345.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.2999999523162842,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.07999999821186066,
+      "mAttackDelayCastOffsetPercentAttackSpeedRatio": 1.0,
+      "mAttackProbability": 1.0,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "PARFadeColor": "0 0 0",
+      "attackRank": 8,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 157,
+      "classification": "Strong",
+      "defenseRank": 4,
+      "description": "game_character_description_Yasuo",
+      "difficultyRank": 10,
+      "magicRank": 4,
+      "mapAIPresence": {
+        "0": {
+          "intro": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Yasuo",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "assassin",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercentAttackSpeedRatio": 1.0,
+        "mAttackName": "YasuoCritAttack",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "YasuoCritAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "YasuoCritAttack3",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "YasuoCritAttack4",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 2.5,
+    "extraAttacks": [
+      {
+        "mAttackName": "YasuoBasicAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "YasuoBasicAttack3",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "YasuoBasicAttack4",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "YasuoDummySpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398092,
+    "healthBarHeight": 103.0,
+    "hpPerLevel": 110.0,
+    "hpRegenPerLevel": 0.18000000715255737,
+    "mAbilities": [
+      "Characters/Yasuo/Spells/YasuoRAbility",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility",
+      "Characters/Yasuo/Spells/YasuoWAbility",
+      "Characters/Yasuo/Spells/YasuoEAbility",
+      "Characters/Yasuo/Spells/YasuoPassiveAbility"
+    ],
+    "mCharacterName": "Yasuo",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Yasuo/Spells/YasuoPassiveCounter"
+        ],
+        "mParentPassiveBuff": "Characters/Yasuo/Spells/YasuoPassiveAbility/YasuoPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mComponentBuffs": [
+          "Characters/Yasuo/Spells/YasuoIsInCombat",
+          "Characters/Yasuo/Spells/YasuoNotInCombat"
+        ],
+        "mParentPassiveBuff": "Characters/Yasuo/Spells/YasuoAnimationManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            54,
+            55
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Yasuo/Spells/YasuoSkin54Manager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            87
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x730bf95c",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Yasuo/Spells/YasuoPassiveAbility/YasuoPassive",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NullifyingOrb",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Precision/PresenceOfMind",
+          "mReplaceWith": "Perks/Styles/Precision/Triumph",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "name": "game_character_displayname_Yasuo",
+    "passive1IconName": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Passive.dds",
+    "passiveLuaName": "YasuoPassive",
+    "passiveName": "game_character_passiveName_Yasuo",
+    "passiveToolTip": "game_character_passiveDescription_Yasuo",
+    "pathfindingCollisionRadius": 32.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arAllowMaxValueToBeOverridden": true,
+      "arBaseStaticRegen": 0.0,
+      "arIncrements": 100.0,
+      "arMaxSegments": 10,
+      "arType": 11,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 180.0,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "YasuoQ1WrapperAbility/YasuoQ1Wrapper",
+      "YasuoWAbility/YasuoW",
+      "YasuoEAbility/YasuoE",
+      "YasuoRAbility/YasuoR"
+    ],
+    "spells": [
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1Wrapper",
+      "Characters/Yasuo/Spells/YasuoWAbility/YasuoW",
+      "Characters/Yasuo/Spells/YasuoEAbility/YasuoE",
+      "Characters/Yasuo/Spells/YasuoRAbility/YasuoR"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "YasuoBasicAttack",
+      "YasuoBasicAttack",
+      "YasuoBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Yasuo/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Yasuo/Spells/YasuoAnimationManager": {
+    "ObjectName": "YasuoAnimationManager",
+    "mScriptName": "YasuoAnimationManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoBasicAttack": {
+    "ObjectName": "YasuoBasicAttack",
+    "mScriptName": "YasuoBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Attack_First",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Yasuo_BA_hit_tar_01",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoBasicAttack2": {
+    "ObjectName": "YasuoBasicAttack2",
+    "mScriptName": "YasuoBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "DianaBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Yasuo_BA_hit_tar_02",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoBasicAttack3": {
+    "ObjectName": "YasuoBasicAttack3",
+    "mScriptName": "YasuoBasicAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "DianaBasicAttack3",
+      "mAnimationName": "Attack3",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Yasuo_BA_hit_tar_03",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoBasicAttack4": {
+    "ObjectName": "YasuoBasicAttack4",
+    "mScriptName": "YasuoBasicAttack4",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Attack4",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Yasuo_BA_hit_tar_04",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoBasicAttack5": {
+    "ObjectName": "YasuoBasicAttack5",
+    "mScriptName": "YasuoBasicAttack5",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Attack_first",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectName": "Yasuo_basic_attack_hit_tar_1.troy",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoBasicAttack6": {
+    "ObjectName": "YasuoBasicAttack6",
+    "mScriptName": "YasuoBasicAttack6",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Attack3",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectName": "Aatrox_basic_hit_effect_01.troy",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoCritAttack": {
+    "ObjectName": "YasuoCritAttack",
+    "mScriptName": "YasuoCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Attack_First",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Yasuo_BA_Crit_hit_01",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoCritAttack2": {
+    "ObjectName": "YasuoCritAttack2",
+    "mScriptName": "YasuoCritAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "DianaBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Yasuo_BA_Crit_hit_02",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoCritAttack3": {
+    "ObjectName": "YasuoCritAttack3",
+    "mScriptName": "YasuoCritAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "DianaBasicAttack3",
+      "mAnimationName": "Attack3",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Yasuo_BA_Crit_hit_03",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoCritAttack4": {
+    "ObjectName": "YasuoCritAttack4",
+    "mScriptName": "YasuoCritAttack4",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Attack4",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Yasuo_BA_Crit_hit_04",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoCritAttack5": {
+    "ObjectName": "YasuoCritAttack5",
+    "mScriptName": "YasuoCritAttack5",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Attack_first",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectName": "Yasuo_basic_attack_hit_tar_1.troy",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoCritMod": {
+    "ObjectName": "YasuoCritMod",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoCritMod",
+    "mSpell": {
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoDash": {
+    "ObjectName": "YasuoDash",
+    "mScriptName": "YasuoDash",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "YasuoDashWrapper",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mCoefficient2": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            10.0,
+            40.0,
+            70.0,
+            100.0,
+            130.0,
+            160.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            550.0,
+            650.0,
+            750.0,
+            850.0,
+            950.0,
+            1050.0,
+            1150.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_E.dds"
+      ],
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoDashGhosted": {
+    "ObjectName": "YasuoDashGhosted",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoDashGhosted",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoDashScalar": {
+    "ObjectName": "YasuoDashScalar",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoDashScalar",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoDashScalar",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 20,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            0.0,
+            0.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            10.0,
+            20.0,
+            30.0,
+            0.0,
+            0.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_E.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoDashWrapper": {
+    "ObjectName": "YasuoDashWrapper",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoDashWrapper",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoDashWrapper",
+    "mSpell": {
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRange": [
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "YasuoDashWrapper",
+      "mAnimationName": "Channel",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mCoefficient2": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            60.0,
+            70.0,
+            80.0,
+            90.0,
+            100.0,
+            110.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.4000000059604645,
+            0.30000001192092896,
+            0.20000000298023224,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.5,
+            15.0,
+            17.5,
+            20.0,
+            22.5,
+            25.0,
+            27.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        0,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_E.dds"
+      ],
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoDashWrapperChaos": {
+    "ObjectName": "YasuoDashWrapperChaos",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoDashWrapperChaos",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoDashWrapperChaos",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoDummySpell": {
+    "ObjectName": "YasuoDummySpell",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_OlafRagnarok",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoDummySpell",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 20,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            0.0,
+            0.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            10.0,
+            20.0,
+            30.0,
+            0.0,
+            0.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoEAbility": {
+    "mChildSpells": [
+      "Characters/Yasuo/Spells/YasuoEAbility/YasuoE"
+    ],
+    "mName": "YasuoEAbility",
+    "mRootSpell": "Characters/Yasuo/Spells/YasuoEAbility/YasuoE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Yasuo/Spells/YasuoEAbility/YasuoE": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 2,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 256,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16777216,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "YasuoE",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoDashWrapper",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MaxStacks",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StackDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            55.0,
+            70.0,
+            85.0,
+            100.0,
+            115.0,
+            130.0,
+            145.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRange": [
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0
+      ],
+      "cooldownTime": [
+        0.5,
+        0.5,
+        0.4000000059604645,
+        0.30000001192092896,
+        0.20000000298023224,
+        0.10000000149011612,
+        0.10000000149011612
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Channel",
+      "mCantCancelWhileWindingUp": true,
+      "mCastRequirementsTarget": [
+        {
+          "mBuffName": "0xefb28843",
+          "mInvertResult": true,
+          "~class": "HasBuffCastRequirement"
+        }
+      ],
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_PerUnitCooldown",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_YasuoE_Name",
+            "keySummary": "Spell_YasuoE_Summary",
+            "keyTooltip": "Spell_YasuoE_Tooltip"
+          },
+          "mObjectName": "YasuoE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesNotConsumeCooldown": true,
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.4000000059604645,
+            0.30000001192092896,
+            0.20000000298023224,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        0,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_E.dds"
+      ],
+      "mSpellCalculations": {
+        "BonusDamagePerStack": {
+          "mModifiedGameCalculation": "TotalDamage",
+          "mMultiplier": {
+            "mNumber": 0.25,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoEDash": {
+    "ObjectName": "YasuoEDash",
+    "mScriptName": "YasuoEDash",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 7183,
+      "mAlternateName": "YasuoDashWrapper",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_E.dds"
+      ],
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoEQCombo": {
+    "ObjectName": "YasuoEQCombo",
+    "mScriptName": "YasuoEQCombo",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadiusSecondary": [
+        425.0,
+        425.0,
+        425.0,
+        425.0,
+        425.0,
+        425.0,
+        425.0
+      ],
+      "castRange": [
+        270.0,
+        270.0,
+        270.0,
+        270.0,
+        270.0,
+        270.0,
+        270.0
+      ],
+      "castRangeDisplayOverride": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "DariusCleave",
+      "mAnimationName": "Spell3b",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.23440000414848328,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                425.0,
+                425.0,
+                425.0,
+                425.0,
+                425.0,
+                425.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/darius_cleave_outside.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0499999523162842,
+      "mCoefficient2": 0.699999988079071,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            35.0,
+            70.0,
+            105.0,
+            140.0,
+            175.0,
+            210.0,
+            245.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoEQComboAnimLock": {
+    "ObjectName": "YasuoEQComboAnimLock",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoEQComboAnimLock",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoEQComboSoundHit": {
+    "ObjectName": "YasuoEQComboSoundHit",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_OlafRagnarok",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoEQComboSoundHit",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 20,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            0.0,
+            0.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            10.0,
+            20.0,
+            30.0,
+            0.0,
+            0.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoIsInCombat": {
+    "ObjectName": "YasuoIsInCombat",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoIsInCombat",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoNotInCombat": {
+    "ObjectName": "YasuoNotInCombat",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoNotInCombat",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Yasuo/Spells/YasuoPassiveAbility/YasuoPassive"
+    ],
+    "mName": "YasuoPassiveAbility",
+    "mRootSpell": "Characters/Yasuo/Spells/YasuoPassiveAbility/YasuoPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Yasuo/Spells/YasuoPassiveAbility/YasuoPassive": {
+    "ObjectName": "YasuoPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "YasuoCritToAD",
+          "mValues": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CritChanceMultiplier",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentCritDamageReduction",
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_YasuoPassive_Name",
+            "keySummary": "Spell_YasuoPassive_Summary",
+            "keyTooltip": "Spell_YasuoPassive_Tooltip",
+            "keyTooltipExtended": "Spell_YasuoPassive_TooltipExtended"
+          },
+          "mObjectName": "YasuoPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6499999761581421,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+      "mHitEffectOrientType": 0,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Passive.dds"
+      ],
+      "mLookAtPolicy": 0,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "0x74ce5438": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": -5.0,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -5.0,
+                  "mLevel": 13,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -5.0,
+                  "mLevel": 19,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -5.0,
+                  "mLevel": 25,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 55.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "CurrentCritDamage": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mCoefficient": 1.0,
+              "mStat": 9,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        },
+        "ShieldValue": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 600.0,
+              "mScaleByStatProgressionMultiplier": true,
+              "mStartValue": 125.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1200.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoPassiveCounter": {
+    "ObjectName": "YasuoPassiveCounter",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoPassiveMSCharge",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoPassiveCounter",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoPassiveMSCharge": {
+    "ObjectName": "YasuoPassiveMSCharge",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoPassiveMSCharge",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoPassiveMSCharge",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoPassiveMSShieldOn": {
+    "ObjectName": "YasuoPassiveMSShieldOn",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoPassiveMSShieldOn",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoPassiveMSShieldOn",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 3.4800000190734863,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 65,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mEffectAmount": [
+        {
+          "value": [
+            40.0,
+            80.0,
+            120.0,
+            160.0,
+            200.0,
+            240.0,
+            280.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            14.0,
+            23.0,
+            32.0,
+            41.0,
+            50.0,
+            59.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Passive.dds"
+      ],
+      "mana": [
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoPassiveMovementShield": {
+    "ObjectName": "YasuoPassiveMovementShield",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ItemStatikkShank",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoPassiveMovementShield",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoPassiveShield": {
+    "ObjectName": "YasuoPassiveShield",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoPassiveMSShieldOn",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoPassiveShield",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 3.4800000190734863,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 65,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Passive.dds"
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1Wrapper",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2W",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2Wrapper",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3Mis",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3MisMinion",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3MisW",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3W",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3Wrapper",
+      "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQW"
+    ],
+    "mName": "YasuoQ1WrapperAbility",
+    "mRootSpell": "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1Wrapper",
+    "~class": "AbilityObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ": {
+    "ObjectName": "YasuoQ",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQ",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "YasuoQW",
+      "mAnimationName": "Spell1A",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mCoefficient": 1.0,
+      "mHitBoneName": "root",
+      "mLineWidth": 15.0,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1": {
+    "ObjectName": "YasuoQ1",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQ1",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1A",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1Wrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mHitBoneName": "root",
+      "mLineWidth": 15.0,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1Wrapper": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "KnockUpDurationTOOLTIPONLY",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16777216,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "YasuoQ1Wrapper",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQ1Wrapper",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            -5.0,
+            20.0,
+            45.0,
+            70.0,
+            95.0,
+            120.0,
+            145.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StabRange",
+          "mValues": [
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TornadoRange",
+          "mValues": [
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Cooldown",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StabWidth",
+          "mValues": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SpinWidth",
+          "mValues": [
+            260.0,
+            260.0,
+            260.0,
+            260.0,
+            260.0,
+            260.0,
+            260.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "GatheringStormDuration",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockUpDurationTOOLTIPONLY",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castFrame": 7.5,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.75,
+      "delayTotalTimePercent": -0.75,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "Spell_YasuoQ1Wrapper_Cooldown",
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_YasuoQ1Wrapper_Name",
+            "keySummary": "Spell_YasuoQ1Wrapper_Summary",
+            "keyTooltip": "Spell_YasuoQ1Wrapper_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_YasuoQ1Wrapper_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "YasuoQ1Wrapper",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoNotNeedToFaceTarget": true,
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q1.dds"
+      ],
+      "mLineWidth": 55.0,
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0499999523162842,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDamageCrit": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mStat": 2,
+              "mSubpart": {
+                "mCoefficient": 1.0499999523162842,
+                "mStat": 9,
+                "~class": "StatByCoefficientCalculationPart"
+              },
+              "~class": "StatBySubPartCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_SwapsIntoImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2": {
+    "ObjectName": "YasuoQ2",
+    "mScriptName": "YasuoQ2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1B",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1Wrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mHitBoneName": "root",
+      "mLineWidth": 15.0,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2W": {
+    "ObjectName": "YasuoQ2W",
+    "mScriptName": "YasuoQ2W",
+    "mSpell": {
+      "castFrame": 7.5,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0
+      ],
+      "castRangeDisplayOverride": [
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0
+      ],
+      "cooldownTime": [
+        6.5,
+        6.0,
+        5.5,
+        5.0,
+        4.5,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.75,
+      "delayTotalTimePercent": -0.75,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "YasuoQW",
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mDoNotNeedToFaceTarget": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q2.dds",
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q2.dds"
+      ],
+      "mLineWidth": 55.0,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2Wrapper": {
+    "ObjectName": "YasuoQ2Wrapper",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQ3W",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQ2Wrapper",
+    "mSpell": {
+      "castFrame": 7.5,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.75,
+      "delayTotalTimePercent": -0.75,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1Wrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mDoNotNeedToFaceTarget": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q2.dds"
+      ],
+      "mLineWidth": 55.0,
+      "mSpellTags": [
+        "Trait_SwapsIntoImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3": {
+    "ObjectName": "YasuoQ3",
+    "mScriptName": "YasuoQ3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0,
+        520.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1C",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1Wrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mHitBoneName": "root",
+      "mLineWidth": 15.0,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3Mis": {
+    "ObjectName": "YasuoQ3Mis",
+    "mScriptName": "YasuoQ3Mis",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1d",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.2000000476837158,
+      "mLineWidth": 90.0,
+      "mMissileEffectKey": "Yasuo_Q_wind_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 90.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "buffbone_glb_ground_loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3MisMinion": {
+    "ObjectName": "YasuoQ3MisMinion",
+    "mScriptName": "YasuoQ3MisMinion",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1d",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.2000000476837158,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            66.0,
+            132.0,
+            231.0,
+            308.0,
+            440.0,
+            540.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.75,
+            3.0,
+            3.25,
+            3.5,
+            3.75,
+            4.0,
+            4.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mLineWidth": 100.0,
+      "mMissileEffectKey": "Yasuo_Q_wind_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "buffbone_glb_ground_loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3MisW": {
+    "ObjectName": "YasuoQ3MisW",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQInstaCleave",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQ3MisW",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3W": {
+    "ObjectName": "YasuoQ3W",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQ3W",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQ3W",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0
+      ],
+      "castRangeDisplayOverride": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        6.5,
+        6.0,
+        5.5,
+        5.0,
+        4.5,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.75,
+      "delayTotalTimePercent": -0.75,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "YasuoQW",
+      "mAnimationName": "Spell1d",
+      "mAnimationWinddownName": "Spell1_Fire",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mDoNotNeedToFaceTarget": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q3.dds",
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q3.dds"
+      ],
+      "mLineWidth": 90.0,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3Wrapper": {
+    "ObjectName": "YasuoQ3Wrapper",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQ3W",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQ3Wrapper",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.75,
+      "delayTotalTimePercent": -0.75,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1d",
+      "mAnimationWinddownName": "Spell1_Fire",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1Wrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mDoNotNeedToFaceTarget": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q3.dds"
+      ],
+      "mLineWidth": 90.0,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQW": {
+    "ObjectName": "YasuoQW",
+    "mScriptName": "YasuoQW",
+    "mSpell": {
+      "castFrame": 7.5,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0,
+        3250.0
+      ],
+      "castRangeDisplayOverride": [
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0,
+        475.0
+      ],
+      "cooldownTime": [
+        6.5,
+        6.0,
+        5.5,
+        5.0,
+        4.5,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.75,
+      "delayTotalTimePercent": -0.75,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "YasuoQW",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mDoNotNeedToFaceTarget": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            20.0,
+            20.0,
+            45.0,
+            70.0,
+            95.0,
+            120.0,
+            145.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q1.dds"
+      ],
+      "mLineWidth": 55.0,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQDamage": {
+    "ObjectName": "YasuoQDamage",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQDamage",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQDamage",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQE1": {
+    "ObjectName": "YasuoQE1",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQE1",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCoefficient": 1.0,
+      "mDoNotNeedToFaceTarget": true,
+      "mHitBoneName": "root",
+      "mLineWidth": 15.0,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQE2": {
+    "ObjectName": "YasuoQE2",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQE2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCoefficient": 1.0,
+      "mDoNotNeedToFaceTarget": true,
+      "mHitBoneName": "root",
+      "mLineWidth": 15.0,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQE3": {
+    "ObjectName": "YasuoQE3",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQE3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCoefficient": 1.0,
+      "mDoNotNeedToFaceTarget": true,
+      "mHitBoneName": "root",
+      "mLineWidth": 15.0,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQProtect": {
+    "ObjectName": "YasuoQProtect",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQProtect",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoQSound": {
+    "ObjectName": "YasuoQSound",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoQSound",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Yasuo/Spells/YasuoRAbility/YasuoR"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "YasuoRAbility",
+    "mRootSpell": "Characters/Yasuo/Spells/YasuoRAbility/YasuoR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRAbility/YasuoR": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "Damage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "RKnockupDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16777216,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "YasuoR",
+    "mScriptName": "YasuoR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "RBaseDamage",
+          "mValues": [
+            50.0,
+            200.0,
+            350.0,
+            500.0,
+            650.0,
+            800.0,
+            950.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RPercentArmorPen",
+          "mValues": [
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RBuffDuration",
+          "mValues": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RKnockupDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RRadius",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RCastSearchRadius",
+          "mValues": [
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0
+      ],
+      "cooldownTime": [
+        105.0,
+        70.0,
+        50.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastRequirementsCaster": [
+        {
+          "0x990ecf03": true,
+          "mDistanceType": 1,
+          "mRange": 1400.0,
+          "mUnitsRequired": 1,
+          "mUnitsRequirements": [
+            {
+              "mSubRequirements": [
+                {
+                  "BuffType": 30,
+                  "~class": "0x303c66f4"
+                },
+                {
+                  "BuffType": 31,
+                  "~class": "0x303c66f4"
+                },
+                {
+                  "0xe93cd19c": 3,
+                  "BuffType": 30,
+                  "~class": "0x303c66f4"
+                },
+                {
+                  "0xe93cd19c": 3,
+                  "BuffType": 31,
+                  "~class": "0x303c66f4"
+                },
+                {
+                  "mBuffName": "0x696740d8",
+                  "mFromAnyone": true,
+                  "~class": "HasBuffCastRequirement"
+                }
+              ],
+              "mSuccessesRequired": 1,
+              "~class": "HasAtleastNSubRequirementsCastRequirement"
+            },
+            {
+              "mUnitTags": {
+                "mObjectTagList": [
+                  "champion"
+                ],
+                "~class": "ObjectTags"
+              },
+              "~class": "HasUnitTagsCastRequirement"
+            },
+            {
+              "mAffectsTypeFlags": 6154,
+              "~class": "HasTypeAndStatusFlags"
+            }
+          ],
+          "~class": "HasNNearbyVisibleUnitsRequirement"
+        }
+      ],
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "RBaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_YasuoR_Name",
+            "keySummary": "Spell_YasuoR_Summary",
+            "keyTooltip": "Spell_YasuoR_Tooltip"
+          },
+          "mObjectName": "YasuoR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_R.dds",
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_R_Grey.dds"
+      ],
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "RBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.5,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_MoveBlock",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRArmorPen": {
+    "ObjectName": "YasuoRArmorPen",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoRArmorPen",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRArmorPen",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRAvailableTest": {
+    "ObjectName": "YasuoRAvailableTest",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRAvailableTest",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRDummySpell": {
+    "ObjectName": "YasuoRDummySpell",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_OlafRagnarok",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRDummySpell",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 20,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            0.0,
+            0.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            10.0,
+            20.0,
+            30.0,
+            0.0,
+            0.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRIsAvailable": {
+    "ObjectName": "YasuoRIsAvailable",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRIsAvailable",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRKnockUpCombo": {
+    "ObjectName": "YasuoRKnockUpCombo",
+    "mScriptName": "YasuoRKnockUpCombo",
+    "mSpell": {
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 25.850000381469727,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0,
+        2500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsStatusFlags": 16,
+      "mAffectsTypeFlags": 23615,
+      "mAlternateName": "YasuoRKnockUpComboW",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            80.0,
+            80.0,
+            55.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRKnockUpComboTar": {
+    "ObjectName": "YasuoRKnockUpComboTar",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoRKnockUpComboTar",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRKnockUpComboTar",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRKnockUpComboVFX": {
+    "ObjectName": "YasuoRKnockUpComboVFX",
+    "mScriptName": "YasuoRKnockUpComboVFX",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRange": [
+        2650.0,
+        2650.0,
+        2650.0,
+        2650.0,
+        2650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "Overload",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            2.0,
+            4.0,
+            6.0,
+            8.0,
+            10.0,
+            12.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.5,
+            6.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "root",
+      "mMissileEffectKey": "Yasuo_R_dash",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRKnockUpComboW": {
+    "ObjectName": "YasuoRKnockUpComboW",
+    "mScriptName": "YasuoRKnockUpComboW",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRange": [
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        1400.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "YasuoRKnockUpComboW",
+      "mAnimationName": "Channel",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mCustomTargeterDefinitions": {
+          "0x90c62908": {
+            "mTargeterDefinitions": [
+              {
+                "overrideRadius": {
+                  "mPerLevelValues": [
+                    800.0,
+                    800.0,
+                    800.0,
+                    800.0,
+                    800.0,
+                    800.0
+                  ],
+                  "~class": "FloatPerSpellLevel"
+                },
+                "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+                "~class": "TargeterDefinitionAoe"
+              }
+            ],
+            "~class": "CustomTargeterDefinitions"
+          }
+        },
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.5,
+      "mCoefficient2": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            200.0,
+            300.0,
+            400.0,
+            100.0,
+            130.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            33.0,
+            66.0,
+            100.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            650.0,
+            750.0,
+            850.0,
+            950.0,
+            1050.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            33.0,
+            66.0,
+            100.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_R.dds",
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_R_Grey.dds"
+      ],
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRLeashParticle": {
+    "ObjectName": "YasuoRLeashParticle",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRLeashParticle",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRSound0": {
+    "ObjectName": "YasuoRSound0",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRSound0",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRSound1": {
+    "ObjectName": "YasuoRSound1",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRSound1",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRSound2": {
+    "ObjectName": "YasuoRSound2",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRSound2",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRSound3": {
+    "ObjectName": "YasuoRSound3",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRSound3",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRSound4": {
+    "ObjectName": "YasuoRSound4",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRSound4",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRSpellPassive": {
+    "ObjectName": "YasuoRSpellPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRSpellPassive",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRStun": {
+    "ObjectName": "YasuoRStun",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_YasuoRStun",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRStun",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoRVFXClone": {
+    "ObjectName": "YasuoRVFXClone",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoRVFXClone",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoR_TeleportVFX_Mis": {
+    "ObjectName": "YasuoR_TeleportVFX_Mis",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AkaliMota",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoR_TeleportVFX_Mis",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 9.520000457763672,
+      "castRadius": [
+        171.89999389648438,
+        171.89999389648438,
+        171.89999389648438,
+        171.89999389648438,
+        171.89999389648438,
+        171.89999389648438,
+        171.89999389648438
+      ],
+      "castRange": [
+        2600.0,
+        2600.0,
+        2600.0,
+        2600.0,
+        2600.0,
+        2600.0,
+        2600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6499999761581421,
+      "delayTotalTimePercent": -0.6499999761581421,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mMissileEffectKey": "Yasuo_R_dash",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "missileSpeed": 2000.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoSkin54Manager": {
+    "ObjectName": "YasuoSkin54Manager",
+    "mScriptName": "YasuoSkin54Manager",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWAbility": {
+    "mChildSpells": [
+      "Characters/Yasuo/Spells/YasuoWAbility/YasuoW"
+    ],
+    "mName": "YasuoWAbility",
+    "mRootSpell": "Characters/Yasuo/Spells/YasuoWAbility/YasuoW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWAbility/YasuoW": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BubbleRadius",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 262144,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BubbleRadius",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BubbleRadius",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2097152,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "YasuoW",
+    "mScriptName": "YasuoW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "0xbffdf499": {
+          "value": [
+            27.0,
+            27.0,
+            25.0,
+            23.0,
+            21.0,
+            19.0,
+            19.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        "ARAM": {
+          "value": [
+            27.0,
+            27.0,
+            25.0,
+            23.0,
+            21.0,
+            19.0,
+            19.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "WallLife",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Width",
+          "mValues": [
+            250.0,
+            320.0,
+            390.0,
+            460.0,
+            530.0,
+            600.0,
+            670.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TravelRange",
+          "mValues": [
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BubbleRadius",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Thickness",
+          "mValues": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0
+      ],
+      "castRangeDisplayOverride": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "cooldownTime": [
+        27.0,
+        25.0,
+        23.0,
+        21.0,
+        19.0,
+        17.0,
+        15.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 23759,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.013000000268220901,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "distanceOffset": 300.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "length": {
+              "mPerLevelValues": [
+                350.0,
+                420.0,
+                490.0,
+                560.0,
+                630.0,
+                700.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "thickness": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionWall"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Width",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 5,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_YasuoW_Name",
+            "keySummary": "Spell_YasuoW_Summary",
+            "keyTooltip": "Spell_YasuoW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_YasuoW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "YasuoW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoNotNeedToFaceTarget": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            3.0,
+            6.0,
+            9.0,
+            12.0,
+            15.0,
+            18.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            250.0,
+            300.0,
+            350.0,
+            400.0,
+            450.0,
+            500.0,
+            550.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            250.0,
+            320.0,
+            390.0,
+            460.0,
+            530.0,
+            600.0,
+            670.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitEffectOrientType": 0,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_W.dds"
+      ],
+      "mLookAtPolicy": 1,
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWChildMis": {
+    "ObjectName": "YasuoWChildMis",
+    "mScriptName": "YasuoWChildMis",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "distanceOffset": 300.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "length": {
+              "mPerLevelValues": [
+                380.0,
+                460.0,
+                530.0,
+                600.0,
+                680.0,
+                760.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "thickness": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionWall"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoNotNeedToFaceTarget": true,
+      "mHitEffectOrientType": 0,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mLookAtPolicy": 1,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 1.0,
+        "movementComponent": {
+          "mAcceleration": -1200.0,
+          "mInitialSpeed": 850.0,
+          "mMaxSpeed": 850.0,
+          "mMinSpeed": 10.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "",
+          "~class": "AcceleratingMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWMovingWall": {
+    "ObjectName": "YasuoWMovingWall",
+    "mScriptName": "YasuoWMovingWall",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "WallLife",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        6000.0,
+        6000.0,
+        6000.0,
+        6000.0,
+        6000.0,
+        6000.0,
+        6000.0
+      ],
+      "castRangeDisplayOverride": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "cooldownTime": [
+        28.0,
+        26.0,
+        24.0,
+        22.0,
+        20.0,
+        18.0,
+        18.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 23759,
+      "mAlternateName": "YasuoWMovingWall",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.012500000186264515,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "distanceOffset": 300.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "length": {
+              "mPerLevelValues": [
+                380.0,
+                460.0,
+                530.0,
+                600.0,
+                680.0,
+                760.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "thickness": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionWall"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoNotNeedToFaceTarget": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            3.0,
+            6.0,
+            9.0,
+            12.0,
+            15.0,
+            18.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            250.0,
+            300.0,
+            350.0,
+            400.0,
+            450.0,
+            500.0,
+            550.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            250.0,
+            320.0,
+            390.0,
+            460.0,
+            530.0,
+            600.0,
+            670.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_W.dds"
+      ],
+      "mLookAtPolicy": 1,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWMovingWallEnemy": {
+    "ObjectName": "YasuoWMovingWallEnemy",
+    "mScriptName": "YasuoWMovingWallEnemy",
+    "mSpell": {
+      "castConeAngle": 22.31999969482422,
+      "castConeDistance": 650.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        29.0,
+        26.0,
+        23.0,
+        20.0,
+        17.0,
+        13.0,
+        13.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 23759,
+      "mAlternateName": "YasuoWMovingWall",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.012500000186264515,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "coneAngleDegrees": 22.31999969482422,
+            "coneRange": 650.0,
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionCone"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mDoNotNeedToFaceTarget": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mLookAtPolicy": 1,
+      "mTargetingTypeData": {
+        "~class": "Cone"
+      },
+      "missileSpeed": 902.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWMovingWallMis": {
+    "ObjectName": "YasuoWMovingWallMis",
+    "mScriptName": "YasuoWMovingWallMis",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.074999809265137,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6152,
+      "mAlternateName": "YasuoWMovingWall",
+      "mAnimationName": "Attack2",
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mLineWidth": 1.0,
+      "mMissileEffectName": "Zyra_dummy_controller.troy",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 1.0,
+        "movementComponent": {
+          "mAcceleration": -1200.0,
+          "mInitialSpeed": 850.0,
+          "mMaxSpeed": 850.0,
+          "mMinSpeed": 10.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 850.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWMovingWallMisL": {
+    "ObjectName": "YasuoWMovingWallMisL",
+    "mScriptName": "YasuoWMovingWallMisL",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 15.074999809265137,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 6152,
+      "mAlternateName": "VolleyAttack",
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mLineWidth": 1.0,
+      "mMissileEffectName": "Zyra_Dummy_Controller.troy",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 1.0,
+        "movementComponent": {
+          "mAcceleration": -1200.0,
+          "mInitialSpeed": 850.0,
+          "mMaxSpeed": 850.0,
+          "mMinSpeed": 10.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 850.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWMovingWallMisOld": {
+    "ObjectName": "YasuoWMovingWallMisOld",
+    "mScriptName": "YasuoWMovingWallMisOld",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.074999809265137,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6152,
+      "mAlternateName": "YasuoWMovingWall",
+      "mAnimationName": "Attack2",
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mLineWidth": 1.0,
+      "mMissileEffectKey": "Yasuo_Wall_XinZhao_OLD",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 1.0,
+        "movementComponent": {
+          "mAcceleration": -300.0,
+          "mInitialSpeed": 550.0,
+          "mMaxSpeed": 550.0,
+          "mMinSpeed": 10.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 550.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWMovingWallMisR": {
+    "ObjectName": "YasuoWMovingWallMisR",
+    "mScriptName": "YasuoWMovingWallMisR",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.074999809265137,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 6152,
+      "mAlternateName": "VolleyAttack",
+      "mAnimationName": "Attack2",
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mLineWidth": 1.0,
+      "mMissileEffectName": "Zyra_Dummy_Controller.troy",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 1.0,
+        "movementComponent": {
+          "mAcceleration": -1200.0,
+          "mInitialSpeed": 850.0,
+          "mMaxSpeed": 850.0,
+          "mMinSpeed": 10.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 850.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWMovingWallMisVis": {
+    "ObjectName": "YasuoWMovingWallMisVis",
+    "mScriptName": "YasuoWMovingWallMisVis",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.074999809265137,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6152,
+      "mAlternateName": "YasuoWMovingWall",
+      "mAnimationName": "Attack2",
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mLineWidth": 1.0,
+      "mMissileEffectName": "zyradummycontroller.troy",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 1.0,
+        "movementComponent": {
+          "mAcceleration": -1200.0,
+          "mInitialSpeed": 850.0,
+          "mMaxSpeed": 850.0,
+          "mMinSpeed": 10.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 850.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWMovingWallTrigger": {
+    "ObjectName": "YasuoWMovingWallTrigger",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoWMovingWallTrigger",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWTrueCast": {
+    "ObjectName": "YasuoWTrueCast",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoWTrueCast",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoW_VisualMis": {
+    "ObjectName": "YasuoW_VisualMis",
+    "mScriptName": "YasuoW_VisualMis",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "distanceOffset": 300.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "length": {
+              "mPerLevelValues": [
+                380.0,
+                460.0,
+                530.0,
+                600.0,
+                680.0,
+                760.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "thickness": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionWall"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoNotNeedToFaceTarget": true,
+      "mHitEffectOrientType": 0,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mLookAtPolicy": 1,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 1.0,
+        "movementComponent": {
+          "mAcceleration": -1200.0,
+          "mInitialSpeed": 850.0,
+          "mMaxSpeed": 850.0,
+          "mMinSpeed": 10.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "",
+          "~class": "AcceleratingMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWindWallBuff": {
+    "ObjectName": "YasuoWindWallBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "YasuoWindWallBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Yasuo/Spells/YasuoWindWallTimerMis1": {
+    "ObjectName": "YasuoWindWallTimerMis1",
+    "mScriptName": "YasuoWindWallTimerMis1",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        220.0,
+        220.0,
+        220.0,
+        220.0,
+        220.0,
+        220.0,
+        220.0
+      ],
+      "castRange": [
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0
+      ],
+      "castRangeDisplayOverride": [
+        825.0,
+        825.0,
+        825.0,
+        825.0,
+        825.0,
+        825.0,
+        825.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 7183,
+      "mAlternateName": "ZyraQFissure",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient2": 0.20000000298023224,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "root",
+      "mImgIconName": [
+        "ASSETS/Spells/Icons2D/ZyraQ.dds"
+      ],
+      "mLineWidth": 85.0,
+      "mMissileEffectName": "Zyra_Dummy_Controller.troy",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 85.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

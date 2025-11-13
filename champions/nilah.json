@@ -1,0 +1,2944 @@
+{
+  "0x219ab503": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "bottom",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x262d8417": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      9,
+      15,
+      20,
+      25,
+      10
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b0fe44d1-1126-459d-93ac-8ef3a6295c5f",
+      "itemID": 126446,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_NilahEQHits",
+    "mNameTraKey": "stat_stone_name_NilahEQHits",
+    "stoneName": "NilahEQHits",
+    "~class": "StatStoneData"
+  },
+  "0x52f12af9": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "3f977338-2e00-4258-9710-9bc695367a0f",
+      "itemID": 126440,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "NilahEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x672d95e0": {
+    "ObjectName": "NilahPShield",
+    "mBuff": {
+      "mDescription": "buff_desc_NilahPShield",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_Name_NilahPShield",
+          "keyTooltip": "Buff_Tooltip_NilahPShield"
+        },
+        "mObjectName": "NilahPShield",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NilahPShield",
+    "mSpell": {
+      "ImgIconPath": "ASSETS/Characters/Nilah/HUD/Icons2D/NIlahP.dds",
+      "mImgIconName": [
+        "ASSETS/Characters/Nilah/HUD/Icons2D/NIlahP.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x6761e0fe": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "b26627ef-d64c-400c-850f-d8e57257501d",
+      "itemID": 126442,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "NilahTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x81519afd": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8,
+      20,
+      40,
+      45,
+      55,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d57846c9-ad24-4e6a-b78a-5658ff6fba7f",
+      "itemID": 126448,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_NilahRTakedowns",
+    "mNameTraKey": "stat_stone_name_NilahRTakedowns",
+    "stoneName": "NilahRTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x90caf67b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      125,
+      325,
+      650,
+      775,
+      950,
+      375
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "675c01d8-9731-4bf8-b173-a62b9c46b0ca",
+      "itemID": 126437,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_NilahQAutos",
+    "mNameTraKey": "stat_stone_name_NilahQAutos",
+    "stoneName": "NilahQAutos",
+    "~class": "StatStoneData"
+  },
+  "0xb2f06397": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      40,
+      100,
+      200,
+      225,
+      300,
+      125
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "9fe43120-497e-4f91-9f43-ec8bed60dc3e",
+      "itemID": 126438,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_NilahWDodges",
+    "mNameTraKey": "stat_stone_name_NilahWDodges",
+    "stoneName": "NilahWDodges",
+    "~class": "StatStoneData"
+  },
+  "0xb4b75854": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      900,
+      2000,
+      4500,
+      5500,
+      6500,
+      2500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "480cfb73-a87b-4e65-9936-b8b08546caad",
+      "itemID": 126447,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_NilahPHeals",
+    "mNameTraKey": "stat_stone_name_NilahPHeals",
+    "stoneName": "NilahPHeals",
+    "~class": "StatStoneData"
+  },
+  "0xbb6bc62b": {
+    "catalogEntry": {
+      "contentId": "6b7d2591-56c7-4309-94d7-1ad0a2210e87",
+      "itemID": 66600545,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xbdc02cff",
+      "0xb2f06397",
+      "0x90caf67b"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xbc6bc7be": {
+    "catalogEntry": {
+      "contentId": "d5b56044-03de-4900-a34e-74fed11e9c2e",
+      "itemID": 66600548,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x81519afd",
+      "0x262d8417",
+      "0xb4b75854"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xbdc02cff": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      55,
+      65,
+      80,
+      35
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "cf6e4b2f-fe3a-4716-a5ae-d2a6fc9c324e",
+      "itemID": 126439,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_NilahRMultiPulls",
+    "mNameTraKey": "stat_stone_name_NilahRMultiPulls",
+    "stoneName": "NilahRMultiPulls",
+    "~class": "StatStoneData"
+  },
+  "0xbf9f6572": {
+    "ObjectName": "NilahPMissileSmall",
+    "mScriptName": "NilahPMissileSmall",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadiusSecondary": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "castRange": [
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0
+      ],
+      "cooldownTime": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 5135,
+      "mAlternateName": "NamiW",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                800.0,
+                800.0,
+                800.0,
+                800.0,
+                800.0,
+                800.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_brand.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.30000001192092896,
+      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+      "mMissileEffectKey": "Nilah_P_Mis_Small",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 8000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "mTravelTime": 0.5,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mVisibleToOwnerTeamOnly": true,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "missileSpeed": 2500.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xd9c606db": {
+    "ObjectName": "NilahWAllyBuff",
+    "mBuff": {
+      "mDescription": "buff_desc_NilahWBuff",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_Name_NilahWBuff",
+          "keyTooltip": "Buff_Tooltip_NilahWBuff"
+        },
+        "mObjectName": "NilahWAllyBuff",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NilahWAllyBuff",
+    "mSpell": {
+      "ImgIconPath": "ASSETS/Characters/Nilah/HUD/Icons2D/NilahW.dds",
+      "mImgIconName": [
+        "ASSETS/Characters/Nilah/HUD/Icons2D/NilahW.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xdb909493": {
+    "catalogEntry": {
+      "contentId": "50bd5dc6-3d17-4700-a804-122a1a8ab58c",
+      "itemID": 66600546,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x52f12af9",
+      "0x6761e0fe",
+      "0xe4675ec3"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xe4675ec3": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "a06d1946-6afc-407f-87f3-2f0d9d00f23f",
+      "itemID": 126441,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "NilahStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xeb0c917f": {
+    "ObjectName": "NilahQSpellPassive",
+    "mScriptName": "NilahQSpellPassive",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "flags": 128,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Attack1_Emp",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Nilah_BA_hit_tar_01",
+      "mHitEffectOrientType": 2,
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf0b0ac31": {
+    "ObjectName": "NilahWBuff",
+    "mBuff": {
+      "mDescription": "buff_desc_NilahWBuff",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_Name_NilahWBuff",
+          "keyTooltip": "Buff_Tooltip_NilahWBuff"
+        },
+        "mObjectName": "NilahWBuff",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NilahWBuff",
+    "mSpell": {
+      "ImgIconPath": "ASSETS/Characters/Nilah/HUD/Icons2D/NilahW.dds",
+      "mImgIconName": [
+        "ASSETS/Characters/Nilah/HUD/Icons2D/NilahW.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/CharacterRecords/Root": {
+    "0x6854087e": [
+      {
+        "0xcf19cb5d": {
+          "attackSpeedPerLevel": -0.6000000238418579,
+          "~class": "0x770f7888"
+        },
+        "0xe4f7105d": "Maps/Shipping/Map11/Modes/SWIFTPLAY",
+        "~class": "0x47f13ab0"
+      }
+    ],
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "0xc5c48b41": 1,
+    "acquisitionRange": 400.0,
+    "armorPerLevel": 4.5,
+    "attackRange": 225.0,
+    "attackSpeed": 0.6970000267028809,
+    "attackSpeedPerLevel": 2.25,
+    "attackSpeedRatio": 0.6700000166893005,
+    "baseArmor": 27.0,
+    "baseDamage": 60.0,
+    "baseHP": 570.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.2000000476837158,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.07999999821186066,
+      "mAttackDelayCastOffsetPercentAttackSpeedRatio": 1.0,
+      "mAttackName": "NilahBasicAttack",
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "PARFadeColor": "0 0 0",
+      "attackRank": 8,
+      "championId": 895,
+      "classification": "Strong",
+      "defenseRank": 4,
+      "description": "game_character_description_Nilah",
+      "difficultyRank": 10,
+      "magicRank": 4,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Nilah",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "ATTACKER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "assassin",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercentAttackSpeedRatio": 1.0,
+        "mAttackName": "NilahCritAttack",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "NilahCritAttack2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 2.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "NilahBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398092,
+    "healthBarHeight": 103.0,
+    "hpPerLevel": 101.0,
+    "hpRegenPerLevel": 0.18000000715255737,
+    "mAbilities": [
+      "Characters/Nilah/Spells/NilahWAbility",
+      "Characters/Nilah/Spells/NilahQAbility",
+      "Characters/Nilah/Spells/NilahEAbility",
+      "Characters/Nilah/Spells/NilahRAbility",
+      "Characters/Nilah/Spells/NilahPassiveAbility"
+    ],
+    "mCharacterName": "Nilah",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Nilah/Spells/NilahPassiveAbility/NilahPassive",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Nilah/Spells/NilahPassiveAbility/NilahPassive",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Nilah",
+    "passive1IconName": "ASSETS/Characters/Nilah/HUD/Icons2D/NIlahP.dds",
+    "passiveLuaName": "NilahPassive",
+    "passiveName": "game_character_passiveName_Nilah",
+    "passiveSpell": "NilahPassive",
+    "passiveToolTip": "game_character_passiveDescription_Nilah",
+    "pathfindingCollisionRadius": 32.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 350.0,
+      "arBaseStaticRegen": 1.6399999856948853,
+      "arPerLevel": 35.0,
+      "arRegenPerLevel": 0.14000000059604645,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 180.0,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "NilahQAbility/NilahQ",
+      "NilahWAbility/NilahW",
+      "NilahEAbility/NilahE",
+      "NilahRAbility/NilahR"
+    ],
+    "spells": [
+      "Characters/Nilah/Spells/NilahQAbility/NilahQ",
+      "Characters/Nilah/Spells/NilahWAbility/NilahW",
+      "Characters/Nilah/Spells/NilahEAbility/NilahE",
+      "Characters/Nilah/Spells/NilahRAbility/NilahR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "weaponMaterials": [
+      "NilahBasicAttack",
+      "NilahBasicAttack",
+      "NilahBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Nilah/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Nilah/Spells/NilahBasicAttack": {
+    "ObjectName": "NilahBasicAttack",
+    "mScriptName": "NilahBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Nilah_BA_hit_tar_01",
+      "mHitEffectOrientType": 2,
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahBasicAttack2": {
+    "ObjectName": "NilahBasicAttack2",
+    "mScriptName": "NilahBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "DianaBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Nilah_BA_hit_tar_02",
+      "mHitEffectOrientType": 2,
+      "mTurnSpeedScalar": 3.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahCritAttack": {
+    "ObjectName": "NilahCritAttack",
+    "mScriptName": "NilahCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Nilah_BA_Crit_hit_01",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahCritAttack2": {
+    "ObjectName": "NilahCritAttack2",
+    "mScriptName": "NilahCritAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "DianaBasicAttack2",
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Nilah_BA_Crit_hit_02",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahEAbility": {
+    "mChildSpells": [
+      "Characters/Nilah/Spells/NilahEAbility/NilahE"
+    ],
+    "mName": "NilahEAbility",
+    "mRootSpell": "Characters/Nilah/Spells/NilahEAbility/NilahE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Nilah/Spells/NilahEAbility/NilahE": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "DashDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "baseDamage",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 256,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "NilahE",
+    "mBuff": {
+      "mDescription": "buff_desc_SamiraE",
+      "~class": "BuffData"
+    },
+    "mScriptName": "NilahE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            50.0,
+            60.0,
+            70.0,
+            80.0,
+            90.0,
+            100.0,
+            110.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            2200.0,
+            2200.0,
+            2200.0,
+            2200.0,
+            2200.0,
+            2200.0,
+            2200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashTotalDistance",
+          "mValues": [
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "delayCastOffsetPercent": -0.699999988079071,
+      "delayTotalTimePercent": -0.699999988079071,
+      "flags": 4,
+      "mAffectsTypeFlags": 23567,
+      "mAmmoRechargeTime": [
+        26.0,
+        26.0,
+        22.5,
+        19.0,
+        15.5,
+        12.0,
+        8.5
+      ],
+      "mAnimationName": "Run",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "AmmoRechargeTime",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "Spell_NilahE_CooldownAmmo",
+            "keyName": "Spell_NilahE_Name",
+            "keySummary": "Spell_NilahE_Summary",
+            "keyTooltip": "Spell_NilahE_Tooltip"
+          },
+          "mObjectName": "NilahE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mCooldownNotAffectedByCDR": true,
+      "mDoesntBreakChannels": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Nilah/HUD/Icons2D/NilahE.dds"
+      ],
+      "mLineWidth": 50.0,
+      "mMaxAmmo": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mMissileEffectKey": "Nilah_E_hookmis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "root",
+          "mTargetHeightAugment": 100.0,
+          "mTravelTime": 0.06499999761581421,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "DashDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.20000000298023224,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_AttackReset",
+        "Trait_SignatureSpell"
+      ],
+      "mTargetingTypeData": {
+        "mCanCompleteCastWithoutTarget": true,
+        "~class": "Target"
+      },
+      "mTurnSpeedScalar": 10.0,
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahPassiveAbility": {
+    "AbilityTraits": 12,
+    "mChildSpells": [
+      "Characters/Nilah/Spells/NilahPassiveAbility/NilahPassive",
+      "Characters/Nilah/Spells/NilahPassiveAbility/NilahPMissile"
+    ],
+    "mName": "NilahPassiveAbility",
+    "mRootSpell": "Characters/Nilah/Spells/NilahPassiveAbility/NilahPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Nilah/Spells/NilahPassiveAbility/NilahPMissile": {
+    "ObjectName": "NilahPMissile",
+    "mScriptName": "NilahPMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadiusSecondary": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "castRange": [
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0
+      ],
+      "cooldownTime": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 5135,
+      "mAlternateName": "NamiW",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                800.0,
+                800.0,
+                800.0,
+                800.0,
+                800.0,
+                800.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_brand.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.30000001192092896,
+      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+      "mMissileEffectKey": "Nilah_P_cosmetic_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 8000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "mTravelTime": 0.5,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mVisibleToOwnerTeamOnly": true,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "missileSpeed": 2500.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahPassiveAbility/NilahPassive": {
+    "ObjectName": "NilahPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_NilahPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "NilahPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ExperiencePercentage",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealDistance",
+          "mValues": [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldIncrease",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealingIncrease",
+          "mValues": [
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldMaxDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_NilahPassive_Name",
+            "keySummary": "Spell_NilahPassive_Summary",
+            "keyTooltip": "Spell_NilahPassive_Tooltip",
+            "keyTooltipExtended": "Spell_NilahPassive_TooltipExtended"
+          },
+          "mObjectName": "NilahPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6499999761581421,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+      "mHitEffectOrientType": 0,
+      "mImgIconName": [
+        "ASSETS/Characters/Nilah/HUD/Icons2D/NIlahP.dds"
+      ],
+      "mLookAtPolicy": 0,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1200.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahQAbility": {
+    "mChildSpells": [
+      "Characters/Nilah/Spells/NilahQAbility/NilahQ",
+      "Characters/Nilah/Spells/NilahQAbility/NilahQWrapper",
+      "Characters/Nilah/Spells/NilahQAbility/NilahQAttack",
+      "Characters/Nilah/Spells/NilahQAbility/NilahEQMis",
+      "Characters/Nilah/Spells/NilahQAbility/NilahQAttack2"
+    ],
+    "mName": "NilahQAbility",
+    "mRootSpell": "Characters/Nilah/Spells/NilahQAbility/NilahQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Nilah/Spells/NilahQAbility/NilahEQMis": {
+    "ObjectName": "NilahEQMis",
+    "mScriptName": "NilahEQMis",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.074999809265137,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6794,
+      "mAlternateName": "NilahQ",
+      "mAnimationName": "Spell1",
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mLineWidth": 125.0,
+      "mMissileEffectKey": "Nilah_E_Q_buffer_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 125.0,
+        "movementComponent": {
+          "mSpeed": 2400.0,
+          "mStartBoneName": "Buffbone_GLB_Ground_Loc",
+          "mTargetHeightAugment": -75.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 2400.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahQAbility/NilahQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "DamageCalc",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "CritDamageRatio",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 33554432,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "NilahQ",
+    "mScriptName": "NilahQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            0.0,
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CheatingThreshold",
+          "mValues": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QADRatio",
+          "mValues": [
+            0.8500000238418579,
+            0.8999999761581421,
+            0.949999988079071,
+            1.0,
+            1.0499999523162842,
+            1.100000023841858,
+            1.149999976158142
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CastRange",
+          "mValues": [
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CritHealScalar",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CritArmorPenScalar",
+          "mValues": [
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CritDamageRatio",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionMod",
+          "mValues": [
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RangeIncrease",
+          "mValues": [
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterMod",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castFrame": 9.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.875,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_ADScaling",
+                  "type": "QADRatio",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_NilahQ_Name",
+            "keySummary": "Spell_NilahQ_Summary",
+            "keyTooltip": "Spell_NilahQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_NilahQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "NilahQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Nilah/HUD/Icons2D/NilahQ.dds"
+      ],
+      "mLineWidth": 80.0,
+      "mSpellCalculations": {
+        "AttackBonusDamage": {
+          "mFormulaParts": [
+            {
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "AttackTotalDamageTooltip": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "BonusAttackSpeedCalc": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 60.0,
+              "mStartValue": 10.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "CritArmorPen": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "CritArmorPenScalar",
+              "mStat": 8,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "CritLifesteal": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "CritHealScalar",
+              "mStat": 8,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "DamageCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "QADRatio",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mSubparts": [
+              {
+                "mNumber": 1.0,
+                "~class": "NumberCalculationPart"
+              },
+              {
+                "mCoefficient": 1.0,
+                "mStat": 8,
+                "~class": "StatByCoefficientCalculationPart"
+              }
+            ],
+            "~class": "SumOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahQAbility/NilahQAttack": {
+    "ObjectName": "NilahQAttack",
+    "mScriptName": "NilahQAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "flags": 128,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Attack1_Emp",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectOrientType": 2,
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahQAbility/NilahQAttack2": {
+    "ObjectName": "NilahQAttack2",
+    "mScriptName": "NilahQAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "flags": 128,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "GarenBasicAttack",
+      "mAnimationName": "Attack2_Emp",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectOrientType": 2,
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahQAbility/NilahQWrapper": {
+    "ObjectName": "NilahQWrapper",
+    "mScriptName": "NilahQWrapper",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "NilahQ",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Nilah/Spells/NilahQAbility/NilahQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mHitBoneName": "root",
+      "mLineWidth": 15.0,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahRAbility": {
+    "AbilityTraits": 2574,
+    "mChildSpells": [
+      "Characters/Nilah/Spells/NilahRAbility/NilahR"
+    ],
+    "mName": "NilahRAbility",
+    "mRootSpell": "Characters/Nilah/Spells/NilahRAbility/NilahR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Nilah/Spells/NilahRAbility/NilahR": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "DamageCalc",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "Microslow",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "ChampHealingPercent",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 65536,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "ShieldBase",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "NilahR",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_OlafRagnarok",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "NilahR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Duration",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageBase",
+          "mValues": [
+            25.0,
+            125.0,
+            225.0,
+            325.0,
+            425.0,
+            525.0,
+            625.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldBase",
+          "mValues": [
+            15.0,
+            65.0,
+            115.0,
+            165.0,
+            215.0,
+            265.0,
+            315.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamagePerTick",
+          "mValues": [
+            5.0,
+            15.0,
+            25.0,
+            35.0,
+            45.0,
+            55.0,
+            65.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "OtherHealingPercent",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Microslow",
+          "mValues": [
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NumTicks",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TickDelay",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        110.0,
+        110.0,
+        95.0,
+        80.0,
+        160.0,
+        160.0,
+        100.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 20,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "DamageBase",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_DamagePerTick",
+                  "type": "DamagePerTick",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_NilahR_Name",
+            "keySummary": "Spell_NilahR_Summary",
+            "keyTooltip": "Spell_NilahR_Tooltip"
+          },
+          "mObjectName": "NilahR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Nilah/HUD/Icons2D/NilahR.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "ChampHealingPercent": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mNumber": 0.20000000298023224,
+              "~class": "NumberCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "mStat": 8,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "DamageCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "DamageBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "DamagePerTickCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "DamagePerTick",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "DamagePerTickCalcTooltip": {
+          "mModifiedGameCalculation": "DamagePerTickCalc",
+          "mMultiplier": {
+            "mNumber": 4.0,
+            "~class": "NumberCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "ShieldCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ShieldBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "SpecialCase_StasisLocked",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Nilah/Spells/NilahWAbility": {
+    "mChildSpells": [
+      "Characters/Nilah/Spells/NilahWAbility/NilahW"
+    ],
+    "mName": "NilahWAbility",
+    "mRootSpell": "Characters/Nilah/Spells/NilahWAbility/NilahW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Nilah/Spells/NilahWAbility/NilahW": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MoveSpeedPercent",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "NilahW",
+    "mScriptName": "NilahW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MoveSpeedPercent",
+          "mValues": [
+            0.125,
+            0.15000000596046448,
+            0.17499999701976776,
+            0.20000000298023224,
+            0.22499999403953552,
+            0.25,
+            0.2750000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDuration",
+          "mValues": [
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShareBaseDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExtensionBonus",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AreaTriggerSize",
+          "mValues": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MagicDamageReduction",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "canCastOrQueueWhileCasting": true,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "cooldownTime": [
+        26.0,
+        26.0,
+        25.0,
+        24.0,
+        23.0,
+        22.0,
+        21.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 36,
+      "mAffectsTypeFlags": 7375,
+      "mAnimationName": "Spell2",
+      "mCastTime": 0.013000000268220901,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "MoveSpeedPercent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_NilahW_Name",
+            "keySummary": "Spell_NilahW_Summary",
+            "keyTooltip": "Spell_NilahW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_NilahW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "NilahW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesNotConsumeCooldown": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mHitEffectOrientType": 0,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Nilah/HUD/Icons2D/NilahW.dds"
+      ],
+      "mLookAtPolicy": 1,
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        60.0,
+        45.0,
+        30.0,
+        15.0,
+        0.0,
+        0.0
+      ],
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

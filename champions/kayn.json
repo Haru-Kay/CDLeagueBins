@@ -1,0 +1,4520 @@
+{
+  "0x2836f193": {
+    "catalogEntry": {
+      "contentId": "0afe6772-94be-4550-bff2-43be0e3a95fa",
+      "itemID": 66600153,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xd8f3dcf0",
+      "0x41f19e45",
+      "0x7ec779c8"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x385b7682": {
+    "ObjectName": "KaynWSlow",
+    "mBuff": {
+      "mDescription": "buff_desc_KaynWSlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynWSlow",
+    "mSpell": {
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 36,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mRightClickSpellAction": 1,
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "minimumDisplayedRange": 10.0,
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_W_Primary.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x3f842292": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      1,
+      3,
+      6,
+      8,
+      9,
+      4
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "084dce8e-18ee-47d9-a63e-b2de161fc037",
+      "itemID": 69,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_KaynQuickP",
+    "mNameTraKey": "stat_stone_name_KaynQuickP",
+    "stoneName": "KaynQuickP",
+    "~class": "StatStoneData"
+  },
+  "0x41f19e45": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "b9c309fb-6871-4b8b-b4c3-e3d378e0764c",
+      "itemID": 125397,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "KaynTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x601ee5e6": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      35,
+      90,
+      175,
+      200,
+      275,
+      100
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "975d8c1c-55de-45c9-a714-2d688712ee71",
+      "itemID": 126062,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_KaynQMultihits",
+    "mNameTraKey": "stat_stone_name_KaynQMultihits",
+    "stoneName": "KaynQMultihits",
+    "~class": "StatStoneData"
+  },
+  "0x7d4e4b2b": {
+    "catalogEntry": {
+      "contentId": "168b76b8-a7e4-40a6-b2c3-e927628f1d4b",
+      "itemID": 66600055,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xea005603",
+      "0xa3d30869",
+      "0x3f842292"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x7e4e4cbe": {
+    "catalogEntry": {
+      "contentId": "030b80c6-4eb5-4e76-82c9-8fd71c90630e",
+      "itemID": 66600426,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x601ee5e6",
+      "0xb5c9fe48",
+      "0xa36a237b"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x7ec779c8": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "7eb44b03-b727-45f4-bc3b-cbbc17508d66",
+      "itemID": 125398,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "KaynStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xa36a237b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2500,
+      6000,
+      12000,
+      14000,
+      18000,
+      7000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b93aa311-947b-48b2-8583-cd38e87c445d",
+      "itemID": 126064,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_KaynEHealing",
+    "mNameTraKey": "stat_stone_name_KaynEHealing",
+    "stoneName": "KaynEHealing",
+    "~class": "StatStoneData"
+  },
+  "0xa3d30869": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      73000,
+      175000,
+      375000,
+      450000,
+      550000,
+      225000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "eb547f5d-8120-4d42-a932-1ede05a3b11c",
+      "itemID": 68,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_KaynEDistance",
+    "mNameTraKey": "stat_stone_name_KaynEDistance",
+    "stoneName": "KaynEDistance",
+    "trackingType": 2,
+    "~class": "StatStoneData"
+  },
+  "0xb5c9fe48": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      30,
+      55,
+      70,
+      85,
+      35
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "158e5dd9-7605-4c9b-a31a-d2e07f8804ca",
+      "itemID": 126063,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_KaynWMultihits",
+    "mNameTraKey": "stat_stone_name_KaynWMultihits",
+    "stoneName": "KaynWMultihits",
+    "~class": "StatStoneData"
+  },
+  "0xc25fd001": {
+    "ObjectName": "KaynSkin20Manager",
+    "mScriptName": "KaynSkin20Manager",
+    "~class": "SpellObject"
+  },
+  "0xd8f3dcf0": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "d251564c-0759-4ba1-836e-c2697b140154",
+      "itemID": 125396,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "KaynEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xea005603": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      10,
+      25,
+      30,
+      35,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "856081d8-4bb2-442a-85a2-1338bb2999b4",
+      "itemID": 99209,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_KaynRToKills",
+    "mNameTraKey": "stat_stone_name_KaynRToKills",
+    "stoneName": "KaynRToKills",
+    "~class": "StatStoneData"
+  },
+  "0xfb777df8": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "Top",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "Characters/Kayn/CharacterRecords/Root": {
+    "acquisitionRange": 400.0,
+    "armorPerLevel": 4.5,
+    "attackRange": 175.0,
+    "attackSpeed": 0.6690000295639038,
+    "attackSpeedPerLevel": 2.700000047683716,
+    "attackSpeedRatio": 0.6690000295639038,
+    "baseArmor": 38.0,
+    "baseDamage": 68.0,
+    "baseHP": 655.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.600000023841858,
+    "basicAttack": {
+      "mAttackCastTime": 0.2800000011920929,
+      "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.4950000047683716,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "PARFadeColor": "175 0 0",
+      "attackRank": 10,
+      "championId": 141,
+      "classification": "Strong",
+      "defenseRank": 6,
+      "description": "game_character_description_Kayn",
+      "difficultyRank": 8,
+      "magicRank": 1,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "level": [
+            1,
+            4,
+            7
+          ],
+          "name": "Spell_KaynPassive_Name",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "assassin",
+      "spellData": [
+        {
+          "desc": "Kayn's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Kayn's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Kayn's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Kayn's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
+          "displayName": "Undying Rage",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.2800000011920929,
+        "mAttackDelayCastOffsetPercent": -0.10999999940395355,
+        "mAttackName": "KaynCritAttack",
+        "mAttackTotalTime": 1.7999999523162842,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.299999952316284,
+    "extraAttacks": [
+      {
+        "mAttackName": "KaynBasicAttack2",
+        "mAttackProbability": 0.0,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "KaynBasicAttack3",
+        "mAttackProbability": 0.0,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 8398088,
+    "hpPerLevel": 103.0,
+    "hpRegenPerLevel": 0.15000000596046448,
+    "mAbilities": [
+      "Characters/Kayn/Spells/KaynRAbility",
+      "Characters/Kayn/Spells/KaynWAbility",
+      "Characters/Kayn/Spells/KaynQAbility",
+      "Characters/Kayn/Spells/KaynEAbility",
+      "Characters/Kayn/Spells/KaynPassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      14,
+      0,
+      0
+    ],
+    "mCharacterName": "Kayn",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Kayn/Spells/KaynTransforming",
+          "Characters/Kayn/Spells/KaynAssReady",
+          "Characters/Kayn/Spells/KaynSlayReady",
+          "Characters/Kayn/Spells/KaynPassiveSlay",
+          "Characters/Kayn/Spells/KaynPassiveAss"
+        ],
+        "mParentPassiveBuff": "Characters/Kayn/Spells/KaynPassiveAbility/KaynPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            20
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0xc25fd001",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Kayn/Spells/KaynPassiveAbility/KaynPassive",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "skillOrder": 2,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Domination",
+    "name": "game_character_displayname_Kayn",
+    "passive1IconName": "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Passive_Primary.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_KaynPassive_Name",
+    "passiveSpell": "KaynPassive",
+    "passiveToolTip": "Spell_KaynPassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 410.0,
+      "arBaseStaticRegen": 2.299999952316284,
+      "arPerLevel": 50.0,
+      "arRegenPerLevel": 0.1899999976158142,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 180.0,
+    "selectionRadius": 135.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "KaynQAbility/KaynQ",
+      "KaynWAbility/KaynW",
+      "KaynEAbility/KaynE",
+      "KaynRAbility/KaynR"
+    ],
+    "spells": [
+      "Characters/Kayn/Spells/KaynQAbility/KaynQ",
+      "Characters/Kayn/Spells/KaynWAbility/KaynW",
+      "Characters/Kayn/Spells/KaynEAbility/KaynE",
+      "Characters/Kayn/Spells/KaynRAbility/KaynR"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "KaynBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Kayn/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Kayn/Spells/KaynAssReady": {
+    "ObjectName": "KaynAssReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KaynAssReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynAssReady",
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynBasicAttack": {
+    "ObjectName": "KaynBasicAttack",
+    "mScriptName": "KaynBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KaynBasicAttack",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kayn_Primary_BA1_tar",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynBasicAttack2": {
+    "ObjectName": "KaynBasicAttack2",
+    "mScriptName": "KaynBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KaynBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kayn_Primary_BA2_tar",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynBasicAttack3": {
+    "ObjectName": "KaynBasicAttack3",
+    "mScriptName": "KaynBasicAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KaynBasicAttack",
+      "mAnimationName": "Attack3",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kayn_Primary_BA3_tar",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynBlinkAttack": {
+    "ObjectName": "KaynBlinkAttack",
+    "mScriptName": "KaynBlinkAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KaynBasicAttack",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectName": "globalhit_bloodslash.troy",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynCritAttack": {
+    "ObjectName": "KaynCritAttack",
+    "mScriptName": "KaynCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KaynCritAttack",
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kayn_Primary_CRIT_tar",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynEAbility": {
+    "mChildSpells": [
+      "Characters/Kayn/Spells/KaynEAbility/KaynE"
+    ],
+    "mName": "KaynEAbility",
+    "mRootSpell": "Characters/Kayn/Spells/KaynEAbility/KaynE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Kayn/Spells/KaynEAbility/KaynE": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 1,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 7,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KaynE",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KaynE",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "AssassinCDReduction",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AssMS",
+          "mValues": [
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "AssassinCDReduction",
+              "mValues": [
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "AssassinCDReduction",
+              "mValues": [
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "AssassinCDReduction",
+              "mValues": [
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "AssMS",
+              "mValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bIsToggleSpell": true,
+      "cantCastWhileRooted": true,
+      "cooldownTime": [
+        21.0,
+        21.0,
+        19.0,
+        17.0,
+        15.0,
+        13.0,
+        11.0
+      ],
+      "flags": 4,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x1b58c2d8",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Duration",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 7,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "game_spell_cooldown_KaynE",
+            "keyKaynHackType": "Spell_KaynE_KaynHackType",
+            "keyKaynHackValue": "Spell_KaynE_KaynHackValue",
+            "keyName": "Spell_KaynE_Name",
+            "keySummary": "Spell_KaynE_Summary",
+            "keyTooltip": "Spell_KaynE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_KaynE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "KaynE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            7.0,
+            7.0,
+            7.5,
+            8.0,
+            8.5,
+            9.0,
+            9.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1250.0,
+            1250.0,
+            1250.0,
+            1250.0,
+            1250.0,
+            1250.0,
+            1250.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            80.0,
+            90.0,
+            100.0,
+            110.0,
+            120.0,
+            130.0,
+            140.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_E_Primary.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_E_Ass.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_E_Slay.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalHealing": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 7,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.44999998807907104,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynEAttack": {
+    "ObjectName": "KaynEAttack",
+    "mScriptName": "KaynEAttack",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castFrame": 10.0,
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.33329999446868896,
+      "mAffectsTypeFlags": 6826,
+      "mAnimationName": "Attack2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mConsideredAsAutoAttack": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynPTrail": {
+    "ObjectName": "KaynPTrail",
+    "mScriptName": "KaynPTrail",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "flags": 4,
+      "mAffectsTypeFlags": 16384,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectName": "None",
+      "mHitEffectOrientType": 2,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 4000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 4000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Kayn/Spells/KaynPassiveAbility/KaynPassive"
+    ],
+    "mName": "KaynPassiveAbility",
+    "mRootSpell": "Characters/Kayn/Spells/KaynPassiveAbility/KaynPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Kayn/Spells/KaynPassiveAbility/KaynPassive": {
+    "ObjectName": "KaynPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KaynPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "TransformationVariable",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PAmpCooldownAss",
+          "mValues": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PAmpDurationAss",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PAmpPercentBaseAss",
+          "mValues": [
+            23.822999954223633,
+            23.822999954223633,
+            23.822999954223633,
+            23.822999954223633,
+            23.822999954223633,
+            23.822999954223633,
+            23.822999954223633
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PAmpPercentPerLvlAss",
+          "mValues": [
+            1.1777000427246094,
+            1.1777000427246094,
+            1.1777000427246094,
+            1.1777000427246094,
+            1.1777000427246094,
+            1.1777000427246094,
+            1.1777000427246094
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusHealRatio",
+          "mValues": [
+            4.999999873689376e-05,
+            4.999999873689376e-05,
+            4.999999873689376e-05,
+            4.999999873689376e-05,
+            4.999999873689376e-05,
+            4.999999873689376e-05,
+            4.999999873689376e-05
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlayerHealing",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PassiveSecondFormDelayTooltip",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "PAmpCooldownAss",
+              "mValues": [
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "PassiveSecondFormDelayTooltip",
+              "mValues": [
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "PAmpCooldownAss",
+              "mValues": [
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "PassiveSecondFormDelayTooltip",
+              "mValues": [
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "PAmpCooldownAss",
+              "mValues": [
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "PAmpPercentBaseAss",
+              "mValues": [
+                28.235300064086914,
+                28.235300064086914,
+                28.235300064086914,
+                28.235300064086914,
+                28.235300064086914,
+                28.235300064086914,
+                28.235300064086914
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SlayerHealing",
+              "mValues": [
+                0.15000000596046448,
+                0.15000000596046448,
+                0.15000000596046448,
+                0.15000000596046448,
+                0.15000000596046448,
+                0.15000000596046448,
+                0.15000000596046448
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 32,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_KaynPassive_Name",
+            "keySummary": "Spell_KaynPassive_Summary",
+            "keyTooltip": "Spell_KaynPassive_Tooltip",
+            "keyTooltipExtended": "Spell_KaynPassive_TooltipExtended"
+          },
+          "mObjectName": "KaynPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Passive_Primary.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Passive_Ass.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Passive_Slay.dds"
+      ],
+      "mSpellCalculations": {
+        "KaynAssBonusDamage": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.44999998807907104,
+              "mStartValue": 0.25,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "KaynSlayerHealing": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "SlayerHealing",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "BonusHealRatio",
+              "mStat": 12,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynPassiveAbsorbMissileAss": {
+    "ObjectName": "KaynPassiveAbsorbMissileAss",
+    "mScriptName": "KaynPassiveAbsorbMissileAss",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 40,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "VladimirTransfusionHeal",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mIsDisabledWhileDead": false,
+      "mLookAtPolicy": 0,
+      "mMissileEffectKey": "Kayn_Primary_P_Assassin_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 20.0,
+          "mStartBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTargetBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTargetHeightAugment": 20.0,
+          "mTravelTime": 1.0,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynPassiveAbsorbMissileAssLocation": {
+    "ObjectName": "KaynPassiveAbsorbMissileAssLocation",
+    "mScriptName": "KaynPassiveAbsorbMissileAssLocation",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 40,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "VladimirTransfusionHeal",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mIsDisabledWhileDead": false,
+      "mLookAtPolicy": 0,
+      "mMissileEffectKey": "Kayn_Primary_P_Assassin_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 20.0,
+          "mStartBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTargetBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTargetHeightAugment": 20.0,
+          "mTravelTime": 1.0,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynPassiveAbsorbMissileSlay": {
+    "ObjectName": "KaynPassiveAbsorbMissileSlay",
+    "mScriptName": "KaynPassiveAbsorbMissileSlay",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 40,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "VladimirTransfusionHeal",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_Scythe_Eyeball",
+      "mIsDisabledWhileDead": false,
+      "mLookAtPolicy": 0,
+      "mMissileEffectKey": "Kayn_Primary_P_Slayer_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 20.0,
+          "mStartBoneName": "C_Scythe_Eyeball",
+          "mTargetBoneName": "C_Scythe_Eyeball",
+          "mTargetHeightAugment": 20.0,
+          "mTravelTime": 1.0,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynPassiveAbsorbMissileSlayLocation": {
+    "ObjectName": "KaynPassiveAbsorbMissileSlayLocation",
+    "mScriptName": "KaynPassiveAbsorbMissileSlayLocation",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 40,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "VladimirTransfusionHeal",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_Scythe_Eyeball",
+      "mIsDisabledWhileDead": false,
+      "mLookAtPolicy": 0,
+      "mMissileEffectKey": "Kayn_Primary_P_Slayer_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 20.0,
+          "mStartBoneName": "C_Scythe_Eyeball",
+          "mTargetBoneName": "C_Scythe_Eyeball",
+          "mTargetHeightAugment": 20.0,
+          "mTravelTime": 1.0,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynPassiveAss": {
+    "ObjectName": "KaynPassiveAss",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynPassiveAss",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PAmpCooldown",
+          "mValues": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PAmpDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PAmpPercentBase",
+          "mValues": [
+            13.235300064086914,
+            13.235300064086914,
+            13.235300064086914,
+            13.235300064086914,
+            13.235300064086914,
+            13.235300064086914,
+            13.235300064086914
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PAmpPercentPerLvl",
+          "mValues": [
+            1.7647099494934082,
+            1.7647099494934082,
+            1.7647099494934082,
+            1.7647099494934082,
+            1.7647099494934082,
+            1.7647099494934082,
+            1.7647099494934082
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "PAmpCooldown",
+              "mValues": [
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "PAmpCooldown",
+              "mValues": [
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "PAmpCooldown",
+              "mValues": [
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "PAmpPercentBase",
+              "mValues": [
+                28.235300064086914,
+                28.235300064086914,
+                28.235300064086914,
+                28.235300064086914,
+                28.235300064086914,
+                28.235300064086914,
+                28.235300064086914
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            13.235300064086914,
+            13.235300064086914,
+            13.235300064086914,
+            13.235300064086914,
+            13.235300064086914,
+            13.235300064086914,
+            13.235300064086914
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.7647099494934082,
+            1.7647099494934082,
+            1.7647099494934082,
+            1.7647099494934082,
+            1.7647099494934082,
+            1.7647099494934082,
+            1.7647099494934082
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Passive_Ass.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynPassiveAssMarker": {
+    "ObjectName": "KaynPassiveAssMarker",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KaynPassiveAssMarker",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynPassiveAssMarker",
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynPassiveSlay": {
+    "ObjectName": "KaynPassiveSlay",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KaynPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynPassiveSlay",
+    "mSpell": {
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Passive_Slay.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Passive_Ass.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynQAbility": {
+    "mChildSpells": [
+      "Characters/Kayn/Spells/KaynQAbility/KaynQ"
+    ],
+    "mName": "KaynQAbility",
+    "mRootSpell": "Characters/Kayn/Spells/KaynQAbility/KaynQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Kayn/Spells/KaynQAbility/KaynQ": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KaynQ",
+    "mScriptName": "KaynQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "SlayerBaseMaxHPDamage",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlayerMaxHPPer100BAD",
+          "mValues": [
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlayerMaxHPPer100BADTOOLTIPONLY",
+          "mValues": [
+            0.03500000014901161,
+            0.03500000014901161,
+            0.03500000014901161,
+            0.03500000014901161,
+            0.03500000014901161,
+            0.03500000014901161,
+            0.03500000014901161
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusADRatio",
+          "mValues": [
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "BonusADRatio",
+              "mValues": [
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "BonusADRatio",
+              "mValues": [
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071,
+                0.949999988079071
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "SlayerBaseMaxHPDamage",
+              "mValues": [
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SlayerMaxHPPer100BAD",
+              "mValues": [
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SlayerMaxHPPer100BADTOOLTIPONLY",
+              "mValues": [
+                0.02500000037252903,
+                0.02500000037252903,
+                0.02500000037252903,
+                0.02500000037252903,
+                0.02500000037252903,
+                0.02500000037252903,
+                0.02500000037252903
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "alwaysSnapFacing": true,
+      "cantCastWhileRooted": true,
+      "castFrame": 7.5,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "cooldownTime": [
+        7.5,
+        7.0,
+        6.5,
+        6.0,
+        5.5,
+        5.0,
+        4.5
+      ],
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "attack2",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.15000000596046448,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "centerLocator": {
+              "distanceOffset": 350.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x1b58c2d8",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_BaseDamage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KaynQ_Name",
+            "keySummary": "Spell_KaynQ_Summary",
+            "keyTooltip": "Spell_KaynQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_KaynQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "KaynQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8500000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            75.0,
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            175.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0,
+            400.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Q_Primary.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Q_Ass.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Q_Slay.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mSpellCalculations": {
+        "DarkinFlatDamage": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.6499999761581421,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "DarkinPercentDamage": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "SlayerBaseMaxHPDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "SlayerMaxHPPer100BADTOOLTIPONLY",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mNumber": 0.009999999776482582,
+            "~class": "NumberCalculationPart"
+          },
+          "mPrecision": 1,
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mDataValue": "BonusADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynQBox": {
+    "ObjectName": "KaynQBox",
+    "mScriptName": "KaynQBox",
+    "mSpell": {
+      "castFrame": 7.5,
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.15000000596046448,
+      "mChannelDuration": [
+        1.1200000047683716,
+        1.1200000047683716,
+        1.1200000047683716,
+        1.1200000047683716,
+        1.1200000047683716,
+        1.1200000047683716,
+        1.1200000047683716
+      ],
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            100.0,
+            100.0,
+            120.0,
+            140.0,
+            160.0,
+            180.0,
+            60.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.44999998807907104,
+            -0.5,
+            -0.550000011920929,
+            -0.6000000238418579,
+            -0.6000000238418579
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.100000023841858,
+            1.100000023841858,
+            1.25,
+            1.399999976158142,
+            1.5499999523162842,
+            1.7000000476837158,
+            1.2000000476837158
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "Kayn_Q_base.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Q_Ass.dds",
+        "Kayn_Q.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynRAbility": {
+    "AbilityTraits": 32,
+    "mChildSpells": [
+      "Characters/Kayn/Spells/KaynRAbility/KaynR",
+      "Characters/Kayn/Spells/KaynRAbility/KaynRJumpOut"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "KaynRAbility",
+    "mRootSpell": "Characters/Kayn/Spells/KaynRAbility/KaynR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Kayn/Spells/KaynRAbility/KaynR": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "Damage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 256,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 131072,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KaynR",
+    "mScriptName": "KaynR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            450.0,
+            550.0,
+            650.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinimumInfestTime",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "InfestDuration",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "JumpOutDistance",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlayerMaxHPBaseDamage",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlayerMaxHPDamagerPer100AD",
+          "mValues": [
+            0.0010000000474974513,
+            0.0010000000474974513,
+            0.0010000000474974513,
+            0.0010000000474974513,
+            0.0010000000474974513,
+            0.0010000000474974513,
+            0.0010000000474974513
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlayerHealPercent",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AssassinCastRange",
+          "mValues": [
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseCastRange",
+          "mValues": [
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AssassinJumpOutDistance",
+          "mValues": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "SlayerMaxHPBaseDamage",
+              "mValues": [
+                0.07000000029802322,
+                0.07000000029802322,
+                0.07000000029802322,
+                0.07000000029802322,
+                0.07000000029802322,
+                0.07000000029802322,
+                0.07000000029802322
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SlayerMaxHPDamagerPer100AD",
+              "mValues": [
+                0.0005000000237487257,
+                0.0005000000237487257,
+                0.0005000000237487257,
+                0.0005000000237487257,
+                0.0005000000237487257,
+                0.0005000000237487257,
+                0.0005000000237487257
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "AssassinCastRange",
+              "mValues": [
+                950.0,
+                950.0,
+                950.0,
+                950.0,
+                950.0,
+                950.0,
+                950.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "AssassinJumpOutDistance",
+              "mValues": [
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SlayerHealPercent",
+              "mValues": [
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5,
+                0.5
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "cantCastWhileRooted": true,
+      "castFrame": 7.5,
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        100.0,
+        80.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 4106,
+      "mAmmoRechargeTime": [
+        12.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        1.0
+      ],
+      "mCantCancelWhileWindingUp": true,
+      "mCastRequirementsTarget": [
+        {
+          "mBuffName": "0xd0e744e5",
+          "~class": "HasBuffCastRequirement"
+        }
+      ],
+      "mCastTime": 0.10000000149011612,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x1b58c2d8",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyKaynHackType": "Spell_KaynR_KaynHackType",
+            "keyKaynHackValue": "Spell_KaynR_KaynHackValue",
+            "keyName": "Spell_KaynR_Name",
+            "keySummary": "Spell_KaynR_Summary",
+            "keyTooltip": "Spell_KaynR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_KaynR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "KaynR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            150.0,
+            150.0,
+            250.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            13.0,
+            13.0,
+            13.0,
+            13.0,
+            13.0,
+            13.0,
+            13.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_R1_Primary.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_R1_Disabled.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_R1_Slay.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.5,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "HealValue": {
+          "mModifiedGameCalculation": "SlayerDamage",
+          "mMultiplier": {
+            "mDataValue": "SlayerHealPercent",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "SlayerDamage": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "SlayerMaxHPBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "SlayerMaxHPDamagerPer100AD",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_MoveBlock",
+        "Trait_Transformation"
+      ],
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynRAbility/KaynRJumpOut": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KaynRJumpOut",
+    "mScriptName": "KaynRJumpOut",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castRange": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mChannelDuration": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "mChargeUpdateInterval": 0.10000000149011612,
+      "mClientData": {
+        "mRightClickSpellAction": 1,
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "minimumDisplayedRange": 300.0,
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "EnableExtendedTooltip": false,
+          "mFormat": "0x3b504ce3",
+          "mLocKeys": {
+            "keyName": "Spell_KaynR_Name",
+            "keyTooltip": "Spell_KaynRJumpOut_Tooltip"
+          },
+          "mObjectName": "KaynRJumpOut",
+          "~class": "TooltipInstanceSpell"
+        },
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Kayn/Spells/KaynRAbility/KaynR",
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_R2_Primary.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_R2_Ass.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_R2_Slay.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mUseChargeChanneling": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynRAssUltReactivate": {
+    "ObjectName": "KaynRAssUltReactivate",
+    "mScriptName": "KaynRAssUltReactivate",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castRange": [
+        3500.0,
+        3500.0,
+        3500.0,
+        3500.0,
+        3500.0,
+        3500.0,
+        3500.0
+      ],
+      "flags": 4,
+      "mImgIconName": [
+        "Kayn_R.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynRBodyMarker": {
+    "ObjectName": "KaynRBodyMarker",
+    "mScriptName": "KaynRBodyMarker",
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynREnemyMark": {
+    "ObjectName": "KaynREnemyMark",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynREnemyMark",
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynRHost": {
+    "ObjectName": "KaynRHost",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KaynRHost",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynRHost",
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynRRecast": {
+    "ObjectName": "KaynRRecast",
+    "mScriptName": "KaynRRecast",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "cooldownTime": [
+        140.0,
+        140.0,
+        110.0,
+        80.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 4106,
+      "mCantCancelWhileWindingUp": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            10.0,
+            15.0,
+            20.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "Kayn_R_base.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynRSpellPassive": {
+    "ObjectName": "KaynRSpellPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KaynRHost",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynRSpellPassive",
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynRWraithForm": {
+    "ObjectName": "KaynRWraithForm",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KaynRWraithform",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynRWraithForm",
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynSlayRMis": {
+    "ObjectName": "KaynSlayRMis",
+    "mScriptName": "KaynSlayRMis",
+    "mSpell": {
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mLineWidth": 150.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 150.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2600.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 2600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynSlayReady": {
+    "ObjectName": "KaynSlayReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KaynSlayReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynSlayReady",
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynTransforming": {
+    "ObjectName": "KaynTransforming",
+    "mScriptName": "KaynTransforming",
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynWAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Kayn/Spells/KaynWAbility/KaynW",
+      "Characters/Kayn/Spells/KaynWAbility/KaynAssW",
+      "Characters/Kayn/Spells/KaynWAbility/KaynAssWJumpOut"
+    ],
+    "mName": "KaynWAbility",
+    "mRootSpell": "Characters/Kayn/Spells/KaynWAbility/KaynW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Kayn/Spells/KaynWAbility/KaynAssW": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mEffectIndex": 1,
+            "~class": "EffectValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 3,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 2,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16777216,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KaynAssW",
+    "mScriptName": "KaynAssW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "alwaysSnapFacing": true,
+      "castRange": [
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        9.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "KaynNewW",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.6000000238418579,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "minimumDisplayedRange": 900.0,
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Kayn/Spells/KaynWAbility/KaynW",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mEffectAmount": [
+        {
+          "value": [
+            90.0,
+            90.0,
+            135.0,
+            180.0,
+            225.0,
+            270.0,
+            315.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            -0.6000000238418579,
+            -0.6000000238418579,
+            -0.6000000238418579,
+            -0.6000000238418579,
+            -0.6000000238418579,
+            -0.6000000238418579,
+            -0.6000000238418579
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_W_Ass.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_W_Ass.dds"
+      ],
+      "mLineWidth": 175.0,
+      "mTargetingTypeData": {
+        "~class": "AreaClamped"
+      },
+      "mana": [
+        40.0,
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynWAbility/KaynAssWJumpOut": {
+    "ObjectName": "KaynAssWJumpOut",
+    "mScriptName": "KaynAssWJumpOut",
+    "mSpell": {
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 36,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mRightClickSpellAction": 1,
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "minimumDisplayedRange": 10.0,
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "Kayn_WGTFO.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynWAbility/KaynW": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 3,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 2,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16777216,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KaynW",
+    "mScriptName": "KaynW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0,
+            6.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "alwaysSnapFacing": true,
+      "castFrame": 16.5,
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        9.0
+      ],
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.550000011920929,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "minimumDisplayedRange": 750.0,
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KaynW_Name",
+            "keySummary": "Spell_KaynW_Summary",
+            "keyTooltip": "Spell_KaynW_Tooltip"
+          },
+          "mObjectName": "KaynW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.100000023841858,
+      "mEffectAmount": [
+        {
+          "value": [
+            85.0,
+            85.0,
+            130.0,
+            175.0,
+            220.0,
+            265.0,
+            265.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            -0.8999999761581421,
+            -0.8999999761581421,
+            -0.8999999761581421,
+            -0.8999999761581421,
+            -0.8999999761581421,
+            -0.8999999761581421,
+            -0.8999999761581421
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            160.0,
+            160.0,
+            160.0,
+            160.0,
+            160.0,
+            160.0,
+            160.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_W_Primary.dds",
+        "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_W_Slay.dds"
+      ],
+      "mLineWidth": 175.0,
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.100000023841858,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "AreaClamped"
+      },
+      "mana": [
+        40.0,
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kayn/Spells/KaynWPassive": {
+    "ObjectName": "KaynWPassive",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "KaynWPassive",
+    "~class": "SpellObject"
+  }
+}

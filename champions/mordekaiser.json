@@ -1,0 +1,2616 @@
+{
+  "0x11bf9a8b": {
+    "catalogEntry": {
+      "contentId": "4e352537-3eee-4274-8538-9641d1af9d8b",
+      "itemID": 66600187,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x4a057a71",
+      "0xffa3fc56",
+      "0xf17a12cb"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x1c034a7c": {
+    "ObjectName": "MordekaiserQ_MultiTargetHit",
+    "mScriptName": "MordekaiserQ_MultiTargetHit",
+    "~class": "SpellObject"
+  },
+  "0x29a2e75b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9500,
+      24000,
+      48000,
+      58000,
+      72000,
+      29000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ab886ea8-d0d2-4d18-9cd3-968f3c088345",
+      "itemID": 125903,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_MordekaiserWDamageBlocked",
+    "mNameTraKey": "stat_stone_name_MordekaiserWDamageBlocked",
+    "stoneName": "MordekaiserWDamageBlocked",
+    "~class": "StatStoneData"
+  },
+  "0x44dafb68": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      45,
+      125,
+      225,
+      275,
+      350,
+      150
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "0b6440ec-5f29-44a6-af6b-310015a5f4f8",
+      "itemID": 111,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_MordekaiserIsolatedQ",
+    "mNameTraKey": "stat_stone_name_MordekaiserIsolatedQ",
+    "stoneName": "MordekaiserIsolatedQ",
+    "~class": "StatStoneData"
+  },
+  "0x4a057a71": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "4d36ab67-3796-409e-8f9b-109aec336d15",
+      "itemID": 125498,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "MordekaiserEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x4a280723": {
+    "catalogEntry": {
+      "contentId": "a180a6f2-019f-4a34-8adf-2414ef558741",
+      "itemID": 66600074,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xb10455f2",
+      "0x44dafb68",
+      "0xc684ce3a"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x4b2808b6": {
+    "catalogEntry": {
+      "contentId": "c15c14b8-34cf-436c-9182-04d3f3694d63",
+      "itemID": 66600371,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x29a2e75b",
+      "0xf4e914cd",
+      "0xd26aa1f4"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xa2163ee2": {
+    "ObjectName": "MordekaiserSkin54Manager",
+    "mScriptName": "MordekaiserSkin54Manager",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "StatsStolenToNextForm",
+          "mValues": [
+            325.0,
+            325.0,
+            325.0,
+            325.0,
+            325.0,
+            325.0,
+            325.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SecondsOutOfCombatTillTransform",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb10455f2": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      10,
+      25,
+      30,
+      35,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "bab61d1e-97bf-49d1-b197-67fd281cd555",
+      "itemID": 98855,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_MordekaiserChampionsKilledInR",
+    "mNameTraKey": "stat_stone_name_MordekaiserChampionsKilledInR",
+    "stoneName": "MordekaiserChampionsKilledInR",
+    "~class": "StatStoneData"
+  },
+  "0xc0d0d7e9": {
+    "ObjectName": "MordekaiserQ_SingleTargetHit",
+    "mScriptName": "MordekaiserQ_SingleTargetHit",
+    "~class": "SpellObject"
+  },
+  "0xc684ce3a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      400,
+      1000,
+      2000,
+      2500,
+      3000,
+      1000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "a55783e3-83a3-4b3a-aaa8-37d868495be5",
+      "itemID": 112,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_MordekaiserPDuration",
+    "mNameTraKey": "stat_stone_name_MordekaiserPDuration",
+    "stoneName": "MordekaiserPDuration",
+    "trackingType": 1,
+    "~class": "StatStoneData"
+  },
+  "0xd26aa1f4": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      16000,
+      39000,
+      79000,
+      94000,
+      125000,
+      47000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "9290f9c3-41c9-4e5b-aa06-68a1e4e66496",
+      "itemID": 125902,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_MordekaiserRPDamage",
+    "mNameTraKey": "stat_stone_name_MordekaiserRPDamage",
+    "stoneName": "MordekaiserRPDamage",
+    "~class": "StatStoneData"
+  },
+  "0xed488e3d": {
+    "ObjectName": "MordekaiserSkin13Manager",
+    "mScriptName": "MordekaiserSkin13Manager",
+    "~class": "SpellObject"
+  },
+  "0xed59cce3": {
+    "ObjectName": "MordekaiserSkin6Manager",
+    "mScriptName": "MordekaiserSkin6Manager",
+    "~class": "SpellObject"
+  },
+  "0xef54118b": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xf17a12cb": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "da52e0f4-f2cd-4009-a35f-eec7182d22a4",
+      "itemID": 125500,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "MordekaiserStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xf4e914cd": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      6,
+      15,
+      30,
+      40,
+      50,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4ff21771-bf2f-4485-92c1-e602ad8e0827",
+      "itemID": 125904,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_MordekaiserEMultiPulls",
+    "mNameTraKey": "stat_stone_name_MordekaiserEMultiPulls",
+    "stoneName": "MordekaiserEMultiPulls",
+    "~class": "StatStoneData"
+  },
+  "0xf537e1bf": {
+    "ObjectName": "MordekaiserR_InsideSpiritRealm",
+    "mScriptName": "MordekaiserR_InsideSpiritRealm",
+    "~class": "SpellObject"
+  },
+  "0xf7454b03": {
+    "ObjectName": "MordekaiserQ_TargetHitCounter",
+    "mScriptName": "MordekaiserQ_TargetHitCounter",
+    "~class": "SpellObject"
+  },
+  "0xffa3fc56": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "8fa1b217-f575-4640-9193-5968ac0b78c6",
+      "itemID": 125499,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "MordekaiserTakedowns",
+    "~class": "StatStoneData"
+  },
+  "Characters/Mordekaiser/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "0xc5c48b41": 1,
+    "acquisitionRange": 400.0,
+    "allyChampSpecificHealthSuffix": "Red",
+    "armorPerLevel": 4.199999809265137,
+    "attackRange": 175.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 1.0,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 37.0,
+    "baseDamage": 61.0,
+    "baseHP": 645.0,
+    "baseMoveSpeed": 335.0,
+    "baseSpellBlock": 32.0,
+    "basicAttack": {
+      "mAttackCastTime": 0.5,
+      "mAttackName": "MordekaiserBasicAttack",
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 2.365999937057495,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.5,
+      "attackRank": 4,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 82,
+      "classification": "Deadly",
+      "defenseRank": 6,
+      "description": "game_character_description_Mordekaiser",
+      "difficultyRank": 4,
+      "magicRank": 7,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Mordekaiser",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "recItems": [
+        "1054",
+        "3020",
+        "3116",
+        "3068",
+        "3109",
+        "3001"
+      ],
+      "roles": "TANK",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "mage",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+        "mAttackDelayCastOffsetPercentAttackSpeedRatio": 0.5,
+        "mAttackName": "MordekaiserCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 4.0,
+    "enemyChampSpecificHealthSuffix": "Red",
+    "extraAttacks": [
+      {
+        "mAttackCastTime": 0.5,
+        "mAttackName": "MordekaiserBasicAttack2",
+        "mAttackTotalTime": 2.365999937057495,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398092,
+    "healthBarHeight": 120.0,
+    "hpPerLevel": 104.0,
+    "hpRegenPerLevel": 0.15000000596046448,
+    "mAbilities": [
+      "Characters/Mordekaiser/Spells/MordekaiserRAbility",
+      "Characters/Mordekaiser/Spells/MordekaiserQAbility",
+      "Characters/Mordekaiser/Spells/MordekaiserEAbility",
+      "Characters/Mordekaiser/Spells/MordekaiserPassiveAbility",
+      "Characters/Mordekaiser/Spells/MordekaiserWAbility"
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Mordekaiser",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Mordekaiser/Spells/MordekaiserPassiveAbility/MordekaiserPassive_FullStacks"
+        ],
+        "mParentPassiveBuff": "Characters/Mordekaiser/Spells/MordekaiserPassiveAbility/MordekaiserPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            6
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mAllowOnClones": false,
+        "mParentPassiveBuff": "0xed59cce3",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            13
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mAllowOnClones": false,
+        "mParentPassiveBuff": "0xed488e3d",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            54
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mAllowOnClones": false,
+        "mParentPassiveBuff": "0xa2163ee2",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Mordekaiser/Spells/MordekaiserPassiveAbility/MordekaiserPassive",
+    "mEducationToolData": {
+      "firstItem": 1054,
+      "skillOrder": 2,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NullifyingOrb",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Precision/PresenceOfMind",
+          "mReplaceWith": "Perks/Styles/Precision/Triumph",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "name": "game_character_displayname_Mordekaiser",
+    "overrideGameplayCollisionRadius": 80.0,
+    "passive1IconName": "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserPassive.dds",
+    "passiveLuaName": "MordekaiserPassive",
+    "passiveName": "",
+    "passiveSpell": "MordekaiserPassive",
+    "passiveToolTip": "",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arAllowMaxValueToBeOverridden": true,
+      "arBaseStaticRegen": 0.0,
+      "arIncrements": 100.0,
+      "arMaxSegments": 30,
+      "arType": 3,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "VisibilityFlags": 1,
+      "arBase": 3.0,
+      "arBaseStaticRegen": 0.0,
+      "arDisplayAsPips": true,
+      "arHasRegenText": false,
+      "arIncrements": 1.0,
+      "arMaxSegments": 3,
+      "arOverrideSpacerName": "PipSpacer1",
+      "arType": 14,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 190.0,
+    "selectionRadius": 125.0,
+    "selfCBChampSpecificHealthSuffix": "Red",
+    "selfChampSpecificHealthSuffix": "Red",
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "MordekaiserQAbility/MordekaiserQ",
+      "MordekaiserWAbility/MordekaiserW",
+      "MordekaiserEAbility/MordekaiserE",
+      "MordekaiserRAbility/MordekaiserR"
+    ],
+    "spells": [
+      "Characters/Mordekaiser/Spells/MordekaiserQAbility/MordekaiserQ",
+      "Characters/Mordekaiser/Spells/MordekaiserWAbility/MordekaiserW",
+      "Characters/Mordekaiser/Spells/MordekaiserEAbility/MordekaiserE",
+      "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "weaponMaterials": [
+      "MordekaiserBasicAttack",
+      "None",
+      "MordekaiserBasicAttack2"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Mordekaiser/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserBasicAttack": {
+    "ObjectName": "MordekaiserBasicAttack",
+    "mScriptName": "MordekaiserBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 18.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.16670000553131104,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "MordekaiserBasicAttack",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserBasicAttack2": {
+    "ObjectName": "MordekaiserBasicAttack2",
+    "mScriptName": "MordekaiserBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 18.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.16670000553131104,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "MordekaiserBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserCritAttack": {
+    "ObjectName": "MordekaiserCritAttack",
+    "mScriptName": "MordekaiserCritAttack",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 18.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.16670000553131104,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mTurnSpeedScalar": 3.0,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserEAbility": {
+    "AbilityTraits": 2560,
+    "mChildSpells": [
+      "Characters/Mordekaiser/Spells/MordekaiserEAbility/MordekaiserE",
+      "Characters/Mordekaiser/Spells/MordekaiserEAbility/MordekaiserEMagicPen",
+      "Characters/Mordekaiser/Spells/MordekaiserEAbility/MordekaiserEMissile",
+      "Characters/Mordekaiser/Spells/MordekaiserEAbility/MordekaiserEPull"
+    ],
+    "mName": "MordekaiserEAbility",
+    "mRootSpell": "Characters/Mordekaiser/Spells/MordekaiserEAbility/MordekaiserE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserEAbility/MordekaiserE": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "KnockTowardsDistance",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 65536,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "MordekaiserE",
+    "mScriptName": "MordekaiserE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Damage",
+          "mValues": [
+            45.0,
+            60.0,
+            75.0,
+            90.0,
+            105.0,
+            120.0,
+            135.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DelayBeforeMovement",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxDistance",
+          "mValues": [
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockTowardsDistance",
+          "mValues": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StandAsideRange",
+          "mValues": [
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MagicPen",
+          "mValues": [
+            0.02500000037252903,
+            0.05000000074505806,
+            0.07500000298023224,
+            0.10000000149011612,
+            0.125,
+            0.15000000596046448,
+            0.17499999701976776
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        18.0,
+        18.0,
+        16.0,
+        14.0,
+        12.0,
+        10.0,
+        10.0
+      ],
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "None",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "textureOrientation": 3,
+            "textureOverrideName": "ASSETS/Spells/Textures/Mordekaiser_Base_E_RangeIndicator.tex",
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "angleOffsetRadian": 100.0,
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                660.0,
+                660.0,
+                660.0,
+                660.0,
+                660.0,
+                660.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOrientation": 3,
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/Mordekaiser_Base_E_AOEIndicator.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_MordekaiserE_Penetration",
+                  "type": "MagicPen",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Damage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_MordekaiserE_Circular_Name",
+            "keySummary": "Spell_MordekaiserE_Summary",
+            "keyTooltip": "Spell_MordekaiserE_Circular_Tooltip"
+          },
+          "mObjectName": "MordekaiserE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 1,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserE.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.4000000059604645,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserEAbility/MordekaiserEMagicPen": {
+    "ObjectName": "MordekaiserEMagicPen",
+    "mScriptName": "MordekaiserEMagicPen",
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserEAbility/MordekaiserEMissile": {
+    "ObjectName": "MordekaiserEMissile",
+    "mScriptName": "MordekaiserEMissile",
+    "mSpell": {
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mCastType": 3,
+      "mDimensionBehavior": 1,
+      "mIgnoreRangeCheck": true,
+      "mIsDisabledWhileDead": false,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 3000.0,
+          "mStartBoneName": "root",
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 300.0,
+          "~class": "EnterFOWVisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserEAbility/MordekaiserEPull": {
+    "ObjectName": "MordekaiserEPull",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_MordekaiserEPull_Name",
+          "keyTooltip": "Buff_MordekaiserEPull_Tooltip"
+        },
+        "mObjectName": "MordekaiserEPull",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "MordekaiserEPull",
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Mordekaiser/Spells/MordekaiserPassiveAbility/MordekaiserPassive",
+      "Characters/Mordekaiser/Spells/MordekaiserPassiveAbility/MordekaiserPassive_FullStacks"
+    ],
+    "mName": "MordekaiserPassiveAbility",
+    "mRootSpell": "Characters/Mordekaiser/Spells/MordekaiserPassiveAbility/MordekaiserPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserPassiveAbility/MordekaiserPassive": {
+    "ObjectName": "MordekaiserPassive",
+    "mScriptName": "MordekaiserPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "CombatTrackingDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaximumStacks",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentAPAddedToAutos",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryForQHit",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryForAutoHit",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryForEHit",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DoTRadius",
+          "mValues": [
+            375.0,
+            375.0,
+            375.0,
+            375.0,
+            375.0,
+            375.0,
+            375.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MovementSpeed",
+          "mValues": [
+            0.029999999329447746,
+            0.029999999329447746,
+            0.029999999329447746,
+            0.029999999329447746,
+            0.029999999329447746,
+            0.029999999329447746,
+            0.029999999329447746
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 20.209999084472656,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23749999701976776,
+      "delayTotalTimePercent": -0.23000000417232513,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_MordekaiserPassive_Name",
+            "keySummary": "Spell_MordekaiserPassive_Summary",
+            "keyTooltip": "Spell_MordekaiserPassive_Tooltip",
+            "keyTooltipExtended": "Spell_MordekaiserPassive_TooltipExtended"
+          },
+          "mObjectName": "MordekaiserPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 1,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserPassive.dds"
+      ],
+      "mMissileEffectName": "TristanaBasicAttack_mis.troy",
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "AuraDamagePerStack": {
+          "mFormulaParts": [
+            {
+              "mNumber": 5.0,
+              "~class": "NumberCalculationPart"
+            },
+            {
+              "mCoefficient": 0.30000001192092896,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "BonusAPAuto": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.4000000059604645,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "MaxAuraMonsterDamage": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mEndValue": 200.0,
+              "mStartValue": 40.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PassiveMovementSpeed": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 0.029999999329447746,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.029999999329447746,
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.029999999329447746,
+                  "mLevel": 19,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.029999999329447746,
+                  "mLevel": 24,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.029999999329447746,
+                  "mLevel": 30,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 0.029999999329447746,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PercentHealthForAura": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 5.0,
+              "mStartValue": 1.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserPassiveAbility/MordekaiserPassive_FullStacks": {
+    "ObjectName": "MordekaiserPassive_FullStacks",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_MordekaiserPassive_FullStacks_Name",
+          "keyTooltip": "Buff_MordekaiserPassive_FullStacks_Tooltip"
+        },
+        "mObjectName": "MordekaiserPassive_FullStacks",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "MordekaiserPassive_FullStacks",
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserPlanets": {
+    "ObjectName": "MordekaiserPlanets",
+    "mScriptName": "MordekaiserPlanets",
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserQAbility": {
+    "mChildSpells": [
+      "Characters/Mordekaiser/Spells/MordekaiserQAbility/MordekaiserQ"
+    ],
+    "mName": "MordekaiserQAbility",
+    "mRootSpell": "Characters/Mordekaiser/Spells/MordekaiserQAbility/MordekaiserQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserQAbility/MordekaiserQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "QDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "MordekaiserQ",
+    "mScriptName": "MordekaiserQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "QBaseDamage",
+          "mValues": [
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0,
+            220.0,
+            255.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "IsolationScalar",
+          "mValues": [
+            1.25,
+            1.2999999523162842,
+            1.350000023841858,
+            1.399999976158142,
+            1.4500000476837158,
+            1.5,
+            1.5499999523162842
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "IsolationTooltip",
+          "mValues": [
+            0.25,
+            0.30000001192092896,
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaceStartDistance",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaceLength",
+          "mValues": [
+            625.0,
+            625.0,
+            625.0,
+            625.0,
+            625.0,
+            625.0,
+            625.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RectangleWidth",
+          "mValues": [
+            160.0,
+            160.0,
+            160.0,
+            160.0,
+            160.0,
+            160.0,
+            160.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        675.0,
+        675.0,
+        675.0,
+        675.0,
+        675.0,
+        675.0,
+        675.0
+      ],
+      "cooldownTime": [
+        8.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mAffectsTypeFlags": 22538,
+      "mAnimationName": "None",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                600.0,
+                600.0,
+                600.0,
+                600.0,
+                600.0,
+                600.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                600.0,
+                600.0,
+                600.0,
+                600.0,
+                600.0,
+                600.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "QBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_MordekaiserQ_Isolation",
+                  "type": "IsolationScalar",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_MordekaiserQ_Name",
+            "keySummary": "Spell_MordekaiserQ_Summary",
+            "keyTooltip": "Spell_MordekaiserQ_Tooltip"
+          },
+          "mObjectName": "MordekaiserQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesNotConsumeCooldown": true,
+      "mDoesNotConsumeMana": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserQ.dds"
+      ],
+      "mSpellCalculations": {
+        "EmpoweredDamageTooltip": {
+          "mModifiedGameCalculation": "QDamage",
+          "mMultiplier": {
+            "mDataValue": "IsolationScalar",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculationModified"
+        },
+        "QDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "QBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mBreakpoints": [
+                {
+                  "mBonusPerLevelAtAndAfter": 5.0,
+                  "mLevel": 10,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.2750000059604645,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserRAbility": {
+    "mChildSpells": [
+      "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserR",
+      "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserR_StatSteal",
+      "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserR_StatStealEnemy",
+      "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserRWispMis",
+      "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserSoulMissile"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "MordekaiserRAbility",
+    "mRootSpell": "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserR": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SpiritRealmDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "MordekaiserR",
+    "mScriptName": "MordekaiserR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "SpiritRealmDuration",
+          "mValues": [
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StatStealPercentScalar",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ZoneRadius",
+          "mValues": [
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "GhostAPRatio",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "StatStealPercentScalar",
+              "mValues": [
+                0.07999999821186066,
+                0.07999999821186066,
+                0.07999999821186066,
+                0.07999999821186066,
+                0.07999999821186066,
+                0.07999999821186066,
+                0.07999999821186066
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.934999942779541,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        140.0,
+        140.0,
+        120.0,
+        100.0,
+        90.0,
+        80.0,
+        8.0
+      ],
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 2,
+      "mAnimationName": "None",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastRequirementsTarget": [
+        {
+          "mBuffName": "0xb4ae536b",
+          "mFromAnyone": true,
+          "mInvertResult": true,
+          "~class": "HasBuffCastRequirement"
+        }
+      ],
+      "mCastTime": 0.5,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_MordekaiserR_Name",
+            "keySummary": "Spell_MordekaiserR_Summary",
+            "keyTooltip": "Spell_MordekaiserR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_MordekaiserR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "MordekaiserR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.03999999910593033,
+      "mCoefficient2": 0.03999999910593033,
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "0x3a1b93"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserR.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "missileSpeed": 1500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserRWispMis": {
+    "ObjectName": "MordekaiserRWispMis",
+    "mScriptName": "MordekaiserRWispMis",
+    "mSpell": {
+      "flags": 4194308,
+      "mAffectsTypeFlags": 3,
+      "mCastType": 3,
+      "mIgnoreRangeCheck": true,
+      "mMissileSpec": {
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "movementComponent": {
+          "mSpeed": 250000.0,
+          "mStartBoneName": "root",
+          "mTargetBoneName": "root",
+          "mVisualsTrackHiddenTargets": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "0xfb5bbd7": true,
+        "~class": "Target"
+      },
+      "missileSpeed": 250000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserR_StatSteal": {
+    "ObjectName": "MordekaiserR_StatSteal",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_MordekaiserR_StatSteal_Name",
+          "keyTooltip": "Buff_MordekaiserR_StatSteal_Tooltip"
+        },
+        "mObjectName": "MordekaiserR_StatSteal",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "MordekaiserR_StatSteal",
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserR_StatStealEnemy": {
+    "ObjectName": "MordekaiserR_StatStealEnemy",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_MordekaiserR_StatStealEnemy_Name",
+          "keyTooltip": "Buff_MordekaiserR_StatStealEnemy_Tooltip"
+        },
+        "mObjectName": "MordekaiserR_StatStealEnemy",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "MordekaiserR_StatStealEnemy",
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserRAbility/MordekaiserSoulMissile": {
+    "ObjectName": "MordekaiserSoulMissile",
+    "mScriptName": "MordekaiserSoulMissile",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 6155,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Mordekaiser_R_Wraith",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "movementComponent": {
+          "mStartBoneName": "root",
+          "mTravelTime": 0.5,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 200.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserWAbility": {
+    "mChildSpells": [
+      "Characters/Mordekaiser/Spells/MordekaiserWAbility/MordekaiserW",
+      "Characters/Mordekaiser/Spells/MordekaiserWAbility/MordekaiserWPassive"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "MordekaiserWAbility",
+    "mRootSpell": "Characters/Mordekaiser/Spells/MordekaiserWAbility/MordekaiserW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserWAbility/MordekaiserW": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "HealingPercent",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BaseShield",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "MordekaiserW",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_MordekaiserW_Name",
+          "keyTooltip": "Buff_MordekaiserW_Tooltip"
+        },
+        "mObjectName": "MordekaiserW",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "MordekaiserW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Duration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageConversion",
+          "mValues": [
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseShield",
+          "mValues": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealingPercent",
+          "mValues": [
+            0.32499998807907104,
+            0.3499999940395355,
+            0.375,
+            0.4000000059604645,
+            0.42500001192092896,
+            0.44999998807907104,
+            0.4749999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionPenalty",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageTakenConversion",
+          "mValues": [
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxHealthCap",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TimeBeforeDecay",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DecayPerSecond",
+          "mValues": [
+            0.004999999888241291,
+            0.004999999888241291,
+            0.004999999888241291,
+            0.004999999888241291,
+            0.004999999888241291,
+            0.004999999888241291,
+            0.004999999888241291
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        8.0
+      ],
+      "delayTotalTimePercent": -1.0,
+      "flags": 36,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "None",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_MordekaiserW_DamageConversion",
+                  "type": "HealingPercent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_MordekaiserW_Name",
+            "keySummary": "Spell_MordekaiserW_Summary",
+            "keyTooltip": "Spell_MordekaiserW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_MordekaiserW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "MordekaiserW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserW.dds",
+        "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserW2.dds"
+      ],
+      "mSpellCalculations": {
+        "HealthDecay": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "DecayPerSecond",
+              "mStat": 12,
+              "mStatFormula": 1,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MaxHealthTooltip": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.30000001192092896,
+              "mStat": 12,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "MinHealthTooltip": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.05000000074505806,
+              "mStat": 12,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Mordekaiser/Spells/MordekaiserWAbility/MordekaiserWPassive": {
+    "ObjectName": "MordekaiserWPassive",
+    "mScriptName": "MordekaiserWPassive",
+    "~class": "SpellObject"
+  }
+}

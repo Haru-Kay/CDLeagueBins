@@ -1,0 +1,5159 @@
+{
+  "0x1e3b2bf4": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "68c4b85a-4891-40c6-b86d-8c61de2055ae",
+      "itemID": 125477,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "SivirEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x2246ba8a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      375,
+      975,
+      2000,
+      2500,
+      3000,
+      1000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4ef355c1-ed3a-43af-b18e-6b0d121e4a6d",
+      "itemID": 126227,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_SivirPDuration",
+    "mNameTraKey": "stat_stone_name_SivirPDuration",
+    "stoneName": "SivirPDuration",
+    "trackingType": 1,
+    "~class": "StatStoneData"
+  },
+  "0x35ad7475": {
+    "ObjectName": "SivirQMissile",
+    "mScriptName": "SivirQMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0
+      ],
+      "cooldownTime": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 50.099998474121094,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "SivirQ",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.75,
+      "mEffectAmount": [
+        {
+          "value": [
+            45.0,
+            100.0,
+            155.0,
+            210.0,
+            265.0,
+            320.0,
+            375.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            65.0,
+            80.0,
+            95.0,
+            110.0,
+            125.0,
+            140.0,
+            155.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "spine",
+      "mImgIconName": [
+        "ASSETS/Characters/Sivir/HUD/Icons2D/Sivir_Q.dds"
+      ],
+      "mLineWidth": 90.0,
+      "mMissileEffectKey": "Sivir_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 90.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1450.0,
+          "mStartBoneName": "Buffbone_Glb_Channel_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1450.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x3cbb012a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      80,
+      200,
+      400,
+      475,
+      600,
+      225
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f77b0751-2d33-4bbc-8f30-83b147e11c33",
+      "itemID": 126228,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_SivirWMultihits",
+    "mNameTraKey": "stat_stone_name_SivirWMultihits",
+    "stoneName": "SivirWMultihits",
+    "~class": "StatStoneData"
+  },
+  "0x427030c2": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      75,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "62724f9d-7cd1-4f85-b3ed-64e0a90111ad",
+      "itemID": 222,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_SivirRMultibuffs",
+    "mNameTraKey": "stat_stone_name_SivirRMultibuffs",
+    "stoneName": "SivirRMultibuffs",
+    "~class": "StatStoneData"
+  },
+  "0x42c71154": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      45,
+      90,
+      100,
+      125,
+      55
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "e126c6ed-768f-4957-bf2c-c4f9a18fb511",
+      "itemID": 221,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_SivirEBlocks",
+    "mNameTraKey": "stat_stone_name_SivirEBlocks",
+    "stoneName": "SivirEBlocks",
+    "~class": "StatStoneData"
+  },
+  "0x6987e021": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "9de18b47-582f-4309-a81d-639bde199b5f",
+      "itemID": 125478,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "SivirTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x8a2c32dc": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "057191a4-a752-413e-b268-005bd4d14991",
+      "itemID": 125479,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "SivirStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x8f485316": {
+    "ObjectName": "SivirRASBuff",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SivirRASBuff_Name",
+          "keyTooltip": "Buff_SivirRAbility_Tooltip"
+        },
+        "mObjectName": "SivirRASBuff",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SivirRASBuff",
+    "~class": "SpellObject"
+  },
+  "0x97f06435": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      45,
+      125,
+      225,
+      275,
+      350,
+      150
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d6021e5e-11c6-4410-8723-f2386e4f3eea",
+      "itemID": 6175,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_SivirQDoublehits",
+    "mNameTraKey": "stat_stone_name_SivirQDoublehits",
+    "stoneName": "SivirQDoublehits",
+    "~class": "StatStoneData"
+  },
+  "0x9c834a86": {
+    "ObjectName": "SpellShieldSpellImmunity",
+    "mScriptName": "SpellShieldSpellImmunity",
+    "~class": "SpellObject"
+  },
+  "0xa49a0615": {
+    "catalogEntry": {
+      "contentId": "52e6149f-4b46-4349-88c3-a1519af582c5",
+      "itemID": 66600180,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x1e3b2bf4",
+      "0x6987e021",
+      "0x8a2c32dc"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xaf256224": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      40,
+      85,
+      100,
+      125,
+      50
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "3a01d25e-3634-4bd1-91cd-5916720a24b8",
+      "itemID": 126229,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_SivirQMultihits",
+    "mNameTraKey": "stat_stone_name_SivirQMultihits",
+    "stoneName": "SivirQMultihits",
+    "~class": "StatStoneData"
+  },
+  "0xe3735ef8": {
+    "catalogEntry": {
+      "contentId": "eb30f7a8-4074-4fc0-8cea-c6e8b86e37cd",
+      "itemID": 66600481,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xaf256224",
+      "0x3cbb012a",
+      "0x2246ba8a"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xe67363b1": {
+    "catalogEntry": {
+      "contentId": "eea31258-14fc-4430-8a84-4c22bb9f1c42",
+      "itemID": 66600104,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x97f06435",
+      "0x42c71154",
+      "0x427030c2"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xe83cb0c2": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "bottom",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "Characters/Sivir/CAC/CAC_Template": {
+    "mCooldown": 15.0,
+    "mObjectPath": "Characters/Sivir/CAC/CAC_Template",
+    "mSituations": {
+      "AssistKill": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "Assist3DGeneral",
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Assist3DGeneral",
+              "mWaitForAnnouncerQueue": true,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Assist Kill",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "AttackChampion2D": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Attack2DSpecificChampion",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/Ekko/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Champion/Skin Specific",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Attack2DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Champion",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "AttackMinion2D": {
+        "mRules": [
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Attack2DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Minion",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "AttackNeutral2D": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Attack2DBaron",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/SRU_Baron/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Baron",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Attack2DHerald",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/SRU_RiftHerald/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Herald",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Attack2DElder",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Elder Dragon",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Attack2DElementalDragon",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Elemental Dragons",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Attack2DDragon",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCategory": "monstertype",
+                    "mData": "dragon",
+                    "~class": "ContextualConditionCharacterMetadata"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Dragon",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Attack2DKrug",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/SRU_Krug/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Krug",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Attack2DRazorbeak",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/SRU_Razorbeak/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Razorbeak",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Attack2DMurkwolf",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/SRU_Murkwolf/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Murkwolf",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Attack2DGromp",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/SRU_Gromp/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Gromp",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Attack2DRedBrambleback",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/SRU_Red/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Red Buff",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Attack2DBlueSentinel",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/SRU_Blue/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Blue Buff",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Attack2DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Neutral",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "BuffCounterSet": {
+        "mRules": [
+          {
+            "mAudioAction": {
+              "mSelfEventName": "BuffCounterSet2DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "Buff": "Characters/Sivir/Spells/SivirRPassiveBuff",
+                "~class": "ContextualConditionBuffCounterChanged"
+              },
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "General",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "BuyItem": {
+        "mCoolDownTime": 10.0,
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "BuyItem2DSpecificItem",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mItems": [
+                  "Items/3105"
+                ],
+                "~class": "ContextualConditionItemID"
+              }
+            ],
+            "mRuleName": "Specific Item",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "BuyItem2DGeneral",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 50,
+                "~class": "ContextualConditionChanceToPlay"
+              }
+            ],
+            "mRuleName": "General",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "DamageTakenAttempt": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "DamageTakenAttempt2DGeneral",
+              "mEnemyEventName": "DamageTakenAttempt2DGeneral",
+              "mSelfEventName": "DamageTakenAttempt2DGeneral",
+              "mSpectatorEventName": "DamageTakenAttempt2DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "~class": "0xd55b5c23"
+              }
+            ],
+            "mRuleName": "General",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "Dance": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "Dance3DGeneral",
+              "mEnemyEventName": "Dance3DGeneral",
+              "mSelfEventName": "Dance3DGeneral",
+              "mSpectatorEventName": "Dance3DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Dance",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "EnemyEncounter": {
+        "mCoolDownTime": 15.0,
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "FirstEncounter3DChampionSkin01",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/Garen/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  },
+                  {
+                    "mCategory": "skinline",
+                    "mData": "pajamaguardian",
+                    "~class": "ContextualConditionCharacterMetadata"
+                  },
+                  {
+                    "~class": "0xb6da23cb"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              }
+            ],
+            "mRuleName": "Champion/Skin Specific",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "FirstEncounter3DSkinline",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCategory": "skinline",
+                    "mData": "pajamaguardian",
+                    "~class": "ContextualConditionCharacterMetadata"
+                  },
+                  {
+                    "~class": "0xb6da23cb"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              }
+            ],
+            "mRuleName": "Skinline/Race",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "FirstEncounter3DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "~class": "0xb6da23cb"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              }
+            ],
+            "mRuleName": "General",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "FirstMove2D": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Move2DFirstEnemyChampionSkin01",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mChildConditions": [
+                  {
+                    "~class": "ContextualConditionIsAlly"
+                  },
+                  {
+                    "mCharacters": [
+                      "Characters/Aatrox/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  },
+                  {
+                    "mCategory": "skinline",
+                    "mData": "pajamaguardian",
+                    "~class": "ContextualConditionCharacterMetadata"
+                  }
+                ],
+                "~class": "ContextualConditionAnyOtherHero"
+              }
+            ],
+            "mRuleName": "Enemy Champion/Skin Specific",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Move2DFirstAllyChampionSkin01",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mChildConditions": [
+                  {
+                    "mIsAlly": true,
+                    "~class": "ContextualConditionIsAlly"
+                  },
+                  {
+                    "mCharacters": [
+                      "Characters/Aatrox/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  },
+                  {
+                    "mCategory": "skinline",
+                    "mData": "pajamaguardian",
+                    "~class": "ContextualConditionCharacterMetadata"
+                  }
+                ],
+                "~class": "ContextualConditionAnyOtherHero"
+              }
+            ],
+            "mRuleName": "Ally Champion/Skin Specific",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Move2DFirst",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "First Move",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "GearEquipped": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "GearEquip2DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "0x262bfa2e": 2,
+                "~class": "0x61b427f"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "General",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "GearEquip2DGearNewZero",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "0x262bfa2e": 2,
+                "0xaa8fd0c5": true,
+                "~class": "0x61b427f"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "New Gear",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "GearEquip2DGearPreviousZero",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "0xdba9e788": true,
+                "~class": "0x61b427f"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Previous Gear",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "GotFirstBlood": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mEnemyEventName": "Kill3DFirst",
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Kill3DFirst",
+              "mWaitForAnnouncerQueue": true,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mPriority": 130,
+            "mRuleName": "First Blood",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "Joke": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "Joke3DGeneral",
+              "mEnemyEventName": "Joke3DGeneral",
+              "mSelfEventName": "Joke3DGeneral",
+              "mSpectatorEventName": "Joke3DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Joke",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "JokeEndedNearby": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "JokeResponse3DGeneral",
+              "mEnemyEventName": "JokeResponse3DGeneral",
+              "mMaxOccurences": 1,
+              "mSelfEventName": "JokeResponse3DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Joke Response",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "KillChampion": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "Kill3DPenta",
+              "mEnemyEventName": "Kill3DPenta",
+              "mSelfEventName": "Kill3DPenta",
+              "mWaitForAnnouncerQueue": true,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mMultikillSize": 5,
+                "~class": "ContextualConditionMultikillSize"
+              }
+            ],
+            "mPriority": 200,
+            "mRuleName": "Pentakill",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mEnemyEventName": "Kill3DAce",
+              "mSelfEventName": "Kill3DAce",
+              "mWaitForAnnouncerQueue": true,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mChildCondition": {
+                  "mChildConditions": [
+                    {
+                      "~class": "ContextualConditionIsAlly"
+                    },
+                    {
+                      "mCompareOp": 2,
+                      "~class": "ContextualConditionCharacterHealth"
+                    }
+                  ],
+                  "~class": "ContextualConditionAnyOtherHero"
+                },
+                "~class": "ContextualConditionNegation"
+              }
+            ],
+            "mPriority": 30,
+            "mRuleName": "Ace",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mEnemyEventName": "Kill3DChampionSkin01",
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Kill3DChampionSkin01",
+              "mWaitForAnnouncerQueue": true,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/Garen/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  },
+                  {
+                    "mCategory": "skinline",
+                    "mData": "pajamaguardian",
+                    "~class": "ContextualConditionCharacterMetadata"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              }
+            ],
+            "mPriority": 30,
+            "mRuleName": "Champion/Skin Specific",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mEnemyEventName": "Kill3DGeneral",
+              "mSelfEventName": "Kill3DGeneral",
+              "mWaitForAnnouncerQueue": true,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mPriority": 30,
+            "mRuleName": "General",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "KillMinion": {
+        "mRules": [
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Kill3DMinion",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "General",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "KillNeutralMinion": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Kill3DBaron",
+              "mWaitForAnnouncerQueue": true,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 6,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/SRU_Baron/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              }
+            ],
+            "mRuleName": "Baron",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Kill3DElder",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/sru_dragon_elder/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              }
+            ],
+            "mRuleName": "Elder Dragon",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Kill3DElementalDragon",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mCharacters": [
+                      "Characters/sru_dragon_air/CharacterRecords/Root",
+                      "Characters/sru_dragon_chemtech/CharacterRecords/Root",
+                      "Characters/sru_dragon_earth/CharacterRecords/Root",
+                      "Characters/sru_dragon_fire/CharacterRecords/Root",
+                      "Characters/sru_dragon_hextech/CharacterRecords/Root",
+                      "Characters/sru_dragon_ruined/CharacterRecords/Root",
+                      "Characters/sru_dragon_water/CharacterRecords/Root"
+                    ],
+                    "~class": "ContextualConditionCharacterName"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              }
+            ],
+            "mRuleName": "Elemental Dragon",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "KillTurret": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Kill3DTurret",
+              "mWaitForAnnouncerQueue": true,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Kill Turret",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "KillWard": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Kill3DWard",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Kill Ward",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "Laugh": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "Laugh3DGeneral",
+              "mEnemyEventName": "Laugh3DGeneral",
+              "mSelfEventName": "Laugh3DGeneral",
+              "mSpectatorEventName": "Laugh3DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Laugh",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "MissileMiss": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "miss3D",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 20,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mSpell": "0x35ad7475",
+                "~class": "ContextualConditionSpellName"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Q Miss",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "MoveOrder2D": {
+        "mRules": [
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Move2DRReady",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCompareOp": 3,
+                "mDistance": 400.0,
+                "~class": "ContextualConditionMoveDistance"
+              },
+              {
+                "mCompareOp": 5,
+                "mDistance": 2000.0,
+                "~class": "ContextualConditionMoveDistance"
+              },
+              {
+                "mChildConditions": [
+                  {
+                    "mSpellIsReady": true,
+                    "~class": "ContextualConditionSpellIsReady"
+                  }
+                ],
+                "mSpellSlot": 3,
+                "~class": "ContextualConditionSpell"
+              }
+            ],
+            "mRuleName": "Move with R Available",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Move2DRiver",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCompareOp": 2,
+                "mDistance": 400.0,
+                "~class": "ContextualConditionMoveDistance"
+              },
+              {
+                "mRegionName": "AREA_River_Top",
+                "mRegionType": 4,
+                "~class": "ContextualConditionMapRegionName"
+              }
+            ],
+            "mRuleName": "River Top",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Move2DRiver",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCompareOp": 3,
+                "mDistance": 400.0,
+                "~class": "ContextualConditionMoveDistance"
+              },
+              {
+                "mRegionName": "AREA_River_Bot",
+                "mRegionType": 4,
+                "~class": "ContextualConditionMapRegionName"
+              }
+            ],
+            "mRuleName": "River Bot",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Move2DJungle",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCompareOp": 3,
+                "mDistance": 400.0,
+                "~class": "ContextualConditionMoveDistance"
+              },
+              {
+                "mMapIDs": 2048,
+                "~class": "ContextualConditionMapID"
+              },
+              {
+                "mRegionName": "AREA_Jungle_Top",
+                "mRegionType": 4,
+                "~class": "ContextualConditionMapRegionName"
+              }
+            ],
+            "mRuleName": "Jungle Top",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Move2DJungle",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCompareOp": 3,
+                "mDistance": 400.0,
+                "~class": "ContextualConditionMoveDistance"
+              },
+              {
+                "mMapIDs": 2048,
+                "~class": "ContextualConditionMapID"
+              },
+              {
+                "mRegionName": "AREA_Jungle_Bot",
+                "mRegionType": 4,
+                "~class": "ContextualConditionMapRegionName"
+              }
+            ],
+            "mRuleName": "Jungle Bot",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Move2DLong",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCompareOp": 2,
+                "mDistance": 2000.0,
+                "~class": "ContextualConditionMoveDistance"
+              }
+            ],
+            "mRuleName": "Long",
+            "~class": "ContextualRule"
+          },
+          {
+            "mAudioAction": {
+              "mSelfEventName": "Move2DStandard",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCompareOp": 3,
+                "mDistance": 400.0,
+                "~class": "ContextualConditionMoveDistance"
+              },
+              {
+                "mCompareOp": 5,
+                "mDistance": 2000.0,
+                "~class": "ContextualConditionMoveDistance"
+              }
+            ],
+            "mRuleName": "Standard",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "ObjectiveTakeByMyTeam": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Kill3DStealDragon",
+              "mWaitForAnnouncerQueue": true,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mTakenObjective": 128,
+                "~class": "ContextualConditionObjectiveTakeByMyTeam"
+              }
+            ],
+            "mRuleName": "Steal Dragon",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "OnVOEndedNearby": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "VOEndedNearby3DGeneral",
+              "mEnemyEventName": "VOEndedNearby3DGeneral",
+              "mSelfEventName": "VOEndedNearby3DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "General",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "VOEndedNearby3DTauntResponse",
+              "mEnemyEventName": "VOEndedNearby3DTauntResponse",
+              "mSelfEventName": "VOEndedNearby3DTauntResponse",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "0x93f0c42c": "TauntEndedNearby",
+                "~class": "0x4ab36eb5"
+              }
+            ],
+            "mRuleName": "Taunt Response",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "VOEndedNearby3DJokeResponse",
+              "mEnemyEventName": "VOEndedNearby3DJokeResponse",
+              "mSelfEventName": "VOEndedNearby3DJokeResponse",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "0x93f0c42c": "JokeEndedNearby",
+                "~class": "0x4ab36eb5"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Joke Response",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "PingAssistMe": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Ping2DAssistMe",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Ping",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "PingDanger": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Ping2DDanger",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Ping",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "PingMissing": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Ping2DMissing",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Ping",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "PingOnMyWay": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Ping2DOnMyWay",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Ping",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "PingTarget": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Ping2DTarget",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Ping",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "RecallLeadIn": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mSelfEventName": "Recall3DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 50,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 10.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Recall",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "ReceiveHeal": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "Receive3DBuff",
+              "mSelfEventName": "Receive3DBuff",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "~class": "ContextualConditionIsSelf"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mPercentChanceToPlay": 20,
+                "~class": "ContextualConditionChanceToPlay"
+              }
+            ],
+            "mRuleName": "Heal",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "ReceiveShield": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "Receive3DBuff",
+              "mSelfEventName": "Receive3DBuff",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "~class": "ContextualConditionIsSelf"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              },
+              {
+                "mPercentChanceToPlay": 20,
+                "~class": "ContextualConditionChanceToPlay"
+              }
+            ],
+            "mRuleName": "Shield",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "Respawn2D": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mSelfEventName": "Respawn2DGeneral",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 75,
+                "~class": "ContextualConditionChanceToPlay"
+              }
+            ],
+            "mRuleName": "Respawn",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "ShopOpen": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "Shop2DOpen",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "Open",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "SpellBuffReceive": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mSelfEventName": "SpellBuffReceive2DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "General",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "SpellBuffRemove": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mSelfEventName": "SpellBuffRemove2DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mRuleCooldown": 30.0,
+                "~class": "ContextualConditionRuleCooldown"
+              }
+            ],
+            "mRuleName": "General",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "SpellCast": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "cast3D",
+              "mEnemyEventName": "cast3D",
+              "mSelfEventName": "cast3D",
+              "mSpectatorEventName": "cast3D",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mSpell": "Characters/Sivir/Spells/SivirRAbility/SivirR",
+                "~class": "ContextualConditionSpellName"
+              }
+            ],
+            "mPriority": 100,
+            "mRuleName": "R",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "DontResetTimer": true,
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "cast3D",
+              "mEnemyEventName": "cast3D",
+              "mSelfEventName": "cast3D",
+              "mSpectatorEventName": "cast3D",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mSpell": "Characters/Sivir/Spells/SivirQAbility/SivirQ",
+                "~class": "ContextualConditionSpellName"
+              },
+              {
+                "mPercentChanceToPlay": 50,
+                "~class": "ContextualConditionChanceToPlay"
+              }
+            ],
+            "mRuleName": "Q",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "DontResetTimer": true,
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "cast3D",
+              "mEnemyEventName": "cast3D",
+              "mSelfEventName": "cast3D",
+              "mSpectatorEventName": "cast3D",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mSpell": "Characters/Sivir/Spells/SivirWAbility/SivirW",
+                "~class": "ContextualConditionSpellName"
+              },
+              {
+                "mPercentChanceToPlay": 50,
+                "~class": "ContextualConditionChanceToPlay"
+              }
+            ],
+            "mRuleName": "W",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "DontResetTimer": true,
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "cast3D",
+              "mEnemyEventName": "cast3D",
+              "mSelfEventName": "cast3D",
+              "mSpectatorEventName": "cast3D",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mSpell": "Characters/Sivir/Spells/SivirEAbility/SivirE",
+                "~class": "ContextualConditionSpellName"
+              },
+              {
+                "mPercentChanceToPlay": 50,
+                "~class": "ContextualConditionChanceToPlay"
+              }
+            ],
+            "mRuleName": "E",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "DontResetTimer": true,
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "cast3D",
+              "mEnemyEventName": "cast3D",
+              "mSelfEventName": "cast3D",
+              "mSpectatorEventName": "cast3D",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mSpell": "Characters/Sivir/Spells/SivirCritAttack",
+                "~class": "ContextualConditionSpellName"
+              },
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              }
+            ],
+            "mRuleName": "Crit 1",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "DontResetTimer": true,
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "cast3D",
+              "mEnemyEventName": "cast3D",
+              "mSelfEventName": "cast3D",
+              "mSpectatorEventName": "cast3D",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mSpell": "Characters/Sivir/Spells/SivirBasicAttack",
+                "~class": "ContextualConditionSpellName"
+              },
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              }
+            ],
+            "mRuleName": "Basic 1",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "SpellHit": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "hit3D",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 20,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mSpell": "Characters/Ezreal/Spells/EzrealQAbility/EzrealQ",
+                "~class": "ContextualConditionSpellName"
+              },
+              {
+                "mCharacterType": 1,
+                "mChildConditions": [
+                  {
+                    "mUnitTags": {
+                      "mObjectTagList": [
+                        "champion"
+                      ],
+                      "~class": "ObjectTags"
+                    },
+                    "~class": "ContextualConditionCharacterUnitTags"
+                  }
+                ],
+                "~class": "ContextualConditionCharacter"
+              }
+            ],
+            "mRuleName": "Q Hit",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "TauntEndedNearby": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "TauntResponse3DGeneral",
+              "mEnemyEventName": "TauntResponse3DGeneral",
+              "mMaxOccurences": 1,
+              "mSelfEventName": "TauntResponse3DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Taunt Response",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "UseItem": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "UseItem2DWard",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mItemVOGroupHash": "Ward",
+                "~class": "ContextualConditionItemVOGroup"
+              }
+            ],
+            "mRuleName": "Ward",
+            "~class": "ContextualRule"
+          },
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mMaxOccurences": 1,
+              "mSelfEventName": "UseItem2DPotion",
+              "mWaitTimeout": -1.0,
+              "~class": "ContextualActionPlayVO"
+            },
+            "mConditions": [
+              {
+                "mPercentChanceToPlay": 30,
+                "~class": "ContextualConditionChanceToPlay"
+              },
+              {
+                "mItemVOGroupHash": "Potion",
+                "~class": "ContextualConditionItemVOGroup"
+              }
+            ],
+            "mRuleName": "Any Potion",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      },
+      "taunt": {
+        "mRules": [
+          {
+            "CooldownModifications": {
+              "IgnoreTimer": true,
+              "~class": "ContextualActionCooldownModifications"
+            },
+            "mAudioAction": {
+              "mAllyEventName": "Taunt3DGeneral",
+              "mEnemyEventName": "Taunt3DGeneral",
+              "mSelfEventName": "Taunt3DGeneral",
+              "mSpectatorEventName": "Taunt3DGeneral",
+              "~class": "ContextualActionPlayVO"
+            },
+            "mRuleName": "Taunt",
+            "~class": "ContextualRule"
+          }
+        ],
+        "~class": "ContextualSituation"
+      }
+    },
+    "~class": "ContextualActionData"
+  },
+  "Characters/Sivir/CharacterRecords/Root": {
+    "0x6854087e": [
+      {
+        "0xcf19cb5d": {
+          "attackSpeedPerLevel": 0.5,
+          "~class": "0x770f7888"
+        },
+        "0xe4f7105d": "Maps/Shipping/Map11/Modes/SWIFTPLAY",
+        "~class": "0x47f13ab0"
+      }
+    ],
+    "0xc1984296": [
+      "Characters/Sivir/Spells/SivirWAttack",
+      "0x35ad7475",
+      "Characters/Sivir/Spells/SivirWAttackBounce",
+      "Characters/Sivir/Spells/SivirQMissileReturn",
+      "Characters/Sivir/Spells/SivirQMissileReturnDead",
+      "Characters/Sivir/Spells/SivirRMissile",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 500.0,
+    "armorPerLevel": 4.449999809265137,
+    "attackRange": 500.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 2.0,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 30.0,
+    "baseDamage": 60.0,
+    "baseHP": 600.0,
+    "baseMoveSpeed": 335.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 0.6499999761581421,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.18000000715255737,
+      "mAttackProbability": 1.0,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 3.0,
+      "attackRank": 9,
+      "botDefaultSpell1": "SummonerHeal",
+      "botDefaultSpell2": "SummonerTeleport",
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 15,
+      "classification": "Deadly",
+      "defenseRank": 3,
+      "description": "game_character_description_Sivir",
+      "difficultyRank": 4,
+      "magicRank": 1,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "Sivir has a 15% chance to dodge while moving.",
+        "Sivir has a 20% chance to dodge while moving.",
+        "Sivir has a 25% chance to dodge while moving."
+      ],
+      "passiveData": [
+        {
+          "level": [
+            1,
+            6,
+            11,
+            16
+          ],
+          "name": "game_character_passiveName_Sivir",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "ATTACKER",
+      "searchTags": "marksman",
+      "sound": {
+        "attack": [
+          "Sivir-Attack1-NORM_01.wav",
+          "Sivir-Attack2-NORM_01.wav",
+          "Sivir-Attack3-NORM_01.wav",
+          "Sivir-Attack4-NORM_01.wav"
+        ],
+        "click": [
+          "Sivir-Click1-NORM_01.wav",
+          "Sivir-Click2-NORM_01.wav",
+          "Sivir-Click3-NORM_01.wav",
+          "Sivir-Click4-NORM_01.wav"
+        ],
+        "death": "Sivir-Death1-NORM_01.wav",
+        "move": [
+          "Sivir-Move1-NORM_01.wav",
+          "Sivir-Move2-NORM_01.wav",
+          "Sivir-Move3-NORM_01.wav",
+          "Sivir-Move4-NORM_01.wav"
+        ],
+        "ready": "Sivir-Ready1-NORM_01.wav",
+        "~class": "ToolSoundData"
+      },
+      "spellData": [
+        {
+          "desc": "Grants Sivir and nearby allies faster movement and attack speeds for a short period.",
+          "displayName": "On The Hunt",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Grants Sivir and nearby allies faster movement and attack speeds for a short period.",
+          "displayName": "On The Hunt",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Grants Sivir and nearby allies faster movement and attack speeds for a short period.",
+          "displayName": "On The Hunt",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Grants Sivir and nearby allies faster movement and attack speeds for a short period.",
+          "displayName": "On The Hunt",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.18000000715255737,
+        "mAttackName": "SivirCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "criticalAttack": "SivirCritAttack",
+    "damagePerLevel": 2.5,
+    "extraAttacks": [
+      {
+        "mAttackName": "SivirBasicAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "SivirBasicAttack3",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "SivirBasicAttack4",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "SivirWAttack",
+      "SivirQMissile",
+      "SivirWAttackBounce",
+      "SivirQMissileReturn",
+      "SivirQMissileReturnDead",
+      "SivirRMissile",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "hpPerLevel": 104.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Sivir/Spells/SivirQAbility",
+      "Characters/Sivir/Spells/SivirWAbility",
+      "Characters/Sivir/Spells/SivirEAbility",
+      "Characters/Sivir/Spells/SivirRAbility",
+      "Characters/Sivir/Spells/SivirPassiveAbility"
+    ],
+    "mCharacterName": "Sivir",
+    "mCharacterPassiveBuffs": [
+      {
+        "SkinFilter": {
+          "skinIds": [
+            10
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Sivir/Spells/SivirPizzaStacks",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Characters/Sivir/Spells/SivirPassiveAbility/SivirPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "FilterType": 1,
+          "skinIds": [
+            43
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Sivir/Spells/SivirRunCycleManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            43
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Sivir/Spells/SivirSkin43Manager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Sivir/Spells/SivirPassiveAbility/SivirPassive",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Resolve/Aftershock",
+          "mReplaceWith": "Perks/Styles/Resolve/GraspOfTheUndying",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Inspiration/GlacialAugment",
+          "mReplaceWith": "Perks/Styles/Inspiration/FirstStrike",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "name": "game_character_displayname_Sivir",
+    "passive1IconName": "ASSETS/Characters/Sivir/HUD/Icons2D/Sivir_Passive.dds",
+    "passiveLuaName": "SivirPassive",
+    "passiveName": "game_character_passiveName_Sivir",
+    "passiveToolTip": "game_character_passiveDescription_Sivir",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 340.0,
+      "arBaseStaticRegen": 1.2000000476837158,
+      "arPerLevel": 45.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 160.0,
+    "selectionRadius": 115.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "SivirQAbility/SivirQ",
+      "SivirWAbility/SivirW",
+      "SivirEAbility/SivirE",
+      "SivirRAbility/SivirR"
+    ],
+    "spells": [
+      "Characters/Sivir/Spells/SivirQAbility/SivirQ",
+      "Characters/Sivir/Spells/SivirWAbility/SivirW",
+      "Characters/Sivir/Spells/SivirEAbility/SivirE",
+      "Characters/Sivir/Spells/SivirRAbility/SivirR"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/Sivir/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Sivir/Spells/On_The_Hunt": {
+    "ObjectName": "On_The_Hunt",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_On_The_Hunt",
+      "~class": "BuffData"
+    },
+    "mScriptName": "On_The_Hunt",
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirBasicAttack": {
+    "ObjectName": "SivirBasicAttack",
+    "mScriptName": "SivirBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        387.5,
+        387.5,
+        387.5,
+        387.5,
+        387.5,
+        387.5,
+        387.5
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "SivirBasicAttack",
+      "mApplyMaterialOnHitSound": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Sivir_BA_tar_01",
+      "mMissileEffectKey": "Sivir_BasicAttack_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1750.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirBasicAttack2": {
+    "ObjectName": "SivirBasicAttack2",
+    "mScriptName": "SivirBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        387.5,
+        387.5,
+        387.5,
+        387.5,
+        387.5,
+        387.5,
+        387.5
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "SivirBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Sivir_BA_tar_01",
+      "mMissileEffectKey": "Sivir_BasicAttack_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1750.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirCritAttack": {
+    "ObjectName": "SivirCritAttack",
+    "mScriptName": "SivirCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        387.5,
+        387.5,
+        387.5,
+        387.5,
+        387.5,
+        387.5,
+        387.5
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 24527,
+      "mAnimationName": "Crit",
+      "mApplyMaterialOnHitSound": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Sivir_BA_tar_crit_01",
+      "mMissileEffectKey": "Sivir_BasicAttack_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1750.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirEAbility": {
+    "mChildSpells": [
+      "Characters/Sivir/Spells/SivirEAbility/SivirE"
+    ],
+    "mName": "SivirEAbility",
+    "mRootSpell": "Characters/Sivir/Spells/SivirEAbility/SivirE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Sivir/Spells/SivirEAbility/SivirE": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalHeal",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SivirE",
+    "mScriptName": "SivirE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "HealRatio",
+          "mValues": [
+            0.550000011920929,
+            0.6000000238418579,
+            0.6499999761581421,
+            0.699999988079071,
+            0.75,
+            0.800000011920929,
+            0.8500000238418579
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        25.0,
+        24.0,
+        22.5,
+        21.0,
+        19.5,
+        18.0,
+        10.0
+      ],
+      "delayTotalTimePercent": -0.3199999928474426,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_TotalADRatio",
+                  "type": "HealRatio",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SivirE_Name",
+            "keySummary": "Spell_SivirE_Summary",
+            "keyTooltip": "Spell_SivirE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SivirE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SivirE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            55.0,
+            55.0,
+            55.0,
+            55.0,
+            55.0,
+            55.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Sivir/HUD/Icons2D/Sivir_E.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalHeal": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "HealRatio",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Sivir/Spells/SivirPassiveAbility/SivirPassive"
+    ],
+    "mName": "SivirPassiveAbility",
+    "mRootSpell": "Characters/Sivir/Spells/SivirPassiveAbility/SivirPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Sivir/Spells/SivirPassiveAbility/SivirPassive": {
+    "ObjectName": "SivirPassive",
+    "mScriptName": "SivirPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "HasteDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_SivirPassive_Name",
+            "keySummary": "Spell_SivirPassive_Summary",
+            "keyTooltip": "Spell_SivirPassive_Tooltip"
+          },
+          "mObjectName": "SivirPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Sivir/HUD/Icons2D/Sivir_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "FlatMS": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 5.0,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 5.0,
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 5.0,
+                  "mLevel": 16,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 5.0,
+                  "mLevel": 18,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 5.0,
+                  "mLevel": 24,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 5.0,
+                  "mLevel": 30,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 55.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirPassiveSpeed": {
+    "ObjectName": "SivirPassiveSpeed",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SivirPassiveSpeed",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SivirPassiveSpeed",
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirPizzaStacks": {
+    "ObjectName": "SivirPizzaStacks",
+    "mScriptName": "SivirPizzaStacks",
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirQAbility": {
+    "AbilityTraits": 256,
+    "mChildSpells": [
+      "Characters/Sivir/Spells/SivirQAbility/SivirQ",
+      "0x35ad7475",
+      "Characters/Sivir/Spells/SivirQMissileReturn",
+      "Characters/Sivir/Spells/SivirQMissileReturnDead"
+    ],
+    "mName": "SivirQAbility",
+    "mRootSpell": "Characters/Sivir/Spells/SivirQAbility/SivirQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Sivir/Spells/SivirQAbility/SivirQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SivirQ",
+    "mScriptName": "SivirQ",
+    "mSpell": {
+      "0xf9c2333e": {
+        "0xbffdf499": {
+          "value": [
+            14.0,
+            14.0,
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        "ARAM": {
+          "value": [
+            14.0,
+            14.0,
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FallOffRatio",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FallOffMinimum",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QAttackSpeedCastReductionPercent",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QBaseCastTime",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QAttackSpeedCastReductionMax",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CritRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "cooldownTime": [
+        10.0,
+        10.0,
+        9.5,
+        9.0,
+        8.5,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 13327,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "typeIndex": 5,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SivirQ_Name",
+            "keySummary": "Spell_SivirQ_Summary",
+            "keyTooltip": "Spell_SivirQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SivirQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SivirQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "spine",
+      "mImgIconName": [
+        "ASSETS/Characters/Sivir/HUD/Icons2D/Sivir_Q.dds"
+      ],
+      "mLineWidth": 90.0,
+      "mMissileEffectKey": "Sivir_Q_mis",
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "CritScaling": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "CritRatio",
+              "mStat": 8,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "PreCritDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6000000238418579,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6000000238418579,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mSubparts": [
+              {
+                "mNumber": 1.0,
+                "~class": "NumberCalculationPart"
+              },
+              {
+                "mDataValue": "CritRatio",
+                "mStat": 8,
+                "~class": "StatByNamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "SumOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        70.0
+      ],
+      "missileSpeed": 1350.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirQMissileReturn": {
+    "ObjectName": "SivirQMissileReturn",
+    "mScriptName": "SivirQMissileReturn",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 50.099998474121094,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 14346,
+      "mAlternateName": "SivirQ",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            35.0,
+            55.0,
+            75.0,
+            95.0,
+            115.0,
+            135.0,
+            155.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "spine",
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 100.0,
+      "mMissileEffectKey": "Sivir_Q_mis_return",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "Buffbone_Glb_Channel_Loc",
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "~class": "EnterFOWVisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirQMissileReturnDead": {
+    "ObjectName": "SivirQMissileReturnDead",
+    "mScriptName": "SivirQMissileReturnDead",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 50.099998474121094,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "SivirQ",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            35.0,
+            55.0,
+            75.0,
+            95.0,
+            115.0,
+            135.0,
+            155.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "spine",
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 100.0,
+      "mMissileEffectKey": "Sivir_Q_mis_return",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mSpeed": 1200.0,
+          "mStartBoneName": "Buffbone_Glb_Channel_Loc",
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "~class": "EnterFOWVisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "missileSpeed": 1350.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirRAbility": {
+    "mChildSpells": [
+      "Characters/Sivir/Spells/SivirRAbility/SivirR"
+    ],
+    "mName": "SivirRAbility",
+    "mRootSpell": "Characters/Sivir/Spells/SivirRAbility/SivirR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Sivir/Spells/SivirRAbility/SivirR": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MinMS",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MinMS",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SivirR",
+    "mScriptName": "SivirR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "HuntAttackSpeed",
+          "mValues": [
+            0.03999999910593033,
+            0.05000000074505806,
+            0.05999999865889549,
+            0.07000000029802322,
+            0.07999999821186066,
+            0.09000000357627869,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxMS",
+          "mValues": [
+            0.15000000596046448,
+            0.20000000298023224,
+            0.25,
+            0.30000001192092896,
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinMS",
+          "mValues": [
+            0.25,
+            0.30000001192092896,
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxMSDuration",
+          "mValues": [
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "UltDuration",
+          "mValues": [
+            6.0,
+            8.0,
+            10.0,
+            12.0,
+            14.0,
+            16.0,
+            18.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AuraRange",
+          "mValues": [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BuffExtension",
+          "mValues": [
+            6.0,
+            8.0,
+            10.0,
+            12.0,
+            14.0,
+            16.0,
+            18.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamagedMarkerDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        10.0,
+        120.0,
+        100.0,
+        80.0,
+        90.0,
+        90.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MovementSpeedMax",
+                  "type": "MaxMS",
+                  "typeIndex": 4,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Duration",
+                  "type": "UltDuration",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_SivirR",
+            "keySummary": "Spell_SivirR_Summary",
+            "keyTooltip": "Spell_SivirR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SivirR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SivirR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mImgIconName": [
+        "ASSETS/Characters/Sivir/HUD/Icons2D/Sivir_R.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "MaxDuration": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 4,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mEffectIndex": 6,
+              "~class": "EffectValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirRMissile": {
+    "ObjectName": "SivirRMissile",
+    "mScriptName": "SivirRMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.15000000596046448,
+      "delayTotalTimePercent": -0.6000000238418579,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "SonaAriaofPerseveranceMissile",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            35.0,
+            80.0,
+            125.0,
+            170.0,
+            215.0,
+            260.0,
+            305.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "Annie_Disintegrate.dds"
+      ],
+      "mMissileEffectKey": "Sivir_R_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 3000.0,
+          "mStartBoneName": "root",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirRPassiveBuff": {
+    "ObjectName": "SivirRPassiveBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SivirRPassiveBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SivirRPassiveBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirRunCycleManager": {
+    "ObjectName": "SivirRunCycleManager",
+    "mScriptName": "SivirRunCycleManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirSkin43Manager": {
+    "ObjectName": "SivirSkin43Manager",
+    "mScriptName": "SivirSkin43Manager",
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirWAbility": {
+    "mChildSpells": [
+      "Characters/Sivir/Spells/SivirWAbility/SivirW"
+    ],
+    "mName": "SivirWAbility",
+    "mRootSpell": "Characters/Sivir/Spells/SivirWAbility/SivirW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Sivir/Spells/SivirWAbility/SivirW": {
+    "ObjectName": "SivirW",
+    "mBuff": {
+      "mBuffAttributeFlag": 32,
+      "mDescription": "game_buff_tooltip_SivirW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SivirW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BounceADRatio",
+          "mValues": [
+            0.375,
+            0.4000000059604645,
+            0.42500001192092896,
+            0.44999998807907104,
+            0.4749999940395355,
+            0.5,
+            0.5249999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BounceAttacks",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxBounces",
+          "mValues": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RicochetAttackSpeed",
+          "mValues": [
+            0.15000000596046448,
+            0.20000000298023224,
+            0.25,
+            0.30000001192092896,
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionDamageMod",
+          "mValues": [
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_AttackSpeed",
+                  "type": "RicochetAttackSpeed",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_TotalADRatio",
+                  "type": "BounceADRatio",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SivirW_Name",
+            "keySummary": "Spell_SivirW_Summary",
+            "keyTooltip": "Spell_SivirW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SivirW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SivirW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Sivir/HUD/Icons2D/Sivir_W.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "BounceDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BounceADRatio",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "FirstTargetDamage": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalMaxDamage": {
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mCoefficient": 1.0,
+                  "mStat": 2,
+                  "~class": "StatByCoefficientCalculationPart"
+                },
+                {
+                  "mPart1": {
+                    "mDataValue": "MaxBounces",
+                    "~class": "NamedDataValueCalculationPart"
+                  },
+                  "mPart2": {
+                    "mDataValue": "BounceADRatio",
+                    "mStat": 2,
+                    "~class": "StatByNamedDataValueCalculationPart"
+                  },
+                  "~class": "ProductOfSubPartsCalculationPart"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellTags": [
+        "Trait_AttackReset"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "missileSpeed": 1400.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirWAttack": {
+    "ObjectName": "SivirWAttack",
+    "mScriptName": "SivirWAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "SivirW",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Sivir_W_Tar",
+      "mImgIconName": [
+        "ASSETS/Characters/Sivir/HUD/Icons2D/Sivir_W.dds"
+      ],
+      "mMissileEffectKey": "Sivir_W_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1750.0,
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1750.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirWAttackBounce": {
+    "ObjectName": "SivirWAttackBounce",
+    "mScriptName": "SivirWAttackBounce",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6794,
+      "mAlternateName": "SivirW",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Sivir_W_Tar",
+      "mImgIconName": [
+        "ASSETS/Characters/Sivir/HUD/Icons2D/Sivir_W.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Sivir_W_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1000.0,
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/SivirWMarker": {
+    "ObjectName": "SivirWMarker",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SivirW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SivirWMarker",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 5.364999771118164,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        3.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0,
+            9.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            20.0,
+            35.0,
+            50.0,
+            65.0,
+            80.0,
+            95.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Sivir/HUD/Icons2D/Sivir_W.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "missileSpeed": 1400.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Sivir/Spells/Spell_Shield": {
+    "ObjectName": "Spell_Shield",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Spell_Shield",
+      "~class": "BuffData"
+    },
+    "mScriptName": "Spell_Shield",
+    "~class": "SpellObject"
+  }
+}

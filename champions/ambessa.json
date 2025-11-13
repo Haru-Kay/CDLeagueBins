@@ -1,0 +1,3379 @@
+{
+  "0x14a1d4d5": {
+    "ObjectName": "AmbessaPassiveAttackEmpower",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AmbessaPassiveAttackEmpower",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AmbessaPassiveAttackEmpower",
+    "mSpell": {
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_Passive.Domina.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x151faabd": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "869acdac-df77-4ee7-92ef-ec9b082a761f",
+      "itemID": 126669,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_AmbessaStructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_AmbessaStructuresDestroyed",
+    "stoneName": "AmbessaStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x23355e23": {
+    "ObjectName": "AmbessaBasicAttackChained2",
+    "mScriptName": "AmbessaBasicAttackChained2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaBasicAttackChained2_OnCast",
+        "13": "Play_sfx_Ambessa_AmbessaBasicAttackChained2_OnHit"
+      },
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3506999909877777,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "AmbessaBasicAttack",
+      "mAnimationName": "Attack2Chained",
+      "mApplyMaterialOnHitSound": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mConsideredAsAutoAttack": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ambessa_P_SpecialAttack_Tar",
+      "mHitEffectOrientType": 2,
+      "mOverrideAttackTime": {
+        "mTotalAttackTimeSecs": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": -0.05000000074505806,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -0.05000000074505806,
+                  "mLevel": 13,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 0.3499999940395355,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "OverrideAttackTimeData"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 467.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x24355fb6": {
+    "ObjectName": "AmbessaBasicAttackChained1",
+    "mScriptName": "AmbessaBasicAttackChained1",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaBasicAttackChained1_OnCast",
+        "13": "Play_sfx_Ambessa_AmbessaBasicAttackChained1_OnHit"
+      },
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3500000238418579,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "AmbessaBasicAttack",
+      "mAnimationName": "Attack1Chained",
+      "mApplyMaterialOnHitSound": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mConsideredAsAutoAttack": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ambessa_P_SpecialAttack_Tar",
+      "mHitEffectOrientType": 2,
+      "mOverrideAttackTime": {
+        "mTotalAttackTimeSecs": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": -0.05000000074505806,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -0.05000000074505806,
+                  "mLevel": 13,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 0.3499999940395355,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "OverrideAttackTimeData"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 467.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x283b1613": {
+    "ObjectName": "AmbessaQPassive",
+    "mScriptName": "AmbessaQPassive",
+    "~class": "SpellObject"
+  },
+  "0x2be04f83": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f01cbfd0-83f8-4141-89f8-649b8f8dd222",
+      "itemID": 126673,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_AmbessaRKills",
+    "mNameTraKey": "stat_stone_name_AmbessaRKills",
+    "stoneName": "AmbessaRKills",
+    "~class": "StatStoneData"
+  },
+  "0x349f7c60": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      35,
+      70,
+      85,
+      100,
+      40
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "571f4d30-294d-43fc-898f-6bc7ee551a6b",
+      "itemID": 126671,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_AmbessaPDodging",
+    "mNameTraKey": "stat_stone_name_AmbessaPDodging",
+    "stoneName": "AmbessaPDodging",
+    "~class": "StatStoneData"
+  },
+  "0x366f9b1": {
+    "ObjectName": "AmbessaCritAttack",
+    "mScriptName": "AmbessaCritAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaCritAttack_OnCast",
+        "13": "Play_sfx_Ambessa_AmbessaCritAttack_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3506999909877777,
+      "mAffectsTypeFlags": 4234,
+      "mAnimationName": "Crit1",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ambessa_BA_Tar_Crit",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 467.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x3f70c67a": {
+    "ObjectName": "AmbessaPassive",
+    "mScriptName": "AmbessaPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Buffer_Dash_Time",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Buffer_Dash_Distance",
+          "mValues": [
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Buffer_Dash_Min_Distance",
+          "mValues": [
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Buffer_Dash_Forgiveness_Window",
+          "mValues": [
+            0.2750000059604645,
+            0.2750000059604645,
+            0.2750000059604645,
+            0.2750000059604645,
+            0.2750000059604645,
+            0.2750000059604645,
+            0.2750000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Buffer_Dash_W_Forgiveness_Window",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Buffer_Dash_Wall_Forgiveness",
+          "mValues": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Attack_Range_Amount",
+          "mValues": [
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Attack_Range_Total",
+          "mValues": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Attack_Buff_Max_Stacks",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Attack_Buff_Duration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Attack_Speed",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAnimationName": "",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyCooldown": "Spell_AmbessaP_Cooldown",
+            "keyName": "Spell_AmbessaP_Name",
+            "keySummary": "Spell_AmbessaP_Summary",
+            "keyTooltip": "Spell_AmbessaP_Tooltip",
+            "keyTooltipExtended": "Spell_AmbessaP_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "AmbessaPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_Passive.Domina.dds"
+      ],
+      "mSpellCalculations": {
+        "0x1a5d393": {
+          "mModifiedGameCalculation": "Calc_OnHit_Damage_Flat",
+          "mMultiplier": {
+            "mCoefficient": 1.0,
+            "mStat": 9,
+            "~class": "StatByCoefficientCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "0x57d26a55": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 60.0,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 60.0,
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 60.0,
+                  "mLevel": 16,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 770.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 7,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "0xd87d470b": {
+          "mFormulaParts": [
+            {
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "Calc_Attack_Speed": {
+          "mDisplayAsPercent": true,
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mDataValue": "Attack_Speed",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculation"
+        },
+        "Calc_OnHit_Damage_Flat": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 30.0,
+              "mStartValue": 5.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.30000001192092896,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "Calc_OnHit_Energy_Refund": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 15.0,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 15.0,
+                  "mLevel": 13,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 40.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x3f885789": {
+    "ObjectName": "AmbessaBasicAttack2",
+    "mScriptName": "AmbessaBasicAttack2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaBasicAttack_OnCast",
+        "13": "Play_sfx_Ambessa_AmbessaBasicAttack_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3500000238418579,
+      "mAffectsTypeFlags": 4234,
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ambessa_BA_tar",
+      "mHitEffectOrientType": 2,
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 467.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x49bafb13": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "84c05a2a-9ee4-499c-be76-9b0714c101bf",
+      "itemID": 126668,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_AmbessaEpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_AmbessaEpicMonstersKilled",
+    "stoneName": "AmbessaEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x6021db33": {
+    "catalogEntry": {
+      "contentId": "386000b3-2668-491b-88a4-8a903a4d8ee6",
+      "itemID": 66600575,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x151faabd",
+      "0x49bafb13",
+      "0xf4d2f574"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x634963c1": {
+    "ObjectName": "AmbessaBasicAttack",
+    "mScriptName": "AmbessaBasicAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaBasicAttack_OnCast",
+        "13": "Play_sfx_Ambessa_AmbessaBasicAttack_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3500000238418579,
+      "mAffectsTypeFlags": 4234,
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ambessa_BA_tar",
+      "mHitEffectOrientType": 2,
+      "mTurnSpeedScalar": 5.0,
+      "missileSpeed": 467.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x63d74a75": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      200,
+      500,
+      1000,
+      1000,
+      1500,
+      600
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "7387e5be-6c89-4d38-8244-15ea8c8b6ce6",
+      "itemID": 126674,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_AmbessaPTiming",
+    "mNameTraKey": "stat_stone_name_AmbessaPTiming",
+    "stoneName": "AmbessaPTiming",
+    "~class": "StatStoneData"
+  },
+  "0x6a23e673": {
+    "ObjectName": "AmbessaRSuppressionDebuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AmbessaRSuppressionDebuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AmbessaRSuppressionDebuff",
+    "mSpell": {
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_R.Domina.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x6dfeb97a": {
+    "ObjectName": "AmbessaPassiveDash",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VayneTumble",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AmbessaPassiveDash",
+    "mSpell": {
+      "ShouldReceiveInputEvents": true,
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaPassiveDash_OnCast"
+      },
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "",
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mUseDeathRecapTooltipFromAnotherSpell": "0x3f70c67a",
+        "mUseTooltipFromAnotherSpell": "0x3f70c67a",
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mLineWidth": 50.0,
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 20.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x84c6e77c": {
+    "ObjectName": "AmbessaRBuffSuppressing",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AmbessaRBuffSuppressing",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AmbessaRBuffSuppressing",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "19": "Play_sfx_Ambessa_AmbessaRBuffSuppressing_OnBuffDeactivate",
+        "20": "Play_sfx_Ambessa_AmbessaRBuffSuppressing_OnBuffCast"
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_R.Domina.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x8db47985": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      30,
+      70,
+      150,
+      175,
+      200,
+      85
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "bb88764c-08bb-45ae-9fa1-12c3ffa59558",
+      "itemID": 126675,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_AmbessaQSweetspots",
+    "mNameTraKey": "stat_stone_name_AmbessaQSweetspots",
+    "stoneName": "AmbessaQSweetspots",
+    "~class": "StatStoneData"
+  },
+  "0x8e86a8a3": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      7,
+      15,
+      20,
+      20,
+      9
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "c851bc45-4fd4-45a2-921c-ea3a30930ac0",
+      "itemID": 126672,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_AmbessaWTowershots",
+    "mNameTraKey": "stat_stone_name_AmbessaWTowershots",
+    "stoneName": "AmbessaWTowershots",
+    "~class": "StatStoneData"
+  },
+  "0x8eb7957f": {
+    "ObjectName": "AmbessaWShield",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AmbessaWShield",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AmbessaWShield",
+    "mSpell": {
+      "ImgIconPath": "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_W.Domina.dds",
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_W.Domina.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x91cebd6f": {
+    "ObjectName": "AmbessaESlow",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AmbessaESlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AmbessaESlow",
+    "mSpell": {
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_E.Domina.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x95eb5a4b": {
+    "catalogEntry": {
+      "contentId": "312b66b0-6fdc-4557-a8b0-6f27af13953e",
+      "itemID": 66600576,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x349f7c60",
+      "0x8e86a8a3",
+      "0x2be04f83"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x96eb5bde": {
+    "catalogEntry": {
+      "contentId": "510feca6-51b7-4c4f-bee5-a1b2ab9a79ab",
+      "itemID": 66600577,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xb87066b5",
+      "0x8db47985",
+      "0x63d74a75"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x99426203": {
+    "ObjectName": "AmbessaRPassive",
+    "mScriptName": "AmbessaRPassive",
+    "~class": "SpellObject"
+  },
+  "0x9bb754da": {
+    "ObjectName": "AmbessaAttackSequencer",
+    "mScriptName": "AmbessaAttackSequencer",
+    "~class": "SpellObject"
+  },
+  "0xb87066b5": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      17000,
+      42000,
+      83000,
+      100000,
+      125000,
+      50000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "875973d2-5340-43c9-90a1-37682d6cc491",
+      "itemID": 126676,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_AmbessaEDamage",
+    "mNameTraKey": "stat_stone_name_AmbessaEDamage",
+    "stoneName": "AmbessaEDamage",
+    "~class": "StatStoneData"
+  },
+  "0xc09c7273": {
+    "ObjectName": "AmbessaCritAttackChained2",
+    "mScriptName": "AmbessaCritAttackChained2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaCritAttackChained2_OnCast",
+        "13": "Play_sfx_Ambessa_AmbessaCritAttackChained2_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3506999909877777,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "AmbessaBasicAttack",
+      "mAnimationName": "Crit2Chained",
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mConsideredAsAutoAttack": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "0xe909ba09",
+      "mHitEffectOrientType": 2,
+      "mOverrideAttackTime": {
+        "mTotalAttackTimeSecs": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": -0.05000000074505806,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -0.05000000074505806,
+                  "mLevel": 13,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 0.3499999940395355,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "OverrideAttackTimeData"
+      },
+      "missileSpeed": 467.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xc19c7406": {
+    "ObjectName": "AmbessaCritAttackChained1",
+    "mScriptName": "AmbessaCritAttackChained1",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaCritAttackChained1_OnCast",
+        "13": "Play_sfx_Ambessa_AmbessaCritAttackChained1_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3506999909877777,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "AmbessaBasicAttack",
+      "mAnimationName": "Crit1Chained",
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mConsideredAsAutoAttack": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "0xe909ba09",
+      "mHitEffectOrientType": 2,
+      "mOverrideAttackTime": {
+        "mTotalAttackTimeSecs": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": -0.05000000074505806,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -0.05000000074505806,
+                  "mLevel": 13,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 0.3499999940395355,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "OverrideAttackTimeData"
+      },
+      "missileSpeed": 467.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xd2314026": {
+    "ObjectName": "AmbessaSkin1EmpoweredState",
+    "mScriptName": "AmbessaSkin1EmpoweredState",
+    "~class": "SpellObject"
+  },
+  "0xda8ca51e": {
+    "mChildSpells": [
+      "0x6dfeb97a",
+      "0xe0c413bf",
+      "0xf1a0ac27"
+    ],
+    "mName": "AmbessaPassiveAbility",
+    "mRootSpell": "0x3f70c67a",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "0xdb953014": {
+    "ObjectName": "AmbessaQEmpowerReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AmbessaQEmpowerReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AmbessaQEmpowerReady",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "18": "Play_sfx_Ambessa_AmbessaQEmpowerReady_OnBuffActivate",
+        "19": "Play_sfx_Ambessa_AmbessaQEmpowerReady_OnBuffDeactivate"
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_Q2.Domina.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xdd3cad90": {
+    "ObjectName": "AmbessaSkin1Manager",
+    "mScriptName": "AmbessaSkin1Manager",
+    "~class": "SpellObject"
+  },
+  "0xde1ac939": {
+    "ObjectName": "AmbessaCritAttack2",
+    "mScriptName": "AmbessaCritAttack2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaCritAttack2_OnCast",
+        "13": "Play_sfx_Ambessa_AmbessaCritAttack2_OnHit"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0,
+        125.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3506999909877777,
+      "mAffectsTypeFlags": 4234,
+      "mAnimationName": "Crit1",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Ambessa_BA_Tar_Crit",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 467.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xe0c413bf": {
+    "ObjectName": "AmbessaLoreBuffKill",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AmbessaLoreKill",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AmbessaLoreBuffKill",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_Passive.Domina.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xe34a2546": {
+    "ObjectName": "AmbessaLoreBuffManager",
+    "mScriptName": "AmbessaLoreBuffManager",
+    "~class": "SpellObject"
+  },
+  "0xef6fd581": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xf1a0ac27": {
+    "ObjectName": "AmbessaLoreBuffKilledByMel",
+    "mBuff": {
+      "mDescription": "buff_desc_tooltip_AmbessaLoreBuffKilledByMel",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AmbessaLoreBuffKilledByMel",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Mel/HUD/Icons2D/Mel_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf4d2f574": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "951c125a-8069-41f9-9d6f-1b942ee234e6",
+      "itemID": 126670,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_AmbessaTakedowns",
+    "mNameTraKey": "stat_stone_name_AmbessaTakedowns",
+    "stoneName": "AmbessaTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xfc33e1bc": {
+    "ObjectName": "AmbessaQ2",
+    "mScriptName": "AmbessaQ2",
+    "mSpell": {
+      "ShouldReceiveInputEvents": true,
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaQ2_OnCast",
+        "14": "Play_sfx_Ambessa_AmbessaQ2_OnHitLocation"
+      },
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mAffectsTypeFlags": 22538,
+      "mAlternateName": "AmbessaQWrapper",
+      "mAnimationName": "Spell1B",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "arrowSize": 25.0,
+            "lineWidth": {
+              "mPerLevelValues": [
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Ambessa/Spells/AmbessaQAbility/AmbessaQ",
+        "mUseTooltipFromAnotherSpell": "Characters/Ambessa/Spells/AmbessaQAbility/AmbessaQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoesNotConsumeMana": true,
+      "mDoesntBreakChannels": true,
+      "mHideRangeIndicatorWhenCasting": true,
+      "mHitBoneName": "root",
+      "mIgnoreRangeCheck": true,
+      "mLineWidth": 15.0,
+      "mRollForCriticalHit": true,
+      "mShowChannelBar": false,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xff33e675": {
+    "ObjectName": "AmbessaQ1",
+    "mScriptName": "AmbessaQ1",
+    "mSpell": {
+      "ShouldReceiveInputEvents": true,
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaQ1_OnCast",
+        "14": "Play_sfx_Ambessa_AmbessaQ1_OnHitLocation"
+      },
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mAffectsTypeFlags": 22538,
+      "mAlternateName": "AmbessaQWrapper",
+      "mAnimationName": "Spell1A",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "arrowSize": 25.0,
+            "indicatorType": {
+              "~class": "IndicatorTypeLocal"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Ambessa/Spells/AmbessaQAbility/AmbessaQ",
+        "mUseTooltipFromAnotherSpell": "Characters/Ambessa/Spells/AmbessaQAbility/AmbessaQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoesntBreakChannels": true,
+      "mHideRangeIndicatorWhenCasting": true,
+      "mHitBoneName": "root",
+      "mIgnoreRangeCheck": true,
+      "mLineWidth": 15.0,
+      "mRollForCriticalHit": true,
+      "mShowChannelBar": false,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ambessa/CharacterRecords/Root": {
+    "0xdd661aab": {
+      "0x50aad250": [
+        {
+          "0x6cd45762": true,
+          "0x77cff90e": {
+            "0x68309c0b": true,
+            "0xe2e5b6dd": [
+              2,
+              4
+            ],
+            "~class": "0xd91a223"
+          },
+          "0x8f7842e4": [
+            {
+              "effectKey": "Ambessa_P_DashDir_Indicator",
+              "~class": "0x55f6bf86"
+            }
+          ],
+          "0x96e77860": "0x6dfeb97a",
+          "0xda1ee5bc": true,
+          "0xe4ecb00c": {
+            "OrderTypes": [
+              2,
+              3,
+              7
+            ],
+            "~class": "0xfb16e4be"
+          },
+          "TriggerSpells": [
+            "Characters/Ambessa/Spells/AmbessaQAbility/AmbessaQ",
+            "Characters/Ambessa/Spells/AmbessaEAbility/AmbessaE",
+            "Characters/Ambessa/Spells/AmbessaRAbility/AmbessaR"
+          ],
+          "~class": "0xdd661aab"
+        },
+        {
+          "0x6cd45762": true,
+          "0x77cff90e": {
+            "0x68309c0b": true,
+            "0xe2e5b6dd": [
+              2,
+              4
+            ],
+            "~class": "0xd91a223"
+          },
+          "0x8f7842e4": [
+            {
+              "effectKey": "Ambessa_P_DashDir_Indicator",
+              "~class": "0x55f6bf86"
+            }
+          ],
+          "0x96e77860": "0x6dfeb97a",
+          "0xda1ee5bc": true,
+          "0xe4ecb00c": {
+            "OrderTypes": [
+              2,
+              3,
+              7
+            ],
+            "~class": "0xfb16e4be"
+          },
+          "OverrideParams": {
+            "0x877e4953": "Buffer_Dash_Distance",
+            "0xa2877ddb": "Buffer_Dash_Time",
+            "0xd00e123a": "Buffer_Dash_W_Forgiveness_Window",
+            "0xe5bc4229": "Buffer_Dash_Min_Distance",
+            "Spell": "0x3f70c67a",
+            "~class": "0xc7e628b9"
+          },
+          "TriggerSpells": [
+            "Characters/Ambessa/Spells/AmbessaWAbility/AmbessaW"
+          ],
+          "~class": "0xdd661aab"
+        }
+      ],
+      "params": {
+        "0x877e4953": "Buffer_Dash_Distance",
+        "0xa2877ddb": "Buffer_Dash_Time",
+        "0xd00e123a": "Buffer_Dash_Forgiveness_Window",
+        "0xe5bc4229": "Buffer_Dash_Min_Distance",
+        "Spell": "0x3f70c67a",
+        "~class": "0xc7e628b9"
+      },
+      "~class": "0x280745b1"
+    },
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 4.900000095367432,
+    "attackRange": 125.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 2.5,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 35.0,
+    "baseDamage": 63.0,
+    "baseHP": 630.0,
+    "baseMoveSpeed": 335.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.7000000476837158,
+    "basicAttack": {
+      "mAttackCastTime": 0.25,
+      "mAttackName": "AmbessaBasicAttack",
+      "mAttackTotalTime": 1.600000023841858,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 1.0,
+      "attackRank": 9,
+      "championId": 799,
+      "defenseRank": 2,
+      "description": "game_character_description_Ambessa",
+      "difficultyRank": 10,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "Spell_AmbessaPassive_Name",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "assassin",
+      "weaponMaterialCrit": "AmbessaCritAttack",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackName": "AmbessaCritAttack",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "AmbessaCritAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "AmbessaCritAttackChained1",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "AmbessaCritAttackChained2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "AmbessaBasicAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "AmbessaBasicAttackChained1",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "AmbessaBasicAttackChained2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 8398088,
+    "healthBarHeight": 110.0,
+    "hpPerLevel": 110.0,
+    "hpRegenPerLevel": 0.15000000596046448,
+    "mAbilities": [
+      "Characters/Ambessa/Spells/AmbessaQAbility",
+      "Characters/Ambessa/Spells/AmbessaWAbility",
+      "Characters/Ambessa/Spells/AmbessaEAbility",
+      "Characters/Ambessa/Spells/AmbessaRAbility",
+      "0xda8ca51e"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      14,
+      0,
+      14
+    ],
+    "mCharacterName": "Ambessa",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "0x3f70c67a",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "0x9bb754da",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "0xe34a2546",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "0xdd3cad90",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0x3f70c67a",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NimbusCloak",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Ambessa",
+    "passive1IconName": "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_Passive.Domina.dds",
+    "passiveLuaName": "AmbessaPassive",
+    "passiveName": "Spell_AmbessaPassive_Name",
+    "passiveSpell": "AmbessaPassive",
+    "passiveToolTip": "Spell_AmbessaPassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 200.0,
+      "arBaseStaticRegen": 10.0,
+      "arType": 1,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "VisibilityFlags": 1,
+      "arBase": 3.0,
+      "arBaseStaticRegen": 0.0,
+      "arDisplayAsPips": true,
+      "arHasRegenText": false,
+      "arMaxSegments": 1,
+      "arOverrideEmptyPipName": "EmptyPipSmall",
+      "arOverrideLargePipName": "GenericSmall",
+      "arOverrideSmallPipName": "GenericLargeUncolored",
+      "arOverrideSpacerName": "PipSpace1",
+      "arType": 12,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 0.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "AmbessaQAbility/AmbessaQ",
+      "AmbessaWAbility/AmbessaW",
+      "AmbessaEAbility/AmbessaE",
+      "AmbessaRAbility/AmbessaR"
+    ],
+    "spells": [
+      "Characters/Ambessa/Spells/AmbessaQAbility/AmbessaQ",
+      "Characters/Ambessa/Spells/AmbessaWAbility/AmbessaW",
+      "Characters/Ambessa/Spells/AmbessaEAbility/AmbessaE",
+      "Characters/Ambessa/Spells/AmbessaRAbility/AmbessaR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "weaponMaterials": [
+      "AmbessaBasicAttack",
+      "AmbessaBasicAttack",
+      "AmbessaBasicAttack",
+      "AmbessaBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Ambessa/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Ambessa/Spells/AmbessaEAbility": {
+    "mChildSpells": [
+      "0x91cebd6f"
+    ],
+    "mName": "AmbessaEAbility",
+    "mRootSpell": "Characters/Ambessa/Spells/AmbessaEAbility/AmbessaE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Ambessa/Spells/AmbessaEAbility/AmbessaE": {
+    "ObjectName": "AmbessaE",
+    "mScriptName": "AmbessaE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Slow_Duration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Slow_Amount",
+          "mValues": [
+            0.9900000095367432,
+            0.9900000095367432,
+            0.9900000095367432,
+            0.9900000095367432,
+            0.9900000095367432,
+            0.9900000095367432,
+            0.9900000095367432
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Damage_Flat_Base",
+          "mValues": [
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929,
+            0.6000000238418579,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaE_OnCast"
+      },
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0
+      ],
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.550000011920929,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 14346,
+      "mAnimationName": "Spell3",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Damage_Flat_Base",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "SpellListType_AttackDamageRatio",
+                  "type": "ADRatio",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AmbessaE_Name",
+            "keySummary": "Spell_AmbessaE_Summary",
+            "keyTooltip": "Spell_AmbessaE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_AmbessaE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "AmbessaE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoesNotConsumeCooldown": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_E.Domina.dds"
+      ],
+      "mLineWidth": 15.0,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "Calc_Damage_Flat": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage_Flat_Base",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mTurnSpeedScalar": 0.05000000074505806,
+      "mana": [
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ambessa/Spells/AmbessaQAbility": {
+    "mChildSpells": [
+      "0xff33e675",
+      "0xfc33e1bc",
+      "0xdb953014",
+      "Characters/Ambessa/Spells/AmbessaQAbility/AmbessaQ",
+      "0x283b1613"
+    ],
+    "mName": "AmbessaQAbility",
+    "mRootSpell": "Characters/Ambessa/Spells/AmbessaQAbility/AmbessaQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Ambessa/Spells/AmbessaQAbility/AmbessaQ": {
+    "ObjectName": "AmbessaQ",
+    "mScriptName": "AmbessaQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Swap_Duration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Swap_Static_Cooldown",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Damage_1_Base",
+          "mValues": [
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Damage_1_Percent",
+          "mValues": [
+            0.009999999776482582,
+            0.019999999552965164,
+            0.029999999329447746,
+            0.03999999910593033,
+            0.05000000074505806,
+            0.05999999865889549,
+            0.07000000029802322
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Damage_2_Base",
+          "mValues": [
+            25.0,
+            50.0,
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Damage_2_Percent",
+          "mValues": [
+            0.009999999776482582,
+            0.019999999552965164,
+            0.029999999329447746,
+            0.03999999910593033,
+            0.05000000074505806,
+            0.05999999865889549,
+            0.07000000029802322
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Damage_1_Min_Ratio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Damage_2_Min_Ratio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "Damage_1_Percent",
+              "mValues": [
+                0.012500000186264515,
+                0.019999999552965164,
+                0.027499999850988388,
+                0.03500000014901161,
+                0.042500000447034836,
+                0.05000000074505806,
+                0.057500001043081284
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "Damage_2_Percent",
+              "mValues": [
+                0.012500000186264515,
+                0.019999999552965164,
+                0.027499999850988388,
+                0.03500000014901161,
+                0.042500000447034836,
+                0.05000000074505806,
+                0.057500001043081284
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "ShouldReceiveInputEvents": true,
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        14.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 22538,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mCustomTargeterDefinitions": {
+          "0x5588765c": {
+            "mTargeterDefinitions": [
+              {
+                "arrowSize": 25.0,
+                "endLocator": {
+                  "basePosition": 3,
+                  "~class": "DrawablePositionLocator"
+                },
+                "lineStopsAtEndPosition": false,
+                "lineWidth": {
+                  "mPerLevelValues": [
+                    40.0,
+                    40.0,
+                    40.0,
+                    40.0,
+                    40.0,
+                    40.0
+                  ],
+                  "mValueType": 2,
+                  "~class": "FloatPerSpellLevel"
+                },
+                "~class": "TargeterDefinitionLine"
+              },
+              {
+                "hideWithLineIndicator": true,
+                "~class": "TargeterDefinitionRange"
+              }
+            ],
+            "~class": "CustomTargeterDefinitions"
+          },
+          "0x58887b15": {
+            "mTargeterDefinitions": [
+              {
+                "centerLocator": {
+                  "orientationType": 3,
+                  "~class": "DrawablePositionLocator"
+                },
+                "constraintPosLocator": {
+                  "basePosition": 3,
+                  "orientationType": 2,
+                  "~class": "DrawablePositionLocator"
+                },
+                "overrideRadius": {
+                  "mPerLevelValues": [
+                    375.0,
+                    375.0,
+                    375.0,
+                    375.0,
+                    375.0,
+                    375.0
+                  ],
+                  "mValueType": 1,
+                  "~class": "FloatPerSpellLevel"
+                },
+                "textureOrientation": 3,
+                "textureRadiusOverrideName": "ASSETS/Spells/Textures/SemicircleRangeIndicator.tex",
+                "~class": "TargeterDefinitionAoe"
+              }
+            ],
+            "~class": "CustomTargeterDefinitions"
+          }
+        },
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintPosLocator": {
+              "basePosition": 3,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                385.0,
+                385.0,
+                385.0,
+                385.0,
+                385.0,
+                385.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOrientation": 3,
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/SemicircleRangeIndicator.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_AmbessaQ_Rankup_CunningSweep_Damage",
+                  "type": "Damage_1_Base",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_AmbessaQ_Rankup_CunningSweep_MaxHealthDamage",
+                  "type": "Damage_1_Percent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_AmbessaQ_Rankup_SunderingSlam_Damage",
+                  "type": "Damage_2_Base",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_AmbessaQ_Rankup_SunderingSlam_MaxHealthDamage",
+                  "type": "Damage_1_Percent",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AmbessaQ_Name",
+            "keySummary": "Spell_AmbessaQ_Summary",
+            "keyTooltip": "Spell_AmbessaQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_AmbessaQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "AmbessaQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoesNotConsumeCooldown": true,
+      "mHitBoneName": "root",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_Q1.Domina.dds",
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_Q2.Domina.dds"
+      ],
+      "mLineWidth": 15.0,
+      "mRollForCriticalHit": true,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "0x1442dbe0": {
+          "mModifiedGameCalculation": "Calc_Damage_2_Percent_Max",
+          "mMultiplier": {
+            "mSpellCalculationKey": "Calc_Damage_2_Min_Ratio",
+            "~class": "0xf3cbe7b2"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "0x17768f39": {
+          "mModifiedGameCalculation": "Calc_Damage_1_Percent_Max",
+          "mMultiplier": {
+            "mSpellCalculationKey": "Calc_Damage_1_Min_Ratio",
+            "~class": "0xf3cbe7b2"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "0x3ce89b9e": {
+          "mModifiedGameCalculation": "Calc_Damage_2_Max",
+          "mMultiplier": {
+            "mSpellCalculationKey": "Calc_Damage_2_Min_Ratio",
+            "~class": "0xf3cbe7b2"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "0xa7907b77": {
+          "mModifiedGameCalculation": "Calc_Damage_1_Max",
+          "mMultiplier": {
+            "mSpellCalculationKey": "Calc_Damage_1_Min_Ratio",
+            "~class": "0xf3cbe7b2"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "Calc_Damage_1_Max": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage_1_Base",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6000000238418579,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "Calc_Damage_1_Min_Ratio": {
+          "mDisplayAsPercent": true,
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage_1_Min_Ratio",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculation"
+        },
+        "Calc_Damage_1_Percent_Max": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage_1_Percent",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0003000000142492354,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        },
+        "Calc_Damage_2_Max": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage_2_Base",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.8999999761581421,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "Calc_Damage_2_Min_Ratio": {
+          "mDisplayAsPercent": true,
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage_2_Min_Ratio",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculation"
+        },
+        "Calc_Damage_2_Percent_Max": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage_2_Percent",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.00039999998989515007,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        },
+        "Calc_Damage_Monster_Flat_Bonus": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mNumber": 125.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "Calc_Damage_Monster_Percent_Cap": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 300.0,
+              "mStartValue": 100.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ambessa/Spells/AmbessaRAbility": {
+    "mChildSpells": [
+      "0x84c6e77c",
+      "0x6a23e673"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "AmbessaRAbility",
+    "mRootSpell": "Characters/Ambessa/Spells/AmbessaRAbility/AmbessaR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Ambessa/Spells/AmbessaRAbility/AmbessaR": {
+    "ObjectName": "AmbessaR",
+    "mScriptName": "AmbessaR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Damage",
+          "mValues": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            450.0,
+            550.0,
+            650.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Suppress_Duration",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Stun_Duration",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Armor_Penetration",
+          "mValues": [
+            0.0,
+            0.10000000149011612,
+            0.20000000298023224,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.5,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Omnivamp",
+          "mValues": [
+            0.07500000298023224,
+            0.10000000149011612,
+            0.125,
+            0.15000000596046448,
+            0.17499999701976776,
+            0.20000000298023224,
+            0.22499999403953552
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Omnivamp_LifeStealScaling",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Omnivamp_MinionMod",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Omnivamp_MonsterMod",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaR_OnCast"
+      },
+      "alwaysSnapFacing": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0
+      ],
+      "cooldownTime": [
+        130.0,
+        130.0,
+        115.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "delayCastOffsetPercent": 0.10000002384185791,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 2,
+      "mAnimationName": "Spell4_Windup",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "alwaysDraw": true,
+            "arrowSize": 25.0,
+            "fallbackDirection": 3,
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_ArmorPenetration",
+                  "type": "Armor_Penetration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "Omnivamp",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Damage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_AmbessaR_Cost",
+            "keyName": "Spell_AmbessaR_Name",
+            "keySummary": "Spell_AmbessaR_Summary",
+            "keyTooltip": "Spell_AmbessaR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_AmbessaR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "AmbessaR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_R.Domina.dds"
+      ],
+      "mLineWidth": 15.0,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "Calc_Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "Calc_Omnivamp": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "Omnivamp",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "Omnivamp_LifeStealScaling",
+              "mStat": 18,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_MoveBlock",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ambessa/Spells/AmbessaWAbility": {
+    "mChildSpells": [
+      "0x8eb7957f"
+    ],
+    "mName": "AmbessaWAbility",
+    "mRootSpell": "Characters/Ambessa/Spells/AmbessaWAbility/AmbessaW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Ambessa/Spells/AmbessaWAbility/AmbessaW": {
+    "ObjectName": "AmbessaW",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_AmbessaW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "AmbessaW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            20.0,
+            20.0,
+            19.0,
+            18.0,
+            17.0,
+            16.0,
+            16.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "Dash_Delay",
+          "mValues": [
+            0.22499999403953552,
+            0.22499999403953552,
+            0.22499999403953552,
+            0.22499999403953552,
+            0.22499999403953552,
+            0.22499999403953552,
+            0.22499999403953552
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Buff_Duration",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Shield_Duration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            25.0,
+            50.0,
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HighDamageMultiplier",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageADRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Ambessa_AmbessaW_OnCast"
+      },
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0
+      ],
+      "cooldownTime": [
+        18.0,
+        18.0,
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        14.0
+      ],
+      "delayCastOffsetPercent": -0.550000011920929,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell2",
+      "mCanMoveWhileChanneling": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AmbessaW_Name",
+            "keySummary": "Spell_AmbessaW_Summary",
+            "keyTooltip": "Spell_AmbessaW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_AmbessaW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "AmbessaW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mHideRangeIndicatorWhenCasting": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Ambessa/HUD/Icons2D/Icon_Ambessa_W.Domina.dds"
+      ],
+      "mLineWidth": 15.0,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "Calc_Damage_High": {
+          "mModifiedGameCalculation": "Calc_Damage_Low",
+          "mMultiplier": {
+            "mDataValue": "HighDamageMultiplier",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "Calc_Damage_Low": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "DamageADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "Calc_Shield": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 320.0,
+              "mStartValue": 50.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 1.5,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "mana": [
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

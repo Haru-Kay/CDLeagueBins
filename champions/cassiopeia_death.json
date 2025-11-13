@@ -1,0 +1,133 @@
+{
+  "Characters/Cassiopeia_Death/CharacterRecords/Root": {
+    "acquisitionRange": 550.0,
+    "armorPerLevel": 4.0,
+    "attackRange": 550.0,
+    "attackSpeedPerLevel": 1.6799999475479126,
+    "baseArmor": 18.219999313354492,
+    "baseDamage": 50.375999450683594,
+    "baseHP": 506.0,
+    "baseMoveSpeed": 335.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.100000023841858,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.1080000028014183,
+      "mAttackProbability": 0.6000000238418579,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "attackRank": 2,
+      "championId": 69,
+      "defenseRank": 5,
+      "description": "game_character_description_Cassiopeia",
+      "difficultyRank": 10,
+      "magicRank": 9,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Cassiopeia",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "recItems": [
+        "1056",
+        "3020",
+        "3136",
+        "3116",
+        "3027",
+        "3089"
+      ],
+      "searchTags": "mage,support,slow,ranged,nuke,stun",
+      "spellData": [
+        {
+          "desc": "Anivia calls forth a gale of snow and ice that damages and chills units in a large area.  The storm may be called forth and cancelled at will.",
+          "displayName": "Glacial Storm",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Anivia calls forth a gale of snow and ice that damages and chills units in a large area.  The storm may be called forth and cancelled at will.",
+          "displayName": "Glacial Storm",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Anivia calls forth a gale of snow and ice that damages and chills units in a large area.  The storm may be called forth and cancelled at will.",
+          "displayName": "Glacial Storm",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Anivia calls forth a gale of snow and ice that damages and chills units in a large area.  The storm may be called forth and cancelled at will.",
+          "displayName": "Glacial Storm",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.1080000028014183,
+        "mAttackName": "CassiopeiaCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.200000047683716,
+    "extraAttacks": [
+      {
+        "mAttackName": "CassiopeiaBasicAttack2",
+        "mAttackProbability": 0.4000000059604645,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 8398144,
+    "healthBarHeight": 110.0,
+    "hpPerLevel": 75.0,
+    "hpRegenPerLevel": 0.10000000149011612,
+    "mCharacterName": "Cassiopeia_Death",
+    "mFallbackCharacterName": "Cassiopeia",
+    "name": "game_character_displayname_Cassiopeia",
+    "passive1IconName": "ASSETS/Characters/Cassiopeia/HUD/Icons2D/Cassiopeia_Passive.dds",
+    "passiveLuaName": "CassiopeiaPassive",
+    "passiveName": "game_character_passiveName_Cassiopeia",
+    "passiveToolTip": "game_character_passiveDescription_Cassiopeia",
+    "pathfindingCollisionRadius": 40.79999923706055,
+    "primaryAbilityResource": {
+      "arBase": 334.0,
+      "arBaseStaticRegen": 1.1047999858856201,
+      "arPerLevel": 50.0,
+      "arRegenPerLevel": 0.10999999940395355,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 120.0,
+    "selectionRadius": 120.0,
+    "spellNames": [
+      "CassiopeiaQ",
+      "CassiopeiaW",
+      "CassiopeiaE",
+      "CassiopeiaR"
+    ],
+    "spells": [
+      "Characters/Cassiopeia/Spells/CassiopeiaQAbility/CassiopeiaQ",
+      "Characters/Cassiopeia/Spells/CassiopeiaWAbility/CassiopeiaW",
+      "Characters/Cassiopeia/Spells/CassiopeiaEAbility/CassiopeiaE",
+      "Characters/Cassiopeia/Spells/CassiopeiaRAbility/CassiopeiaR"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/Cassiopeia_Death/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  }
+}

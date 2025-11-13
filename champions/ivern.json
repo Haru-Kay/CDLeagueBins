@@ -1,0 +1,3680 @@
+{
+  "0x128f9cc0": {
+    "ObjectName": "IvernWMissile",
+    "mScriptName": "IvernWMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6794,
+      "mAlternateName": "IvernW",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 8,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernW.dds"
+      ],
+      "mMissileEffectKey": "Ivern_W_Missile",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 3500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              -1.5330252647399902,
+              0.0,
+              -0.6201238632202148
+            ],
+            "mControlPoint2": [
+              0.2745090126991272,
+              0.0,
+              0.40948599576950073
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x161203b4": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15000,
+      37000,
+      74000,
+      88000,
+      100000,
+      44000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ee8ce395-9e6d-406c-8aa7-cbd5cea4fd33",
+      "itemID": 126022,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_IvernEBlocks",
+    "mNameTraKey": "stat_stone_name_IvernEBlocks",
+    "stoneName": "IvernEBlocks",
+    "~class": "StatStoneData"
+  },
+  "0x29140f63": {
+    "ObjectName": "IvernWMissile1",
+    "mScriptName": "IvernWMissile1",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6794,
+      "mAlternateName": "IvernW",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 8,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernW.dds"
+      ],
+      "mMissileEffectKey": "Ivern_W_Missile",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mSpeed": 3500.0,
+          "mSplineInfo": {
+            "mControlPoint1": [
+              1.81956148147583,
+              0.0,
+              -0.5389312505722046
+            ],
+            "mControlPoint2": [
+              0.2745090126991272,
+              0.0,
+              0.40948599576950073
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedSplineMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x2c273199": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "2cb73e53-a070-4206-8716-7266a30be167",
+      "itemID": 125642,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "IvernEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x335fdb2b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9,
+      20,
+      45,
+      50,
+      65,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "7166de20-57a6-4e9f-9bda-f80f6f85fa6f",
+      "itemID": 38,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_IvernQTakedowns",
+    "mNameTraKey": "stat_stone_name_IvernQTakedowns",
+    "stoneName": "IvernQTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x33ecb21e": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "325b1310-bc38-4025-b555-72ae88bb872c",
+      "itemID": 125643,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "IvernTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x3b7a97e3": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "8ea41346-e3fa-44fe-9c66-5b12678b54d6",
+      "itemID": 125644,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "IvernStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x49bd08b3": {
+    "catalogEntry": {
+      "contentId": "00b50ae2-43bb-4b56-9b41-875ef59bb3b5",
+      "itemID": 66600041,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x501d2985",
+      "0xd61c354d",
+      "0xf1aa5f9e",
+      "0x335fdb2b"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x4abd0a46": {
+    "catalogEntry": {
+      "contentId": "c73bebb6-3c08-43f3-8684-2459d4d79103",
+      "itemID": 66600412,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xcba0f211",
+      "0x88aa6585",
+      "0x161203b4"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x4f4462a7": {
+    "DescriptionAppendPriority": 50,
+    "DescriptionAppendTra": "Spell_IvernP_Tooltip_NexusBlitz",
+    "mModifierID": "0xa52ea333",
+    "~class": "SpellModifier"
+  },
+  "0x501d2985": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "IsRetired": true,
+    "Milestones": [
+      6,
+      15,
+      30,
+      35,
+      45,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "8b33e9d3-6307-4bda-b03c-b5fbcadf04c5",
+      "itemID": 39,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_IvernPBuffsShared",
+    "mNameTraKey": "stat_stone_name_IvernPBuffsShared",
+    "stoneName": "IvernPBuffsShared",
+    "~class": "StatStoneData"
+  },
+  "0x6eefc9b": {
+    "catalogEntry": {
+      "contentId": "cb057f2c-c1b1-4422-a5f0-dcc7aaa107f7",
+      "itemID": 66600235,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x2c273199",
+      "0x33ecb21e",
+      "0x3b7a97e3"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x88aa6585": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      775,
+      2000,
+      4000,
+      4500,
+      6000,
+      2500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f2bfac93-5cd5-4d20-aaf2-fb3f4c34e0b2",
+      "itemID": 126021,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_IvernWDamage",
+    "mNameTraKey": "stat_stone_name_IvernWDamage",
+    "stoneName": "IvernWDamage",
+    "~class": "StatStoneData"
+  },
+  "0xb7c17f93": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "utility",
+        "mDefaultPriority": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xcba0f211": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      10,
+      20,
+      25,
+      30,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "44bc8d0a-6140-4974-ac19-8ebd57ff4d53",
+      "itemID": 126020,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_IvernPCamps",
+    "mNameTraKey": "stat_stone_name_IvernPCamps",
+    "stoneName": "IvernPCamps",
+    "~class": "StatStoneData"
+  },
+  "0xd61c354d": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      350,
+      850,
+      1500,
+      2000,
+      2500,
+      1000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "561a162a-0219-4f9f-bfc8-813ce6b13313",
+      "itemID": 126600,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_IvernWBrushDuration",
+    "mNameTraKey": "stat_stone_name_IvernWBrushDuration",
+    "stoneName": "IvernWBrushDuration",
+    "trackingType": 1,
+    "~class": "StatStoneData"
+  },
+  "0xf09d5cae": {
+    "ObjectName": "IvernPNexusBlitz",
+    "mBuff": {
+      "mDescription": "game_spell_displayname_IvernPNexusBlitz",
+      "~class": "BuffData"
+    },
+    "mScriptName": "IvernPNexusBlitz",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernPNexusBlitz.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf1aa5f9e": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      40,
+      75,
+      90,
+      125,
+      45
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5f901cfd-0ba3-4dd3-babf-cfb0827107f5",
+      "itemID": 37,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_IvernRKnockups",
+    "mNameTraKey": "stat_stone_name_IvernRKnockups",
+    "stoneName": "IvernRKnockups",
+    "~class": "StatStoneData"
+  },
+  "Characters/Ivern/CharacterRecords/Root": {
+    "armorPerLevel": 4.699999809265137,
+    "attackRange": 475.0,
+    "attackSpeed": 0.6439999938011169,
+    "attackSpeedPerLevel": 3.4000000953674316,
+    "attackSpeedRatio": 0.6439999938011169,
+    "baseArmor": 27.0,
+    "baseDamage": 50.0,
+    "baseHP": 630.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.399999976158142,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+      "mAttackName": "IvernBasicAttackRanged",
+      "mAttackProbability": 0.75,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.75,
+      "LevelSpellEffectiveness": 3.0,
+      "attackRank": 3,
+      "championId": 427,
+      "defenseRank": 5,
+      "description": "game_character_description_Ivern",
+      "difficultyRank": 7,
+      "magicRank": 7,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Ivern",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "SUPPORT",
+      "searchTags": "support",
+      "searchTagsSecondary": "mage",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackName": "IvernBasicAttackRanged2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "enemyTooltip": "game_character_enemyTooltip_Ivern",
+    "extraAttacks": [
+      {
+        "mAttackName": "IvernBasicAttackRanged2",
+        "mAttackProbability": 0.25,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "friendlyTooltip": "game_character_friendlyTooltip_Ivern",
+    "friendlyUxOverrideExcludeTagsString": "Monster_Epic",
+    "friendlyUxOverrideIncludeTagsString": "Monster | Monster_Large",
+    "friendlyUxOverrideTeam": 300,
+    "healthBarHeight": 135.0,
+    "hpPerLevel": 99.0,
+    "hpRegenPerLevel": 0.17000000178813934,
+    "mAbilities": [
+      "Characters/Ivern/Spells/IvernRAbility",
+      "Characters/Ivern/Spells/IvernQAbility",
+      "Characters/Ivern/Spells/IvernPAbility",
+      "Characters/Ivern/Spells/IvernWAbility",
+      "Characters/Ivern/Spells/IvernEAbility"
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Ivern",
+    "mCharacterPassiveBuffs": [
+      {
+        "mChildSpells": [
+          "Characters/Ivern/Spells/IvernRAbility/IvernRMissile"
+        ],
+        "mParentPassiveBuff": "Characters/Ivern/Spells/IvernPAbility/IvernP",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Ivern/Spells/IvernPAbility/IvernP",
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "name": "game_character_displayname_Ivern",
+    "outlineBBoxExpansion": 80.0,
+    "overrideGameplayCollisionRadius": 70.0,
+    "passive1IconName": "ASSETS/Characters/Ivern/HUD/Icons2D/IvernP.dds",
+    "passiveLuaName": "IvernP",
+    "passiveName": "game_character_passiveName_Ivern",
+    "passiveToolTip": "game_character_passiveDescription_Ivern",
+    "pathfindingCollisionRadius": 40.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 450.0,
+      "arBaseStaticRegen": 1.2000000476837158,
+      "arPerLevel": 60.0,
+      "arRegenPerLevel": 0.15000000596046448,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 250.0,
+    "selectionRadius": 140.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "IvernQAbility/IvernQ",
+      "IvernWAbility/IvernW",
+      "IvernEAbility/IvernE",
+      "IvernRAbility/IvernR"
+    ],
+    "spells": [
+      "Characters/Ivern/Spells/IvernQAbility/IvernQ",
+      "Characters/Ivern/Spells/IvernWAbility/IvernW",
+      "Characters/Ivern/Spells/IvernEAbility/IvernE",
+      "Characters/Ivern/Spells/IvernRAbility/IvernR"
+    ],
+    "unitTagsString": "Champion | Special_MonsterIgnores",
+    "~class": "CharacterRecord"
+  },
+  "Characters/Ivern/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Ivern/Spells/IvernBasicAttack": {
+    "ObjectName": "IvernBasicAttack",
+    "mScriptName": "IvernBasicAttack",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.75,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.34850001335144043,
+      "mAffectsTypeFlags": 6827,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mConsideredAsAutoAttack": true,
+      "mHitEffectOrientType": 2,
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 4000.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernBasicAttack2": {
+    "ObjectName": "IvernBasicAttack2",
+    "mScriptName": "IvernBasicAttack2",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.75,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.34850001335144043,
+      "mAffectsTypeFlags": 6827,
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mConsideredAsAutoAttack": true,
+      "mHitEffectOrientType": 2,
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 4000.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernBasicAttack3": {
+    "ObjectName": "IvernBasicAttack3",
+    "mScriptName": "IvernBasicAttack3",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.75,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.34850001335144043,
+      "mAffectsTypeFlags": 6827,
+      "mAnimationName": "Attack3",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mConsideredAsAutoAttack": true,
+      "mHitEffectOrientType": 2,
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 4000.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernBasicAttackRanged": {
+    "ObjectName": "IvernBasicAttackRanged",
+    "mScriptName": "IvernBasicAttackRanged",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.75,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.34850001335144043,
+      "flags": 128,
+      "mAffectsTypeFlags": 6827,
+      "mAnimationName": "Range_attack1",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mConsideredAsAutoAttack": true,
+      "mMissileEffectKey": "Ivern_BA_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mAcceleration": -15000.0,
+          "mInitialSpeed": 2000.0,
+          "mMaxSpeed": 3000.0,
+          "mMinSpeed": 1500.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "C_Buffbone_Glb_Head_Loc",
+          "mTargetHeightAugment": 100.0,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernBasicAttackRanged2": {
+    "ObjectName": "IvernBasicAttackRanged2",
+    "mScriptName": "IvernBasicAttackRanged2",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.75,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.34850001335144043,
+      "flags": 128,
+      "mAffectsTypeFlags": 6827,
+      "mAnimationName": "Range_attack2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mConsideredAsAutoAttack": true,
+      "mMissileEffectKey": "Ivern_BA_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mAcceleration": -15000.0,
+          "mInitialSpeed": 2000.0,
+          "mMaxSpeed": 3000.0,
+          "mMinSpeed": 1500.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "C_Buffbone_Glb_Head_Loc",
+          "mTargetHeightAugment": 100.0,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernEAbility": {
+    "AbilityTraits": 8,
+    "mChildSpells": [
+      "Characters/Ivern/Spells/IvernEAbility/IvernE"
+    ],
+    "mName": "IvernEAbility",
+    "mRootSpell": "Characters/Ivern/Spells/IvernEAbility/IvernE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Ivern/Spells/IvernEAbility/IvernE": {
+    "ObjectName": "IvernE",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_IvernE",
+      "~class": "BuffData"
+    },
+    "mScriptName": "IvernE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseShield",
+          "mValues": [
+            35.0,
+            75.0,
+            115.0,
+            155.0,
+            195.0,
+            235.0,
+            275.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldAPRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            50.0,
+            70.0,
+            90.0,
+            110.0,
+            130.0,
+            150.0,
+            170.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageAPRatio",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929,
+            0.6000000238418579,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "SWIFTPLAY": {
+          "SpellDataValues": [
+            {
+              "mName": "ShieldAPRatio",
+              "mValues": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                40.0,
+                70.0,
+                100.0,
+                130.0,
+                160.0,
+                190.0,
+                220.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseShield",
+              "mValues": [
+                45.0,
+                80.0,
+                115.0,
+                150.0,
+                185.0,
+                220.0,
+                255.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "ShieldAPRatio",
+              "mValues": [
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SlowAmount",
+              "mValues": [
+                0.3499999940395355,
+                0.4000000059604645,
+                0.44999998807907104,
+                0.5,
+                0.550000011920929,
+                0.6000000238418579,
+                0.6499999761581421
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        285.0,
+        285.0,
+        285.0,
+        285.0,
+        285.0,
+        285.0,
+        285.0
+      ],
+      "castRange": [
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0
+      ],
+      "cooldownTime": [
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 1025,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                425.0,
+                425.0,
+                425.0,
+                425.0,
+                425.0,
+                425.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_ShieldAmount",
+                  "type": "BaseShield",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_Slow",
+                  "type": "SlowAmount",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_IvernE_Name",
+            "keySummary": "Spell_IvernE_Summary",
+            "keyTooltip": "Spell_IvernE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_IvernE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "IvernE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernE.dds"
+      ],
+      "mLookAtPolicy": 1,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "DamageAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalShield": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseShield",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ShieldAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mana": [
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "missileSpeed": 20.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernPAbility": {
+    "mChildSpells": [
+      "Characters/Ivern/Spells/IvernPAbility/IvernP",
+      "Characters/Ivern/Spells/IvernPAbility/IvernPApplication",
+      "Characters/Ivern/Spells/IvernPAbility/IvernPBuffTransferMissile",
+      "Characters/Ivern/Spells/IvernPAbility/IvernPBuffTransferMissileRed",
+      "Characters/Ivern/Spells/IvernPAbility/IvernPCollection"
+    ],
+    "mName": "IvernPAbility",
+    "mRootSpell": "Characters/Ivern/Spells/IvernPAbility/IvernP",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Ivern/Spells/IvernPAbility/IvernP": {
+    "ObjectName": "IvernP",
+    "mScriptName": "IvernP",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "LevelForBuffShare",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PickupDuration",
+          "mValues": [
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KrugExperience",
+          "mValues": [
+            58.0,
+            58.0,
+            58.0,
+            58.0,
+            58.0,
+            58.0,
+            58.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KrugGold",
+          "mValues": [
+            84.0,
+            84.0,
+            84.0,
+            84.0,
+            84.0,
+            84.0,
+            84.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ModeSpeedOverride",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xa110bc47": {
+          "SpellDataValues": [
+            {
+              "mName": "ModeSpeedOverride",
+              "mValues": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_IvernP_Name",
+            "keySummary": "Spell_IvernP_Summary",
+            "keyTooltip": "Spell_IvernP_Tooltip",
+            "keyTooltipExtended": "Spell_IvernP_TooltipExtended"
+          },
+          "mObjectName": "IvernP",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            120.0,
+            120.0,
+            120.0,
+            120.0,
+            120.0,
+            120.0,
+            120.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernP.dds"
+      ],
+      "mSpellCalculations": {
+        "0x60aa666f": {
+          "mFormulaParts": [
+            {
+              "mInitialBonusPerLevel": -0.8820000290870667,
+              "mLevel1Value": 15.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "0xc6433908": {
+          "mFormulaParts": [
+            {
+              "mInitialBonusPerLevel": -1.1749999523162842,
+              "mLevel1Value": 20.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "HarvestDuration": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mBonusPerLevelAtAndAfter": -3.0,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": -4.0,
+                  "mLevel": 12,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": -2.0,
+                  "mLevel": 15,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mLevel": 16,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mInitialBonusPerLevel": -2.0,
+              "mLevel1Value": 40.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mDataValue": "0x4f9ad7d",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculation"
+        },
+        "HealthTooltip": {
+          "mModifiedGameCalculation": "0x60aa666f",
+          "mMultiplier": {
+            "mCoefficient": 0.009999999776482582,
+            "mStat": 12,
+            "mStatFormula": 1,
+            "~class": "StatByCoefficientCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "ManaTooltip": {
+          "mModifiedGameCalculation": "0xc6433908",
+          "mMultiplier": {
+            "mCoefficient": 0.009999999776482582,
+            "mStatFormula": 1,
+            "~class": "AbilityResourceByCoefficientCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernPAbility/IvernPApplication": {
+    "ObjectName": "IvernPApplication",
+    "mScriptName": "IvernPApplication",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": -1.0,
+      "castRadius": [
+        130.0,
+        130.0,
+        130.0,
+        130.0,
+        130.0,
+        130.0,
+        130.0
+      ],
+      "castRange": [
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 32,
+      "mAffectsStatusFlags": 16,
+      "mAffectsTypeFlags": 7231,
+      "mAnimationName": "",
+      "mCastTime": 0.009999999776482582,
+      "mChannelDuration": [
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5
+      ],
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_IvernPApplication"
+          },
+          "mObjectName": "IvernPApplication",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            20.0,
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mIsDisabledWhileDead": false,
+      "mPlatformSpellInfo": {
+        "mAvatarLevelRequired": 1,
+        "~class": "PlatformSpellInfo"
+      },
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 1200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernPAbility/IvernPBuffTransferMissile": {
+    "ObjectName": "IvernPBuffTransferMissile",
+    "mScriptName": "IvernPBuffTransferMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "VladimirTransfusionHeal",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mMissileEffectKey": "Ivern_P_BuffTransfer_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 3000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 700.0,
+          "mStartBoneName": "Spine1",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 700.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernPAbility/IvernPBuffTransferMissileRed": {
+    "ObjectName": "IvernPBuffTransferMissileRed",
+    "mScriptName": "IvernPBuffTransferMissileRed",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "VladimirTransfusionHeal",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mMissileEffectKey": "Ivern_P_BuffTransfer_Mis_Red2",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 3000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 700.0,
+          "mStartBoneName": "Spine1",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 700.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernPAbility/IvernPCollection": {
+    "ObjectName": "IvernPCollection",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_IvernPCollection",
+      "~class": "BuffData"
+    },
+    "mScriptName": "IvernPCollection",
+    "mSpell": {
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": -1.0,
+      "castRadius": [
+        130.0,
+        130.0,
+        130.0,
+        130.0,
+        130.0,
+        130.0,
+        130.0
+      ],
+      "castRange": [
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsStatusFlags": 16,
+      "mAffectsTypeFlags": 7231,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            20.0,
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mIsDisabledWhileDead": false,
+      "mPlatformSpellInfo": {
+        "mAvatarLevelRequired": 1,
+        "~class": "PlatformSpellInfo"
+      },
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 1200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernQAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Ivern/Spells/IvernQAbility/IvernQ",
+      "Characters/Ivern/Spells/IvernQAbility/IvernQRecast"
+    ],
+    "mName": "IvernQAbility",
+    "mRootSpell": "Characters/Ivern/Spells/IvernQAbility/IvernQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Ivern/Spells/IvernQAbility/IvernQ": {
+    "ObjectName": "IvernQ",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_IvernQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "IvernQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            35.0,
+            80.0,
+            125.0,
+            170.0,
+            215.0,
+            260.0,
+            305.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RootDuration",
+          "mValues": [
+            1.5,
+            1.600000023841858,
+            1.7000000476837158,
+            1.7999999523162842,
+            1.899999976158142,
+            2.0,
+            2.0999999046325684
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 4.545000076293945,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0
+      ],
+      "castRangeDisplayOverride": [
+        1125.0,
+        1125.0,
+        1125.0,
+        1125.0,
+        1125.0,
+        1125.0,
+        1125.0
+      ],
+      "cooldownTime": [
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_RootDuration",
+                  "type": "RootDuration",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 5,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_IvernQ_Name",
+            "keySummary": "Spell_IvernQ_Summary",
+            "keyTooltip": "Spell_IvernQ_Tooltip"
+          },
+          "mObjectName": "IvernQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectKey": "Ivern_Q_Tar",
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernQ.dds"
+      ],
+      "mLineWidth": 80.0,
+      "mMissileEffectKey": "Ivern_Q_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnHit"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 50.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1300.0,
+          "mStartBoneName": "C_Buffbone_Glb_Layout_Loc",
+          "mTargetHeightAugment": 50.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell",
+        "Trait_SignatureSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "missileSpeed": 1300.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernQAbility/IvernQRecast": {
+    "ObjectName": "IvernQRecast",
+    "mBuff": {
+      "mDescription": "buff_desc_IvernQRecast",
+      "~class": "BuffData"
+    },
+    "mScriptName": "IvernQRecast",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 5.170000076293945,
+      "castRadius": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Ivern/Spells/IvernQAbility/IvernQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mCoefficient2": 1.5,
+      "mCursorChangesInGrass": true,
+      "mCursorChangesInTerrain": true,
+      "mDoesntBreakChannels": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            1250.0,
+            1250.0,
+            2000.0,
+            3500.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            60.0,
+            120.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            50.0,
+            70.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            20.0,
+            25.0,
+            30.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernQ.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        ""
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 1200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernRAbility": {
+    "AbilityTraits": 18432,
+    "mChildSpells": [
+      "Characters/Ivern/Spells/IvernRAbility/IvernR",
+      "Characters/Ivern/Spells/IvernRAbility/IvernRRecast",
+      "Characters/Ivern/Spells/IvernRAbility/IvernRChargeGolem",
+      "Characters/Ivern/Spells/IvernRAbility/IvernRMissile"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "IvernRAbility",
+    "mRootSpell": "Characters/Ivern/Spells/IvernRAbility/IvernR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Ivern/Spells/IvernRAbility/IvernR": {
+    "ObjectName": "IvernR",
+    "mScriptName": "IvernR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "SpawnBuffDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSOnSpawn",
+          "mValues": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DROnSpawn",
+          "mValues": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DaisyAS",
+          "mValues": [
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            75.0,
+            90.0,
+            105.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DaisyAD",
+          "mValues": [
+            40.0,
+            70.0,
+            100.0,
+            130.0,
+            160.0,
+            190.0,
+            220.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DaisyAoeDR",
+          "mValues": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DaisyDuration",
+          "mValues": [
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShockwaveBaseDamage",
+          "mValues": [
+            40.0,
+            90.0,
+            140.0,
+            190.0,
+            240.0,
+            290.0,
+            340.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShockwaveCCDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShockwaveCD",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 5.170000076293945,
+      "castRadius": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        150.0,
+        140.0,
+        130.0,
+        120.0,
+        110.0,
+        100.0,
+        90.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 7183,
+      "mAnimationName": "spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_AttackDamageBonus",
+                  "type": "DaisyAD",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_IvernR_ShockwaveDamage",
+                  "type": "ShockwaveBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_IvernRBonusAttackSpeed",
+                  "type": "DaisyAS",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "typeIndex": 6,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_IvernR_Name",
+            "keySummary": "Spell_IvernR_Summary",
+            "keyTooltip": "Spell_IvernR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_IvernR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "IvernR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.30000001192092896,
+      "mCoefficient2": 0.5,
+      "mCursorChangesInGrass": true,
+      "mCursorChangesInTerrain": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernR.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "TotalBonusResists": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mBonusPerLevelAtAndAfter": 5.0,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 30.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDaisyAD": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "DaisyAD",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.15000000596046448,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDaisyHP": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mBonusPerLevelAtAndAfter": 50.0,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": 400.0,
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 1000.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalShockwaveDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ShockwaveBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernRAbility/IvernRChargeGolem": {
+    "ObjectName": "IvernRChargeGolem",
+    "mScriptName": "IvernRChargeGolem",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 5.170000076293945,
+      "castRadius": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        110.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 4106,
+      "mAnimationName": "spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.30000001192092896,
+      "mCoefficient2": 1.5,
+      "mCursorChangesInGrass": true,
+      "mCursorChangesInTerrain": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            1250.0,
+            1250.0,
+            2000.0,
+            3500.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            50.0,
+            70.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            50.0,
+            70.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            20.0,
+            25.0,
+            30.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            150.0,
+            250.0,
+            350.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernR.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mShowChannelBar": false,
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernRAbility/IvernRMissile": {
+    "ObjectName": "IvernRMissile",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_IvernRMissile",
+      "~class": "BuffData"
+    },
+    "mScriptName": "IvernRMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "delayCastOffsetPercent": -0.25,
+      "delayTotalTimePercent": -0.25,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 60.0,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "BraumRWrapper",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                115.0,
+                115.0,
+                115.0,
+                115.0,
+                115.0,
+                115.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mHitBoneName": "root",
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernR2.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1400.0,
+          "mStartBoneName": "root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1400.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernRAbility/IvernRRecast": {
+    "ObjectName": "IvernRRecast",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_IvernRRecast",
+      "~class": "BuffData"
+    },
+    "mScriptName": "IvernRRecast",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 5.170000076293945,
+      "castRadius": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 6698,
+      "mAnimationName": "Passive_Channel1",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mLocKeys": {
+            "keyCooldown": "Spell_Cooldown_NoCooldown",
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_IvernRRecast_Name",
+            "keyTooltip": "Spell_IvernRRecast_Tooltip"
+          },
+          "mObjectName": "IvernRRecast",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mCoefficient2": 1.5,
+      "mCursorChangesInGrass": true,
+      "mCursorChangesInTerrain": true,
+      "mDoesntBreakChannels": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            1250.0,
+            1250.0,
+            2500.0,
+            3750.0,
+            3750.0,
+            3750.0,
+            3750.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            15.0,
+            40.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            50.0,
+            70.0,
+            70.0,
+            70.0,
+            70.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            25.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            150.0,
+            150.0,
+            250.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            160.0,
+            160.0,
+            140.0,
+            120.0,
+            120.0,
+            120.0,
+            120.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernR2.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mShowChannelBar": false,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_UltimateReactivation"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "missileSpeed": 1200.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Ivern/Spells/IvernWAbility": {
+    "AbilityTraits": 4096,
+    "mChildSpells": [
+      "Characters/Ivern/Spells/IvernWAbility/IvernW",
+      "0x128f9cc0",
+      "0x29140f63"
+    ],
+    "mName": "IvernWAbility",
+    "mRootSpell": "Characters/Ivern/Spells/IvernWAbility/IvernW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Ivern/Spells/IvernWAbility/IvernW": {
+    "ObjectName": "IvernW",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_IvernW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "IvernW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AllyBuffDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            12.5,
+            20.0,
+            27.5,
+            35.0,
+            42.5,
+            50.0,
+            57.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AllyBaseDamage",
+          "mValues": [
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RevealDuration",
+          "mValues": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxBrushDuration",
+          "mValues": [
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BrushRadius",
+          "mValues": [
+            190.0,
+            190.0,
+            190.0,
+            190.0,
+            190.0,
+            190.0,
+            190.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BrushSpacing",
+          "mValues": [
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "castRangeDisplayOverride": [
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0
+      ],
+      "cooldownTime": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 9221,
+      "mAmmoRechargeTime": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                500.0,
+                500.0,
+                500.0,
+                500.0,
+                500.0,
+                500.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Characters/Ivern/HUD/Textures/Ivern_Base_W_indicator.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_BonusMagicDamage",
+                  "type": "BaseDamage",
+                  "typeIndex": 5,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_IvernW_LevelUp_AllyDamage",
+                  "type": "AllyBaseDamage",
+                  "typeIndex": 4,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "Spell_IvernW_Cooldown",
+            "keyName": "Spell_IvernW_Name",
+            "keySummary": "Spell_IvernW_Summary",
+            "keyTooltip": "Spell_IvernW_Tooltip"
+          },
+          "mObjectName": "IvernW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Ivern/HUD/Icons2D/IvernW.dds"
+      ],
+      "mMaxAmmo": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalAllyDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "AllyBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.20000000298023224,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "mUseMinimapTargeting": true,
+      "mana": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "missileSpeed": 1600.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

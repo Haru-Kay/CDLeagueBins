@@ -1,0 +1,96 @@
+{
+  "Characters/YorickWGhoul/CharacterRecords/Root": {
+    "attackRange": 250.0,
+    "baseArmor": 0.0,
+    "baseDamage": 0.0,
+    "baseHP": 10.0,
+    "baseMoveSpeed": 325.0,
+    "baseStaticHPRegen": 0.0,
+    "basicAttack": {
+      "mAttackCastTime": 0.25,
+      "mAttackDelayCastOffsetPercent": 0.06064999848604202,
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.899999976158142,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "description": "game_character_description_LesserWraith",
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "deathEventListeningRadius": 0.0,
+    "enemyTooltip": "game_character_enemyTooltip_LesserWraith",
+    "expGivenOnDeath": 0.0,
+    "flags": 8398280,
+    "goldGivenOnDeath": 0.0,
+    "healthBarHeight": 30.0,
+    "mCharacterName": "YorickWGhoul",
+    "minionScoreValue": 0.0,
+    "name": "game_character_displayname_LesserWraith",
+    "overrideGameplayCollisionRadius": 20.0,
+    "pathfindingCollisionRadius": 80.0,
+    "perceptionBubbleRadius": 200.0,
+    "primaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 90.0,
+    "selectionRadius": 90.0,
+    "significance": 0.30000001192092896,
+    "weaponMaterials": [
+      "YorickGhoulBasicBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/YorickWGhoul/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/YorickWGhoul/Spells/YorickWGhoulBasicAttack": {
+    "ObjectName": "YorickWGhoulBasicAttack",
+    "mScriptName": "YorickWGhoulBasicAttack",
+    "mSpell": {
+      "castFrame": 12.609999656677246,
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 5327,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

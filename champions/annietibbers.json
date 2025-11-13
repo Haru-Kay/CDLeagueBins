@@ -1,0 +1,180 @@
+{
+  "Characters/AnnieTibbers/CharacterRecords/Root": {
+    "DisguiseMinimapIconOverride": "NoIcon",
+    "acquisitionRange": 625.0,
+    "attackRange": 150.0,
+    "attackSpeed": 1.7359999418258667,
+    "attackSpeedRatio": 1.7359999418258667,
+    "baseArmor": 0.0,
+    "baseDamage": 0.0,
+    "baseFactorHPRegen": 0.001500000013038516,
+    "baseHP": 850.0,
+    "baseMoveSpeed": 350.0,
+    "baseStaticHPRegen": 0.20000000298023224,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": 0.10000000149011612,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "BaseSpellEffectiveness": 1.0,
+      "ChasingAttackRangePercent": 0.5,
+      "attackSpeed": 1.600000023841858,
+      "description": "game_spell_description_InfernalGuardian",
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "critDamageMultiplier": 1.0,
+    "expGivenOnDeath": 0.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "AnnieTibbersBasicAttack2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 8398088,
+    "goldGivenOnDeath": 50.0,
+    "healthBarHeight": 92.0,
+    "hpPerLevel": 150.0,
+    "mCharacterName": "AnnieTibbers",
+    "minimapIconOverride": "NoIcon",
+    "name": "game_spell_displayname_InfernalGuardian",
+    "overrideGameplayCollisionRadius": 80.0,
+    "pathfindingCollisionRadius": 35.0,
+    "primaryAbilityResource": {
+      "arBase": 45.0,
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arIncrements": 50.0,
+      "arMaxSegments": 2,
+      "arType": 7,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 180.0,
+    "selectionRadius": 155.0,
+    "significance": 0.5,
+    "towerTargetingPriorityBoost": 10.0,
+    "unitTagsString": "Minion | Minion_Summon | Minion_Summon_Large",
+    "weaponMaterials": [
+      "AnnieTibbersBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/AnnieTibbers/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/AnnieTibbers/Spells/AnnieTibbersBasicAttack": {
+    "ObjectName": "AnnieTibbersBasicAttack",
+    "mScriptName": "AnnieTibbersBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 5327,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "AnnieTibbers_BA",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/AnnieTibbers/Spells/AnnieTibbersBasicAttack2": {
+    "ObjectName": "AnnieTibbersBasicAttack2",
+    "mScriptName": "AnnieTibbersBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "AnnieTibbers_BA",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

@@ -1,0 +1,3178 @@
+{
+  "0x199997ad": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      50,
+      100,
+      125,
+      150,
+      60
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5128c996-d89a-43c5-8635-0044ad4a6dfd",
+      "itemID": 286,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_XerathWSweetSpot",
+    "mNameTraKey": "stat_stone_name_XerathWSweetSpot",
+    "stoneName": "XerathWSweetSpot",
+    "~class": "StatStoneData"
+  },
+  "0x1e7dc6fb": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "78dff56e-323f-4e04-941c-9f5541cd1259",
+      "itemID": 125599,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "XerathStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x2903248b": {
+    "catalogEntry": {
+      "contentId": "106f9085-1231-4982-bd9a-bbe868e1452e",
+      "itemID": 66600134,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xb4ce7319",
+      "0x5d8c29c0",
+      "0x199997ad"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x2a03261e": {
+    "catalogEntry": {
+      "contentId": "4231cdd4-21c7-45fe-b178-b4abf3a55791",
+      "itemID": 66600512,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x7c5d8ad2",
+      "0xf03be8c8",
+      "0x86b03019"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x3cb2a64f": {
+    "ObjectName": "XerathRRampUp",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_XerathRRampUp_Name"
+        },
+        "mObjectName": "XerathRRampUp",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "XerathRRampUp",
+    "~class": "SpellObject"
+  },
+  "0x446d8bf3": {
+    "catalogEntry": {
+      "contentId": "4486f717-7e7a-48b4-be92-c3cf00bee786",
+      "itemID": 66600220,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x5f354661",
+      "0xdf3a8a66",
+      "0x1e7dc6fb"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x5d8c29c0": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      35,
+      90,
+      175,
+      225,
+      275,
+      100
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "a22d026c-ec1d-442b-8f76-a02de5ff4748",
+      "itemID": 285,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_XerathLongRangeQ",
+    "mNameTraKey": "stat_stone_name_XerathLongRangeQ",
+    "stoneName": "XerathLongRangeQ",
+    "~class": "StatStoneData"
+  },
+  "0x5f354661": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "30b09c5e-851d-4c20-a207-d073eb8d3ade",
+      "itemID": 125597,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "XerathEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x75b24f6f": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "middle",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "utility",
+        "mEarlyLevelOverrides": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x7c5d8ad2": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      30,
+      65,
+      75,
+      95,
+      40
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b258c03c-239d-4931-b381-ed8ea3946991",
+      "itemID": 126321,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_XerathWECombos",
+    "mNameTraKey": "stat_stone_name_XerathWECombos",
+    "stoneName": "XerathWECombos",
+    "~class": "StatStoneData"
+  },
+  "0x86b03019": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      35,
+      75,
+      85,
+      100,
+      45
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "99a90f7a-079b-4470-8724-b828167ff390",
+      "itemID": 126320,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_XerathPHits",
+    "mNameTraKey": "stat_stone_name_XerathPHits",
+    "stoneName": "XerathPHits",
+    "~class": "StatStoneData"
+  },
+  "0xa104f46c": {
+    "ObjectName": "XerathMageSpearMissile",
+    "mScriptName": "XerathMageSpearMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "bIsToggleSpell": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 15.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 100.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mHitBoneName": "C_Buffbone_Glb_Chest_Loc",
+      "mHitEffectKey": "Xerath_E_tar",
+      "mLineWidth": 60.0,
+      "mMissileEffectKey": "Xerath_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1400.0,
+          "mStartBoneName": "c_buffbone_glb_ground_loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1400.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb4ce7319": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      9,
+      20,
+      20,
+      25,
+      10
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "33583d7f-e35a-4c46-944b-ab10014b5e84",
+      "itemID": 7221,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_XerathRKills",
+    "mNameTraKey": "stat_stone_name_XerathRKills",
+    "stoneName": "XerathRKills",
+    "~class": "StatStoneData"
+  },
+  "0xdf3a8a66": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "ea072f70-cb90-4eab-b79b-cc3c04eba89c",
+      "itemID": 125598,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "XerathTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xf03be8c8": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8,
+      20,
+      40,
+      45,
+      60,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ac1994b8-694f-406f-9cc7-85a7abf4f6cc",
+      "itemID": 126322,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_XerathRSubsequent",
+    "mNameTraKey": "stat_stone_name_XerathRSubsequent",
+    "stoneName": "XerathRSubsequent",
+    "~class": "StatStoneData"
+  },
+  "Characters/Xerath/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Xerath/Spells/XerathArcanopulse2",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusPulse",
+      "Shared/Spells/BaseSpell",
+      "0xa104f46c",
+      "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusPulse",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 4.699999809265137,
+    "attackRange": 525.0,
+    "attackSpeed": 0.6579999923706055,
+    "attackSpeedPerLevel": 1.3600000143051147,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 22.0,
+    "baseDamage": 55.0,
+    "baseHP": 596.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.100000023841858,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+      "mAttackDelayCastOffsetPercentAttackSpeedRatio": 1.0,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "attackRank": 1,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 101,
+      "defenseRank": 3,
+      "description": "game_character_description_Xerath",
+      "difficultyRank": 8,
+      "magicRank": 10,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Xerath",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "recItems": [
+        "1056",
+        "3020",
+        "3027",
+        "3116",
+        "3089",
+        "3135"
+      ],
+      "roles": "SUPPORT",
+      "searchTags": "mage",
+      "searchTagsSecondary": "support",
+      "spellData": [
+        {
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercentAttackSpeedRatio": 1.0,
+        "mAttackName": "XerathCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "XerathBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "XerathArcanopulse2",
+      "BaseSpell",
+      "BaseSpell",
+      "XerathLocusPulse",
+      "BaseSpell",
+      "XerathMageSpearMissile",
+      "XerathLocusPulse",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "healthBarHeight": 120.0,
+    "hpPerLevel": 106.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Xerath/Spells/XerathLocusOfPower2Ability",
+      "Characters/Xerath/Spells/XerathArcanopulseChargeUpAbility",
+      "Characters/Xerath/Spells/XerathArcaneBarrage2Ability",
+      "Characters/Xerath/Spells/XerathMageSpearAbility",
+      "Characters/Xerath/Spells/XerathAscended2Ability"
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Xerath",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Xerath/Spells/XerathAscended2OnHit"
+        ],
+        "mParentPassiveBuff": "Characters/Xerath/Spells/XerathAscended2Ability/XerathAscended2",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Xerath/Spells/XerathAscended2Ability/XerathAscended2",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Xerath",
+    "passive1IconName": "ASSETS/Characters/Xerath/HUD/Icons2D/Xerath_Passive1.dds",
+    "passiveLuaName": "XerathAscended2",
+    "passiveName": "game_character_passiveName_Xerath",
+    "passiveToolTip": "game_character_passiveDescription_Xerath",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 400.0,
+      "arBaseStaticRegen": 1.3700000047683716,
+      "arPerLevel": 22.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 302.7778015136719,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "XerathArcanopulseChargeUpAbility/XerathArcanopulseChargeUp",
+      "XerathArcaneBarrage2Ability/XerathArcaneBarrage2",
+      "XerathMageSpearAbility/XerathMageSpear",
+      "XerathLocusOfPower2Ability/XerathLocusOfPower2"
+    ],
+    "spells": [
+      "Characters/Xerath/Spells/XerathArcanopulseChargeUpAbility/XerathArcanopulseChargeUp",
+      "Characters/Xerath/Spells/XerathArcaneBarrage2Ability/XerathArcaneBarrage2",
+      "Characters/Xerath/Spells/XerathMageSpearAbility/XerathMageSpear",
+      "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusOfPower2"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/Xerath/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Xerath/Spells/XerathArcaneBarrage2Ability": {
+    "mChildSpells": [
+      "Characters/Xerath/Spells/XerathArcaneBarrage2Ability/XerathArcaneBarrage2"
+    ],
+    "mName": "XerathArcaneBarrage2Ability",
+    "mRootSpell": "Characters/Xerath/Spells/XerathArcaneBarrage2Ability/XerathArcaneBarrage2",
+    "~class": "AbilityObject"
+  },
+  "Characters/Xerath/Spells/XerathArcaneBarrage2Ability/XerathArcaneBarrage2": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "XerathArcaneBarrage2",
+    "mScriptName": "XerathArcaneBarrage2",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            15.0,
+            50.0,
+            85.0,
+            120.0,
+            155.0,
+            190.0,
+            225.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SweetSpotMultiplier",
+          "mValues": [
+            1.6670000553131104,
+            1.6670000553131104,
+            1.6670000553131104,
+            1.6670000553131104,
+            1.6670000553131104,
+            1.6670000553131104,
+            1.6670000553131104
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SweetSpotSlowAmount",
+          "mValues": [
+            0.550000011920929,
+            0.6000000238418579,
+            0.6499999761581421,
+            0.699999988079071,
+            0.75,
+            0.800000011920929,
+            0.8500000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MultiplicativeSlowDecayRate",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageDelay",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "SlowAmount",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                55.0,
+                90.0,
+                125.0,
+                160.0,
+                195.0,
+                230.0,
+                265.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Xerath_XerathArcaneBarrage2_OnCast"
+      },
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRadiusSecondary": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "castRangeDisplayOverride": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionMinimap"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_leona_outer.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                250.0,
+                250.0,
+                250.0,
+                250.0,
+                250.0,
+                250.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MaxSlow",
+                  "type": "SweetSpotSlowAmount",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_XerathArcaneBarrage2_Name",
+            "keySummary": "Spell_XerathArcaneBarrage2_Summary",
+            "keyTooltip": "Spell_XerathArcaneBarrage2_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_XerathArcaneBarrage2_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "XerathArcaneBarrage2",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Xerath/HUD/Icons2D/Xerath_W1.dds"
+      ],
+      "mMaxAmmo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mSpellCalculations": {
+        "SweetSpotTotalDamage": {
+          "mModifiedGameCalculation": "TotalDamage",
+          "mMultiplier": {
+            "mDataValue": "SweetSpotMultiplier",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6499999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        120.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathArcanopulse2": {
+    "ObjectName": "XerathArcanopulse2",
+    "mScriptName": "XerathArcanopulse2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Xerath_XerathArcanopulseChargeUp_OnCast",
+        "18": "Play_sfx_Xerath_XerathArcanopulseChargeUp_OnBuffActivate",
+        "20": "Play_sfx_Xerath_XerathQSoundBuff_OnBuffCast"
+      },
+      "bHaveHitBone": true,
+      "castRadius": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1025.0,
+        1025.0,
+        1025.0,
+        1025.0,
+        1025.0,
+        1025.0,
+        1025.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4194304,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "XerathArcanopulseChargeUp",
+      "mAnimationName": "",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 1,
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mHitBoneName": "spine",
+      "mImgIconName": [
+        ""
+      ],
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mUseMinimapTargeting": true,
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathArcanopulseChargeUpAbility": {
+    "AbilityTraits": 256,
+    "mChildSpells": [
+      "Characters/Xerath/Spells/XerathArcanopulseChargeUpAbility/XerathArcanopulseChargeUp"
+    ],
+    "mName": "XerathArcanopulseChargeUpAbility",
+    "mRootSpell": "Characters/Xerath/Spells/XerathArcanopulseChargeUpAbility/XerathArcanopulseChargeUp",
+    "~class": "AbilityObject"
+  },
+  "Characters/Xerath/Spells/XerathArcanopulseChargeUpAbility/XerathArcanopulseChargeUp": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TooltipTotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "XerathArcanopulseChargeUp",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XerathArcanopulse",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XerathArcanopulseChargeUp",
+    "mSpell": {
+      "0x8958fee2": {
+        "~class": "0x8958fee2"
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            35.0,
+            75.0,
+            115.0,
+            155.0,
+            195.0,
+            235.0,
+            275.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                60.0,
+                100.0,
+                140.0,
+                180.0,
+                220.0,
+                260.0,
+                300.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castFrame": 0.5,
+      "castRadius": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "castRange": [
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0
+      ],
+      "cooldownTime": [
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        5.0
+      ],
+      "delayCastOffsetPercent": -0.75,
+      "delayTotalTimePercent": -0.75,
+      "mAffectsTypeFlags": 6154,
+      "mAmmoCountHiddenInUI": true,
+      "mAmmoRechargeTime": [
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        5.0
+      ],
+      "mAnimationName": "Channel_WNDUP",
+      "mAnimationWinddownName": "Spell1",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastRangeGrowthDuration": [
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5
+      ],
+      "mCastRangeGrowthMax": [
+        1700.0,
+        1700.0,
+        1700.0,
+        1700.0,
+        1700.0,
+        1700.0,
+        1700.0
+      ],
+      "mCastTime": 0.004999999888241291,
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ],
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hasMaxGrowRange": true,
+            "rangeGrowthDuration": {
+              "mPerLevelValues": [
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthMax": {
+              "mPerLevelValues": [
+                1500.0,
+                1500.0,
+                1500.0,
+                1500.0,
+                1500.0,
+                1500.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureMaxGrowName": "ASSETS/Spells/Textures/CircularRangeIndicator_Dark.tex",
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "alwaysDraw": true,
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0,
+                90.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthDuration": {
+              "mPerLevelValues": [
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5,
+                1.5
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthMax": {
+              "mPerLevelValues": [
+                1400.0,
+                1400.0,
+                1400.0,
+                1400.0,
+                1400.0,
+                1400.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureBaseMaxGrowName": "ASSETS/Spells/Textures/LocalLineMissileBase_Dark.tex",
+            "textureTargetMaxGrowName": "ASSETS/Spells/Textures/LocalLineMissileTarget_Dark.tex",
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "AmmoRechargeTime",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "Spell_AmmoRecharge_As_Cooldown",
+            "keyName": "Spell_XerathArcanopulseChargeUp_Name",
+            "keySummary": "Spell_XerathArcanopulseChargeUp_Summary",
+            "keyTooltip": "Spell_XerathArcanopulseChargeUp_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_XerathArcanopulseChargeUp_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "XerathArcanopulseChargeUp",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mDimensionBehavior": 1,
+      "mDisableCastBar": true,
+      "mDoNotNeedToFaceTarget": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            35.0,
+            75.0,
+            115.0,
+            155.0,
+            195.0,
+            235.0,
+            275.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            145.0,
+            145.0,
+            145.0,
+            145.0,
+            145.0,
+            145.0,
+            145.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            -0.20000000298023224,
+            -0.20000000298023224,
+            -0.20000000298023224,
+            -0.20000000298023224,
+            -0.20000000298023224,
+            -0.20000000298023224,
+            -0.20000000298023224
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Xerath/HUD/Icons2D/Xerath_Q1.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mMaxAmmo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mSpellCalculations": {
+        "TooltipTotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.8999999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_ChannelSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mUseChargeChanneling": true,
+      "mana": [
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        120.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathAscended2Ability": {
+    "mChildSpells": [
+      "Characters/Xerath/Spells/XerathAscended2Ability/XerathAscended2"
+    ],
+    "mName": "XerathAscended2Ability",
+    "mRootSpell": "Characters/Xerath/Spells/XerathAscended2Ability/XerathAscended2",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Xerath/Spells/XerathAscended2Ability/XerathAscended2": {
+    "ObjectName": "XerathAscended2",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XerathAscended",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XerathAscended2",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "CooldownKillRefund",
+          "mValues": [
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Xerath_XerathManaAttack_OnCast",
+        "13": "Play_sfx_Xerath_XerathManaAttack_OnHit",
+        "16": "Play_sfx_Xerath_XerathManaAttack_OnMissileLaunch"
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "game_character_passiveName_Xerath",
+            "keySummary": "game_character_passiveDescription_Xerath",
+            "keyTooltip": "game_character_passiveTooltip_Xerath"
+          },
+          "mObjectName": "XerathAscended2",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Xerath/HUD/Icons2D/Xerath_Passive1.dds"
+      ],
+      "mSpellCalculations": {
+        "ChampionManaRestoreTT": {
+          "mModifiedGameCalculation": "MinionManaRestoreTT",
+          "mMultiplier": {
+            "mNumber": 2.0,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "MinionManaRestoreTT": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mBonusPerLevelAtAndAfter": 6.0,
+                  "mLevel": 4,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": 9.0,
+                  "mLevel": 7,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": 12.0,
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mBonusPerLevelAtAndAfter": 15.0,
+                  "mLevel": 16,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mInitialBonusPerLevel": 3.0,
+              "mLevel1Value": 30.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathAscended2OnHit": {
+    "ObjectName": "XerathAscended2OnHit",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XerathAscended2OnHit",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XerathAscended2OnHit",
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathBasicAttack": {
+    "ObjectName": "XerathBasicAttack",
+    "mScriptName": "XerathBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "XerathBasicAttack",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectName": "globalhit_physical.troy",
+      "mMissileEffectKey": "Xerath_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "r_uparm",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathBasicAttack2": {
+    "ObjectName": "XerathBasicAttack2",
+    "mScriptName": "XerathBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "XerathBasicAttack",
+      "mAnimationName": "Attack2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectName": "globalhit_physical.troy",
+      "mMissileEffectKey": "Xerath_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "l_uparm",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathCritAttack": {
+    "ObjectName": "XerathCritAttack",
+    "mScriptName": "XerathCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.529999732971191,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.13459999859333038,
+      "mAffectsTypeFlags": 24527,
+      "mAlternateName": "XerathCritAttack",
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Xerath_BA_tar_crit",
+      "mMissileEffectKey": "Xerath_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "l_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathLocusOfPower2Ability": {
+    "AbilityTraits": 1,
+    "mChildSpells": [
+      "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusOfPower2",
+      "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathRMissileWrapper",
+      "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusPulse"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "XerathLocusOfPower2Ability",
+    "mRootSpell": "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusOfPower2",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusOfPower2": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 64,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 128,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TooltipTotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "XerathLocusOfPower2",
+    "mScriptName": "XerathLocusOfPower2",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "RampBaseDamage",
+          "mValues": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            120.0,
+            170.0,
+            220.0,
+            270.0,
+            320.0,
+            370.0,
+            420.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "RampBaseDamage",
+              "mValues": [
+                25.0,
+                30.0,
+                35.0,
+                40.0,
+                45.0,
+                50.0,
+                55.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                200.0,
+                250.0,
+                300.0,
+                350.0,
+                400.0,
+                450.0,
+                500.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Xerath_XerathLocusOfPower2_OnCast",
+        "16": "Play_sfx_Xerath_XerathLocusPulse_OnMissileLaunch",
+        "18": "Play_sfx_Xerath_XerathLocusOfPower2_OnBuffActivate",
+        "19": "Play_sfx_Xerath_XerathLocusOfPower2_OnBuffDeactivate"
+      },
+      "castFrame": 7.5,
+      "castRange": [
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0
+      ],
+      "castRangeDisplayOverride": [
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0,
+        5000.0
+      ],
+      "cooldownTime": [
+        130.0,
+        130.0,
+        115.0,
+        100.0,
+        130.0,
+        130.0,
+        130.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mAffectsTypeFlags": 15567,
+      "mAnimationName": "Spell5Start",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_XerathNumberofShots",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_XerathLocusOfPower2_AmpDamage",
+                  "type": "RampBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_XerathLocusOfPower2_Name",
+            "keySummary": "Spell_XerathLocusOfPower2_Summary",
+            "keyTooltip": "Spell_XerathLocusOfPower2_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_XerathR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "XerathLocusOfPower2",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.44999998807907104,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            5.0,
+            6.0,
+            6.0,
+            6.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            170.0,
+            170.0,
+            220.0,
+            270.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5000.0,
+            5000.0,
+            5000.0,
+            5000.0,
+            5000.0,
+            5000.0,
+            5000.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Xerath/HUD/Icons2D/Xerath_R1.dds"
+      ],
+      "mSpellCalculations": {
+        "RampDamageCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "RampBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.05000000074505806,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TooltipTotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.44999998807907104,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ChannelSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mUseMinimapTargeting": true,
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusPulse": {
+    "BotData": {
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "XerathLocusPulse",
+    "mScriptName": "XerathLocusPulse",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castFrame": 0.009999999776482582,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 6154,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.009999999776482582,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Xerath/HUD/Icons2D/Xerath_R1.dds"
+      ],
+      "mMissileEffectKey": "Xerath_R_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 19000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 81.0,
+          "mStartBoneName": "C_BUFFBONE_GLB_CENTER_LOC",
+          "mTargetHeightAugment": 81.0,
+          "mTravelTime": 0.6000000238418579,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathRMissileWrapper": {
+    "ObjectName": "XerathRMissileWrapper",
+    "mScriptName": "XerathRMissileWrapper",
+    "mSpell": {
+      "castRadius": [
+        150.0,
+        175.0,
+        200.0,
+        225.0,
+        0.0,
+        0.0,
+        25.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579
+      ],
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "XerathLocusOfPower2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusOfPower2",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4300000071525574,
+      "mDoesntBreakChannels": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            3.0,
+            5.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            170.0,
+            200.0,
+            240.0,
+            280.0,
+            280.0,
+            280.0,
+            280.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2000.0,
+            3200.0,
+            4400.0,
+            5600.0,
+            5600.0,
+            5600.0,
+            6800.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Xerath/HUD/Icons2D/Xerath_R1.dds"
+      ],
+      "mSpellTags": [
+        "Trait_ChannelSpell",
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mUseMinimapTargeting": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathLocusOfPower2Toggle": {
+    "ObjectName": "XerathLocusOfPower2Toggle",
+    "mScriptName": "XerathLocusOfPower2Toggle",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 3.0,
+      "castRadius": [
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0
+      ],
+      "castRange": [
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        10.0,
+        60.0,
+        40.0,
+        30.0,
+        0.0,
+        0.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.25,
+      "delayTotalTimePercent": -0.25,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "XerathLocusOfPowerToggle",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.30000001192092896,
+      "mImgIconName": [
+        ""
+      ],
+      "mLineWidth": 150.0,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mUseMinimapTargeting": true,
+      "mana": [
+        30.0,
+        40.0,
+        50.0,
+        0.0,
+        0.0,
+        10.0
+      ],
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathMageChains": {
+    "ObjectName": "XerathMageChains",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XerathMageChains",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XerathMageChains",
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathMageSpearAbility": {
+    "mChildSpells": [
+      "Characters/Xerath/Spells/XerathMageSpearAbility/XerathMageSpear",
+      "0xa104f46c"
+    ],
+    "mName": "XerathMageSpearAbility",
+    "mRootSpell": "Characters/Xerath/Spells/XerathMageSpearAbility/XerathMageSpear",
+    "~class": "AbilityObject"
+  },
+  "Characters/Xerath/Spells/XerathMageSpearAbility/XerathMageSpear": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TooltipTotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 70.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32768,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MaxStunDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MaxStunDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MaxStunDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "XerathMageSpear",
+    "mScriptName": "XerathMageSpear",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            11.5,
+            11.0,
+            10.5,
+            10.0,
+            9.5,
+            9.0,
+            8.5
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "MinStunDuration",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxStunDuration",
+          "mValues": [
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "MinStunDuration",
+              "mValues": [
+                1.25,
+                1.25,
+                1.25,
+                1.25,
+                1.25,
+                1.25,
+                1.25
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "MaxStunDuration",
+              "mValues": [
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5,
+                2.5
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Xerath_XerathMageSpear_OnCast",
+        "16": "Play_sfx_Xerath_XerathMageSpearMissile_OnMissileLaunch"
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0
+      ],
+      "cooldownTime": [
+        13.5,
+        13.0,
+        12.5,
+        12.0,
+        11.5,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 13327,
+      "mAlternateName": "XerathMageSpear",
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_XerathMageSpear_Name",
+            "keySummary": "Spell_XerathMageSpear_Summary",
+            "keyTooltip": "Spell_XerathMageSpear_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_XerathMageSpear_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "XerathMageSpear",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.44999998807907104,
+      "mCoefficient2": 0.25,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            70.0,
+            100.0,
+            130.0,
+            160.0,
+            190.0,
+            230.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25,
+            2.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.17000000178813934,
+            0.17000000178813934,
+            0.17000000178813934,
+            0.17000000178813934,
+            0.17000000178813934,
+            0.17000000178813934,
+            0.17000000178813934
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1125.0,
+            1125.0,
+            1125.0,
+            1125.0,
+            1125.0,
+            1125.0,
+            1125.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "head",
+      "mImgIconName": [
+        "ASSETS/Characters/Xerath/HUD/Icons2D/Xerath_E1.dds"
+      ],
+      "mLineWidth": 70.0,
+      "mMaxAmmo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TooltipTotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.44999998807907104,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0
+      ],
+      "missileSpeed": 1600.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathQSoundBuff": {
+    "ObjectName": "XerathQSoundBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XerathQSoundBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathQVFX": {
+    "ObjectName": "XerathQVFX",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XerathQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XerathQVFX",
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathRMSBuff": {
+    "ObjectName": "XerathRMSBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XerathRMSBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XerathRMSBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathRShots": {
+    "ObjectName": "XerathRShots",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XerathRShots",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XerathRShots",
+    "~class": "SpellObject"
+  },
+  "Characters/Xerath/Spells/XerathWSlow": {
+    "ObjectName": "XerathWSlow",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XerathWSlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XerathWSlow",
+    "~class": "SpellObject"
+  }
+}

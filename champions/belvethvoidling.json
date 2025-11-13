@@ -1,0 +1,241 @@
+{
+  "Characters/BelvethVoidling/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/BelvethVoidling/Spells/BelvethVoidlingMeleeAttack",
+      "Characters/BelvethVoidling/Spells/BelvethVoidlingRangedAttack",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "attackRange": 110.0,
+    "attackSpeed": 1.25,
+    "attackSpeedRatio": 1.25,
+    "baseArmor": 0.0,
+    "baseHP": 65.0,
+    "baseMoveSpeed": 400.0,
+    "baseStaticHPRegen": 0.0,
+    "basicAttack": {
+      "mAttackCastTime": 0.3930000066757202,
+      "mAttackTotalTime": 0.800000011920929,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "BaseSpellEffectiveness": 1.0,
+      "ChasingAttackRangePercent": 0.5,
+      "PostAttackMoveDelay": 0.800000011920929,
+      "attackSpeed": 10.0,
+      "description": "game_character_description_BelvethVoidling",
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "expGivenOnDeath": 0.0,
+    "extraSpells": [
+      "BelvethVoidlingMeleeAttack",
+      "BelvethVoidlingRangedAttack",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "firstAcquisitionRange": 1002.0,
+    "flags": 8398088,
+    "goldGivenOnDeath": 2.0,
+    "healthBarHeight": 38.0,
+    "hpPerLevel": 8.0,
+    "mCharacterName": "BelvethVoidling",
+    "minionScoreValue": 0.0,
+    "name": "game_character_displayname_BelvethVoidling",
+    "overrideGameplayCollisionRadius": 10.0,
+    "pathfindingCollisionRadius": 20.0,
+    "primaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseFactorRegen": 0.001500000013038516,
+      "arBaseStaticRegen": 0.0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 50.0,
+    "selectionRadius": 70.0,
+    "significance": 0.4000000059604645,
+    "spellBlockPerLevel": 1.0,
+    "spellNames": [
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "spells": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "towerTargetingPriorityBoost": 10.0,
+    "unitTagsString": "Minion | Minion_Summon",
+    "untargetableSpawnTime": 0.5,
+    "useRiotRelationships": true,
+    "wakeUpRange": 450.0,
+    "weaponMaterials": [
+      "BelvethVoidlingMeleeAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/BelvethVoidling/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/BelvethVoidling/Spells/BelvethVoidlingMeleeAttack": {
+    "ObjectName": "BelvethVoidlingMeleeAttack",
+    "mScriptName": "BelvethVoidlingMeleeAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.100000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        73.9000015258789,
+        73.9000015258789,
+        73.9000015258789,
+        73.9000015258789,
+        73.9000015258789,
+        73.9000015258789,
+        73.9000015258789
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 5258,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Belveth_R_Voidling_Melee_BA_Tar",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/BelvethVoidling/Spells/BelvethVoidlingRangedAttack": {
+    "ObjectName": "BelvethVoidlingRangedAttack",
+    "mScriptName": "BelvethVoidlingRangedAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.100000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 5258,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Belveth_R_Voidling_BA_Tar",
+      "mMissileEffectKey": "Belveth_R_Voidling_BA_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 60.0,
+          "mSpeed": 650.0,
+          "mStartBoneName": "BackSpine_end",
+          "mTargetHeightAugment": 60.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 650.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

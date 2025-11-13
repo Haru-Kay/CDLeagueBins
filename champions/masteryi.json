@@ -1,0 +1,3081 @@
+{
+  "0x10ae84d5": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "38d98a94-e799-4af6-8381-9e6037efaa97",
+      "itemID": 125800,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "MasterYiStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x2c030dff": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10000,
+      25000,
+      49000,
+      59000,
+      74000,
+      29000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4e527224-3122-4414-b281-85cedc3108ed",
+      "itemID": 126114,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_MasterYiEDamage",
+    "mNameTraKey": "stat_stone_name_MasterYiEDamage",
+    "stoneName": "MasterYiEDamage",
+    "~class": "StatStoneData"
+  },
+  "0x3e849647": {
+    "ObjectName": "MeditatePassive",
+    "mScriptName": "MeditatePassive",
+    "~class": "SpellObject"
+  },
+  "0x4055f583": {
+    "catalogEntry": {
+      "contentId": "77095cbc-89c0-46a4-979c-38c0e6460dd7",
+      "itemID": 66600287,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xbabfb7db",
+      "0x9df8783c",
+      "0x10ae84d5"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x64ca934f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      275,
+      725,
+      1500,
+      1500,
+      2000,
+      850
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "a9061649-355d-42ec-9c91-a777bbd345f1",
+      "itemID": 126113,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_MasterYiQFollows",
+    "mNameTraKey": "stat_stone_name_MasterYiQFollows",
+    "stoneName": "MasterYiQCooldownReduced",
+    "trackingType": 1,
+    "~class": "StatStoneData"
+  },
+  "0x6ae04a15": {
+    "ObjectName": "MasterYi_Q_Reposition",
+    "mScriptName": "MasterYi_Q_Reposition",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mRightClickSpellAction": 1,
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                30.0,
+                30.0,
+                30.0,
+                30.0,
+                30.0,
+                30.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "basePosition": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoesntBreakChannels": true,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "movementComponent": {
+          "mSpeed": 2000.0,
+          "mTracksTarget": false,
+          "~class": "FixedSpeedMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x7a5f8fa4": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2,
+      6,
+      10,
+      15,
+      15,
+      7
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ce7b9404-4ef1-41f0-af95-c739f6ea2049",
+      "itemID": 5254,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_MasterYiRMultikills",
+    "mNameTraKey": "stat_stone_name_MasterYiRMultikills",
+    "stoneName": "MasterYiRMultikills",
+    "~class": "StatStoneData"
+  },
+  "0x9df8783c": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "32c9b1fc-e76e-40ae-badd-70597cd92aec",
+      "itemID": 125799,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "MasterYiTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xa30e099b": {
+    "catalogEntry": {
+      "contentId": "079627a2-5d7f-4232-85a1-82142237fd9a",
+      "itemID": 66600071,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x7a5f8fa4",
+      "0xf20800cb",
+      "0xc2422778"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xa40e0b2e": {
+    "catalogEntry": {
+      "contentId": "312e8963-a421-406f-9181-a491a3349e9e",
+      "itemID": 66600443,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x2c030dff",
+      "0x64ca934f",
+      "0xfdbb0c5d"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xbabfb7db": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "129ec6da-750b-4c3c-a1f5-73d2dec4c27f",
+      "itemID": 125798,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "MasterYiEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xc171e9f9": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xc2422778": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3500,
+      9000,
+      18000,
+      22000,
+      27000,
+      11000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "81f1771e-e56a-46e7-b50c-3a4b62748812",
+      "itemID": 107,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_MasterYiDamageBlockedWithW",
+    "mNameTraKey": "stat_stone_name_MasterYiDamageBlockedWithW",
+    "stoneName": "MasterYiDamageBlockedWithW",
+    "~class": "StatStoneData"
+  },
+  "0xf20800cb": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      70,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5b6bc4c3-a9d0-45a8-a83e-b36f9e64e24d",
+      "itemID": 106,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_MasterYiQDodges",
+    "mNameTraKey": "stat_stone_name_MasterYiQDodges",
+    "stoneName": "MasterYiQDodges",
+    "~class": "StatStoneData"
+  },
+  "0xfdbb0c5d": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      40,
+      100,
+      200,
+      225,
+      300,
+      125
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "560736f0-005e-42bc-80f8-14edd3d39a03",
+      "itemID": 126115,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_MasterYiRBlocks",
+    "mNameTraKey": "stat_stone_name_MasterYiRBlocks",
+    "stoneName": "MasterYiRBlocks",
+    "~class": "StatStoneData"
+  },
+  "Characters/MasterYi/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/MasterYi/Spells/MasterYiPassiveAbility/MasterYiDoubleStrike",
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeTeleport",
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeBounce",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 4.199999809265137,
+    "attackRange": 175.0,
+    "attackSpeed": 0.6790000200271606,
+    "attackSpeedPerLevel": 2.5,
+    "attackSpeedRatio": 0.6790000200271606,
+    "baseArmor": 33.0,
+    "baseDamage": 65.0,
+    "baseHP": 655.0,
+    "baseMoveSpeed": 355.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.5,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.0560000017285347,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.30000001192092896,
+      "attackRank": 10,
+      "botDefaultSpell1": "SummonerHeal",
+      "botDefaultSpell2": "SummonerTeleport",
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 11,
+      "classification": "Deadly",
+      "defenseRank": 4,
+      "description": "game_character_description_MasterYi",
+      "difficultyRank": 4,
+      "magicRank": 2,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "intro": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "+40% Mana Point regeneration.",
+        "+60% Mana Point regeneration.",
+        "+80% Mana Point regeneration."
+      ],
+      "passiveData": [
+        {
+          "name": "Spell_MasterYiPassive_Name",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "assassin",
+      "spellData": [
+        {
+          "desc": "Master Yi moves like a blur through the battlefield, moving and attacking faster",
+          "displayName": "Highlander",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Master Yi moves like a blur through the battlefield, moving and attacking faster",
+          "displayName": "Highlander",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Master Yi moves like a blur through the battlefield, moving and attacking faster",
+          "displayName": "Highlander",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Master Yi moves like a blur through the battlefield, moving and attacking faster",
+          "displayName": "Highlander",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.05624999850988388,
+        "mAttackName": "MasterYiCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 2.799999952316284,
+    "extraAttacks": [
+      {
+        "mAttackName": "MasterYiBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "MasterYiBasicAttack",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "MasterYiDoubleStrike",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "MasterYiDoubleStrike",
+      "AlphaStrikeTeleport",
+      "AlphaStrikeBounce",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "hpPerLevel": 105.0,
+    "hpRegenPerLevel": 0.12999999523162842,
+    "mAbilities": [
+      "Characters/MasterYi/Spells/AlphaStrikeAbility",
+      "Characters/MasterYi/Spells/MeditateAbility",
+      "Characters/MasterYi/Spells/WujuStyleAbility",
+      "Characters/MasterYi/Spells/HighlanderAbility",
+      "Characters/MasterYi/Spells/MasterYiPassiveAbility"
+    ],
+    "mCharacterName": "MasterYi",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrike",
+          "Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrikeStacks",
+          "Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrikeReady"
+        ],
+        "mParentPassiveBuff": "Characters/MasterYi/Spells/MasterYiPassiveAbility/MasterYiPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Characters/MasterYi/Spells/MasterYiRunCycleManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            11
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/MasterYi/Spells/Immortal_MasterYi_Trail_FX",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Shared/Spells/Eternals_SkillshotMissileTracker",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            89
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/MasterYi/Spells/MasterYiSkin89Manager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/MasterYi/Spells/MasterYiPassiveAbility/MasterYiPassive",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Resolve/Aftershock",
+          "mReplaceWith": "Perks/Styles/Resolve/GraspOfTheUndying",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Inspiration/GlacialAugment",
+          "mReplaceWith": "Perks/Styles/Inspiration/FirstStrike",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "name": "game_character_displayname_MasterYi",
+    "passive1IconName": "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_Passive1.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_MasterYiPassive_Name",
+    "passiveSpell": "MasterYiPassive",
+    "passiveToolTip": "Spell_MasterYiPassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 251.0,
+      "arBaseStaticRegen": 1.4500000476837158,
+      "arPerLevel": 42.0,
+      "arRegenPerLevel": 0.09000000357627869,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 155.0,
+    "selectionRadius": 125.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "AlphaStrikeAbility/AlphaStrike",
+      "MeditateAbility/Meditate",
+      "WujuStyleAbility/WujuStyle",
+      "HighlanderAbility/Highlander"
+    ],
+    "spells": [
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrike",
+      "Characters/MasterYi/Spells/MeditateAbility/Meditate",
+      "Characters/MasterYi/Spells/WujuStyleAbility/WujuStyle",
+      "Characters/MasterYi/Spells/HighlanderAbility/Highlander"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "MasterYiBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/MasterYi/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/MasterYi/Spells/AlphaStrikeAbility": {
+    "AbilityTraits": 32,
+    "mChildSpells": [
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrike",
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeBounce",
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeMissile",
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeMissileReturn",
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeTeleport",
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/Alpha_Strike",
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/Alpha_Striking",
+      "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeCDR"
+    ],
+    "mName": "AlphaStrikeAbility",
+    "mRootSpell": "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrike",
+    "~class": "AbilityObject"
+  },
+  "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrike": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "AlphaStrike",
+    "mScriptName": "AlphaStrike",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "SubsequentHitMultiplier",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusMonsterDamage",
+          "mValues": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackDamageRatio",
+          "mValues": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusCritDamageRatio",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseBasicAttackCDR",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AlphaStrikeBounces",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseOnHitMultiplier",
+          "mValues": [
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                -5.0,
+                20.0,
+                45.0,
+                70.0,
+                95.0,
+                120.0,
+                145.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "AttackDamageRatio",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.934999942779541,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRadiusSecondary": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        20.5,
+        20.0,
+        19.5,
+        19.0,
+        18.5,
+        18.0,
+        17.5
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "AlphaStrike",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                550.0,
+                550.0,
+                550.0,
+                550.0,
+                550.0,
+                550.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_brand.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_AlphaStrike_BonusMinionMonsterDamage",
+                  "type": "BonusMonsterDamage",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_AlphaStrike_Name",
+            "keySummary": "Spell_AlphaStrike_Summary",
+            "keyTooltip": "Spell_AlphaStrike_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_AlphaStrike_TooltipExtendedBelowLine",
+            "keyTooltipSimple": "Spell_AlphaStrike_TooltipSimple"
+          },
+          "mObjectName": "AlphaStrike",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 1,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_Q.dds"
+      ],
+      "mSpellCalculations": {
+        "0xb0f66055": {
+          "mModifiedGameCalculation": "SubesquentDamage",
+          "mMultiplier": {
+            "mPart1": {
+              "mDataValue": "BonusCritDamageRatio",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            "mPart2": {
+              "mSubparts": [
+                {
+                  "mCoefficient": 1.0,
+                  "mStat": 9,
+                  "~class": "StatByCoefficientCalculationPart"
+                },
+                {
+                  "mNumber": -1.0,
+                  "~class": "NumberCalculationPart"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            },
+            "~class": "ProductOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "BasicAttackCDR": {
+          "mFormulaParts": [
+            {
+              "mPart1": {
+                "~class": "CooldownMultiplierCalculationPart"
+              },
+              "mPart2": {
+                "mDataValue": "BaseBasicAttackCDR",
+                "~class": "NamedDataValueCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "CritBonus": {
+          "mModifiedGameCalculation": "TotalDamage",
+          "mMultiplier": {
+            "mPart1": {
+              "mDataValue": "BonusCritDamageRatio",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            "mPart2": {
+              "mSubparts": [
+                {
+                  "mCoefficient": 1.0,
+                  "mStat": 9,
+                  "~class": "StatByCoefficientCalculationPart"
+                },
+                {
+                  "mNumber": -1.0,
+                  "~class": "NumberCalculationPart"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            },
+            "~class": "ProductOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "SingleCritTotalDamage": {
+          "mFormulaParts": [
+            {
+              "mPart1": {
+                "mSubparts": [
+                  {
+                    "mDataValue": "baseDamage",
+                    "~class": "NamedDataValueCalculationPart"
+                  },
+                  {
+                    "mDataValue": "AttackDamageRatio",
+                    "mStat": 2,
+                    "~class": "StatByNamedDataValueCalculationPart"
+                  }
+                ],
+                "~class": "SumOfSubPartsCalculationPart"
+              },
+              "mPart2": {
+                "mSubparts": [
+                  {
+                    "mNumber": 1.0,
+                    "~class": "NumberCalculationPart"
+                  },
+                  {
+                    "mPart1": {
+                      "mDataValue": "SubsequentHitMultiplier",
+                      "~class": "NamedDataValueCalculationPart"
+                    },
+                    "mPart2": {
+                      "mSubparts": [
+                        {
+                          "mNumber": -1.0,
+                          "~class": "NumberCalculationPart"
+                        },
+                        {
+                          "mDataValue": "AlphaStrikeBounces",
+                          "~class": "NamedDataValueCalculationPart"
+                        }
+                      ],
+                      "~class": "SumOfSubPartsCalculationPart"
+                    },
+                    "~class": "ProductOfSubPartsCalculationPart"
+                  }
+                ],
+                "~class": "SumOfSubPartsCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mPart1": {
+              "mDataValue": "BonusCritDamageRatio",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            "mPart2": {
+              "mCoefficient": 1.0,
+              "mStat": 9,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            "~class": "ProductOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculation"
+        },
+        "SingleTotalDamage": {
+          "mModifiedGameCalculation": "TotalDamage",
+          "mMultiplier": {
+            "mSubparts": [
+              {
+                "mNumber": 1.0,
+                "~class": "NumberCalculationPart"
+              },
+              {
+                "mPart1": {
+                  "mDataValue": "SubsequentHitMultiplier",
+                  "~class": "NamedDataValueCalculationPart"
+                },
+                "mPart2": {
+                  "mSubparts": [
+                    {
+                      "mNumber": -1.0,
+                      "~class": "NumberCalculationPart"
+                    },
+                    {
+                      "mDataValue": "AlphaStrikeBounces",
+                      "~class": "NamedDataValueCalculationPart"
+                    }
+                  ],
+                  "~class": "SumOfSubPartsCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              }
+            ],
+            "~class": "SumOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "SubesquentDamage": {
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mDataValue": "baseDamage",
+                  "~class": "NamedDataValueCalculationPart"
+                },
+                {
+                  "mDataValue": "AttackDamageRatio",
+                  "mStat": 2,
+                  "~class": "StatByNamedDataValueCalculationPart"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mDataValue": "SubsequentHitMultiplier",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculation"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "AttackDamageRatio",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Teleport",
+        "Trait_ChannelSpell"
+      ],
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0
+      ],
+      "missileSpeed": 4000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeBounce": {
+    "ObjectName": "AlphaStrikeBounce",
+    "mScriptName": "AlphaStrikeBounce",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.934999942779541,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0
+      ],
+      "cooldownTime": [
+        19.5,
+        18.0,
+        16.5,
+        15.0,
+        13.5,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "AlphaStrike",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.10000000149011612,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.2999999523162842,
+      "mDimensionBehavior": 1,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            10.0,
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectKey": "MasterYi_Q_Tar",
+      "mImgIconName": [
+        "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_Q.dds"
+      ],
+      "mMissileEffectKey": "MasterYi_Q_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "root",
+          "mTargetHeightAugment": 100.0,
+          "mTravelTime": 0.18000000715255737,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 4000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeCDR": {
+    "ObjectName": "AlphaStrikeCDR",
+    "mScriptName": "AlphaStrikeCDR",
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeMissile": {
+    "ObjectName": "AlphaStrikeMissile",
+    "mScriptName": "AlphaStrikeMissile",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.934999942779541,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRadiusSecondary": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRange": [
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "AlphaStrike",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.10000000149011612,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                550.0,
+                550.0,
+                550.0,
+                550.0,
+                550.0,
+                550.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_brand.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mDimensionBehavior": 1,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectKey": "MasterYi_Q_Tar",
+      "mImgIconName": [
+        "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_Q.dds"
+      ],
+      "mMissileEffectKey": "MasterYi_Q_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "root",
+          "mTargetHeightAugment": 100.0,
+          "mTravelTime": 0.20000000298023224,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_ChannelSpell"
+      ],
+      "missileSpeed": 4000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeMissileReturn": {
+    "ObjectName": "AlphaStrikeMissileReturn",
+    "mScriptName": "AlphaStrikeMissileReturn",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.934999942779541,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRadiusSecondary": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRange": [
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "AlphaStrike",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.10000000149011612,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                550.0,
+                550.0,
+                550.0,
+                550.0,
+                550.0,
+                550.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_brand.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mDimensionBehavior": 1,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectKey": "MasterYi_Q_Tar",
+      "mImgIconName": [
+        "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_Q.dds"
+      ],
+      "mMissileEffectKey": "MasterYi_Q_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "root",
+          "mTargetHeightAugment": 100.0,
+          "mTravelTime": 0.15000000596046448,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_ChannelSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 4000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeTeleport": {
+    "ObjectName": "AlphaStrikeTeleport",
+    "mScriptName": "AlphaStrikeTeleport",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "cooldownTime": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "mAffectsTypeFlags": 15567,
+      "mAlternateName": "AlphaStrikeTeleport",
+      "mDimensionBehavior": 1,
+      "mPlatformSpellInfo": {
+        "mAvatarLevelRequired": 13,
+        "mPlatformEnabled": true,
+        "~class": "PlatformSpellInfo"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/AlphaStrikeAbility/Alpha_Strike": {
+    "ObjectName": "Alpha_Strike",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Alpha_Strike",
+      "~class": "BuffData"
+    },
+    "mScriptName": "Alpha_Strike",
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/AlphaStrikeAbility/Alpha_Striking": {
+    "ObjectName": "Alpha_Striking",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Alpha_Striking",
+      "~class": "BuffData"
+    },
+    "mScriptName": "Alpha_Striking",
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/HighlanderAbility": {
+    "AbilityTraits": 32,
+    "mChildSpells": [
+      "Characters/MasterYi/Spells/HighlanderAbility/Highlander",
+      "Characters/MasterYi/Spells/HighlanderAbility/HighlanderSpellPassive"
+    ],
+    "mName": "HighlanderAbility",
+    "mRootSpell": "Characters/MasterYi/Spells/HighlanderAbility/Highlander",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/MasterYi/Spells/HighlanderAbility/Highlander": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 512,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "RDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2097152,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "Highlander",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Highlander",
+      "~class": "BuffData"
+    },
+    "mScriptName": "Highlander",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "RDuration",
+          "mValues": [
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RASBonus",
+          "mValues": [
+            5.0,
+            25.0,
+            45.0,
+            65.0,
+            85.0,
+            105.0,
+            125.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RMSBonus",
+          "mValues": [
+            25.0,
+            35.0,
+            45.0,
+            55.0,
+            65.0,
+            75.0,
+            85.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RKillAssistExtension",
+          "mValues": [
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RCooldownRefund",
+          "mValues": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "18": "Play_sfx_MasterYi_Highlander_OnBuffActivate\n",
+        "19": "Play_sfx_MasterYi_Highlander_OnBuffDeactivate\n"
+      },
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 5.394999980926514,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cooldownTime": [
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0
+      ],
+      "delayCastOffsetPercent": -0.19140000641345978,
+      "delayTotalTimePercent": -0.37689998745918274,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_AttackSpeed",
+                  "type": "RASBonus",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "RMSBonus",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_Highlander_Name",
+            "keySummary": "Spell_Highlander_Summary",
+            "keyTooltip": "Spell_Highlander_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_Highlander_TooltipExtendedBelowLine",
+            "keyTooltipSimple": "Spell_Highlander_TooltipSimple"
+          },
+          "mObjectName": "Highlander",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "head",
+      "mImgIconName": [
+        "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_R.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        0.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/HighlanderAbility/HighlanderSpellPassive": {
+    "ObjectName": "HighlanderSpellPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_DoubleStrikeReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HighlanderSpellPassive",
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/Immortal_MasterYi_Trail_FX": {
+    "ObjectName": "Immortal_MasterYi_Trail_FX",
+    "mScriptName": "Immortal_MasterYi_Trail_FX",
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiBasicAttack": {
+    "ObjectName": "MasterYiBasicAttack",
+    "mScriptName": "MasterYiBasicAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_MasterYi_MasterYiBasicAttack_OnCast\n",
+        "13": "Play_sfx_MasterYi_MasterYiBasicAttack_OnHit\n"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "MasterYiBasicAttack",
+      "mApplyMaterialOnHitSound": true,
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "MasterYi_BA_Tar_01",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiBasicAttack2": {
+    "ObjectName": "MasterYiBasicAttack2",
+    "mScriptName": "MasterYiBasicAttack2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_MasterYi_MasterYiBasicAttack2_OnCast\n",
+        "13": "Play_sfx_MasterYi_MasterYiBasicAttack2_OnHit\n"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "MasterYiBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "MasterYi_BA_Tar_02",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiCritAttack": {
+    "ObjectName": "MasterYiCritAttack",
+    "mScriptName": "MasterYiCritAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_MasterYi_MasterYiCritAttack_OnCast\n",
+        "13": "sfx_MasterYi_MasterYiCritAttack_OnHit\n"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 6826,
+      "mAnimationName": "Crit",
+      "mApplyMaterialOnHitSound": true,
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "MasterYi_Crit_tar",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiPassiveAbility": {
+    "mChildSpells": [
+      "Characters/MasterYi/Spells/MasterYiPassiveAbility/MasterYiPassive",
+      "Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrike",
+      "Characters/MasterYi/Spells/MasterYiPassiveAbility/MasterYiDoubleStrike",
+      "Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrikeReady",
+      "Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrikeStacks"
+    ],
+    "mName": "MasterYiPassiveAbility",
+    "mRootSpell": "Characters/MasterYi/Spells/MasterYiPassiveAbility/MasterYiPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrike": {
+    "ObjectName": "DoubleStrike",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_DoubleStrike",
+      "~class": "BuffData"
+    },
+    "mScriptName": "DoubleStrike",
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrikeReady": {
+    "ObjectName": "DoubleStrikeReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_DoubleStrikeReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "DoubleStrikeReady",
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrikeStacks": {
+    "ObjectName": "DoubleStrikeStacks",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_DoubleStrikeStacks",
+      "~class": "BuffData"
+    },
+    "mScriptName": "DoubleStrikeStacks",
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiPassiveAbility/MasterYiDoubleStrike": {
+    "ObjectName": "MasterYiDoubleStrike",
+    "mScriptName": "MasterYiDoubleStrike",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.550000011920929,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "MasterYiDoubleStrike",
+      "mAnimationName": "Passive",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CENTER_LOC",
+      "mHitEffectKey": "MasterYi_BA_Tar_01",
+      "mImgIconName": [
+        "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_Passive1.dds"
+      ],
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiPassiveAbility/MasterYiPassive": {
+    "ObjectName": "MasterYiPassive",
+    "mBuff": {
+      "mDescription": "Spell_MasterYiPassive_Summary",
+      "~class": "BuffData"
+    },
+    "mScriptName": "MasterYiPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "StackDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackCount",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_MasterYi_MasterYiDoubleStrike_OnCast\n",
+        "13": "Play_sfx_MasterYi_MasterYiDoubleStrike_OnHit\n"
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Passive_MasterYiPassive_Name",
+            "keySummary": "Spell_MasterYiPassive_Summary",
+            "keyTooltip": "Passive_MasterYiPassive_Tooltip",
+            "keyTooltipExtended": "Spell_MasterYiPassive_TooltipExtended",
+            "keyTooltipSimple": "Passive_MasterYiPassive_TooltipSimple"
+          },
+          "mObjectName": "MasterYiPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_Passive1.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.5,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiRunCycleManager": {
+    "ObjectName": "MasterYiRunCycleManager",
+    "mScriptName": "MasterYiRunCycleManager",
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MasterYiSkin89Manager": {
+    "ObjectName": "MasterYiSkin89Manager",
+    "mScriptName": "MasterYiSkin89Manager",
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/MeditateAbility": {
+    "mChildSpells": [
+      "Characters/MasterYi/Spells/MeditateAbility/Meditate"
+    ],
+    "mName": "MeditateAbility",
+    "mRootSpell": "Characters/MasterYi/Spells/MeditateAbility/Meditate",
+    "~class": "AbilityObject"
+  },
+  "Characters/MasterYi/Spells/MeditateAbility/Meditate": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "HealDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "Meditate",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Meditate",
+      "~class": "BuffData"
+    },
+    "mScriptName": "Meditate",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseHeal",
+          "mValues": [
+            40.0,
+            120.0,
+            200.0,
+            280.0,
+            360.0,
+            440.0,
+            520.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxMissingHealthPercent",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TickFrequency",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageReduction",
+          "mValues": [
+            0.42500001192092896,
+            0.44999998807907104,
+            0.4749999940395355,
+            0.5,
+            0.5249999761581421,
+            0.550000011920929,
+            0.574999988079071
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageReductionTowerMod",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseManaCost",
+          "mValues": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentManaCostPerSecond",
+          "mValues": [
+            0.05999999865889549,
+            0.05999999865889549,
+            0.05999999865889549,
+            0.05999999865889549,
+            0.05999999865889549,
+            0.05999999865889549,
+            0.05999999865889549
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "InitialExtraDR",
+          "mValues": [
+            0.2750000059604645,
+            0.25,
+            0.22499999403953552,
+            0.20000000298023224,
+            0.17499999701976776,
+            0.15000000596046448,
+            0.125
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "InitialExtraDRDuration",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DRLinger",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_MasterYi_Meditate_OnCast\n",
+        "18": "Stop_sfx_MasterYi_Meditate_OnBuffActivate\n",
+        "19": "Play_sfx_MasterYi_Meditate_OnBuffDeactivate\n"
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 3.25,
+      "castRadius": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationLoopName": "Spell2",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_Meditate_HealthRestored",
+                  "type": "BaseHeal",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_DamageReduction",
+                  "type": "DamageReduction",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_MasterYi_W_Cost",
+            "keyName": "Spell_Meditate_Name",
+            "keySummary": "Spell_Meditate_Summary",
+            "keyTooltip": "Spell_Meditate_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_Meditate_TooltipExtendedBelowLine",
+            "keyTooltipSimple": "Spell_Meditate_TooltipSimple"
+          },
+          "mObjectName": "Meditate",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mImgIconName": [
+        "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_W.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "InitialDR": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mDataValue": "DamageReduction",
+                  "~class": "NamedDataValueCalculationPart"
+                },
+                {
+                  "mDataValue": "InitialExtraDR",
+                  "~class": "NamedDataValueCalculationPart"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalHeal": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHeal",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_ChannelSpell",
+        "Trait_AttackReset"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "missileSpeed": 828.5,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/WujuStyleAbility": {
+    "mChildSpells": [
+      "Characters/MasterYi/Spells/WujuStyleAbility/WujuStyle",
+      "Characters/MasterYi/Spells/WujuStyleAbility/WujuStyleSuperCharged"
+    ],
+    "mName": "WujuStyleAbility",
+    "mRootSpell": "Characters/MasterYi/Spells/WujuStyleAbility/WujuStyle",
+    "~class": "AbilityObject"
+  },
+  "Characters/MasterYi/Spells/WujuStyleAbility/WujuStyle": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 128,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 512,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 2,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "WujuStyle",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Wuju_Style",
+      "~class": "BuffData"
+    },
+    "mScriptName": "WujuStyle",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Duration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LegacySwordVFXDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                10.0,
+                15.0,
+                20.0,
+                25.0,
+                30.0,
+                35.0,
+                40.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "ADRatio",
+              "mValues": [
+                0.20000000298023224,
+                0.20000000298023224,
+                0.20000000298023224,
+                0.20000000298023224,
+                0.20000000298023224,
+                0.20000000298023224,
+                0.20000000298023224
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_MasterYi_WujuStyle_OnCast\n",
+        "18": "Play_sfx_MasterYi_WujuStyleSuperCharged_OnBuffActivate\n",
+        "19": "Play_sfx_MasterYi_WujuStyleSuperCharged_OnBuffDeactivate\n"
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 20.209999084472656,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0
+      ],
+      "delayCastOffsetPercent": -0.23749999701976776,
+      "delayTotalTimePercent": -0.23000000417232513,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_WujuStyle_ActiveDamage",
+                  "type": "BaseDamage",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_WujuStyle_Name",
+            "keySummary": "Spell_WujuStyle_Summary",
+            "keyTooltip": "Spell_WujuStyle_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_WujuStyle_TooltipExtendedBelowLine",
+            "keyTooltipSimple": "Spell_WujuStyle_TooltipSimple"
+          },
+          "mObjectName": "WujuStyle",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_E1.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/MasterYi/Spells/WujuStyleAbility/WujuStyleSuperCharged": {
+    "ObjectName": "WujuStyleSuperCharged",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Wuju_Style_Active",
+      "~class": "BuffData"
+    },
+    "mScriptName": "WujuStyleSuperCharged",
+    "~class": "SpellObject"
+  }
+}

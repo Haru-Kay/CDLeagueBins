@@ -1,0 +1,2908 @@
+{
+  "0x34de8cda": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "bottom",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "Top",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x3c1abe72": {
+    "ObjectName": "VayneCondemnAALock",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZone",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VayneCondemnAALock",
+    "~class": "SpellObject"
+  },
+  "0x3f2958c8": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      200,
+      80
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "a345b239-5d77-4ca4-ab05-d17bcf21a163",
+      "itemID": 126292,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_VayneQWETriggers",
+    "mNameTraKey": "stat_stone_name_VayneQWETriggers",
+    "stoneName": "VayneQWETriggers",
+    "~class": "StatStoneData"
+  },
+  "0x414a4c04": {
+    "catalogEntry": {
+      "contentId": "33cec46c-e351-41be-8388-108ac6d9c489",
+      "itemID": 66600502,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x3f2958c8",
+      "0x91e2ac9e",
+      "0xb1c2b840"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x444a50bd": {
+    "catalogEntry": {
+      "contentId": "5b484c2e-c61c-4743-aba5-17b3d014dcc8",
+      "itemID": 66600125,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x6ea66ef9",
+      "0x69d49242",
+      "0xf50aa20f"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x4a619740": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "157ffb6b-5ecc-4c60-8a0b-2b087b76f651",
+      "itemID": 125519,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "VayneEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x522a9f5": {
+    "ObjectName": "VayneCondemnMissile",
+    "mScriptName": "VayneCondemnMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 25.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "VayneCondemn",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            75.0,
+            250.0,
+            425.0,
+            600.0,
+            0.0,
+            0.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "head",
+      "mImgIconName": [
+        "Bowmaster_EnchantedArrow.dds"
+      ],
+      "mLineWidth": 80.0,
+      "mMissileEffectKey": "Vayne_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2200.0,
+          "mStartBoneName": "L_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 2200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x69d49242": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      75,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "51ebc668-e040-4324-ac72-0bb2acc93565",
+      "itemID": 264,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_VayneQDodges",
+    "mNameTraKey": "stat_stone_name_VayneQDodges",
+    "stoneName": "VayneQDodges",
+    "~class": "StatStoneData"
+  },
+  "0x6ea66ef9": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9,
+      20,
+      45,
+      50,
+      65,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5a2f1186-22da-47e7-be3b-c0ae17dfa758",
+      "itemID": 2001,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_VayneKillWhileCondemned",
+    "mNameTraKey": "stat_stone_name_VayneKillWhileCondemned",
+    "stoneName": "VayneKillWhileCondemned",
+    "~class": "StatStoneData"
+  },
+  "0x773b516b": {
+    "ObjectName": "VayneHunt",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "game_character_passiveName_Vayne",
+          "keyTooltip": "game_character_passiveSummary_Vayne"
+        },
+        "mObjectName": "VayneHunt",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "VayneHunt",
+    "~class": "SpellObject"
+  },
+  "0x81678219": {
+    "catalogEntry": {
+      "contentId": "b7afc6d6-3c0f-440e-b32a-ccd15ebff0ac",
+      "itemID": 66600194,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x4a619740",
+      "0xa2d36475",
+      "0x989a35d8"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x91e2ac9e": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      11000,
+      29000,
+      57000,
+      68000,
+      86000,
+      34000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "7031b619-aa08-4f9a-b5bb-3c5ec7a8f390",
+      "itemID": 126290,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_VayneWDamage",
+    "mNameTraKey": "stat_stone_name_VayneWDamage",
+    "stoneName": "VayneWDamage",
+    "~class": "StatStoneData"
+  },
+  "0x989a35d8": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "23795376-11d0-4cca-8b72-2023b932d5de",
+      "itemID": 125521,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "VayneStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xa2d36475": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "f06e2a88-f7fe-4593-9992-a1f5085a16b1",
+      "itemID": 125520,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "VayneTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xb1c2b840": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      200,
+      75
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "266ca5d6-c867-48d8-a507-cc8cbfa51808",
+      "itemID": 126291,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_VayneRTumbles",
+    "mNameTraKey": "stat_stone_name_VayneRTumbles",
+    "stoneName": "VayneRTumbles",
+    "~class": "StatStoneData"
+  },
+  "0xe12ab174": {
+    "ObjectName": "VayneTumbleAttack",
+    "mScriptName": "VayneTumbleAttack",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5375,
+      "mAlternateName": "VayneTumble",
+      "mAnimationName": "Attack2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mMissileEffectKey": "Vayne_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf50aa20f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7,
+      20,
+      35,
+      45,
+      55,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "7c6003ed-53f0-459c-9e96-e63ae6b42ed1",
+      "itemID": 265,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_VayneRToKills",
+    "mNameTraKey": "stat_stone_name_VayneRToKills",
+    "stoneName": "VayneRToKills",
+    "~class": "StatStoneData"
+  },
+  "Characters/Vayne/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "0x522a9f5",
+      "0xe12ab174",
+      "Shared/Spells/BaseSpell",
+      "Characters/Vayne/Spells/VayneUltAttack",
+      "Characters/Vayne/Spells/VayneTumbleUltAttack",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 575.0,
+    "armorPerLevel": 4.599999904632568,
+    "attackRange": 550.0,
+    "attackSpeed": 0.6579999923706055,
+    "attackSpeedPerLevel": 3.299999952316284,
+    "attackSpeedRatio": 0.6579999923706055,
+    "baseArmor": 23.0,
+    "baseDamage": 60.0,
+    "baseHP": 550.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 0.699999988079071,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.12456140667200089,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 3.0,
+      "attackRank": 10,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 67,
+      "defenseRank": 1,
+      "description": "game_character_description_Vayne",
+      "difficultyRank": 8,
+      "magicRank": 1,
+      "mapAIPresence": {
+        "0": {
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "Adds a 30% chance of adding an additional attack that hits a random target within a Small Area.",
+        "Adds a 40% chance of adding an additional attack that hits a random target within a Small Area.",
+        "Adds a 50% chance of adding an additional attack that hits a random target within a Small Area.",
+        "Adds a 60% chance of adding an additional attack that hits a random target within a Small Area."
+      ],
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Vayne",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "ATTACKER",
+      "searchTags": "marksman",
+      "searchTagsSecondary": "assassin",
+      "sound": {
+        "attack": [
+          "ChloeNil-Attack1-NORM_01.wav",
+          "ChloeNil-Attack2-NORM_01.wav",
+          "ChloeNil-Attack3-NORM_01.wav",
+          "ChloeNil-Attack4-NORM_01.wav"
+        ],
+        "click": [
+          "ChloeNil-Click1-NORM_01.wav",
+          "ChloeNil-Click2-NORM_01.wav",
+          "ChloeNil-Click3-NORM_01.wav",
+          "ChloeNil-Click4-NORM_01.wav"
+        ],
+        "death": "ChloeNil-Death1-NORM_01.wav",
+        "move": [
+          "ChloeNil-Move1-NORM_01.wav",
+          "ChloeNil-Move2-NORM_01.wav",
+          "ChloeNil-Move3-NORM_01.wav",
+          "ChloeNil-Move4-NORM_01.wav"
+        ],
+        "ready": "ChloeNil-Ready1-NORM_01.wav",
+        "~class": "ToolSoundData"
+      },
+      "spellData": [
+        {
+          "desc": "Ashe fires a missile at any point on the map.  If the arrow encounters a champion it damages him and nearby enemies.  These units are stunned for up to 5 secs, based on how far the arrow has traveled.",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Ashe fires a missile at any point on the map.  If the arrow encounters a champion it damages him and nearby enemies.  These units are stunned for up to 5 secs, based on how far the arrow has traveled.",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Ashe fires a missile at any point on the map.  If the arrow encounters a champion it damages him and nearby enemies.  These units are stunned for up to 5 secs, based on how far the arrow has traveled.",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Ashe fires a missile at any point on the map.  If the arrow encounters a champion it damages him and nearby enemies.  These units are stunned for up to 5 secs, based on how far the arrow has traveled.",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.12456140667200089,
+        "mAttackName": "VayneCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 2.3499999046325684,
+    "extraAttacks": [
+      {
+        "mAttackName": "VayneBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "VayneBasicAttack3",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "VayneBasicAttack4",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "BaseSpell",
+      "VayneCondemnMissile",
+      "VayneTumbleAttack",
+      "BaseSpell",
+      "VayneUltAttack",
+      "VayneTumbleUltAttack",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "hpPerLevel": 103.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Vayne/Spells/VayneTumbleAbility",
+      "Characters/Vayne/Spells/VayneSilveredBoltsAbility",
+      "Characters/Vayne/Spells/VayneCondemnAbility",
+      "Characters/Vayne/Spells/VayneInquisitionAbility",
+      "Characters/Vayne/Spells/VaynePassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      16,
+      0
+    ],
+    "mCharacterName": "Vayne",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Vayne/Spells/VaynePassiveAbility/VaynePassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            11
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Vayne/Spells/VayneAttackAnimationCycle",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            11
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Vayne/Spells/VayneRunCycleManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            11
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mAllowOnClones": false,
+        "mParentPassiveBuff": "Characters/Vayne/Spells/VayneProjectMask",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mAllowOnClones": false,
+        "mParentPassiveBuff": "Shared/Spells/Eternals_SkillshotMissileTracker",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            25
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Vayne/Spells/Skin25VayneAttackAnimationCycle",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Vayne/Spells/VaynePassiveAbility/VaynePassive",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "name": "game_character_displayname_Vayne",
+    "passive1IconName": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_NightHunter.dds",
+    "passiveLuaName": "Focus",
+    "passiveName": "game_character_passiveName_Vayne",
+    "passiveRange": 2000.0,
+    "passiveToolTip": "game_character_passiveDescription_Vayne",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 232.0,
+      "arBaseStaticRegen": 1.399999976158142,
+      "arPerLevel": 35.0,
+      "arRegenPerLevel": 0.07999999821186066,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 155.0,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "VayneTumbleAbility/VayneTumble",
+      "VayneSilveredBoltsAbility/VayneSilveredBolts",
+      "VayneCondemnAbility/VayneCondemn",
+      "VayneInquisitionAbility/VayneInquisition"
+    ],
+    "spells": [
+      "Characters/Vayne/Spells/VayneTumbleAbility/VayneTumble",
+      "Characters/Vayne/Spells/VayneSilveredBoltsAbility/VayneSilveredBolts",
+      "Characters/Vayne/Spells/VayneCondemnAbility/VayneCondemn",
+      "Characters/Vayne/Spells/VayneInquisitionAbility/VayneInquisition"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "VayneBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Vayne/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Vayne/Spells/Skin25VayneAttackAnimationCycle": {
+    "ObjectName": "Skin25VayneAttackAnimationCycle",
+    "mScriptName": "Skin25VayneAttackAnimationCycle",
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneAttackAnimationCycle": {
+    "ObjectName": "VayneAttackAnimationCycle",
+    "mScriptName": "VayneAttackAnimationCycle",
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneBasicAttack": {
+    "ObjectName": "VayneBasicAttack",
+    "mScriptName": "VayneBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Vayne_BA_tar",
+      "mMissileEffectKey": "Vayne_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneBasicAttack2": {
+    "ObjectName": "VayneBasicAttack2",
+    "mScriptName": "VayneBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "Attack2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Vayne_BA_tar",
+      "mMissileEffectKey": "Vayne_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneBasicAttack3": {
+    "ObjectName": "VayneBasicAttack3",
+    "mScriptName": "VayneBasicAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "Attack3",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Vayne_BA_tar",
+      "mMissileEffectKey": "Vayne_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneBasicAttack4": {
+    "ObjectName": "VayneBasicAttack4",
+    "mScriptName": "VayneBasicAttack4",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "Attack4",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Vayne_BA_tar",
+      "mMissileEffectKey": "Vayne_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneCondemnAbility": {
+    "AbilityTraits": 2560,
+    "mChildSpells": [
+      "Characters/Vayne/Spells/VayneCondemnAbility/VayneCondemn",
+      "0x522a9f5",
+      "0x3c1abe72"
+    ],
+    "mName": "VayneCondemnAbility",
+    "mRootSpell": "Characters/Vayne/Spells/VayneCondemnAbility/VayneCondemn",
+    "~class": "AbilityObject"
+  },
+  "Characters/Vayne/Spells/VayneCondemnAbility/VayneCondemn": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "KnockbackDistance",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4194304,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "StunDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "StunDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "StunDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "VayneCondemn",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VayneCondemn",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VayneCondemn",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Damage",
+          "mValues": [
+            15.0,
+            50.0,
+            85.0,
+            120.0,
+            155.0,
+            190.0,
+            225.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StunDamage",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StunDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockbackDistance",
+          "mValues": [
+            475.0,
+            475.0,
+            475.0,
+            475.0,
+            475.0,
+            475.0,
+            475.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        22.0,
+        20.0,
+        18.0,
+        16.0,
+        14.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "VayneCondemn",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 2,
+              "distanceOffset": 100.0,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                450.0,
+                450.0,
+                450.0,
+                450.0,
+                450.0,
+                450.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "basePosition": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_VayneE_Damage",
+                  "type": "Damage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VayneE_Name",
+            "keySummary": "Spell_VayneE_Summary",
+            "keyTooltip": "Spell_VayneE_Tooltip"
+          },
+          "mObjectName": "VayneCondemn",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "head",
+      "mImgIconName": [
+        "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_E.dds"
+      ],
+      "mLineWidth": 80.0,
+      "mSpellCalculations": {
+        "EmpoweredDamageTT": {
+          "mModifiedGameCalculation": "TotalDamage",
+          "mMultiplier": {
+            "mDataValue": "StunDamage",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mana": [
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0
+      ],
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneCritAttack": {
+    "ObjectName": "VayneCritAttack",
+    "mScriptName": "VayneCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Vayne_BA_crit_tar",
+      "mMissileEffectKey": "Vayne_BA_Crit_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneInquisitionAbility": {
+    "mChildSpells": [
+      "Characters/Vayne/Spells/VayneInquisitionAbility/VayneInquisition"
+    ],
+    "mName": "VayneInquisitionAbility",
+    "mRootSpell": "Characters/Vayne/Spells/VayneInquisitionAbility/VayneInquisition",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Vayne/Spells/VayneInquisitionAbility/VayneInquisition": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mDataValue": "BonusAttackDamage",
+            "~class": "NamedDataValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MovementSpeed",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "VayneInquisition",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VayneInquisition",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VayneInquisition",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BonusAttackDamage",
+          "mValues": [
+            20.0,
+            35.0,
+            50.0,
+            65.0,
+            80.0,
+            95.0,
+            110.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDuration",
+          "mValues": [
+            6.0,
+            8.0,
+            10.0,
+            12.0,
+            14.0,
+            16.0,
+            18.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TumbleStealthDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MovementSpeed",
+          "mValues": [
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DurationToAdd",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamagedMarkerDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TumbleCDReduction",
+          "mValues": [
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0,
+            70.0,
+            80.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BonusAttackDamage",
+              "mValues": [
+                0.0,
+                10.0,
+                20.0,
+                30.0,
+                40.0,
+                50.0,
+                60.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 5.394999980926514,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cooldownTime": [
+        100.0,
+        100.0,
+        85.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "delayCastOffsetPercent": -0.19140000641345978,
+      "delayTotalTimePercent": -0.37689998745918274,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_VayneR_Duration",
+                  "type": "BaseDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_VayneR_BonusAD",
+                  "type": "BonusAttackDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_VayneR_TumbleCDR",
+                  "type": "TumbleCDReduction",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VayneR_Name",
+            "keySummary": "Spell_VayneR_Summary",
+            "keyTooltip": "Spell_VayneR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_VayneInquisition_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "VayneInquisition",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "head",
+      "mImgIconName": [
+        "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_R.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneInquisitionStealth": {
+    "ObjectName": "VayneInquisitionStealth",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VayneInquisitionStealth",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VayneInquisitionStealth",
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VaynePassiveAbility": {
+    "mChildSpells": [
+      "Characters/Vayne/Spells/VaynePassiveAbility/VaynePassive"
+    ],
+    "mName": "VaynePassiveAbility",
+    "mRootSpell": "Characters/Vayne/Spells/VaynePassiveAbility/VaynePassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Vayne/Spells/VaynePassiveAbility/VaynePassive": {
+    "ObjectName": "VaynePassive",
+    "mScriptName": "VaynePassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MovementSpeed",
+          "mValues": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Range",
+          "mValues": [
+            2000.0,
+            2000.0,
+            2000.0,
+            2000.0,
+            2000.0,
+            2000.0,
+            2000.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "EnableExtendedTooltip": false,
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "game_character_passiveName_Vayne",
+            "keySummary": "game_character_passiveSummary_Vayne",
+            "keyTooltip": "game_character_passiveDescription_Vayne"
+          },
+          "mObjectName": "VaynePassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_P.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneProjectMask": {
+    "ObjectName": "VayneProjectMask",
+    "mScriptName": "VayneProjectMask",
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneRunCycleManager": {
+    "ObjectName": "VayneRunCycleManager",
+    "mScriptName": "VayneRunCycleManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneSilverBolts": {
+    "ObjectName": "VayneSilverBolts",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VayneSilverBolts",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VayneSilverBolts",
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneSilverDebuff": {
+    "ObjectName": "VayneSilverDebuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VayneSilverDebuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VayneSilverDebuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneSilveredBoltsAbility": {
+    "mChildSpells": [
+      "Characters/Vayne/Spells/VayneSilveredBoltsAbility/VayneSilveredBolts"
+    ],
+    "mName": "VayneSilveredBoltsAbility",
+    "mRootSpell": "Characters/Vayne/Spells/VayneSilveredBoltsAbility/VayneSilveredBolts",
+    "~class": "AbilityObject"
+  },
+  "Characters/Vayne/Spells/VayneSilveredBoltsAbility/VayneSilveredBolts": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "VayneSilveredBolts",
+    "mScriptName": "VayneSilveredBolts",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MaxHealthRatio",
+          "mValues": [
+            0.05000000074505806,
+            0.05999999865889549,
+            0.07000000029802322,
+            0.07999999821186066,
+            0.09000000357627869,
+            0.10000000149011612,
+            0.10999999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageFloor",
+          "mValues": [
+            35.0,
+            50.0,
+            65.0,
+            80.0,
+            95.0,
+            110.0,
+            125.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageVsMonsters",
+          "mValues": [
+            125.0,
+            140.0,
+            155.0,
+            170.0,
+            185.0,
+            200.0,
+            215.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DebuffDuration",
+          "mValues": [
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "MaxHealthRatio",
+              "mValues": [
+                0.03500000014901161,
+                0.03999999910593033,
+                0.04500000178813934,
+                0.05000000074505806,
+                0.054999999701976776,
+                0.05999999865889549,
+                0.06499999761581421
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 1.9800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 13327,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_VayneW_PercentDamage",
+                  "type": "MaxHealthRatio",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_VayneW_DamageFloor",
+                  "type": "DamageFloor",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_MonsterDamage",
+                  "type": "DamageVsMonsters",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "",
+            "keyCost": "Spell_Passive",
+            "keyName": "Spell_VayneW_Name",
+            "keySummary": "Spell_VayneW_Summary",
+            "keyTooltip": "Spell_Vayne_W_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_VayneSilveredBolts_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "VayneSilveredBolts",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.009999999776482582,
+      "mFloatVarsDecimals": [
+        1,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "head",
+      "mImgIconName": [
+        "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_W.dds"
+      ],
+      "mLineWidth": 50.0,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "MaxHealthRatio",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneSilveredDebuff": {
+    "ObjectName": "VayneSilveredDebuff",
+    "mScriptName": "VayneSilveredDebuff",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.9800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0,
+        750.0
+      ],
+      "cooldownTime": [
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 13327,
+      "mAlternateName": "VayneSilveredBolts",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.009999999776482582,
+      "mEffectAmount": [
+        {
+          "value": [
+            4.0,
+            6.0,
+            8.0,
+            10.0,
+            12.0,
+            14.0,
+            16.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0,
+            70.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        1,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "head",
+      "mLineWidth": 50.0,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0
+      ],
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneTumbleAbility": {
+    "AbilityTraits": 128,
+    "mChildSpells": [
+      "Characters/Vayne/Spells/VayneTumbleAbility/VayneTumble"
+    ],
+    "mName": "VayneTumbleAbility",
+    "mRootSpell": "Characters/Vayne/Spells/VayneTumbleAbility/VayneTumble",
+    "~class": "AbilityObject"
+  },
+  "Characters/Vayne/Spells/VayneTumbleAbility/VayneTumble": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 64,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 512,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 1.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1024,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "VayneTumble",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VayneTumble",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VayneTumble",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "TotalADRatio",
+          "mValues": [
+            0.6499999761581421,
+            0.75,
+            0.8500000238418579,
+            0.949999988079071,
+            1.0499999523162842,
+            1.149999976158142,
+            1.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Duration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CanBonusDamageCrit",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "TotalADRatio",
+              "mValues": [
+                0.4000000059604645,
+                0.5,
+                0.6000000238418579,
+                0.699999988079071,
+                0.800000011920929,
+                0.8999999761581421,
+                1.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bIsToggleSpell": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        6.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        2.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 15567,
+      "mAnimationName": "React",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_VayneQ_Ratio",
+                  "type": "TotalADRatio",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VayneQ_Name",
+            "keySummary": "Spell_VayneQ_Summary",
+            "keyTooltip": "Spell_VayneQ_Tooltip"
+          },
+          "mObjectName": "VayneTumble",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_Q.dds"
+      ],
+      "mLineWidth": 50.0,
+      "mSpellCalculations": {
+        "ADRatioBonus": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "TotalADRatio",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_AttackReset"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneTumbleUltAttack": {
+    "ObjectName": "VayneTumbleUltAttack",
+    "mScriptName": "VayneTumbleUltAttack",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5375,
+      "mAlternateName": "VayneTumble",
+      "mAnimationName": "Attack2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mMissileEffectKey": "Vayne_R_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Vayne/Spells/VayneUltAttack": {
+    "ObjectName": "VayneUltAttack",
+    "mScriptName": "VayneUltAttack",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5375,
+      "mAlternateName": "VayneBasicAttack",
+      "mApplyMaterialOnHitSound": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Vayne_R_tar",
+      "mMissileEffectKey": "Vayne_R_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

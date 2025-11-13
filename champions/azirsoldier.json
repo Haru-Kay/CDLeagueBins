@@ -1,0 +1,88 @@
+{
+  "Characters/AzirSoldier/CharacterRecords/Root": {
+    "attackRange": 375.0,
+    "attackSpeedPerLevel": 1.5,
+    "baseArmor": 10.0,
+    "baseDamage": 40.0,
+    "baseFactorHPRegen": 0.001500000013038516,
+    "baseHP": 1.0,
+    "baseMoveSpeed": 0.0,
+    "baseStaticHPRegen": 0.5,
+    "basicAttack": {
+      "mAttackCastTime": 0.33000001311302185,
+      "mAttackTotalTime": 1.600000023841858,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "BaseSpellEffectiveness": 1.0,
+      "description": "game_character_description_IceBlock",
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "critDamageMultiplier": 1.0,
+    "expGivenOnDeath": 0.0,
+    "flags": 8398280,
+    "goldGivenOnDeath": 0.0,
+    "mCharacterName": "AzirSoldier",
+    "mFallbackCharacterName": "Azir",
+    "minimapIconOverride": "NoIcon",
+    "name": "game_character_displayname_IceBlock",
+    "pathfindingCollisionRadius": 0.0,
+    "perceptionBubbleRadius": 350.0,
+    "primaryAbilityResource": {
+      "arBaseFactorRegen": 0.001500000013038516,
+      "arBaseStaticRegen": 0.5,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 1.0,
+    "selectionRadius": 1.0,
+    "significance": 0.10000000149011612,
+    "unitTagsString": "Special_AzirW",
+    "~class": "CharacterRecord"
+  },
+  "Characters/AzirSoldier/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/AzirSoldier/Spells/AzirSoldierBasicAttack": {
+    "ObjectName": "AzirSoldierBasicAttack",
+    "mScriptName": "AzirSoldierBasicAttack",
+    "mSpell": {
+      "castFrame": 20.0,
+      "castRange": [
+        549.4000244140625,
+        549.4000244140625,
+        549.4000244140625,
+        549.4000244140625,
+        549.4000244140625,
+        549.4000244140625,
+        549.4000244140625
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "mAffectsTypeFlags": 7183,
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

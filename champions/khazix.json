@@ -1,0 +1,4073 @@
+{
+  "0x23945a00": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      6000,
+      16000,
+      31000,
+      37000,
+      47000,
+      19000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "32548afd-07db-4c0e-ab6f-69f0eb915865",
+      "itemID": 74,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_KhaZixWHealing",
+    "mNameTraKey": "stat_stone_name_KhaZixWHealing",
+    "stoneName": "KhaZixWHealing",
+    "~class": "StatStoneData"
+  },
+  "0x28e2fb87": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      6,
+      15,
+      30,
+      35,
+      45,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5e29eff6-f9a5-408f-bada-5108831229f7",
+      "itemID": 126359,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_KhazixQECombos",
+    "mNameTraKey": "stat_stone_name_KhazixQECombos",
+    "stoneName": "KhazixQECombos",
+    "~class": "StatStoneData"
+  },
+  "0x39680e06": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "6a46653a-afbb-420d-9204-3119b4e7523d",
+      "itemID": 125606,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "KhazixEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x4e63541f": {
+    "catalogEntry": {
+      "contentId": "b189517a-f2b5-4ee3-824f-eaf21c769f2e",
+      "itemID": 66600223,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x39680e06",
+      "0xbe68e097",
+      "0x6008367e"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x5451910a": {
+    "ObjectName": "KhazixHatredReward",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixHuntVictoryK",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixHatredReward",
+    "mSpell": {
+      "ImgIconPath": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_P.dds",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x556c7516": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      30000,
+      74000,
+      150000,
+      175000,
+      225000,
+      89000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "bb8a3f0f-7371-488b-9d6c-d50f079919c8",
+      "itemID": 126357,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_KhazixQPDamage",
+    "mNameTraKey": "stat_stone_name_KhazixQPDamage",
+    "stoneName": "KhazixQPDamage",
+    "~class": "StatStoneData"
+  },
+  "0x6008367e": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "4680e5f9-8766-4b2e-ab89-c02ff314cb22",
+      "itemID": 125608,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "KhazixStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x9238bb8f": {
+    "catalogEntry": {
+      "contentId": "71d7bab8-7ce1-4347-95cb-2440002f7267",
+      "itemID": 66600057,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x23945a00",
+      "0xdc576294",
+      "0x96f3a773"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x9338bd22": {
+    "catalogEntry": {
+      "contentId": "06171f50-0f78-4224-a2e2-33417a360c4d",
+      "itemID": 66600524,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x556c7516",
+      "0x9a46bf45",
+      "0x28e2fb87"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x96f3a773": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      75,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "449cdd1c-b945-45d3-b0fa-13ec23c50ae9",
+      "itemID": 24,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_KhaZixKillsAfterE",
+    "mNameTraKey": "stat_stone_name_KhaZixKillsAfterE",
+    "stoneName": "KhaZixKillsAfterE",
+    "~class": "StatStoneData"
+  },
+  "0x9a46bf45": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8,
+      20,
+      40,
+      45,
+      60,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5feac6de-9bc7-4dc2-a3ca-5672b683d434",
+      "itemID": 126358,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_KhazixRKills",
+    "mNameTraKey": "stat_stone_name_KhazixRKills",
+    "stoneName": "KhazixRKills",
+    "~class": "StatStoneData"
+  },
+  "0xbe68e097": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "18e4552e-1078-4bf0-b238-683c9b7d9a51",
+      "itemID": 125607,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "KhazixTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xc7d8b264": {
+    "ObjectName": "KhazixHatredReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixHatred",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixHatredReady",
+    "~class": "SpellObject"
+  },
+  "0xd18828e": {
+    "ObjectName": "KhazixHatredDefeat",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixHuntDefeatR",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixHatredDefeat",
+    "mSpell": {
+      "ImgIconPath": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_P.dds",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xd3e52dbe": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xdc576294": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      75,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f16a5b9b-d966-4a86-8b0f-0af411fbe9fe",
+      "itemID": 75,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_KhaZixPKills",
+    "mNameTraKey": "stat_stone_name_KhaZixPKills",
+    "stoneName": "KhaZixPKills",
+    "~class": "StatStoneData"
+  },
+  "0xef93d5ae": {
+    "ObjectName": "KhazixHatredWins",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixHatredWins",
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Khazix/Spells/KhazixWAbility/KhazixWMissile",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Characters/Khazix/Spells/KhazixPAttack",
+      "Shared/Spells/BaseSpell",
+      "Characters/Khazix/Spells/KhazixEAbility/KhazixEInvisMissile",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 400.0,
+    "armorPerLevel": 4.199999809265137,
+    "attackRange": 125.0,
+    "attackSpeed": 0.6679999828338623,
+    "attackSpeedPerLevel": 2.700000047683716,
+    "attackSpeedRatio": 0.6679999828338623,
+    "baseArmor": 32.0,
+    "baseDamage": 60.0,
+    "baseHP": 643.0,
+    "baseMoveSpeed": 350.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.5,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.09946524351835251,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "attackRank": 9,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 121,
+      "classification": "Deadly",
+      "defenseRank": 4,
+      "description": "game_character_description_Khazix",
+      "difficultyRank": 6,
+      "magicRank": 3,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "Spell_KhazixPassive_Name",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "ATTACKER",
+      "searchTags": "assassin",
+      "spellData": [
+        {
+          "desc": "Cho'Gath consumes a unit in one gulp.  He gains a size level each time he kills a unit in this way, gaining health, ability power, and he can Feast on higher health units.",
+          "displayName": "Feast",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Cho'Gath consumes a unit in one gulp.  He gains a size level each time he kills a unit in this way, gaining health, ability power, and he can Feast on higher health units.",
+          "displayName": "Feast",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Cho'Gath consumes a unit in one gulp.  He gains a size level each time he kills a unit in this way, gaining health, ability power, and he can Feast on higher health units.",
+          "displayName": "Feast",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Cho'Gath consumes a unit in one gulp.  He gains a size level each time he kills a unit in this way, gaining health, ability power, and he can Feast on higher health units.",
+          "displayName": "Feast",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.09946524351835251,
+        "mAttackName": "KhazixCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0999999046325684,
+    "evolutionData": {
+      "mIconNames": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q_red.dds",
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_W_red.dds",
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_E_red.dds",
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_R_red.dds"
+      ],
+      "mTitle": "game_character_evolutionBarTitle_Khazix",
+      "mTooltips": [
+        "game_spell_tooltip_KhazixQEvo",
+        "game_spell_tooltip_KhazixWEvo",
+        "game_spell_tooltip_KhazixEEvo",
+        "game_spell_tooltip_KhazixREvo"
+      ],
+      "~class": "EvolutionDescription"
+    },
+    "extraAttacks": [
+      {
+        "mAttackName": "KhazixBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "KhazixWMissile",
+      "BaseSpell",
+      "BaseSpell",
+      "KhazixPAttack",
+      "BaseSpell",
+      "KhazixEInvisMissile",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "healthBarHeight": 90.0,
+    "hpPerLevel": 99.0,
+    "hpRegenPerLevel": 0.15000000596046448,
+    "mAbilities": [
+      "Characters/Khazix/Spells/KhazixRAbility",
+      "Characters/Khazix/Spells/KhazixQAbility",
+      "Characters/Khazix/Spells/KhazixWAbility",
+      "Characters/Khazix/Spells/KhazixEAbility",
+      "Characters/Khazix/Spells/KhazixPassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      14,
+      0,
+      0
+    ],
+    "mCharacterName": "Khazix",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Khazix/Spells/KhazixPassiveAbility/KhazixPDamage"
+        ],
+        "mParentPassiveBuff": "Characters/Khazix/Spells/KhazixPassiveAbility/KhazixPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Characters/Khazix/Spells/KhazixPassiveEvoTracker",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Khazix/Spells/KhazixPassiveAbility/KhazixPassive",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "skillOrder": 1,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Resolve/Aftershock",
+          "mReplaceWith": "Perks/Styles/Resolve/GraspOfTheUndying",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Inspiration/GlacialAugment",
+          "mReplaceWith": "Perks/Styles/Inspiration/FirstStrike",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Domination",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Khazix",
+    "passive1IconName": "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_P.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_KhazixPassive_Name",
+    "passiveSpell": "KhazixPassive",
+    "passiveToolTip": "Spell_KhazixPassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 327.0,
+      "arBaseStaticRegen": 1.5180000066757202,
+      "arPerLevel": 40.0,
+      "arRegenPerLevel": 0.10000000149011612,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 150.0,
+    "selectionRadius": 130.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "KhazixQAbility/KhazixQ",
+      "KhazixWAbility/KhazixW",
+      "KhazixEAbility/KhazixE",
+      "KhazixRAbility/KhazixR"
+    ],
+    "spells": [
+      "Characters/Khazix/Spells/KhazixQAbility/KhazixQ",
+      "Characters/Khazix/Spells/KhazixWAbility/KhazixW",
+      "Characters/Khazix/Spells/KhazixEAbility/KhazixE",
+      "Characters/Khazix/Spells/KhazixRAbility/KhazixR"
+    ],
+    "unitTagsString": "Champion | Special_Void",
+    "weaponMaterials": [
+      "KhazixBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Khazix/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Khazix/Spells/KhazixBasicAttack": {
+    "ObjectName": "KhazixBasicAttack",
+    "mScriptName": "KhazixBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixBasicAttack",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Khazix_BA_Tar",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixBasicAttack2": {
+    "ObjectName": "KhazixBasicAttack2",
+    "mScriptName": "KhazixBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Khazix_BA_Tar",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixCritAttack": {
+    "ObjectName": "KhazixCritAttack",
+    "mScriptName": "KhazixCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "delayCastOffsetPercent": -0.3077000081539154,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "KhazixCritAttack",
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Khazix_BA_Tar",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixEAbility": {
+    "mChildSpells": [
+      "Characters/Khazix/Spells/KhazixEAbility/KhazixE",
+      "Characters/Khazix/Spells/KhazixEAbility/KhazixELong",
+      "Characters/Khazix/Spells/KhazixEAbility/KhazixEEvo",
+      "Characters/Khazix/Spells/KhazixEAbility/KhazixEInvisMissile"
+    ],
+    "mName": "KhazixEAbility",
+    "mRootSpell": "Characters/Khazix/Spells/KhazixEAbility/KhazixE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Khazix/Spells/KhazixEAbility/KhazixE": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KhazixE",
+    "mScriptName": "KhazixE",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            12.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "EvolvedLeapRange",
+          "mValues": [
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            30.0,
+            65.0,
+            100.0,
+            135.0,
+            170.0,
+            205.0,
+            240.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        22.0,
+        20.0,
+        18.0,
+        16.0,
+        14.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 7183,
+      "mAlternateName": "KhazixE",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KhazixE_Name",
+            "keySummary": "Spell_KhazixE_Summary",
+            "keyTooltip": "Spell_KhazixE_Tooltip",
+            "keyTooltipExtended": "Spell_KhazixE_TooltipExtended"
+          },
+          "mObjectName": "KhazixE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            65.0,
+            100.0,
+            135.0,
+            170.0,
+            205.0,
+            240.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_E.dds"
+      ],
+      "mSpellCalculations": {
+        "0x8b6fe763": {
+          "mExpandedTooltipCalculationDisplay": 1,
+          "mFormulaParts": [
+            {
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "0xba2719ef": {
+          "mFormulaParts": [
+            {
+              "mNumber": 1.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "IsEvolved": {
+          "mConditionalCalculationRequirements": {
+            "mBuffName": "0xf374711",
+            "~class": "HasBuffCastRequirement"
+          },
+          "mConditionalGameCalculation": "0xba2719ef",
+          "mDefaultGameCalculation": "0x8b6fe763",
+          "mExpandedTooltipCalculationDisplay": 5,
+          "tooltipOnly": true,
+          "~class": "GameCalculationConditional"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.4000000059604645,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 20.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixEAbility/KhazixEEvo": {
+    "ObjectName": "KhazixEEvo",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixEEvo",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixEEvo",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 60.0,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Evo2E",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 2.0,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_KhazixEEvo"
+          },
+          "mObjectName": "KhazixEEvo",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            18.0,
+            20.0,
+            22.0,
+            24.0,
+            26.0,
+            28.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.0,
+            24.0,
+            36.0,
+            48.0,
+            60.0,
+            72.0,
+            84.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        ""
+      ],
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        ""
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixEAbility/KhazixEInvisMissile": {
+    "ObjectName": "KhazixEInvisMissile",
+    "mScriptName": "KhazixEInvisMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 16.15999984741211,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 1029,
+      "mAlternateName": "EzrealEssenceFluxMissile",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                120.0,
+                120.0,
+                120.0,
+                120.0,
+                120.0,
+                120.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            75.0,
+            250.0,
+            425.0,
+            600.0,
+            0.0,
+            0.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "root",
+      "mLineWidth": 120.0,
+      "mMissileEffectName": "Empty.troy",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 120.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1000.0,
+          "mStartBoneName": "L_hand",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixEAbility/KhazixELong": {
+    "ObjectName": "KhazixELong",
+    "mScriptName": "KhazixELong",
+    "mSpell": {
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "cooldownTime": [
+        22.0,
+        20.0,
+        18.0,
+        16.0,
+        14.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 7183,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mLocKeys": {
+            "keyName": "Spell_KhazixELong_Name"
+          },
+          "mObjectName": "KhazixELong",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            65.0,
+            100.0,
+            135.0,
+            170.0,
+            205.0,
+            240.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_E_red.dds"
+      ],
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixPAttack": {
+    "ObjectName": "KhazixPAttack",
+    "mScriptName": "KhazixPAttack",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "mAffectsTypeFlags": 5327,
+      "mAfterEffectName": "globalhit_physical.troy",
+      "mAlternateName": "KhazixBasicAttack2",
+      "mAnimationName": "Attack1_Passive",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitEffectKey": "Khazix_BA_Tar",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Khazix/Spells/KhazixPassiveAbility/KhazixPassive",
+      "Characters/Khazix/Spells/KhazixPassiveAbility/KhazixPDamage"
+    ],
+    "mName": "KhazixPassiveAbility",
+    "mRootSpell": "Characters/Khazix/Spells/KhazixPassiveAbility/KhazixPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Khazix/Spells/KhazixPassiveAbility/KhazixPDamage": {
+    "ObjectName": "KhazixPDamage",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixPDamage",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixPDamage",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_P.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixPassiveAbility/KhazixPassive": {
+    "ObjectName": "KhazixPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "IsolationRange",
+          "mValues": [
+            375.0,
+            375.0,
+            375.0,
+            375.0,
+            375.0,
+            375.0,
+            375.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusADRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BonusADRatio",
+              "mValues": [
+                0.550000011920929,
+                0.550000011920929,
+                0.550000011920929,
+                0.550000011920929,
+                0.550000011920929,
+                0.550000011920929,
+                0.550000011920929
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SlowAmount",
+              "mValues": [
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355,
+                0.3499999940395355
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 20,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_KhazixPassive_Name",
+            "keySummary": "Spell_KhazixPassive_Summary",
+            "keyTooltip": "Spell_KhazixPassive_Tooltip"
+          },
+          "mObjectName": "KhazixPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_P.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mValues": [
+                10.0,
+                17.0,
+                24.0,
+                31.0,
+                38.0,
+                45.0,
+                52.0,
+                59.0,
+                66.0,
+                73.0,
+                80.0,
+                87.0,
+                94.0,
+                101.0,
+                108.0,
+                115.0,
+                122.0,
+                129.0,
+                136.0,
+                143.0,
+                150.0,
+                157.0,
+                164.0,
+                171.0,
+                178.0,
+                185.0,
+                192.0,
+                199.0,
+                206.0,
+                213.0,
+                220.0
+              ],
+              "~class": "ByCharLevelFormulaCalculationPart"
+            },
+            {
+              "mDataValue": "BonusADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixPassiveEvoTracker": {
+    "ObjectName": "KhazixPassiveEvoTracker",
+    "mScriptName": "KhazixPassiveEvoTracker",
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixQAbility": {
+    "mChildSpells": [
+      "Characters/Khazix/Spells/KhazixQAbility/KhazixQ",
+      "Characters/Khazix/Spells/KhazixQAbility/KhazixQDR",
+      "Characters/Khazix/Spells/KhazixQAbility/KhazixQLong",
+      "Characters/Khazix/Spells/KhazixQAbility/KhazixQEvo",
+      "Characters/Khazix/Spells/KhazixQAbility/KhazixQPassiveIsolation"
+    ],
+    "mName": "KhazixQAbility",
+    "mRootSpell": "Characters/Khazix/Spells/KhazixQAbility/KhazixQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Khazix/Spells/KhazixQAbility/KhazixQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "baseDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KhazixQ",
+    "mScriptName": "KhazixQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "EvolutionIsolationCDRPercentage",
+          "mValues": [
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusADRatio",
+          "mValues": [
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "EvolutionIsolationCDRPercentage",
+              "mValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BonusADRatio",
+              "mValues": [
+                1.149999976158142,
+                1.149999976158142,
+                1.149999976158142,
+                1.149999976158142,
+                1.149999976158142,
+                1.149999976158142,
+                1.149999976158142
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KhazixQ_Name",
+            "keySummary": "Spell_KhazixQ_Summary",
+            "keyTooltip": "Spell_KhazixQ_Tooltip",
+            "keyTooltipExtended": "Spell_KhazixQ_TooltipExtended"
+          },
+          "mObjectName": "KhazixQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.100000023841858,
+      "mEffectAmount": [
+        {
+          "value": [
+            80.0,
+            80.0,
+            105.0,
+            130.0,
+            155.0,
+            180.0,
+            180.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            110.0,
+            110.0,
+            110.0,
+            110.0,
+            110.0,
+            110.0,
+            110.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q.dds"
+      ],
+      "mSpellCalculations": {
+        "0x8b6fe763": {
+          "mFormulaParts": [
+            {
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "0xba2719ef": {
+          "mFormulaParts": [
+            {
+              "mNumber": 1.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "IsEvolved": {
+          "mConditionalCalculationRequirements": {
+            "mBuffName": "0x99a499bd",
+            "~class": "HasBuffCastRequirement"
+          },
+          "mConditionalGameCalculation": "0xba2719ef",
+          "mDefaultGameCalculation": "0x8b6fe763",
+          "tooltipOnly": true,
+          "~class": "GameCalculationConditional"
+        },
+        "IsoDamage": {
+          "mModifiedGameCalculation": "baseDamage",
+          "mMultiplier": {
+            "mNumber": 2.0999999046325684,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "baseDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mDataValue": "BonusADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mana": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixQAbility/KhazixQDR": {
+    "ObjectName": "KhazixQDR",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixQDR",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixQDR",
+    "mSpell": {
+      "mAlternateName": "KhazixQDR",
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixQAbility/KhazixQEvo": {
+    "ObjectName": "KhazixQEvo",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixQEvo",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixQEvo",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 60.0,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Evo2Q",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 2.0,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_KhazixQEvo"
+          },
+          "mObjectName": "KhazixQEvo",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.0,
+            24.0,
+            36.0,
+            48.0,
+            60.0,
+            72.0,
+            84.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        ""
+      ],
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixQAbility/KhazixQLong": {
+    "ObjectName": "KhazixQLong",
+    "mScriptName": "KhazixQLong",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0
+      ],
+      "cooldownTime": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1_evo",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mLocKeys": {
+            "keyName": "Spell_KhazixQLong_Name"
+          },
+          "mObjectName": "KhazixQLong",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.149999976158142,
+      "mEffectAmount": [
+        {
+          "value": [
+            60.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            110.0,
+            110.0,
+            110.0,
+            110.0,
+            110.0,
+            110.0,
+            110.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_Q_red.dds"
+      ],
+      "mana": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixQAbility/KhazixQPassiveIsolation": {
+    "ObjectName": "KhazixQPassiveIsolation",
+    "mScriptName": "KhazixQPassiveIsolation",
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixRAbility": {
+    "AbilityTraits": 128,
+    "mChildSpells": [
+      "Characters/Khazix/Spells/KhazixRAbility/KhazixR",
+      "Characters/Khazix/Spells/KhazixRAbility/KhazixREvo",
+      "Characters/Khazix/Spells/KhazixRAbility/KhazixREvoCharTextureBuff",
+      "Characters/Khazix/Spells/KhazixRAbility/KhazixREvoStealth",
+      "Characters/Khazix/Spells/KhazixRAbility/KhazixRPassiveEvoTracker",
+      "Characters/Khazix/Spells/KhazixRAbility/KhazixRStealth"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "KhazixRAbility",
+    "mRootSpell": "Characters/Khazix/Spells/KhazixRAbility/KhazixR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Khazix/Spells/KhazixRAbility/KhazixR": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "StealthDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1024,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BonusMovementSpeedPercent",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KhazixR",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixR",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "StealthDuration",
+          "mValues": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RecastWindow",
+          "mValues": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusMovementSpeedPercent",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EvolutionsAvailable",
+          "mValues": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EvolvedStealthDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RecastCD",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NumberOfCasts",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EvolvedNumberOfCasts",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "EvolvedNumberOfCasts",
+              "mValues": [
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "EvolvedStealthDuration",
+              "mValues": [
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "RecastWindow",
+              "mValues": [
+                18.0,
+                18.0,
+                18.0,
+                18.0,
+                18.0,
+                18.0,
+                18.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        100.0,
+        100.0,
+        85.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "KhazixR",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_KhaZixREvolutionsAvailable",
+                  "type": "EvolutionsAvailable",
+                  "typeIndex": 4,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KhazixR_Name",
+            "keySummary": "Spell_KhazixR_Summary",
+            "keyTooltip": "Spell_KhazixR_Tooltip",
+            "keyTooltipExtended": "Spell_KhazixR_TooltipExtended",
+            "keyTooltipExtendedBelowLine": "Spell_KhazixR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "KhazixR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        2,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_R.dds",
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_R_red.dds",
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_R_red.dds"
+      ],
+      "mSpellCalculations": {
+        "0x8b6fe763": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "0xba2719ef": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mNumber": 1.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "IsEvolved": {
+          "mConditionalCalculationRequirements": {
+            "mBuffName": "0x7bcf22fa",
+            "~class": "HasBuffCastRequirement"
+          },
+          "mConditionalGameCalculation": "0xba2719ef",
+          "mDefaultGameCalculation": "0x8b6fe763",
+          "mExpandedTooltipCalculationDisplay": 6,
+          "tooltipOnly": true,
+          "~class": "GameCalculationConditional"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mUseMinimapTargeting": true,
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "missileSpeed": 2200.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixRAbility/KhazixREvo": {
+    "ObjectName": "KhazixREvo",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixREvo",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixREvo",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 60.0,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Evo2R",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 2.0,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_KhazixREvo"
+          },
+          "mObjectName": "KhazixREvo",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.0,
+            24.0,
+            36.0,
+            48.0,
+            60.0,
+            72.0,
+            84.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        ""
+      ],
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixRAbility/KhazixREvoCharTextureBuff": {
+    "ObjectName": "KhazixREvoCharTextureBuff",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "effectKey": "Khazix_R_Evo2_CharacterTexture",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixREvoCharTextureBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixRAbility/KhazixREvoStealth": {
+    "ObjectName": "KhazixREvoStealth",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixREvoStealth",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixREvoStealth",
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixRAbility/KhazixRPassiveEvoTracker": {
+    "ObjectName": "KhazixRPassiveEvoTracker",
+    "mScriptName": "KhazixRPassiveEvoTracker",
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixRAbility/KhazixRStealth": {
+    "ObjectName": "KhazixRStealth",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixRStealth",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixRStealth",
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixWAbility": {
+    "mChildSpells": [
+      "Characters/Khazix/Spells/KhazixWAbility/KhazixW",
+      "Characters/Khazix/Spells/KhazixWAbility/KhazixWEvo",
+      "Characters/Khazix/Spells/KhazixWAbility/KhazixWEvoSlow",
+      "Characters/Khazix/Spells/KhazixWAbility/KhazixWLong",
+      "Characters/Khazix/Spells/KhazixWAbility/KhazixWMissile",
+      "Characters/Khazix/Spells/KhazixWAbility/KhazixWSight"
+    ],
+    "mName": "KhazixWAbility",
+    "mRootSpell": "Characters/Khazix/Spells/KhazixWAbility/KhazixW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Khazix/Spells/KhazixWAbility/KhazixW": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "baseDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 3,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 70.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32768,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KhazixW",
+    "mScriptName": "KhazixW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseHeal",
+          "mValues": [
+            35.0,
+            55.0,
+            75.0,
+            95.0,
+            115.0,
+            135.0,
+            155.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealAPRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercentage",
+          "mValues": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "IsolatedSlowPercentage",
+          "mValues": [
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "IsolatedSlowDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseHeal",
+              "mValues": [
+                30.0,
+                70.0,
+                110.0,
+                150.0,
+                190.0,
+                230.0,
+                270.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "HealAPRatio",
+              "mValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "KhazixW",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "BaseHeal",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KhazixW_Name",
+            "keySummary": "Spell_KhazixW_Summary",
+            "keyTooltip": "Spell_KhazixW_Tooltip",
+            "keyTooltipExtended": "Spell_KhazixW_TooltipExtended"
+          },
+          "mObjectName": "KhazixW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mCoefficient2": 0.5,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            85.0,
+            115.0,
+            145.0,
+            175.0,
+            205.0,
+            235.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            35.0,
+            55.0,
+            75.0,
+            95.0,
+            115.0,
+            135.0,
+            155.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectKey": "Khazix_W_AZ_tar_01",
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_W.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mSpellCalculations": {
+        "0x8b6fe763": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "0xba2719ef": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mNumber": 1.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "HealAmount": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHeal",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "HealAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "IsEvolved": {
+          "mConditionalCalculationRequirements": {
+            "mBuffName": "0xff849683",
+            "~class": "HasBuffCastRequirement"
+          },
+          "mConditionalGameCalculation": "0xba2719ef",
+          "mDefaultGameCalculation": "0x8b6fe763",
+          "mExpandedTooltipCalculationDisplay": 5,
+          "tooltipOnly": true,
+          "~class": "GameCalculationConditional"
+        },
+        "baseDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0
+      ],
+      "missileSpeed": 828.5,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixWAbility/KhazixWEvo": {
+    "ObjectName": "KhazixWEvo",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixWEvo",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixWEvo",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 60.0,
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Evo2W",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 2.0,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_KhazixWEvo"
+          },
+          "mObjectName": "KhazixWEvo",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mCoefficient2": 0.25,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        ""
+      ],
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixWAbility/KhazixWEvoSlow": {
+    "ObjectName": "KhazixWEvoSlow",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixWEvoSlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixWEvoSlow",
+    "mSpell": {
+      "mAlternateName": "KhazixWEvoSlow",
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_W_red.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixWAbility/KhazixWLong": {
+    "ObjectName": "KhazixWLong",
+    "mScriptName": "KhazixWLong",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "castConeAngle": 28.0,
+      "castConeDistance": 900.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "coneAngleDegrees": 28.0,
+            "coneRange": 1000.0,
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureConeOverrideName": "ASSETS/Characters/KhaZix/HUD/Textures/cone_threewaymissile.tex",
+            "~class": "TargeterDefinitionCone"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Khazix/Spells/KhazixWAbility/KhazixW",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mCoefficient2": 0.5,
+      "mEffectAmount": [
+        {
+          "value": [
+            55.0,
+            85.0,
+            115.0,
+            145.0,
+            175.0,
+            205.0,
+            235.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectKey": "Khazix_W_AZ_tar_01",
+      "mImgIconName": [
+        "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_W_red.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Cone"
+      },
+      "mana": [
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0
+      ],
+      "missileSpeed": 828.5,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixWAbility/KhazixWMissile": {
+    "ObjectName": "KhazixWMissile",
+    "mScriptName": "KhazixWMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1025.0,
+        1025.0,
+        1025.0,
+        1025.0,
+        1025.0,
+        1025.0,
+        1025.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6499999761581421,
+      "delayTotalTimePercent": -0.699999988079071,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "KhazixW",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.0,
+            15.0,
+            18.0,
+            21.0,
+            23.0,
+            25.0,
+            28.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            20.0,
+            35.0,
+            50.0,
+            65.0,
+            80.0,
+            95.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            75.0,
+            125.0,
+            175.0,
+            225.0,
+            250.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mLineWidth": 70.0,
+      "mMissileEffectKey": "Khazix_W_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1700.0,
+          "mStartBoneName": "C_buffbone_glb_chest_loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1700.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Khazix/Spells/KhazixWAbility/KhazixWSight": {
+    "ObjectName": "KhazixWSight",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KhazixWSight",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KhazixWSight",
+    "~class": "SpellObject"
+  }
+}

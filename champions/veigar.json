@@ -1,0 +1,2655 @@
+{
+  "0x1cd8f797": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "middle",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "utility",
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x278640c6": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "ff8c56e8-538b-42d5-8d42-ce194ca363a8",
+      "itemID": 125820,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "VeigarTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x58b3d1b3": {
+    "catalogEntry": {
+      "contentId": "4994f50e-31b7-4475-896e-1030840dbbe0",
+      "itemID": 66600294,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x88cdc141",
+      "0x278640c6",
+      "0xc97d515b"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x5d7d711b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9,
+      25,
+      45,
+      55,
+      70,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "9fc79eb9-e595-4ee6-b497-b14df3b0c019",
+      "itemID": 267,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_VeigarEMultistuns",
+    "mNameTraKey": "stat_stone_name_VeigarEMultistuns",
+    "stoneName": "VeigarEMultistuns",
+    "~class": "StatStoneData"
+  },
+  "0x88cdc141": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "fd046258-e6fd-4a51-9193-5b19260ca9c5",
+      "itemID": 125819,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "VeigarEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x8dde4419": {
+    "ObjectName": "VeigarSkin60Manager",
+    "mScriptName": "VeigarSkin60Manager",
+    "~class": "SpellObject"
+  },
+  "0x94e59513": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      13000,
+      32000,
+      63000,
+      76000,
+      95000,
+      38000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "6d1139ba-314a-47ef-8568-50b438539fcc",
+      "itemID": 126295,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_VeigarWDamage",
+    "mNameTraKey": "stat_stone_name_VeigarWDamageName",
+    "stoneName": "VeigarWDamage",
+    "~class": "StatStoneData"
+  },
+  "0xafcf76c9": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7,
+      20,
+      35,
+      45,
+      55,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "25511c9c-a3f0-41c7-becd-2bc0dec8e182",
+      "itemID": 266,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_VeigarRKills",
+    "mNameTraKey": "stat_stone_name_VeigarRKills",
+    "stoneName": "VeigarRKills",
+    "~class": "StatStoneData"
+  },
+  "0xb313a4cb": {
+    "catalogEntry": {
+      "contentId": "740e7bfe-5ca7-4553-9787-0e5d90441878",
+      "itemID": 66600126,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xc1f6088c",
+      "0xafcf76c9",
+      "0x5d7d711b"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xb413a65e": {
+    "catalogEntry": {
+      "contentId": "d473405d-a637-4c8a-8fc6-15f884e69471",
+      "itemID": 66600503,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xe61ccf5a",
+      "0x94e59513",
+      "0xf93e30d1"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xc1f6088c": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      525,
+      1500,
+      2500,
+      3000,
+      4000,
+      1500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "a2a5dc10-13e1-47d6-8754-48e792ff85a1",
+      "itemID": 130,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_VeigarPhenomenalEvilStacks",
+    "mNameTraKey": "stat_stone_name_VeigarPhenomenalEvilStacks",
+    "stoneName": "VeigarPhenomenalEvilStacks",
+    "~class": "StatStoneData"
+  },
+  "0xc97d515b": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "84b76f7c-8704-4b82-984a-5b3fa05e82a2",
+      "itemID": 125821,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "VeigarStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xe61ccf5a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      75,
+      175,
+      375,
+      450,
+      550,
+      225
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "03e23a12-02c3-466a-9426-2fa1932361f9",
+      "itemID": 126294,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_VeigarPMultihits",
+    "mNameTraKey": "stat_stone_name_VeigarPMultihits",
+    "stoneName": "VeigarPMultihits",
+    "~class": "StatStoneData"
+  },
+  "0xf93e30d1": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      18000,
+      44000,
+      88000,
+      100000,
+      125000,
+      53000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d10ccbc2-2a80-4826-afea-7f7098632a92",
+      "itemID": 126293,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_VeigarEDamage",
+    "mNameTraKey": "stat_stone_name_VeigarEDamage",
+    "stoneName": "VeigarEDamage",
+    "~class": "StatStoneData"
+  },
+  "Characters/Veigar/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Veigar/Spells/VeigarBalefulStrikeMis",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 525.0,
+    "armorPerLevel": 5.199999809265137,
+    "attackRange": 550.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 2.240000009536743,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 18.0,
+    "baseDamage": 52.0,
+    "baseHP": 580.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.2999999523162842,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.10906250029802322,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "LevelSpellEffectiveness": 1.5,
+      "attackRank": 2,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 45,
+      "classification": "Arcane",
+      "defenseRank": 2,
+      "description": "game_character_description_Veigar",
+      "difficultyRank": 7,
+      "magicRank": 10,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "+40% Mana Point regeneration.",
+        "+60% Mana Point regeneration.",
+        "+80% Mana Point regeneration."
+      ],
+      "passiveData": [
+        {
+          "effect": [
+            "0.2",
+            "0.4",
+            "0.6"
+          ],
+          "level": [
+            1,
+            9,
+            17
+          ],
+          "name": "game_character_passiveName_Veigar",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "MAGE",
+      "searchTags": "mage",
+      "spellData": [
+        {
+          "desc": "Blasts target enemy champion, dealing Magic Damage plus 25% of the target's maximum Mana. If Primordial Burst deals a killing blow, Veigar regains Mana.",
+          "displayName": "Primordial Burst",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Blasts target enemy champion, dealing Magic Damage plus 25% of the target's maximum Mana. If Primordial Burst deals a killing blow, Veigar regains Mana.",
+          "displayName": "Primordial Burst",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Blasts target enemy champion, dealing Magic Damage plus 25% of the target's maximum Mana. If Primordial Burst deals a killing blow, Veigar regains Mana.",
+          "displayName": "Primordial Burst",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Blasts target enemy champion, dealing Magic Damage plus 25% of the target's maximum Mana. If Primordial Burst deals a killing blow, Veigar regains Mana.",
+          "displayName": "Primordial Burst",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.10906250029802322,
+        "mAttackName": "VeigarCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 2.700000047683716,
+    "extraAttacks": [
+      {
+        "mAttackName": "VeigarBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "VeigarBalefulStrikeMis",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "healthBarHeight": 90.0,
+    "hpPerLevel": 108.0,
+    "hpRegenPerLevel": 0.11999999731779099,
+    "mAbilities": [
+      "Characters/Veigar/Spells/VeigarBalefulStrikeAbility",
+      "Characters/Veigar/Spells/VeigarDarkMatterAbility",
+      "Characters/Veigar/Spells/VeigarEventHorizonAbility",
+      "Characters/Veigar/Spells/VeigarRAbility",
+      "Characters/Veigar/Spells/VeigarPassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      16,
+      0
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Veigar",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Veigar/Spells/VeigarPassiveAbility/VeigarPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mDisplayFlags": 3,
+        "mParentPassiveBuff": "Characters/Veigar/Spells/VeigarPhenomenalEvilPower",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            60
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x8dde4419",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Veigar/Spells/VeigarPassiveAbility/VeigarPassive",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "name": "game_character_displayname_Veigar",
+    "overrideGameplayCollisionRadius": 55.0,
+    "passive1IconName": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarEntropy.dds",
+    "passiveLuaName": "",
+    "passiveName": "game_character_passiveName_Veigar",
+    "passiveSpell": "VeigarPassive",
+    "passiveToolTip": "game_character_passiveDescription_Veigar",
+    "pathfindingCollisionRadius": 30.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 490.0,
+      "arBaseStaticRegen": 1.600000023841858,
+      "arPerLevel": 26.0,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 140.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "VeigarBalefulStrikeAbility/VeigarBalefulStrike",
+      "VeigarDarkMatterAbility/VeigarDarkMatter",
+      "VeigarEventHorizonAbility/VeigarEventHorizon",
+      "VeigarRAbility/VeigarR"
+    ],
+    "spells": [
+      "Characters/Veigar/Spells/VeigarBalefulStrikeAbility/VeigarBalefulStrike",
+      "Characters/Veigar/Spells/VeigarDarkMatterAbility/VeigarDarkMatter",
+      "Characters/Veigar/Spells/VeigarEventHorizonAbility/VeigarEventHorizon",
+      "Characters/Veigar/Spells/VeigarRAbility/VeigarR"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/Veigar/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Veigar/Spells/VeigarBalefulStrikeAbility": {
+    "mChildSpells": [
+      "Characters/Veigar/Spells/VeigarBalefulStrikeAbility/VeigarBalefulStrike",
+      "Characters/Veigar/Spells/VeigarBalefulStrikeMis"
+    ],
+    "mName": "VeigarBalefulStrikeAbility",
+    "mRootSpell": "Characters/Veigar/Spells/VeigarBalefulStrikeAbility/VeigarBalefulStrike",
+    "~class": "AbilityObject"
+  },
+  "Characters/Veigar/Spells/VeigarBalefulStrikeAbility/VeigarBalefulStrike": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 70.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32768,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "VeigarBalefulStrike",
+    "mScriptName": "VeigarBalefulStrike",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.44999998807907104,
+            0.5,
+            0.550000011920929,
+            0.6000000238418579,
+            0.6499999761581421,
+            0.699999988079071,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            40.0,
+            80.0,
+            120.0,
+            160.0,
+            200.0,
+            240.0,
+            280.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.4000000059604645,
+                0.44999998807907104,
+                0.5,
+                0.550000011920929,
+                0.6000000238418579,
+                0.6499999761581421,
+                0.699999988079071
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 1.9800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        6.5,
+        6.0,
+        5.5,
+        5.0,
+        4.5,
+        4.0,
+        3.5
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 13327,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_APRatio",
+                  "type": "APRatio",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VeigarBalefulStrike_Name",
+            "keySummary": "Spell_VeigarBalefulStrike_Summary",
+            "keyTooltip": "Spell_VeigarBalefulStrike_Tooltip"
+          },
+          "mObjectName": "VeigarBalefulStrike",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarBalefulStrike.dds"
+      ],
+      "mLineWidth": 70.0,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        30.0,
+        35.0,
+        40.0,
+        45.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1200.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarBalefulStrikeMis": {
+    "ObjectName": "VeigarBalefulStrikeMis",
+    "mScriptName": "VeigarBalefulStrikeMis",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.53000020980835,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0,
+        1050.0
+      ],
+      "castRangeDisplayOverride": [
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0,
+        925.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAfterEffectKey": "Veigar_Q_tar",
+      "mAlternateName": "EzrealMysticShotMissile",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25099998712539673,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitEffectKey": "Veigar_Q_tar",
+      "mImgIconName": [
+        "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarBalefulStrike.dds"
+      ],
+      "mLineWidth": 70.0,
+      "mMissileEffectKey": "Veigar_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 2200.0,
+          "mStartBoneName": "neck",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 2200.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarBasicAttack": {
+    "ObjectName": "VeigarBasicAttack",
+    "mScriptName": "VeigarBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.15279999375343323,
+      "mAffectsTypeFlags": 512,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Veigar_BA_tar",
+      "mMissileEffectKey": "Veigar_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "L_Hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1100.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarBasicAttack2": {
+    "ObjectName": "VeigarBasicAttack2",
+    "mScriptName": "VeigarBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.15279999375343323,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Attack2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Veigar_BA_tar",
+      "mMissileEffectKey": "Veigar_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "L_Hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1100.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarCritAttack": {
+    "ObjectName": "VeigarCritAttack",
+    "mScriptName": "VeigarCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312,
+        622.7000122070312
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.15279999375343323,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "globalhit_physical_crit",
+      "mMissileEffectKey": "Veigar_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "root",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1100.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarDarkMatterAbility": {
+    "mChildSpells": [
+      "Characters/Veigar/Spells/VeigarDarkMatterAbility/VeigarDarkMatter"
+    ],
+    "mName": "VeigarDarkMatterAbility",
+    "mRootSpell": "Characters/Veigar/Spells/VeigarDarkMatterAbility/VeigarDarkMatter",
+    "~class": "AbilityObject"
+  },
+  "Characters/Veigar/Spells/VeigarDarkMatterAbility/VeigarDarkMatter": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 128,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "VeigarDarkMatter",
+    "mScriptName": "VeigarDarkMatter",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.6000000238418579,
+            0.699999988079071,
+            0.800000011920929,
+            0.8999999761581421,
+            1.0,
+            1.100000023841858,
+            1.2000000476837158
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            30.0,
+            85.0,
+            140.0,
+            195.0,
+            250.0,
+            305.0,
+            360.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRange": [
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 14474,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_APRatio",
+                  "type": "APRatio",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "Spell_VeigarDarkMatter_Cooldown",
+            "keyName": "Spell_VeigarDarkMatter_Name",
+            "keySummary": "Spell_VeigarDarkMatter_Summary",
+            "keyTooltip": "Spell_VeigarDarkMatter_Tooltip",
+            "keyTooltipExtended": "Spell_VeigarDarkMatter_TooltipExtended"
+          },
+          "mObjectName": "VeigarDarkMatter",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        -1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarDarkMatter.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0,
+        85.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarDarkMatterCastLockout": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 128,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "VeigarDarkMatterCastLockout",
+    "mScriptName": "VeigarDarkMatterCastLockout",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRange": [
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0,
+        950.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 14474,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Veigar/Spells/VeigarDarkMatterAbility/VeigarDarkMatter",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            70.0,
+            120.0,
+            170.0,
+            220.0,
+            270.0,
+            320.0,
+            370.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarDarkMatter.dds"
+      ],
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "missileSpeed": 20.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarEquilibrium": {
+    "ObjectName": "VeigarEquilibrium",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VeigarEquilibrium",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "VeigarEquilibrium",
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarEventHorizonAbility": {
+    "AbilityTraits": 6144,
+    "mChildSpells": [
+      "Characters/Veigar/Spells/VeigarEventHorizonAbility/VeigarEventHorizon"
+    ],
+    "mName": "VeigarEventHorizonAbility",
+    "mRootSpell": "Characters/Veigar/Spells/VeigarEventHorizonAbility/VeigarEventHorizon",
+    "~class": "AbilityObject"
+  },
+  "Characters/Veigar/Spells/VeigarEventHorizonAbility/VeigarEventHorizon": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 1,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 1,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "VeigarEventHorizon",
+    "mScriptName": "VeigarEventHorizon",
+    "mSpell": {
+      "0xf9c2333e": {
+        "0xa110bc47": {
+          "value": [
+            23.0,
+            23.0,
+            21.5,
+            20.0,
+            18.5,
+            17.0,
+            17.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        "0xbffdf499": {
+          "value": [
+            23.0,
+            23.0,
+            21.5,
+            20.0,
+            18.5,
+            17.0,
+            17.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        "ARAM": {
+          "value": [
+            23.0,
+            23.0,
+            21.5,
+            20.0,
+            18.5,
+            17.0,
+            17.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        "cherry": {
+          "value": [
+            23.0,
+            23.0,
+            21.5,
+            20.0,
+            18.5,
+            17.0,
+            17.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 20.15999984741211,
+      "castRadius": [
+        390.0,
+        390.0,
+        390.0,
+        390.0,
+        390.0,
+        390.0,
+        390.0
+      ],
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "castRangeDisplayOverride": [
+        725.0,
+        725.0,
+        725.0,
+        725.0,
+        725.0,
+        725.0,
+        725.0
+      ],
+      "cooldownTime": [
+        20.0,
+        20.0,
+        18.5,
+        17.0,
+        15.5,
+        14.0,
+        14.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "VeigarEventHorizon",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_StunDuration",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VeigarEventHorizon_Name",
+            "keySummary": "Spell_VeigarEventHorizon_Summary",
+            "keyTooltip": "Spell_VeigarEventHorizon_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_VeigarEventHorizon_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "VeigarEventHorizon",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mEffectAmount": [
+        {
+          "value": [
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25,
+            2.5,
+            2.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+      "mImgIconName": [
+        "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarEventHorizon.dds"
+      ],
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        70.0,
+        75.0,
+        80.0,
+        85.0,
+        90.0,
+        95.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarEventHorizonStun": {
+    "ObjectName": "VeigarEventHorizonStun",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Stun",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VeigarEventHorizonStun",
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Veigar/Spells/VeigarPassiveAbility/VeigarPassive"
+    ],
+    "mName": "VeigarPassiveAbility",
+    "mRootSpell": "Characters/Veigar/Spells/VeigarPassiveAbility/VeigarPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Veigar/Spells/VeigarPassiveAbility/VeigarPassive": {
+    "ObjectName": "VeigarPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_VeigarPassive",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "VeigarPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "dQKillStacks",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "dAbilityStacks",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "dTakedownStacks",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "dQKillStacksLarge",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PStacksPerDarkMatterCDR",
+          "mValues": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DarkMatterCDRIncrement",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xa110bc47": {
+          "SpellDataValues": [
+            {
+              "mName": "dQKillStacks",
+              "mValues": [
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "dAbilityStacks",
+              "mValues": [
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0,
+                2.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "dTakedownStacks",
+              "mValues": [
+                10.0,
+                10.0,
+                10.0,
+                10.0,
+                10.0,
+                10.0,
+                10.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "dQKillStacksLarge",
+              "mValues": [
+                6.0,
+                6.0,
+                6.0,
+                6.0,
+                6.0,
+                6.0,
+                6.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "dTakedownStacks",
+              "mValues": [
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "dTakedownStacks",
+              "mValues": [
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_VeigarPassive_Name",
+            "keySummary": "Spell_VeigarPassive_Summary",
+            "keyTooltip": "Spell_VeigarPassive_Tooltip",
+            "keyTooltipExtended": "Spell_VeigarPassive_TooltipExtended"
+          },
+          "mObjectName": "VeigarPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Veigar/HUD/Icons2D/Veigar_Entropy.dds"
+      ],
+      "mSpellCalculations": {
+        "APPerStack": {
+          "mFormulaParts": [
+            {
+              "mNumber": 1.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarPhenomenalEvilPower": {
+    "ObjectName": "VeigarPhenomenalEvilPower",
+    "mBuff": {
+      "mBuffAttributeFlag": 8,
+      "mDescription": "game_buff_tooltip_VeigarPhenomentalEvilPower",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "VeigarPhenomenalEvilPower",
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarRAbility": {
+    "mChildSpells": [
+      "Characters/Veigar/Spells/VeigarRAbility/VeigarR"
+    ],
+    "mName": "VeigarRAbility",
+    "mRootSpell": "Characters/Veigar/Spells/VeigarRAbility/VeigarR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Veigar/Spells/VeigarRAbility/VeigarR": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "MaxDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "VeigarR",
+    "mScriptName": "VeigarR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.6000000238418579,
+            0.6499999761581421,
+            0.699999988079071,
+            0.75,
+            0.800000011920929,
+            0.8500000238418579,
+            0.8999999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            100.0,
+            175.0,
+            250.0,
+            325.0,
+            400.0,
+            475.0,
+            550.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxExecuteMult",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.960000038146973,
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        100.0,
+        100.0,
+        80.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 4106,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_APRatio",
+                  "type": "APRatio",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_VeigarR_Name",
+            "keySummary": "Spell_VeigarR_Summary",
+            "keyTooltip": "Spell_VeigarR_Tooltip"
+          },
+          "mObjectName": "VeigarR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_LAYOUT_LOC",
+      "mImgIconName": [
+        "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarPrimordialBurst.dds"
+      ],
+      "mMissileEffectKey": "Veigar_R_mis_blank",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mAcceleration": 4000.0,
+          "mInitialSpeed": 500.0,
+          "mMaxSpeed": 4000.0,
+          "mMinSpeed": 500.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "L_hand",
+          "mStartBoneSkinOverrides": {
+            "60": "C_Staff_Head_Bottom_Mouth"
+          },
+          "mTargetHeightAugment": 100.0,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "MaxDamage": {
+          "mModifiedGameCalculation": "MinDamage",
+          "mMultiplier": {
+            "mNumber": 2.0,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "MinDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Veigar/Spells/VeigarStun": {
+    "ObjectName": "VeigarStun",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Stun",
+      "~class": "BuffData"
+    },
+    "mScriptName": "VeigarStun",
+    "~class": "SpellObject"
+  }
+}

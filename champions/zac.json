@@ -1,0 +1,3591 @@
+{
+  "0x27653256": {
+    "ObjectName": "ZacQRecast",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacQMissile",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacQRecast",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "bIsToggleSpell": true,
+      "castFrame": 10.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "cooldownTime": [
+        13.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ZacQ",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.33000001311302185,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                825.0,
+                825.0,
+                825.0,
+                825.0,
+                825.0,
+                825.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                825.0,
+                825.0,
+                825.0,
+                825.0,
+                825.0,
+                825.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.30000001192092896,
+      "mCoefficient2": 0.02500000037252903,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            40.0,
+            55.0,
+            70.0,
+            85.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            -0.6000000238418579,
+            -0.6000000238418579,
+            -0.6000000238418579,
+            -0.6000000238418579,
+            -0.6000000238418579,
+            -0.6000000238418579,
+            -0.6000000238418579
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Zac/HUD/Icons2D/ZacQ.dds"
+      ],
+      "mLineWidth": 120.0,
+      "mSpellCooldownOrSealedQueueThreshold": 0.30000001192092896,
+      "mSpellTags": [
+        "Trait_AttackReset"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x45a34608": {
+    "ObjectName": "ZacQAttack",
+    "mScriptName": "ZacQAttack",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.744999885559082,
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3399999737739563,
+      "delayTotalTimePercent": -0.19999998807907104,
+      "mAffectsTypeFlags": 6831,
+      "mAnimationName": "",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.33000001311302185,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLocKeys": {
+            "keyName": "game_spell_displayname_ZacQAttack"
+          },
+          "mObjectName": "ZacQAttack",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mSpellTags": [
+        "PositiveEffect_EmpowerAttack",
+        "Trait_AttackReset"
+      ],
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x4e1e94a3": {
+    "catalogEntry": {
+      "contentId": "d7b8cdee-5c1c-40c7-9ba4-c44fb77587a0",
+      "itemID": 66600173,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x6c74e50d",
+      "0xcbca38ca",
+      "0x5a2e7cf7"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x52fe2b21": {
+    "ObjectName": "ZacEMove",
+    "mScriptName": "ZacEMove",
+    "~class": "SpellObject"
+  },
+  "0x5a2e7cf7": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "1677ae19-3d7c-4336-bc4d-14423a0dc3c4",
+      "itemID": 125458,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "ZacStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x5b31a13b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      35,
+      70,
+      85,
+      100,
+      40
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4e6f59a6-7441-462e-841d-0e205b8d8721",
+      "itemID": 126340,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_ZacWMultihits",
+    "mNameTraKey": "stat_stone_name_ZacWMultihits",
+    "stoneName": "ZacWMultihits",
+    "~class": "StatStoneData"
+  },
+  "0x61d14c3e": {
+    "ObjectName": "ZacQMissileRecast",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacQMissile",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacQMissileRecast",
+    "mSpell": {
+      "castRange": [
+        951.0,
+        951.0,
+        951.0,
+        951.0,
+        951.0,
+        951.0,
+        951.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "SadMummy_BandageFlinger.dds"
+      ],
+      "mLineWidth": 80.0,
+      "mMissileEffectKey": "Zac_Q_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mSpeed": 2800.0,
+          "mStartBoneName": "R_Buffbone_Glb_Hand_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "missileSpeed": 2800.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x6771dc74": {
+    "ObjectName": "ZacQMissile",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacQMissile",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacQMissile",
+    "mSpell": {
+      "castRange": [
+        951.0,
+        951.0,
+        951.0,
+        951.0,
+        951.0,
+        951.0,
+        951.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "SadMummy_BandageFlinger.dds"
+      ],
+      "mLineWidth": 80.0,
+      "mMissileEffectKey": "Zac_Q_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mSpeed": 2800.0,
+          "mStartBoneName": "R_Buffbone_Glb_Hand_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "missileSpeed": 2800.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x6c74e50d": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "32708176-1dad-49e3-b4ed-c1e821a04969",
+      "itemID": 125456,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "ZacEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x9bb7442f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7,
+      15,
+      35,
+      40,
+      50,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "36b3644e-7654-46e4-8094-dc1e6ff4186f",
+      "itemID": 7227,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_ZacRMultihits",
+    "mNameTraKey": "stat_stone_name_ZacRMultihits",
+    "stoneName": "ZacRMultihits",
+    "~class": "StatStoneData"
+  },
+  "0xc53c0563": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          1,
+          0,
+          2,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          1,
+          0,
+          2,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "utility",
+        "mDefaultPriority": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xcbca38ca": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "710d5849-e253-4b0f-b997-2a3280a77c18",
+      "itemID": 125457,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "ZacTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xd9ede7ee": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      400,
+      1000,
+      2000,
+      2500,
+      3000,
+      1000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "045b907c-e924-431d-8015-e347d01e74e9",
+      "itemID": 296,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_ZacP1Pickups",
+    "mNameTraKey": "stat_stone_name_ZacP1Pickups",
+    "stoneName": "ZacP1Pickups",
+    "~class": "StatStoneData"
+  },
+  "0xdbfe9afc": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      50,
+      100,
+      125,
+      150,
+      60
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "30829712-82d8-4730-9066-e3fcb7204ace",
+      "itemID": 126339,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_ZacLockdown",
+    "mNameTraKey": "stat_stone_name_ZacLockdown",
+    "stoneName": "ZacLockdown",
+    "~class": "StatStoneData"
+  },
+  "0xe2b2671f": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      40,
+      80,
+      95,
+      125,
+      45
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "1a45ea69-f609-4b54-ba9a-91cea5b3ee06",
+      "itemID": 126499,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_ZacRMultiTracker",
+    "mNameTraKey": "stat_stone_name_ZacRMultiTracker",
+    "stoneName": "ZacRMultiTracker",
+    "~class": "StatStoneData"
+  },
+  "0xe476cd3b": {
+    "catalogEntry": {
+      "contentId": "62570518-0603-420f-a988-948369df2089",
+      "itemID": 66600139,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x9bb7442f",
+      "0xff8b8d49",
+      "0xd9ede7ee",
+      "0xe2b2671f"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xe576cece": {
+    "catalogEntry": {
+      "contentId": "d09d1b0e-75ff-4474-afad-7a253be6c0da",
+      "itemID": 66600518,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xed7a257b",
+      "0x5b31a13b",
+      "0xdbfe9afc"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xed7a257b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7,
+      20,
+      35,
+      45,
+      55,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "fdc5c707-5ee1-4fff-a6fb-3360d58ff316",
+      "itemID": 126338,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_ZacQStuns",
+    "mNameTraKey": "stat_stone_name_ZacQStuns",
+    "stoneName": "ZacQStuns",
+    "~class": "StatStoneData"
+  },
+  "0xff8b8d49": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      35,
+      75,
+      90,
+      100,
+      45
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "52bdc409-d50a-459e-80a8-ddf9f62b6aef",
+      "itemID": 295,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_ZacMaxEHits",
+    "mNameTraKey": "stat_stone_name_ZacMaxEHits",
+    "stoneName": "ZacMaxEHits",
+    "~class": "StatStoneData"
+  },
+  "Characters/Zac/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Zac/Spells/ZacETimingMissile",
+      "0x45a34608",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 400.0,
+    "armorPerLevel": 4.699999809265137,
+    "attackRange": 175.0,
+    "attackSpeed": 0.7360000014305115,
+    "attackSpeedPerLevel": 1.600000023841858,
+    "attackSpeedRatio": 0.6380000114440918,
+    "baseArmor": 33.0,
+    "baseDamage": 60.0,
+    "baseHP": 685.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 32.0,
+    "basicAttack": {
+      "mAttackCastTime": 0.3630000054836273,
+      "mAttackProbability": 0.5,
+      "mAttackTotalTime": 1.5679999589920044,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "attackRank": 3,
+      "championId": 154,
+      "classification": "Deadly",
+      "defenseRank": 7,
+      "description": "game_character_description_Zac",
+      "difficultyRank": 8,
+      "magicRank": 7,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "+40% Mana Point regeneration.",
+        "+60% Mana Point regeneration.",
+        "+80% Mana Point regeneration."
+      ],
+      "passiveData": [
+        {
+          "effect": [
+            "0.2",
+            "0.4",
+            "0.6",
+            "0.8"
+          ],
+          "level": [
+            3,
+            7,
+            11,
+            15
+          ],
+          "name": "game_character_passiveName_Zac",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "TANK",
+      "searchTags": "tank",
+      "searchTagsSecondary": "fighter",
+      "spellData": [
+        {
+          "desc": "Jax's greatest talent lies in his ability to grow stronger with every attack. Each successive attack increases his attack speed temporarily, and every 4th blow will devastate his target.",
+          "displayName": "Relentless Assault",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Jax's greatest talent lies in his ability to grow stronger with every attack. Each successive attack increases his attack speed temporarily, and every 4th blow will devastate his target.",
+          "displayName": "Relentless Assault",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Jax's greatest talent lies in his ability to grow stronger with every attack. Each successive attack increases his attack speed temporarily, and every 4th blow will devastate his target.",
+          "displayName": "Relentless Assault",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Jax's greatest talent lies in his ability to grow stronger with every attack. Each successive attack increases his attack speed temporarily, and every 4th blow will devastate his target.",
+          "displayName": "Relentless Assault",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.3630000054836273,
+        "mAttackName": "ZacCritAttack",
+        "mAttackTotalTime": 1.5679999589920044,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.4000000953674316,
+    "extraAttacks": [
+      {
+        "mAttackName": "ZacBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "ZacETimingMissile",
+      "ZacQAttack",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "healthBarHeight": 113.0,
+    "hpPerLevel": 109.0,
+    "hpRegenPerLevel": 0.10000000149011612,
+    "mAbilities": [
+      "Characters/Zac/Spells/ZacRAbility",
+      "Characters/Zac/Spells/ZacQAbility",
+      "Characters/Zac/Spells/ZacWAbility",
+      "Characters/Zac/Spells/ZacEAbility",
+      "Characters/Zac/Spells/ZacPassiveChunkDropAbility"
+    ],
+    "mAbilitySlotCC": [
+      14,
+      0,
+      8,
+      8
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Zac",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Zac/Spells/ZacPassiveSpawnChunk",
+          "Characters/Zac/Spells/ZacGooMove",
+          "Characters/Zac/Spells/ZacWCDRMath"
+        ],
+        "mParentPassiveBuff": "Characters/Zac/Spells/ZacPassiveChunkDropAbility/ZacPassiveChunkDrop",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mComponentBuffs": [
+          "Characters/Zac/Spells/ZacRebirthReady"
+        ],
+        "mParentPassiveBuff": "Characters/Zac/Spells/ZacRebirth",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Characters/Zac/Spells/ZacSizeScale",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Shared/Spells/GlobalRunCycleManager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Zac/Spells/ZacPassiveChunkDropAbility/ZacPassiveChunkDrop",
+    "mEducationToolData": {
+      "firstItem": 1054,
+      "skillOrder": 1,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NullifyingOrb",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Precision/PresenceOfMind",
+          "mReplaceWith": "Perks/Styles/Precision/Triumph",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Resolve",
+    "name": "game_character_displayname_Zac",
+    "overrideGameplayCollisionRadius": 80.0,
+    "passive1IconName": "ASSETS/Characters/Zac/HUD/Icons2D/ZacPassive.dds",
+    "passiveLuaName": "ZacPassiveChunkDrop",
+    "passiveName": "game_character_passiveName_Zac",
+    "passiveSpell": "ZacPassiveChunkDrop",
+    "passiveToolTip": "game_character_passiveDescription_Zac",
+    "pathfindingCollisionRadius": 43.07490158081055,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 100.0,
+    "selectionRadius": 140.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "ZacQAbility/ZacQ",
+      "ZacWAbility/ZacW",
+      "ZacEAbility/ZacE",
+      "ZacRAbility/ZacR"
+    ],
+    "spells": [
+      "Characters/Zac/Spells/ZacQAbility/ZacQ",
+      "Characters/Zac/Spells/ZacWAbility/ZacW",
+      "Characters/Zac/Spells/ZacEAbility/ZacE",
+      "Characters/Zac/Spells/ZacRAbility/ZacR"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "ZacBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Zac/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Zac/Spells/ZacBasicAttack": {
+    "ObjectName": "ZacBasicAttack",
+    "mScriptName": "ZacBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.744999885559082,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.27399998903274536,
+      "delayTotalTimePercent": -0.2160000205039978,
+      "mAffectsTypeFlags": 512,
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Zac_BA_tar",
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacBasicAttack2": {
+    "ObjectName": "ZacBasicAttack2",
+    "mScriptName": "ZacBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.569999694824219,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.27399998903274536,
+      "delayTotalTimePercent": -0.2160000205039978,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Zac_BA_tar",
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacCritAttack": {
+    "ObjectName": "ZacCritAttack",
+    "mScriptName": "ZacCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.149999618530273,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.27399998903274536,
+      "delayTotalTimePercent": -0.2160000205039978,
+      "mAffectsTypeFlags": 512,
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Zac_BA_tar",
+      "missileSpeed": 1000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacEAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Zac/Spells/ZacEAbility/ZacE"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "ZacEAbility",
+    "mRootSpell": "Characters/Zac/Spells/ZacEAbility/ZacE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Zac/Spells/ZacEAbility/ZacE": {
+    "ObjectName": "ZacE",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacE",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacE",
+    "mSpell": {
+      "0x8958fee2": {
+        "0x79a2e7aa": 0.30000001192092896,
+        "0xffcbd9e2": 0.15000000596046448,
+        "~class": "0x8958fee2"
+      },
+      "0xf4ca428f": 2,
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRangeDisplayOverride": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        25.0,
+        22.0,
+        19.0,
+        16.0,
+        13.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ZacE",
+      "mAnimationName": "Spell3_windup",
+      "mCantCancelWhileWindingUp": true,
+      "mCastRangeGrowthDuration": [
+        0.8999999761581421,
+        1.0,
+        1.100000023841858,
+        1.2000000476837158,
+        1.2999999523162842,
+        0.0,
+        0.10000000149011612
+      ],
+      "mCastRangeGrowthMax": [
+        1200.0,
+        1350.0,
+        1500.0,
+        1650.0,
+        1800.0,
+        0.0,
+        150.0
+      ],
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        0.800000011920929,
+        0.8999999761581421,
+        1.0,
+        1.100000023841858,
+        1.2000000476837158,
+        1.2999999523162842,
+        1.399999976158142
+      ],
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hasMaxGrowRange": true,
+            "rangeGrowthDuration": {
+              "mPerLevelValues": [
+                0.8999999761581421,
+                1.0,
+                1.100000023841858,
+                1.2000000476837158,
+                1.2999999523162842,
+                1.399999976158142
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "rangeGrowthMax": {
+              "mPerLevelValues": [
+                1250.0,
+                1400.0,
+                1575.0,
+                1750.0,
+                1900.0,
+                2050.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureMaxGrowName": "ASSETS/Characters/Zac/HUD/Textures/QuarterCircle_Dark.tex",
+            "textureOrientation": 1,
+            "textureOverrideName": "ASSETS/Characters/Zac/HUD/QuarterCircle.tex",
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionMinimap"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                1225.0,
+                1375.0,
+                1550.0,
+                1725.0,
+                1875.0,
+                1875.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                240.0,
+                240.0,
+                240.0,
+                240.0,
+                240.0,
+                240.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Range",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_ZacE_Cost",
+            "keyName": "Spell_ZacE_Name",
+            "keySummary": "Spell_ZacE_Summary",
+            "keyTooltip": "Spell_ZacE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ZacE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ZacE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mDimensionBehavior": 1,
+      "mDisableCastBar": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            60.0,
+            60.0,
+            105.0,
+            150.0,
+            195.0,
+            240.0,
+            240.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1050.0,
+            1200.0,
+            1350.0,
+            1500.0,
+            1650.0,
+            1800.0,
+            1950.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.800000011920929,
+            0.8999999761581421,
+            1.0,
+            1.100000023841858,
+            1.2000000476837158,
+            1.2999999523162842,
+            1.399999976158142
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0,
+            1350.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            265.0,
+            265.0,
+            265.0,
+            265.0,
+            265.0,
+            265.0,
+            265.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Zac/HUD/Icons2D/ZacE.dds"
+      ],
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.800000011920929,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "HealthCostTooltip": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mPart1": {
+                "mEffectIndex": 2,
+                "~class": "EffectValueCalculationPart"
+              },
+              "mPart2": {
+                "mPart1": {
+                  "mCoefficient": 1.0,
+                  "mStat": 12,
+                  "~class": "StatByCoefficientCalculationPart"
+                },
+                "mPart2": {
+                  "mCoefficient": 1.0,
+                  "mStat": 14,
+                  "~class": "StatByCoefficientCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculation"
+        },
+        "MaxStun": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mPart1": {
+                "mEffectIndex": 5,
+                "~class": "EffectValueCalculationPart"
+              },
+              "mPart2": {
+                "mNumber": 2.0,
+                "~class": "NumberCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.30000001192092896,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mUseChargeChanneling": true,
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacEHitStun": {
+    "ObjectName": "ZacEHitStun",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacEHitStun",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacEHitStun",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacETimingMissile": {
+    "ObjectName": "ZacETimingMissile",
+    "mScriptName": "ZacETimingMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 4.545000076293945,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3000.0
+      ],
+      "castRangeDisplayOverride": [
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 100.0,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            80.0,
+            135.0,
+            190.0,
+            245.0,
+            300.0,
+            355.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            2.0,
+            2.25,
+            2.5,
+            2.75,
+            3.0,
+            3.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+      "mImgIconName": [
+        "FallenAngel_DarkBinding.dds"
+      ],
+      "mLineWidth": 70.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1000.0,
+          "mStartBoneName": "R_hand",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0
+      ],
+      "missileSpeed": 1000.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacGooMove": {
+    "ObjectName": "ZacGooMove",
+    "mScriptName": "ZacGooMove",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacPassiveChunkDropAbility": {
+    "AbilityTraits": 16,
+    "mChildSpells": [
+      "Characters/Zac/Spells/ZacPassiveChunkDropAbility/ZacPassiveChunkDrop"
+    ],
+    "mName": "ZacPassiveChunkDropAbility",
+    "mRootSpell": "Characters/Zac/Spells/ZacPassiveChunkDropAbility/ZacPassiveChunkDrop",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Zac/Spells/ZacPassiveChunkDropAbility/ZacPassiveChunkDrop": {
+    "ObjectName": "ZacPassiveChunkDrop",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacPassiveChunkDrop",
+      "mFloatVarsDecimals": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacPassiveChunkDrop",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ReviveCooldown",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "URF": {
+          "SpellDataValues": [
+            {
+              "mName": "ReviveCooldown",
+              "mValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "Cooldown",
+              "mValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "cooldownTime": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyCooldown": "Spell_Cooldown_Generic",
+            "keyName": "Spell_ZacPassiveChunkDrop_Name",
+            "keySummary": "",
+            "keyTooltip": "Spell_ZacPassiveChunkDrop_Tooltip",
+            "keyTooltipExtended": "Spell_ZacPassiveChunkDrop_TooltipExtended"
+          },
+          "mObjectName": "ZacPassiveChunkDrop",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Zac/HUD/Icons2D/ZacPassive.dds"
+      ],
+      "mSpellCalculations": {
+        "HealPercent": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.07999999821186066,
+              "mStartValue": 0.03999999910593033,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        },
+        "ReviveBlobletDuration": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": -1.0,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -1.0,
+                  "mLevel": 10,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -1.0,
+                  "mLevel": 13,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -1.0,
+                  "mLevel": 17,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 8.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalHeal": {
+          "mModifiedGameCalculation": "HealPercent",
+          "mMultiplier": {
+            "mCoefficient": 1.0,
+            "mStat": 12,
+            "~class": "StatByCoefficientCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacPassiveSpawnChunk": {
+    "ObjectName": "ZacPassiveSpawnChunk",
+    "mScriptName": "ZacPassiveSpawnChunk",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacQAbility": {
+    "AbilityTraits": 2560,
+    "mChildSpells": [
+      "Characters/Zac/Spells/ZacQAbility/ZacQ",
+      "0x6771dc74",
+      "0x45a34608",
+      "0x61d14c3e",
+      "0x27653256"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "ZacQAbility",
+    "mRootSpell": "Characters/Zac/Spells/ZacQAbility/ZacQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Zac/Spells/ZacQAbility/ZacQ": {
+    "ObjectName": "ZacQ",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacQMissile",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacQ",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "bIsToggleSpell": true,
+      "castFrame": 10.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "cooldownTime": [
+        14.0,
+        14.0,
+        12.5,
+        11.0,
+        9.5,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ZacQ",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.33000001311302185,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                825.0,
+                825.0,
+                825.0,
+                825.0,
+                825.0,
+                825.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                825.0,
+                825.0,
+                825.0,
+                825.0,
+                825.0,
+                825.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_ZacQ_Cost",
+            "keyName": "Spell_ZacQ_Name",
+            "keySummary": "Spell_ZacQ_Summary",
+            "keyTooltip": "Spell_ZacQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ZacQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ZacQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.30000001192092896,
+      "mCoefficient2": 0.029999999329447746,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            40.0,
+            55.0,
+            70.0,
+            85.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Zac/HUD/Icons2D/ZacQ.dds"
+      ],
+      "mLineWidth": 120.0,
+      "mSpellCalculations": {
+        "HealthCostTooltip": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mPart1": {
+                "mEffectIndex": 2,
+                "~class": "EffectValueCalculationPart"
+              },
+              "mPart2": {
+                "mPart1": {
+                  "mCoefficient": 1.0,
+                  "mStat": 12,
+                  "~class": "StatByCoefficientCalculationPart"
+                },
+                "mPart2": {
+                  "mCoefficient": 1.0,
+                  "mStat": 14,
+                  "~class": "StatByCoefficientCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculation"
+        },
+        "MaxDamageTooltip": {
+          "mFormulaParts": [
+            {
+              "mPart1": {
+                "mSpellCalculationKey": "TotalDamage",
+                "~class": "0xf3cbe7b2"
+              },
+              "mPart2": {
+                "mNumber": 2.0,
+                "~class": "NumberCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.30000001192092896,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 0.029999999329447746,
+              "mStat": 12,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.30000001192092896,
+      "mSpellTags": [
+        "Trait_AttackReset",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacRAbility": {
+    "AbilityTraits": 2562,
+    "mChildSpells": [
+      "Characters/Zac/Spells/ZacRAbility/ZacR"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "ZacRAbility",
+    "mRootSpell": "Characters/Zac/Spells/ZacRAbility/ZacR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Zac/Spells/ZacRAbility/ZacR": {
+    "ObjectName": "ZacR",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacR",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ZacR_Name",
+          "keyTooltip": "Buff_ZacR_Tooltip"
+        },
+        "mObjectName": "ZacR",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Bounces",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TimeBetweenBounces",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockupDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamageBounce",
+          "mValues": [
+            70.0,
+            140.0,
+            210.0,
+            280.0,
+            350.0,
+            420.0,
+            490.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageReductionBounce",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockbackDistance",
+          "mValues": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockbackRange",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BeginningMS",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EndingMS",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BounceAPRatioTooltip",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "AdditionalChunkHealing",
+              "mValues": [
+                0.0,
+                0.5,
+                1.0,
+                1.5,
+                2.0,
+                2.5,
+                3.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRangeDisplayOverride": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        105.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ZacR",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastRangeGrowthDuration": [
+        1.2999999523162842,
+        1.2999999523162842,
+        1.2999999523162842,
+        1.2999999523162842,
+        1.2999999523162842,
+        1.2999999523162842,
+        1.2999999523162842
+      ],
+      "mCastRangeGrowthMax": [
+        700.0,
+        700.0,
+        850.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "mCastTime": 0.30000001192092896,
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        1.100000023841858,
+        1.100000023841858,
+        1.100000023841858,
+        1.100000023841858,
+        1.100000023841858,
+        1.100000023841858,
+        1.100000023841858
+      ],
+      "mChannelIsInterruptedByAttacking": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ZacR_LevelUp_Damage",
+                  "type": "BaseDamageBounce",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_ZacR_Name",
+            "keySummary": "Spell_ZacR_Summary",
+            "keyTooltip": "Spell_ZacR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ZacR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ZacR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mDoNotNeedToFaceTarget": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            150.0,
+            150.0,
+            250.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            700.0,
+            700.0,
+            850.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.4000000059604645,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0,
+            275.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Zac/HUD/Icons2D/ZacR.dds"
+      ],
+      "mSpellCalculations": {
+        "DamagePerBounce": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageBounce",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "BounceAPRatioTooltip",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "DamagePerSubsequentBounce": {
+          "mModifiedGameCalculation": "DamagePerBounce",
+          "mMultiplier": {
+            "mDataValue": "DamageReductionBounce",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "DurationTooltip": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mPart1": {
+                "mDataValue": "TimeBetweenBounces",
+                "~class": "NamedDataValueCalculationPart"
+              },
+              "mPart2": {
+                "mSubparts": [
+                  {
+                    "mDataValue": "Bounces",
+                    "~class": "NamedDataValueCalculationPart"
+                  },
+                  {
+                    "mNumber": -1.0,
+                    "~class": "NumberCalculationPart"
+                  }
+                ],
+                "~class": "SumOfSubPartsCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculation"
+        },
+        "MaxDamageTooltip": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mDataValue": "BounceAPRatioTooltip",
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "BaseDamageBounce",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mPart1": {
+                "mPart1": {
+                  "mSubparts": [
+                    {
+                      "mDataValue": "BaseDamageBounce",
+                      "~class": "NamedDataValueCalculationPart"
+                    },
+                    {
+                      "mDataValue": "BounceAPRatioTooltip",
+                      "~class": "StatByNamedDataValueCalculationPart"
+                    }
+                  ],
+                  "~class": "SumOfSubPartsCalculationPart"
+                },
+                "mPart2": {
+                  "mDataValue": "DamageReductionBounce",
+                  "~class": "NamedDataValueCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              },
+              "mPart2": {
+                "mSubparts": [
+                  {
+                    "mDataValue": "Bounces",
+                    "~class": "NamedDataValueCalculationPart"
+                  },
+                  {
+                    "mNumber": -1.0,
+                    "~class": "NumberCalculationPart"
+                  }
+                ],
+                "~class": "SumOfSubPartsCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.30000001192092896,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ChannelSpell",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mUseChargeChanneling": true,
+      "missileSpeed": 1800.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacRKnockup": {
+    "ObjectName": "ZacRKnockup",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacRKnockup",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacRKnockup",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacRPickup": {
+    "ObjectName": "ZacRPickup",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacRPickup",
+      "mShowDuration": false,
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacRPickup",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacRebirth": {
+    "ObjectName": "ZacRebirth",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacRebirth",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacRebirth",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacRebirthActive": {
+    "ObjectName": "ZacRebirthActive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacRebirthActive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacRebirthActive",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacRebirthBlob": {
+    "ObjectName": "ZacRebirthBlob",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacRebirthActive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacRebirthBlob",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacRebirthCooldown": {
+    "ObjectName": "ZacRebirthCooldown",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacRebirthCooldown",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacRebirthCooldown",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacRebirthReady": {
+    "ObjectName": "ZacRebirthReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacRebirthReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacRebirthReady",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacSizeScale": {
+    "ObjectName": "ZacSizeScale",
+    "mScriptName": "ZacSizeScale",
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacWAbility": {
+    "mChildSpells": [
+      "Characters/Zac/Spells/ZacWAbility/ZacW"
+    ],
+    "mName": "ZacWAbility",
+    "mRootSpell": "Characters/Zac/Spells/ZacWAbility/ZacW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Zac/Spells/ZacWAbility/ZacW": {
+    "ObjectName": "ZacW",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ZacW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZacW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            30.0,
+            40.0,
+            50.0,
+            60.0,
+            70.0,
+            80.0,
+            90.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatioToPercentDamage",
+          "mValues": [
+            0.029999999329447746,
+            0.029999999329447746,
+            0.029999999329447746,
+            0.029999999329447746,
+            0.029999999329447746,
+            0.029999999329447746,
+            0.029999999329447746
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseMaxHealthDamage",
+          "mValues": [
+            0.029999999329447746,
+            0.03999999910593033,
+            0.05000000074505806,
+            0.05999999865889549,
+            0.07000000029802322,
+            0.07999999821186066,
+            0.09000000357627869
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealthPercentTooltip",
+          "mValues": [
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0,
+            9.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castFrame": 7.5,
+      "castRange": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "cooldownTime": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ZacW",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_FlatDamage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MaxHealthDamage",
+                  "type": "BaseMaxHealthDamage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_ZacW_Cost",
+            "keyName": "Spell_ZacW_Name",
+            "keySummary": "Spell_ZacW_Summary",
+            "keyTooltip": "Spell_ZacW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ZacW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "ZacW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.029999999329447746,
+      "mEffectAmount": [
+        {
+          "value": [
+            40.0,
+            40.0,
+            50.0,
+            60.0,
+            70.0,
+            80.0,
+            80.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.03999999910593033,
+            0.03999999910593033,
+            0.05000000074505806,
+            0.05999999865889549,
+            0.07000000029802322,
+            0.07999999821186066,
+            0.09000000357627869
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Zac/HUD/Icons2D/ZacW.dds"
+      ],
+      "mSpellCalculations": {
+        "DisplayPercentDamage": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "HealthPercentTooltip",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatioToPercentDamage",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mNumber": 0.009999999776482582,
+            "~class": "NumberCalculationPart"
+          },
+          "mPrecision": 1,
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "TooltipHealthCost": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mPart1": {
+                "mEffectIndex": 2,
+                "~class": "EffectValueCalculationPart"
+              },
+              "mPart2": {
+                "mPart1": {
+                  "mCoefficient": 1.0,
+                  "mStat": 12,
+                  "~class": "StatByCoefficientCalculationPart"
+                },
+                "mPart2": {
+                  "mCoefficient": 1.0,
+                  "mStat": 14,
+                  "~class": "StatByCoefficientCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.10000000149011612,
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zac/Spells/ZacWCDRMath": {
+    "ObjectName": "ZacWCDRMath",
+    "mScriptName": "ZacWCDRMath",
+    "~class": "SpellObject"
+  }
+}

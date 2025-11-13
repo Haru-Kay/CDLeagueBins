@@ -1,0 +1,198 @@
+{
+  "Characters/LuxIce/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Lux/Spells/LuxLightStrikeKugelAbility/LuxLightstrikeToggle",
+      "Characters/Lux/Spells/LuxLightBindingAbility/LuxLightBindingMis",
+      "Characters/Lux/Spells/LuxRMis",
+      "Characters/Lux/Spells/LuxPrismaticWaveAbility/LuxPrismaticWaveMissile",
+      "Characters/Lux/Spells/LuxLightBindingAbility/LuxLightBindingDummy",
+      "Characters/Lux/Spells/LuxRAbility/LuxRVfxMis",
+      "Characters/Lux/Spells/LuxPrismaticWaveAbility/LuxPrismaticWaveReturn",
+      "Characters/Lux/Spells/LuxPrismaticWaveAbility/LuxPrismaticWaveReturnDead",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 625.0,
+    "armorPerLevel": 5.199999809265137,
+    "attackRange": 550.0,
+    "attackSpeed": 0.6690000295639038,
+    "attackSpeedPerLevel": 3.0,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 21.0,
+    "baseDamage": 54.0,
+    "baseHP": 580.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.100000023841858,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.14374999701976776,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "attackRank": 2,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 99,
+      "classification": "Arcane",
+      "defenseRank": 4,
+      "description": "game_character_description_Lux",
+      "difficultyRank": 5,
+      "magicRank": 9,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "roles": "SUPPORT",
+      "searchTags": "mage",
+      "searchTagsSecondary": "support",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.14374999701976776,
+        "mAttackName": "LuxCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.299999952316284,
+    "extraAttacks": [
+      {
+        "mAttackName": "LuxBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "LuxLightstrikeToggle",
+      "LuxLightBindingMis",
+      "LuxRMis",
+      "LuxPrismaticWaveMissile",
+      "LuxLightBindingDummy",
+      "LuxRVfxMis",
+      "LuxPrismaticWaveReturn",
+      "LuxPrismaticWaveReturnDead",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8414464,
+    "hpPerLevel": 99.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Lux/Spells/LuxRAbility",
+      "Characters/Lux/Spells/LuxLightBindingAbility",
+      "Characters/Lux/Spells/LuxPrismaticWaveAbility",
+      "Characters/Lux/Spells/LuxLightStrikeKugelAbility",
+      "Characters/Lux/Spells/LuxIlluminationPassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      15,
+      0,
+      14,
+      0
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "LuxIce",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Lux/Spells/LuxIlluminationPassiveAbility/LuxIlluminationPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Characters/Lux/Spells/LuxRunCycleManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            7
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Lux/Spells/LuxUltimateSkinManager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Lux/Spells/LuxIlluminationPassiveAbility/LuxIlluminationPassive",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mFallbackCharacterName": "Lux",
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "name": "game_character_displayname_Lux",
+    "passive1IconName": "ASSETS/Characters/Lux/HUD/Icons2D/LuxIlluminatingFraulein.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_LuxIlluminationPassive_Name",
+    "passiveSpell": "LuxIlluminationPassive",
+    "passiveToolTip": "Spell_LuxIlluminationPassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "primaryAbilityResource": {
+      "arBase": 480.0,
+      "arBaseStaticRegen": 1.399999976158142,
+      "arPerLevel": 23.5,
+      "arRegenPerLevel": 0.1599999964237213,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 85.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "LuxLightBindingAbility/LuxLightBinding",
+      "LuxPrismaticWaveAbility/LuxPrismaticWave",
+      "LuxLightStrikeKugelAbility/LuxLightStrikeKugel",
+      "LuxRAbility/LuxR"
+    ],
+    "spells": [
+      "Characters/Lux/Spells/LuxLightBindingAbility/LuxLightBinding",
+      "Characters/Lux/Spells/LuxPrismaticWaveAbility/LuxPrismaticWave",
+      "Characters/Lux/Spells/LuxLightStrikeKugelAbility/LuxLightStrikeKugel",
+      "Characters/Lux/Spells/LuxRAbility/LuxR"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/LuxIce/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  }
+}

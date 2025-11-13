@@ -1,0 +1,110 @@
+{
+  "Characters/YorickBigGhoul/CharacterRecords/Root": {
+    "acquisitionRange": 700.0,
+    "attackRange": 600.0,
+    "attackSpeed": 1.0,
+    "baseArmor": 0.0,
+    "baseDamage": 0.0,
+    "baseHP": 750.0,
+    "baseMoveSpeed": 300.0,
+    "baseStaticHPRegen": 2.5,
+    "basicAttack": {
+      "mAttackCastTime": 0.25,
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.0,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "PARFadeColor": "0 0 0 0",
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.25,
+        "mAttackName": "YorickBigGhoulBasicAttack",
+        "mAttackTotalTime": 1.0,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "deathEventListeningRadius": 0.0,
+    "expGivenOnDeath": 0.0,
+    "flags": 8463616,
+    "goldGivenOnDeath": 50.0,
+    "healthBarHeight": 80.0,
+    "mCharacterName": "YorickBigGhoul",
+    "mFallbackCharacterName": "Yorick",
+    "minimapIconOverride": "YorickMaiden",
+    "overrideGameplayCollisionRadius": 20.0,
+    "pathfindingCollisionRadius": 40.0,
+    "primaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "arIncrements": 100.0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 90.0,
+    "selectionRadius": 90.0,
+    "significance": 0.5,
+    "unitTagsString": "Minion | Minion_Summon | Minion_Summon_Large",
+    "weaponMaterials": [
+      "YorickBigGhoulBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/YorickBigGhoul/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/YorickBigGhoul/Spells/YorickBigGhoulBasicAttack": {
+    "ObjectName": "YorickBigGhoulBasicAttack",
+    "mScriptName": "YorickBigGhoulBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeAngle": 0.0,
+      "castConeDistance": 0.0,
+      "castFrame": 10.0,
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 5375,
+      "mAnimationName": "",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "missileSpeed": 1200.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

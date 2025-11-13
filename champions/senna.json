@@ -1,0 +1,3916 @@
+{
+  "0x17c6619": {
+    "ObjectName": "SennaSkin56Form",
+    "mScriptName": "SennaSkin56Form",
+    "~class": "SpellObject"
+  },
+  "0x21492764": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "bottom",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "utility",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x348c0327": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      9,
+      15,
+      20,
+      25,
+      10
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ccc58387-c7f2-4d23-bbe6-836a6516063f",
+      "itemID": 310,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_SennaRTakedowns",
+    "mNameTraKey": "stat_stone_name_SennaRTakedowns",
+    "stoneName": "SennaRTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x53193d2": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "b2228446-b212-4c22-8a00-c6a7213d5d44",
+      "itemID": 125838,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "SennaStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x5abd34b8": {
+    "catalogEntry": {
+      "contentId": "23d729bd-2776-4d01-a770-832e860e210b",
+      "itemID": 66600473,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xeeaff3d6",
+      "0xf2c3deec",
+      "0xf72b025d"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x5dbd3971": {
+    "catalogEntry": {
+      "contentId": "39f88259-a1cb-4708-a95c-4fb847dd59d2",
+      "itemID": 66600350,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xaec69e3b",
+      "0xfbaa2ba0",
+      "0x348c0327"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x6a0e7d55": {
+    "catalogEntry": {
+      "contentId": "f8557383-aceb-4dd0-b6df-1d0af662a6b1",
+      "itemID": 66600354,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xaae979fa",
+      "0x53193d2",
+      "0x88995483"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x7c3a36ea": {
+    "ObjectName": "SennaSkin56Manager",
+    "mScriptName": "SennaSkin56Manager",
+    "mSpell": {
+      "mEffectAmount": [
+        {
+          "value": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            120.0,
+            120.0,
+            120.0,
+            120.0,
+            120.0,
+            120.0,
+            120.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x88995483": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "9238ea86-d0f0-441a-a2f6-af11c5dd1528",
+      "itemID": 125839,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "SennaTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xaae979fa": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "5c14b0f7-06cf-458c-866c-9678162c0565",
+      "itemID": 125837,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "SennaEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xaec69e3b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      200,
+      500,
+      975,
+      1000,
+      1500,
+      600
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "bc9659ca-7d97-40b3-8776-7ae9f8f14d70",
+      "itemID": 278,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_SennaPMistStacks",
+    "mNameTraKey": "stat_stone_name_SennaPMistStacks",
+    "stoneName": "SennaPMistStacks",
+    "~class": "StatStoneData"
+  },
+  "0xeeaff3d6": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      40,
+      95,
+      200,
+      225,
+      300,
+      125
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "9e858e09-49ec-4ea8-a08c-34db7b632b19",
+      "itemID": 126204,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_SennaWRoots",
+    "mNameTraKey": "stat_stone_name_SennaWRoots",
+    "stoneName": "SennaWRoots",
+    "~class": "StatStoneData"
+  },
+  "0xf2c3deec": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3000,
+      8000,
+      16000,
+      19000,
+      24000,
+      9500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "0e78e094-6f1b-4cc7-8756-0a3435333ae9",
+      "itemID": 126205,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_SennaRBlocks",
+    "mNameTraKey": "stat_stone_name_SennaRBlocks",
+    "stoneName": "SennaRBlocks",
+    "~class": "StatStoneData"
+  },
+  "0xf72b025d": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8,
+      20,
+      40,
+      50,
+      60,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4d7ff8be-be75-41b9-9faf-c0728a772ba6",
+      "itemID": 126203,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_SennaETakedowns",
+    "mNameTraKey": "stat_stone_name_SennaETakedowns",
+    "stoneName": "SennaETakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xfbaa2ba0": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      55,
+      100,
+      125,
+      175,
+      65
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "fa7ce997-70b3-4231-8973-20497d7f8ac6",
+      "itemID": 311,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_SennaQIndirectHits",
+    "mNameTraKey": "stat_stone_name_SennaQIndirectHits",
+    "stoneName": "SennaQIndirectHits",
+    "~class": "StatStoneData"
+  },
+  "Characters/Senna/CharacterRecords/Root": {
+    "acquisitionRange": 800.0,
+    "armorPerLevel": 4.0,
+    "attackRange": 600.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 2.5999999046325684,
+    "attackSpeedRatio": 0.4000000059604645,
+    "baseArmor": 25.0,
+    "baseDamage": 50.0,
+    "baseHP": 530.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 0.699999988079071,
+    "basicAttack": {
+      "mAttackCastTime": 0.550000011920929,
+      "mAttackDelayCastOffsetPercentAttackSpeedRatio": 0.6000000238418579,
+      "mAttackName": "SennaBasicAttack",
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.600000023841858,
+      "mOverrideAutoattackCastTime": {
+        "mOverrideAutoattackCastTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.3499999940395355,
+              "mScalePastDefaultMaxLevel": false,
+              "mStartValue": 0.5,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "OverrideAutoAttackCastTimeData"
+      },
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 3.0,
+      "attackRank": 7,
+      "championId": 235,
+      "defenseRank": 2,
+      "description": "game_character_description_Senna",
+      "difficultyRank": 7,
+      "magicRank": 6,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "level": [
+            1
+          ],
+          "name": "game_character_passiveName_Senna",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "ATTACKER",
+      "searchTags": "support",
+      "searchTagsSecondary": "marksman",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.550000011920929,
+        "mAttackDelayCastOffsetPercentAttackSpeedRatio": 0.6000000238418579,
+        "mAttackName": "SennaCritAttack",
+        "mAttackTotalTime": 1.600000023841858,
+        "mOverrideAutoattackCastTime": {
+          "mOverrideAutoattackCastTimeCalculation": {
+            "mFormulaParts": [
+              {
+                "mEndValue": 0.3499999940395355,
+                "mScalePastDefaultMaxLevel": false,
+                "mStartValue": 0.5,
+                "~class": "ByCharLevelInterpolationCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "~class": "OverrideAutoAttackCastTimeData"
+        },
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "SennaCritAttack2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "criticalAttack": "SennaCritAttack",
+    "deathEventListeningRadius": 2000.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "SennaBasicAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "SennaBasicAttack3",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "SennaBasicAttackSouls",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "healthBarHeight": 90.0,
+    "hpPerLevel": 89.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Senna/Spells/SennaRAbility",
+      "Characters/Senna/Spells/SennaQAbility",
+      "Characters/Senna/Spells/SennaWAbility",
+      "Characters/Senna/Spells/SennaEAbility",
+      "Characters/Senna/Spells/SennaPassiveAbility"
+    ],
+    "mCharacterName": "Senna",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Senna/Spells/SennaPassiveStacks"
+        ],
+        "mParentPassiveBuff": "Characters/Senna/Spells/SennaPassiveAbility/SennaPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mComponentBuffs": [
+          "Characters/Senna/Spells/SennaRunVisualBuff",
+          "Characters/Senna/Spells/SennaWalkVisualBuff",
+          "Characters/Senna/Spells/SennaHomeguardVisualBuff"
+        ],
+        "mParentPassiveBuff": "Characters/Senna/Spells/SennaRunManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            56
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x7c3a36ea",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Senna/Spells/SennaPassiveAbility/SennaPassive",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "name": "game_character_displayname_Senna",
+    "passive1IconName": "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Passive.dds",
+    "passiveLuaName": "SennaPassive",
+    "passiveName": "Spell_SennaPassive_Name",
+    "passiveSpell": "SennaPassive",
+    "passiveToolTip": "Spell_SennaPassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 350.0,
+      "arBaseStaticRegen": 2.299999952316284,
+      "arPerLevel": 45.0,
+      "arRegenPerLevel": 0.14000000059604645,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 170.0,
+    "selectionRadius": 115.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "SennaQAbility/SennaQ",
+      "SennaWAbility/SennaW",
+      "SennaEAbility/SennaE",
+      "SennaRAbility/SennaR"
+    ],
+    "spells": [
+      "Characters/Senna/Spells/SennaQAbility/SennaQ",
+      "Characters/Senna/Spells/SennaWAbility/SennaW",
+      "Characters/Senna/Spells/SennaEAbility/SennaE",
+      "Characters/Senna/Spells/SennaRAbility/SennaR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "~class": "CharacterRecord"
+  },
+  "Characters/Senna/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Senna/Spells/SennaBasicAttack": {
+    "ObjectName": "SennaBasicAttack",
+    "mScriptName": "SennaBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6794,
+      "mCastingRevealsCasterStealth": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mPreCastLockoutDeltaTime": 0.125,
+      "mPreCastLockoutDeltaTimeData": {
+        "mSpellLockDeltaTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.08699999749660492,
+              "mScalePastDefaultMaxLevel": false,
+              "mStartValue": 0.125,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "SpellLockDeltaTimeData"
+      },
+      "missileSpeed": 8000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaBasicAttack2": {
+    "ObjectName": "SennaBasicAttack2",
+    "mScriptName": "SennaBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6794,
+      "mAlternateName": "VelkozBasicAttack",
+      "mAnimationName": "Attack2",
+      "mCastingRevealsCasterStealth": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mPreCastLockoutDeltaTime": 0.125,
+      "mPreCastLockoutDeltaTimeData": {
+        "mSpellLockDeltaTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.08699999749660492,
+              "mScalePastDefaultMaxLevel": false,
+              "mStartValue": 0.125,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "SpellLockDeltaTimeData"
+      },
+      "missileSpeed": 8000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaBasicAttack3": {
+    "ObjectName": "SennaBasicAttack3",
+    "mScriptName": "SennaBasicAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6794,
+      "mAlternateName": "VelkozBasicAttack",
+      "mAnimationName": "Attack3",
+      "mCastingRevealsCasterStealth": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mPreCastLockoutDeltaTime": 0.125,
+      "mPreCastLockoutDeltaTimeData": {
+        "mSpellLockDeltaTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.08699999749660492,
+              "mScalePastDefaultMaxLevel": false,
+              "mStartValue": 0.125,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "SpellLockDeltaTimeData"
+      },
+      "missileSpeed": 8000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaBasicAttackSouls": {
+    "ObjectName": "SennaBasicAttackSouls",
+    "mScriptName": "SennaBasicAttackSouls",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 128,
+      "mAffectsTypeFlags": 7839,
+      "mAnimationName": "Attack_Passive1",
+      "mCastingRevealsCasterStealth": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mPreCastLockoutDeltaTime": 0.125,
+      "mPreCastLockoutDeltaTimeData": {
+        "mSpellLockDeltaTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.08699999749660492,
+              "mScalePastDefaultMaxLevel": false,
+              "mStartValue": 0.125,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "SpellLockDeltaTimeData"
+      },
+      "missileSpeed": 8000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaCritAttack": {
+    "ObjectName": "SennaCritAttack",
+    "mScriptName": "SennaCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6794,
+      "mAnimationName": "Crit",
+      "mCastingRevealsCasterStealth": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mPreCastLockoutDeltaTime": 0.125,
+      "mPreCastLockoutDeltaTimeData": {
+        "mSpellLockDeltaTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.08699999749660492,
+              "mScalePastDefaultMaxLevel": false,
+              "mStartValue": 0.125,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "SpellLockDeltaTimeData"
+      },
+      "missileSpeed": 8000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaCritAttack2": {
+    "ObjectName": "SennaCritAttack2",
+    "mScriptName": "SennaCritAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6794,
+      "mAnimationName": "Attack3",
+      "mCastingRevealsCasterStealth": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mPreCastLockoutDeltaTime": 0.125,
+      "mPreCastLockoutDeltaTimeData": {
+        "mSpellLockDeltaTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.08699999749660492,
+              "mScalePastDefaultMaxLevel": false,
+              "mStartValue": 0.125,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "SpellLockDeltaTimeData"
+      },
+      "missileSpeed": 8000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaEAbility": {
+    "AbilityTraits": 128,
+    "mChildSpells": [
+      "Characters/Senna/Spells/SennaEAbility/SennaE"
+    ],
+    "mName": "SennaEAbility",
+    "mRootSpell": "Characters/Senna/Spells/SennaEAbility/SennaE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Senna/Spells/SennaEAbility/SennaE": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BuffDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1024,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MovementSpeedPercent",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MovementSpeedPercent",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SennaE",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaE_Name",
+          "keyTooltip": "Buff_SennaE_Tooltip"
+        },
+        "mObjectName": "SennaE",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            5.5,
+            6.0,
+            6.5,
+            7.0,
+            7.5,
+            8.0,
+            8.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MovementSpeedPercent",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DefenseRadius",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DurationBeforeRestealth",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinAllyduration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AllyMSMult",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SmokeLinger",
+          "mValues": [
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SmokeArmTime",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SmokeRadius",
+          "mValues": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 40.0,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castTargetAdditionalUnitsRadius": 250.0,
+      "cooldownTime": [
+        26.0,
+        26.0,
+        24.5,
+        23.0,
+        21.5,
+        20.0,
+        20.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell3",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 1.0,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Duration",
+                  "type": "BuffDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SennaE_Name",
+            "keySummary": "Spell_SennaE_Summary",
+            "keyTooltip": "Spell_SennaE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SennaE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SennaE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.75,
+      "mCoefficient2": 0.5,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesNotConsumeCooldown": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_E.dds",
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_E2.dds"
+      ],
+      "mProjectTargetToCastRange": true,
+      "mSpellCalculations": {
+        "TotalMS": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "MovementSpeedPercent",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0005000000237487257,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mUpdateRotationWhenCasting": true,
+      "mana": [
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaECamo": {
+    "ObjectName": "SennaECamo",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaECamo_Name",
+          "keyTooltip": "Buff_SennaECamo_Tooltip"
+        },
+        "mObjectName": "SennaECamo",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaECamo",
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaEWraithForm": {
+    "ObjectName": "SennaEWraithForm",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaEWraithForm_Name",
+          "keyTooltip": "Buff_SennaEWraithForm_Tooltip"
+        },
+        "mObjectName": "SennaEWraithForm",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaEWraithForm",
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaEWraithFormMoveSpeed": {
+    "ObjectName": "SennaEWraithFormMoveSpeed",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaEWraithForm_Name",
+          "keyTooltip": "Buff_SennaEWraithForm_Tooltip"
+        },
+        "mObjectName": "SennaEWraithFormMoveSpeed",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaEWraithFormMoveSpeed",
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaHomeguardVisualBuff": {
+    "ObjectName": "SennaHomeguardVisualBuff",
+    "mScriptName": "SennaHomeguardVisualBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Senna/Spells/SennaPassiveAbility/SennaPassive"
+    ],
+    "mName": "SennaPassiveAbility",
+    "mRootSpell": "Characters/Senna/Spells/SennaPassiveAbility/SennaPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Senna/Spells/SennaPassiveAbility/SennaPassive": {
+    "ObjectName": "SennaPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SennaPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ADPerStack",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StacksForBonus",
+          "mValues": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SoulDuration",
+          "mValues": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusRange",
+          "mValues": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusCritDamage",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CritReductionPercent",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusCritChance",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CritToLifestealConversionPercent",
+          "mValues": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SoulDropPercentChance",
+          "mValues": [
+            0.2800000011920929,
+            0.2800000011920929,
+            0.2800000011920929,
+            0.2800000011920929,
+            0.2800000011920929,
+            0.2800000011920929,
+            0.2800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SoulDropPercentChanceOnSennaKill",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSStealDuration",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SoulTravelDistanceBad",
+          "mValues": [
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SoulTravelDistanceGood",
+          "mValues": [
+            -50.0,
+            -50.0,
+            -50.0,
+            -50.0,
+            -50.0,
+            -50.0,
+            -50.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SoulTravelVarianceRadiusInner",
+          "mValues": [
+            130.0,
+            130.0,
+            130.0,
+            130.0,
+            130.0,
+            130.0,
+            130.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SoulTravelVarianceRadiusOuter",
+          "mValues": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ChanceForGoodSoul",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ThreshSoulsToTriggerQuest",
+          "mValues": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SennaSoulsToTriggerQuest",
+          "mValues": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QuestRewardForSennaStacks",
+          "mValues": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QuestRewardSennaAPPerStack",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QuestRewardSennaArmorPerStack",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QuestRewardForThreshStacks",
+          "mValues": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QuestAssistWindow",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MarkDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ArmorShredDuration",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xa110bc47": {
+          "SpellDataValues": [
+            {
+              "mName": "SoulDropPercentChance",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SoulDropPercentChanceOnSennaKill",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "ADPerStack",
+              "mValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BonusRange",
+              "mValues": [
+                25.0,
+                25.0,
+                25.0,
+                25.0,
+                25.0,
+                25.0,
+                25.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BonusCritChance",
+              "mValues": [
+                12.0,
+                12.0,
+                12.0,
+                12.0,
+                12.0,
+                12.0,
+                12.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_SennaPassive_Name",
+            "keySummary": "Spell_SennaPassive_Summary",
+            "keyTooltip": "Spell_SennaPassive_Tooltip",
+            "keyTooltipExtended": "Spell_SennaPassive_TooltipExtended"
+          },
+          "mObjectName": "SennaPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Passive.dds",
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_PassiveHaste.dds",
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Quest_Lucian.dds",
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Quest_Senna.dds",
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Quest_Thresh.dds",
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Quest_Active.dds"
+      ],
+      "mSpellCalculations": {
+        "0xbb59ad08": {
+          "mFormulaParts": [
+            {
+              "mBuffName": "0xe88568f8",
+              "mDataValue": "ADPerStack",
+              "~class": "BuffCounterByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "BonusCurentHealthDamage": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mInitialBonusPerLevel": 1.0,
+              "mLevel1Value": 1.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "BonusOnHitDamage": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.20000000298023224,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "DebuffDuration": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": -1.0,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -1.0,
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 6.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MSSteal": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 0.05000000074505806,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.05000000074505806,
+                  "mLevel": 9,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 0.10000000149011612,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaPassiveHaste": {
+    "ObjectName": "SennaPassiveHaste",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaPassiveHaste_Name",
+          "keyTooltip": "Buff_SennaPassiveHaste_Tooltip"
+        },
+        "mObjectName": "SennaPassiveHaste",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaPassiveHaste",
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaPassiveMarker": {
+    "ObjectName": "SennaPassiveMarker",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaPassiveMarker_Name",
+          "keyTooltip": "Buff_SennaPassiveMarker_Tooltip"
+        },
+        "mObjectName": "SennaPassiveMarker",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaPassiveMarker",
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaPassiveStacks": {
+    "ObjectName": "SennaPassiveStacks",
+    "mBuff": {
+      "mBuffAttributeFlag": 8,
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_SennaPassive_Name",
+          "keyTooltip": "Buff_SennaPassiveStacks_Tooltip"
+        },
+        "mObjectName": "SennaPassiveStacks",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaPassiveStacks",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.15000000596046448,
+      "delayTotalTimePercent": -0.6000000238418579,
+      "flags": 4,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 1,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mMissileEffectKey": "Senna_P_soulSteal",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1300.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaQAbility": {
+    "AbilityTraits": 260,
+    "mChildSpells": [
+      "Characters/Senna/Spells/SennaQAbility/SennaQ"
+    ],
+    "mName": "SennaQAbility",
+    "mRootSpell": "Characters/Senna/Spells/SennaQAbility/SennaQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Senna/Spells/SennaQAbility/SennaQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalSlow",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalHeal",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalHeal",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SennaQ",
+    "mScriptName": "SennaQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            0.0,
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseHeal",
+          "mValues": [
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealAPRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealADRatio",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CDReductionOnHit",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RectangleWidthEnemy",
+          "mValues": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RectangleWidthAlly",
+          "mValues": [
+            280.0,
+            280.0,
+            280.0,
+            280.0,
+            280.0,
+            280.0,
+            280.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RectangleLeadDistance",
+          "mValues": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RectangleRange",
+          "mValues": [
+            1300.0,
+            1300.0,
+            1300.0,
+            1300.0,
+            1300.0,
+            1300.0,
+            1300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxTargetingRange",
+          "mValues": [
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0,
+            1100.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseSlow",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            0.75,
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castFrame": 24.0,
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        15.0,
+        15.0,
+        15.0,
+        15.0,
+        15.0,
+        15.0,
+        15.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 24575,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "arrowSize": 20.0,
+            "endLocator": {
+              "basePosition": 2,
+              "distanceOffset": 100.0,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "arrowSize": 20.0,
+            "endLocator": {
+              "basePosition": 2,
+              "distanceOffset": 100.0,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0,
+                150.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "BaseHeal",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_SlowDuration",
+                  "type": "SlowDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SennaQ_Name",
+            "keySummary": "Spell_SennaQ_Summary",
+            "keyTooltip": "Spell_SennaQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SennaQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SennaQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 1,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Q.dds"
+      ],
+      "mLineWidth": 65.0,
+      "mNoWinddownIfCancelled": true,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.4000000059604645,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalHeal": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHeal",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "HealAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "HealADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalSlow": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseSlow",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.0010000000474974513,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 0.001500000013038516,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.0,
+      "mSpellTags": [
+        "PositiveEffect_Boon",
+        "Trait_MultiTargetAttack"
+      ],
+      "mTargetingTypeData": {
+        "mCanCompleteCastWithoutTarget": true,
+        "~class": "Target"
+      },
+      "mUseAutoattackCastTimeData": {
+        "mAutoattackCastTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mNumber": 0.800000011920929,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "mana": [
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        110.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaQCast": {
+    "ObjectName": "SennaQCast",
+    "mScriptName": "SennaQCast",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castFrame": 24.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 24575,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLocKeys": {
+            "keyName": "Spell_SennaQ_Name"
+          },
+          "mObjectName": "SennaQCast",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 1,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mLineWidth": 65.0,
+      "mNoWinddownIfCancelled": true,
+      "mPostCastLockoutDeltaTime": 0.05000000074505806,
+      "mShowChannelBar": false,
+      "mSpellCooldownOrSealedQueueThreshold": 0.0,
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "mCanCompleteCastWithoutTarget": true,
+        "~class": "Target"
+      },
+      "mUseAutoattackCastTimeData": {
+        "mAutoattackCastTimeCalculation": {
+          "mFormulaParts": [
+            {
+              "mNumber": 0.800000011920929,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaQDummySpell": {
+    "ObjectName": "SennaQDummySpell",
+    "mScriptName": "SennaQDummySpell",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.569999694824219,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": 0.04349999874830246,
+      "delayTotalTimePercent": -0.23330000042915344,
+      "flags": 36,
+      "mAffectsTypeFlags": 9221,
+      "mCantCancelWhileWindingUp": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "root",
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaQuestActive": {
+    "ObjectName": "SennaQuestActive",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaQuestActive_Name",
+          "keyTooltip": "Buff_SennaQuestActive_Tooltip"
+        },
+        "mObjectName": "SennaQuestActive",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaQuestActive",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Quest_Active.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaQuestActiveThresh": {
+    "ObjectName": "SennaQuestActiveThresh",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaQuestActiveThresh_Name",
+          "keyTooltip": "Buff_SennaQuestActiveThresh_Tooltip"
+        },
+        "mObjectName": "SennaQuestActiveThresh",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaQuestActiveThresh",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Quest_Active.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaQuestReward": {
+    "ObjectName": "SennaQuestReward",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaQuestReward_Name",
+          "keyTooltip": "Buff_SennaQuestReward_Tooltip"
+        },
+        "mObjectName": "SennaQuestReward",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaQuestReward",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Quest_Thresh.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaQuestRewardThreshKilledLucian": {
+    "ObjectName": "SennaQuestRewardThreshKilledLucian",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaQuestRewardThreshKilledLucian_Name",
+          "keyTooltip": "Buff_SennaQuestRewardThreshKilledLucian_Tooltip"
+        },
+        "mObjectName": "SennaQuestRewardThreshKilledLucian",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaQuestRewardThreshKilledLucian",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Quest_Lucian.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaQuestRewardThreshKilledSenna": {
+    "ObjectName": "SennaQuestRewardThreshKilledSenna",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaQuestRewardThreshKilledSenna_Name",
+          "keyTooltip": "Buff_SennaQuestRewardThreshKilledSenna_Tooltip"
+        },
+        "mObjectName": "SennaQuestRewardThreshKilledSenna",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaQuestRewardThreshKilledSenna",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_Quest_Senna.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaRAbility": {
+    "AbilityTraits": 11,
+    "mChildSpells": [
+      "Characters/Senna/Spells/SennaRAbility/SennaRAlly",
+      "Characters/Senna/Spells/SennaRAbility/SennaRWarningMis",
+      "Characters/Senna/Spells/SennaRAbility/SennaR"
+    ],
+    "mName": "SennaRAbility",
+    "mRootSpell": "Characters/Senna/Spells/SennaRAbility/SennaR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Senna/Spells/SennaRAbility/SennaR": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalShield",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalShield",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SennaR",
+    "mScriptName": "SennaR",
+    "mSpell": {
+      "0xf9c2333e": {
+        "0xa110bc47": {
+          "value": [
+            120.0,
+            120.0,
+            105.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "Damage",
+          "mValues": [
+            100.0,
+            250.0,
+            400.0,
+            550.0,
+            700.0,
+            850.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Shield",
+          "mValues": [
+            80.0,
+            120.0,
+            160.0,
+            200.0,
+            240.0,
+            280.0,
+            320.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PostCastAnimLock",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 35.0,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        140.0,
+        140.0,
+        120.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "delayCastOffsetPercent": 1.0,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194304,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 16418,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                1200.0,
+                1200.0,
+                1200.0,
+                1200.0,
+                1200.0,
+                1200.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Characters/Senna/HUD/Textures/Senna_R_Base.tex",
+            "textureTargetOverrideName": "ASSETS/Characters/Senna/HUD/Textures/Senna_R_Arrow.tex",
+            "useGlobalLineIndicator": true,
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Damage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Shield",
+                  "type": "Shield",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SennaR_Name",
+            "keySummary": "Spell_SennaR_Summary",
+            "keyTooltip": "Spell_SennaR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SennaR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SennaR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mCoefficient2": 1.0,
+      "mDimensionBehavior": 1,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_R.dds",
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_R2.dds"
+      ],
+      "mLineWidth": 180.0,
+      "mMinimapIconName": "ASSETS/Characters/Senna/HUD/Textures/Senna_R_Minimapicon.tex",
+      "mMinimapIconRotation": true,
+      "mMissileEffectKey": "Senna_R_centerBeam",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 160.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 20000.0,
+          "mStartBoneName": "r_foot",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.699999988079071,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 1.149999976158142,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalShield": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Shield",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mBuffName": "0xe88568f8",
+              "mCoefficient": 1.5,
+              "mIconKey": "%i:sennaScalingIcon%",
+              "mScalingTagKey": "font color='#0bf7de'",
+              "~class": "BuffCounterByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseMinimapTargeting": true,
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaRAbility/SennaRAlly": {
+    "ObjectName": "SennaRAlly",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SennaRAbility_Name",
+          "keyTooltip": "Buff_SennaRAbility_Tooltip"
+        },
+        "mObjectName": "SennaRAlly",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaRAlly",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 40.0,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194304,
+      "luaOnMissileUpdateDistanceInterval": 1.0,
+      "mAffectsTypeFlags": 16385,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionMinimap"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "useGlobalLineIndicator": true,
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mCoefficient2": 1.0,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_R.dds"
+      ],
+      "mLineWidth": 180.0,
+      "mMinimapIconDisplayFlag": 0,
+      "mMissileEffectKey": "Senna_R_holyWave",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 1200.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 20000.0,
+          "mStartBoneName": "r_foot",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "mUseMinimapTargeting": true,
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaRAbility/SennaRWarningMis": {
+    "ObjectName": "SennaRWarningMis",
+    "mScriptName": "SennaRWarningMis",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 30.0,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194340,
+      "luaOnMissileUpdateDistanceInterval": 250.0,
+      "mAffectsTypeFlags": 16384,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionMinimap"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "useGlobalLineIndicator": true,
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mCoefficient2": 1.0,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_R.dds"
+      ],
+      "mLineWidth": 180.0,
+      "mMinimapIconDisplayFlag": 0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 1200.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 20000.0,
+          "mStartBoneName": "r_foot",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseAutoattackCastTimeData": {
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "mUseMinimapTargeting": true,
+      "missileSpeed": 2000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaRunManager": {
+    "ObjectName": "SennaRunManager",
+    "mScriptName": "SennaRunManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaRunVisualBuff": {
+    "ObjectName": "SennaRunVisualBuff",
+    "mScriptName": "SennaRunVisualBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaWAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Senna/Spells/SennaWAbility/SennaW"
+    ],
+    "mName": "SennaWAbility",
+    "mRootSpell": "Characters/Senna/Spells/SennaWAbility/SennaW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Senna/Spells/SennaWAbility/SennaW": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "Damage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "RootDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SennaW",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_SennaW_Name",
+          "keyTooltip": "Buff_SennaW_Tooltip"
+        },
+        "mObjectName": "SennaW",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            25.0,
+            70.0,
+            115.0,
+            160.0,
+            205.0,
+            250.0,
+            295.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RootDuration",
+          "mValues": [
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DelayTime",
+          "mValues": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0
+      ],
+      "castRange": [
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0
+      ],
+      "castRangeDisplayOverride": [
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RootDuration",
+                  "type": "RootDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SennaW_Name",
+            "keySummary": "Spell_SennaW_Summary",
+            "keyTooltip": "Spell_SennaW_Tooltip"
+          },
+          "mObjectName": "SennaW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Senna/HUD/Icons2D/Senna_W.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mMissileEffectKey": "Senna_W_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 50.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1200.0,
+          "mStartBoneSkinOverrides": {
+            "5": "L_Cannon"
+          },
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.699999988079071,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mTurnSpeedScalar": 1.7000000476837158,
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        70.0
+      ],
+      "missileSpeed": 1000.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaWRoot": {
+    "ObjectName": "SennaWRoot",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_SennaW_Name",
+          "keyTooltip": "Buff_SennaWRoot_Tooltip"
+        },
+        "mObjectName": "SennaWRoot",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SennaWRoot",
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaWalkVisualBuff": {
+    "ObjectName": "SennaWalkVisualBuff",
+    "mScriptName": "SennaWalkVisualBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaWraithTrackingMis": {
+    "ObjectName": "SennaWraithTrackingMis",
+    "mScriptName": "SennaWraithTrackingMis",
+    "mSpell": {
+      "flags": 4194308,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsStatusFlags": 96,
+      "mAffectsTypeFlags": 8192,
+      "mCastType": 3,
+      "mMinimapIconDisplayFlag": 2,
+      "mMinimapIconName": "ASSETS/Characters/Senna/HUD/Senna_E_Wraith_Icon.tex",
+      "mMissileEffectEnemyKey": "Senna_E_ShadowPerson",
+      "mMissileSpec": {
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "movementComponent": {
+          "mInferDirectionFromFacingIfNeeded": false,
+          "mSpeed": 250000.0,
+          "mStartBoneName": "C_Buffbone_Glb_Layout_Loc",
+          "mVisualsTrackHiddenTargets": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "visibilityComponent": {
+          "~class": "EnterFOWVisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 250000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Senna/Spells/SennaWraithVFXMis": {
+    "ObjectName": "SennaWraithVFXMis",
+    "mScriptName": "SennaWraithVFXMis",
+    "mSpell": {
+      "flags": 4194308,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsStatusFlags": 96,
+      "mAffectsTypeFlags": 8192,
+      "mCastType": 3,
+      "mMissileEffectEnemyKey": "Senna_E_ShadowPerson_trail",
+      "mMissileSpec": {
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "movementComponent": {
+          "mSpeed": 250000.0,
+          "mStartBoneName": "root",
+          "mVisualsTrackHiddenTargets": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "visibilityComponent": {
+          "~class": "EnterFOWVisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 250000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

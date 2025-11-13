@@ -1,0 +1,91 @@
+{
+  "Characters/KledMount/CharacterRecords/Root": {
+    "armorPerLevel": 3.200000047683716,
+    "attackRange": 150.0,
+    "attackSpeedPerLevel": 3.200000047683716,
+    "baseArmor": 24.0,
+    "baseDamage": 56.040000915527344,
+    "baseHP": 5000.0,
+    "baseMoveSpeed": 335.0,
+    "baseSpellBlock": 32.099998474121094,
+    "baseStaticHPRegen": 0.0,
+    "basicAttack": {
+      "mAttackCastTime": 0.20000000298023224,
+      "mAttackProbability": 0.5,
+      "mAttackTotalTime": 1.4500000476837158,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.75,
+      "LevelSpellEffectiveness": 3.0,
+      "attackRank": 8,
+      "defenseRank": 6,
+      "difficultyRank": 6,
+      "magicRank": 4,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "Adds +10% Attack Rate.",
+        "Adds +15% Attack Rate.",
+        "Adds +20% Attack Rate."
+      ],
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Kled",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "searchTags": "fighter",
+      "searchTagsSecondary": "tank",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.20000000298023224,
+        "mAttackName": "KledCritAttack",
+        "mAttackTotalTime": 1.4500000476837158,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "KledBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 8398280,
+    "mCharacterName": "KledMount",
+    "mFallbackCharacterName": "Kled",
+    "overrideGameplayCollisionRadius": 80.0,
+    "passiveRange": 700.0,
+    "pathfindingCollisionRadius": 50.0,
+    "primaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 140.0,
+    "selectionRadius": 140.0,
+    "spellBlockPerLevel": 1.25,
+    "unitTagsString": "Minion | Minion_Summon",
+    "useableData": {
+      "flags": 0,
+      "~class": "useableData"
+    },
+    "~class": "CharacterRecord"
+  },
+  "Characters/KledMount/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  }
+}

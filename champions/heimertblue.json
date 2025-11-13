@@ -1,0 +1,292 @@
+{
+  "Characters/HeimerTBlue/CharacterRecords/Root": {
+    "acquisitionRange": 650.0,
+    "attackRange": 650.0,
+    "attackSpeed": 1.25,
+    "attackSpeedRatio": 1.25,
+    "baseArmor": 0.0,
+    "baseDamage": 0.0010000000474974513,
+    "baseHP": 10000.0,
+    "baseMoveSpeed": 0.0,
+    "baseStaticHPRegen": 0.0,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.011979999952018261,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "description": "game_character_description_H28QApexTurret",
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "critDamageMultiplier": 1.0,
+    "expGivenOnDeath": 0.0,
+    "flags": 8987904,
+    "healthBarFullParallax": true,
+    "healthBarHeight": 240.0,
+    "mCharacterName": "HeimerTBlue",
+    "name": "game_character_displayname_H28QApexTurret",
+    "overrideGameplayCollisionRadius": 35.0,
+    "pathfindingCollisionRadius": 1.0,
+    "perceptionBubbleRadius": 1000.0,
+    "primaryAbilityResource": {
+      "arBase": 50.0,
+      "arBaseStaticRegen": 0.0,
+      "arType": 12,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 60.0,
+    "selectionRadius": 60.0,
+    "significance": 0.30000001192092896,
+    "spellNames": [
+      "HeimerdingerTurretBigEnergyBlast",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "spells": [
+      "Characters/HeimerTBlue/Spells/HeimerdingerTurretBigEnergyBlast",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "towerTargetingPriorityBoost": 10.0,
+    "unitTagsString": "Minion | Minion_Summon",
+    "~class": "CharacterRecord"
+  },
+  "Characters/HeimerTBlue/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/HeimerTBlue/Spells/HeimerTBlueBasicAttack": {
+    "ObjectName": "HeimerTBlueBasicAttack",
+    "mScriptName": "HeimerTBlueBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.949999809265137,
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "mAffectsTypeFlags": 7375,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Heimerdinger_R_MegaTurret_Tar",
+      "mMissileEffectKey": "Heimerdinger_R_MegaTurret_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1599.39990234375,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1599.39990234375,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/HeimerTBlue/Spells/HeimerdingerTurretBigEnergyBlast": {
+    "ObjectName": "HeimerdingerTurretBigEnergyBlast",
+    "mScriptName": "HeimerdingerTurretBigEnergyBlast",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875,
+        299.29998779296875
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6499999761581421,
+      "delayTotalTimePercent": -0.699999988079071,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "HeimerdingerUltQDummySpell",
+      "mAnimationName": "Attack_beam",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.3499999940395355,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0,
+                75.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "spine",
+      "mLineWidth": 75.0,
+      "mMissileEffectKey": "Heimerdinger_R_MegaTurret_Charged_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 75.0,
+        "movementComponent": {
+          "mAcceleration": -1000.0,
+          "mInitialSpeed": 1650.0,
+          "mMaxSpeed": 1650.0,
+          "mMinSpeed": 1200.0,
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mStartBoneName": "weapon",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "AcceleratingMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1650.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/HeimerTBlue/Spells/HeimerdingerUltTurretSlow": {
+    "ObjectName": "HeimerdingerUltTurretSlow",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_HeimerdingerUltTurretSlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "HeimerdingerUltTurretSlow",
+    "~class": "SpellObject"
+  }
+}

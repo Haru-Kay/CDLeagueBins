@@ -1,0 +1,6523 @@
+{
+  "0x1dc29880": {
+    "ObjectName": "TryndamereVsKindredKindredStart",
+    "mScriptName": "TryndamereVsKindredKindredStart",
+    "~class": "SpellObject"
+  },
+  "0x4298ee63": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      1500,
+      3500,
+      6500,
+      8000,
+      10000,
+      4000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "219cbd8c-bc3e-49be-bdab-d64ebbe065c7",
+      "itemID": 126073,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_KindredWHealing",
+    "mNameTraKey": "stat_stone_name_KindredWHealing",
+    "stoneName": "KindredWHealing",
+    "~class": "StatStoneData"
+  },
+  "0x59334fa9": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "693439bd-a196-458a-b581-fe54770e8aa1",
+      "itemID": 125646,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "KindredTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x60f21f92": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      75,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f59f9f6f-3185-4860-9f5b-dba9c3d0fd0e",
+      "itemID": 1002,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_KindredMarksCollected",
+    "mNameTraKey": "stat_stone_name_KindredMarksCollected",
+    "stoneName": "KindredMarksCollected",
+    "~class": "StatStoneData"
+  },
+  "0x69ab83af": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8,
+      20,
+      40,
+      50,
+      60,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5baa29c1-d6bd-4ee3-86b5-1628ee32b183",
+      "itemID": 77,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_KindredRSaves",
+    "mNameTraKey": "stat_stone_name_KindredRSaves",
+    "stoneName": "KindredRSaves",
+    "~class": "StatStoneData"
+  },
+  "0x71863115": {
+    "catalogEntry": {
+      "contentId": "83aeaf1b-62ab-4dac-be19-98a8168d09b9",
+      "itemID": 66600236,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x9cd24dbc",
+      "0x59334fa9",
+      "0xa91beab4"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x7629a1f8": {
+    "catalogEntry": {
+      "contentId": "e33c8372-bd8b-40ee-a553-326b9c9d2ae9",
+      "itemID": 66600429,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x4298ee63",
+      "0xc559940e",
+      "0x88337a32"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x7929a6b1": {
+    "catalogEntry": {
+      "contentId": "1703167d-fed9-43a7-b100-9e75497e12b3",
+      "itemID": 66600058,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x60f21f92",
+      "0xa1cfad27",
+      "0x69ab83af"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x875eca45": {
+    "ObjectName": "TryndamereVsKindredTryndamereLoss",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_TryndamereVsKindred_TryndamereLossName",
+          "keyTooltip": "Quests_TryndamereVsKindred_TryndamereLossTooltip"
+        },
+        "mObjectName": "TryndamereVsKindredTryndamereLoss",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "TryndamereVsKindredTryndamereLoss",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_E.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x88337a32": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8,
+      20,
+      40,
+      45,
+      55,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "c06ec248-06c4-49ad-b3b8-31c904350508",
+      "itemID": 126072,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_KindredQSkillshotsDodged",
+    "mNameTraKey": "stat_stone_name_KindredQSkillshotsDodged",
+    "stoneName": "KindredQSkillshotsDodged",
+    "~class": "StatStoneData"
+  },
+  "0x9cd24dbc": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "be9bcba2-8e84-4674-8600-01fa8f23cf02",
+      "itemID": 125645,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "KindredEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xa1cfad27": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      7,
+      15,
+      15,
+      20,
+      9
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d1d1b9e5-d86d-47f6-86ca-c87ef81d0142",
+      "itemID": 76,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_KindredEKills",
+    "mNameTraKey": "stat_stone_name_KindredEKills",
+    "stoneName": "KindredEKills",
+    "~class": "StatStoneData"
+  },
+  "0xa512b8a2": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mEarlyLevelOverrides": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xa91beab4": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "d432f56d-35a0-4d6c-a64c-eec016069afc",
+      "itemID": 125647,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "KindredStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xc559940e": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8000,
+      21000,
+      41000,
+      49000,
+      62000,
+      25000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "74b2e26e-bc84-4a25-b022-54906686b542",
+      "itemID": 126071,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_KindredWDamage",
+    "mNameTraKey": "stat_stone_name_KindredWDamage",
+    "stoneName": "KindredWDamage",
+    "~class": "StatStoneData"
+  },
+  "0xe5cde5b": {
+    "ObjectName": "TryndamereVsKindredKindredReward",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_TryndamereVsKindred_KindredRewardName",
+          "keyTooltip": "Quests_TryndamereVsKindred_KindredRewardTooltip"
+        },
+        "mObjectName": "TryndamereVsKindredKindredReward",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "TryndamereVsKindredKindredReward",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_E.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xef911826": {
+    "ObjectName": "TryndamereVsKindredKindredDescription",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_TryndamereVsKindred_KindredStartName",
+          "keyTooltip": "Quests_TryndamereVsKindred_KindredStartTooltip"
+        },
+        "mObjectName": "TryndamereVsKindredKindredDescription",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "TryndamereVsKindredKindredDescription",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Tryndamere/HUD/Icons2D/Tryndamere_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xf62adc82": {
+    "ObjectName": "TryndamereVsKindredKindredWin",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "TryndamereVsKindredKindredWin",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Kindred/Spells/KindredWAbility/KindredWPassiveHealMissile",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkoftheKindredSpell",
+      "Characters/Kindred/Spells/KindredRAbility/KindredFakeCastTimeSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 525.0,
+    "armorPerLevel": 4.699999809265137,
+    "attackRange": 500.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 3.5,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 29.0,
+    "baseDamage": 65.0,
+    "baseHP": 595.0,
+    "baseMoveSpeed": 325.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.399999976158142,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.12456139922142029,
+      "mAttackProbability": 1.0,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 3.0,
+      "attackRank": 8,
+      "championId": 203,
+      "defenseRank": 2,
+      "description": "game_character_description_Kindred",
+      "difficultyRank": 4,
+      "magicRank": 2,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Kindred",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "ATTACKER",
+      "searchTags": "marksman",
+      "sound": {
+        "attack": [
+          "ChloeNil-Attack1-NORM_01.wav",
+          "ChloeNil-Attack2-NORM_01.wav",
+          "ChloeNil-Attack3-NORM_01.wav",
+          "ChloeNil-Attack4-NORM_01.wav"
+        ],
+        "click": [
+          "ChloeNil-Click1-NORM_01.wav",
+          "ChloeNil-Click2-NORM_01.wav",
+          "ChloeNil-Click3-NORM_01.wav",
+          "ChloeNil-Click4-NORM_01.wav"
+        ],
+        "death": "ChloeNil-Death1-NORM_01.wav",
+        "move": [
+          "ChloeNil-Move1-NORM_01.wav",
+          "ChloeNil-Move2-NORM_01.wav",
+          "ChloeNil-Move3-NORM_01.wav",
+          "ChloeNil-Move4-NORM_01.wav"
+        ],
+        "ready": "ChloeNil-Ready1-NORM_01.wav",
+        "~class": "ToolSoundData"
+      },
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.12456139922142029,
+        "mAttackName": "KindredCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.25,
+    "extraSpells": [
+      "KindredWPassiveHealMissile",
+      "KindredMarkoftheKindredSpell",
+      "KindredFakeCastTimeSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "hpPerLevel": 104.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Kindred/Spells/KindredQAbility",
+      "Characters/Kindred/Spells/KindredWAbility",
+      "Characters/Kindred/Spells/KindredEWrapperAbility",
+      "Characters/Kindred/Spells/KindredRAbility",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility"
+    ],
+    "mCharacterName": "Kindred",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Kindred/Spells/KindredUIInCombatBuff",
+          "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListTracker",
+          "Characters/Kindred/Spells/KindredWolfBuddyVisual",
+          "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkOfTheKindredStackCounter",
+          "Characters/Kindred/Spells/KindredLegendPassive",
+          "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMonsterBountyLockout"
+        ],
+        "mParentPassiveBuff": "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredPassiveManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Characters/Kindred/Spells/KindredRunCycleManager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredPassiveManager",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Resolve/Aftershock",
+          "mReplaceWith": "Perks/Styles/Resolve/GraspOfTheUndying",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Inspiration/GlacialAugment",
+          "mReplaceWith": "Perks/Styles/Inspiration/FirstStrike",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "name": "game_character_displayname_Kindred",
+    "passive1IconName": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_Passive.dds",
+    "passiveLuaName": "KindredPassiveManager",
+    "passiveName": "game_character_passiveName_Kindred",
+    "passiveToolTip": "game_character_passiveDescription_Kindred",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 300.0,
+      "arBaseStaticRegen": 1.399999976158142,
+      "arPerLevel": 35.0,
+      "arRegenPerLevel": 0.07999999821186066,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 155.0,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "KindredQAbility/KindredQ",
+      "KindredWAbility/KindredW",
+      "KindredEWrapperAbility/KindredEWrapper",
+      "KindredRAbility/KindredR"
+    ],
+    "spells": [
+      "Characters/Kindred/Spells/KindredQAbility/KindredQ",
+      "Characters/Kindred/Spells/KindredWAbility/KindredW",
+      "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper",
+      "Characters/Kindred/Spells/KindredRAbility/KindredR"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "KindredBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Kindred/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Kindred/Spells/KindredAutoAttackSatisfaction": {
+    "ObjectName": "KindredAutoAttackSatisfaction",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredHitListActiveTracker0",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredAutoAttackSatisfaction",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredBasicAttack": {
+    "ObjectName": "KindredBasicAttack",
+    "mScriptName": "KindredBasicAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredBasicAttack_OnCast",
+        "13": "Play_sfx_Kindred_KindredBasicAttack_OnHit",
+        "16": "Play_sfx_Kindred_KindredBasicAttack_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "BasicAttacks",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kindred_BA_hit_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Kindred_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredBasicAttack2": {
+    "ObjectName": "KindredBasicAttack2",
+    "mScriptName": "KindredBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "BasicAttacks",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kindred_BA_hit_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Kindred_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredBasicAttackBounty1": {
+    "ObjectName": "KindredBasicAttackBounty1",
+    "mScriptName": "KindredBasicAttackBounty1",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredBasicAttackBounty1_OnCast",
+        "13": "Play_sfx_Kindred_KindredBasicAttackBounty1_OnHit",
+        "16": "Play_sfx_Kindred_KindredBasicAttackBounty1_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "BasicAttacks",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kindred_BA_Bounty01_hit_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Kindred_BA_Bounty01_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredBasicAttackBounty2": {
+    "ObjectName": "KindredBasicAttackBounty2",
+    "mScriptName": "KindredBasicAttackBounty2",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredBasicAttackBounty2_OnCast",
+        "13": "Play_sfx_Kindred_KindredBasicAttackBounty2_OnHit",
+        "16": "Play_sfx_Kindred_KindredBasicAttackBounty2_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "BasicAttacks",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kindred_BA_Bounty02_hit_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Kindred_BA_Bounty02_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredBasicAttackBounty3": {
+    "ObjectName": "KindredBasicAttackBounty3",
+    "mScriptName": "KindredBasicAttackBounty3",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredBasicAttackBounty3_OnCast",
+        "13": "Play_sfx_Kindred_KindredBasicAttackBounty3_OnHit",
+        "16": "Play_sfx_Kindred_KindredBasicAttackBounty3_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "BasicAttacks",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kindred_BA_bounty03_hit_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Kindred_BA_Bounty03_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredBasicAttackOverrideLightbombFinal": {
+    "ObjectName": "KindredBasicAttackOverrideLightbombFinal",
+    "mScriptName": "KindredBasicAttackOverrideLightbombFinal",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0,
+        1600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "Spell3_2",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kindred_BA_hit_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Kindred_E_Excute",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1400.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1400.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredCritAttack": {
+    "ObjectName": "KindredCritAttack",
+    "mScriptName": "KindredCritAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredCritAttack_OnCast",
+        "13": "Play_sfx_Kindred_KindredCritAttack_OnHit",
+        "16": "Play_sfx_Kindred_KindredCritAttack_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kindred_BA_Crit_hit",
+      "mMissileEffectKey": "Kindred_BA_Crit_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredEWrapperAbility": {
+    "mChildSpells": [
+      "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper",
+      "Characters/Kindred/Spells/KindredEWrapperAbility/KindredE",
+      "Characters/Kindred/Spells/KindredEWrapperAbility/KindredECharge",
+      "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEFinalAttackBuff",
+      "Characters/Kindred/Spells/KindredEWrapperAbility/KindredERefresher",
+      "Characters/Kindred/Spells/KindredEWrapperAbility/KindredESlow",
+      "Characters/Kindred/Spells/KindredEWrapperAbility/KindredESpellPassive",
+      "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWolfMissile",
+      "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWolfMissileWorkaroundBuff"
+    ],
+    "mName": "KindredEWrapperAbility",
+    "mRootSpell": "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper",
+    "~class": "AbilityObject"
+  },
+  "Characters/Kindred/Spells/KindredEWrapperAbility/KindredE": {
+    "ObjectName": "KindredE",
+    "mScriptName": "KindredE",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredE_OnCast\n",
+        "13": "Play_sfx_Kindred_KindredE_OnHit\n",
+        "16": "Play_sfx_Kindred_KindredE_OnMissileLaunch\n"
+      },
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6282,
+      "mAlternateName": "KindredEWrapper",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.25,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0,
+            220.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0,
+            220.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mMissileEffectKey": "Kindred_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredEWrapperAbility/KindredECharge": {
+    "ObjectName": "KindredECharge",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TristanaE_Stack",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredECharge",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEFinalAttackBuff": {
+    "ObjectName": "KindredEFinalAttackBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_CurseoftheSadMummy",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredEFinalAttackBuff",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 17.850000381469727,
+      "castRadius": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        170.0,
+        150.0,
+        130.0,
+        110.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "CurseoftheSadMummy",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            0.0,
+            0.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        150.0,
+        200.0,
+        80.0,
+        80.0,
+        130.0
+      ],
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredEWrapperAbility/KindredERefresher": {
+    "ObjectName": "KindredERefresher",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredERefresher",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredERefresher",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 17.850000381469727,
+      "castRadius": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        170.0,
+        150.0,
+        130.0,
+        110.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "CurseoftheSadMummy",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            0.0,
+            0.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_E.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        150.0,
+        200.0,
+        80.0,
+        80.0,
+        130.0
+      ],
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredEWrapperAbility/KindredESlow": {
+    "ObjectName": "KindredESlow",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredESlow",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredESlow",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 17.850000381469727,
+      "castRadius": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        170.0,
+        150.0,
+        130.0,
+        110.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "CurseoftheSadMummy",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            0.0,
+            0.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        150.0,
+        200.0,
+        80.0,
+        80.0,
+        130.0
+      ],
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredEWrapperAbility/KindredESpellPassive": {
+    "ObjectName": "KindredESpellPassive",
+    "mScriptName": "KindredESpellPassive",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6282,
+      "mAlternateName": "KindredEWrapper",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.25,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0,
+            220.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0,
+            220.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mMissileEffectKey": "Kindred_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWolfMissile": {
+    "ObjectName": "KindredEWolfMissile",
+    "mScriptName": "KindredEWolfMissile",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "14": "Play_sfx_Kindred_KindredEWolfMissile_OnHitLocation\n",
+        "15": "Play_sfx_Kindred_KindredEWolfMissile_OnMissileCast\n",
+        "16": "Play_sfx_Kindred_KindredEWolfMissile_OnMissileLaunch\n"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.029999999329447746,
+      "flags": 4,
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "VayneBasicAttack",
+      "mAnimationName": "None",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kindred_BA_hit_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Kindred_E_Excute",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 2000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRollForCriticalHit": true,
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 2000.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWolfMissileWorkaroundBuff": {
+    "ObjectName": "KindredEWolfMissileWorkaroundBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_CurseoftheSadMummy",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredEWolfMissileWorkaroundBuff",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 17.850000381469727,
+      "castRadius": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        170.0,
+        150.0,
+        130.0,
+        110.0,
+        10.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "CurseoftheSadMummy",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            0.0,
+            0.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        150.0,
+        200.0,
+        80.0,
+        80.0,
+        130.0
+      ],
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "PercentBiteDamage",
+            "~class": "0xf3cbe7b2"
+          },
+          {
+            "mSpellCalculationKey": "BaseBiteDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowAmount",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KindredEWrapper",
+    "mScriptName": "KindredEWrapper",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MonsterCap",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            230.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TotalDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StacksToProc",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowAPRatio",
+          "mValues": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BasePercentDamage",
+          "mValues": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BasePercentDamage",
+              "mValues": [
+                0.019999999552965164,
+                0.019999999552965164,
+                0.019999999552965164,
+                0.019999999552965164,
+                0.019999999552965164,
+                0.019999999552965164,
+                0.019999999552965164
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        14.0,
+        14.0,
+        12.5,
+        11.0,
+        9.5,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6282,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KindredEWrapper_Name",
+            "keySummary": "Spell_KindredEWrapper_Summary",
+            "keyTooltip": "Spell_KindredEWrapper_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_KindredEWrapper_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "KindredEWrapper",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mCoefficient2": 1.0,
+      "mFloatVarsDecimals": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_OVERHEAD_LOC",
+      "mHitEffectName": "Tristana_Base_E_tar.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_E.dds"
+      ],
+      "mSpellCalculations": {
+        "BaseBiteDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "CritDamage": {
+          "mModifiedGameCalculation": "PercentBiteDamage",
+          "mMultiplier": {
+            "mSubparts": [
+              {
+                "mNumber": 1.5,
+                "~class": "NumberCalculationPart"
+              },
+              {
+                "mCoefficient": 1.0,
+                "mStat": 9,
+                "mStatFormula": 2,
+                "~class": "StatByCoefficientCalculationPart"
+              }
+            ],
+            "~class": "SumOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "HealthThreshold": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mNumber": 0.25,
+              "~class": "NumberCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "mStat": 8,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PercentBiteDamage": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "BasePercentDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mBuffName": "0x64290302",
+              "mCoefficient": 0.004999999888241291,
+              "mIconKey": "%i:kindredPassiveIcon%",
+              "~class": "BuffCounterByCoefficientCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        },
+        "TotalSlow": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "SlowAmount",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "SlowAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "manaUiOverride": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 2200.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredFakeCastTimeBuff": {
+    "ObjectName": "KindredFakeCastTimeBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_ItemStatikShankCharge",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredFakeCastTimeBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredLegendPassive": {
+    "ObjectName": "KindredLegendPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredLegendPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredLegendPassive",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility": {
+    "mChildSpells": [
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredPassiveManager",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListMonsterActiveTracker",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListTracker",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitTracker",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListActiveTracker0",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListActiveTracker1",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListActiveTracker2",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListSuccessTracker0",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListSuccessTracker1",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListSuccessTracker2",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkOfTheKindredStackCounter",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkoftheKindredTimer",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkoftheKindredSpell",
+      "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMonsterBountyLockout"
+    ],
+    "mName": "KindredPassiveManagerAbility",
+    "mRootSpell": "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredPassiveManager",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListActiveTracker0": {
+    "ObjectName": "KindredHitListActiveTracker0",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredHitListActiveTracker0",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredHitListActiveTracker0",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListActiveTracker1": {
+    "ObjectName": "KindredHitListActiveTracker1",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredHitListActiveTracker1",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredHitListActiveTracker1",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListActiveTracker2": {
+    "ObjectName": "KindredHitListActiveTracker2",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredHitListActiveTracker2",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredHitListActiveTracker2",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListMonsterActiveTracker": {
+    "ObjectName": "KindredHitListMonsterActiveTracker",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredHitListMonsterActiveTracker",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredHitListMonsterActiveTracker",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListSuccessTracker0": {
+    "ObjectName": "KindredHitListSuccessTracker0",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredHitListSuccessTracker0",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredHitListSuccessTracker0",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListSuccessTracker1": {
+    "ObjectName": "KindredHitListSuccessTracker1",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredHitListSuccessTracker1",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredHitListSuccessTracker1",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListSuccessTracker2": {
+    "ObjectName": "KindredHitListSuccessTracker2",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredHitListSuccessTracker2",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredHitListSuccessTracker2",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListTracker": {
+    "ObjectName": "KindredHitListTracker",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredHitListTracker",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredHitListTracker",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitTracker": {
+    "ObjectName": "KindredHitTracker",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredHitTracker",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredHitTracker",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkOfTheKindredStackCounter": {
+    "ObjectName": "KindredMarkOfTheKindredStackCounter",
+    "mBuff": {
+      "mBuffAttributeFlag": 8,
+      "mDescription": "game_buff_tooltip_KindredMarkOfTheKindredStackCounter",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredMarkOfTheKindredStackCounter",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkoftheKindredSpell": {
+    "ObjectName": "KindredMarkoftheKindredSpell",
+    "mScriptName": "KindredMarkoftheKindredSpell",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castRadius": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "flags": 4194332,
+      "mAffectsStatusFlags": 40,
+      "mAffectsTypeFlags": 4106,
+      "mAnimationName": "Idle1",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "head",
+      "mImgIconName": [
+        "ASSETS/Spells/Icons2D/Summoner_Clairvoyance.dds"
+      ],
+      "mIsDisabledWhileDead": false,
+      "mPlatformSpellInfo": {
+        "mGameModes": [
+          "CLASSIC",
+          "ODIN",
+          "TUTORIAL"
+        ],
+        "mPlatformEnabled": true,
+        "~class": "PlatformSpellInfo"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellRevealsChampion": false,
+      "mUseMinimapTargeting": true,
+      "missileSpeed": 20.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkoftheKindredTimer": {
+    "ObjectName": "KindredMarkoftheKindredTimer",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredMarkoftheKindredTimer",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredMarkoftheKindredTimer",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMonsterBountyLockout": {
+    "ObjectName": "KindredMonsterBountyLockout",
+    "mScriptName": "KindredMonsterBountyLockout",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6282,
+      "mAlternateName": "KindredEWrapper",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.25,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mMissileEffectKey": "Kindred_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredPassiveManager": {
+    "ObjectName": "KindredPassiveManager",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredPassiveManager",
+      "mFloatVarsDecimals": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredPassiveManager",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseHealAmount",
+          "mValues": [
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0,
+            45.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealAmountPerLevel",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_KindredPassiveManager_Name",
+            "keySummary": "Spell_KindredPassiveManager_Summary",
+            "keyTooltip": "Spell_KindredPassiveManager_Tooltip",
+            "keyTooltipExtended": "Spell_KindredPassiveManager_TooltipExtended"
+          },
+          "mObjectName": "KindredPassiveManager",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "EMarkBonus": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mBuffName": "0x64290302",
+              "mCoefficient": 0.004999999888241291,
+              "mIconKey": "%i:kindredPassiveIcon%",
+              "~class": "BuffCounterByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "QMarkBonus": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mBuffName": "0x64290302",
+              "mCoefficient": 0.05000000074505806,
+              "mIconKey": "%i:kindredPassiveIcon%",
+              "~class": "BuffCounterByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "WMarkBonus": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mBuffName": "0x64290302",
+              "mCoefficient": 0.009999999776482582,
+              "mIconKey": "%i:kindredPassiveIcon%",
+              "~class": "BuffCounterByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredQAbility": {
+    "mChildSpells": [
+      "Characters/Kindred/Spells/KindredQAbility/KindredQ",
+      "Characters/Kindred/Spells/KindredQAbility/KindredQASBuff",
+      "Characters/Kindred/Spells/KindredQAbility/KindredQ_URFWrapper",
+      "Characters/Kindred/Spells/KindredQAbility/KindredQMissile",
+      "Characters/Kindred/Spells/KindredQAbility/KindredQMissileMinor",
+      "Characters/Kindred/Spells/KindredQAbility/KindredQSpellPassive"
+    ],
+    "mName": "KindredQAbility",
+    "mRootSpell": "Characters/Kindred/Spells/KindredQAbility/KindredQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Kindred/Spells/KindredQAbility/KindredQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "DashSpeed",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KindredQ",
+    "mScriptName": "KindredQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeedScaling",
+          "mValues": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseASDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CDNewValue",
+          "mValues": [
+            4.5,
+            4.0,
+            3.5,
+            3.0,
+            2.5,
+            2.0,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "URF": {
+          "SpellDataValues": [
+            {
+              "mName": "CDNewValue",
+              "mValues": [
+                1.75,
+                1.5,
+                1.25,
+                1.0,
+                0.75,
+                0.5,
+                0.25
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredQ_OnCast"
+      },
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.0,
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        340.0,
+        340.0,
+        340.0,
+        340.0,
+        340.0,
+        340.0,
+        340.0
+      ],
+      "castTargetAdditionalUnitsRadius": 330.0,
+      "cooldownTime": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "none",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.009999999776482582,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                325.0,
+                325.0,
+                325.0,
+                325.0,
+                325.0,
+                325.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_KindredQCooldownInW",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 4,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KindredQ_Name",
+            "keySummary": "Spell_KindredQ_Summary",
+            "keyTooltip": "Spell_KindredQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_KindredQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "KindredQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.75,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            40.0,
+            65.0,
+            90.0,
+            115.0,
+            140.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.5,
+            4.0,
+            3.5,
+            3.0,
+            2.5,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mImgIconName": [
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_Q.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.75,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalQAttackSpeed": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 7,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mBuffName": "0x64290302",
+              "mCoefficient": 0.05000000074505806,
+              "mIconKey": "%i:kindredPassiveIcon%",
+              "~class": "BuffCounterByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_AttackReset"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        35.0,
+        35.0,
+        35.0,
+        35.0,
+        35.0,
+        35.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredQAbility/KindredQASBuff": {
+    "ObjectName": "KindredQASBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredQASBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredQASBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredQAbility/KindredQMissile": {
+    "ObjectName": "KindredQMissile",
+    "mScriptName": "KindredQMissile",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "13": "Play_sfx_Kindred_KindredQMissile_OnHit\n",
+        "16": "Play_sfx_Kindred_KindredQMissile_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 4.050000190734863,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "KindredQ",
+      "mAnimationName": "Idle1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.2000000476837158,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            90.0,
+            150.0,
+            245.0,
+            315.0,
+            440.0,
+            565.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.25,
+            2.5,
+            2.75,
+            3.0,
+            3.25,
+            3.5,
+            3.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kindred_Q_mis_tar",
+      "mLineWidth": 80.0,
+      "mMissileEffectKey": "Kindred_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "R_Elbow",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 1600.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredQAbility/KindredQMissileMinor": {
+    "ObjectName": "KindredQMissileMinor",
+    "mScriptName": "KindredQMissileMinor",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 4.050000190734863,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "KindredQ",
+      "mAnimationName": "Idle1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.2000000476837158,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            90.0,
+            150.0,
+            245.0,
+            315.0,
+            440.0,
+            565.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.25,
+            2.5,
+            2.75,
+            3.0,
+            3.25,
+            3.5,
+            3.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Kindred_Q_mis_tar",
+      "mLineWidth": 80.0,
+      "mMissileEffectKey": "Kindred_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 80.0,
+        "movementComponent": {
+          "mSpeed": 1600.0,
+          "mStartBoneName": "Weapon",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 1600.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredQAbility/KindredQSpellPassive": {
+    "ObjectName": "KindredQSpellPassive",
+    "mScriptName": "KindredQSpellPassive",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6282,
+      "mAlternateName": "KindredEWrapper",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.25,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0,
+            220.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0,
+            220.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mMissileEffectKey": "Kindred_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredQAbility/KindredQ_URFWrapper": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "DashSpeed",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KindredQ_URFWrapper",
+    "mScriptName": "KindredQ_URFWrapper",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeedScaling",
+          "mValues": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseASDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CDNewValue",
+          "mValues": [
+            4.5,
+            4.0,
+            3.5,
+            3.0,
+            2.5,
+            2.0,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "URF": {
+          "SpellDataValues": [
+            {
+              "mName": "CDNewValue",
+              "mValues": [
+                1.75,
+                1.5,
+                1.25,
+                1.0,
+                0.75,
+                0.5,
+                0.25
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredQ_OnCast"
+      },
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 6.0,
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        340.0,
+        340.0,
+        340.0,
+        340.0,
+        340.0,
+        340.0,
+        340.0
+      ],
+      "castTargetAdditionalUnitsRadius": 330.0,
+      "cooldownTime": [
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "none",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.009999999776482582,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                325.0,
+                325.0,
+                325.0,
+                325.0,
+                325.0,
+                325.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_KindredQCooldownInW",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 4,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KindredQ_Name",
+            "keySummary": "Spell_KindredQ_Summary",
+            "keyTooltip": "Spell_KindredQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_KindredQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "KindredQ_URFWrapper",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.75,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            40.0,
+            65.0,
+            90.0,
+            115.0,
+            140.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            1.5,
+            1.25,
+            1.0,
+            0.75,
+            0.5,
+            0.25
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355,
+            0.3499999940395355
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mImgIconName": [
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_Q.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.75,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalQAttackSpeed": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 7,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mBuffName": "0x64290302",
+              "mCoefficient": 0.05000000074505806,
+              "mIconKey": "%i:kindredPassiveIcon%",
+              "~class": "BuffCounterByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_AttackReset"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        35.0,
+        35.0,
+        35.0,
+        35.0,
+        35.0,
+        35.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredRAbility": {
+    "AbilityTraits": 36,
+    "mChildSpells": [
+      "Characters/Kindred/Spells/KindredRAbility/KindredR",
+      "Characters/Kindred/Spells/KindredRAbility/KindredFakeCastTimeSpell",
+      "Characters/Kindred/Spells/KindredRAbility/KindredRNoDeathBuff",
+      "Characters/Kindred/Spells/KindredRAbility/KindredRSpellPassive",
+      "Characters/Kindred/Spells/KindredRAbility/KindredRWrapper"
+    ],
+    "mName": "KindredRAbility",
+    "mRootSpell": "Characters/Kindred/Spells/KindredRAbility/KindredR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Kindred/Spells/KindredRAbility/KindredFakeCastTimeSpell": {
+    "ObjectName": "KindredFakeCastTimeSpell",
+    "mScriptName": "KindredFakeCastTimeSpell",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredFakeCastTimeSpell_OnCast"
+      },
+      "bHaveHitEffect": true,
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "cooldownTime": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 14346,
+      "mAlternateName": "KindredR",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Kindred/Spells/KindredRAbility/KindredR",
+        "~class": "SpellDataResourceClient"
+      },
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            60.0,
+            100.0,
+            140.0,
+            180.0,
+            220.0,
+            260.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectName": "globalhit_orange_tar.troy",
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredRAbility/KindredR": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "HealFlat",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "HealFlat",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BuffDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8388608,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KindredR",
+    "mScriptName": "KindredR",
+    "mSpell": {
+      "0xf9c2333e": {
+        "0xa110bc47": {
+          "value": [
+            120.0,
+            120.0,
+            110.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "HealFlat",
+          "mValues": [
+            150.0,
+            225.0,
+            300.0,
+            375.0,
+            450.0,
+            525.0,
+            600.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AoERadius",
+          "mValues": [
+            530.0,
+            530.0,
+            530.0,
+            530.0,
+            530.0,
+            530.0,
+            530.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 20.15999984741211,
+      "castRadius": [
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0,
+        1200.0
+      ],
+      "castRadiusSecondary": [
+        530.0,
+        530.0,
+        530.0,
+        530.0,
+        530.0,
+        530.0,
+        530.0
+      ],
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRangeDisplayOverride": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        160.0,
+        160.0,
+        140.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsStatusFlags": 3,
+      "mAffectsTypeFlags": 8192,
+      "mAlternateName": "KindredR",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mLeftClickSpellAction": 2,
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KindredR_Name",
+            "keySummary": "Spell_KindredR_Summary",
+            "keyTooltip": "Spell_KindredR_Tooltip"
+          },
+          "mObjectName": "KindredR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.2199999988079071,
+      "mCoefficient2": 0.33000001311302185,
+      "mEffectAmount": [
+        {
+          "value": [
+            225.0,
+            225.0,
+            300.0,
+            375.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            530.0,
+            530.0,
+            530.0,
+            530.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_R.dds"
+      ],
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "manaUiOverride": [
+        100.0,
+        100.0,
+        100.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredRAbility/KindredRNoDeathBuff": {
+    "ObjectName": "KindredRNoDeathBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredRNoDeathBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredRNoDeathBuff",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 20.15999984741211,
+      "castRadius": [
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0,
+        280.0
+      ],
+      "castRange": [
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.2199999988079071,
+      "mCoefficient2": 0.33000001311302185,
+      "mEffectAmount": [
+        {
+          "value": [
+            5.0,
+            12.0,
+            19.0,
+            26.0,
+            0.0,
+            0.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            24.0,
+            38.0,
+            52.0,
+            0.0,
+            0.0,
+            14.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            36.0,
+            57.0,
+            78.0,
+            0.0,
+            0.0,
+            21.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        70.0,
+        85.0,
+        100.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "missileSpeed": 20.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredRAbility/KindredRSpellPassive": {
+    "ObjectName": "KindredRSpellPassive",
+    "mScriptName": "KindredRSpellPassive",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6282,
+      "mAlternateName": "KindredEWrapper",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.25,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0,
+            220.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0,
+            220.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mMissileEffectKey": "Kindred_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredRAbility/KindredRWrapper": {
+    "ObjectName": "KindredRWrapper",
+    "mScriptName": "KindredRWrapper",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 20.15999984741211,
+      "castRadius": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRange": [
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0,
+        10000.0
+      ],
+      "castRangeDisplayOverride": [
+        525.0,
+        525.0,
+        525.0,
+        525.0,
+        525.0,
+        525.0,
+        525.0
+      ],
+      "cooldownTime": [
+        175.0,
+        150.0,
+        125.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsStatusFlags": 3,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "KindredR",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.2199999988079071,
+      "mCoefficient2": 0.33000001311302185,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            200.0,
+            350.0,
+            500.0,
+            0.0,
+            0.0,
+            150.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            530.0,
+            530.0,
+            530.0,
+            530.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            200.0,
+            400.0,
+            600.0,
+            800.0,
+            0.0,
+            0.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_R.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 20.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredRecallReturnBuff": {
+    "ObjectName": "KindredRecallReturnBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RumbleDangerZoneBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredRecallReturnBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredRunCycleManager": {
+    "ObjectName": "KindredRunCycleManager",
+    "mScriptName": "KindredRunCycleManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredUIInCombatBuff": {
+    "ObjectName": "KindredUIInCombatBuff",
+    "mScriptName": "KindredUIInCombatBuff",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6282,
+      "mAlternateName": "KindredEWrapper",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.25,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mMissileEffectKey": "Kindred_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredWAbility": {
+    "AbilityTraits": 8192,
+    "mChildSpells": [
+      "Characters/Kindred/Spells/KindredWAbility/KindredW",
+      "Characters/Kindred/Spells/KindredWAbility/KindredWChargePassive",
+      "Characters/Kindred/Spells/KindredWAbility/KindredWChargePassiveBuff",
+      "Characters/Kindred/Spells/KindredWAbility/KindredWCloneBuffVisible",
+      "Characters/Kindred/Spells/KindredWAbility/KindredWMaim",
+      "Characters/Kindred/Spells/KindredWAbility/KindredWPassiveHealMissile",
+      "Characters/Kindred/Spells/KindredWAbility/KindredWSpellPassive"
+    ],
+    "mName": "KindredWAbility",
+    "mRootSpell": "Characters/Kindred/Spells/KindredWAbility/KindredW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Kindred/Spells/KindredWAbility/KindredW": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "BaseWolfDamage",
+            "~class": "0xf3cbe7b2"
+          },
+          {
+            "mSpellCalculationKey": "PercentWolfDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "KindredW",
+    "mScriptName": "KindredW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "LambToWolfAttackSpeedConversionPercent",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RingRange",
+          "mValues": [
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CloneBasePercentDamage",
+          "mValues": [
+            0.014999999664723873,
+            0.014999999664723873,
+            0.014999999664723873,
+            0.014999999664723873,
+            0.014999999664723873,
+            0.014999999664723873,
+            0.014999999664723873
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CloneDamageFlat",
+          "mValues": [
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CloneADRatio",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ClonePercentDamagePerBounty",
+          "mValues": [
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "CloneADRatio",
+              "mValues": [
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "CloneDamageFlat",
+              "mValues": [
+                5.0,
+                10.0,
+                15.0,
+                20.0,
+                25.0,
+                30.0,
+                35.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "ClonePercentDamagePerBounty",
+              "mValues": [
+                0.004999999888241291,
+                0.004999999888241291,
+                0.004999999888241291,
+                0.004999999888241291,
+                0.004999999888241291,
+                0.004999999888241291,
+                0.004999999888241291
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "CloneBasePercentDamage",
+              "mValues": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Kindred_KindredW_OnCast"
+      },
+      "bHaveHitEffect": true,
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.395000457763672,
+      "castRadius": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0
+      ],
+      "cooldownTime": [
+        19.0,
+        18.0,
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        14.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAlternateName": "KindredW",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                560.0,
+                560.0,
+                560.0,
+                560.0,
+                560.0,
+                560.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                800.0,
+                800.0,
+                800.0,
+                800.0,
+                800.0,
+                800.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 5,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_KindredW_Name",
+            "keySummary": "Spell_KindredW_Summary",
+            "keyTooltip": "Spell_KindredW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_KindredW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "KindredW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mCoefficient2": 0.20000000298023224,
+      "mEffectAmount": [
+        {
+          "value": [
+            40.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0,
+            60.0,
+            65.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            8.5,
+            8.5,
+            8.5,
+            8.5,
+            8.5,
+            8.5,
+            8.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectKey": "Kindred_W_Tar_Decoy_01",
+      "mImgIconName": [
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_W.dds",
+        "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_W.dds"
+      ],
+      "mSpellCalculations": {
+        "AttackHeal": {
+          "mFormulaParts": [
+            {
+              "mInitialBonusPerLevel": 2.0,
+              "mLevel1Value": 47.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "BaseWolfDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "CloneDamageFlat",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "CloneADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PercentWolfDamage": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "CloneBasePercentDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mBuffName": "0x64290302",
+              "mDataValue": "ClonePercentDamagePerBounty",
+              "mIconKey": "%i:kindredPassiveIcon%",
+              "~class": "BuffCounterByNamedDataValueCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredWAbility/KindredWChargePassive": {
+    "ObjectName": "KindredWChargePassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredWChargePassive",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredWAbility/KindredWChargePassiveBuff": {
+    "ObjectName": "KindredWChargePassiveBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredWChargePassiveBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredWChargePassiveBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredWAbility/KindredWCloneBuffVisible": {
+    "ObjectName": "KindredWCloneBuffVisible",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredWCloneBuffVisible",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredWCloneBuffVisible",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredWAbility/KindredWMaim": {
+    "ObjectName": "KindredWMaim",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_KindredWMaim",
+      "~class": "BuffData"
+    },
+    "mScriptName": "KindredWMaim",
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredWAbility/KindredWPassiveHealMissile": {
+    "ObjectName": "KindredWPassiveHealMissile",
+    "mScriptName": "KindredWPassiveHealMissile",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "0": "Play_sfx_Kindred_KindredWPassiveHealMissile_OnMissileLaunch\n"
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 7375,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mMissileEffectKey": "Kindred_W_heal_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1300.0,
+          "mStartBoneName": "",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 1300.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredWAbility/KindredWSpellPassive": {
+    "ObjectName": "KindredWSpellPassive",
+    "mScriptName": "KindredWSpellPassive",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.395000457763672,
+      "castRadius": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0
+      ],
+      "cooldownTime": [
+        19.0,
+        18.0,
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        14.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAlternateName": "KindredW",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                560.0,
+                560.0,
+                560.0,
+                560.0,
+                560.0,
+                560.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                800.0,
+                800.0,
+                800.0,
+                800.0,
+                800.0,
+                800.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mObjectName": "KindredWSpellPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mCoefficient2": 0.20000000298023224,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectKey": "Kindred_W_Tar_Decoy_01",
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Kindred/Spells/KindredWolfBuddyVisual": {
+    "ObjectName": "KindredWolfBuddyVisual",
+    "mScriptName": "KindredWolfBuddyVisual",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6282,
+      "mAlternateName": "KindredEWrapper",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.25,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BuffBone_Glb_Center_Loc",
+      "mMissileEffectKey": "Kindred_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

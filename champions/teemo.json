@@ -1,0 +1,3059 @@
+{
+  "0x2501e093": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          2,
+          0,
+          1,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          2,
+          0,
+          1,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "utility",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x30c4f72d": {
+    "ObjectName": "TeemoWPassive",
+    "mScriptName": "TeemoWPassive",
+    "~class": "SpellObject"
+  },
+  "0x51a365a3": {
+    "ObjectName": "TeemoRDot",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_HEAD_LOC",
+              "effectKey": "0x6ecc5fac",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "SourceCondition": {
+            "~class": "IsLocalPlayerBoolDriver"
+          },
+          "~class": "PersistentEffectConditionData"
+        },
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_HEAD_LOC",
+              "effectKey": "0x5507ff8c",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "SourceCondition": {
+            "mDriver": {
+              "~class": "IsLocalPlayerBoolDriver"
+            },
+            "~class": "NotMaterialDriver"
+          },
+          "~class": "PersistentEffectConditionData"
+        },
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_HEAD_LOC",
+              "effectKey": "Teemo_R_Debuff",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_TeemoRDot",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoRDot",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "VisionRadius",
+          "mValues": [
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0,
+            175.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "18": "Play_sfx_Teemo_TeemoRDot_OnBuffActivate"
+      },
+      "mResourceResolvers": [
+        "Characters/Teemo/Skins/Skin0/Resources"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5a629d30": {
+    "ObjectName": "TeemoPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TeemoPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "AttackSpeedDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StealthCooldownDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Buff_TeemoPassive_Name",
+            "keySummary": "Buff_TeemoPassive_Summary",
+            "keyTooltip": "Buff_TeemoPassive_Tooltip",
+            "keyTooltipExtended": "Buff_TeemoPassive_TooltipExtended"
+          },
+          "mObjectName": "TeemoPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Teemo/HUD/Icons2D/TeemoPassive.ASU_Teemo.dds"
+      ],
+      "mSpellCalculations": {
+        "BonusAttackSpeed": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 0.20000000298023224,
+                  "mLevel": 5,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.20000000298023224,
+                  "mLevel": 10,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.20000000298023224,
+                  "mLevel": 15,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 0.20000000298023224,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x66b7ac12": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      30,
+      75,
+      150,
+      175,
+      225,
+      90
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "c53f5ee7-25e6-433a-865e-7ba4cc8cc81f",
+      "itemID": 244,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_TeemoQWhiffs",
+    "mNameTraKey": "stat_stone_name_TeemoQWhiffs",
+    "stoneName": "TeemoQWhiffs",
+    "~class": "StatStoneData"
+  },
+  "0x75a2e9d6": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "f8212c9a-b895-4ffc-afed-1f1e0835fa2a",
+      "itemID": 125553,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "TeemoTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x76605772": {
+    "AbilityTraits": 128,
+    "mChildSpells": [
+      "0x5a629d30",
+      "0x8c6c59f1",
+      "0x818b50bd"
+    ],
+    "mName": "TeemoPassiveAbility",
+    "mRootSpell": "0x5a629d30",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "0x790e77c4": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4,
+      10,
+      20,
+      25,
+      30,
+      10
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "93676d65-9d95-4f1e-850f-1a16e3d1f506",
+      "itemID": 245,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_TeemoEPKills",
+    "mNameTraKey": "stat_stone_name_TeemoEPKills",
+    "stoneName": "TeemoEPKills",
+    "~class": "StatStoneData"
+  },
+  "0x7bef6093": {
+    "catalogEntry": {
+      "contentId": "4b991bab-07b3-4aac-b176-cc4101cf1df4",
+      "itemID": 66600115,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xde53238e",
+      "0x66b7ac12",
+      "0x790e77c4"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x7cef6226": {
+    "catalogEntry": {
+      "contentId": "050eef21-8274-42d6-9d07-6ed4d22e9d27",
+      "itemID": 66600492,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x96489f34",
+      "0xc905fa43",
+      "0xd11e1dd3"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x7daaa1b4": {
+    "ObjectName": "TeemoEAttack",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TeemoEAttack",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoEAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Teemo_TeemoEAttack_OnCast",
+        "13": "Play_sfx_Teemo_TeemoEAttack_OnHit",
+        "16": "Play_sfx_Teemo_TeemoEAttack_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 2,
+      "mAffectsTypeFlags": 6314,
+      "mAlternateName": "ToxicShotAttack",
+      "mAnimationName": "Attack_SEL",
+      "mApplyAttackDamage": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_center_LOC",
+      "mHitEffectKey": "Teemo_E_Tar",
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Spells/Icons2D/1041_Long_Staff.dds"
+      ],
+      "mMissileEffectKey": "Teemo_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1300.0,
+          "mStartBoneName": "Blowgun1",
+          "mStartBoneSkinOverrides": {
+            "47": "Buffbone_Glb_Weapon_1",
+            "48": "Buffbone_Glb_Weapon_1",
+            "49": "Buffbone_Glb_Weapon_1",
+            "50": "Buffbone_Glb_Weapon_1",
+            "51": "Buffbone_Glb_Weapon_1",
+            "52": "Buffbone_Glb_Weapon_1",
+            "53": "Buffbone_Glb_Weapon_1"
+          },
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1300.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x818b50bd": {
+    "ObjectName": "TeemoPStealthBuff",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "effectKey": "Teemo_P_cas",
+              "~class": "PersistentVfxData"
+            },
+            {
+              "boneName": "Goggles",
+              "effectKey": "Teemo_P_Buf",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_TeemoPStealthBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoPStealthBuff",
+    "~class": "SpellObject"
+  },
+  "0x89ac2c4b": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "67807063-d57e-412e-b2dc-fc4b4bfbeaec",
+      "itemID": 125554,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "TeemoStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x8c6c59f1": {
+    "ObjectName": "TeemoPAttackSpeedBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TeemoPAttackSpeedBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoPAttackSpeedBuff",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Teemo/HUD/Icons2D/TeemoPassive_Buff.ASU_Teemo.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x96489f34": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      17000,
+      42000,
+      85000,
+      100000,
+      125000,
+      51000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "c6dd67f5-67a2-4384-8eca-bc815b74d0a0",
+      "itemID": 126260,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_TeemoPoisons",
+    "mNameTraKey": "stat_stone_name_TeemoPoisons",
+    "stoneName": "TeemoPoisons",
+    "~class": "StatStoneData"
+  },
+  "0xa4dd13df": {
+    "ObjectName": "TeemoEDot",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_HEAD_LOC",
+              "effectKey": "0x6ecc5fac",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "SourceCondition": {
+            "~class": "IsLocalPlayerBoolDriver"
+          },
+          "~class": "PersistentEffectConditionData"
+        },
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "C_BUFFBONE_GLB_HEAD_LOC",
+              "effectKey": "0x5507ff8c",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "SourceCondition": {
+            "mDriver": {
+              "~class": "IsLocalPlayerBoolDriver"
+            },
+            "~class": "NotMaterialDriver"
+          },
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_TeemoE",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoEDot",
+    "mSpell": {
+      "bHaveHitEffect": true,
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        680.0,
+        680.0,
+        680.0,
+        680.0,
+        680.0,
+        680.0,
+        680.0
+      ],
+      "cooldownTime": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ToxicShot",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.14000000059604645,
+      "mCoefficient2": 0.30000001192092896,
+      "mHitEffectKey": "chill_glb_BV2",
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        ""
+      ],
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mana": [
+        30.0,
+        35.0,
+        40.0,
+        45.0,
+        50.0,
+        55.0
+      ],
+      "missileSpeed": 1500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xa57690fb": {
+    "catalogEntry": {
+      "contentId": "cfb7e339-4f61-4496-b375-23265c26df61",
+      "itemID": 66600205,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xc920eaf1",
+      "0x75a2e9d6",
+      "0x89ac2c4b"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xa6e2eb54": {
+    "ObjectName": "TeemoWPassiveBuff",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "effectKey": "Teemo_W_buf",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_TeemoWPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoWPassiveBuff",
+    "~class": "SpellObject"
+  },
+  "0xc82ad54c": {
+    "ObjectName": "TeemoECrit",
+    "mScriptName": "TeemoECrit",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Teemo_TeemoECrit_OnCast",
+        "13": "Play_sfx_Teemo_TeemoECrit_OnHit",
+        "16": "Play_sfx_Teemo_TeemoECrit_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.829999923706055,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 4234,
+      "mAlternateName": "TeemoCritAttack",
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Teemo_E_Tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Teemo_E_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "Blowgun1",
+          "mStartBoneSkinOverrides": {
+            "47": "Buffbone_Glb_Weapon_1",
+            "48": "Buffbone_Glb_Weapon_1",
+            "49": "Buffbone_Glb_Weapon_1",
+            "50": "Buffbone_Glb_Weapon_1",
+            "51": "Buffbone_Glb_Weapon_1",
+            "52": "Buffbone_Glb_Weapon_1",
+            "53": "Buffbone_Glb_Weapon_1"
+          },
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1300.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xc905fa43": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      100,
+      275,
+      525,
+      625,
+      800,
+      325
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "c2a677c4-57ea-49bc-b4ff-ef724856416d",
+      "itemID": 126262,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_TeemoWInCombat",
+    "mNameTraKey": "stat_stone_name_TeemoWInCombat",
+    "stoneName": "TeemoWInCombat",
+    "trackingType": 1,
+    "~class": "StatStoneData"
+  },
+  "0xc920eaf1": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "4dd4f9ab-0eaa-4d8c-a1da-0daef6323842",
+      "itemID": 125552,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "TeemoEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xcde85647": {
+    "ObjectName": "TeemoRTrap",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "ForceRenderVfx": true,
+          "PersistentVfxs": [
+            {
+              "TargetPosIsOwner": true,
+              "effectKey": "TeemoMushroom_R_CollisionBox_Ring",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "SourceCondition": {
+            "~class": "IsLocalPlayerBoolDriver"
+          },
+          "~class": "PersistentEffectConditionData"
+        },
+        {
+          "ForceRenderVfx": true,
+          "OwnerCondition": {
+            "~class": "IsEnemyDynamicMaterialBoolDriver"
+          },
+          "PersistentVfxs": [
+            {
+              "TargetPosIsOwner": true,
+              "effectKey": "TeemoMushroom_R_CollisionBox_RingEnemy",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_TeemoRTrap",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoRTrap",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "18": "Play_sfx_Teemo_TeemoRTrap_OnBuffActivate"
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 19.5,
+      "castRadius": [
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0
+      ],
+      "castRange": [
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0,
+        2000.0
+      ],
+      "cooldownTime": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 6154,
+      "mAmmoRechargeTime": [
+        40.0,
+        34.0,
+        28.0,
+        22.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                120.0,
+                120.0,
+                120.0,
+                120.0,
+                120.0,
+                120.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.5,
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Teemo/HUD/Icons2D/Teemo_R.dds"
+      ],
+      "mLineWidth": 120.0,
+      "mMaxAmmo": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "mMissileEffectKey": "Teemo_R_Mis",
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 3500.0,
+          "~class": "GravityHeightSolver"
+        },
+        "mMissileWidth": 120.0,
+        "movementComponent": {
+          "mSpeed": 1000.0,
+          "mStartBoneName": "head",
+          "mTracksTarget": false,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mResourceResolvers": [
+        "Characters/TeemoMushroom/Skins/Skin0/Resources"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1000.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xd11e1dd3": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      2,
+      6,
+      10,
+      15,
+      15,
+      7
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "524312d1-44ea-4b3a-aec0-4911f4595be4",
+      "itemID": 126261,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_TeemoPTakedowns",
+    "mNameTraKey": "stat_stone_name_TeemoPTakedowns",
+    "stoneName": "TeemoPTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xd137b140": {
+    "ObjectName": "TeemoWPassiveCooldown",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TeemoWPassiveCooldown",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoWPassiveCooldown",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Teemo/HUD/Icons2D/TeemoW_Grey.ASU_Teemo.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xde53238e": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      55,
+      150,
+      275,
+      350,
+      425,
+      175
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "0b602638-eadc-4b4e-8beb-3f907e3f4a24",
+      "itemID": 116,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_TeemoTrapTriggered",
+    "mNameTraKey": "stat_stone_name_TeemoTrapTriggered",
+    "stoneName": "TeemoTrapTriggered",
+    "~class": "StatStoneData"
+  },
+  "Characters/Teemo/CharacterRecords/Root": {
+    "0xc1984296": [
+      "0x7daaa1b4",
+      "0xc82ad54c",
+      "0xcde85647",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 500.0,
+    "armorPerLevel": 4.949999809265137,
+    "attackRange": 500.0,
+    "attackSpeed": 0.6899999976158142,
+    "attackSpeedPerLevel": 3.380000114440918,
+    "attackSpeedRatio": 0.6899999976158142,
+    "baseArmor": 24.0,
+    "baseDamage": 54.0,
+    "baseHP": 615.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.100000023841858,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.10000000149011612,
+      "mAttackName": "TeemoBasicAttack",
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "attackRank": 5,
+      "botDefaultSpell1": "SummonerIgnite",
+      "botDefaultSpell2": "SummonerExhaust",
+      "championId": 17,
+      "classification": "Deadly",
+      "defenseRank": 3,
+      "description": "game_character_description_Teemo",
+      "difficultyRank": 6,
+      "magicRank": 7,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Teemo",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "ATTACKER",
+      "searchTags": "marksman",
+      "searchTagsSecondary": "mage",
+      "spellData": [
+        {
+          "desc": "Plants a trap.  When an enemy champion triggers this trap, it deals damage in an area and slows nearby units.",
+          "displayName": "Noxious Trap",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Plants a trap.  When an enemy champion triggers this trap, it deals damage in an area and slows nearby units.",
+          "displayName": "Noxious Trap",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Plants a trap.  When an enemy champion triggers this trap, it deals damage in an area and slows nearby units.",
+          "displayName": "Noxious Trap",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Plants a trap.  When an enemy champion triggers this trap, it deals damage in an area and slows nearby units.",
+          "displayName": "Noxious Trap",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.0842565968632698,
+        "mAttackName": "TeemoCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraSpells": [
+      "TeemoEAttack",
+      "TeemoECrit",
+      "TeemoRTrap",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 545268992,
+    "healthBarHeight": 75.0,
+    "hpPerLevel": 104.0,
+    "hpRegenPerLevel": 0.12999999523162842,
+    "mAbilities": [
+      "Characters/Teemo/Spells/TeemoQAbility",
+      "Characters/Teemo/Spells/TeemoWAbility",
+      "Characters/Teemo/Spells/TeemoEAbility",
+      "Characters/Teemo/Spells/TeemoRAbility",
+      "0x76605772"
+    ],
+    "mAbilitySlotCC": [
+      2,
+      0,
+      0,
+      14
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Teemo",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "0x8c6c59f1",
+          "0x818b50bd"
+        ],
+        "mParentPassiveBuff": "0x5a629d30",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            47
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Teemo/Spells/TeemoSkin47Manager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0x5a629d30",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Resolve/Aftershock",
+          "mReplaceWith": "Perks/Styles/Resolve/GraspOfTheUndying",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Inspiration/GlacialAugment",
+          "mReplaceWith": "Perks/Styles/Inspiration/FirstStrike",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Teemo",
+    "overrideGameplayCollisionRadius": 55.0,
+    "passive1IconName": "ASSETS/Characters/Teemo/HUD/Icons2D/TeemoPassive.ASU_Teemo.dds",
+    "passiveLuaName": "TeemoPassive",
+    "passiveName": "game_character_passiveName_Teemo",
+    "passiveToolTip": "game_character_passiveDescription_Teemo",
+    "pathfindingCollisionRadius": 30.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 334.0,
+      "arBaseStaticRegen": 1.9199999570846558,
+      "arPerLevel": 25.0,
+      "arRegenPerLevel": 0.09000000357627869,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "selectionHeight": 100.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "TeemoQAbility/TeemoQ",
+      "TeemoWAbility/TeemoW",
+      "TeemoEAbility/TeemoE",
+      "TeemoRAbility/TeemoR"
+    ],
+    "spells": [
+      "Characters/Teemo/Spells/TeemoQAbility/TeemoQ",
+      "Characters/Teemo/Spells/TeemoWAbility/TeemoW",
+      "Characters/Teemo/Spells/TeemoEAbility/TeemoE",
+      "Characters/Teemo/Spells/TeemoRAbility/TeemoR"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/Teemo/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Teemo/Spells/TeemoBasicAttack": {
+    "ObjectName": "TeemoBasicAttack",
+    "mScriptName": "TeemoBasicAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Teemo_TeemoBasicAttack_OnCast",
+        "13": "Play_sfx_Teemo_TeemoBasicAttack_OnHit",
+        "16": "Play_sfx_Teemo_TeemoBasicAttack_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 4234,
+      "mAlternateName": "TeemoBasicAttack",
+      "mAnimationName": "Attack_SEL",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Teemo_BA_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Teemo_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "Blowgun1",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1300.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Teemo/Spells/TeemoCritAttack": {
+    "ObjectName": "TeemoCritAttack",
+    "mScriptName": "TeemoCritAttack",
+    "mSpell": {
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Teemo_TeemoCritAttack_OnCast",
+        "13": "Play_sfx_Teemo_TeemoCritAttack_OnHit",
+        "16": "Play_sfx_Teemo_TeemoCritAttack_OnMissileLaunch"
+      },
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.829999923706055,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 4234,
+      "mAlternateName": "TeemoCritAttack",
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 1,
+              "~class": "DrawablePositionLocator"
+            },
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Teemo_BA_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Teemo_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "Blowgun1",
+          "mStartBoneSkinOverrides": {
+            "47": "Buffbone_Glb_Weapon_1",
+            "48": "Buffbone_Glb_Weapon_1",
+            "49": "Buffbone_Glb_Weapon_1",
+            "50": "Buffbone_Glb_Weapon_1",
+            "51": "Buffbone_Glb_Weapon_1",
+            "52": "Buffbone_Glb_Weapon_1",
+            "53": "Buffbone_Glb_Weapon_1"
+          },
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1300.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Teemo/Spells/TeemoEAbility": {
+    "mChildSpells": [
+      "Characters/Teemo/Spells/TeemoEAbility/TeemoE",
+      "0x7daaa1b4",
+      "0xa4dd13df"
+    ],
+    "mName": "TeemoEAbility",
+    "mRootSpell": "Characters/Teemo/Spells/TeemoEAbility/TeemoE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Teemo/Spells/TeemoEAbility/TeemoE": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDotDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "TeemoE",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TeemoE",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "TickBaseDamage",
+          "mValues": [
+            0.0,
+            6.0,
+            12.0,
+            18.0,
+            24.0,
+            30.0,
+            36.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TickAPRatio",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ImpactBaseDamage",
+          "mValues": [
+            -5.0,
+            9.0,
+            23.0,
+            37.0,
+            51.0,
+            65.0,
+            79.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ImpactAPRatio",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PoisonDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TickFrequency",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterMod",
+          "mValues": [
+            1.4500000476837158,
+            1.4500000476837158,
+            1.4500000476837158,
+            1.4500000476837158,
+            1.4500000476837158,
+            1.4500000476837158,
+            1.4500000476837158
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitEffect": true,
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        680.0,
+        680.0,
+        680.0,
+        680.0,
+        680.0,
+        680.0,
+        680.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "ToxicShot",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_TeemoImpactDamage",
+                  "type": "ImpactBaseDamage",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_DamagePerSecond",
+                  "type": "TickBaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "",
+            "keyCost": "Spell_Passive",
+            "keyName": "Spell_TeemoE_Name",
+            "keySummary": "Spell_TeemoE_Summary",
+            "keyTooltip": "Spell_TeemoE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_TeemoE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "TeemoE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitEffectKey": "chill_glb_BV2",
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Teemo/HUD/Icons2D/TeemoE.ASU_Teemo.dds"
+      ],
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "R_hand",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mPingableWhileDisabled": true,
+      "mSpellCalculations": {
+        "0x8b70cfd6": {
+          "mModifiedGameCalculation": "ImpactCalculatedDamage",
+          "mMultiplier": {
+            "mDataValue": "monstermod",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "0x938cba49": {
+          "mModifiedGameCalculation": "TickCalculatedDamage",
+          "mMultiplier": {
+            "mDataValue": "monstermod",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "ImpactCalculatedDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ImpactBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ImpactAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TickCalculatedDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "TickBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "TickAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDotDamage": {
+          "mModifiedGameCalculation": "TickCalculatedDamage",
+          "mMultiplier": {
+            "mDataValue": "PoisonDuration",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 1500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Teemo/Spells/TeemoQAbility": {
+    "mChildSpells": [
+      "Characters/Teemo/Spells/TeemoQAbility/TeemoQ"
+    ],
+    "mName": "TeemoQAbility",
+    "mRootSpell": "Characters/Teemo/Spells/TeemoQAbility/TeemoQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Teemo/Spells/TeemoQAbility/TeemoQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "CalculatedDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BlindDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "TeemoQ",
+    "mScriptName": "TeemoQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            35.0,
+            80.0,
+            125.0,
+            170.0,
+            215.0,
+            260.0,
+            305.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BlindDuration",
+          "mValues": [
+            1.75,
+            2.0,
+            2.25,
+            2.5,
+            2.75,
+            3.0,
+            3.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MissChance",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionMonsterDurationMod",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                30.0,
+                70.0,
+                110.0,
+                150.0,
+                190.0,
+                230.0,
+                270.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071,
+                0.699999988079071
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BlindDuration",
+              "mValues": [
+                1.25,
+                1.5,
+                1.75,
+                2.0,
+                2.25,
+                2.5,
+                2.75
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Teemo_TeemoQ_OnCast",
+        "13": "Play_sfx_Teemo_TeemoQ_OnHit",
+        "16": "Play_sfx_Teemo_TeemoQ_OnMissileLaunch"
+      },
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.789999961853027,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        680.0,
+        680.0,
+        680.0,
+        680.0,
+        680.0,
+        680.0,
+        680.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "BlindingDart",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Duration",
+                  "type": "BlindDuration",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_TeemoQ_Name",
+            "keySummary": "Spell_TeemoQ_Summary",
+            "keyTooltip": "Spell_TeemoQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_TeemoQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "TeemoQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "head",
+      "mHitEffectKey": "Teemo_Q_tar",
+      "mHitEffectOrientType": 2,
+      "mImgIconName": [
+        "ASSETS/Characters/Teemo/HUD/Icons2D/TeemoQ.ASU_Teemo.dds"
+      ],
+      "mMissileEffectKey": "Teemo_Q_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 2500.0,
+          "mStartBoneName": "Blowgun1",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "0xf87e4ba": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BlindDuration",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mDataValue": "MinionMonsterDurationMod",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculation"
+        },
+        "CalculatedDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTurnSpeedScalar": 2.0,
+      "mana": [
+        70.0,
+        75.0,
+        80.0,
+        85.0,
+        90.0,
+        95.0
+      ],
+      "missileSpeed": 2500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Teemo/Spells/TeemoRAbility": {
+    "mChildSpells": [
+      "Characters/Teemo/Spells/TeemoRAbility/TeemoR",
+      "0xcde85647",
+      "0x51a365a3"
+    ],
+    "mName": "TeemoRAbility",
+    "mRootSpell": "Characters/Teemo/Spells/TeemoRAbility/TeemoR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Teemo/Spells/TeemoRAbility/TeemoR": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowAmount",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "TeemoR",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_TeemoRTrap",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoR",
+    "mSpell": {
+      "0xb08bc498": {
+        "0xa110bc47": {
+          "value": [
+            0.0,
+            40.0,
+            35.0,
+            30.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "TriggerRadius",
+          "mValues": [
+            160.0,
+            160.0,
+            160.0,
+            160.0,
+            160.0,
+            160.0,
+            160.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxAmmo",
+          "mValues": [
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxBounceDistance",
+          "mValues": [
+            360.0,
+            360.0,
+            440.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ArmTime",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MushroomDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            75.0,
+            200.0,
+            325.0,
+            450.0,
+            575.0,
+            700.0,
+            825.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0,
+            70.0,
+            80.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DebuffDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatioPerTick",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExplosionRadius",
+          "mValues": [
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxTraps",
+          "mValues": [
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0,
+            25000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinTossDistanceBounceThreshold",
+          "mValues": [
+            150.0,
+            220.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VisionRadius",
+          "mValues": [
+            210.0,
+            210.0,
+            210.0,
+            210.0,
+            210.0,
+            210.0,
+            210.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "SlowAmount",
+              "mValues": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                70.0,
+                180.0,
+                290.0,
+                400.0,
+                510.0,
+                620.0,
+                730.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "APRatioPerTick",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "MushroomDuration",
+              "mValues": [
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "SlowAmount",
+              "mValues": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                70.0,
+                180.0,
+                290.0,
+                400.0,
+                510.0,
+                620.0,
+                730.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "APRatioPerTick",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "MushroomDuration",
+              "mValues": [
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0,
+                3.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "SWIFTPLAY": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                100.0,
+                200.0,
+                300.0,
+                400.0,
+                500.0,
+                600.0,
+                700.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "APRatioPerTick",
+              "mValues": [
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "URF": {
+          "SpellDataValues": [
+            {
+              "mName": "MaxTraps",
+              "mValues": [
+                12.0,
+                12.0,
+                12.0,
+                12.0,
+                12.0,
+                12.0,
+                12.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "SlowAmount",
+              "mValues": [
+                10.0,
+                20.0,
+                30.0,
+                40.0,
+                50.0,
+                60.0,
+                70.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                50.0,
+                150.0,
+                250.0,
+                350.0,
+                450.0,
+                550.0,
+                650.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "APRatioPerTick",
+              "mValues": [
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Teemo_TeemoR_OnCast"
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 19.5,
+      "castRadius": [
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        750.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "cooldownTime": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6794,
+      "mAmmoRechargeTime": [
+        0.0,
+        35.0,
+        30.0,
+        25.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_Slow",
+                  "type": "SlowAmount",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_TeemoR_TossRange",
+                  "type": "CastRange",
+                  "typeIndex": 8,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_TeemoR_BounceDistance",
+                  "type": "MaxBounceDistance",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_MaximumTraps",
+                  "type": "MaxAmmo",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_TeemoR_Name",
+            "keySummary": "Spell_TeemoR_Summary",
+            "keyTooltip": "Spell_TeemoR_Tooltip"
+          },
+          "mObjectName": "TeemoR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoNotNeedToFaceTarget": true,
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Teemo/HUD/Icons2D/TeemoR.ASU_Teemo.dds"
+      ],
+      "mLineWidth": 120.0,
+      "mMaxAmmo": [
+        3,
+        3,
+        4,
+        5,
+        3,
+        3,
+        3
+      ],
+      "mMissileEffectKey": "Teemo_R_Mis",
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatioPerTick",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_Trap"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Area"
+      },
+      "mana": [
+        75.0,
+        55.0,
+        35.0,
+        35.0,
+        35.0,
+        35.0
+      ],
+      "missileSpeed": 1000.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Teemo/Spells/TeemoSkin47Manager": {
+    "ObjectName": "TeemoSkin47Manager",
+    "mScriptName": "TeemoSkin47Manager",
+    "~class": "SpellObject"
+  },
+  "Characters/Teemo/Spells/TeemoWAbility": {
+    "mChildSpells": [
+      "Characters/Teemo/Spells/TeemoWAbility/TeemoW",
+      "0xa6e2eb54",
+      "0xd137b140",
+      "0x30c4f72d"
+    ],
+    "mName": "TeemoWAbility",
+    "mRootSpell": "Characters/Teemo/Spells/TeemoWAbility/TeemoW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Teemo/Spells/TeemoWAbility/TeemoW": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "ActiveMoveSpeedBonus",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "TeemoW",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "SpecificTeam": 100,
+              "effectKey": "Teemo_W_buf2",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mDescription": "game_buff_tooltip_TeemoW",
+      "~class": "BuffData"
+    },
+    "mScriptName": "TeemoW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PassiveMoveSpeedBonus",
+          "mValues": [
+            0.07999999821186066,
+            0.11999999731779099,
+            0.1599999964237213,
+            0.20000000298023224,
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3199999928474426
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ActiveMoveSpeedBuffDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ActiveMoveSpeedBonus",
+          "mValues": [
+            0.1599999964237213,
+            0.23999999463558197,
+            0.3199999928474426,
+            0.4000000059604645,
+            0.47999998927116394,
+            0.5600000023841858,
+            0.6399999856948853
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PassiveCooldownOnDamageTaken",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "SpellEventToAudioEventSuffix": {
+        "12": "Play_sfx_Teemo_TeemoW_OnCast",
+        "18": "Play_sfx_Teemo_TeemoW_OnBuffActivate",
+        "19": "Play_sfx_Teemo_TeemoW_OnBuffDeactivate"
+      },
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 18.024999618530273,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0
+      ],
+      "delayCastOffsetPercent": 0.05739999935030937,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell2",
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_TeemoW_PassiveMoveSpeed",
+                  "type": "PassiveMoveSpeedBonus",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_TeemoW_ActiveMoveSpeed",
+                  "type": "ActiveMoveSpeedBonus",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_TeemoW_Name",
+            "keySummary": "Spell_TeemoW_Summary",
+            "keyTooltip": "Spell_TeemoW_Tooltip"
+          },
+          "mObjectName": "TeemoW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Teemo/HUD/Icons2D/TeemoW.ASU_Teemo.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

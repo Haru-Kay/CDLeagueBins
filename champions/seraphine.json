@@ -1,0 +1,3546 @@
+{
+  "0x1c49a45f": {
+    "ObjectName": "SeraphineEStun",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SeraphineEStun_Name",
+          "keyTooltip": "Buff_SeraphineEStun_Tooltip"
+        },
+        "mObjectName": "SeraphineEStun",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SeraphineEStun",
+    "~class": "SpellObject"
+  },
+  "0x269778d9": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "b6409d68-ec8f-4ba2-adec-40848c7fc58f",
+      "itemID": 125877,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "SeraphineTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x2aa31cb7": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9,
+      20,
+      45,
+      50,
+      65,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "e046f60d-1a0a-4aac-8c61-9d038f2629a1",
+      "itemID": 125863,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_SeraphineMultiHitsWithR",
+    "mNameTraKey": "stat_stone_name_SeraphineMultiHitsWithR",
+    "stoneName": "SeraphineMultiHitsWithR",
+    "~class": "StatStoneData"
+  },
+  "0x2e2e2c8f": {
+    "ObjectName": "SeraphineERoot",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SeraphineERoot_Name",
+          "keyTooltip": "Buff_SeraphineERoot_Tooltip"
+        },
+        "mObjectName": "SeraphineERoot",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SeraphineERoot",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_E2.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x36ea8c6f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      90,
+      225,
+      450,
+      525,
+      675,
+      275
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "134924ba-2a6c-4571-a9b6-b8e9f18e671c",
+      "itemID": 125865,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_SeraphineCCsUpgraded",
+    "mNameTraKey": "stat_stone_name_SeraphineCCsUpgraded",
+    "stoneName": "SeraphineCCsUpgraded",
+    "~class": "StatStoneData"
+  },
+  "0x3a6a4fe5": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7000,
+      17000,
+      34000,
+      41000,
+      51000,
+      20000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d8fe1d9d-5618-4ffe-9550-9af72ebe0397",
+      "itemID": 126207,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_SeraphineWBlocks",
+    "mNameTraKey": "stat_stone_name_SeraphineWBlocks",
+    "stoneName": "SeraphineWBlocks",
+    "~class": "StatStoneData"
+  },
+  "0x44c5db98": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      50,
+      125,
+      250,
+      300,
+      375,
+      150
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b7416834-f20a-48cc-acbb-567b7c517b8f",
+      "itemID": 126206,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_SeraphineQMultihits",
+    "mNameTraKey": "stat_stone_name_SeraphineQMultihits",
+    "stoneName": "SeraphineQMultihits",
+    "~class": "StatStoneData"
+  },
+  "0x4dda80de": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "utility",
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x5afb1cdc": {
+    "catalogEntry": {
+      "contentId": "8fb04630-3a9d-4d2c-b004-c3ab4c013470",
+      "itemID": 66600474,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x6c9ce76f",
+      "0x3a6a4fe5",
+      "0x44c5db98"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x63988e2f": {
+    "ObjectName": "SeraphineQInitialMissile",
+    "mScriptName": "SeraphineQInitialMissile",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 14347,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mMissileEffectKey": "Seraphine_Q_Mis",
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 8000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mSpeed": 1300.0,
+          "mStartBoneName": "R_buffbone_Glb_Foot_Loc",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x645861b9": {
+    "ObjectName": "SeraphineQSecondaryMissile",
+    "mScriptName": "SeraphineQSecondaryMissile",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 50.000999450683594,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "none",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileSpec": {
+        "0xc195fba6": true,
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "movementComponent": {
+          "mStartBoneName": "R_buffbone_Glb_Foot_Loc",
+          "mTargetHeightAugment": 100.0,
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x66ca2cf5": {
+    "ObjectName": "SeraphineEMissile",
+    "mScriptName": "SeraphineEMissile",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castFrame": 7.0,
+      "castRange": [
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194304,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "none",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mLineWidth": 80.0,
+      "mMissileEffectKey": "Seraphine_E_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1200.0,
+          "mStartBoneName": "C_Buffbone_Glb_Layout_Loc",
+          "mTargetBoneName": "C_buffbone_Glb_Center_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x6c9ce76f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8,
+      20,
+      40,
+      50,
+      65,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "3d88902d-e49b-4cbf-b9d3-405accf9dc18",
+      "itemID": 126208,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_SeraphineRLongrange",
+    "mNameTraKey": "stat_stone_name_SeraphineRLongrange",
+    "stoneName": "SeraphineRLongrange",
+    "~class": "StatStoneData"
+  },
+  "0x7490b7cc": {
+    "ObjectName": "SeraphineECast",
+    "mScriptName": "SeraphineECast",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194304,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineEAbility/SeraphineE",
+        "mUseTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineEAbility/SeraphineE",
+        "~class": "SpellDataResourceClient"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x76843b9d": {
+    "ObjectName": "SeraphineQCastEcho",
+    "mScriptName": "SeraphineQCastEcho",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "P_Spell1",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineQAbility/SeraphineQ",
+        "mUseTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineQAbility/SeraphineQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x83dc18b7": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8500,
+      21000,
+      42000,
+      50000,
+      63000,
+      25000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5d5dc296-7807-4abb-b1f5-ca718afbca7f",
+      "itemID": 125864,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_SeraphineTotalNotDamage",
+    "mNameTraKey": "stat_stone_name_SeraphineTotalNoteDamage",
+    "stoneName": "SeraphineTotalNoteDamage",
+    "~class": "StatStoneData"
+  },
+  "0x880d678c": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "074dad25-4198-4557-b8bf-a0242722dce9",
+      "itemID": 125875,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "SeraphineEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x9231f30c": {
+    "ObjectName": "SeraphineEPassive",
+    "mScriptName": "SeraphineEPassive",
+    "~class": "SpellObject"
+  },
+  "0x9bf50744": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "f3fccffe-c5aa-4546-b1f2-d1795b6c61f6",
+      "itemID": 125876,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "SeraphineStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xa910fd9a": {
+    "ObjectName": "SeraphineSkin43RTPCStack",
+    "mScriptName": "SeraphineSkin43RTPCStack",
+    "~class": "SpellObject"
+  },
+  "0xb5d821a8": {
+    "ObjectName": "SeraphineSkin43Manager",
+    "mScriptName": "SeraphineSkin43Manager",
+    "~class": "SpellObject"
+  },
+  "0xb77cb13a": {
+    "catalogEntry": {
+      "contentId": "26d8c32b-b18a-446f-84f3-66b8c1a44f8e",
+      "itemID": 66600360,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x36ea8c6f",
+      "0x2aa31cb7",
+      "0x83dc18b7"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xbc559f12": {
+    "ObjectName": "SeraphineESlow",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SeraphineESlow_Name",
+          "keyTooltip": "Buff_SeraphineESlow_Tooltip"
+        },
+        "mObjectName": "SeraphineESlow",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SeraphineESlow",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_E1.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xc50c3a9c": {
+    "ObjectName": "SeraphineQCast",
+    "mScriptName": "SeraphineQCast",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineQAbility/SeraphineQ",
+        "mUseTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineQAbility/SeraphineQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xd4e4e5cd": {
+    "ObjectName": "SeraphineECastEcho",
+    "mScriptName": "SeraphineECastEcho",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castRange": [
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194304,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "P_Spell3",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mClientData": {
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineEAbility/SeraphineE",
+        "mUseTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineEAbility/SeraphineE",
+        "~class": "SpellDataResourceClient"
+      },
+      "mProjectTargetToCastRange": true,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xe594ddb1": {
+    "catalogEntry": {
+      "contentId": "2d620db5-e8b7-47f1-ad90-f79fa0bf99c3",
+      "itemID": 66600365,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x880d678c",
+      "0x9bf50744",
+      "0x269778d9"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "Characters/Seraphine/CharacterRecords/Root": {
+    "0x6854087e": [
+      {
+        "0xcf19cb5d": {
+          "hpPerLevel": 5.0,
+          "~class": "0x770f7888"
+        },
+        "0xe4f7105d": "Maps/Shipping/Map11/Modes/SWIFTPLAY",
+        "~class": "0x47f13ab0"
+      }
+    ],
+    "acquisitionRange": 525.0,
+    "armorPerLevel": 4.199999809265137,
+    "attackRange": 525.0,
+    "attackSpeed": 0.6690000295639038,
+    "attackSpeedPerLevel": 2.0,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 26.0,
+    "baseDamage": 50.0,
+    "baseHP": 570.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.2999999523162842,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.11299999803304672,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 147,
+      "description": "game_character_description_seraphine",
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "roles": "SUPPORT",
+      "searchTags": "support",
+      "searchTagsSecondary": "mage",
+      "~class": "characterToolData"
+    },
+    "damagePerLevel": 3.0,
+    "evolutionData": {
+      "mIconNames": [
+        "ASSETS/Characters/Pyke/HUD/Icons2D/PykeQ.dds",
+        "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_BlackShield.dds",
+        "ASSETS/Characters/Teemo/HUD/Icons2D/Teemo_R.dds",
+        "ASSETS/Characters/Fiddlesticks/HUD/Icons2D/Fiddlesticks_ConjureScarecrow.dds"
+      ],
+      "~class": "EvolutionDescription"
+    },
+    "flags": 9446656,
+    "healthBarHeight": 130.0,
+    "hpPerLevel": 95.0,
+    "hpRegenPerLevel": 0.11999999731779099,
+    "mAbilities": [
+      "Characters/Seraphine/Spells/SeraphineQAbility",
+      "Characters/Seraphine/Spells/SeraphineWAbility",
+      "Characters/Seraphine/Spells/SeraphineEAbility",
+      "Characters/Seraphine/Spells/SeraphineRAbility",
+      "Characters/Seraphine/Spells/SeraphinePassiveAbility"
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Seraphine",
+    "mCharacterPassiveBuffs": [
+      {
+        "mAllowOnClones": false,
+        "mComponentBuffs": [
+          "Characters/Seraphine/Spells/SeraphinePassiveEcho",
+          "Characters/Seraphine/Spells/SeraphinePassiveNotes",
+          "Characters/Seraphine/Spells/SeraphinePassiveEchoStage1",
+          "Characters/Seraphine/Spells/SeraphinePassiveEchoStage2"
+        ],
+        "mParentPassiveBuff": "Characters/Seraphine/Spells/SeraphinePassiveAbility/SeraphinePassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            1
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Seraphine/Spells/SeraphineSkin01MusicManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            2
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Seraphine/Spells/SeraphineSkin02MusicManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            3
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Seraphine/Spells/SeraphineSkin03MusicManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            43
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0xb5d821a8",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Seraphine/Spells/SeraphinePassiveAbility/SeraphinePassive",
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "name": "Character_Seraphine_Name",
+    "passive1IconName": "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_Passive.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_SeraphinePassive_Name",
+    "passiveSpell": "SeraphinePassive",
+    "passiveToolTip": "Spell_SeraphinePassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 360.0,
+      "arBaseStaticRegen": 2.299999952316284,
+      "arPerLevel": 40.0,
+      "arRegenPerLevel": 0.1899999976158142,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "secondaryAbilityResource": {
+      "arBase": 3.0,
+      "arBaseStaticRegen": 0.0,
+      "arDisplayAsPips": true,
+      "arIncrements": 3.0,
+      "arMaxSegments": 2,
+      "arNegativeSpacer": true,
+      "arOverrideLargePipName": "SeraphineStyleLarge",
+      "arOverrideSpacerName": "PipSpacer1",
+      "arType": 12,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 100.0,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "SeraphineQAbility/SeraphineQ",
+      "SeraphineWAbility/SeraphineW",
+      "SeraphineEAbility/SeraphineE",
+      "SeraphineRAbility/SeraphineR"
+    ],
+    "spells": [
+      "Characters/Seraphine/Spells/SeraphineQAbility/SeraphineQ",
+      "Characters/Seraphine/Spells/SeraphineWAbility/SeraphineW",
+      "Characters/Seraphine/Spells/SeraphineEAbility/SeraphineE",
+      "Characters/Seraphine/Spells/SeraphineRAbility/SeraphineR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "~class": "CharacterRecord"
+  },
+  "Characters/Seraphine/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Seraphine/Spells/SeraphineBasicAttack": {
+    "ObjectName": "SeraphineBasicAttack",
+    "mScriptName": "SeraphineBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castFrame": 5.0,
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "mAffectsTypeFlags": 6154,
+      "mApplyAttackDamage": true,
+      "mCastType": 1,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Seraphine_BasicAttack_tar",
+      "mMissileEffectKey": "Seraphine_BasicAttack_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1800.0,
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineBasicAttack2": {
+    "ObjectName": "SeraphineBasicAttack2",
+    "mScriptName": "SeraphineBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castFrame": 5.0,
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Attack2",
+      "mApplyAttackDamage": true,
+      "mCastType": 1,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Seraphine_BasicAttack_tar",
+      "mMissileEffectKey": "Seraphine_BasicAttack_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1800.0,
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineCritAttack": {
+    "ObjectName": "SeraphineCritAttack",
+    "mScriptName": "SeraphineCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castFrame": 10.0,
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "mAffectsTypeFlags": 6154,
+      "mApplyAttackDamage": true,
+      "mCastType": 1,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Seraphine_BasicAttack_tar",
+      "mMissileEffectKey": "Seraphine_BasicAttack_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1800.0,
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineEAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Seraphine/Spells/SeraphineEAbility/SeraphineE",
+      "0x66ca2cf5",
+      "0x7490b7cc",
+      "0xd4e4e5cd",
+      "0x9231f30c",
+      "0x2e2e2c8f",
+      "0xbc559f12",
+      "0x1c49a45f"
+    ],
+    "mName": "SeraphineEAbility",
+    "mRootSpell": "Characters/Seraphine/Spells/SeraphineEAbility/SeraphineE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineEAbility/SeraphineE": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "FinalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowValue",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SeraphineE",
+    "mScriptName": "SeraphineE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            40.0,
+            70.0,
+            100.0,
+            130.0,
+            160.0,
+            190.0,
+            220.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowValue",
+          "mValues": [
+            99.0,
+            99.0,
+            99.0,
+            99.0,
+            99.0,
+            99.0,
+            99.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.0,
+            1.100000023841858,
+            1.2000000476837158,
+            1.2999999523162842,
+            1.399999976158142,
+            1.5,
+            1.600000023841858
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionDamageMod",
+          "mValues": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "SWIFTPLAY": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamage",
+              "mValues": [
+                35.0,
+                70.0,
+                105.0,
+                140.0,
+                175.0,
+                210.0,
+                245.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "canCastOrQueueWhileCasting": true,
+      "castFrame": 7.0,
+      "castRange": [
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0,
+        1300.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        10.5,
+        10.0,
+        9.5,
+        9.0,
+        9.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "none",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fade": false,
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_SlowDuration",
+                  "type": "SlowDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SeraphineE_Name",
+            "keySummary": "Spell_SeraphineE_Summary",
+            "keyTooltip": "Spell_SeraphineE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SeraphineE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SeraphineE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_E1.dds",
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_E2.dds",
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_E3.dds"
+      ],
+      "mLineWidth": 80.0,
+      "mProjectTargetToCastRange": true,
+      "mSpellCalculations": {
+        "FinalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveAbility": {
+    "mChildSpells": [
+      "Characters/Seraphine/Spells/SeraphinePassiveAbility/SeraphinePassive"
+    ],
+    "mName": "SeraphinePassiveAbility",
+    "mRootSpell": "Characters/Seraphine/Spells/SeraphinePassiveAbility/SeraphinePassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveAbility/SeraphinePassive": {
+    "ObjectName": "SeraphinePassive",
+    "mScriptName": "SeraphinePassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "EchoCastDelay",
+          "mValues": [
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AutoAPRatio",
+          "mValues": [
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxNotes",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AllyNoteDamagePercent",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NoteDuration",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusAARange",
+          "mValues": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DelayBetweenNoteCasts",
+          "mValues": [
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224,
+            0.07500000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NoteRadius",
+          "mValues": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DelayBetweenNoteCastsDecayRate",
+          "mValues": [
+            0.949999988079071,
+            0.949999988079071,
+            0.949999988079071,
+            0.949999988079071,
+            0.949999988079071,
+            0.949999988079071,
+            0.949999988079071
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionDamageMultiplier",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NoteAPRatio",
+          "mValues": [
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_SeraphinePassive_Name",
+            "keySummary": "Spell_SeraphinePassive_Summary",
+            "keyTooltip": "Spell_SeraphinePassive_Tooltip",
+            "keyTooltipExtended": "Spell_SeraphinePassive_TooltipExtended"
+          },
+          "mObjectName": "SeraphinePassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "AutoDamage": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 25.0,
+              "mStartValue": 4.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mDataValue": "NoteAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveAttack": {
+    "ObjectName": "SeraphinePassiveAttack",
+    "mScriptName": "SeraphinePassiveAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castFrame": 5.0,
+      "castRange": [
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 8127,
+      "mAnimationName": "P_Attack",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mDisableCastBar": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Seraphine_BasicAttack_tar",
+      "mIgnoreRangeCheck": true,
+      "mMissileEffectKey": "Seraphine_BasicAttack_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1800.0,
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRollForCriticalHit": true,
+      "mTurnSpeedScalar": 5.0,
+      "mUseAutoattackCastTimeData": {
+        "mUseCastTimeAsTotalTime": false,
+        "~class": "UseAutoattackCastTimeData"
+      },
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveEcho": {
+    "ObjectName": "SeraphinePassiveEcho",
+    "mScriptName": "SeraphinePassiveEcho",
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveEchoStage1": {
+    "ObjectName": "SeraphinePassiveEchoStage1",
+    "mScriptName": "SeraphinePassiveEchoStage1",
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveEchoStage2": {
+    "ObjectName": "SeraphinePassiveEchoStage2",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SeraphinePassiveEchoStage2_Name",
+          "keyTooltip": "Buff_SeraphinePassiveEchoStage2_Tooltip"
+        },
+        "mObjectName": "SeraphinePassiveEchoStage2",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SeraphinePassiveEchoStage2",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveNotes": {
+    "ObjectName": "SeraphinePassiveNotes",
+    "mScriptName": "SeraphinePassiveNotes",
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveNotesAARange": {
+    "ObjectName": "SeraphinePassiveNotesAARange",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SeraphinePassiveNotesAARange_Name",
+          "keyTooltip": "Buff_SeraphinePassiveNotesAARange_Tooltip"
+        },
+        "mObjectName": "SeraphinePassiveNotesAARange",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SeraphinePassiveNotesAARange",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveNotesBuff": {
+    "ObjectName": "SeraphinePassiveNotesBuff",
+    "mScriptName": "SeraphinePassiveNotesBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveNotesMissileOrbitingAlly": {
+    "ObjectName": "SeraphinePassiveNotesMissileOrbitingAlly",
+    "mScriptName": "SeraphinePassiveNotesMissileOrbitingAlly",
+    "mSpell": {
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194308,
+      "mAffectsStatusFlags": 32,
+      "mCastType": 7,
+      "mMissileEffectKey": "Seraphine_P_Harmony_Notes",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mAngularVelocity": 1.5,
+          "~class": "SyncCircleMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mTargetControlsVisibility": true,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveNotesMissileTarget1": {
+    "ObjectName": "SeraphinePassiveNotesMissileTarget1",
+    "mScriptName": "SeraphinePassiveNotesMissileTarget1",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 7819,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Seraphine_P_Harmony_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          },
+          {
+            "~class": "CastOnHit"
+          }
+        ],
+        "movementComponent": {
+          "mSplineInfo": {
+            "mControlPoint1": [
+              0.017272792756557465,
+              0.0,
+              -1.437002420425415
+            ],
+            "mControlPoint2": [
+              -1.5,
+              0.0,
+              3.2829999923706055
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mTargetBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeSplineMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveNotesMissileTarget2": {
+    "ObjectName": "SeraphinePassiveNotesMissileTarget2",
+    "mScriptName": "SeraphinePassiveNotesMissileTarget2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0,
+        710.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 7823,
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mIsDisabledWhileDead": false,
+      "mMissileEffectKey": "Seraphine_P_Harmony_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          },
+          {
+            "~class": "CastOnHit"
+          }
+        ],
+        "movementComponent": {
+          "mSplineInfo": {
+            "mControlPoint1": [
+              0.017272792756557465,
+              0.0,
+              -1.437002420425415
+            ],
+            "mControlPoint2": [
+              1.5,
+              0.0,
+              3.2829999923706055
+            ],
+            "mUseMissilePositionAsOrigin": true,
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mTargetBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeSplineMovement"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 3000.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphinePassiveNotesMissileToAlly": {
+    "ObjectName": "SeraphinePassiveNotesMissileToAlly",
+    "mScriptName": "SeraphinePassiveNotesMissileToAlly",
+    "mSpell": {
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsStatusFlags": 48,
+      "mAffectsTypeFlags": 1,
+      "mCastType": 1,
+      "mMissileEffectKey": "Seraphine_P_Harmony_ToAllyMis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mTravelTime": 0.25,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "visibilityComponent": {
+          "mTargetControlsVisibility": true,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineQAbility": {
+    "AbilityTraits": 256,
+    "mChildSpells": [
+      "Characters/Seraphine/Spells/SeraphineQAbility/SeraphineQ",
+      "0xc50c3a9c",
+      "0x76843b9d",
+      "0x63988e2f",
+      "0x645861b9"
+    ],
+    "mName": "SeraphineQAbility",
+    "mRootSpell": "Characters/Seraphine/Spells/SeraphineQAbility/SeraphineQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineQAbility/SeraphineQ": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "ExplosionDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SeraphineQ",
+    "mScriptName": "SeraphineQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExecuteThreshold",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageAmp",
+          "mValues": [
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "canCastOrQueueWhileCasting": true,
+      "castRadius": [
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0
+      ],
+      "castRange": [
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        8.0,
+        8.0,
+        7.5,
+        7.0,
+        6.5,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "none",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_InitialDamage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SeraphineQ_Name",
+            "keySummary": "Spell_SeraphineQ_Summary",
+            "keyTooltip": "Spell_SeraphineQ_Tooltip"
+          },
+          "mObjectName": "SeraphineQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_Q1.dds",
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_Q2.dds",
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_Q3.dds"
+      ],
+      "mSpellCalculations": {
+        "ExplosionDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "TotalEmpoweredDamage": {
+          "mModifiedGameCalculation": "ExplosionDamage",
+          "mMultiplier": {
+            "mNumber": 1.75,
+            "~class": "NumberCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 6,
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mana": [
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        100.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineRAbility": {
+    "AbilityTraits": 2050,
+    "mChildSpells": [
+      "Characters/Seraphine/Spells/SeraphineRAbility/SeraphineR"
+    ],
+    "mName": "SeraphineRAbility",
+    "mRootSpell": "Characters/Seraphine/Spells/SeraphineRAbility/SeraphineR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineRAbility/SeraphineR": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "R1TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "RMinSlow",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "RChannelDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "RChannelDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "RChannelDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SeraphineR",
+    "mScriptName": "SeraphineR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "RChannelDuration",
+          "mValues": [
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "R1BaseDamage",
+          "mValues": [
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "R1APRatio",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RRange",
+          "mValues": [
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RMinSlow",
+          "mValues": [
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RMaxSlow",
+          "mValues": [
+            -0.9900000095367432,
+            -0.9900000095367432,
+            -0.9900000095367432,
+            -0.9900000095367432,
+            -0.9900000095367432,
+            -0.9900000095367432,
+            -0.9900000095367432
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRadius": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        160.0,
+        160.0,
+        140.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194304,
+      "luaOnMissileUpdateDistanceInterval": 50.000999450683594,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 22539,
+      "mAnimationName": "Spell4_start",
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mCastTime": 0.5,
+      "mCastType": 3,
+      "mCasterPositionEndOfCastUpdate": 2,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0,
+                160.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0,
+                1300.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1200.0,
+                1200.0,
+                1200.0,
+                1200.0,
+                1200.0,
+                1200.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_InitialDamage",
+                  "type": "R1BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_CharmDuration",
+                  "type": "RChannelDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SeraphineR_Name",
+            "keySummary": "Spell_SeraphineR_Summary",
+            "keyTooltip": "Spell_SeraphineR_Tooltip"
+          },
+          "mObjectName": "SeraphineR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_R.dds"
+      ],
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "GravityHeightSolver"
+        },
+        "mMissileWidth": 160.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "C_Buffbone_Glb_Layout_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "R1TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "R1BaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "R1APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineRPostCast": {
+    "ObjectName": "SeraphineRPostCast",
+    "mScriptName": "SeraphineRPostCast",
+    "mSpell": {
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell4_cast",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mClientData": {
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineRAbility/SeraphineR",
+        "mUseTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineRAbility/SeraphineR",
+        "~class": "SpellDataResourceClient"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineSkin01MusicManager": {
+    "ObjectName": "SeraphineSkin01MusicManager",
+    "mScriptName": "SeraphineSkin01MusicManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineSkin02MusicManager": {
+    "ObjectName": "SeraphineSkin02MusicManager",
+    "mScriptName": "SeraphineSkin02MusicManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineSkin03MusicManager": {
+    "ObjectName": "SeraphineSkin03MusicManager",
+    "mScriptName": "SeraphineSkin03MusicManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineW2HealMissile": {
+    "ObjectName": "SeraphineW2HealMissile",
+    "mScriptName": "SeraphineW2HealMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsStatusFlags": 48,
+      "mAffectsTypeFlags": 7375,
+      "mCastType": 1,
+      "mMissileEffectKey": "Seraphine_W_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mGravity": 3000.0,
+          "~class": "GravityHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1700.0,
+          "mStartBoneName": "Buffbone_Cstm_Weapon",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1700.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineW2Warning": {
+    "ObjectName": "SeraphineW2Warning",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SeraphineW2Warning_Name",
+          "keyTooltip": "Buff_SeraphineW2Warning_Tooltip"
+        },
+        "mObjectName": "SeraphineW2Warning",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SeraphineW2Warning",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_W2.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineWAbility": {
+    "AbilityTraits": 8,
+    "mChildSpells": [
+      "Characters/Seraphine/Spells/SeraphineWAbility/SeraphineW"
+    ],
+    "mName": "SeraphineWAbility",
+    "mRootSpell": "Characters/Seraphine/Spells/SeraphineWAbility/SeraphineW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineWAbility/SeraphineW": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalShieldStrength",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "WMSBonusTotal",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "WMSBonusTotal",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "WMissingHPHeal",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "WMissingHPHeal",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalShieldStrength",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 262144,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalShieldStrength",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "SeraphineW",
+    "mScriptName": "SeraphineW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "ShieldDuration",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldStrength",
+          "mValues": [
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0,
+            160.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldAPRatio",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WMSBonus",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WMSBonusAPRatio",
+          "mValues": [
+            0.00019999999494757503,
+            0.00019999999494757503,
+            0.00019999999494757503,
+            0.00019999999494757503,
+            0.00019999999494757503,
+            0.00019999999494757503,
+            0.00019999999494757503
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HasteValueForAllies",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WMissingHPBase",
+          "mValues": [
+            6.0,
+            8.0,
+            10.0,
+            12.0,
+            14.0,
+            16.0,
+            18.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WMissingHPPer100AP",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WHealSplitDelay",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldAmpForSeraphine",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "URF": {
+          "SpellDataValues": [
+            {
+              "mName": "ShieldAPRatio",
+              "mValues": [
+                0.15000000596046448,
+                0.15000000596046448,
+                0.15000000596046448,
+                0.15000000596046448,
+                0.15000000596046448,
+                0.15000000596046448,
+                0.15000000596046448
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRange": [
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0,
+        800.0
+      ],
+      "cooldownTime": [
+        22.0,
+        22.0,
+        22.0,
+        22.0,
+        22.0,
+        22.0,
+        22.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "none",
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Shield",
+                  "type": "ShieldStrength",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_HealPercentOfDamageDealt",
+                  "type": "WMissingHPBase",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_SeraphineW_Name",
+            "keySummary": "Spell_SeraphineW_Summary",
+            "keyTooltip": "Spell_SeraphineW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_SeraphineW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "SeraphineW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "head",
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_W1.dds",
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_W2.dds",
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_W3.dds"
+      ],
+      "mSpellCalculations": {
+        "HasteValueAllies": {
+          "mModifiedGameCalculation": "WMSBonusTotal",
+          "mMultiplier": {
+            "mDataValue": "HasteValueForAllies",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 6,
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "ShieldValueSeraphine": {
+          "mModifiedGameCalculation": "TotalShieldStrength",
+          "mMultiplier": {
+            "mDataValue": "ShieldAmpForSeraphine",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculationModified"
+        },
+        "TotalShieldStrength": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ShieldStrength",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ShieldAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "WMSBonusTotal": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "WMSBonus",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "WMSBonusAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        },
+        "WMissingHPHeal": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "WMissingHPBase",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mTurnSpeedScalar": 5.0,
+      "mana": [
+        70.0,
+        75.0,
+        80.0,
+        85.0,
+        90.0,
+        90.0
+      ],
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineWCast": {
+    "ObjectName": "SeraphineWCast",
+    "mScriptName": "SeraphineWCast",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 1029,
+      "mAnimationName": "Spell2",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mCastTime": 0.25,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineWAbility/SeraphineW",
+        "mUseTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineWAbility/SeraphineW",
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "head",
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineWCastEcho": {
+    "ObjectName": "SeraphineWCastEcho",
+    "mScriptName": "SeraphineWCastEcho",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 1029,
+      "mAnimationName": "P_Spell2",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mCastTime": 0.25,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineWAbility/SeraphineW",
+        "mUseTooltipFromAnotherSpell": "Characters/Seraphine/Spells/SeraphineWAbility/SeraphineW",
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "head",
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineWHaste": {
+    "ObjectName": "SeraphineWHaste",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SeraphineWHaste_Name",
+          "keyTooltip": "Buff_SeraphineWHaste_Tooltip"
+        },
+        "mObjectName": "SeraphineWHaste",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SeraphineWHaste",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_W1.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Seraphine/Spells/SeraphineWShield": {
+    "ObjectName": "SeraphineWShield",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_SeraphineWShield_Name",
+          "keyTooltip": "Buff_SeraphineWShield_Tooltip"
+        },
+        "mObjectName": "SeraphineWShield",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "SeraphineWShield",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Seraphine/HUD/Icons2D/Seraphine_W1.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

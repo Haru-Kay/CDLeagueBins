@@ -1,0 +1,3612 @@
+{
+  "0x1a00c948": {
+    "ObjectName": "XinZhaoESpellCastTrigger",
+    "mScriptName": "XinZhaoESpellCastTrigger",
+    "mSpell": {
+      "cantCastWhileRooted": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAnimationName": "",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x4c199e6a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      55,
+      125,
+      125,
+      175,
+      70
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "8e81ca00-ec2c-4d86-b9d4-65cd34963843",
+      "itemID": 126324,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_XinZhaoEWTakedowns",
+    "mNameTraKey": "stat_stone_name_XinZhaoEWTakedowns",
+    "stoneName": "XinZhaoEWTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x4cb7b363": {
+    "ObjectName": "XinZhaoEDash",
+    "mScriptName": "XinZhaoEDash",
+    "mSpell": {
+      "cantCastWhileRooted": true,
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x63afb630": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "20f986ec-b0d1-47b7-8611-dba12b260427",
+      "itemID": 125522,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "XinZhaoEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x6efefe85": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "b3a598b5-3bf9-48ad-b1f2-9f43b032513b",
+      "itemID": 125523,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "XinZhaoTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x7c4e930b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      30,
+      65,
+      75,
+      95,
+      40
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "22cd04c5-1f50-4021-8a7b-adff1aef3338",
+      "itemID": 287,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_XinZhaoLongRangeW",
+    "mNameTraKey": "stat_stone_name_XinZhaoLongRangeW",
+    "stoneName": "XinZhaoLongRangeW",
+    "~class": "StatStoneData"
+  },
+  "0x91d33366": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7500,
+      19000,
+      38000,
+      45000,
+      56000,
+      23000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "8e3cfaa3-17dc-4f66-9360-8bffc46ccd86",
+      "itemID": 126325,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_XinZhaoRBlocks",
+    "mNameTraKey": "stat_stone_name_XinZhaoRBlocks",
+    "stoneName": "XinZhaoRBlocks",
+    "~class": "StatStoneData"
+  },
+  "0xaab6fc54": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      7,
+      15,
+      15,
+      20,
+      8
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d43b9747-ff58-4fb6-bbea-d85a05adc153",
+      "itemID": 99227,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_XinZhaoRKills",
+    "mNameTraKey": "stat_stone_name_XinZhaoRKills",
+    "stoneName": "XinZhaoRKills",
+    "~class": "StatStoneData"
+  },
+  "0xc73506ec": {
+    "catalogEntry": {
+      "contentId": "9120de7f-094d-4fd0-9a17-c26bfd848de7",
+      "itemID": 66600513,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x4c199e6a",
+      "0xcd1eefa0",
+      "0x91d33366"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xca350ba5": {
+    "catalogEntry": {
+      "contentId": "fc167ca3-101e-4112-9ea5-47a13372a2c5",
+      "itemID": 66600135,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0xaab6fc54",
+      "0x7c4e930b",
+      "0xef2d4b5f"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xcd1eefa0": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      1000,
+      3000,
+      5500,
+      6500,
+      8500,
+      3500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "e309fedc-d303-46b8-9e47-04bd8bcf3584",
+      "itemID": 126323,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_XinZhaoPHealing",
+    "mNameTraKey": "stat_stone_name_XinZhaoPHealing",
+    "stoneName": "XinZhaoPHealing",
+    "~class": "StatStoneData"
+  },
+  "0xd4214c01": {
+    "catalogEntry": {
+      "contentId": "d2641622-f66b-45d9-aae7-fbd8e08db7e6",
+      "itemID": 66600195,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x63afb630",
+      "0x6efefe85",
+      "0xd7d71e08"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xd7d71e08": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "d02ab8cc-60c4-45de-ab54-45e5a25fce54",
+      "itemID": 125524,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "XinZhaoStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xe62d4d12": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "mEarlyLevelOverrides": [
+          2,
+          1,
+          0,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xedb8babd": {
+    "ObjectName": "XinZhaoWMissile",
+    "mScriptName": "XinZhaoWMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.53000020980835,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0,
+        1175.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "EzrealMysticShotMissile",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.2000000476837158,
+      "mDoNotNeedToFaceTarget": true,
+      "mDoesntBreakChannels": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            90.0,
+            150.0,
+            245.0,
+            315.0,
+            440.0,
+            565.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.25,
+            2.5,
+            2.75,
+            3.0,
+            3.25,
+            3.5,
+            3.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "root",
+      "mImgIconName": [
+        "FallenAngel_DarkBinding.dds"
+      ],
+      "mLineWidth": 40.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 40.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 6250.0,
+          "mStartBoneName": "L_hand",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mProjectTargetToCastRange": true,
+      "mSpellCooldownOrSealedQueueThreshold": 0.30000001192092896,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 7500.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xef2d4b5f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      55,
+      100,
+      125,
+      175,
+      65
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b12ed152-3fd6-4f55-b587-882c66150216",
+      "itemID": 288,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_XinZhaoQKnockuops",
+    "mNameTraKey": "stat_stone_name_XinZhaoQKnockuops",
+    "stoneName": "XinZhaoQKnockuops",
+    "~class": "StatStoneData"
+  },
+  "Characters/XinZhao/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/XinZhao/Spells/XinZhaoQThrust1",
+      "Characters/XinZhao/Spells/XinZhaoQThrust2",
+      "Characters/XinZhao/Spells/XinZhaoQThrust3",
+      "0x4cb7b363",
+      "0x1a00c948",
+      "Characters/XinZhao/Spells/XinZhaoEBasicAttack",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Characters/XinZhao/Spells/XinZhaoPassiveCritAttack",
+      "0xedb8babd",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "0xc5c48b41": 1,
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 4.400000095367432,
+    "attackRange": 175.0,
+    "attackSpeed": 0.6449999809265137,
+    "attackSpeedPerLevel": 3.5,
+    "attackSpeedRatio": 0.6449999809265137,
+    "baseArmor": 35.0,
+    "baseDamage": 63.0,
+    "baseHP": 620.0,
+    "baseMoveSpeed": 345.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.600000023841858,
+    "basicAttack": {
+      "mAttackCastTime": 0.28999999165534973,
+      "mAttackName": "XinZhaoBasicAttack",
+      "mAttackProbability": 0.5,
+      "mAttackTotalTime": 1.5499999523162842,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.30000001192092896,
+      "attackRank": 8,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 5,
+      "classification": "Deadly",
+      "defenseRank": 6,
+      "description": "game_character_description_XinZhao",
+      "difficultyRank": 2,
+      "magicRank": 3,
+      "mapAIPresence": {
+        "0": {
+          "0x42ac598e": true,
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "+40% Mana Point regeneration.",
+        "+60% Mana Point regeneration.",
+        "+80% Mana Point regeneration."
+      ],
+      "passiveData": [
+        {
+          "name": "Spell_XinZhaoP_Name",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "tank",
+      "spellData": [
+        {
+          "desc": "Master Yi moves like a blur through the battlefield, moving and attacking faster",
+          "displayName": "Highlander",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Master Yi moves like a blur through the battlefield, moving and attacking faster",
+          "displayName": "Highlander",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Master Yi moves like a blur through the battlefield, moving and attacking faster",
+          "displayName": "Highlander",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "Master Yi moves like a blur through the battlefield, moving and attacking faster",
+          "displayName": "Highlander",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.3199999928474426,
+        "mAttackName": "XinZhaoCritAttack",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackCastTime": 0.20000000298023224,
+        "mAttackName": "XinZhaoQThrust1",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackCastTime": 0.20000000298023224,
+        "mAttackName": "XinZhaoQThrust2",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackCastTime": 0.20000000298023224,
+        "mAttackName": "XinZhaoQThrust3",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackCastTime": 0.28999999165534973,
+        "mAttackName": "XinZhaoPassiveCritAttack",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackCastTime": 0.28999999165534973,
+        "mAttackName": "XinZhaoBasicAttack2",
+        "mAttackProbability": 0.5,
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackCastTime": 0.20000000298023224,
+        "mAttackName": "XinZhaoQThrust1",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackCastTime": 0.20000000298023224,
+        "mAttackName": "XinZhaoQThrust2",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackCastTime": 0.20000000298023224,
+        "mAttackName": "XinZhaoQThrust3",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackCastTime": 0.28999999165534973,
+        "mAttackName": "XinZhaoPassiveCritAttack",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackCastTime": 0.28999999165534973,
+        "mAttackName": "XinZhaoEBasicAttack",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "XinZhaoQThrust1",
+      "XinZhaoQThrust2",
+      "XinZhaoQThrust3",
+      "XinZhaoEDash",
+      "XinZhaoESpellCastTrigger",
+      "XinZhaoEBasicAttack",
+      "BaseSpell",
+      "BaseSpell",
+      "XinZhaoPassiveCritAttack",
+      "XinZhaoWMissile",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8414472,
+    "healthBarHeight": 92.0,
+    "hpPerLevel": 106.0,
+    "hpRegenPerLevel": 0.14000000059604645,
+    "mAbilities": [
+      "Characters/XinZhao/Spells/XinZhaoEAbility",
+      "Characters/XinZhao/Spells/XinZhaoQAbility",
+      "Characters/XinZhao/Spells/XinZhaoWAbility",
+      "Characters/XinZhao/Spells/XinZhaoRAbility",
+      "Characters/XinZhao/Spells/XinZhaoPAbility"
+    ],
+    "mAbilitySlotCC": [
+      8,
+      0,
+      0,
+      7
+    ],
+    "mCharacterName": "XinZhao",
+    "mCharacterPassiveBuffs": [
+      {
+        "mChildSpells": [
+          "Characters/XinZhao/Spells/XinZhaoPassiveCritAttack"
+        ],
+        "mParentPassiveBuff": "Characters/XinZhao/Spells/XinZhaoPAbility/XinZhaoP",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "mParentPassiveBuff": "Characters/XinZhao/Spells/XinZhaoRunCycleManager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/XinZhao/Spells/XinZhaoPAbility/XinZhaoP",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Domination",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_XinZhao",
+    "passive1IconName": "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkP.XinZhaoRework.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_XinZhaoP_Name",
+    "passiveSpell": "XinZhaoP",
+    "passiveToolTip": "Spell_XinZhaoP_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 274.0,
+      "arBaseStaticRegen": 1.4500000476837158,
+      "arPerLevel": 55.0,
+      "arRegenPerLevel": 0.09000000357627869,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 138.88890075683594,
+    "selectionRadius": 108.33329772949219,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "XinZhaoQAbility/XinZhaoQ",
+      "XinZhaoWAbility/XinZhaoW",
+      "XinZhaoEAbility/XinZhaoE",
+      "XinZhaoRAbility/XinZhaoR"
+    ],
+    "spells": [
+      "Characters/XinZhao/Spells/XinZhaoQAbility/XinZhaoQ",
+      "Characters/XinZhao/Spells/XinZhaoWAbility/XinZhaoW",
+      "Characters/XinZhao/Spells/XinZhaoEAbility/XinZhaoE",
+      "Characters/XinZhao/Spells/XinZhaoRAbility/XinZhaoR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "weaponMaterials": [
+      "XenZhaoBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/XinZhao/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/XinZhao/Spells/XinZhaoBasicAttack": {
+    "ObjectName": "XinZhaoBasicAttack",
+    "mScriptName": "XinZhaoBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.100000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "XinZhao_BA_Tar",
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoBasicAttack2": {
+    "ObjectName": "XinZhaoBasicAttack2",
+    "mScriptName": "XinZhaoBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.800000190734863,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "XinZhao_BA_Tar",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoCritAttack": {
+    "ObjectName": "XinZhaoCritAttack",
+    "mScriptName": "XinZhaoCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.360000133514404,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Crit",
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "XinZhao_BA_Crit_Tar",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoEAbility": {
+    "mChildSpells": [
+      "Characters/XinZhao/Spells/XinZhaoEAbility/XinZhaoE"
+    ],
+    "mName": "XinZhaoEAbility",
+    "mRootSpell": "Characters/XinZhao/Spells/XinZhaoEAbility/XinZhaoE",
+    "~class": "AbilityObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoEAbility/XinZhaoE": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "ChargeDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BaseSlowAmount",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 256,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "XinZhaoE",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseSlowAmount",
+          "mValues": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRadiusSecondary": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "castRangeDisplayOverride": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 22538,
+      "mAlternateName": "XinZhaoE",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                250.0,
+                250.0,
+                250.0,
+                250.0,
+                250.0,
+                250.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_brand.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_AttackSpeed",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 3,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_XinZhaoE_Name",
+            "keySummary": "Spell_XinZhaoE_Summary",
+            "keyTooltip": "Spell_XinZhaoE_Tooltip"
+          },
+          "mObjectName": "XinZhaoE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.800000011920929,
+      "mDisableCastBar": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            20.0,
+            50.0,
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            225.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.30000001192092896,
+            -0.30000001192092896
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkE.XinZhaoRework.dds"
+      ],
+      "mSpellCalculations": {
+        "ChargeDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoEBasicAttack": {
+    "ObjectName": "XinZhaoEBasicAttack",
+    "mScriptName": "XinZhaoEBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.100000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Spell3_AA",
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "XinZhao_BA_Tar",
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoEBattleCry": {
+    "ObjectName": "XinZhaoEBattleCry",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XinZhaoEBuffTooltip",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoEBattleCry",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 20.209999084472656,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.23749999701976776,
+      "delayTotalTimePercent": -0.23000000417232513,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "XinZhaoEBattleCry",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCoefficient": 0.4000000059604645,
+      "mCoefficient2": 0.20000000298023224,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929,
+            0.6000000238418579,
+            0.6499999761581421
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            -0.875,
+            -0.75,
+            -0.625,
+            -0.5,
+            -0.375,
+            -0.25,
+            -0.125
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            12.5,
+            25.0,
+            37.5,
+            50.0,
+            62.5,
+            75.0,
+            87.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkE.XinZhaoRework.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoIntimidate": {
+    "ObjectName": "XinZhaoIntimidate",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XinZhaoIntimidate",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoIntimidate",
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoPAbility": {
+    "mChildSpells": [
+      "Characters/XinZhao/Spells/XinZhaoPAbility/XinZhaoP"
+    ],
+    "mName": "XinZhaoPAbility",
+    "mRootSpell": "Characters/XinZhao/Spells/XinZhaoPAbility/XinZhaoP",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoPAbility/XinZhaoP": {
+    "ObjectName": "XinZhaoP",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XinZhaoPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoP",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "HealAPRatio",
+          "mValues": [
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421,
+            0.6499999761581421
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "HealAPRatio",
+              "mValues": [
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castConeDistance": 100.0,
+      "castFrame": 20.209999084472656,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.23749999701976776,
+      "delayTotalTimePercent": -0.23000000417232513,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_XinZhaoP_Name",
+            "keySummary": "Spell_XinZhaoP_Summary",
+            "keyTooltip": "Spell_XinZhaoP_Tooltip"
+          },
+          "mObjectName": "XinZhaoP",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkP.XinZhaoRework.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mStat": 2,
+              "mSubpart": {
+                "mBreakpoints": [
+                  {
+                    "mAdditionalBonusAtThisLevel": 0.15000000596046448,
+                    "mLevel": 6,
+                    "~class": "Breakpoint"
+                  },
+                  {
+                    "mAdditionalBonusAtThisLevel": 0.15000000596046448,
+                    "mLevel": 11,
+                    "~class": "Breakpoint"
+                  },
+                  {
+                    "mAdditionalBonusAtThisLevel": 0.15000000596046448,
+                    "mLevel": 16,
+                    "~class": "Breakpoint"
+                  },
+                  {
+                    "mAdditionalBonusAtThisLevel": 0.15000000596046448,
+                    "mLevel": 21,
+                    "~class": "Breakpoint"
+                  },
+                  {
+                    "mAdditionalBonusAtThisLevel": 0.15000000596046448,
+                    "mLevel": 26,
+                    "~class": "Breakpoint"
+                  }
+                ],
+                "mLevel1Value": 0.15000000596046448,
+                "~class": "ByCharLevelBreakpointsCalculationPart"
+              },
+              "~class": "StatBySubPartCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "TotalHealing": {
+          "mFormulaParts": [
+            {
+              "mStat": 12,
+              "mSubpart": {
+                "mBreakpoints": [
+                  {
+                    "mAdditionalBonusAtThisLevel": 0.004999999888241291,
+                    "mLevel": 6,
+                    "~class": "Breakpoint"
+                  },
+                  {
+                    "mAdditionalBonusAtThisLevel": 0.004999999888241291,
+                    "mLevel": 11,
+                    "~class": "Breakpoint"
+                  }
+                ],
+                "mLevel1Value": 0.029999999329447746,
+                "~class": "ByCharLevelBreakpointsCalculationPart"
+              },
+              "~class": "StatBySubPartCalculationPart"
+            },
+            {
+              "mDataValue": "HealAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoPTracker": {
+    "ObjectName": "XinZhaoPTracker",
+    "mBuff": {
+      "mDescription": "Spell_XinZhaoP_Summary",
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_XinZhaoP_Name",
+          "keyTooltip": "Spell_XinZhaoP_Summary"
+        },
+        "mObjectName": "XinZhaoPTracker",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoPTracker",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 20.209999084472656,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "cooldownTime": [
+        10.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.23749999701976776,
+      "delayTotalTimePercent": -0.23000000417232513,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/XinZhao/Spells/XinZhaoPAbility/XinZhaoP",
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkP.XinZhaoRework.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoPassiveCritAttack": {
+    "ObjectName": "XinZhaoPassiveCritAttack",
+    "mScriptName": "XinZhaoPassiveCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6499999761581421,
+      "delayTotalTimePercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 6826,
+      "mAnimationName": "Attack_Passive",
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/XinZhao/Spells/XinZhaoPAbility/XinZhaoP",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "XinZhao_BA_Tar",
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkP.XinZhaoRework.dds"
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoQAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/XinZhao/Spells/XinZhaoQAbility/XinZhaoQ"
+    ],
+    "mName": "XinZhaoQAbility",
+    "mRootSpell": "Characters/XinZhao/Spells/XinZhaoQAbility/XinZhaoQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoQAbility/XinZhaoQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "BonusDamage",
+            "~class": "0xf3cbe7b2"
+          },
+          {
+            "mEffectIndex": 1,
+            "~class": "EffectValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 2,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16777216,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "XinZhaoQ",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XinZhaoQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoQ",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 7.394999980926514,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        6.5,
+        6.0,
+        5.5,
+        5.0,
+        5.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "XinZhaoQ",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_BonusDamage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_XinZhaoQ_Name",
+            "keySummary": "Spell_XinZhaoQ_Summary",
+            "keyTooltip": "Spell_XinZhaoQ_Tooltip"
+          },
+          "mObjectName": "XinZhaoQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            15.0,
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            75.0,
+            75.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkQ.XinZhaoRework.dds"
+      ],
+      "mSpellCalculations": {
+        "BonusDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.4000000059604645,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_AttackReset",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoQKnockup": {
+    "ObjectName": "XinZhaoQKnockup",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XinZhaoQKnockup",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoQKnockup",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 20.209999084472656,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.23749999701976776,
+      "delayTotalTimePercent": -0.23000000417232513,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "XinZhaoQKnockup",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCoefficient": 0.4000000059604645,
+      "mCoefficient2": 0.20000000298023224,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkQ.XinZhaoRework.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoQThrust1": {
+    "ObjectName": "XinZhaoQThrust1",
+    "mScriptName": "XinZhaoQThrust1",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6499999761581421,
+      "delayTotalTimePercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "XinZhaoQ",
+      "mAnimationName": "Spell1_Attack1",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            85.0,
+            145.0,
+            205.0,
+            265.0,
+            325.0,
+            385.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkQ.XinZhaoRework.dds"
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoQThrust2": {
+    "ObjectName": "XinZhaoQThrust2",
+    "mScriptName": "XinZhaoQThrust2",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0,
+        625.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6499999761581421,
+      "delayTotalTimePercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "XinZhaoQ",
+      "mAnimationName": "Spell1_Attack2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.699999988079071,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            80.0,
+            130.0,
+            180.0,
+            240.0,
+            300.0,
+            350.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            2.0,
+            2.5,
+            3.0,
+            3.5,
+            4.0,
+            4.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkQ.XinZhaoRework.dds"
+      ],
+      "missileSpeed": 0.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoQThrust3": {
+    "ObjectName": "XinZhaoQThrust3",
+    "mScriptName": "XinZhaoQThrust3",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 11.0,
+      "castRadius": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.6499999761581421,
+      "delayTotalTimePercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "XinZhaoQ",
+      "mAnimationName": "Spell1_Attack3",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            12.0,
+            24.0,
+            36.0,
+            48.0,
+            60.0,
+            72.0,
+            84.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            6.0,
+            9.0,
+            12.0,
+            15.0,
+            18.0,
+            21.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            65.0,
+            110.0,
+            155.0,
+            200.0,
+            245.0,
+            290.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkQ.XinZhaoRework.dds"
+      ],
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoRAbility": {
+    "AbilityTraits": 2594,
+    "mChildSpells": [
+      "Characters/XinZhao/Spells/XinZhaoRAbility/XinZhaoR"
+    ],
+    "mName": "XinZhaoRAbility",
+    "mRootSpell": "Characters/XinZhao/Spells/XinZhaoRAbility/XinZhaoR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoRAbility/XinZhaoR": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 1024,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4194304,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "XinZhaoR",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XenZhaoParry",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            -25.0,
+            75.0,
+            175.0,
+            275.0,
+            375.0,
+            475.0,
+            575.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentCurrentHealthDamage",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MissileDefenseBaseDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MissileDefenseRadius",
+          "mValues": [
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MarkDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        110.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "delayCastOffsetPercent": -0.3499999940395355,
+      "delayTotalTimePercent": -0.3499999940395355,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "XinZhaoR",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_XinZhaoR_Name",
+            "keySummary": "Spell_XinZhaoR_Summary",
+            "keyTooltip": "Spell_XinZhaoR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_XinZhaoR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "XinZhaoR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkR.XinZhaoRework.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 1.100000023841858,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoRKnockback": {
+    "ObjectName": "XinZhaoRKnockback",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoRKnockback",
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoRLastTargetTracker": {
+    "ObjectName": "XinZhaoRLastTargetTracker",
+    "mScriptName": "XinZhaoRLastTargetTracker",
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoRRangedImmunity": {
+    "ObjectName": "XinZhaoRRangedImmunity",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_XinZhaoRangedImmunity",
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoRRangedImmunity",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 20.209999084472656,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        12.0
+      ],
+      "delayCastOffsetPercent": -0.23749999701976776,
+      "delayTotalTimePercent": -0.23000000417232513,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "XenZhaoBattleCry",
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCoefficient": 0.4000000059604645,
+      "mCoefficient2": 0.20000000298023224,
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkR.XinZhaoRework.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoRunCycleManager": {
+    "ObjectName": "XinZhaoRunCycleManager",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "XinZhaoRunCycleManager",
+    "~class": "SpellObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoWAbility": {
+    "mChildSpells": [
+      "Characters/XinZhao/Spells/XinZhaoWAbility/XinZhaoW",
+      "0xedb8babd"
+    ],
+    "mName": "XinZhaoWAbility",
+    "mRootSpell": "Characters/XinZhao/Spells/XinZhaoWAbility/XinZhaoW",
+    "~class": "AbilityObject"
+  },
+  "Characters/XinZhao/Spells/XinZhaoWAbility/XinZhaoW": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "ThrustDamage",
+            "~class": "0xf3cbe7b2"
+          },
+          {
+            "mSpellCalculationKey": "SlashDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 6,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "XinZhaoW",
+    "mScriptName": "XinZhaoW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "SlashBaseDamage",
+          "mValues": [
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0,
+            70.0,
+            80.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ThrustBaseDamage",
+          "mValues": [
+            15.0,
+            50.0,
+            85.0,
+            120.0,
+            155.0,
+            190.0,
+            225.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CritChanceAmp",
+          "mValues": [
+            0.3330000042915344,
+            0.3330000042915344,
+            0.3330000042915344,
+            0.3330000042915344,
+            0.3330000042915344,
+            0.3330000042915344,
+            0.3330000042915344
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MarkDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HitNum",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DelayTime",
+          "mValues": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAfterEffectKey": "XinZhao_W_tar_BS_01",
+      "mAlternateName": "XinZhaoW",
+      "mAnimationName": "Spell2_SlashStab",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.6000000238418579,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                260.0,
+                260.0,
+                260.0,
+                260.0,
+                260.0,
+                260.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                475.0,
+                475.0,
+                475.0,
+                475.0,
+                475.0,
+                475.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "basePosition": 6,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Characters/XinZhao/HUD/Textures/SemiCircleMeleeIndicator.XinZhaoRework.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/blank.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "basePosition": 6,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/LocalLineMissileBase.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/blank.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "arrowSize": 125.0,
+            "endLocator": {
+              "basePosition": 3,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                975.0,
+                975.0,
+                975.0,
+                975.0,
+                975.0,
+                975.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "basePosition": 6,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/blank.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/LocalLineMissileTarget.tex",
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_XinZhaoWSlashDamage",
+                  "type": "SlashBaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_XinZhaoWThrustDamage",
+                  "type": "ThrustBaseDamage",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_XinZhaoW_Name",
+            "keySummary": "Spell_XinZhaoW_Summary",
+            "keyTooltip": "Spell_XinZhaoW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_XinZhaoW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "XinZhaoW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.30000001192092896,
+      "mCoefficient2": 0.8999999761581421,
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            140.0,
+            140.0,
+            140.0,
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_HEAD_LOC",
+      "mHitEffectName": "globalhit_physical.troy",
+      "mImgIconName": [
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkW.XinZhaoRework.dds",
+        "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoReworkW.XinZhaoRework.dds"
+      ],
+      "mLineWidth": 70.0,
+      "mSpellCalculations": {
+        "MinionMod": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 3.3399999141693115,
+                  "mLevel": 16,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mInitialBonusPerLevel": 3.3329999446868896,
+              "mLevel1Value": 50.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculation"
+        },
+        "SlashDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "SlashBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.30000001192092896,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "ThrustDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ThrustBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.8999999761581421,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6499999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mSubparts": [
+              {
+                "mNumber": 1.0,
+                "~class": "NumberCalculationPart"
+              },
+              {
+                "mDataValue": "CritChanceAmp",
+                "mStat": 8,
+                "~class": "StatByNamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "SumOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.30000001192092896,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        60.0,
+        55.0,
+        50.0,
+        45.0,
+        40.0,
+        40.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

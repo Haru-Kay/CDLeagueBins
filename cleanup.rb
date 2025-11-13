@@ -2,8 +2,9 @@ require 'json'
 require 'fileutils'
 require 'hashie'
 
-def removeFluff(obj)
-    values = [
+def formatChampion(obj)
+    obj = obj.fetch("entries", obj)
+    fluff = [
         "ItemRecommendationOverrideSet",
         "RecSpellRankUpInfoList",
         "ItemRecommendationContextList",
@@ -11,9 +12,12 @@ def removeFluff(obj)
         "JunglePathRecommendation"
     ]
     obj.delete_if { |key, value|
-        key == "__linked" || (value.is_a?(Hash) && values.include?(value["__type"]))
+        (value.is_a?(Hash) && fluff.include?(value["~class"]))
     }
+    # TODO: Statstones and other hash values
+    #obj.each { |key, value| }
 
+    return obj
 end
 
 print "Loading and formatting stringtable..."
@@ -56,53 +60,17 @@ File.open("mayhem/augments.bin.json", 'wb') { |f| f.write(JSON.pretty_generate(a
 print "done.\n"
 
 print "Loading and formatting champion data..."
-filter = [
-    "bloom_",
-    "brawl_",
-    "bw_",
-    "cherry_",
-    "crepe_",
-    "doombots_",
-    "durian_",
-    "ha_",
-    "habw_",
-    "nexusblitz_",
-    "nightmarebots_",
-    "npc_",
-    "ruby_",
-    "slime_",
-    "sru_",
-    "sruap_",
-    "srx_",
-    "strawberry_",
-    "testcube",
-    "tft",
-    "tutorial_",
-    "ultbook",
-    "urf_"
-]
+Dir.mkdir("champions") if !Dir.exist?("champions")
 deletions = []
-Dir.each_child("out") { |path|
-    basepath = "out/" + path
-    if filter.any? { |prefix| path.start_with?(prefix) }
-        deletions.push(basepath)
-    else
-        Dir.each_child(basepath) { |file|
-            filepath = basepath + "/" + file
-            if !file.end_with?(".json")
-                deletions.push(filepath)
-            else
-                champ = {}
-                File.open(filepath, 'rb') { |f| champ = JSON.parse(f.read()) }
-
-                File.open(filepath, 'wb') { |f| f.write(JSON.pretty_generate(removeFluff(champ))) }
-            end
-        }
-    end
+Dir.each_child("temp/data/characters") { |path|
+    basepath = "temp/data/characters/" + path
+    Dir.each_child(basepath) { |file|
+        filepath = basepath + "/" + file
+        champ = {}
+        File.open(filepath, 'rb') { |f| champ = JSON.parse(f.read()) }
+        File.open("champions/" + file, 'wb') { |f| f.write(JSON.pretty_generate(formatChampion(champ))) }
+    }
 }
-print "done.\n"
-print "Deleting bloat (see 'filter' variable in code for modifying)..."
-FileUtils.rm_rf(deletions)
 print "done.\n"
 
 print "Loading and formatting item data..."

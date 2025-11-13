@@ -1,0 +1,4237 @@
+{
+  "0x1058a4db": {
+    "catalogEntry": {
+      "contentId": "82dd3e24-5497-430b-824b-f5c52a97c973",
+      "itemID": 66600559,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x8a6dc6e7",
+      "0xd28bdfd0",
+      "0x866bc3c1"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x1c438ee8": {
+    "ObjectName": "NaafiriPackmateFrenzy",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_NaafiriPackmateFrenzy_Tooltip_Title",
+          "keyTooltip": "Buff_NaafiriPackmateFrenzy_Tooltip_Description"
+        },
+        "mObjectName": "NaafiriPackmateFrenzy",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriPackmateFrenzy",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_P.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x1fdcad8e": {
+    "ObjectName": "NaafiriRMoveSpeed",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_NaafiriR_Tooltip_Title",
+          "keyTooltip": "Buff_NaafiriRMoveSpeed_Tooltip_Description"
+        },
+        "mObjectName": "NaafiriRMoveSpeed",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriRMoveSpeed",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        "ASSETS/Spells/Icons2D/Summoner_haste.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x261014d7": {
+    "ObjectName": "NaafiriEPackmates",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriEPackmates",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 7173,
+      "mAnimationName": "",
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        ""
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion",
+          "minion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellRevealsChampion": false,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x2634d933": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      10,
+      25,
+      25,
+      35,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "93e3db28-c8de-45b4-ab39-4764b3a690e6",
+      "itemID": 126606,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_NaafiriEDodges",
+    "mNameTraKey": "stat_stone_name_NaafiriEDodges",
+    "stoneName": "NaafiriEDodges",
+    "~class": "StatStoneData"
+  },
+  "0x2c5341f5": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7,
+      15,
+      35,
+      40,
+      50,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5124fd95-711f-46af-bccf-662cb0a62ff0",
+      "itemID": 126608,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_NaafiriRReveals",
+    "mNameTraKey": "stat_stone_name_NaafiriRReveals",
+    "stoneName": "NaafiriRReveals",
+    "~class": "StatStoneData"
+  },
+  "0x41ddb0c1": {
+    "ObjectName": "NaafiriPackmateManager",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriPackmateManager",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 5253,
+      "mAnimationName": "",
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        ""
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion",
+          "minion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellRevealsChampion": false,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x69c58504": {
+    "ObjectName": "NaafiriWShred",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_NaafiriW_Name",
+          "keyTooltip": "Spell_NaafiriWShred_Description"
+        },
+        "mObjectName": "NaafiriWShred",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriWShred",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_W.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x7787db6": {
+    "ObjectName": "NaafiriPVFXMissile",
+    "mScriptName": "NaafiriPVFXMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 32767,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mAmplitude": 50.0,
+          "mNumberOfPeriods": 0.699999988079071,
+          "~class": "SinusoidalHeightSolver"
+        },
+        "movementComponent": {
+          "mStartBoneName": "L_Buffbone_Engine",
+          "mTargetBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 30.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x7dd1a3d5": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "MapId": 11,
+        "Position": "middle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x866bc3c1": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "47515c38-d7b9-4354-b61e-a074d718ee80",
+      "itemID": 126612,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "NaafiriStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x8a6dc6e7": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "4250825e-43b6-4892-9f75-1f3d8881839e",
+      "itemID": 126611,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "NaafiriEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x9d93da3c": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      50,
+      95,
+      125,
+      150,
+      55
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "5f2e5631-8c3e-4992-bac1-77842c8f13a7",
+      "itemID": 126605,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_NaafiriQProcs",
+    "mNameTraKey": "stat_stone_name_NaafiriQProcs",
+    "stoneName": "NaafiriQProcs",
+    "~class": "StatStoneData"
+  },
+  "0x9ee65072": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      70,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "e1afc721-123a-4ae1-a16a-2faf1bb67b80",
+      "itemID": 126609,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_NaafiriCombosLanded",
+    "mNameTraKey": "stat_stone_name_NaafiriCombosLanded",
+    "stoneName": "NaafiriCombosLanded",
+    "~class": "StatStoneData"
+  },
+  "0xa0c1c973": {
+    "catalogEntry": {
+      "contentId": "eaa69ad7-b76a-473f-8038-952d44f6bfee",
+      "itemID": 66600557,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x2634d933",
+      "0x9d93da3c",
+      "0xa49e7ea5"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xa1c1cb06": {
+    "catalogEntry": {
+      "contentId": "1d88a10f-5f8e-4604-b8c7-0840f30db9b4",
+      "itemID": 66600558,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x2c5341f5",
+      "0x9ee65072",
+      "0xdd88e1d1"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xa31bf34a": {
+    "ObjectName": "NaafiriPackmateWChanneling",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriPackmateWChanneling",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 7173,
+      "mAnimationName": "",
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        ""
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion",
+          "minion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellRevealsChampion": false,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xa49e7ea5": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9000,
+      22000,
+      45000,
+      54000,
+      67000,
+      27000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "47f32a78-b4fc-452f-baa4-aadf32bc933f",
+      "itemID": 126607,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_NaafiriPDamage",
+    "mNameTraKey": "stat_stone_name_NaafiriPDamage",
+    "stoneName": "NaafiriPDamage",
+    "~class": "StatStoneData"
+  },
+  "0xa5cb97fe": {
+    "ObjectName": "NaafiriRVision",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_NaafiriR_Tooltip_Title",
+          "keyTooltip": "Buff_NaafiriRVision_Tooltip_Description"
+        },
+        "mObjectName": "NaafiriRVision",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriRVision",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_R.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xc802d38b": {
+    "ObjectName": "NaafiriRShield",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_NaafiriR_Tooltip_Title",
+          "keyTooltip": "Buff_NaafiriRShield_Tooltip_Description"
+        },
+        "mObjectName": "NaafiriRShield",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriRShield",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_R.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xd28bdfd0": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "456a7d0c-a7f1-4376-b3e7-8d0be1e11308",
+      "itemID": 126613,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "NaafiriTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xd9d7a9d4": {
+    "ObjectName": "NaafiriPackmateLeap",
+    "mScriptName": "NaafiriPackmateLeap",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 6794,
+      "mAnimationName": "AttackDash",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mHitEffectOrientType": 3,
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "missileSpeed": 1800.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xdd1353ab": {
+    "ObjectName": "NaafiriPackmateLeapNoAttack",
+    "mScriptName": "NaafiriPackmateLeapNoAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 6794,
+      "mAnimationName": "AttackDash",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1800.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xdd88e1d1": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      425,
+      1000,
+      2000,
+      2500,
+      3000,
+      1000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b3583958-7d86-4643-bd6d-e6386fffd24d",
+      "itemID": 126610,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_NaafiriPRefund",
+    "mNameTraKey": "stat_stone_name_NaafiriPRefund",
+    "stoneName": "NaafiriPRefund",
+    "~class": "StatStoneData"
+  },
+  "0xf6d71bba": {
+    "ObjectName": "NaafiriQBleed",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_NaafiriQBleed_Tooltip_Title",
+          "keyTooltip": "Buff_NaafiriQBleed_Tooltip_Description"
+        },
+        "mObjectName": "NaafiriQBleed",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriQBleed",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_Q.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "0xc5c48b41": 1,
+    "PackmanagerData": {
+      "0x377491e8": {
+        "~class": "0x1ddfbeeb"
+      },
+      "0xb97a9b92": false,
+      "AttackMoveTargetForgivenessRange": 400.0,
+      "BuffOverrides": [
+        "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriPackmateTaunt",
+        "Characters/Naafiri/Spells/NaafiriEmoteActive",
+        "0xd9d7a9d4",
+        "Characters/Naafiri/Spells/NaafiriWAbility/NaafiriW",
+        "0xa31bf34a",
+        "0x261014d7",
+        "0xdd1353ab",
+        "Characters/Renata/Spells/RenataRAbility/RenataRDebuff",
+        "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriPackmateRecalling",
+        "Characters/Syndra/Spells/SyndraWAbility/SyndraW",
+        "Characters/Syndra/Spells/SyndraWAbility/SyndraWDebuff"
+      ],
+      "FollowerCrossoverAnimation": "Hop",
+      "LeashDistance": 0.0,
+      "OnLeaderMoveFollowerAnimation": "0x45cbeaa1",
+      "OrderTrailingDelay": 0.20000000298023224,
+      "RankToFormationMap": {
+        "1": {
+          "FormationPositions": [
+            [
+              262.5,
+              -150.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        },
+        "10": {
+          "FormationPositions": [
+            [
+              200.0,
+              0.0
+            ],
+            [
+              -200.0,
+              0.0
+            ],
+            [
+              80.0,
+              -100.0
+            ],
+            [
+              -80.0,
+              -100.0
+            ],
+            [
+              66.5999984741211,
+              -225.0
+            ],
+            [
+              -66.5999984741211,
+              -225.0
+            ],
+            [
+              240.0,
+              -100.0
+            ],
+            [
+              -240.0,
+              -100.0
+            ],
+            [
+              200.0,
+              -225.0
+            ],
+            [
+              -200.0,
+              -225.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        },
+        "11": {
+          "FormationPositions": [
+            [
+              200.0,
+              0.0
+            ],
+            [
+              -200.0,
+              0.0
+            ],
+            [
+              120.0,
+              -100.0
+            ],
+            [
+              -120.0,
+              -100.0
+            ],
+            [
+              66.5999984741211,
+              -225.0
+            ],
+            [
+              -66.5999984741211,
+              -225.0
+            ],
+            [
+              240.0,
+              -100.0
+            ],
+            [
+              -240.0,
+              -100.0
+            ],
+            [
+              200.0,
+              -225.0
+            ],
+            [
+              -200.0,
+              -225.0
+            ],
+            [
+              0.0,
+              -100.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        },
+        "2": {
+          "FormationPositions": [
+            [
+              262.5,
+              -150.0
+            ],
+            [
+              -262.5,
+              -150.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        },
+        "3": {
+          "FormationPositions": [
+            [
+              0.0,
+              -337.0
+            ],
+            [
+              262.5,
+              -150.0
+            ],
+            [
+              -262.5,
+              -150.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        },
+        "4": {
+          "FormationPositions": [
+            [
+              262.5,
+              -150.0
+            ],
+            [
+              -262.5,
+              -150.0
+            ],
+            [
+              87.375,
+              -300.0
+            ],
+            [
+              -87.375,
+              -300.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        },
+        "5": {
+          "FormationPositions": [
+            [
+              262.5,
+              -150.0
+            ],
+            [
+              -262.5,
+              -150.0
+            ],
+            [
+              0.0,
+              -337.0
+            ],
+            [
+              131.25,
+              -225.0
+            ],
+            [
+              -131.25,
+              -225.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        },
+        "6": {
+          "FormationPositions": [
+            [
+              300.0,
+              0.0
+            ],
+            [
+              -300.0,
+              0.0
+            ],
+            [
+              60.0,
+              -300.0
+            ],
+            [
+              -60.0,
+              -300.0
+            ],
+            [
+              180.0,
+              -150.0
+            ],
+            [
+              -180.0,
+              -150.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        },
+        "7": {
+          "FormationPositions": [
+            [
+              300.0,
+              0.0
+            ],
+            [
+              -300.0,
+              0.0
+            ],
+            [
+              0.0,
+              -300.0
+            ],
+            [
+              -150.0,
+              -150.0
+            ],
+            [
+              150.0,
+              -150.0
+            ],
+            [
+              -225.0,
+              -300.0
+            ],
+            [
+              225.0,
+              -300.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        },
+        "8": {
+          "FormationPositions": [
+            [
+              200.0,
+              0.0
+            ],
+            [
+              -200.0,
+              0.0
+            ],
+            [
+              66.5999984741211,
+              -100.0
+            ],
+            [
+              -66.5999984741211,
+              -100.0
+            ],
+            [
+              133.3000030517578,
+              -200.0
+            ],
+            [
+              -133.3000030517578,
+              -200.0
+            ],
+            [
+              200.0,
+              -100.0
+            ],
+            [
+              -200.0,
+              -100.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        },
+        "9": {
+          "FormationPositions": [
+            [
+              200.0,
+              0.0
+            ],
+            [
+              -200.0,
+              0.0
+            ],
+            [
+              66.5999984741211,
+              -100.0
+            ],
+            [
+              -66.5999984741211,
+              -100.0
+            ],
+            [
+              133.3000030517578,
+              -200.0
+            ],
+            [
+              -133.3000030517578,
+              -200.0
+            ],
+            [
+              200.0,
+              -100.0
+            ],
+            [
+              -200.0,
+              -100.0
+            ],
+            [
+              0.0,
+              -200.0
+            ]
+          ],
+          "~class": "PackFormationData"
+        }
+      },
+      "UiTargetForgivenessRange": 200.0,
+      "~class": "PackmanagerData"
+    },
+    "acquisitionRange": 400.0,
+    "armorPerLevel": 4.199999809265137,
+    "attackRange": 125.0,
+    "attackSpeed": 0.6629999876022339,
+    "attackSpeedPerLevel": 2.0999999046325684,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 28.0,
+    "baseDamage": 55.0,
+    "baseHP": 610.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.5,
+    "basicAttack": {
+      "mAttackCastTime": 0.25,
+      "mAttackName": "NaafiriBasicAttack",
+      "mAttackProbability": 0.5,
+      "mAttackTotalTime": 1.4500000476837158,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 2.0,
+      "attackRank": 9,
+      "championId": 950,
+      "classification": "Strong",
+      "defenseRank": 5,
+      "description": "game_character_description_Naafiri",
+      "difficultyRank": 2,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "roles": "BRAWLER",
+      "searchTags": "assassin",
+      "searchTagsSecondary": "fighter",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackName": "NaafiriCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 2.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "NaafiriBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "hpPerLevel": 105.0,
+    "hpRegenPerLevel": 0.14000000059604645,
+    "mAbilities": [
+      "Characters/Naafiri/Spells/NaafiriQAbility",
+      "Characters/Naafiri/Spells/NaafiriWAbility",
+      "Characters/Naafiri/Spells/NaafiriEAbility",
+      "Characters/Naafiri/Spells/NaafiriRAbility",
+      "Characters/Naafiri/Spells/NaafiriPAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      0,
+      17
+    ],
+    "mCharacterName": "Naafiri",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriP",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriP",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Inspiration/GlacialAugment",
+          "mReplaceWith": "Perks/Styles/Inspiration/FirstStrike",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Resolve/Aftershock",
+          "mReplaceWith": "Perks/Styles/Resolve/GraspOfTheUndying",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Domination",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Naafiri",
+    "passive1IconName": "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_P.dds",
+    "passiveLuaName": "NaafiriP",
+    "passiveName": "Spell_NaafiriP_Name",
+    "passiveSpell": "NaafiriP",
+    "passiveToolTip": "Spell_NaafiriP_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 400.0,
+      "arBaseStaticRegen": 1.5,
+      "arHasRegenText": false,
+      "arPerLevel": 55.0,
+      "arRegenPerLevel": 0.20000000298023224,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "arIsShown": false,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 191.6667022705078,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "NaafiriQAbility/NaafiriQ",
+      "NaafiriRAbility/NaafiriR",
+      "NaafiriEAbility/NaafiriE",
+      "NaafiriWAbility/Naafiriw"
+    ],
+    "spells": [
+      "Characters/Naafiri/Spells/NaafiriQAbility/NaafiriQ",
+      "Characters/Naafiri/Spells/NaafiriRAbility/NaafiriR",
+      "Characters/Naafiri/Spells/NaafiriEAbility/NaafiriE",
+      "Characters/Naafiri/Spells/NaafiriWAbility/NaafiriW"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "~class": "CharacterRecord"
+  },
+  "Characters/Naafiri/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Naafiri/Spells/NaafiriBasicAttack": {
+    "ObjectName": "NaafiriBasicAttack",
+    "mScriptName": "NaafiriBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 4778,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Naafiri_Basic_Attack_Hit_01",
+      "mTurnSpeedScalar": 2.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriBasicAttack2": {
+    "ObjectName": "NaafiriBasicAttack2",
+    "mScriptName": "NaafiriBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 4778,
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Naafiri_Basic_Attack_Hit_01",
+      "mTurnSpeedScalar": 2.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriBasicAttackWHit": {
+    "ObjectName": "NaafiriBasicAttackWHit",
+    "mScriptName": "NaafiriBasicAttackWHit",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 4778,
+      "mAnimationName": "Spell2Hit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Naafiri_Basic_Attack_Hit_01",
+      "mTurnSpeedScalar": 2.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriBasicAttackWMiss": {
+    "ObjectName": "NaafiriBasicAttackWMiss",
+    "mScriptName": "NaafiriBasicAttackWMiss",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 4778,
+      "mAnimationName": "Spell2Miss",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Naafiri_Basic_Attack_Hit_01",
+      "mTurnSpeedScalar": 2.0,
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriCritAttack": {
+    "ObjectName": "NaafiriCritAttack",
+    "mScriptName": "NaafiriCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 21711,
+      "mAlternateName": "Crit",
+      "mAnimationName": "Crit",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Naafiri_Crit_Attack_Hit_01",
+      "missileSpeed": 347.79998779296875,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriEAbility": {
+    "mChildSpells": [
+      "Characters/Naafiri/Spells/NaafiriEAbility/NaafiriE"
+    ],
+    "mName": "NaafiriEAbility",
+    "mRootSpell": "Characters/Naafiri/Spells/NaafiriEAbility/NaafiriE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriEAbility/NaafiriE": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamageFirstSlash",
+            "~class": "0xf3cbe7b2"
+          },
+          {
+            "mSpellCalculationKey": "TotalDamageSecondSlash",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "DashDistance",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "NaafiriE",
+    "mScriptName": "NaafiriE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamageFirstSlash",
+          "mValues": [
+            5.0,
+            15.0,
+            25.0,
+            35.0,
+            45.0,
+            55.0,
+            65.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatioFirstSlash",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamageSecondHit",
+          "mValues": [
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0,
+            185.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatioSecondHit",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RadiusSecondSlash",
+          "mValues": [
+            230.0,
+            230.0,
+            230.0,
+            230.0,
+            230.0,
+            230.0,
+            230.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashDistance",
+          "mValues": [
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0,
+            450.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxDashCheatDistance",
+          "mValues": [
+            650.0,
+            650.0,
+            650.0,
+            650.0,
+            650.0,
+            650.0,
+            650.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinDashDistance",
+          "mValues": [
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0,
+            250.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamageFirstSlash",
+              "mValues": [
+                20.0,
+                30.0,
+                40.0,
+                50.0,
+                60.0,
+                70.0,
+                80.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamageSecondHit",
+              "mValues": [
+                45.0,
+                70.0,
+                95.0,
+                120.0,
+                145.0,
+                170.0,
+                195.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "ADRatioFirstSlash",
+              "mValues": [
+                0.550000011920929,
+                0.550000011920929,
+                0.550000011920929,
+                0.550000011920929,
+                0.550000011920929,
+                0.550000011920929,
+                0.550000011920929
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "ADRatioSecondHit",
+              "mValues": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "alwaysSnapFacing": true,
+      "cantCastWhileRooted": true,
+      "castFrame": 7.5,
+      "castRadius": [
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "castRange": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        7.0
+      ],
+      "flags": 4,
+      "mAffectsTypeFlags": 22538,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "mCenterArrowToEndPoint": true,
+            "minimumDisplayedRange": 250.0,
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintPosLocator": {
+              "distanceOffset": 200.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0,
+                200.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                230.0,
+                230.0,
+                230.0,
+                230.0,
+                230.0,
+                230.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "hasMaxGrowRange": true,
+            "hideWithLineIndicator": true,
+            "rangeGrowthMax": {
+              "mPerLevelValues": [
+                450.0,
+                450.0,
+                450.0,
+                450.0,
+                450.0,
+                450.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_FirstSlashDamage",
+                  "type": "BaseDamageFirstSlash",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_SecondSlashDamage",
+                  "type": "BaseDamageSecondHit",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_NaafiriE_Name",
+            "keySummary": "Spell_NaafiriE_Summary",
+            "keyTooltip": "Spell_NaafiriE_Tooltip"
+          },
+          "mObjectName": "NaafiriE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_E.dds"
+      ],
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "TotalDamageFirstSlash": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageFirstSlash",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatioFirstSlash",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDamageSecondSlash": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageSecondHit",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatioSecondHit",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mTurnSpeedScalar": 2.0,
+      "mana": [
+        35.0,
+        35.0,
+        35.0,
+        35.0,
+        35.0,
+        35.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriEmoteActive": {
+    "ObjectName": "NaafiriEmoteActive",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriEmoteActive",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 7173,
+      "mAnimationName": "",
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        ""
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion",
+          "minion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellRevealsChampion": false,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriPAbility": {
+    "AbilityTraits": 8192,
+    "mChildSpells": [
+      "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriP",
+      "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriPackmateTaunt",
+      "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriPackmateRecalling"
+    ],
+    "mName": "NaafiriPAbility",
+    "mRootSpell": "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriP",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriP": {
+    "ObjectName": "NaafiriP",
+    "mScriptName": "NaafiriP",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "CooldownReduceOnKill",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CooldownReduceOnAbilityHit",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateBaseAS",
+          "mValues": [
+            0.6880000233650208,
+            0.6880000233650208,
+            0.6880000233650208,
+            0.6880000233650208,
+            0.6880000233650208,
+            0.6880000233650208,
+            0.6880000233650208
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateBaseMS",
+          "mValues": [
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0,
+            340.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateModifierTooltipOnly",
+          "mValues": [
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LeapSpeed",
+          "mValues": [
+            1250.0,
+            1250.0,
+            1250.0,
+            1250.0,
+            1250.0,
+            1250.0,
+            1250.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LeapMin",
+          "mValues": [
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LeapMax",
+          "mValues": [
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0,
+            1200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateTowerModifier",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateMonsterMod",
+          "mValues": [
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateTauntDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateLastHitHelpCD",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateCSHelpRadiusMax",
+          "mValues": [
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateCSHelpRadiusMin",
+          "mValues": [
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0,
+            300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateFrenzyDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateFrenzyMaxCounters",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateFrenzyDamageMult",
+          "mValues": [
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ProcDamageModifier",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealthRegenDelay",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealthRegenPercent",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NonChampDamageModifier",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MeleeAttackDamageModifier",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateBonusADRatio",
+          "mValues": [
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033,
+            0.03999999910593033
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "CooldownReduceOnAbilityHit",
+              "mValues": [
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0,
+                7.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "PackmateBonusADRatio",
+              "mValues": [
+                0.05999999865889549,
+                0.05999999865889549,
+                0.05999999865889549,
+                0.05999999865889549,
+                0.05999999865889549,
+                0.05999999865889549,
+                0.05999999865889549
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 8,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyCooldown": "Spell_Naafiri_P_Cooldown",
+            "keyName": "Spell_NaafiriP_Name",
+            "keySummary": "Spell_NaafiriP_Summary",
+            "keyTooltip": "Spell_NaafiriP_Tooltip",
+            "keyTooltipExtended": "Spell_NaafiriP_TooltipBelowLine"
+          },
+          "mObjectName": "NaafiriP",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_P.dds"
+      ],
+      "mSpellCalculations": {
+        "AOEDamageModifier": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mLevel": 16,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mInitialBonusPerLevel": -0.014999999664723873,
+              "mLevel1Value": 0.7599999904632568,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "FrenzyDamageTooltipOnly": {
+          "mModifiedGameCalculation": "PackmateTotalDamage",
+          "mMultiplier": {
+            "mDataValue": "PackmateFrenzyDamageMult",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "MinionExecuteThreshold": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mLevel": 12,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mInitialBonusPerLevel": 3.0,
+              "mLevel1Value": 25.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PackmateCap": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 1.0,
+                  "mLevel": 9,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 1.0,
+                  "mLevel": 12,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 1.0,
+                  "mLevel": 15,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 2.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PackmateSpawnCooldown": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": -5.0,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -5.0,
+                  "mLevel": 9,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -5.0,
+                  "mLevel": 12,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -5.0,
+                  "mLevel": 15,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 30.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PackmateTotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 20.0,
+              "mStartValue": 10.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mDataValue": "PackmateBonusADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriPackmateRecalling": {
+    "ObjectName": "NaafiriPackmateRecalling",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriPackmateRecalling",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 7173,
+      "mAnimationName": "",
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        ""
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion",
+          "minion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellRevealsChampion": false,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriPAbility/NaafiriPackmateTaunt": {
+    "ObjectName": "NaafiriPackmateTaunt",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriPackmateTaunt",
+    "mSpell": {
+      "flags": 4,
+      "mAffectsTypeFlags": 5253,
+      "mAnimationName": "",
+      "mCoefficient": 0.6499999761581421,
+      "mImgIconName": [
+        ""
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion",
+          "minion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellRevealsChampion": false,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriQAbility": {
+    "AbilityTraits": 4,
+    "mChildSpells": [
+      "Characters/Naafiri/Spells/NaafiriQAbility/NaafiriQ",
+      "Characters/Naafiri/Spells/NaafiriQAbility/NaafiriQRecast",
+      "0xf6d71bba"
+    ],
+    "mName": "NaafiriQAbility",
+    "mRootSpell": "Characters/Naafiri/Spells/NaafiriQAbility/NaafiriQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriQAbility/NaafiriQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalBleedDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalBleedDamage",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 33554432,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalHealSecondCast",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "NaafiriQ",
+    "mScriptName": "NaafiriQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamageFirstCast",
+          "mValues": [
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0,
+            60.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamageSecondCast",
+          "mValues": [
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            75.0,
+            90.0,
+            105.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BleedBaseDamage",
+          "mValues": [
+            10.0,
+            35.0,
+            60.0,
+            85.0,
+            110.0,
+            135.0,
+            160.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BleedInterval",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RecastWindow",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RecastLockout",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseHealSecondCast",
+          "mValues": [
+            30.0,
+            45.0,
+            60.0,
+            75.0,
+            90.0,
+            105.0,
+            120.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BleedDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ExecuteMultiplier",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionMod",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FirstCastBonusADRatio",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SecondCastBonusADRatio",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BleedBonusADRatio",
+          "mValues": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealBonusADRatio",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SecondCastMaxADRatio",
+          "mValues": [
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071,
+            0.699999988079071
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "SecondCastBonusADRatio",
+              "mValues": [
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104,
+                0.44999998807907104
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "HealBonusADRatio",
+              "mValues": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "SecondCastMaxADRatio",
+              "mValues": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamageSecondCast",
+              "mValues": [
+                25.0,
+                40.0,
+                55.0,
+                70.0,
+                85.0,
+                100.0,
+                115.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BleedBaseDamage",
+              "mValues": [
+                0.0,
+                40.0,
+                80.0,
+                120.0,
+                160.0,
+                200.0,
+                240.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseHealSecondCast",
+              "mValues": [
+                57.5,
+                80.0,
+                102.5,
+                125.0,
+                147.5,
+                170.0,
+                192.5
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamageFirstCast",
+              "mValues": [
+                30.0,
+                40.0,
+                50.0,
+                60.0,
+                70.0,
+                80.0,
+                90.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "alwaysSnapFacing": true,
+      "castFrame": 7.5,
+      "castRange": [
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "cooldownTime": [
+        9.0,
+        9.0,
+        8.5,
+        8.0,
+        7.5,
+        7.0,
+        7.0
+      ],
+      "luaOnMissileUpdateDistanceInterval": 75.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_InitialDamage",
+                  "type": "BaseDamageFirstCast",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_SecondCastDamage",
+                  "type": "BaseDamageSecondCast",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_BleedDamage",
+                  "type": "BleedBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Healing",
+                  "type": "BaseHealSecondCast",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_NaafiriQ_Name",
+            "keySummary": "Spell_NaafiriQ_Summary",
+            "keyTooltip": "Spell_NaafiriQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_NaafiriQ_TooltipBelowLine"
+          },
+          "mObjectName": "NaafiriQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_Q.dds"
+      ],
+      "mMissileEffectKey": "0xcc770350",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 150.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1700.0,
+          "mStartBoneName": "",
+          "mTracksTarget": false,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "MinionExecuteThreshold": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mLevel": 12,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mInitialBonusPerLevel": 4.0,
+              "mLevel1Value": 30.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalBleedDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BleedBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "BleedBonusADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDamageFirstCast": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageFirstCast",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "FirstCastBonusADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalHealSecondCast": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHealSecondCast",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "HealBonusADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalMaxDamageSecondCast": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageSecondCast",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "SecondCastMaxADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "mMultiplier": {
+            "mDataValue": "ExecuteMultiplier",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculation"
+        },
+        "TotalMinDamageSecondCast": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamageSecondCast",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "SecondCastBonusADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mana": [
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0
+      ],
+      "manaUiOverride": [
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0,
+        80.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriQAbility/NaafiriQRecast": {
+    "ObjectName": "NaafiriQRecast",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_NaafiriQRecast_Tooltip_Title",
+          "keyTooltip": "Buff_NaafiriQRecast_Tooltip_Description"
+        },
+        "mObjectName": "NaafiriQRecast",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriQRecast",
+    "mSpell": {
+      "castFrame": 7.5,
+      "castRange": [
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "cooldownTime": [
+        11.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        7.0
+      ],
+      "luaOnMissileUpdateDistanceInterval": 75.0,
+      "mAffectsTypeFlags": 22538,
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 1,
+      "mCasterPositionEndOfCastUpdate": 1,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "BaseCost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_NaafiriQ_Name",
+            "keyTooltip": "Spell_NaafiriQ_Tooltip"
+          },
+          "mObjectName": "NaafiriQRecast",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_Q.dds"
+      ],
+      "mMissileEffectKey": "0xcc770350",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "mMissileWidth": 150.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1700.0,
+          "mStartBoneName": "",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriRAbility": {
+    "AbilityTraits": 8200,
+    "mChildSpells": [
+      "Characters/Naafiri/Spells/NaafiriRAbility/NaafiriR",
+      "Characters/Naafiri/Spells/NaafiriRAbility/NaafiriRPassive"
+    ],
+    "mName": "NaafiriRAbility",
+    "mRootSpell": "Characters/Naafiri/Spells/NaafiriRAbility/NaafiriR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriRAbility/NaafiriR": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "BonusAD",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MoveSpeedAmount",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "NaafiriR",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_NaafiriR_Tooltip_Title",
+          "keyTooltip": "Buff_NaafiriR_Tooltip_Description"
+        },
+        "mObjectName": "NaafiriR",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "NaafiriR",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            16.0,
+            16.0,
+            15.0,
+            14.0,
+            13.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "PackmatesToAdd",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Duration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeedAmount",
+          "mValues": [
+            0.17499999701976776,
+            0.20000000298023224,
+            0.22499999403953552,
+            0.25,
+            0.2750000059604645,
+            0.30000001192092896,
+            0.32499998807907104
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MoveSpeedDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateSpawnRateIncrease",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NaafiriADPercentBoost",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NaafiriADFlatBoost",
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "UntargetableDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castFrame": 1.0,
+      "cooldownTime": [
+        26.0,
+        26.0,
+        24.0,
+        22.0,
+        20.0,
+        18.0,
+        18.0
+      ],
+      "delayCastOffsetPercent": 0.5,
+      "delayTotalTimePercent": -0.625,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "Spell4Dash",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.75,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "MoveSpeedAmount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_NaafiriR_Name",
+            "keySummary": "Spell_NaafiriR_Summary",
+            "keyTooltip": "Spell_NaafiriR_Tooltip"
+          },
+          "mObjectName": "NaafiriR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_R.dds"
+      ],
+      "mSpellCalculations": {
+        "BonusAD": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "NaafiriADPercentBoost",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriRAbility/NaafiriRPassive": {
+    "ObjectName": "NaafiriRPassive",
+    "mScriptName": "NaafiriRPassive",
+    "mSpell": {
+      "mAffectsTypeFlags": 8192,
+      "mCoefficient": 0.6499999761581421,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriWAbility": {
+    "mChildSpells": [
+      "Characters/Naafiri/Spells/NaafiriWAbility/NaafiriW"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "NaafiriWAbility",
+    "mRootSpell": "Characters/Naafiri/Spells/NaafiriWAbility/NaafiriW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Naafiri/Spells/NaafiriWAbility/NaafiriW": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "DashSpeed",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 256,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "NaafiriW",
+    "mScriptName": "NaafiriW",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            70.0,
+            70.0,
+            60.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            50.0,
+            150.0,
+            250.0,
+            350.0,
+            450.0,
+            550.0,
+            650.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            1800.0,
+            1800.0,
+            1800.0,
+            1800.0,
+            1800.0,
+            1800.0,
+            1800.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercent",
+          "mValues": [
+            -0.9900000095367432,
+            -0.9900000095367432,
+            -0.9900000095367432,
+            -0.9900000095367432,
+            -0.9900000095367432,
+            -0.9900000095367432,
+            -0.9900000095367432
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PackmateModifier",
+          "mValues": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FailCastCDRefund",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShredDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TakedownWindow",
+          "mValues": [
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RecastWindow",
+          "mValues": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShieldSize",
+          "mValues": [
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VisionDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VisionPulseDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VisionRadius",
+          "mValues": [
+            2100.0,
+            2100.0,
+            2100.0,
+            2100.0,
+            2100.0,
+            2100.0,
+            2100.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WRefreshOnCast",
+          "mValues": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "cantCastWhileRooted": true,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0,
+        900.0
+      ],
+      "cooldownTime": [
+        110.0,
+        110.0,
+        95.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "mAffectsTypeFlags": 2,
+      "mAnimationName": "Spell2Cast",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingRevealsCasterStealth": true,
+      "mChannelDuration": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Shield",
+                  "type": "ShieldSize",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_NaafiriW_Name",
+            "keySummary": "Spell_NaafiriW_Summary",
+            "keyTooltip": "Spell_NaafiriW_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_NaafiriW_TooltipBelowLine"
+          },
+          "mObjectName": "NaafiriW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesNotConsumeCooldown": true,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Naafiri/HUD/Icons2D/Icons_Naafiri_W.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "ArmorShred": {
+          "mFormulaParts": [
+            {
+              "mInitialBonusPerLevel": 2.0,
+              "mLevel1Value": 6.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PackmateDamage": {
+          "mModifiedGameCalculation": "TotalDamage",
+          "mMultiplier": {
+            "mDataValue": "PackmateModifier",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "ShieldTotal": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ShieldSize",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.5,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.2000000476837158,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_Ultimate"
+      ],
+      "mTurnSpeedScalar": 2.0,
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "manaUiOverride": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

@@ -1,0 +1,3027 @@
+{
+  "0x101c5fd9": {
+    "ObjectName": "RenektonSiblingRivalryDefeat",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_NasusVsRenekton_RenektonDefeatName",
+          "keyTooltip": "Quests_NasusVsRenekton_RenektonDefeatTooltip"
+        },
+        "mObjectName": "RenektonSiblingRivalryDefeat",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenektonSiblingRivalryDefeat",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x1534a0b9": {
+    "ObjectName": "RenektonRageReady",
+    "mBuff": {
+      "mDescription": "buff_desc_RenektonRageReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenektonRageReady",
+    "~class": "SpellObject"
+  },
+  "0x2c19fd8c": {
+    "ObjectName": "RenektonSiblingRivalryWin",
+    "mScriptName": "RenektonSiblingRivalryWin",
+    "~class": "SpellObject"
+  },
+  "0x4d8592a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5000,
+      13000,
+      26000,
+      31000,
+      39000,
+      16000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "07ea0afc-63e3-4341-ad9b-8015e3a7d9e0",
+      "itemID": 126184,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_RenektonQHealing",
+    "mNameTraKey": "stat_stone_name_RenektonQHealing",
+    "stoneName": "RenektonQHealing",
+    "~class": "StatStoneData"
+  },
+  "0x5a05a02": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      375,
+      900,
+      2000,
+      2000,
+      2500,
+      1000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "0de66b4c-007c-477b-82e1-d333abd660f6",
+      "itemID": 126182,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_RenektonWShieldDestroyed",
+    "mNameTraKey": "stat_stone_name_RenektonWShieldDestroyed",
+    "stoneName": "RenektonWShieldDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x5a85edd1": {
+    "ObjectName": "RenektonSiblingRivalryReady",
+    "mScriptName": "RenektonSiblingRivalryReady",
+    "~class": "SpellObject"
+  },
+  "0x62c002e3": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x68656efd": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "9aabfeb5-5e5a-4867-a0c1-df33ec715f1a",
+      "itemID": 125651,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "RenektonEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x735dc4ce": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      50,
+      125,
+      250,
+      300,
+      375,
+      150
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4d3d5e5b-eb5d-43b5-a815-2c0daf744aa4",
+      "itemID": 192,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_RenektonPCasts",
+    "mNameTraKey": "stat_stone_name_RenektonPCasts",
+    "stoneName": "RenektonPCasts",
+    "~class": "StatStoneData"
+  },
+  "0x7a2de763": {
+    "catalogEntry": {
+      "contentId": "ff87980d-3500-4bed-b386-698da845d49f",
+      "itemID": 66600093,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x735dc4ce",
+      "0xcc6f6e42",
+      "0xede965b3"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x7b2de8f6": {
+    "catalogEntry": {
+      "contentId": "d620ade4-96a3-4bf4-87ef-92d33acbcc52",
+      "itemID": 66600466,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xe95b6c67",
+      "0x5a05a02",
+      "0x4d8592a"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x998faa67": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "55f33d58-767a-4ee8-a1f8-59e715bffc2e",
+      "itemID": 125653,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "RenektonStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xb3b4a25c": {
+    "ObjectName": "RenektonSiblingRivalryActive",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mObjectName": "RenektonSiblingRivalryActive",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenektonSiblingRivalryActive",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_R.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb7ee791a": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "18a236c6-c838-4680-897e-8549259fb713",
+      "itemID": 125652,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "RenektonTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xc05ca7c4": {
+    "ObjectName": "RenektonSiblingRivalryVictory",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_NasusVsRenekton_RenektonVictoryName",
+          "keyTooltip": "Quests_NasusVsRenekton_RenektonVictoryTooltip"
+        },
+        "mObjectName": "RenektonSiblingRivalryVictory",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenektonSiblingRivalryVictory",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_R.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xcc6f6e42": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8,
+      20,
+      40,
+      50,
+      65,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "cd2bf677-9475-464c-8e77-1fdc2c2f9d1e",
+      "itemID": 193,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_RenektonDoubleE",
+    "mNameTraKey": "stat_stone_name_RenektonDoubleE",
+    "stoneName": "RenektonDoubleE",
+    "~class": "StatStoneData"
+  },
+  "0xe95b6c67": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      55,
+      65,
+      80,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "74b53c06-421b-4c8c-83cf-c5f339ae99b6",
+      "itemID": 126183,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_RenektonRTakedowns",
+    "mNameTraKey": "stat_stone_name_RenektonRTakedowns",
+    "stoneName": "RenektonRTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xede965b3": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      7,
+      15,
+      35,
+      40,
+      50,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "0dc1b290-ec0e-4582-bbf0-a55ca2a45003",
+      "itemID": 93,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_RenektonAbilityCombos",
+    "mNameTraKey": "stat_stone_name_RenektonAbilityCombos",
+    "stoneName": "RenektonAbilityCombos",
+    "~class": "StatStoneData"
+  },
+  "0xf0c50c4b": {
+    "catalogEntry": {
+      "contentId": "58decd01-5ed8-4033-9756-0880f1632507",
+      "itemID": 66600238,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x68656efd",
+      "0xb7ee791a",
+      "0x998faa67"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "Characters/Renekton/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecute",
+      "Characters/Renekton/Spells/RenektonSuperExecute",
+      "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecuteAttack",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 5.199999809265137,
+    "attackRange": 125.0,
+    "attackSpeed": 0.6650000214576721,
+    "attackSpeedPerLevel": 2.75,
+    "attackSpeedRatio": 0.6650000214576721,
+    "baseArmor": 35.0,
+    "baseDamage": 69.0,
+    "baseHP": 660.0,
+    "baseMoveSpeed": 345.0,
+    "baseSpellBlock": 28.0,
+    "baseStaticHPRegen": 1.600000023841858,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.12269503623247147,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.30000001192092896,
+      "PARFadeColor": "55 55 55",
+      "attackRank": 8,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 58,
+      "classification": "Deadly",
+      "defenseRank": 5,
+      "description": "game_character_description_Renekton",
+      "difficultyRank": 3,
+      "magicRank": 2,
+      "mapAIPresence": {
+        "0": {
+          "intro": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passLev1Desc": [
+        "+40% Mana Point regeneration.",
+        "+60% Mana Point regeneration.",
+        "+80% Mana Point regeneration."
+      ],
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Renekton",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "tank",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.12269503623247147,
+        "mAttackName": "RenektonCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 4.150000095367432,
+    "extraAttacks": [
+      {
+        "mAttackName": "RenektonBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "RenektonExecute",
+      "RenektonSuperExecute",
+      "RenektonExecuteAttack",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "healthBarHeight": 110.0,
+    "hpPerLevel": 111.0,
+    "hpRegenPerLevel": 0.15000000596046448,
+    "mAbilities": [
+      "Characters/Renekton/Spells/RenektonCleaveAbility",
+      "Characters/Renekton/Spells/RenektonPreExecuteAbility",
+      "Characters/Renekton/Spells/RenektonSliceAndDiceAbility",
+      "Characters/Renekton/Spells/RenektonReignOfTheTyrantAbility",
+      "Characters/Renekton/Spells/RenektonPredatorAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "mCharacterName": "Renekton",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Renekton/Spells/RenektonPredatorAbility/RenektonPredator",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            26
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Renekton/Spells/RenektonSkin26_Manager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Renekton/Spells/RenektonPredatorAbility/RenektonPredator",
+    "mEducationToolData": {
+      "firstItem": 1054,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NullifyingOrb",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Precision/PresenceOfMind",
+          "mReplaceWith": "Perks/Styles/Precision/Triumph",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Resolve",
+    "name": "game_character_displayname_Renekton",
+    "overrideGameplayCollisionRadius": 80.0,
+    "passive1IconName": "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_Passive.dds",
+    "passiveLuaName": "RenektonPredator",
+    "passiveName": "game_character_passiveName_Renekton",
+    "passiveToolTip": "game_character_passiveDescription_Renekton",
+    "pathfindingCollisionRadius": 50.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arIncrements": 50.0,
+      "arMaxSegments": 2,
+      "arType": 6,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "selectionHeight": 155.0,
+    "selectionRadius": 125.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "RenektonCleaveAbility/RenektonCleave",
+      "RenektonPreExecuteAbility/RenektonPreExecute",
+      "RenektonSliceAndDiceAbility/RenektonSliceAndDice",
+      "RenektonReignOfTheTyrantAbility/RenektonReignOfTheTyrant"
+    ],
+    "spells": [
+      "Characters/Renekton/Spells/RenektonCleaveAbility/RenektonCleave",
+      "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonPreExecute",
+      "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonSliceAndDice",
+      "Characters/Renekton/Spells/RenektonReignOfTheTyrantAbility/RenektonReignOfTheTyrant"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/Renekton/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Renekton/Spells/RenekthonTyrantForm": {
+    "ObjectName": "RenekthonTyrantForm",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RenektonTyrantForm",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenekthonTyrantForm",
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonBasicAttack": {
+    "ObjectName": "RenektonBasicAttack",
+    "mScriptName": "RenektonBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 16.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "RenektonBasicAttack",
+      "mApplyMaterialOnHitSound": true,
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Renekton_BA_tar_01",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonBasicAttack2": {
+    "ObjectName": "RenektonBasicAttack2",
+    "mScriptName": "RenektonBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 16.100000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "RenektonBasicAttack2",
+      "mAnimationName": "Attack2",
+      "mApplyMaterialOnHitSound": true,
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Renekton_BA_tar_01",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonCleaveAbility": {
+    "mChildSpells": [
+      "Characters/Renekton/Spells/RenektonCleaveAbility/RenektonCleave",
+      "Characters/Renekton/Spells/RenektonCleaveAbility/RenekthonCleaveReady"
+    ],
+    "mName": "RenektonCleaveAbility",
+    "mRootSpell": "Characters/Renekton/Spells/RenektonCleaveAbility/RenektonCleave",
+    "~class": "AbilityObject"
+  },
+  "Characters/Renekton/Spells/RenektonCleaveAbility/RenekthonCleaveReady": {
+    "ObjectName": "RenekthonCleaveReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RenektonCleaveReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenekthonCleaveReady",
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonCleaveAbility/RenektonCleave": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "BasicDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "ChampHealing",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "RenektonCleave",
+    "mScriptName": "RenektonCleave",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseADRatio",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseMinionHeal",
+          "mValues": [
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionHealADRatio",
+          "mValues": [
+            0.019999999552965164,
+            0.019999999552965164,
+            0.019999999552965164,
+            0.019999999552965164,
+            0.019999999552965164,
+            0.019999999552965164,
+            0.019999999552965164
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ChampHeal",
+          "mValues": [
+            4.0,
+            12.0,
+            20.0,
+            28.0,
+            36.0,
+            44.0,
+            52.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ChampionHealADRatio",
+          "mValues": [
+            0.17000000178813934,
+            0.17000000178813934,
+            0.17000000178813934,
+            0.17000000178813934,
+            0.17000000178813934,
+            0.17000000178813934,
+            0.17000000178813934
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BasicHealCap",
+          "mValues": [
+            25.0,
+            50.0,
+            75.0,
+            100.0,
+            125.0,
+            150.0,
+            175.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EmpoweredBaseDamage",
+          "mValues": [
+            45.0,
+            90.0,
+            135.0,
+            180.0,
+            225.0,
+            270.0,
+            315.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EmpoweredADRatio",
+          "mValues": [
+            1.399999976158142,
+            1.399999976158142,
+            1.399999976158142,
+            1.399999976158142,
+            1.399999976158142,
+            1.399999976158142,
+            1.399999976158142
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EmpoweredHealCap",
+          "mValues": [
+            100.0,
+            200.0,
+            300.0,
+            400.0,
+            500.0,
+            600.0,
+            700.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EmpoweredHealMultiplier",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Range",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "UltimateRangeMod",
+          "mValues": [
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158,
+            1.2000000476837158
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionFuryGain",
+          "mValues": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ChampionFuryGain",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryGainCap",
+          "mValues": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0
+      ],
+      "castRange": [
+        20.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        325.0,
+        20.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "RenektonCleave",
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_RenektonCleave_HealPerChampion",
+                  "type": "ChampHeal",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_RenektonCleave_HealPerMinion",
+                  "type": "BaseMinionHeal",
+                  "typeIndex": 6,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RenektonMaxHealthGain",
+                  "type": "BasicHealCap",
+                  "typeIndex": 9,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RenektonCleave_Name",
+            "keySummary": "Spell_RenektonCleave_Summary",
+            "keyTooltip": "Spell_RenektonCleave_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_RenektonCleave_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "RenektonCleave",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitEffectKey": "Renekton_Q_Swipe_tar_01",
+      "mImgIconName": [
+        "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_Q.dds"
+      ],
+      "mSpellCalculations": {
+        "BasicDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "BaseADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "ChampHealing": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "ChampHeal",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ChampionHealADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "EmpChampHealing": {
+          "mModifiedGameCalculation": "ChampHealing",
+          "mMultiplier": {
+            "mDataValue": "EmpoweredHealMultiplier",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "EmpDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "EmpoweredBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "EmpoweredADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "EmpNonChampHealing": {
+          "mModifiedGameCalculation": "NonChampHealing",
+          "mMultiplier": {
+            "mDataValue": "EmpoweredHealMultiplier",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "NonChampHealing": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseMinionHeal",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "MinionHealADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonCritAttack": {
+    "ObjectName": "RenektonCritAttack",
+    "mScriptName": "RenektonCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 16.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "RenektonCritAttack",
+      "mAnimationName": "Crit",
+      "mApplyMaterialOnHitSound": true,
+      "mCantCancelWhileChanneling": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Renekton_BA_tar_crit_01",
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonPreExecuteAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonPreExecute",
+      "Characters/Renekton/Spells/RenektonSuperExecute",
+      "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecute",
+      "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecuteAttack",
+      "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecuteReady"
+    ],
+    "mName": "RenektonPreExecuteAbility",
+    "mRootSpell": "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonPreExecute",
+    "~class": "AbilityObject"
+  },
+  "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecute": {
+    "ObjectName": "RenektonExecute",
+    "mScriptName": "RenektonExecute",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.6000000238418579,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6191,
+      "mAlternateName": "RenektonPreExecute",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonPreExecute",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            60.0,
+            65.0,
+            70.0,
+            75.0,
+            80.0,
+            85.0,
+            90.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            30.0,
+            50.0,
+            70.0,
+            90.0,
+            110.0,
+            130.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Renekton_BA_tar_01",
+      "mRollForCriticalHit": true,
+      "missileSpeed": 20.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecuteAttack": {
+    "ObjectName": "RenektonExecuteAttack",
+    "mScriptName": "RenektonExecuteAttack",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.22220000624656677,
+      "delayTotalTimePercent": -0.33329999446868896,
+      "flags": 4,
+      "mAffectsTypeFlags": 6826,
+      "mAlternateName": "RenektonPreExecute",
+      "mApplyAttackDamage": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mLineWidth": 100.0,
+      "missileSpeed": 779.9000244140625,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecuteReady": {
+    "ObjectName": "RenektonExecuteReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RenektonExecuteReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenektonExecuteReady",
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonPreExecute": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 128,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 512,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "BasicTotalDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 3,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 3,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mEffectIndex": 3,
+                "~class": "EffectValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "RenektonPreExecute",
+    "mBuff": {
+      "mBuffAttributeFlag": 32,
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenektonPreExecute",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            18.0,
+            18.0,
+            16.0,
+            14.0,
+            12.0,
+            10.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "BaseDamagePerHit",
+          "mValues": [
+            -10.0,
+            5.0,
+            20.0,
+            35.0,
+            50.0,
+            65.0,
+            80.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TotalADPerHit",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StunDuration",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EnragedStunDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusFuryVsChamps",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 5.264999866485596,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        16.0,
+        14.0,
+        12.0,
+        10.0,
+        8.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": 0.04349999874830246,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 14984,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "multiplier": 2.0,
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamagePerHit",
+                  "typeIndex": 5,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "multiplier": 3.0,
+                  "nameOverride": "Spell_ListType_EmpoweredDamage",
+                  "type": "BaseDamagePerHit",
+                  "typeIndex": 6,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RenektonPreExecute_Name",
+            "keySummary": "Spell_RenektonPreExecute_Summary",
+            "keyTooltip": "Spell_RenektonPreExecute_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_RenektonPreExecute_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "RenektonPreExecute",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "root",
+      "mImgIconName": [
+        "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_W.dds"
+      ],
+      "mSpellCalculations": {
+        "BasicTotalDamage": {
+          "mModifiedGameCalculation": "HitDamage",
+          "mMultiplier": {
+            "mNumber": 2.0,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "EmpTotalDamage": {
+          "mModifiedGameCalculation": "HitDamage",
+          "mMultiplier": {
+            "mNumber": 3.0,
+            "~class": "NumberCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "HitDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDamagePerHit",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "TotalADPerHit",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_EmpowerAttack",
+        "Trait_AttackReset",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonPredatorAbility": {
+    "mChildSpells": [
+      "Characters/Renekton/Spells/RenektonPredatorAbility/RenektonPredator"
+    ],
+    "mName": "RenektonPredatorAbility",
+    "mRootSpell": "Characters/Renekton/Spells/RenektonPredatorAbility/RenektonPredator",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Renekton/Spells/RenektonPredatorAbility/RenektonPredator": {
+    "ObjectName": "RenektonPredator",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenektonPredator",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "FuryPerAttack",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryIncreasePercent",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "LowHealthPercentThreshold",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "InCombatDuration",
+          "mValues": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryCost",
+          "mValues": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.550000011920929,
+      "mAffectsTypeFlags": 8143,
+      "mAfterEffectName": "globalhit_physical.troy",
+      "mAnimationName": "Spell3",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "EnableExtendedTooltip": false,
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_RenektonPredator_Name",
+            "keySummary": "Spell_RenektonPredator_Summary",
+            "keyTooltip": "Spell_RenektonPredator_Tooltip"
+          },
+          "mObjectName": "RenektonPredator",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitEffectKey": "Renekton_P_bloodslash_01",
+      "mImgIconName": [
+        "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_Passive.dds"
+      ],
+      "mSpellRevealsChampion": false,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonReignOfTheTyrantAbility": {
+    "mChildSpells": [
+      "Characters/Renekton/Spells/RenektonReignOfTheTyrantAbility/RenektonReignOfTheTyrant"
+    ],
+    "mName": "RenektonReignOfTheTyrantAbility",
+    "mRootSpell": "Characters/Renekton/Spells/RenektonReignOfTheTyrantAbility/RenektonReignOfTheTyrant",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Renekton/Spells/RenektonReignOfTheTyrantAbility/RenektonReignOfTheTyrant": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamagePerSecond",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "HealthGain",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "RenektonReignOfTheTyrant",
+    "mScriptName": "RenektonReignOfTheTyrant",
+    "mSpell": {
+      "0xf9c2333e": {
+        "0xa110bc47": {
+          "value": [
+            100.0,
+            100.0,
+            80.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "HealthGain",
+          "mValues": [
+            100.0,
+            300.0,
+            500.0,
+            700.0,
+            900.0,
+            1100.0,
+            1300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AuraDamagePerSecond",
+          "mValues": [
+            -30.0,
+            60.0,
+            150.0,
+            240.0,
+            330.0,
+            420.0,
+            510.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryPerSecond",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryOnCast",
+          "mValues": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TickRate",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        100.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_BonusHealth",
+                  "type": "HealthGain",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_DamagePerSecond",
+                  "type": "AuraDamagePerSecond",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Cooldown",
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RenektonReignOfTheTyrant_Name",
+            "keySummary": "Spell_RenektonReignOfTheTyrant_Summary",
+            "keyTooltip": "Spell_RenektonReignOfTheTyrant_Tooltip"
+          },
+          "mObjectName": "RenektonReignOfTheTyrant",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.10000000149011612,
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mImgIconName": [
+        "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_R.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamagePerSecond": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "AuraDamagePerSecond",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 779.9000244140625,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonSkin26_Manager": {
+    "ObjectName": "RenektonSkin26_Manager",
+    "mScriptName": "RenektonSkin26_Manager",
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonSliceAndDiceAbility": {
+    "mChildSpells": [
+      "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonSliceAndDice",
+      "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonDice",
+      "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonSliceAndDiceShred",
+      "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenekthonSliceAndDiceDelay"
+    ],
+    "mName": "RenektonSliceAndDiceAbility",
+    "mRootSpell": "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonSliceAndDice",
+    "~class": "AbilityObject"
+  },
+  "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenekthonSliceAndDiceDelay": {
+    "ObjectName": "RenekthonSliceAndDiceDelay",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RenektonSliceAndDiceDelay",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenekthonSliceAndDiceDelay",
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonDice": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mEffectIndex": 1,
+            "~class": "EffectValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "RenektonDice",
+    "mScriptName": "RenektonDice",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        18.0,
+        18.0,
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        18.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "RenektonSliceAndDice",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonSliceAndDice",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.8999999761581421,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            45.0,
+            90.0,
+            135.0,
+            180.0,
+            225.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_E2.dds"
+      ],
+      "mLineWidth": 50.0,
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonSliceAndDice": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "BasicDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "RenektonSliceAndDice",
+    "mScriptName": "RenektonSliceAndDice",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            10.0,
+            40.0,
+            70.0,
+            100.0,
+            130.0,
+            160.0,
+            190.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseADRatio",
+          "mValues": [
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421,
+            0.8999999761581421
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EnragedBaseDamage",
+          "mValues": [
+            25.0,
+            70.0,
+            115.0,
+            160.0,
+            205.0,
+            250.0,
+            295.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EnragedADRatio",
+          "mValues": [
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EnragedArmorShred",
+          "mValues": [
+            22.5,
+            25.0,
+            27.5,
+            30.0,
+            32.5,
+            35.0,
+            37.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ShredTimer",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionRageGeneration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ChampionRageGeneration",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FuryMax",
+          "mValues": [
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DiceTimer",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDashSpeed",
+          "mValues": [
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        16.0,
+        16.0,
+        14.5,
+        13.0,
+        11.5,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0,
+                50.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_EmpoweredDamage",
+                  "type": "EnragedBaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_ArmorReductionPercent",
+                  "type": "EnragedArmorShred",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RenektonSliceAndDice_Name",
+            "keySummary": "Spell_RenektonSliceAndDice_Summary",
+            "keyTooltip": "Spell_RenektonSliceAndDice_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_RenektonSliceAndDice_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "RenektonSliceAndDice",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_E.dds"
+      ],
+      "mLineWidth": 50.0,
+      "mSpellCalculations": {
+        "BasicDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "BaseADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "DashSpeed": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseDashSpeed",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 7,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "EmpDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "EnragedBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "EnragedADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonSliceAndDiceShred": {
+    "ObjectName": "RenektonSliceAndDiceShred",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RenektonSliceAndDiceShred",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RenektonSliceAndDiceShred",
+    "~class": "SpellObject"
+  },
+  "Characters/Renekton/Spells/RenektonSuperExecute": {
+    "ObjectName": "RenektonSuperExecute",
+    "mScriptName": "RenektonSuperExecute",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "delayCastOffsetPercent": -0.6399999856948853,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6191,
+      "mAlternateName": "RenektonPreExecute",
+      "mAnimationName": "Spell2b",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonPreExecute",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            65.0,
+            70.0,
+            75.0,
+            80.0,
+            85.0,
+            90.0,
+            95.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Renekton_BA_tar_01",
+      "mRollForCriticalHit": true,
+      "missileSpeed": 20.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

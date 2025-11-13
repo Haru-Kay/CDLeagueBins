@@ -1,0 +1,171 @@
+{
+  "0x53b24baa": {
+    "ObjectName": "TeemoMushroomSkin25Manager",
+    "mScriptName": "TeemoMushroomSkin25Manager",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "FadeToTarget",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x74e5caa2": {
+    "ObjectName": "TeemoMushroomSkin14Manager",
+    "mScriptName": "TeemoMushroomSkin14Manager",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "FadeToTarget",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xbfba4610": {
+    "ObjectName": "TeemoMushroomPassive",
+    "mScriptName": "TeemoMushroomPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "FadeToTarget",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xcec8736e": {
+    "ObjectName": "TeemoMushroomSkin54Manager",
+    "mScriptName": "TeemoMushroomSkin54Manager",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "FadeToTarget",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/TeemoMushroom/CharacterRecords/Root": {
+    "baseHP": 6.0,
+    "baseStaticHPRegen": 0.0,
+    "characterToolData": {
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "~class": "characterToolData"
+    },
+    "expGivenOnDeath": 0.0,
+    "flags": 8398144,
+    "goldGivenOnDeath": 10.0,
+    "healthBarHeight": 31.5,
+    "mCharacterName": "TeemoMushroom",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "0xbfba4610",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            14
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x74e5caa2",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            25,
+            27
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x53b24baa",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            54
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0xcec8736e",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0xbfba4610",
+    "overrideGameplayCollisionRadius": 125.0,
+    "passiveLuaName": "TeemoMushroomPassive",
+    "pathfindingCollisionRadius": 31.793100357055664,
+    "perceptionBubbleRadius": 330.0,
+    "primaryAbilityResource": {
+      "arBase": 300.0,
+      "arBaseStaticRegen": -1.0,
+      "arType": 3,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "significance": 0.20000000298023224,
+    "unitTagsString": "Special | Special_TurretIgnores | Special_TeleportTarget | Special_Trap | IsolationNonImpacting | Special_UntargetableBySpells",
+    "~class": "CharacterRecord"
+  },
+  "Characters/TeemoMushroom/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  }
+}

@@ -1,0 +1,3960 @@
+{
+  "0x1091a675": {
+    "ObjectName": "BelvethQHudIcon3",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon3",
+    "~class": "SpellObject"
+  },
+  "0x141173ff": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x143c19b9": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4500,
+      11000,
+      23000,
+      27000,
+      34000,
+      14000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "4b5d0baa-73fb-4a38-9453-c180df22d93b",
+      "itemID": 126432,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_BelvethEExecuteDamage",
+    "mNameTraKey": "stat_stone_name_BelvethEExecuteDamage",
+    "stoneName": "BelvethEExecuteDamage",
+    "~class": "StatStoneData"
+  },
+  "0x1591ae54": {
+    "ObjectName": "BelvethQHudIcon8",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon8",
+    "~class": "SpellObject"
+  },
+  "0x1691afe7": {
+    "ObjectName": "BelvethQHudIcon9",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon9",
+    "~class": "SpellObject"
+  },
+  "0x5839a392": {
+    "ObjectName": "BelvethVsJax_BelvethQuestLoss",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_BelvethVsJax_BelvethLossName",
+          "keyTooltip": "Quests_BelvethVsJax_BelvethLossTooltip"
+        },
+        "mObjectName": "BelvethVsJax_BelvethQuestLoss",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethVsJax_BelvethQuestLoss",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/JaxR.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x58a01dfb": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      6,
+      15,
+      30,
+      35,
+      44,
+      20
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "c87f909d-6a0f-4932-885d-0ffa407d3197",
+      "itemID": 126443,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_BelvethWMultihits",
+    "mNameTraKey": "stat_stone_name_BelvethWMultihits",
+    "stoneName": "BelvethWMultihits",
+    "~class": "StatStoneData"
+  },
+  "0x6074c791": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "97e6b1a8-671c-4de0-a1a2-99012061d573",
+      "itemID": 126434,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "BelvethEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x6944590e": {
+    "ObjectName": "BelvethQHudIcon15",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon15",
+    "~class": "SpellObject"
+  },
+  "0x6a445aa1": {
+    "ObjectName": "BelvethQHudIcon14",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon14",
+    "~class": "SpellObject"
+  },
+  "0x6b445c34": {
+    "ObjectName": "BelvethQHudIcon13",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon13",
+    "~class": "SpellObject"
+  },
+  "0x6c445dc7": {
+    "ObjectName": "BelvethQHudIcon12",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon12",
+    "~class": "SpellObject"
+  },
+  "0x6d445f5a": {
+    "ObjectName": "BelvethQHudIcon11",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon11",
+    "~class": "SpellObject"
+  },
+  "0x6e4460ed": {
+    "ObjectName": "BelvethQHudIcon10",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon10",
+    "~class": "SpellObject"
+  },
+  "0x80329485": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      15,
+      35,
+      75,
+      90,
+      100,
+      45
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "917743fb-603e-4849-a53c-d5eec6dd4e76",
+      "itemID": 126433,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_BelvethQDodges",
+    "mNameTraKey": "stat_stone_name_BelvethQDodges",
+    "stoneName": "BelvethQDodges",
+    "~class": "StatStoneData"
+  },
+  "0x9919b70": {
+    "ObjectName": "BelvethQHudIcon4",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon4",
+    "~class": "SpellObject"
+  },
+  "0x9b50fc12": {
+    "ObjectName": "BelvethVsJax_BelvethQuestReward",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_BelvethVsJax_BelvethRewardName",
+          "keyTooltip": "Quests_BelvethVsJax_BelvethRewardTooltip"
+        },
+        "mObjectName": "BelvethVsJax_BelvethQuestReward",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethVsJax_BelvethQuestReward",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/JaxP.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xa919d03": {
+    "ObjectName": "BelvethQHudIcon5",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon5",
+    "~class": "SpellObject"
+  },
+  "0xb72cad58": {
+    "ObjectName": "BelvethRSteroid",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_BelvethR_Name",
+          "keyTooltip": "Buff_BelvethR_Tooltip"
+        },
+        "mObjectName": "BelvethRSteroid",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethRSteroid",
+    "mSpell": {
+      "ImgIconPath": "ASSETS/Characters/Belveth/HUD/Icons2D/BelvethR.dds",
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BelvethR.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb919e96": {
+    "ObjectName": "BelvethQHudIcon6",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon6",
+    "~class": "SpellObject"
+  },
+  "0xb938f020": {
+    "ObjectName": "BelvethRInside",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_BelvethRInside_Name",
+          "keyTooltip": "Buff_BelvethRInside_Tooltip"
+        },
+        "mObjectName": "BelvethRInside",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethRInside",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BelvethR.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xba53f82c": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      60,
+      150,
+      300,
+      350,
+      450,
+      175
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "57ce7709-a3a6-4afe-8c54-0e61a69ffdf4",
+      "itemID": 126445,
+      "~class": "catalogEntry"
+    },
+    "category": "0x24e22b2",
+    "mDescriptionTraKey": "stat_stone_description_BelvethRVoidlingsSpawned",
+    "mNameTraKey": "stat_stone_name_BelvethRVoidlingsSpawned",
+    "stoneName": "BelvethRVoidlingsSpawned",
+    "~class": "StatStoneData"
+  },
+  "0xbc786481": {
+    "ObjectName": "BelvethVsJax_BelvethQuestWin",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethVsJax_BelvethQuestWin",
+    "~class": "SpellObject"
+  },
+  "0xc30422d2": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      4500,
+      11000,
+      23000,
+      28000,
+      34000,
+      14000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "426d529f-e259-4ef4-bdab-7f20aafb9d1c",
+      "itemID": 126444,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_BelvethRTrueDamage",
+    "mNameTraKey": "stat_stone_name_BelvethRTrueDamage",
+    "stoneName": "BelvethRTrueDamage",
+    "~class": "StatStoneData"
+  },
+  "0xc4b4206f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      175,
+      400,
+      825,
+      975,
+      1000,
+      500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "951691e4-bb26-4810-b1ed-0dcdf3d751d2",
+      "itemID": 126431,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_BelvethPStacks",
+    "mNameTraKey": "stat_stone_name_BelvethPStacks",
+    "stoneName": "BelvethPStacks",
+    "~class": "StatStoneData"
+  },
+  "0xc91a029": {
+    "ObjectName": "BelvethQHudIcon7",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon7",
+    "~class": "SpellObject"
+  },
+  "0xcd53caf6": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "2649c430-0be0-4f4c-bd2d-409cbfdb1631",
+      "itemID": 126436,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "BelvethTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xd03d64af": {
+    "ObjectName": "BelvethQIconTracker",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQIconTracker",
+    "~class": "SpellObject"
+  },
+  "0xd509cba7": {
+    "ObjectName": "BelvethVsJax_BelvethQuestStart",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0x2ca8f134",
+        "mLocKeys": {
+          "keyName": "Quests_BelvethVsJax_BelvethStartName",
+          "keyTooltip": "Quests_BelvethVsJax_BelvethStartTooltip"
+        },
+        "mObjectName": "BelvethVsJax_BelvethQuestStart",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethVsJax_BelvethQuestStart",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/JaxQ.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xd91a1bc": {
+    "ObjectName": "BelvethQHudIcon0",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon0",
+    "~class": "SpellObject"
+  },
+  "0xdbdf40b": {
+    "catalogEntry": {
+      "contentId": "720c5b17-a457-44d2-9d8f-486294afdb46",
+      "itemID": 66600544,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x80329485",
+      "0x143c19b9",
+      "0xc4b4206f"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xe1d5df73": {
+    "catalogEntry": {
+      "contentId": "0339b9eb-d92a-4048-ad49-7fb1f13bbd86",
+      "itemID": 66600543,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x6074c791",
+      "0xed44d96b",
+      "0xcd53caf6"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xe91a34f": {
+    "ObjectName": "BelvethQHudIcon1",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon1",
+    "~class": "SpellObject"
+  },
+  "0xebdf59e": {
+    "catalogEntry": {
+      "contentId": "9c169bbc-d3d3-4016-b8c5-395ddcbcf40e",
+      "itemID": 66600547,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xc30422d2",
+      "0x58a01dfb",
+      "0xba53f82c"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xecac829b": {
+    "ObjectName": "BelvethVsJaxQuestActivateCondition",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethVsJaxQuestActivateCondition",
+    "~class": "SpellObject"
+  },
+  "0xed44d96b": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "eff1f56d-aedd-4749-95ef-af33acf657cb",
+      "itemID": 126435,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "BelvethStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xf91a4e2": {
+    "ObjectName": "BelvethQHudIcon2",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQHudIcon2",
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/CharacterRecords/Root": {
+    "0x6854087e": [
+      {
+        "0xcf19cb5d": {
+          "baseHP": 50.0,
+          "damagePerLevel": 1.0,
+          "~class": "0x770f7888"
+        },
+        "0xe4f7105d": "Maps/Shipping/Map30/Modes/CHERRY",
+        "~class": "0x47f13ab0"
+      }
+    ],
+    "0xc1984296": [
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "0xc5c48b41": 1,
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 4.699999809265137,
+    "attackRange": 150.0,
+    "attackSpeed": 0.8500000238418579,
+    "attackSpeedRatio": 0.8500000238418579,
+    "baseArmor": 32.0,
+    "baseDamage": 60.0,
+    "baseHP": 610.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.2000000476837158,
+    "basicAttack": {
+      "mAttackCastTime": 0.25,
+      "mAttackDelayCastOffsetPercentAttackSpeedRatio": 1.0,
+      "mAttackName": "BelvethBasicAttack",
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.0099999904632568,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.5,
+      "LevelSpellEffectiveness": 1.0,
+      "attackRank": 4,
+      "championId": 200,
+      "defenseRank": 2,
+      "description": "game_character_description_Belveth",
+      "difficultyRank": 10,
+      "magicRank": 7,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Belveth",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "recItems": [
+        "1054",
+        "3117",
+        "3154",
+        "3078",
+        "3026",
+        "3124"
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "sound": {
+        "attack": [
+          "Belveth-Attack1-NORM_01.wav",
+          "Belveth-Attack2-NORM_01.wav",
+          "Belveth-Attack3-NORM_01.wav",
+          "Belveth-Attack4-NORM_01.wav"
+        ],
+        "click": [
+          "Belveth-Click1-NORM_01.wav",
+          "Belveth-Click2-NORM_01.wav",
+          "Belveth-Click3-NORM_01.wav",
+          "Belveth-Click4-NORM_01.wav"
+        ],
+        "death": "Belveth-Death1-NORM_01.wav",
+        "move": [
+          "Belveth-Move1-NORM_01.wav",
+          "Belveth-Move2-NORM_01.wav",
+          "Belveth-Move3-NORM_01.wav",
+          "Belveth-Move4-NORM_01.wav"
+        ],
+        "ready": "Belveth-Ready1-NORM_01.wav",
+        "~class": "ToolSoundData"
+      },
+      "spellData": [
+        {
+          "desc": "When a nearby enemy champion dies, Belveth gains move and attack speed.  If she was the killer, she is also healed.",
+          "displayName": "Malice and Spite",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "When a nearby enemy champion dies, Belveth gains move and attack speed.  If she was the killer, she is also healed.",
+          "displayName": "Malice and Spite",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "When a nearby enemy champion dies, Belveth gains move and attack speed.  If she was the killer, she is also healed.",
+          "displayName": "Malice and Spite",
+          "~class": "ToolSpellDesc"
+        },
+        {
+          "desc": "When a nearby enemy champion dies, Belveth gains move and attack speed.  If she was the killer, she is also healed.",
+          "displayName": "Malice and Spite",
+          "~class": "ToolSpellDesc"
+        }
+      ],
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackName": "BelvethCritAttack",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "BelvethCritAttack2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 1.5,
+    "deathEventListeningRadius": 2000.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "BelvethBasicAttack2",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "healthBarHeight": 90.0,
+    "hpPerLevel": 99.0,
+    "hpRegenPerLevel": 0.11999999731779099,
+    "mAbilities": [
+      "Characters/Belveth/Spells/BelvethWAbility",
+      "Characters/Belveth/Spells/BelvethEAbility",
+      "Characters/Belveth/Spells/BelvethPassiveAbility",
+      "Characters/Belveth/Spells/BelvethQAbility",
+      "Characters/Belveth/Spells/BelvethRAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      0,
+      14
+    ],
+    "mCharacterName": "Belveth",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassive",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassive",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NullifyingOrb",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Precision/PresenceOfMind",
+          "mReplaceWith": "Perks/Styles/Precision/Triumph",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Domination/UltimateHunter",
+          "mReplaceWith": "Perks/Styles/Domination/RelentlessHunter",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Precision",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Belveth",
+    "parName": "Lavender",
+    "passive1IconName": "ASSETS/Characters/Belveth/HUD/Icons2D/Belveth_Passive.dds",
+    "passiveLuaName": "",
+    "passiveName": "game_character_passiveName_Belveth",
+    "passiveSpell": "BelvethPassive",
+    "passiveToolTip": "game_character_passiveDescription_Belveth",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "0x4eb6a404": 2,
+      "arAllowMaxValueToBeOverridden": true,
+      "arBase": 60.0,
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arIncrements": 60.0,
+      "arMaxSegments": 3,
+      "arType": 14,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "0x4eb6a404": 2,
+      "VisibilityFlags": 1,
+      "arBase": 6.0,
+      "arBaseStaticRegen": 0.0,
+      "arDisplayAsPips": true,
+      "arHasRegenText": false,
+      "arIncrements": 1.0,
+      "arMaxSegments": 6,
+      "arNegativeSpacer": true,
+      "arOverrideSmallPipName": "SamiraStyleSmall",
+      "arOverrideSpacerName": "PipSpacer",
+      "arType": 12,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 110.0,
+    "selectionRadius": 120.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "BelvethQAbility/BelvethQ",
+      "BelvethWAbility/BelvethW",
+      "BelvethEAbility/BelvethE",
+      "BelvethRAbility/BelvethR"
+    ],
+    "spells": [
+      "Characters/Belveth/Spells/BelvethQAbility/BelvethQ",
+      "Characters/Belveth/Spells/BelvethWAbility/BelvethW",
+      "Characters/Belveth/Spells/BelvethEAbility/BelvethE",
+      "Characters/Belveth/Spells/BelvethRAbility/BelvethR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "weaponMaterials": [
+      "BelvethBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Belveth/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Belveth/Spells/BelvethBasicAttack": {
+    "ObjectName": "BelvethBasicAttack",
+    "mScriptName": "BelvethBasicAttack",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3506999909877777,
+      "mAffectsTypeFlags": 4234,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "missileSpeed": 467.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethBasicAttack2": {
+    "ObjectName": "BelvethBasicAttack2",
+    "mScriptName": "BelvethBasicAttack2",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3506999909877777,
+      "mAffectsTypeFlags": 4234,
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "missileSpeed": 467.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethCritAttack": {
+    "ObjectName": "BelvethCritAttack",
+    "mScriptName": "BelvethCritAttack",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3506999909877777,
+      "mAffectsTypeFlags": 4234,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "missileSpeed": 467.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethCritAttack2": {
+    "ObjectName": "BelvethCritAttack2",
+    "mScriptName": "BelvethCritAttack2",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3506999909877777,
+      "mAffectsTypeFlags": 4234,
+      "mAnimationName": "Attack2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "missileSpeed": 467.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethEAbility": {
+    "AbilityTraits": 32,
+    "mChildSpells": [
+      "Characters/Belveth/Spells/BelvethEAbility/BelvethE",
+      "Characters/Belveth/Spells/BelvethEAbility/BelvethEMissile"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "BelvethEAbility",
+    "mRootSpell": "Characters/Belveth/Spells/BelvethEAbility/BelvethE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Belveth/Spells/BelvethEAbility/BelvethE": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "MaxDamagePerStrikeTooltip",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "DRPercent",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BonusLifesteal",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 64,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "BelvethE",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_BelvethE_Name",
+          "keyTooltip": "Buff_BelvethE_Tooltip"
+        },
+        "mObjectName": "BelvethE",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "TotalDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackSpeedMult",
+          "mValues": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamagePerHit",
+          "mValues": [
+            5.0,
+            6.0,
+            7.0,
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "OnHitRatio",
+          "mValues": [
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NumberOfStrikes",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterMod",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MissingHealthMult",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DRPercent",
+          "mValues": [
+            0.30000001192092896,
+            0.3499999940395355,
+            0.4000000059604645,
+            0.44999998807907104,
+            0.5,
+            0.550000011920929,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusLifeSteal",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "cooldownTime": [
+        20.0,
+        20.0,
+        19.0,
+        18.0,
+        17.0,
+        16.0,
+        16.0
+      ],
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAnimationName": "None",
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                525.0,
+                525.0,
+                525.0,
+                525.0,
+                525.0,
+                525.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "DamagePerHit",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_DamageReduction",
+                  "type": "DRPercent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_BelvethE_Name",
+            "keySummary": "Spell_BelvethE_Summary",
+            "keyTooltip": "Spell_BelvethE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_BelvethE_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "BelvethE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BelvethE.dds"
+      ],
+      "mSpellCalculations": {
+        "DamagePerStrike": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "DamagePerHit",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.07999999821186066,
+              "mStat": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MaxDamagePerStrikeTooltip": {
+          "mModifiedGameCalculation": "DamagePerStrike",
+          "mMultiplier": {
+            "mNumber": 4.0,
+            "~class": "NumberCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "TotalLifesteal": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "BonusLifesteal",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 18,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalStrikes": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "NumberOfStrikes",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mPart1": {
+                "mDataValue": "NumberOfStrikes",
+                "~class": "NamedDataValueCalculationPart"
+              },
+              "mPart2": {
+                "mCoefficient": 0.5,
+                "mStat": 4,
+                "mStatFormula": 2,
+                "~class": "StatByCoefficientCalculationPart"
+              },
+              "~class": "ProductOfSubPartsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.3499999940395355,
+      "mSpellTags": [
+        "Trait_ChannelSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethEAbility/BelvethEMissile": {
+    "ObjectName": "BelvethEMissile",
+    "mScriptName": "BelvethEMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "0xfe005efa",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mAmplitude": 50.0,
+          "mNumberOfPeriods": 0.699999988079071,
+          "~class": "SinusoidalHeightSolver"
+        },
+        "movementComponent": {
+          "mSplineInfo": {
+            "mControlPoint1": [
+              -1.171246886253357,
+              -0.49999988079071045,
+              -0.5080956220626831
+            ],
+            "mControlPoint2": [
+              0.08420729637145996,
+              -0.9999997615814209,
+              1.268193244934082
+            ],
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "L_Buffbone_Engine",
+          "mTargetBoneName": "C_Buffbone_Glb_Center_Loc",
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1800.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassive",
+      "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile1",
+      "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile2",
+      "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile3",
+      "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile4",
+      "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveStacks"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "BelvethPassiveAbility",
+    "mRootSpell": "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassive": {
+    "ObjectName": "BelvethPassive",
+    "mScriptName": "BelvethPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MonsterStacks",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ChampionStacks",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ARAMBonusStacks",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TakedownDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SheenDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaronBuffDuration",
+          "mValues": [
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SheenNumberOfAttacks",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackADRatio",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "OnHitRatio",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BrawlBonusStacks",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_BelvethPassive_Name",
+            "keySummary": "Spell_BelvethPassive_Summary",
+            "keyTooltip": "Spell_BelvethPassive_Tooltip",
+            "keyTooltipExtended": "Spell_BelvethPassive_TooltipExtended"
+          },
+          "mObjectName": "BelvethPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/Belveth_Passive.dds"
+      ],
+      "mSpellCalculations": {
+        "AttackSpeedPerStack": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 1.100000023841858,
+              "mStartValue": 0.2800000011920929,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "mPrecision": 2,
+          "~class": "GameCalculation"
+        },
+        "SheenSpeedPerStack": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.4000000059604645,
+              "mScaleByStatProgressionMultiplier": true,
+              "mStartValue": 0.20000000298023224,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalAttackSpeedFromStacks": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mModifiedGameCalculation": "AttackSpeedPerStack",
+          "mMultiplier": {
+            "mBuffName": "0x7f3c01cf",
+            "mCoefficient": 1.0,
+            "~class": "BuffCounterByCoefficientCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 5,
+          "~class": "GameCalculationModified"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile1": {
+    "ObjectName": "BelvethPassiveMissile1",
+    "mScriptName": "BelvethPassiveMissile1",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 1,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Belveth_P_Mis_Essence",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mAmplitude": 50.0,
+          "mNumberOfPeriods": 0.699999988079071,
+          "~class": "SinusoidalHeightSolver"
+        },
+        "movementComponent": {
+          "mSplineInfo": {
+            "mControlPoint1": [
+              -2.0,
+              -0.49999988079071045,
+              -0.75
+            ],
+            "mControlPoint2": [
+              0.08420729637145996,
+              -0.9999997615814209,
+              1.268193244934082
+            ],
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "root",
+          "mTargetBoneName": "root",
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1800.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile2": {
+    "ObjectName": "BelvethPassiveMissile2",
+    "mScriptName": "BelvethPassiveMissile2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 1,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Belveth_P_Mis_Essence",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mAmplitude": 50.0,
+          "mNumberOfPeriods": 0.699999988079071,
+          "~class": "SinusoidalHeightSolver"
+        },
+        "movementComponent": {
+          "mSplineInfo": {
+            "mControlPoint1": [
+              0.8228718638420105,
+              0.0,
+              -0.2872997522354126
+            ],
+            "mControlPoint2": [
+              -0.8469558954238892,
+              0.0,
+              2.1486918926239014
+            ],
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "root",
+          "mTargetBoneName": "root",
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1800.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile3": {
+    "ObjectName": "BelvethPassiveMissile3",
+    "mScriptName": "BelvethPassiveMissile3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 1,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Belveth_P_Mis_Essence",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mAmplitude": -60.0,
+          "mNumberOfPeriods": 0.30000001192092896,
+          "~class": "SinusoidalHeightSolver"
+        },
+        "movementComponent": {
+          "mSplineInfo": {
+            "mControlPoint1": [
+              -1.544555902481079,
+              0.0,
+              -0.4418768286705017
+            ],
+            "mControlPoint2": [
+              -1.13383948802948,
+              0.0,
+              1.1535013914108276
+            ],
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "root",
+          "mTargetBoneName": "root",
+          "mTargetHeightAugment": 25.0,
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1800.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile4": {
+    "ObjectName": "BelvethPassiveMissile4",
+    "mScriptName": "BelvethPassiveMissile4",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "castConeDistance": 100.0,
+      "castFrame": 14.800000190734863,
+      "castRadius": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 1,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
+      "mHitEffectOrientType": 2,
+      "mIsDisabledWhileDead": false,
+      "mLineWidth": 120.0,
+      "mMissileEffectKey": "Belveth_P_Mis_Essence",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mAmplitude": 50.0,
+          "mNumberOfPeriods": 0.699999988079071,
+          "~class": "SinusoidalHeightSolver"
+        },
+        "movementComponent": {
+          "mSplineInfo": {
+            "mControlPoint1": [
+              2.064129114151001,
+              0.0,
+              -0.6813449859619141
+            ],
+            "mControlPoint2": [
+              1.384055733680725,
+              0.0,
+              1.5277516841888428
+            ],
+            "~class": "HermiteSplineInfo"
+          },
+          "mStartBoneName": "root",
+          "mTargetBoneName": "root",
+          "mTravelTime": 0.4000000059604645,
+          "~class": "FixedTimeSplineMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 1800.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveStacks": {
+    "ObjectName": "BelvethPassiveStacks",
+    "mBuff": {
+      "CanTimeoutWhileCasting": false,
+      "mBuffAttributeFlag": 8,
+      "mShowAccumulatedDuration": false,
+      "mShowDuration": false,
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_BelvethHopelessStacks_Name",
+          "keyTooltip": "Buff_BelvethHopelessStacks_Tooltip"
+        },
+        "mObjectName": "BelvethPassiveStacks",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethPassiveStacks",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/Belveth_Passive.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethQAbility": {
+    "mChildSpells": [
+      "Characters/Belveth/Spells/BelvethQAbility/BelvethQ",
+      "Characters/Belveth/Spells/BelvethQAbility/BelvethQDummySpellCast"
+    ],
+    "mName": "BelvethQAbility",
+    "mRootSpell": "Characters/Belveth/Spells/BelvethQAbility/BelvethQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Belveth/Spells/BelvethQAbility/BelvethQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "baseDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 128,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "BelvethQ",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PerSideCooldown",
+          "mValues": [
+            16.0,
+            16.0,
+            15.0,
+            14.0,
+            13.0,
+            12.0,
+            11.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PerSideCDAttackSpeedMultiplier",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDashSpeed",
+          "mValues": [
+            750.0,
+            800.0,
+            850.0,
+            900.0,
+            950.0,
+            1000.0,
+            1050.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashDistance",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxDistanceOverWalls",
+          "mValues": [
+            625.0,
+            625.0,
+            625.0,
+            625.0,
+            625.0,
+            625.0,
+            625.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RiftDashSpeed",
+          "mValues": [
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CDReduction",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackSpeed",
+          "mValues": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NumberOfAttacks",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SpeedDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackSpeedDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseHealthSteal",
+          "mValues": [
+            0.0,
+            0.009999999776482582,
+            0.019999999552965164,
+            0.029999999329447746,
+            0.03999999910593033,
+            0.05000000074505806,
+            0.05999999865889549
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Damage",
+          "mValues": [
+            -5.0,
+            0.0,
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterMod",
+          "mValues": [
+            45.0,
+            55.0,
+            65.0,
+            75.0,
+            85.0,
+            95.0,
+            105.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinonMod",
+          "mValues": [
+            0.5,
+            0.6000000238418579,
+            0.699999988079071,
+            0.800000011920929,
+            0.8999999761581421,
+            1.0,
+            1.100000023841858
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "URF": {
+          "SpellDataValues": [
+            {
+              "mName": "PerSideCooldown",
+              "mValues": [
+                5.0,
+                5.0,
+                5.0,
+                5.0,
+                5.0,
+                5.0,
+                5.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "cantCastWhileRooted": true,
+      "castFrame": 7.5,
+      "castRange": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flags": 4,
+      "mAnimationName": "Spell1",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Damage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_CooldownPerSide",
+                  "type": "PerSideCooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_MonsterDamage",
+                  "type": "MonsterMod",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_MinionDamage",
+                  "type": "MinonMod",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_BelvethQ_Name",
+            "keySummary": "Spell_BelvethQ_Summary",
+            "keyTooltip": "Spell_BelvethQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_BelvethQ_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "BelvethQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesNotConsumeCooldown": true,
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_1.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_2.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_3.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_4.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_5.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_6.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_7.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_8.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_9.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_10.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_11.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_12.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_13.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_14.dds",
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BV_Q_15.dds"
+      ],
+      "mSpellCalculations": {
+        "0x290ee56e": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mCoefficient": 1.0,
+              "mStat": 4,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "baseDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Damage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.3499999940395355,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethQAbility/BelvethQDummySpellCast": {
+    "ObjectName": "BelvethQDummySpellCast",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_OlafRagnarok",
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethQDummySpellCast",
+    "mSpell": {
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 20,
+      "mAffectsTypeFlags": 9221,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            0.0,
+            0.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            10.0,
+            20.0,
+            30.0,
+            0.0,
+            0.0,
+            10.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethRAbility": {
+    "AbilityTraits": 16386,
+    "mChildSpells": [
+      "Characters/Belveth/Spells/BelvethRAbility/BelvethR",
+      "Characters/Belveth/Spells/BelvethRAbility/BelvethRListener",
+      "Characters/Belveth/Spells/BelvethRAbility/BelvethRPassive"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "BelvethRAbility",
+    "mRootSpell": "Characters/Belveth/Spells/BelvethRAbility/BelvethR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Belveth/Spells/BelvethRAbility/BelvethR": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalExplosionDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 512,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "OOCMS",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "TotalASMod",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "BaseMaxHealth",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 8,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 2,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "BelvethR",
+    "mScriptName": "BelvethR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PassiveStacksOnDevour",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "OnHitDamage",
+          "mValues": [
+            4.0,
+            6.0,
+            8.0,
+            10.0,
+            12.0,
+            14.0,
+            16.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CorpseDuration",
+          "mValues": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MissingHealthDamage",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AoERange",
+          "mValues": [
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0,
+            500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxExecuteVsMonsters",
+          "mValues": [
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0,
+            1500.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SteroidDuration",
+          "mValues": [
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VoidDuration",
+          "mValues": [
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0,
+            180.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionRadius",
+          "mValues": [
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusAARange",
+          "mValues": [
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RPassiveStackDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "OOCMS",
+          "mValues": [
+            -25.0,
+            10.0,
+            45.0,
+            80.0,
+            115.0,
+            150.0,
+            185.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseMaxHealth",
+          "mValues": [
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TotalASMod",
+          "mValues": [
+            0.05000000074505806,
+            0.10000000149011612,
+            0.15000000596046448,
+            0.20000000298023224,
+            0.25,
+            0.30000001192092896,
+            0.3499999940395355
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxEpicMonsterStacks",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VoidlingHPScale",
+          "mValues": [
+            -0.05000000074505806,
+            0.20000000298023224,
+            0.44999998807907104,
+            0.699999988079071,
+            0.949999988079071,
+            1.2000000476837158,
+            1.4500000476837158
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VoidlingADScale",
+          "mValues": [
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MeleeVoidlingSkinScaleMod",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "VoidlingMovementSpeedMod",
+          "mValues": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "0xbffdf499": {
+          "SpellDataValues": [
+            {
+              "mName": "CorpseDuration",
+              "mValues": [
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "ARAM": {
+          "SpellDataValues": [
+            {
+              "mName": "CorpseDuration",
+              "mValues": [
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0,
+                40.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        },
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "OnHitDamage",
+              "mValues": [
+                5.0,
+                8.0,
+                11.0,
+                14.0,
+                17.0,
+                20.0,
+                23.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseMaxHealth",
+              "mValues": [
+                100.0,
+                250.0,
+                400.0,
+                550.0,
+                700.0,
+                850.0,
+                1000.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "TargetingForgivenessDefinitions": [
+        {
+          "ForgivenessRange": 250.0,
+          "TargetForgivenessDefinitions": [
+            {
+              "mSubRequirements": [
+                {
+                  "mUnit": "Characters/BelvethSpore/CharacterRecords/Root",
+                  "~class": "IsSpecifiedUnitCastRequirement"
+                },
+                {
+                  "~class": "SameTeamCastRequirement"
+                },
+                {
+                  "mBuffName": "0x29bbff95",
+                  "~class": "HasBuffCastRequirement"
+                }
+              ],
+              "~class": "HasAllSubRequirementsCastRequirement"
+            }
+          ],
+          "~class": "TargetingForgivenessDefinitions"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castRange": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "delayCastOffsetPercent": 1.0,
+      "delayTotalTimePercent": -1.5,
+      "mAffectsTypeFlags": 1024,
+      "mAnimationName": "None",
+      "mCantCancelWhileWindingUp": true,
+      "mCastRequirementsCaster": [
+        {
+          "mRange": 25000.0,
+          "mUnitsRequired": 1,
+          "mUnitsRequirements": [
+            {
+              "mBuffName": "0x29bbff95",
+              "~class": "HasBuffCastRequirement"
+            }
+          ],
+          "~class": "HasNNearbyUnitsRequirement"
+        }
+      ],
+      "mCastTime": 1.0,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                500.0,
+                500.0,
+                500.0,
+                500.0,
+                500.0,
+                500.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/AOE_brand.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_OnHitDamage",
+                  "type": "OnHitDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ExplosionDamage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_BonusHealth",
+                  "type": "BaseMaxHealth",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_MovementSpeed",
+                  "type": "OOCMS",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_AttackSpeed",
+                  "type": "TotalASMod",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_BelvethR_VoidRemoraHealth",
+                  "type": "VoidlingHPScale",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_BelvethR_Name",
+            "keySummary": "Spell_BelvethR_Summary",
+            "keyTooltip": "Spell_BelvethR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_BelvethR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "BelvethR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDimensionBehavior": 1,
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BelvethR.dds"
+      ],
+      "mSpellCalculations": {
+        "FinalOnHitDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "OnHitDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.11999999731779099,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MaxHealthOnDevour": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseMaxHealth",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.2000000476837158,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 0.8999999761581421,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MaxMonsterOnHitTooltip": {
+          "mModifiedGameCalculation": "FinalOnHitDamage",
+          "mMultiplier": {
+            "mPart1": {
+              "mDataValue": "MaxEpicMonsterStacks",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            "mPart2": {
+              "mNumber": 0.5,
+              "~class": "NumberCalculationPart"
+            },
+            "~class": "ProductOfSubPartsCalculationPart"
+          },
+          "tooltipOnly": true,
+          "~class": "GameCalculationModified"
+        },
+        "TotalExplosionDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.3499999940395355,
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethRAbility/BelvethRListener": {
+    "ObjectName": "BelvethRListener",
+    "mScriptName": "BelvethRListener",
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethRAbility/BelvethRPassive": {
+    "ObjectName": "BelvethRPassive",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethRPassive",
+    "~class": "SpellObject"
+  },
+  "Characters/Belveth/Spells/BelvethWAbility": {
+    "AbilityTraits": 2050,
+    "mChildSpells": [
+      "Characters/Belveth/Spells/BelvethWAbility/BelvethW"
+    ],
+    "mName": "BelvethWAbility",
+    "mRootSpell": "Characters/Belveth/Spells/BelvethWAbility/BelvethW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Belveth/Spells/BelvethWAbility/BelvethW": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "Damage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowPercent",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "duration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16777216,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "BelvethW",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "game_buff_name_knockedup",
+          "keyTooltip": "game_buff_tooltip_knockedup"
+        },
+        "mObjectName": "BelvethW",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "BelvethW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Duration",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            30.0,
+            70.0,
+            110.0,
+            150.0,
+            190.0,
+            230.0,
+            270.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowPercent",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25,
+            2.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "castRange": [
+        715.0,
+        715.0,
+        715.0,
+        715.0,
+        715.0,
+        715.0,
+        715.0
+      ],
+      "cooldownTime": [
+        12.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        8.0
+      ],
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mCastTime": 0.5,
+      "mCastType": 3,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": true,
+            "lineWidth": {
+              "mPerLevelValues": [
+                115.0,
+                115.0,
+                115.0,
+                115.0,
+                115.0,
+                115.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "minimumDisplayedRange": 750.0,
+            "textureBaseOverrideName": "ASSETS/Spells/Textures/Reticle_Gradient_Base_Q_01.tex",
+            "textureTargetOverrideName": "ASSETS/Spells/Textures/Reticle_Gradient_Base_Q_02.tex",
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_SlowDuration",
+                  "type": "SlowDuration",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_BelvethW_Name",
+            "keySummary": "Spell_BelvethW_Summary",
+            "keyTooltip": "Spell_BelvethW_Tooltip"
+          },
+          "mObjectName": "BelvethW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Belveth/HUD/Icons2D/BelvethW.dds"
+      ],
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": -100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 300000.0,
+          "mStartBoneName": "buffbone_glb_ground_loc",
+          "mTargetHeightAugment": -100.0,
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "Damage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.25,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.3499999940395355,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

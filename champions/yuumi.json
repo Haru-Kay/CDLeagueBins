@@ -1,0 +1,5686 @@
+{
+  "0x19c99c4f": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "102ad1dd-d814-440e-930b-9a5bc6260861",
+      "itemID": 125829,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "YuumiTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0x1d7bd936": {
+    "ObjectName": "YuumiRSpellPassive",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiW_Name",
+          "keyTooltip": "Buff_YuumiW_Tooltip"
+        },
+        "mObjectName": "YuumiRSpellPassive",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiRSpellPassive",
+    "mSpell": {
+      "cantCastWhileRooted": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 16385,
+      "mAnimationName": "None",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mObjectName": "YuumiRSpellPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "0x3a1b93"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiW.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x26fdc33c": {
+    "ObjectName": "YuumiRShield",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_YuumiR_Name",
+          "keyTooltip": "Buff_YuumiRShield_Tooltip"
+        },
+        "mObjectName": "YuumiRShield",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiRShield",
+    "~class": "SpellObject"
+  },
+  "0x2fe26f5a": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      6000,
+      15000,
+      30000,
+      36000,
+      45000,
+      18000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "a2bcafc8-e8c7-43a6-be37-28ed9ff61dac",
+      "itemID": 126566,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_YuumiEBFFShield",
+    "mNameTraKey": "stat_stone_name_YuumiEBFFShield",
+    "stoneName": "YuumiEBFFShield",
+    "~class": "StatStoneData"
+  },
+  "0x3a467d3f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      55,
+      125,
+      125,
+      175,
+      70
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f03ec055-1e5e-4eb1-9f9b-3d9d25c2400f",
+      "itemID": 126337,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_YuumiChampsSaved",
+    "mNameTraKey": "stat_stone_name_YuumiChampsSaved",
+    "stoneName": "YuumiChampsSaved",
+    "~class": "StatStoneData"
+  },
+  "0x45d0f404": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "IsRetired": true,
+    "Milestones": [
+      5,
+      10,
+      25,
+      30,
+      35,
+      15
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "3633f196-8186-4c36-9eed-501dd3774567",
+      "itemID": 98877,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_YuumiMultipleRootsWithR",
+    "mNameTraKey": "stat_stone_name_YuumiMultipleRootsWithR",
+    "stoneName": "YuumiMultipleRootsWithR",
+    "~class": "StatStoneData"
+  },
+  "0x48ae7808": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "mEarlyLevelOverrides": [
+          1,
+          1,
+          0,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "utility",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          1,
+          1,
+          0,
+          2
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x4a0434de": {
+    "ObjectName": "YuumiPHealMark",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_YuumiPassive_Name",
+          "keyTooltip": "Buff_YuumiPHealMark_Tooltip"
+        },
+        "mObjectName": "YuumiPHealMark",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiPHealMark",
+    "~class": "SpellObject"
+  },
+  "0x4dec5252": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      30,
+      80,
+      150,
+      200,
+      250,
+      95
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b0838475-a97d-400b-ba7d-6ecca8830ecb",
+      "itemID": 294,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_YuumiEmpQHits",
+    "mNameTraKey": "stat_stone_name_YuumiEmpQHits",
+    "stoneName": "YuumiEmpQHits",
+    "~class": "StatStoneData"
+  },
+  "0x581ba847": {
+    "ObjectName": "YuumiRMissile",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiRMissile_Name",
+          "keyTooltip": "Buff_YuumiRMissile_Tooltip"
+        },
+        "mObjectName": "YuumiRMissile",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiRMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastOrQueueWhileCasting": true,
+      "castConeDistance": 100.0,
+      "castRadius": [
+        220.0,
+        220.0,
+        220.0,
+        220.0,
+        220.0,
+        220.0,
+        220.0
+      ],
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "castRangeDisplayOverride": [
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0,
+        1075.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "luaOnMissileUpdateDistanceInterval": 50.099998474121094,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 22539,
+      "mAlternateName": "OrianaIzunaCommand",
+      "mAnimationName": "None",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1075.0,
+                1075.0,
+                1075.0,
+                1075.0,
+                1075.0,
+                1075.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mCoefficient2": 0.30000001192092896,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "root",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiR.dds"
+      ],
+      "mLineWidth": 80.0,
+      "mMissileEffectKey": "Yuumi_R_wave_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 100.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 225.0,
+        "movementComponent": {
+          "mSpeed": 3000.0,
+          "mStartBoneName": "root",
+          "mTargetBoneName": "root",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1900.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5ce77ac6": {
+    "ObjectName": "YuumiQAllyBuff",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiQ_Name",
+          "keyTooltip": "Buff_YuumiQAllyBuff_Tooltip"
+        },
+        "mObjectName": "YuumiQAllyBuff",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiQAllyBuff",
+    "mSpell": {
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiQ2.dds"
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x6e292322": {
+    "ObjectName": "YuumiPCompanionshipBuff",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_YuumiPassive_Name"
+        },
+        "mObjectName": "YuumiPCompanionshipBuff",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiPCompanionshipBuff",
+    "~class": "SpellObject"
+  },
+  "0x887bdf46": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "305476f1-3563-4e77-9fc5-401fc4b006da",
+      "itemID": 125830,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "YuumiStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0x8b35b4fd": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9000,
+      21000,
+      42000,
+      50000,
+      63000,
+      25000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f7511cac-572e-4b48-99f9-cd1115f21432",
+      "itemID": 126567,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_YuumiRHealShield",
+    "mNameTraKey": "stat_stone_name_YuumiRHealShield",
+    "stoneName": "YuumiRHealShield",
+    "~class": "StatStoneData"
+  },
+  "0x9ca04758": {
+    "catalogEntry": {
+      "contentId": "0c80c339-72a7-4e92-bcc2-2850c06885d3",
+      "itemID": 66600517,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0xd9ffacc5",
+      "0xb79e54cc",
+      "0x8b35b4fd",
+      "0x2fe26f5a",
+      "0x3a467d3f"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x9fa04c11": {
+    "catalogEntry": {
+      "contentId": "cbf2c255-cdef-495a-b2ce-18c7ddff18e2",
+      "itemID": 66600138,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x4dec5252",
+      "0xea888192",
+      "0xfc2e83c3",
+      "0x45d0f404",
+      "0xdcf37c7"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xaa9f4eb1": {
+    "ObjectName": "YuumiPVisualTrackerAlly",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_YuumiPassive_Name",
+          "keyTooltip": "Buff_YuumiPCompanionshipBuff"
+        },
+        "mObjectName": "YuumiPVisualTrackerAlly",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiPVisualTrackerAlly",
+    "mSpell": {
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb2f11ef7": {
+    "ObjectName": "YuumiPVisualTracker",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Spell_YuumiPassive_Name",
+          "keyTooltip": "Buff_YuumiPAbility_Tooltip"
+        },
+        "mObjectName": "YuumiPVisualTracker",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiPVisualTracker",
+    "mSpell": {
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xb79e54cc": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "IsRetired": true,
+    "Milestones": [
+      3000,
+      7000,
+      14000,
+      17000,
+      21000,
+      8500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "c70b4703-5ff9-4206-82ee-94238c454db7",
+      "itemID": 126336,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_YuumiPShielded",
+    "mNameTraKey": "stat_stone_name_YuumiPShield",
+    "stoneName": "YuumiPShielded",
+    "~class": "StatStoneData"
+  },
+  "0xd759b2f5": {
+    "catalogEntry": {
+      "contentId": "09f32078-e201-4145-960c-54188da6dc21",
+      "itemID": 66600297,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xecf2cf7e",
+      "0x19c99c4f",
+      "0x887bdf46"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xd9ffacc5": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "IsRetired": true,
+    "Milestones": [
+      25,
+      60,
+      125,
+      150,
+      175,
+      75
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ff30e713-8ec0-4702-9680-d4137a847aef",
+      "itemID": 126335,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_YuumiPProcs",
+    "mNameTraKey": "stat_stone_name_YuumiPProc",
+    "stoneName": "YuumiPProcs",
+    "~class": "StatStoneData"
+  },
+  "0xdcf37c7": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      20,
+      55,
+      100,
+      125,
+      150,
+      60
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "48949193-db4d-4a5d-8814-11cd36932d12",
+      "itemID": 126568,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_YuumiRMultiHit",
+    "mNameTraKey": "stat_stone_name_YuumiRMultiHit",
+    "stoneName": "YuumiRMultiHit",
+    "~class": "StatStoneData"
+  },
+  "0xe78113f8": {
+    "ObjectName": "YuumiQAttackSpeedVisualMissile",
+    "mScriptName": "YuumiQAttackSpeedVisualMissile",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 1.0,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 32,
+      "mAffectsTypeFlags": 7375,
+      "mCastType": 1,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mMissileEffectKey": "Yuumi_Q_AS_VisualMis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mStartBoneName": "spine",
+          "mTargetHeightAugment": 100.0,
+          "mTravelTime": 1.0,
+          "~class": "FixedTimeMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0xea888192": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "IsRetired": true,
+    "Milestones": [
+      14000,
+      34000,
+      68000,
+      82000,
+      100000,
+      41000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "eab0bad4-7d4d-430d-8b1a-d2c0e5864114",
+      "itemID": 293,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_YuumiEHealing",
+    "mNameTraKey": "stat_stone_name_YuumiEHealing",
+    "stoneName": "YuumiEHealing",
+    "~class": "StatStoneData"
+  },
+  "0xecf2cf7e": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "e3a58632-0983-437e-8863-fdcc193163c9",
+      "itemID": 125828,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "YuumiEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xfc2e83c3": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3000,
+      7000,
+      14000,
+      17000,
+      21000,
+      8500
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "dbc90be8-0e16-4857-b94a-7df5450b5840",
+      "itemID": 126565,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_YuumiEManaRestore",
+    "mNameTraKey": "stat_stone_name_YuumiEManaRestore",
+    "stoneName": "YuumiEManaRestore",
+    "~class": "StatStoneData"
+  },
+  "Characters/Yuumi/CharacterRecords/Root": {
+    "acquisitionRange": 525.0,
+    "armorPerLevel": 4.199999809265137,
+    "attackRange": 425.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 1.0,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 25.0,
+    "baseDamage": 49.0,
+    "baseHP": 500.0,
+    "baseMoveSpeed": 330.0,
+    "baseSpellBlock": 25.0,
+    "basicAttack": {
+      "mAttackCastTime": 0.25,
+      "mAttackProbability": 1.0,
+      "mAttackTotalTime": 1.600000023841858,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 4.0,
+      "attackRank": 5,
+      "championId": 350,
+      "classification": "Arcane",
+      "defenseRank": 1,
+      "description": "game_character_description_Yuumi",
+      "difficultyRank": 2,
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "1": {
+          "~class": "ToolAiPresence"
+        },
+        "2": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "game_character_passiveName_Yuumi",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "SUPPORT",
+      "searchTags": "support",
+      "searchTagsSecondary": "mage",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackName": "YuumiCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0999999046325684,
+    "extraAttacks": [
+      {
+        "mAttackName": "YuumiBasicAttackPassive",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "YuumiBasicAttack2",
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "YuumiBasicAttack3",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "hpPerLevel": 69.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Yuumi/Spells/YuumiQAbility",
+      "Characters/Yuumi/Spells/YuumiWAbility",
+      "Characters/Yuumi/Spells/YuumiEAbility",
+      "Characters/Yuumi/Spells/YuumiPAbility",
+      "Characters/Yuumi/Spells/YuumiRAbility"
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "Yuumi",
+    "mCharacterPassiveBuffs": [
+      {
+        "mComponentBuffs": [
+          "Characters/Yuumi/Spells/YuumiPAbility/YuumiPShield",
+          "Characters/Yuumi/Spells/YuumiPAbility/YuumiPShieldBuff",
+          "Characters/Yuumi/Spells/YuumiPAbility/YuumiPMat"
+        ],
+        "mParentPassiveBuff": "Characters/Yuumi/Spells/YuumiPAbility/YuumiP",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Yuumi/Spells/YuumiPAbility/YuumiP",
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Resolve/Aftershock",
+          "mReplaceWith": "Perks/Styles/Resolve/Guardian",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Inspiration/GlacialAugment",
+          "mReplaceWith": "Perks/Styles/Inspiration/FirstStrike",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "name": "game_character_displayname_Yuumi",
+    "overrideGameplayCollisionRadius": 55.0,
+    "passive1IconName": "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiP2.dds",
+    "passiveLuaName": "",
+    "passiveName": "GeneratedTip_Passive_YuumiP_DisplayName",
+    "passiveSpell": "YuumiP",
+    "passiveToolTip": "GeneratedTip_Passive_YuumiP_Description",
+    "pathfindingCollisionRadius": 30.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 440.0,
+      "arBaseStaticRegen": 2.0,
+      "arPerLevel": 45.0,
+      "arRegenPerLevel": 0.07999999821186066,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "secondaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "arIsShown": false,
+      "arType": 14,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 145.0,
+    "selectionRadius": 100.0,
+    "silhouetteAttachmentAnim": "Idle2",
+    "spellBlockPerLevel": 1.100000023841858,
+    "spellLevelUpInfo": [
+      {
+        "mRequirements": [
+          {
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 11,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 2,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 3,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 5,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 7,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 9,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      },
+      {
+        "mRequirements": [
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 6,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 11,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          },
+          {
+            "mRequirements": [
+              {
+                "~class": "HasSkillPointRequirement"
+              },
+              {
+                "mLevel": 16,
+                "~class": "CharacterLevelRequirement"
+              }
+            ],
+            "~class": "SpellRankUpRequirements"
+          }
+        ],
+        "~class": "spellLevelUpInfo"
+      }
+    ],
+    "spellNames": [
+      "YuumiQAbility/YuumiQ",
+      "YuumiWAbility/YuumiW",
+      "YuumiEAbility/YuumiE",
+      "YuumiRAbility/YuumiR"
+    ],
+    "spells": [
+      "Characters/Yuumi/Spells/YuumiQAbility/YuumiQ",
+      "Characters/Yuumi/Spells/YuumiWAbility/YuumiW",
+      "Characters/Yuumi/Spells/YuumiEAbility/YuumiE",
+      "Characters/Yuumi/Spells/YuumiRAbility/YuumiR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "~class": "CharacterRecord"
+  },
+  "Characters/Yuumi/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Yuumi/Spells/YuumiBasicAttack": {
+    "ObjectName": "YuumiBasicAttack",
+    "mScriptName": "YuumiBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castFrame": 9.0,
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "YuumiBasicAttack",
+      "mCastTime": 1.0,
+      "mCastType": 1,
+      "mHitBoneName": "C_buffbone_Glb_Center_Loc",
+      "mHitEffectKey": "Yuumi_BA_tar",
+      "mHitEffectOrientType": 2,
+      "mLineWidth": 60.0,
+      "mMissileEffectKey": "Yuumi_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mInitialTargetHeightOffset": 25.0,
+          "~class": "CurveTheDifferenceHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mSpeed": 1500.0,
+          "mTargetBoneName": "C_buffbone_Glb_Center_Loc",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mPreCastLockoutDeltaTime": 0.05000000074505806,
+      "missileSpeed": 1500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiCritAttack": {
+    "ObjectName": "YuumiCritAttack",
+    "mScriptName": "YuumiCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.75,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.34850001335144043,
+      "mAffectsTypeFlags": 7375,
+      "mAlternateName": "YuumiCritAttack",
+      "mAnimationName": "Crit",
+      "mCastType": 1,
+      "mHitBoneName": "C_buffbone_Glb_Center_Loc",
+      "mHitEffectKey": "Yuumi_BA_tar",
+      "mHitEffectOrientType": 2,
+      "mMissileEffectKey": "Yuumi_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "mHeightOffset": 20.0,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 20.0,
+          "mSpeed": 2200.0,
+          "mStartBoneName": "C_buffbone_Glb_Center_Loc",
+          "mTargetBoneName": "C_buffbone_Glb_Center_Loc",
+          "mTargetHeightAugment": 20.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 2200.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiEAbility": {
+    "AbilityTraits": 4,
+    "mChildSpells": [
+      "Characters/Yuumi/Spells/YuumiEAbility/YuumiE"
+    ],
+    "mName": "YuumiEAbility",
+    "mRootSpell": "Characters/Yuumi/Spells/YuumiEAbility/YuumiE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Yuumi/Spells/YuumiEAbility/YuumiE": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MSDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MSDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalShielding",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 262144,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalShielding",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "YuumiE",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiE_Name",
+          "keyTooltip": "Buff_YuumiE_Tooltip"
+        },
+        "mObjectName": "YuumiE",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MSDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSAmount",
+          "mValues": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackSpeedAmount",
+          "mValues": [
+            22.5,
+            25.0,
+            27.5,
+            30.0,
+            32.5,
+            35.0,
+            37.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseShielding",
+          "mValues": [
+            40.0,
+            65.0,
+            90.0,
+            115.0,
+            140.0,
+            165.0,
+            190.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ManaRestore",
+          "mValues": [
+            16.0,
+            20.0,
+            24.0,
+            28.0,
+            32.0,
+            36.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxManaPercIncrease",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseShielding",
+              "mValues": [
+                75.0,
+                100.0,
+                125.0,
+                150.0,
+                175.0,
+                200.0,
+                225.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAmmoRechargeTime": [
+        19.0,
+        18.0,
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0
+      ],
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "None",
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_ShieldAmount",
+                  "type": "BaseShielding",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_AttackSpeed",
+                  "type": "AttackSpeedAmount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaReturn",
+                  "type": "ManaRestore",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_YuumiSpellShield_Name",
+            "keySummary": "Spell_YuumiSpellShield_Summary",
+            "keyTooltip": "Spell_YuumiSpellShield_Tooltip"
+          },
+          "mObjectName": "YuumiE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiP.dds"
+      ],
+      "mMaxAmmo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mSpellCalculations": {
+        "TotalAttackSpeed": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "AttackSpeedAmount",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.07999999821186066,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalShielding": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseShielding",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        130.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiEPassive": {
+    "ObjectName": "YuumiEPassive",
+    "mScriptName": "YuumiEPassive",
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiEURF": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MSDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "MSDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalShielding",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 262144,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalShielding",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "YuumiEURF",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiE_Name",
+          "keyTooltip": "Buff_YuumiE_Tooltip"
+        },
+        "mObjectName": "YuumiEURF",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiEURF",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MSDuration",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSAmount",
+          "mValues": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AttackSpeedAmount",
+          "mValues": [
+            22.5,
+            25.0,
+            27.5,
+            30.0,
+            32.5,
+            35.0,
+            37.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseShielding",
+          "mValues": [
+            40.0,
+            65.0,
+            90.0,
+            115.0,
+            140.0,
+            165.0,
+            190.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ManaRestore",
+          "mValues": [
+            16.0,
+            20.0,
+            24.0,
+            28.0,
+            32.0,
+            36.0,
+            40.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxManaPercIncrease",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseShielding",
+              "mValues": [
+                75.0,
+                100.0,
+                125.0,
+                150.0,
+                175.0,
+                200.0,
+                225.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        10.0,
+        15.0,
+        13.75,
+        12.5,
+        11.25,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAmmoRechargeTime": [
+        19.0,
+        18.0,
+        17.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0
+      ],
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "None",
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_ShieldAmount",
+                  "type": "BaseShielding",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_ListType_AttackSpeed",
+                  "type": "AttackSpeedAmount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaReturn",
+                  "type": "ManaRestore",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_YuumiSpellShield_Name",
+            "keySummary": "Spell_YuumiSpellShield_Summary",
+            "keyTooltip": "Spell_YuumiSpellShield_Tooltip"
+          },
+          "mObjectName": "YuumiEURF",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiP.dds"
+      ],
+      "mMaxAmmo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mSpellCalculations": {
+        "TotalAttackSpeed": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "AttackSpeedAmount",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.07999999821186066,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalShielding": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseShielding",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        130.0
+      ],
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiPAbility": {
+    "AbilityTraits": 2058,
+    "mChildSpells": [
+      "Characters/Yuumi/Spells/YuumiPAbility/YuumiP",
+      "Characters/Yuumi/Spells/YuumiPAbility/YuumiPAttack",
+      "Characters/Yuumi/Spells/YuumiPAbility/YuumiPAttackMissile",
+      "Characters/Yuumi/Spells/YuumiPAbility/YuumiPHealMis",
+      "Characters/Yuumi/Spells/YuumiPAbility/YuumiPMat",
+      "Characters/Yuumi/Spells/YuumiPAbility/YuumiPShield",
+      "Characters/Yuumi/Spells/YuumiPAbility/YuumiPShieldBuff"
+    ],
+    "mName": "YuumiPAbility",
+    "mRootSpell": "Characters/Yuumi/Spells/YuumiPAbility/YuumiP",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Yuumi/Spells/YuumiPAbility/YuumiP": {
+    "ObjectName": "YuumiP",
+    "mBuff": {
+      "mDescription": "game_spell_tooltip_YuumiPassive",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiP_Name",
+          "keyTooltip": "Buff_YuumiP_Tooltip"
+        },
+        "mObjectName": "YuumiP",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiP",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "TakedownCompanionship",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealDelayTime",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionKillCompanionship",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PityTimer",
+          "mValues": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_YuumiPassive_Name",
+            "keySummary": "Spell_YuumiPassive_Summary",
+            "keyTooltip": "Spell_YuumiPassive_Tooltip"
+          },
+          "mObjectName": "YuumiP",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.20000000298023224,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiP2.dds"
+      ],
+      "mPingableWhileDisabled": true,
+      "mSpellCalculations": {
+        "0x656dde8a": {
+          "mFormulaParts": [
+            {
+              "mLevel1Value": 50.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "HealAmount": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 110.0,
+              "mStartValue": 20.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            },
+            {
+              "mCoefficient": 0.25,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "PassiveCooldown": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mLevel": 14,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mInitialBonusPerLevel": -1.0,
+              "mLevel1Value": 20.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiPAbility/YuumiPAttack": {
+    "ObjectName": "YuumiPAttack",
+    "mScriptName": "YuumiPAttack",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 4234,
+      "mAnimationName": "Crit",
+      "mApplyAttackDamage": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiPAbility/YuumiPAttackMissile": {
+    "ObjectName": "YuumiPAttackMissile",
+    "mScriptName": "YuumiPAttackMissile",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castRange": [
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0,
+        1500.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "flags": 4,
+      "mAffectsStatusFlags": 48,
+      "mAffectsTypeFlags": 7375,
+      "mDoesntBreakChannels": true,
+      "mMissileEffectKey": "Yuumi_BA_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 50.0,
+          "mSpeed": 2000.0,
+          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+          "mTargetHeightAugment": 50.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "missileSpeed": 3500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiPAbility/YuumiPHealMis": {
+    "ObjectName": "YuumiPHealMis",
+    "mScriptName": "YuumiPHealMis",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "cannotBeSuppressed": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.974999904632568,
+      "castRadius": [
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0,
+        225.0
+      ],
+      "castRange": [
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0,
+        20000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4194308,
+      "mAffectsTypeFlags": 1029,
+      "mAnimationName": "",
+      "mCastType": 1,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        ""
+      ],
+      "mLineWidth": 120.0,
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnMovementComplete"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "spine",
+          "mTargetHeightAugment": 100.0,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "missileSpeed": 1500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiPAbility/YuumiPMat": {
+    "ObjectName": "YuumiPMat",
+    "mScriptName": "YuumiPMat",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 4234,
+      "mAnimationName": "Crit",
+      "mApplyAttackDamage": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiPAbility/YuumiPShield": {
+    "ObjectName": "YuumiPShield",
+    "mScriptName": "YuumiPShield",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 4234,
+      "mAnimationName": "Crit",
+      "mApplyAttackDamage": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiPAbility/YuumiPShieldBuff": {
+    "ObjectName": "YuumiPShieldBuff",
+    "mScriptName": "YuumiPShieldBuff",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "castConeDistance": 100.0,
+      "castFrame": 9.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0,
+        1800.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAffectsTypeFlags": 4234,
+      "mAnimationName": "Crit",
+      "mApplyAttackDamage": true,
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiQAbility": {
+    "AbilityTraits": 256,
+    "mChildSpells": [
+      "Characters/Yuumi/Spells/YuumiQAbility/YuumiQ",
+      "Characters/Yuumi/Spells/YuumiQAbility/YuumiQCast",
+      "Characters/Yuumi/Spells/YuumiQAbility/YuumiQRelease",
+      "Characters/Yuumi/Spells/YuumiQAbility/YuumiQSkillShot",
+      "Characters/Yuumi/Spells/YuumiQAbility/YuumiQSpellPassive"
+    ],
+    "mName": "YuumiQAbility",
+    "mRootSpell": "Characters/Yuumi/Spells/YuumiQAbility/YuumiQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Yuumi/Spells/YuumiQAbility/YuumiQ": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalMissileDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mDataValue": "SlowDuration",
+                "~class": "NamedDataValueCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 65.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32768,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "YuumiQ",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiQ_Name",
+          "keyTooltip": "Buff_YuumiQ_Tooltip"
+        },
+        "mObjectName": "YuumiQ",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiQ",
+    "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
+      "DataValues": [
+        {
+          "mName": "MissileDamage",
+          "mValues": [
+            25.0,
+            60.0,
+            95.0,
+            130.0,
+            165.0,
+            200.0,
+            235.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowAmount",
+          "mValues": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SlowDuration",
+          "mValues": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TimeToAfterburners",
+          "mValues": [
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858,
+            1.350000023841858
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MissileLifetime",
+          "mValues": [
+            1.850000023841858,
+            1.850000023841858,
+            1.850000023841858,
+            1.850000023841858,
+            1.850000023841858,
+            1.850000023841858,
+            1.850000023841858
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "StartingSpeed",
+          "mValues": [
+            650.0,
+            650.0,
+            650.0,
+            650.0,
+            650.0,
+            650.0,
+            650.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AfterburnerSpeed",
+          "mValues": [
+            950.0,
+            950.0,
+            950.0,
+            950.0,
+            950.0,
+            950.0,
+            950.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "InitialTimeDelay",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MissileStartingOffset",
+          "mValues": [
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EmpoweredSlowAmount",
+          "mValues": [
+            47.0,
+            50.0,
+            53.0,
+            56.0,
+            59.0,
+            62.0,
+            65.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EmpoweredSlowDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EmpoweredMissileDamage",
+          "mValues": [
+            25.0,
+            80.0,
+            135.0,
+            190.0,
+            245.0,
+            300.0,
+            355.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "OnHitBase",
+          "mValues": [
+            8.0,
+            10.0,
+            12.0,
+            14.0,
+            16.0,
+            18.0,
+            20.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AllyCritChanceMaxAmp",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BuffDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EmpoweredAPRatio",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "APRatio",
+              "mValues": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645,
+                0.4000000059604645
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "EmpoweredAPRatio",
+              "mValues": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "EmpoweredMissileDamage",
+              "mValues": [
+                40.0,
+                100.0,
+                160.0,
+                220.0,
+                280.0,
+                340.0,
+                400.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        6.5,
+        6.5,
+        6.5,
+        6.5,
+        6.5,
+        6.5,
+        6.5
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAIData": {
+        "mBlockLevel": 1,
+        "~class": "AISpellData"
+      },
+      "mAffectsTypeFlags": 6154,
+      "mAnimationLoopName": "Spell1_Look",
+      "mAnimationName": "Spell1_detached",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mCustomTargeterDefinitions": {
+          "0xdfd93201": {
+            "mTargeterDefinitions": [
+              {
+                "arrowSize": 25.0,
+                "endLocator": {
+                  "orientationType": 3,
+                  "~class": "DrawablePositionLocator"
+                },
+                "fallbackDirection": 3,
+                "lineStopsAtEndPosition": false,
+                "lineWidth": {
+                  "mPerLevelValues": [
+                    65.0,
+                    65.0,
+                    65.0,
+                    65.0,
+                    65.0,
+                    65.0
+                  ],
+                  "~class": "FloatPerSpellLevel"
+                },
+                "overrideBaseRange": {
+                  "mPerLevelValues": [
+                    1150.0,
+                    1150.0,
+                    1150.0,
+                    1150.0,
+                    1150.0,
+                    1150.0
+                  ],
+                  "mValueType": 1,
+                  "~class": "FloatPerSpellLevel"
+                },
+                "startLocator": {
+                  "orientationType": 3,
+                  "~class": "DrawablePositionLocator"
+                },
+                "~class": "TargeterDefinitionLine"
+              }
+            ],
+            "~class": "CustomTargeterDefinitions"
+          },
+          "0xfb54cae2": {
+            "mTargeterDefinitions": [
+              {
+                "overrideBaseRange": {
+                  "mPerLevelValues": [
+                    1725.0,
+                    1725.0,
+                    1725.0,
+                    1725.0,
+                    1725.0,
+                    1725.0
+                  ],
+                  "mValueType": 1,
+                  "~class": "FloatPerSpellLevel"
+                },
+                "~class": "TargeterDefinitionRange"
+              }
+            ],
+            "~class": "CustomTargeterDefinitions"
+          }
+        },
+        "mTargeterDefinitions": [
+          {
+            "arrowSize": 25.0,
+            "endLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1150.0,
+                1150.0,
+                1150.0,
+                1150.0,
+                1150.0,
+                1150.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_YuumiMagicMissile_LevelUp_MissileDamage",
+                  "type": "MissileDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_YuumiQ_EmpoweredDamage",
+                  "type": "EmpoweredMissileDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "nameOverride": "Spell_YuumiQ_EmpoweredSlowAmount",
+                  "type": "EmpoweredSlowAmount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_OnHitDamage",
+                  "type": "OnHitBase",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 6,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_YuumiMagicMissile_Name",
+            "keySummary": "Spell_YuumiMagicMissile_Summary",
+            "keyTooltip": "Spell_YuumiMagicMissile_Tooltip"
+          },
+          "mObjectName": "YuumiQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiQ.dds",
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiQ2.dds"
+      ],
+      "mLineWidth": 65.0,
+      "mMissileEffectKey": "Yuumi_Q_Mis",
+      "mSpellCalculations": {
+        "OnHitDamageCalc": {
+          "mFormulaParts": [
+            {
+              "mCoefficient": 0.05000000074505806,
+              "~class": "StatByCoefficientCalculationPart"
+            },
+            {
+              "mDataValue": "OnHitBase",
+              "~class": "NamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalMissileDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "MissileDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalMissileDamageEmpowered": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "EmpoweredMissileDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "EmpoweredAPRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mTurnSpeedScalar": 1.7000000476837158,
+      "mana": [
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0,
+        75.0
+      ],
+      "missileSpeed": 100.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiQAbility/YuumiQCast": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "0x137cf12a": "EmpoweredMissileDamage",
+            "SourceObject": "Characters/Yuumi/Spells/YuumiQAbility/YuumiQ",
+            "~class": "0x9e9e2e5c"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "0x137cf12a": "EmpoweredSlowDuration",
+                "SourceObject": "Characters/Yuumi/Spells/YuumiQAbility/YuumiQ",
+                "~class": "0x9e9e2e5c"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 65.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32768,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "YuumiQCast",
+    "mScriptName": "YuumiQCast",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0,
+        1250.0
+      ],
+      "cooldownTime": [
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 32,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "YummiQ",
+      "mAnimationLoopName": "Spell1_Look",
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Yuumi/Spells/YuumiQAbility/YuumiQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiQ2.dds"
+      ],
+      "mLineWidth": 60.0,
+      "mMissileEffectKey": "Yuumi_Q_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "mActions": [
+              {
+                "~class": "Cast"
+              },
+              {
+                "~class": "Destroy"
+              }
+            ],
+            "~class": "TriggerOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          },
+          {
+            "mActions": [
+              {
+                "LetServerDriveTargetPosition": true,
+                "mOverrideMovement": {
+                  "mSpeed": 1000.0,
+                  "mTracksTarget": false,
+                  "~class": "FixedSpeedMovement"
+                },
+                "mOverrideRange": 25000.0,
+                "~class": "ClearTargetAndKeepMoving"
+              }
+            ],
+            "mTriggerName": "ReleaseMissile",
+            "~class": "TriggerFromScript"
+          },
+          {
+            "mActions": [
+              {
+                "LetServerDriveTargetPosition": true,
+                "mOverrideMovement": {
+                  "mSpeed": 1650.0,
+                  "mUseGroundHeightAtTarget": false,
+                  "~class": "FixedSpeedMovement"
+                },
+                "mOverrideRange": 25000.0,
+                "~class": "ClearTargetAndKeepMoving"
+              }
+            ],
+            "mDelay": 1.350000023841858,
+            "~class": "TriggerOnDelay"
+          }
+        ],
+        "heightSolver": {
+          "mMaxSlope": 0.10000000149011612,
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 60.0,
+        "movementComponent": {
+          "mAcceleration": 30.0,
+          "mAntiLagDelay": 0.125,
+          "mInitialSpeed": 100.0,
+          "mMaxSpeed": 1200.0,
+          "mMinSpeed": 50.0,
+          "mStartBoneName": "",
+          "mTargetBoneName": "C_buffbone_Glb_Center_Loc",
+          "mTracksTarget": false,
+          "mTurnRadiusByLevel": [
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0
+          ],
+          "mUseGroundHeightAtTarget": false,
+          "~class": "TrackMouseMovement"
+        },
+        "verticalFacing": {
+          "~class": "VeritcalFacingMatchVelocity"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mTargetingTypeData": {
+        "~class": "LocationClamped"
+      },
+      "mTurnSpeedScalar": 1.7000000476837158,
+      "missileSpeed": 100.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiQAbility/YuumiQRelease": {
+    "ObjectName": "YuumiQRelease",
+    "mScriptName": "YuumiQRelease",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MSDuration",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MSAmount",
+          "mValues": [
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0,
+            60.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealAmountMin",
+          "mValues": [
+            25.0,
+            35.0,
+            45.0,
+            55.0,
+            65.0,
+            75.0,
+            85.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealAmountMultiplier",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxHealThreshold",
+          "mValues": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 8192,
+      "mAlternateName": "YuumiW",
+      "mAmmoRechargeTime": [
+        14.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0
+      ],
+      "mAnimationName": "None",
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_YuumiSpellShield_LeveUp_MSAmount",
+                  "type": "MSAmount",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_YuumiSpellShield_LevelUp_HealAmount",
+                  "type": "HealAmountMin",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_YuumiSpellShield_LevelUp_ManaCost",
+                  "type": "Cost",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_YuumiE_LevelUp_Ammo",
+                  "type": "AmmoRechargeTime",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_YuumiQRelease_Name",
+            "keySummary": "Spell_YuumiQRelease_Summary",
+            "keyTooltip": "Spell_YuumiQRelease_Tooltip"
+          },
+          "mObjectName": "YuumiQRelease",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.30000001192092896,
+      "mCooldownNotAffectedByCDR": true,
+      "mDoesntBreakChannels": true,
+      "mMaxAmmo": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mSpellCalculations": {
+        "MinAmountToHeal": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "HealAmountMin",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.20000000298023224,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiQAbility/YuumiQSkillShot": {
+    "ObjectName": "YuumiQSkillShot",
+    "mScriptName": "YuumiQSkillShot",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "canCastWhileDisabled": true,
+      "castRange": [
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0
+      ],
+      "cooldownTime": [
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationLoopName": "Spell1_Look",
+      "mAnimationName": "",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintPosLocator": {
+              "distanceOffset": 10.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                35.0,
+                35.0,
+                35.0,
+                35.0,
+                35.0,
+                35.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0,
+                1050.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineStopsAtEndPosition": false,
+            "startLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_YuumiMagicMissile_Name",
+            "keySummary": "Spell_YuumiMagicMissile_Summary",
+            "keyTooltip": "Spell_YuumiMagicMissile_Tooltip"
+          },
+          "mObjectName": "YuumiQSkillShot",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mLineWidth": 35.0,
+      "mMissileEffectKey": "Yuumi_Q_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          },
+          {
+            "mActions": [
+              {
+                "mSpeedChangeType": 1,
+                "mSpeedValue": 850.0,
+                "~class": "ChangeMissileSpeed"
+              }
+            ],
+            "mDelay": 0.20000000298023224,
+            "~class": "TriggerOnDelay"
+          }
+        ],
+        "heightSolver": {
+          "~class": "FollowTerrainHeightSolver"
+        },
+        "mMissileWidth": 35.0,
+        "movementComponent": {
+          "mSpeed": 100.0,
+          "mStartBoneName": "root",
+          "mTargetBoneName": "C_buffbone_Glb_Center_Loc",
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mShowChannelBar": false,
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mTargetingTypeData": {
+        "~class": "direction"
+      },
+      "mTurnSpeedScalar": 1.7000000476837158,
+      "missileSpeed": 100.0,
+      "selectionPriority": 2,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiQAbility/YuumiQSpellPassive": {
+    "ObjectName": "YuumiQSpellPassive",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiQ_Name",
+          "keyTooltip": "Buff_YuumiQ_Tooltip"
+        },
+        "mObjectName": "YuumiQSpellPassive",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiQSpellPassive",
+    "mSpell": {
+      "canCastOrQueueWhileCasting": true,
+      "castRange": [
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0,
+        1150.0
+      ],
+      "cooldownTime": [
+        14.0,
+        13.5,
+        12.0,
+        10.5,
+        9.0,
+        7.5,
+        6.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "luaOnMissileUpdateDistanceInterval": 51.0,
+      "mAIData": {
+        "mBlockLevel": 1,
+        "~class": "AISpellData"
+      },
+      "mAffectsTypeFlags": 6154,
+      "mAnimationLoopName": "Spell1_Look",
+      "mAnimationName": "Spell1_detached",
+      "mCanMoveWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mCustomTargeterDefinitions": {
+          "0xdfd93201": {
+            "mTargeterDefinitions": [
+              {
+                "arrowSize": 25.0,
+                "endLocator": {
+                  "orientationType": 3,
+                  "~class": "DrawablePositionLocator"
+                },
+                "fallbackDirection": 3,
+                "lineStopsAtEndPosition": false,
+                "lineWidth": {
+                  "mPerLevelValues": [
+                    65.0,
+                    65.0,
+                    65.0,
+                    65.0,
+                    65.0,
+                    65.0
+                  ],
+                  "~class": "FloatPerSpellLevel"
+                },
+                "overrideBaseRange": {
+                  "mPerLevelValues": [
+                    1150.0,
+                    1150.0,
+                    1150.0,
+                    1150.0,
+                    1150.0,
+                    1150.0
+                  ],
+                  "mValueType": 1,
+                  "~class": "FloatPerSpellLevel"
+                },
+                "startLocator": {
+                  "orientationType": 3,
+                  "~class": "DrawablePositionLocator"
+                },
+                "~class": "TargeterDefinitionLine"
+              }
+            ],
+            "~class": "CustomTargeterDefinitions"
+          },
+          "0xfb54cae2": {
+            "mTargeterDefinitions": [
+              {
+                "overrideBaseRange": {
+                  "mPerLevelValues": [
+                    1150.0,
+                    1150.0,
+                    1150.0,
+                    1150.0,
+                    1150.0,
+                    1150.0
+                  ],
+                  "mValueType": 1,
+                  "~class": "FloatPerSpellLevel"
+                },
+                "~class": "TargeterDefinitionRange"
+              }
+            ],
+            "~class": "CustomTargeterDefinitions"
+          }
+        },
+        "mTargeterDefinitions": [
+          {
+            "arrowSize": 25.0,
+            "endLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0,
+                65.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1150.0,
+                1150.0,
+                1150.0,
+                1150.0,
+                1150.0,
+                1150.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mObjectName": "YuumiQSpellPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mIgnoreRangeCheck": true,
+      "mLineWidth": 65.0,
+      "mMissileEffectKey": "Yuumi_Q_Mis",
+      "mSpellCooldownOrSealedQueueThreshold": 0.5,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mTurnSpeedScalar": 1.7000000476837158,
+      "mana": [
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0
+      ],
+      "missileSpeed": 100.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiRAbility": {
+    "AbilityTraits": 12,
+    "mChildSpells": [
+      "Characters/Yuumi/Spells/YuumiRAbility/YuumiR",
+      "0x581ba847",
+      "0x26fdc33c",
+      "0x1d7bd936"
+    ],
+    "mName": "YuumiRAbility",
+    "mRootSpell": "Characters/Yuumi/Spells/YuumiRAbility/YuumiR",
+    "~class": "AbilityObject"
+  },
+  "Characters/Yuumi/Spells/YuumiRAbility/YuumiR": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalSingleTargetDamage",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSubparts": [
+                  {
+                    "mDataValue": "CCDuration",
+                    "~class": "NamedDataValueCalculationPart"
+                  },
+                  {
+                    "mDataValue": "BonusSlowPerWave",
+                    "~class": "NamedDataValueCalculationPart"
+                  }
+                ],
+                "~class": "SumOfSubPartsCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSpellCalculationKey": "TotalMissileDamage",
+                "~class": "0xf3cbe7b2"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 33554432,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "YuumiR",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiRAbility_Name",
+          "keyTooltip": "Buff_YuumiRAbility_Tooltip"
+        },
+        "mObjectName": "YuumiR",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "UltLength",
+          "mValues": [
+            1300.0,
+            1300.0,
+            1300.0,
+            1300.0,
+            1300.0,
+            1300.0,
+            1300.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseMissileDamage",
+          "mValues": [
+            25.0,
+            75.0,
+            125.0,
+            175.0,
+            225.0,
+            275.0,
+            325.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MultiMissileReduction",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CCDuration",
+          "mValues": [
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25,
+            1.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "UltDuration",
+          "mValues": [
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5,
+            3.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NumberOfWaves",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "WavesToRoot",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TimeBetweenWaves",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MissileSlowPercent",
+          "mValues": [
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645,
+            -0.4000000059604645
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SpaceBehindWave",
+          "mValues": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseHealPerWave",
+          "mValues": [
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            60.0,
+            70.0,
+            80.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseSlow",
+          "mValues": [
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusSlowPerWave",
+          "mValues": [
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612,
+            -0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "OvershieldBonusDuration",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DegreesPerTick",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AllyHealingPerc",
+          "mValues": [
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842,
+            1.2999999523162842
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseBonusResistances",
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "cooldownTime": [
+        120.0,
+        120.0,
+        110.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4194304,
+      "mAffectsTypeFlags": 8192,
+      "mAlternateName": "Book Blast",
+      "mAnimationName": "Spell4_In",
+      "mCanMoveWhileChanneling": true,
+      "mCancelChargeOnRecastTime": 3.5,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5,
+        3.5
+      ],
+      "mChannelIsInterruptedByAttacking": false,
+      "mChargeUpdateInterval": 0.10000000149011612,
+      "mClientData": {
+        "mLeftClickSpellAction": 0,
+        "mRightClickSpellAction": 0,
+        "mTargeterDefinitions": [
+          {
+            "arrowSize": 5.0,
+            "endLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0,
+                300.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1100.0,
+                1100.0,
+                1100.0,
+                1100.0,
+                1100.0,
+                1100.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_YuumiDamageBeam_LevelUpMissileDamage",
+                  "type": "BaseMissileDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_YuumiR_HealPerWave",
+                  "type": "BaseHealPerWave",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_YuumiR_Name",
+            "keySummary": "Spell_YuumiR_Summary",
+            "keyTooltip": "Spell_YuumiR_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_YuumiR_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "YuumiR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.05999999865889549,
+      "mDimensionBehavior": 1,
+      "mDisableCastBar": true,
+      "mHideRangeIndicatorWhenCasting": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiR.dds"
+      ],
+      "mLineWidth": 100.0,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "0xea105dd6": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseBonusResistances",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "EnhancedHealPerWave": {
+          "mModifiedGameCalculation": "TotalHealPerWave",
+          "mMultiplier": {
+            "mDataValue": "AllyHealingPerc",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
+        "MultiMissileTotal": {
+          "mModifiedGameCalculation": "TotalMissileDamage",
+          "mMultiplier": {
+            "mDataValue": "MultiMissileReduction",
+            "~class": "NamedDataValueCalculationPart"
+          },
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculationModified"
+        },
+        "TotalHealPerWave": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHealPerWave",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.10000000149011612,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalMissileDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseMissileDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.25,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "TotalSingleTargetDamage": {
+          "mModifiedGameCalculation": "TotalMissileDamage",
+          "mMultiplier": {
+            "mSubparts": [
+              {
+                "mNumber": 1.0,
+                "~class": "NumberCalculationPart"
+              },
+              {
+                "mPart1": {
+                  "mSubparts": [
+                    {
+                      "mDataValue": "NumberOfWaves",
+                      "~class": "NamedDataValueCalculationPart"
+                    },
+                    {
+                      "mNumber": -1.0,
+                      "~class": "NumberCalculationPart"
+                    }
+                  ],
+                  "~class": "SumOfSubPartsCalculationPart"
+                },
+                "mPart2": {
+                  "mDataValue": "MultiMissileReduction",
+                  "~class": "NamedDataValueCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              }
+            ],
+            "~class": "SumOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate",
+        "Trait_ChannelSpell",
+        "PositiveEffect_Boon"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseChargeChanneling": true,
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiWAbility": {
+    "AbilityTraits": 32,
+    "mChildSpells": [
+      "Characters/Yuumi/Spells/YuumiWAbility/YuumiW",
+      "Characters/Yuumi/Spells/YuumiWAbility/YuumiWAttach",
+      "Characters/Yuumi/Spells/YuumiWAbility/YuumiWCast",
+      "Characters/Yuumi/Spells/YuumiWAbility/YuumiWEndWrapper",
+      "Characters/Yuumi/Spells/YuumiWAbility/YuumiWSpellPassive",
+      "Characters/Yuumi/Spells/YuumiWAbility/YuumiWEnd",
+      "Characters/Yuumi/Spells/YuumiWAbility/YuumiWAlly"
+    ],
+    "mName": "YuumiWAbility",
+    "mRootSpell": "Characters/Yuumi/Spells/YuumiWAbility/YuumiW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Yuumi/Spells/YuumiWAbility/YuumiW": {
+    "BotData": {
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 512,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSubparts": [
+                  {
+                    "mEndValue": 110.0,
+                    "mStartValue": 20.0,
+                    "~class": "ByCharLevelInterpolationCalculationPart"
+                  },
+                  {
+                    "mCoefficient": 0.25,
+                    "~class": "StatByCoefficientCalculationPart"
+                  }
+                ],
+                "~class": "SumOfSubPartsCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 262144,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mNumber": 10000.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
+    "ObjectName": "YuumiW",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiW_Name",
+          "keyTooltip": "Buff_YuumiW_Tooltip"
+        },
+        "mObjectName": "YuumiW",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            1250.0,
+            1300.0,
+            1350.0,
+            1400.0,
+            1450.0,
+            1500.0,
+            1550.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CastForgivenessRange",
+          "mValues": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CastRange",
+          "mValues": [
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0,
+            700.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxBonusHealShieldPower",
+          "mValues": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseHealthOnHit",
+          "mValues": [
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0,
+            7.0,
+            8.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealAndShieldPower",
+          "mValues": [
+            0.029999999329447746,
+            0.03999999910593033,
+            0.05000000074505806,
+            0.05999999865889549,
+            0.07000000029802322,
+            0.07999999821186066,
+            0.09000000357627869
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinBonusHealShieldPower",
+          "mValues": [
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "HealAndShieldPower",
+              "mValues": [
+                0.0625,
+                0.10000000149011612,
+                0.13750000298023224,
+                0.17499999701976776,
+                0.21250000596046448,
+                0.25,
+                0.2874999940395355
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "MinBonusHealShieldPower",
+              "mValues": [
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612,
+                0.10000000149011612
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
+      "TargetingForgivenessDefinitions": [
+        {
+          "ForgivenessRange": 175.0,
+          "TargetForgivenessDefinitions": [
+            {
+              "~class": "SameTeamCastRequirement"
+            },
+            {
+              "mUnitTags": {
+                "mObjectTagList": [
+                  "champion",
+                  "0xc02a7870"
+                ],
+                "~class": "ObjectTags"
+              },
+              "~class": "HasUnitTagsCastRequirement"
+            }
+          ],
+          "~class": "TargetingForgivenessDefinitions"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 16385,
+      "mAnimationName": "None",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mCharacterPassiveBuffs": [
+        {
+          "mParentPassiveBuff": "Characters/Yuumi/Spells/YuumiWAbility/YuumiWSpellPassive",
+          "~class": "CharacterPassiveData"
+        }
+      ],
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_OnHitHealing",
+                  "type": "BaseHealthOnHit",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_YuumiW_HealShield",
+                  "type": "HealAndShieldPower",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCooldown": "Spell_YuumiW_Cooldown",
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_YuumiHugCast_Name",
+            "keySummary": "Spell_YuumiHugCast_Summary",
+            "keyTooltip": "Spell_YuumiHugCast_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_YuumiW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "YuumiW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "0x3a1b93"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiW.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "AttachCooldown": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": -5.0,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -5.0,
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 10.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "CCAttachLockout": {
+          "mExpandedTooltipCalculationDisplay": 5,
+          "mFormulaParts": [
+            {
+              "mNumber": 5.0,
+              "~class": "NumberCalculationPart"
+            }
+          ],
+          "mSimpleTooltipCalculationDisplay": 6,
+          "~class": "GameCalculation"
+        },
+        "HealthOnHit": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "BaseHealthOnHit",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.029999999329447746,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiWAbility/YuumiWAlly": {
+    "ObjectName": "YuumiWAlly",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiWAlly_Name",
+          "keyTooltip": "Buff_YuumiWAlly_Tooltip"
+        },
+        "mObjectName": "YuumiWAlly",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiWAlly",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castRange": [
+        700.0,
+        700.0,
+        750.0,
+        800.0,
+        850.0,
+        900.0,
+        950.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 1029,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_YuumiWEnd_Name",
+            "keySummary": "Spell_YuumiWEnd_Summary",
+            "keyTooltip": "Spell_YuumiWEnd_Tooltip"
+          },
+          "mObjectName": "YuumiWAlly",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiW.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiWAbility/YuumiWAttach": {
+    "ObjectName": "YuumiWAttach",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiWAttach_Name",
+          "keyTooltip": "Buff_YuumiWAttach_Tooltip"
+        },
+        "mObjectName": "YuumiWAttach",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiWAttach",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            1100.0,
+            1200.0,
+            1300.0,
+            1400.0,
+            1500.0,
+            1600.0,
+            1700.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsStatusFlags": 56,
+      "mAffectsTypeFlags": 17413,
+      "mAlternateName": "YuumiE",
+      "mAnimationName": "None",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "mCoefficient": 0.6000000238418579,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "Trait_ChannelSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiWAbility/YuumiWCast": {
+    "ObjectName": "YuumiWCast",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mObjectName": "YuumiWCast",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiWCast",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            1100.0,
+            1200.0,
+            1300.0,
+            1400.0,
+            1500.0,
+            1600.0,
+            1700.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "cantCastWhileRooted": true,
+      "castRange": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsStatusFlags": 56,
+      "mAffectsTypeFlags": 17413,
+      "mAnimationName": "None",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mChannelDuration": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "mClientData": {
+        "mUseTooltipFromAnotherSpell": "Characters/Yuumi/Spells/YuumiWAbility/YuumiW",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "0x3a1b93"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "Trait_ChannelSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiWAbility/YuumiWEnd": {
+    "ObjectName": "YuumiWEnd",
+    "mScriptName": "YuumiWEnd",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castRange": [
+        700.0,
+        700.0,
+        750.0,
+        800.0,
+        850.0,
+        900.0,
+        950.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 1029,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_YuumiWEnd_Name",
+            "keySummary": "Spell_YuumiWEnd_Summary",
+            "keyTooltip": "Spell_YuumiWEnd_Tooltip"
+          },
+          "mObjectName": "YuumiWEnd",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "0x3a1b93"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mIgnoreRangeCheck": true,
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiWAbility/YuumiWEndWrapper": {
+    "ObjectName": "YuumiWEndWrapper",
+    "mScriptName": "YuumiWEndWrapper",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "CastForgivenessRange",
+          "mValues": [
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0,
+            125.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AdaptiveStatSharing",
+          "mValues": [
+            0.10000000149011612,
+            0.11999999731779099,
+            0.14000000059604645,
+            0.1599999964237213,
+            0.18000000715255737,
+            0.20000000298023224,
+            0.2199999988079071
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FlatAdaptiveStats",
+          "mValues": [
+            10.0,
+            12.0,
+            14.0,
+            16.0,
+            18.0,
+            20.0,
+            22.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 16385,
+      "mAnimationName": "None",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x3b504ce3",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_YuumiW_LevelUp_FlatAdaptive",
+                  "type": "FlatAdaptiveStats",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_YuumiW_LevelUp_PercentAdaptiveForce",
+                  "type": "AdaptiveStatSharing",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_YuumiWEndWrapper_Cost",
+            "keyName": "Spell_YuumiWEnd_Name",
+            "keySummary": "Spell_YuumiWEnd_Summary",
+            "keyTooltip": "Spell_YuumiWEnd_Tooltip",
+            "keyTooltipExtended": "Spell_YuumiWEnd_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_YuumiW_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "YuumiWEndWrapper",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "0x3a1b93"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiW2.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Yuumi/Spells/YuumiWAbility/YuumiWSpellPassive": {
+    "ObjectName": "YuumiWSpellPassive",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_YuumiW_Name",
+          "keyTooltip": "Buff_YuumiW_Tooltip"
+        },
+        "mObjectName": "YuumiWSpellPassive",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "YuumiWSpellPassive",
+    "mSpell": {
+      "cantCastWhileRooted": true,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 16385,
+      "mAnimationName": "None",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0,
+                700.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mObjectName": "YuumiWSpellPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDoesntBreakChannels": true,
+      "mExcludedUnitTags": {
+        "mObjectTagList": [
+          "0x3a1b93"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiW.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

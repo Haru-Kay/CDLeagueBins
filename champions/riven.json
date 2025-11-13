@@ -1,0 +1,3209 @@
+{
+  "0x19988013": {
+    "RecSpellRankUpInfos": [
+      {
+        "MapId": 12,
+        "Position": "None",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0x2039c7f": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      90,
+      225,
+      450,
+      550,
+      675,
+      275
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f31ec9fe-677b-42e4-8bc9-8d3cb5f1c10f",
+      "itemID": 198,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_RivenPTriggers",
+    "mNameTraKey": "stat_stone_name_RivenPTriggers",
+    "stoneName": "RivenPTriggers",
+    "~class": "StatStoneData"
+  },
+  "0x21f18ba3": {
+    "catalogEntry": {
+      "contentId": "1d124518-7906-4381-9c97-42b4d092d6a4",
+      "itemID": 66600095,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x241ab34c",
+      "0x2039c7f",
+      "0xec37685e"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x22e2dc36": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25000,
+      63000,
+      125000,
+      150000,
+      200000,
+      76000
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "ab4912d8-7692-4251-89a0-46acb1140004",
+      "itemID": 126188,
+      "~class": "catalogEntry"
+    },
+    "category": "0x47089000",
+    "mDescriptionTraKey": "stat_stone_description_RivenQEDistance",
+    "mNameTraKey": "stat_stone_name_RivenQEDistance",
+    "stoneName": "RivenQEDistance",
+    "trackingType": 2,
+    "~class": "StatStoneData"
+  },
+  "0x22f18d36": {
+    "catalogEntry": {
+      "contentId": "91ad42d7-068e-4e7b-9fdd-c01786f555ac",
+      "itemID": 66600468,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x4746ae39",
+      "0x22e2dc36",
+      "0xebab073b"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0x241ab34c": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      8,
+      15,
+      20,
+      25,
+      10
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "e6efe384-941c-47ec-b334-7cefc463028d",
+      "itemID": 3168,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_RivenRExecutes",
+    "mNameTraKey": "stat_stone_name_RivenRExecutes",
+    "stoneName": "RivenRExecutes",
+    "~class": "StatStoneData"
+  },
+  "0x38c8f459": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25,
+      10
+    ],
+    "catalogEntry": {
+      "contentId": "63f83d52-33e6-4b04-88e6-bca70474c459",
+      "itemID": 125504,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_EpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_EpicMonstersKilled",
+    "stoneName": "RivenEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0x4746ae39": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      10,
+      25,
+      50,
+      60,
+      75,
+      30
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "df88ead4-383d-4a16-92fe-72780209377b",
+      "itemID": 126190,
+      "~class": "catalogEntry"
+    },
+    "category": "0x2eeaa87d",
+    "mDescriptionTraKey": "stat_stone_description_RivenMultiDisables",
+    "mNameTraKey": "stat_stone_name_RivenMultiDisables",
+    "stoneName": "RivenMultiDisables",
+    "~class": "StatStoneData"
+  },
+  "0x6218fb0b": {
+    "catalogEntry": {
+      "contentId": "6211d4f6-c230-42d7-b3b9-09108f2b450b",
+      "itemID": 66600189,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0x38c8f459",
+      "0xf1910ade",
+      "0xf91c56a3"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xc0bb0835": {
+    "ObjectName": "RivenTriCleaveSoundThree",
+    "mScriptName": "RivenTriCleaveSoundThree",
+    "~class": "SpellObject"
+  },
+  "0xc52d7abf": {
+    "ObjectName": "RivenTriCleaveSoundTwo",
+    "mScriptName": "RivenTriCleaveSoundTwo",
+    "~class": "SpellObject"
+  },
+  "0xcd91f315": {
+    "ObjectName": "RivenTriCleaveSoundOne",
+    "mScriptName": "RivenTriCleaveSoundOne",
+    "~class": "SpellObject"
+  },
+  "0xebab073b": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      8,
+      20,
+      40,
+      45,
+      55,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "77dd6b77-7ac2-4aab-92cc-dfc85ae17bf3",
+      "itemID": 126189,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_RivenESkillshotDodges",
+    "mNameTraKey": "stat_stone_name_RivenESkillshotDodges",
+    "stoneName": "RivenESkillshotDodges",
+    "~class": "StatStoneData"
+  },
+  "0xec37685e": {
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      9,
+      20,
+      45,
+      55,
+      65,
+      25
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "24964780-a1bc-4b96-9c18-8e776a7852b9",
+      "itemID": 309,
+      "~class": "catalogEntry"
+    },
+    "category": "0x1dab670a",
+    "mDescriptionTraKey": "stat_stone_description_RivenQTriples",
+    "mNameTraKey": "stat_stone_name_RivenQTriples",
+    "stoneName": "RivenQTriples",
+    "~class": "StatStoneData"
+  },
+  "0xf1910ade": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185,
+      75
+    ],
+    "catalogEntry": {
+      "contentId": "ddff9001-cc08-4521-9f57-6e654ccc781d",
+      "itemID": 125505,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_Takedowns",
+    "mNameTraKey": "stat_stone_name_takedowns",
+    "stoneName": "RivenTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xf91c56a3": {
+    "EventsToTrack": [
+      {
+        "EventToTrack": 62,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40,
+      15
+    ],
+    "catalogEntry": {
+      "contentId": "5b14244f-e97b-43c0-8bac-161b00e850e6",
+      "itemID": 125506,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_StructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_structures_destroyed",
+    "stoneName": "RivenStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "Characters/Riven/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Riven/Spells/RivenWindslashMissileCenter",
+      "Characters/Riven/Spells/RivenWindslashMissileLeft",
+      "Characters/Riven/Spells/RivenWindslashMissileRight",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "0xc5c48b41": 1,
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 4.400000095367432,
+    "attackRange": 125.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 3.5,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 33.0,
+    "baseDamage": 64.0,
+    "baseHP": 630.0,
+    "baseMoveSpeed": 340.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.7000000476837158,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.13333334028720856,
+      "mAttackProbability": 0.3400000035762787,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.75,
+      "LevelSpellEffectiveness": 2.0,
+      "attackRank": 8,
+      "championId": 92,
+      "classification": "Strong",
+      "defenseRank": 5,
+      "description": "game_character_description_Riven",
+      "difficultyRank": 8,
+      "magicRank": 1,
+      "mapAIPresence": {
+        "0": {
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "~class": "ToolAiPresence"
+        }
+      },
+      "passiveData": [
+        {
+          "name": "Spell_RivenPassive_Name",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "BRAWLER",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "assassin",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.13333334028720856,
+        "mAttackName": "RivenCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "RivenBasicAttack2",
+        "mAttackProbability": 0.33000001311302185,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackName": "RivenBasicAttack3",
+        "mAttackProbability": 0.33000001311302185,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "RivenWindslashMissileCenter",
+      "RivenWindslashMissileLeft",
+      "RivenWindslashMissileRight",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "flags": 8398088,
+    "hpPerLevel": 100.0,
+    "hpRegenPerLevel": 0.10000000149011612,
+    "mAbilities": [
+      "Characters/Riven/Spells/RivenFengShuiEngineAbility",
+      "Characters/Riven/Spells/RivenTriCleaveAbility",
+      "Characters/Riven/Spells/RivenMartyrAbility",
+      "Characters/Riven/Spells/RivenFeintAbility",
+      "Characters/Riven/Spells/RivenPassiveAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "mCharacterName": "Riven",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Riven/Spells/RivenPassiveAbility/RivenPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            16,
+            20,
+            22,
+            45
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Riven/Spells/RivenRunCycleManager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Riven/Spells/RivenPassiveAbility/RivenPassive",
+    "mEducationToolData": {
+      "firstItem": 1055,
+      "~class": "ToolEducationData"
+    },
+    "mPerkReplacements": {
+      "mReplacements": [
+        {
+          "mReplaceTarget": "Perks/Styles/Sorcery/ManaflowBand",
+          "mReplaceWith": "Perks/Styles/Sorcery/NullifyingOrb",
+          "~class": "PerkReplacement"
+        },
+        {
+          "mReplaceTarget": "Perks/Styles/Precision/PresenceOfMind",
+          "mReplaceWith": "Perks/Styles/Precision/Triumph",
+          "~class": "PerkReplacement"
+        }
+      ],
+      "~class": "PerkReplacementList"
+    },
+    "mPreferredPerkStyle": "Perks/Styles/Domination",
+    "name": "game_character_displayname_Riven",
+    "passive1IconName": "ASSETS/Characters/Riven/HUD/Icons2D/RivenRunicBlades.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_RivenPassive_Name",
+    "passiveSpell": "RivenPassive",
+    "passiveToolTip": "Spell_RivenPassive_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 0.0,
+      "arBaseStaticRegen": 0.0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "VisibilityFlags": 1,
+      "arBase": 3.0,
+      "arBaseStaticRegen": 0.0,
+      "arDisplayAsPips": true,
+      "arHasRegenText": false,
+      "arIncrements": 3.0,
+      "arMaxSegments": 1,
+      "arOverrideLargePipName": "GenericSmall",
+      "arOverrideSmallPipName": "PantheonLarge",
+      "arOverrideSpacerName": "PipSpace1",
+      "arType": 12,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 150.0,
+    "selectionRadius": 130.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "RivenTriCleaveAbility/RivenTriCleave",
+      "RivenMartyrAbility/RivenMartyr",
+      "RivenFeintAbility/RivenFeint",
+      "RivenFengShuiEngineAbility/RivenFengShuiEngine"
+    ],
+    "spells": [
+      "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleave",
+      "Characters/Riven/Spells/RivenMartyrAbility/RivenMartyr",
+      "Characters/Riven/Spells/RivenFeintAbility/RivenFeint",
+      "Characters/Riven/Spells/RivenFengShuiEngineAbility/RivenFengShuiEngine"
+    ],
+    "unitTagsString": "Champion",
+    "weaponMaterials": [
+      "RivenBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Riven/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Riven/Spells/RivenBasicAttack": {
+    "ObjectName": "RivenBasicAttack",
+    "mScriptName": "RivenBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "RivenBasicAttack",
+      "mCastTime": 0.33329999446868896,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Riven_BA_Tar",
+      "missileSpeed": 347.79998779296875,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenBasicAttack2": {
+    "ObjectName": "RivenBasicAttack2",
+    "mScriptName": "RivenBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "RivenBasicAttack",
+      "mAnimationName": "Attack2",
+      "mCastTime": 0.33329999446868896,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Riven_BA_Tar",
+      "missileSpeed": 347.79998779296875,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenBasicAttack3": {
+    "ObjectName": "RivenBasicAttack3",
+    "mScriptName": "RivenBasicAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "RivenBasicAttack",
+      "mAnimationName": "Attack3",
+      "mCastTime": 0.33329999446868896,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Riven_BA_Tar",
+      "missileSpeed": 347.79998779296875,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenCritAttack": {
+    "ObjectName": "RivenCritAttack",
+    "mScriptName": "RivenCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 10.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.3677999973297119,
+      "mAffectsTypeFlags": 5327,
+      "mAlternateName": "RivenBasicAttack",
+      "mAnimationName": "Crit",
+      "mCastTime": 0.33329999446868896,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Riven_BA_Crit_tar",
+      "missileSpeed": 347.79998779296875,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenFeintAbility": {
+    "mChildSpells": [
+      "Characters/Riven/Spells/RivenFeintAbility/RivenFeint"
+    ],
+    "mName": "RivenFeintAbility",
+    "mRootSpell": "Characters/Riven/Spells/RivenFeintAbility/RivenFeint",
+    "~class": "AbilityObject"
+  },
+  "Characters/Riven/Spells/RivenFeintAbility/RivenFeint": {
+    "ObjectName": "RivenFeint",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RivenFeint",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RivenFeint",
+    "mSpell": {
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 3.0399999618530273,
+      "castRadius": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        10.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        6.0
+      ],
+      "delayTotalTimePercent": -0.30000001192092896,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": true,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_ShieldAmount",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RivenFeint_Name",
+            "keySummary": "Spell_RivenFeint_Summary",
+            "keyTooltip": "Spell_RivenFeint_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_RivenFeint_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "RivenFeint",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.100000023841858,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            70.0,
+            95.0,
+            120.0,
+            145.0,
+            170.0,
+            235.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            70.0,
+            95.0,
+            120.0,
+            145.0,
+            170.0,
+            235.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Riven/HUD/Icons2D/RivenPathoftheExile.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalShield": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.100000023841858,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "missileSpeed": 1450.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenFengShuiEngineAbility": {
+    "AbilityTraits": 2,
+    "mChildSpells": [
+      "Characters/Riven/Spells/RivenFengShuiEngineAbility/RivenFengShuiEngine",
+      "Characters/Riven/Spells/RivenFengShuiEngineAbility/RivenIzunaBlade"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "RivenFengShuiEngineAbility",
+    "mRootSpell": "Characters/Riven/Spells/RivenFengShuiEngineAbility/RivenFengShuiEngine",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Riven/Spells/RivenFengShuiEngineAbility/RivenFengShuiEngine": {
+    "ObjectName": "RivenFengShuiEngine",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RivenFengShuiEngine",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RivenFengShuiEngine",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "MinBase",
+          "mValues": [
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxBase",
+          "mValues": [
+            150.0,
+            300.0,
+            450.0,
+            600.0,
+            750.0,
+            900.0,
+            1050.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Duration",
+          "mValues": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            15.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentBonusAD",
+          "mValues": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TooltipAttackRange",
+          "mValues": [
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0,
+            75.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "cooldownTime": [
+        10.0,
+        120.0,
+        90.0,
+        60.0,
+        60.0,
+        10.0,
+        10.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "RivenFengShuiEngine",
+      "mAmmoCountHiddenInUI": true,
+      "mAmmoNotAffectedByCDR": true,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell4a",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_RivenShockwaveDamage",
+                  "type": "MinBase",
+                  "typeIndex": 2,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RivenShockwaveMaxDamage",
+                  "type": "MaxBase",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RivenFengShuiEngineAbility_Name",
+            "keySummary": "Spell_RivenFengShuiEngine_Summary",
+            "keyTooltip": "Spell_RivenFengShuiEngine_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_RivenFengShuiEngine_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "RivenFengShuiEngine",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mCoefficient2": 1.7999999523162842,
+      "mEffectAmount": [
+        {
+          "value": [
+            100.0,
+            100.0,
+            150.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            300.0,
+            300.0,
+            450.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            20.0,
+            20.0,
+            20.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            15.0,
+            15.0,
+            15.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Riven/HUD/Icons2D/RivenBladeoftheExile.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "BonusAD": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "PercentBonusAD",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MaxDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "MaxBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.7999999523162842,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "MinDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "MinBase",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.6000000238418579,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 1200.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenFengShuiEngineAbility/RivenIzunaBlade": {
+    "ObjectName": "RivenIzunaBlade",
+    "mScriptName": "RivenIzunaBlade",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeAngle": 22.0,
+      "castConeDistance": 1025.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeUseBoundingBoxes": true,
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayTotalTimePercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 23759,
+      "mAmmoCountHiddenInUI": true,
+      "mAmmoNotAffectedByCDR": true,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell4b",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.25,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "coneAngleDegrees": 22.0,
+            "coneRange": 1025.0,
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionCone"
+          }
+        ],
+        "mUseTooltipFromAnotherSpell": "Characters/Riven/Spells/RivenFengShuiEngineAbility/RivenFengShuiEngine",
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            200.0,
+            200.0,
+            250.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            150.0,
+            300.0,
+            450.0,
+            600.0,
+            600.0,
+            600.0,
+            750.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            40.0,
+            55.0,
+            70.0,
+            0.0,
+            0.0,
+            15.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            90.0,
+            75.0,
+            60.0,
+            45.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Riven/HUD/Icons2D/RivenWindScar.dds"
+      ],
+      "mLineWidth": 200.0,
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Cone"
+      },
+      "missileSpeed": 1450.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenMartyrAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Riven/Spells/RivenMartyrAbility/RivenMartyr"
+    ],
+    "mName": "RivenMartyrAbility",
+    "mRootSpell": "Characters/Riven/Spells/RivenMartyrAbility/RivenMartyr",
+    "~class": "AbilityObject"
+  },
+  "Characters/Riven/Spells/RivenMartyrAbility/RivenMartyr": {
+    "ObjectName": "RivenMartyr",
+    "mScriptName": "RivenMartyr",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "castRange": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "castRangeDisplayOverride": [
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0,
+        260.0
+      ],
+      "cooldownTime": [
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        7.0
+      ],
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "RivenMartyr",
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.26669999957084656,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Effect%dAmount",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RivenMartyr_Name",
+            "keySummary": "Spell_RivenMartyr_Summary",
+            "keyTooltip": "Spell_RivenMartyr_Tooltip"
+          },
+          "mObjectName": "RivenMartyr",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            65.0,
+            95.0,
+            125.0,
+            155.0,
+            185.0,
+            215.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            40.0,
+            70.0,
+            100.0,
+            130.0,
+            160.0,
+            190.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Riven/HUD/Icons2D/RivenKiShout.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mEffectIndex": 1,
+              "~class": "EffectValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "missileSpeed": 1500.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenPassiveAbility": {
+    "mChildSpells": [
+      "Characters/Riven/Spells/RivenPassiveAbility/RivenPassive",
+      "Characters/Riven/Spells/RivenPassiveAbility/RivenPassiveAABoost"
+    ],
+    "mName": "RivenPassiveAbility",
+    "mRootSpell": "Characters/Riven/Spells/RivenPassiveAbility/RivenPassive",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "Characters/Riven/Spells/RivenPassiveAbility/RivenPassive": {
+    "ObjectName": "RivenPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RivenPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RivenPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Charges",
+          "mValues": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TowerRatio",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_RivenPassive_Name",
+            "keySummary": "Spell_RivenPassive_Summary",
+            "keyTooltip": "Spell_RivenPassive_Tooltip",
+            "keyTooltipExtended": "Spell_RivenPassive_TooltipExtended"
+          },
+          "mObjectName": "RivenPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mImgIconName": [
+        "ASSETS/Characters/Riven/HUD/Icons2D/RivenRunicBlades.dds"
+      ],
+      "mSpellCalculations": {
+        "TotalDamage": {
+          "mFormulaParts": [
+            {
+              "mStat": 2,
+              "mSubpart": {
+                "mEndValue": 0.5,
+                "mStartValue": 0.30000001192092896,
+                "~class": "ByCharLevelInterpolationCalculationPart"
+              },
+              "~class": "StatBySubPartCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenPassiveAbility/RivenPassiveAABoost": {
+    "ObjectName": "RivenPassiveAABoost",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RivenPassiveAABoost",
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "RivenPassiveAABoost",
+    "mSpell": {
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mClientData": {
+        "mLeftClickSpellAction": 0,
+        "mRightClickSpellAction": 0,
+        "mUseTooltipFromAnotherSpell": "Characters/Riven/Spells/RivenPassiveAbility/RivenPassive",
+        "~class": "SpellDataResourceClient"
+      },
+      "mFloatVarsDecimals": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Riven/HUD/Icons2D/RivenRunicBlades.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenRunCycleManager": {
+    "ObjectName": "RivenRunCycleManager",
+    "mScriptName": "RivenRunCycleManager",
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenTriCleaveAbility": {
+    "AbilityTraits": 2048,
+    "mChildSpells": [
+      "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleave",
+      "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleaveBuffer",
+      "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleaveBufferB",
+      "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleaveBuff",
+      "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleaveDamage"
+    ],
+    "mName": "RivenTriCleaveAbility",
+    "mRootSpell": "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleave",
+    "~class": "AbilityObject"
+  },
+  "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleave": {
+    "ObjectName": "RivenTriCleave",
+    "mScriptName": "RivenTriCleave",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "BaseDamage",
+          "mValues": [
+            15.0,
+            45.0,
+            75.0,
+            105.0,
+            135.0,
+            165.0,
+            195.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ADRatio",
+          "mValues": [
+            0.6000000238418579,
+            0.6499999761581421,
+            0.699999988079071,
+            0.75,
+            0.800000011920929,
+            0.8500000238418579,
+            0.8999999761581421
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bIsToggleSpell": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0
+      ],
+      "castTargetAdditionalUnitsRadius": 50.0,
+      "cooldownTime": [
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 6154,
+      "mAmmoNotAffectedByCDR": true,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "BaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "SpellListType_AttackDamageRatio",
+                  "type": "ADRatio",
+                  "typeIndex": 5,
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyCost": "Spell_Cost_NoCost",
+            "keyName": "Spell_RivenTriCleave_Name",
+            "keySummary": "Spell_RivenTriCleave_Summary",
+            "keyTooltip": "Spell_RivenTriCleave_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_RivenTriCleave_TooltipExtendedBelowLine"
+          },
+          "mObjectName": "RivenTriCleave",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.75,
+      "mEffectAmount": [
+        {
+          "value": [
+            45.0,
+            45.0,
+            75.0,
+            105.0,
+            135.0,
+            165.0,
+            165.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            30.0,
+            55.0,
+            80.0,
+            105.0,
+            130.0,
+            155.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            150.0,
+            225.0,
+            300.0,
+            375.0,
+            450.0,
+            525.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            65.0,
+            65.0,
+            70.0,
+            75.0,
+            80.0,
+            85.0,
+            85.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Riven/HUD/Icons2D/RivenBrokenWings.dds"
+      ],
+      "mSpellCalculations": {
+        "FirstSlashDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "ADRatio",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mSpellTags": [
+        "PositiveEffect_MoveBlock",
+        "Trait_ImmobilizingCCSpell"
+      ],
+      "mTargetingTypeData": {
+        "~class": "TargetOrLocation"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleaveBuff": {
+    "ObjectName": "RivenTriCleaveBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RivenTriCleaveBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RivenTriCleaveBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleaveBuffer": {
+    "ObjectName": "RivenTriCleaveBuffer",
+    "mScriptName": "RivenTriCleaveBuffer",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 15375,
+      "mAlternateName": "RivenTriCleave",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.75,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            5.0,
+            20.0,
+            35.0,
+            50.0,
+            65.0,
+            80.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            150.0,
+            225.0,
+            300.0,
+            375.0,
+            450.0,
+            525.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            45.0,
+            90.0,
+            135.0,
+            180.0,
+            225.0,
+            270.0,
+            315.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Riven/HUD/Icons2D/RivenBrokenWings.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleaveBufferB": {
+    "ObjectName": "RivenTriCleaveBufferB",
+    "mScriptName": "RivenTriCleaveBufferB",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 15375,
+      "mAlternateName": "RivenTriCleave",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.75,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            5.0,
+            20.0,
+            35.0,
+            50.0,
+            65.0,
+            80.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            150.0,
+            225.0,
+            300.0,
+            375.0,
+            450.0,
+            525.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            45.0,
+            90.0,
+            135.0,
+            180.0,
+            225.0,
+            270.0,
+            315.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Riven/HUD/Icons2D/RivenBrokenWings.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenTriCleaveAbility/RivenTriCleaveDamage": {
+    "ObjectName": "RivenTriCleaveDamage",
+    "mScriptName": "RivenTriCleaveDamage",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0,
+        275.0
+      ],
+      "castTargetAdditionalUnitsRadius": 50.0,
+      "cooldownTime": [
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 36,
+      "mAffectsTypeFlags": 15375,
+      "mAlternateName": "RivenTriCleave",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.75,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            30.0,
+            50.0,
+            70.0,
+            90.0,
+            110.0,
+            130.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            30.0,
+            50.0,
+            70.0,
+            90.0,
+            110.0,
+            130.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            75.0,
+            150.0,
+            225.0,
+            300.0,
+            375.0,
+            450.0,
+            525.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            45.0,
+            90.0,
+            135.0,
+            180.0,
+            225.0,
+            270.0,
+            315.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Riven/HUD/Icons2D/RivenBrokenWings.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenWindScarReady": {
+    "ObjectName": "RivenWindScarReady",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RivenWindScarReady",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RivenWindScarReady",
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenWindslashMissileCenter": {
+    "ObjectName": "RivenWindslashMissileCenter",
+    "mScriptName": "RivenWindslashMissileCenter",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "EzrealEssenceFluxMissile",
+      "mAnimationName": "Spell4b",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.4000000059604645,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            75.0,
+            250.0,
+            425.0,
+            600.0,
+            0.0,
+            0.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "root",
+      "mLineWidth": 100.0,
+      "mMissileEffectKey": "Riven_R_Mis_Middle",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "chest",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenWindslashMissileLeft": {
+    "ObjectName": "RivenWindslashMissileLeft",
+    "mScriptName": "RivenWindslashMissileLeft",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "EzrealEssenceFluxMissile",
+      "mAnimationName": "Spell4b",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            75.0,
+            250.0,
+            425.0,
+            600.0,
+            0.0,
+            0.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "root",
+      "mLineWidth": 100.0,
+      "mMissileEffectKey": "Riven_R_Mis_Left",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "chest",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Riven/Spells/RivenWindslashMissileRight": {
+    "ObjectName": "RivenWindslashMissileRight",
+    "mScriptName": "RivenWindslashMissileRight",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 13.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0,
+        1100.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "EzrealEssenceFluxMissile",
+      "mAnimationName": "Spell4b",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            75.0,
+            250.0,
+            425.0,
+            600.0,
+            0.0,
+            0.0,
+            175.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mHitBoneName": "root",
+      "mLineWidth": 100.0,
+      "mMissileEffectKey": "Riven_R_Mis_Right",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 100.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 100.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1600.0,
+          "mStartBoneName": "chest",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1600.0,
+      "selectionPriority": 1,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

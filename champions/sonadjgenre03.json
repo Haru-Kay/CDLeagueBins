@@ -1,0 +1,213 @@
+{
+  "0x2c8b0d8": {
+    "~class": "ResourceResolver"
+  },
+  "Characters/SonaDJGenre03/CharacterRecords/Root": {
+    "0xc1984296": [
+      "Characters/Sona/Spells/SonaPassiveAbility/SonaPassiveAttack",
+      "0x2cf4ad94",
+      "0x8b96f1c",
+      "0xdd296114",
+      "Characters/Sona/Spells/SonaQAbility/SonaQMissile",
+      "Characters/Sona/Spells/SonaWAbility/SonaWMissile",
+      "Characters/Sona/Spells/SonaPassiveAbility/SonaPMissile",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell",
+      "Shared/Spells/BaseSpell"
+    ],
+    "acquisitionRange": 800.0,
+    "armorPerLevel": 4.199999809265137,
+    "attackRange": 550.0,
+    "attackSpeed": 0.6439999938011169,
+    "attackSpeedPerLevel": 2.299999952316284,
+    "attackSpeedRatio": 0.6439999938011169,
+    "baseArmor": 26.0,
+    "baseDamage": 49.0,
+    "baseHP": 550.0,
+    "baseMoveSpeed": 325.0,
+    "baseSpellBlock": 30.0,
+    "baseStaticHPRegen": 1.100000023841858,
+    "basicAttack": {
+      "mAttackDelayCastOffsetPercent": -0.1281787008047104,
+      "mAttackProbability": 0.5,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "ChasingAttackRangePercent": 0.800000011920929,
+      "LevelSpellEffectiveness": 4.0,
+      "attackRank": 5,
+      "botEnabled": true,
+      "botEnabledMM": true,
+      "championId": 37,
+      "classification": "Arcane",
+      "defenseRank": 2,
+      "description": "game_character_description_Sona",
+      "difficultyRank": 4,
+      "magicRank": 8,
+      "mapAIPresence": {
+        "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "intro": true,
+          "~class": "ToolAiPresence"
+        },
+        "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0x6175bb7b": true,
+          "~class": "ToolAiPresence"
+        }
+      },
+      "roles": "SUPPORT",
+      "searchTags": "support",
+      "searchTagsSecondary": "mage",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackDelayCastOffsetPercent": -0.1281787008047104,
+        "mAttackName": "SonaCritAttack",
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 3.0,
+    "extraAttacks": [
+      {
+        "mAttackName": "SonaBasicAttack2",
+        "mAttackProbability": 0.5,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "extraSpells": [
+      "SonaPassiveAttack",
+      "SonaQPassiveAttack",
+      "SonaWPassiveAttack",
+      "SonaEPassiveAttack",
+      "SonaQMissile",
+      "SonaWMissile",
+      "SonaPMissile",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell",
+      "BaseSpell"
+    ],
+    "healthBarHeight": 113.0,
+    "hpPerLevel": 91.0,
+    "hpRegenPerLevel": 0.10999999940395355,
+    "mAbilities": [
+      "Characters/Sona/Spells/SonaQAbility",
+      "Characters/Sona/Spells/SonaWAbility",
+      "Characters/Sona/Spells/SonaEAbility",
+      "Characters/Sona/Spells/SonaPassiveAbility",
+      "Characters/Sona/Spells/SonaRAbility"
+    ],
+    "mAbilitySlotCC": [
+      0,
+      0,
+      14,
+      16
+    ],
+    "mAdaptiveForceToAbilityPowerWeight": 1.0,
+    "mCharacterName": "SonaDJGenre03",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "Characters/Sona/Spells/SonaPassiveAbility/SonaPassive",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            6
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "Characters/Sona/Spells/SonaDJManager",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "Characters/Sona/Spells/SonaPassiveAbility/SonaPassive",
+    "mEducationToolData": {
+      "firstItem": 1056,
+      "~class": "ToolEducationData"
+    },
+    "mFallbackCharacterName": "Sona",
+    "mPreferredPerkStyle": "Perks/Styles/Sorcery",
+    "name": "game_character_displayname_Sona",
+    "passive1IconName": "ASSETS/Characters/Sona/HUD/Icons2D/Sona_Passive_Charged.dds",
+    "passiveLuaName": "",
+    "passiveName": "Spell_SonaPassive_Name",
+    "passiveSpell": "SonaPassive",
+    "passiveToolTip": "Spell_SonaPassive_Tooltip",
+    "pathfindingCollisionRadius": 35.0,
+    "primaryAbilityResource": {
+      "arBase": 340.0,
+      "arBaseStaticRegen": 2.299999952316284,
+      "arPerLevel": 45.0,
+      "arRegenPerLevel": 0.07999999821186066,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Ranged"
+    ],
+    "secondaryAbilityResource": {
+      "VisibilityFlags": 1,
+      "arBase": 3.0,
+      "arBaseStaticRegen": 0.0,
+      "arDisplayAsPips": true,
+      "arHasRegenText": false,
+      "arIncrements": 3.0,
+      "arMaxSegments": 3,
+      "arOverrideLargePipName": "GenericSmall",
+      "arOverrideSmallPipName": "PantheonLarge",
+      "arOverrideSpacerName": "PipSpace1",
+      "arType": 12,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 145.0,
+    "selectionRadius": 110.0,
+    "spellBlockPerLevel": 1.2999999523162842,
+    "spellNames": [
+      "SonaQAbility/SonaQ",
+      "SonaWAbility/SonaW",
+      "SonaEAbility/SonaE",
+      "SonaRAbility/SonaR"
+    ],
+    "spells": [
+      "Characters/Sona/Spells/SonaQAbility/SonaQ",
+      "Characters/Sona/Spells/SonaWAbility/SonaW",
+      "Characters/Sona/Spells/SonaEAbility/SonaE",
+      "Characters/Sona/Spells/SonaRAbility/SonaR"
+    ],
+    "unitTagsString": "Champion",
+    "~class": "CharacterRecord"
+  },
+  "Characters/SonaDJGenre03/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  }
+}
