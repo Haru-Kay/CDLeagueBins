@@ -94,7 +94,7 @@ def sortLang
     }
 
     out.each { |type, data|
-        File.open("lang/#{type}.json", 'wb') { |f| f.write(JSON.pretty_generate(data.sort_by { |k, v| k })) }
+        File.open("lang/#{type}.json", 'wb') { |f| f.write(JSON.pretty_generate(data.sort_by { |k, v| k }.to_h)) }
     }
 
 end
