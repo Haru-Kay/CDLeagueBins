@@ -3364,19 +3364,6 @@
           "~class": "SpellEffectAmount"
         }
       },
-      "0xfe87f21e": [
-        {
-          "0x1987941": [
-            {
-              "0x137cf12a": "0xc4e297bb",
-              "mInvertResult": true,
-              "~class": "AboveHealthPercentCastRequirement"
-            }
-          ],
-          "0x6166b756": "0x79b6144b",
-          "~class": "0xfe87f21e"
-        }
-      ],
       "DataValues": [
         {
           "mName": "BaseOnHitDamage",
@@ -3388,19 +3375,6 @@
             3.0,
             3.0,
             3.0
-          ],
-          "~class": "SpellDataValue"
-        },
-        {
-          "mName": "BelowHealthThreshold",
-          "mValues": [
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896,
-            0.30000001192092896
           ],
           "~class": "SpellDataValue"
         }
@@ -3640,17 +3614,6 @@
         "ASSETS/Characters/Ekko/HUD/Icons2D/Ekko_W.dds"
       ],
       "mSpellCalculations": {
-        "0x79b6144b": {
-          "0x72c5c2a8": 1,
-          "mModifiedGameCalculation": "MissingHealthPercent",
-          "mMultiplier": {
-            "0xa8cb9c14": true,
-            "mCoefficient": 1.0,
-            "mStat": 15,
-            "~class": "StatByCoefficientCalculationPart"
-          },
-          "~class": "GameCalculationModified"
-        },
         "MissingHealthPercent": {
           "mDisplayAsPercent": true,
           "mFormulaParts": [

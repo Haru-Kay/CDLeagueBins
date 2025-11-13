@@ -1520,26 +1520,6 @@
           ],
           "~class": "GameCalculation"
         },
-        "FinalDamage": {
-          "0x353099b0": true,
-          "mConditionalCalculationRequirements": {
-            "mSubRequirements": [
-              {
-                "mBuffName": "0xf6b8c16",
-                "mInvertResult": true,
-                "~class": "HasBuffCastRequirement"
-              },
-              {
-                "0x137cf12a": "0xeb2d78a3",
-                "mInvertResult": true,
-                "~class": "AboveHealthPercentCastRequirement"
-              }
-            ],
-            "~class": "HasAllSubRequirementsCastRequirement"
-          },
-          "mConditionalGameCalculation": "TotalDamage",
-          "~class": "GameCalculationConditional"
-        },
         "MaxHPDamage": {
           "mConditionalCalculationRequirements": {
             "mBuffName": "0xecbd8e2e",
@@ -1548,20 +1528,6 @@
           "mConditionalGameCalculation": "0xad3d785f",
           "mDefaultGameCalculation": "0x6a1a62e9",
           "~class": "GameCalculationConditional"
-        },
-        "TotalDamage": {
-          "mFormulaParts": [
-            {
-              "0xa8cb9c14": true,
-              "mStat": 12,
-              "mSubpart": {
-                "mSpellCalculationKey": "MaxHPDamage",
-                "~class": "0xf3cbe7b2"
-              },
-              "~class": "StatBySubPartCalculationPart"
-            }
-          ],
-          "~class": "GameCalculation"
         }
       },
       "~class": "SpellDataResource"

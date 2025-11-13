@@ -2697,19 +2697,6 @@
     "ObjectName": "EliseR",
     "mScriptName": "EliseR",
     "mSpell": {
-      "0xfe87f21e": [
-        {
-          "0x1987941": [
-            {
-              "0x7b66f15d": false,
-              "mBuffName": "0x93251bfb",
-              "~class": "HasBuffCastRequirement"
-            }
-          ],
-          "0x6166b756": "PassiveTotalDamage",
-          "~class": "0xfe87f21e"
-        }
-      ],
       "DataValues": [
         {
           "mName": "PassiveBonusDamage",
@@ -3012,41 +2999,6 @@
         "~class": "ObjectTags"
       },
       "mSpellCalculations": {
-        "0x60195651": {
-          "mConditionalCalculationRequirements": {
-            "mBuffName": "0xe6fdcc5d",
-            "~class": "HasBuffCastRequirement"
-          },
-          "mConditionalGameCalculation": "0xe5407a95",
-          "mDefaultGameCalculation": "PassiveTotalDamage",
-          "~class": "GameCalculationConditional"
-        },
-        "0x84a53877": {
-          "mConditionalCalculationRequirements": {
-            "mBuffName": "0x93251bfb",
-            "~class": "HasBuffCastRequirement"
-          },
-          "mConditionalGameCalculation": "0x60195651",
-          "~class": "GameCalculationConditional"
-        },
-        "0xe5407a95": {
-          "mModifiedGameCalculation": "PassiveTotalDamage",
-          "mMultiplier": {
-            "mSubparts": [
-              {
-                "0x137cf12a": "0x80d12992",
-                "SourceObject": "Characters/Elise/Spells/EliseSpiderEAbility/EliseSpiderEInitial",
-                "~class": "0x9e9e2e5c"
-              },
-              {
-                "mNumber": 1.0,
-                "~class": "NumberCalculationPart"
-              }
-            ],
-            "~class": "SumOfSubPartsCalculationPart"
-          },
-          "~class": "GameCalculationModified"
-        },
         "PassiveTotalDamage": {
           "mFormulaParts": [
             {

@@ -445,8 +445,8 @@
     "0xc1984296": [
       "Characters/Rengar/Spells/RengarPassiveBuffDash",
       "Characters/Rengar/Spells/RengarQSound",
-      "0x0",
-      "0x0",
+      "Characters/Rengar/Spells/RengarQ2Sound",
+      "Characters/Rengar/Spells/RengarQ2",
       "Characters/Rengar/Spells/RengarEAbility/RengarEMis",
       "Shared/Spells/BaseSpell",
       "Shared/Spells/BaseSpell",
@@ -554,18 +554,13 @@
       {
         "mAttackProbability": 0.10000000149011612,
         "~class": "AttackSlotData"
-      },
-      {
-        "mAttackName": "RengarPassiveAttack",
-        "mAttackProbability": 0.0,
-        "~class": "AttackSlotData"
       }
     ],
     "extraSpells": [
       "RengarPassiveBuffDash",
       "RengarQSound",
-      "",
-      "",
+      "RengarQ2Sound",
+      "RengarQ2",
       "RengarEMis",
       "BaseSpell",
       "BaseSpell",
@@ -687,6 +682,15 @@
   },
   "Characters/Rengar/Skins/Meta": {
     "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Rengar/Spells/Rengar9StackBuff": {
+    "ObjectName": "Rengar9StackBuff",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_Rengar9StackBuff",
+      "~class": "BuffData"
+    },
+    "mScriptName": "Rengar9StackBuff",
+    "~class": "SpellObject"
   },
   "Characters/Rengar/Spells/RengarBasicAttack": {
     "ObjectName": "RengarBasicAttack",
@@ -844,6 +848,15 @@
       "missileSpeed": 0.0,
       "~class": "SpellDataResource"
     },
+    "~class": "SpellObject"
+  },
+  "Characters/Rengar/Spells/RengarBushSpeedBonus": {
+    "ObjectName": "RengarBushSpeedBonus",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RengarBushSpeedBonus",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RengarBushSpeedBonus",
     "~class": "SpellObject"
   },
   "Characters/Rengar/Spells/RengarCritAttack": {
@@ -1049,19 +1062,6 @@
           "~class": "SpellDataValue"
         },
         {
-          "mName": "CCDuration",
-          "mValues": [
-            1.75,
-            1.75,
-            1.75,
-            1.75,
-            1.75,
-            1.75,
-            1.75
-          ],
-          "~class": "SpellDataValue"
-        },
-        {
           "mName": "BonusADRatio",
           "mValues": [
             0.800000011920929,
@@ -1226,6 +1226,74 @@
       },
       "mCoefficient": 0.800000011920929,
       "mCoefficient2": 0.6000000238418579,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            55.0,
+            100.0,
+            145.0,
+            190.0,
+            235.0,
+            280.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            75.0,
+            90.0,
+            105.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
@@ -1404,6 +1472,83 @@
         "~class": "SpellDataResourceClient"
       },
       "mCoefficient": 0.699999988079071,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            75.0,
+            90.0,
+            105.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
@@ -1568,6 +1713,74 @@
         "~class": "SpellDataResourceClient"
       },
       "mCoefficient": 0.800000011920929,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            75.0,
+            90.0,
+            105.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
@@ -1712,6 +1925,83 @@
         "~class": "SpellDataResourceClient"
       },
       "mCoefficient": 0.699999988079071,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            55.0,
+            60.0,
+            65.0,
+            70.0,
+            75.0,
+            80.0,
+            85.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75,
+            1.75
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
@@ -1780,9 +2070,194 @@
     },
     "~class": "SpellObject"
   },
+  "Characters/Rengar/Spells/RengarEFinalMAX": {
+    "ObjectName": "RengarEFinalMAX",
+    "mScriptName": "RengarEFinalMAX",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 8.520000457763672,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "RengarE",
+      "mAnimationName": "Spell3",
+      "mCantCancelWhileWindingUp": true,
+      "mCastType": 3,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineStopsAtEndPosition": false,
+            "lineWidth": {
+              "mPerLevelValues": [
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0,
+                70.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            25.0,
+            70.0,
+            115.0,
+            160.0,
+            205.0,
+            250.0,
+            295.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            13.0,
+            12.0,
+            11.0,
+            10.0,
+            9.0,
+            8.0,
+            7.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            55.0,
+            60.0,
+            65.0,
+            70.0,
+            75.0,
+            80.0,
+            85.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mLineWidth": 70.0,
+      "mMissileEffectKey": "Rengar_E_Max_Mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mOffsetInitialTargetHeight": 20.0,
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 1500.0,
+          "mStartBoneName": "LHand",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 1500.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Rengar/Spells/RengarFerocityManagerInCombat": {
+    "ObjectName": "RengarFerocityManagerInCombat",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RengarFerocityManagerInCombat",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RengarFerocityManagerInCombat",
+    "~class": "SpellObject"
+  },
   "Characters/Rengar/Spells/RengarInCombat": {
     "ObjectName": "RengarInCombat",
     "mScriptName": "RengarInCombat",
+    "~class": "SpellObject"
+  },
+  "Characters/Rengar/Spells/RengarNewPassive": {
+    "ObjectName": "RengarNewPassive",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RengarNewPassive",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RengarNewPassive",
     "~class": "SpellObject"
   },
   "Characters/Rengar/Spells/RengarNewPassiveBuffDash": {
@@ -1927,19 +2402,6 @@
             1.0
           ],
           "~class": "SpellDataValue"
-        },
-        {
-          "mName": "BonusLeapRange",
-          "mValues": [
-            630.0,
-            630.0,
-            630.0,
-            630.0,
-            630.0,
-            630.0,
-            630.0
-          ],
-          "~class": "SpellDataValue"
         }
       ],
       "mClientData": {
@@ -2011,26 +2473,6 @@
           "~class": "GameCalculation"
         }
       },
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Rengar/Spells/RengarPassiveAttack": {
-    "ObjectName": "RengarPassiveAttack",
-    "mScriptName": "RengarPassiveAttack",
-    "mSpell": {
-      "delayCastOffsetPercent": -1.0,
-      "delayTotalTimePercent": -1.0,
-      "flags": 4,
-      "mAffectsTypeFlags": 6826,
-      "mAnimationName": "",
-      "mApplyAttackDamage": true,
-      "mApplyAttackEffect": true,
-      "mChannelIsInterruptedByAttacking": false,
-      "mConsideredAsAutoAttack": true,
-      "mSpellTags": [
-        "Trait_AttackReset"
-      ],
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"
@@ -2123,7 +2565,6 @@
     "ObjectName": "RengarPassiveBuffDash",
     "mScriptName": "RengarPassiveBuffDash",
     "mSpell": {
-      "canCastWhileDisabled": true,
       "castConeDistance": 100.0,
       "castRange": [
         25000.0,
@@ -2143,17 +2584,10 @@
         0.0,
         0.0
       ],
-      "delayCastOffsetPercent": -1.0,
-      "delayTotalTimePercent": -1.0,
       "flags": 4,
-      "mAffectsTypeFlags": 6826,
+      "mAffectsTypeFlags": 6831,
       "mAlternateName": "RengarPassiveBuffDash",
       "mAnimationName": "",
-      "mCanMoveWhileChanneling": true,
-      "mCantCancelWhileWindingUp": true,
-      "mCantCancelWhileWindingUpTargetingChampion": true,
-      "mChannelIsInterruptedByAttacking": false,
-      "mChannelIsInterruptedByDisables": false,
       "mClientData": {
         "mTargeterDefinitions": [
           {
@@ -2163,23 +2597,49 @@
         ],
         "~class": "SpellDataResourceClient"
       },
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0,
+            800.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mImgIconName": [
         "ASSETS/Characters/Rengar/HUD/Icons2D/Rengar_Passive.dds"
-      ],
-      "mOverrideAttackTime": {
-        "mTotalAttackTimeSecs": {
-          "mFormulaParts": [
-            {
-              "~class": "NumberCalculationPart"
-            }
-          ],
-          "~class": "GameCalculation"
-        },
-        "~class": "OverrideAttackTimeData"
-      },
-      "mShowChannelBar": false,
-      "mSpellTags": [
-        "PositiveEffect_MoveBlock"
       ],
       "~class": "SpellDataResource"
     },
@@ -2240,10 +2700,739 @@
     "mScriptName": "RengarPassiveEmpoweredMS",
     "~class": "SpellObject"
   },
+  "Characters/Rengar/Spells/RengarQ2": {
+    "ObjectName": "RengarQ2",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RengarQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RengarQ2",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeAngle": 90.0,
+      "castConeDistance": 325.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.699999988079071,
+      "delayTotalTimePercent": -0.925000011920929,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "RengarQ",
+      "mAmmoCountHiddenInUI": true,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintPosLocator": {
+              "basePosition": 3,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                325.0,
+                325.0,
+                325.0,
+                325.0,
+                325.0,
+                325.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOrientation": 3,
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/SemicircleRangeIndicator.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "endLocator": {
+              "distanceOffset": 450.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                450.0,
+                450.0,
+                450.0,
+                450.0,
+                450.0,
+                450.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mCoefficient2": 0.4000000059604645,
+      "mDisableCastBar": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            75.0,
+            90.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "root",
+      "mImgIconName": [
+        "ASSETS/Characters/Rengar/HUD/Icons2D/Rengar_Q.dds"
+      ],
+      "mLineWidth": 55.0,
+      "mMaxAmmo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mSpellTags": [
+        "PositiveEffect_EmpowerAttack"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Rengar/Spells/RengarQ2Emp": {
+    "ObjectName": "RengarQ2Emp",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RengarQ",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RengarQ2Emp",
+    "mSpell": {
+      "alwaysSnapFacing": true,
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeAngle": 90.0,
+      "castConeDistance": 325.0,
+      "castFrame": 8.0,
+      "castRadius": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "castRangeDisplayOverride": [
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0,
+        450.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.699999988079071,
+      "delayTotalTimePercent": -0.925000011920929,
+      "mAffectsTypeFlags": 6154,
+      "mAlternateName": "RengarQ",
+      "mAmmoCountHiddenInUI": true,
+      "mAmmoUsed": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "centerLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintPosLocator": {
+              "basePosition": 3,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "overrideRadius": {
+              "mPerLevelValues": [
+                325.0,
+                325.0,
+                325.0,
+                325.0,
+                325.0,
+                325.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOrientation": 3,
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/SemicircleRangeIndicator.tex",
+            "~class": "TargeterDefinitionAoe"
+          },
+          {
+            "endLocator": {
+              "distanceOffset": 450.0,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "fallbackDirection": 3,
+            "lineWidth": {
+              "mPerLevelValues": [
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0,
+                55.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                450.0,
+                450.0,
+                450.0,
+                450.0,
+                450.0,
+                450.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.6000000238418579,
+      "mCoefficient2": 0.4000000059604645,
+      "mDisableCastBar": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            75.0,
+            90.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mHitBoneName": "root",
+      "mImgIconName": [
+        "ASSETS/Characters/Rengar/HUD/Icons2D/Rengar_Q_Emp.dds"
+      ],
+      "mLineWidth": 55.0,
+      "mMaxAmmo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mSpellTags": [
+        "PositiveEffect_EmpowerAttack"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Rengar/Spells/RengarQ2Sound": {
+    "ObjectName": "RengarQ2Sound",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RengarR",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RengarQ2Sound",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 0.14499999582767487,
+      "castRadius": [
+        75.0,
+        75.0,
+        75.0,
+        75.0,
+        75.0,
+        75.0,
+        75.0
+      ],
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": 0.18330000340938568,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "RengarR",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                2000.0,
+                2000.0,
+                2000.0,
+                2000.0,
+                2000.0,
+                2000.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionMinimap"
+          },
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                1100.0,
+                1100.0,
+                1100.0,
+                1100.0,
+                1100.0,
+                1100.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureOverrideName": "ASSETS/Spells/Textures/CircularRangeIndicator_Dark.tex",
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 1.0,
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Rengar/HUD/Icons2D/Rengar_Q.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        ""
+      ],
+      "mTargetingTypeData": {
+        "~class": "SelfAoe"
+      },
+      "mUseMinimapTargeting": true,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
   "Characters/Rengar/Spells/RengarQAbility": {
     "mChildSpells": [
       "Characters/Rengar/Spells/RengarQAbility/RengarQ",
+      "Characters/Rengar/Spells/RengarQAbility/RengarQAttack",
       "Characters/Rengar/Spells/RengarQAbility/RengarQEmp",
+      "Characters/Rengar/Spells/RengarQAbility/RengarQEmpAttack",
       "Characters/Rengar/Spells/RengarQAbility/RengarQEmpASBuff"
     ],
     "mName": "RengarQAbility",
@@ -2253,6 +3442,12 @@
   "Characters/Rengar/Spells/RengarQAbility/RengarQ": {
     "BotData": {
       "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mSpellCalculationKey": "TotalDamageTT",
+            "~class": "0xf3cbe7b2"
+          }
+        ],
         "~class": "GameCalculation"
       },
       "DamageTag": 0,
@@ -2260,7 +3455,6 @@
     },
     "ObjectName": "RengarQ",
     "mBuff": {
-      "mBuffAttributeFlag": 32,
       "mDescription": "game_buff_tooltip_RengarQ",
       "~class": "BuffData"
     },
@@ -2283,18 +3477,57 @@
         {
           "mName": "BaseADRatio",
           "mValues": [
-            0.9624999761581421,
-            1.0,
-            1.037500023841858,
-            1.0750000476837158,
-            1.1124999523162842,
-            1.149999976158142,
-            1.1875
+            -0.03750000149011612,
+            0.0,
+            0.03750000149011612,
+            0.07500000298023224,
+            0.11249999701976776,
+            0.15000000596046448,
+            0.1875
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CritRatio",
+          "mValues": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
           ],
           "~class": "SpellDataValue"
         },
         {
           "mName": "EmpoweredADRatio",
+          "mValues": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "CritScalingRatio",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TotalEmpoweredADRatio",
           "mValues": [
             1.2999999523162842,
             1.2999999523162842,
@@ -2303,6 +3536,19 @@
             1.2999999523162842,
             1.2999999523162842,
             1.2999999523162842
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TotalADRatio",
+          "mValues": [
+            0.9624999761581421,
+            1.0,
+            1.037500023841858,
+            1.0750000476837158,
+            1.1124999523162842,
+            1.149999976158142,
+            1.1875
           ],
           "~class": "SpellDataValue"
         },
@@ -2320,59 +3566,7 @@
           "~class": "SpellDataValue"
         },
         {
-          "mName": "ASDuration",
-          "mValues": [
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0,
-            5.0
-          ],
-          "~class": "SpellDataValue"
-        },
-        {
-          "mName": "ASBonus",
-          "mValues": [
-            40.0,
-            40.0,
-            40.0,
-            40.0,
-            40.0,
-            40.0,
-            40.0
-          ],
-          "~class": "SpellDataValue"
-        },
-        {
-          "mName": "BuffDuration",
-          "mValues": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ],
-          "~class": "SpellDataValue"
-        },
-        {
-          "mName": "CritChanceScaling",
-          "mValues": [
-            0.3125,
-            0.3125,
-            0.3125,
-            0.3125,
-            0.3125,
-            0.3125,
-            0.3125
-          ],
-          "~class": "SpellDataValue"
-        },
-        {
-          "mName": "CritDamageScaling",
+          "mName": "QCritDamageScalar",
           "mValues": [
             1.0,
             1.0,
@@ -2637,15 +3831,14 @@
               "Elements": [
                 {
                   "nameOverride": "Spell_ListType_Damage",
-                  "type": "BaseDamage",
+                  "type": "Effect%dAmount",
                   "typeIndex": 1,
                   "~class": "TooltipInstanceListElement"
                 },
                 {
                   "Style": 1,
-                  "multiplier": 100.0,
-                  "nameOverride": "Spell_ListType_BonusADRatio",
-                  "type": "BaseADRatio",
+                  "nameOverride": "Spell_ListType_TotalADRatio",
+                  "type": "Effect%dAmount",
                   "typeIndex": 2,
                   "~class": "TooltipInstanceListElement"
                 },
@@ -2674,6 +3867,101 @@
       },
       "mCoefficient": 1.0,
       "mDisableCastBar": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            105.0,
+            110.0,
+            115.0,
+            120.0,
+            120.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.10000000149011612,
+            0.20000000298023224,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.5,
+            0.6000000238418579,
+            0.699999988079071
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
@@ -2707,42 +3995,7 @@
         1
       ],
       "mSpellCalculations": {
-        "CritScaling": {
-          "mFormulaParts": [
-            {
-              "mDataValue": "0xe298af96",
-              "mStat": 8,
-              "~class": "StatByNamedDataValueCalculationPart"
-            },
-            {
-              "mDataValue": "0xeb94537d",
-              "mStat": 9,
-              "mStatFormula": 2,
-              "~class": "StatByNamedDataValueCalculationPart"
-            },
-            {
-              "mNumber": 1.0,
-              "~class": "NumberCalculationPart"
-            }
-          ],
-          "~class": "GameCalculation"
-        },
-        "EmpoweredQAS": {
-          "mDisplayAsPercent": true,
-          "mFormulaParts": [
-            {
-              "mInitialBonusPerLevel": 3.0,
-              "mLevel1Value": 50.0,
-              "~class": "ByCharLevelBreakpointsCalculationPart"
-            }
-          ],
-          "mMultiplier": {
-            "mNumber": 0.009999999776482582,
-            "~class": "NumberCalculationPart"
-          },
-          "~class": "GameCalculation"
-        },
-        "EmpoweredQdamage": {
+        "0xc285d829": {
           "mFormulaParts": [
             {
               "mBreakpoints": [
@@ -2762,13 +4015,9 @@
               "~class": "StatByNamedDataValueCalculationPart"
             }
           ],
-          "mMultiplier": {
-            "mSpellCalculationKey": "CritScaling",
-            "~class": "0xf3cbe7b2"
-          },
           "~class": "GameCalculation"
         },
-        "QDamage": {
+        "0xe29bb654": {
           "mFormulaParts": [
             {
               "mDataValue": "baseDamage",
@@ -2780,10 +4029,70 @@
               "~class": "StatByNamedDataValueCalculationPart"
             }
           ],
+          "~class": "GameCalculation"
+        },
+        "CritDamageScalar": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mDataValue": "CritScalingRatio",
+              "mStat": 9,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "EmpoweredQAS": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mInitialBonusPerLevel": 3.0,
+              "mLevel1Value": 50.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
           "mMultiplier": {
-            "mSpellCalculationKey": "CritScaling",
-            "~class": "0xf3cbe7b2"
+            "mNumber": 0.009999999776482582,
+            "~class": "NumberCalculationPart"
           },
+          "~class": "GameCalculation"
+        },
+        "EmpoweredQdamageTT": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mBonusPerLevelAtAndAfter": 10.0,
+                  "mLevel": 9,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mInitialBonusPerLevel": 15.0,
+              "mLevel1Value": 30.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            },
+            {
+              "mDataValue": "TotalEmpoweredADRatio",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
+          "~class": "GameCalculation"
+        },
+        "TotalDamageTT": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "baseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "TotalADRatio",
+              "mStat": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "tooltipOnly": true,
           "~class": "GameCalculation"
         }
       },
@@ -2974,8 +4283,105 @@
         ],
         "~class": "SpellDataResourceClient"
       },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.8999999761581421,
       "mConsideredAsAutoAttack": true,
       "mDisableCastBar": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            10.0,
+            30.0,
+            50.0,
+            70.0,
+            90.0,
+            110.0,
+            130.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.10000000149011612,
+            0.20000000298023224,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.5,
+            0.6000000238418579,
+            0.699999988079071
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
@@ -3020,7 +4426,6 @@
   "Characters/Rengar/Spells/RengarQAbility/RengarQEmp": {
     "ObjectName": "RengarQEmp",
     "mBuff": {
-      "mBuffAttributeFlag": 32,
       "mDescription": "game_buff_tooltip_RengarQEmp",
       "~class": "BuffData"
     },
@@ -3091,6 +4496,101 @@
       "mCoefficient": 1.0,
       "mCoefficient2": 1.399999976158142,
       "mDisableCastBar": true,
+      "mEffectAmount": [
+        {
+          "value": [
+            30.0,
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            105.0,
+            110.0,
+            115.0,
+            120.0,
+            125.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.20000000298023224,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.5,
+            0.6000000238418579,
+            0.699999988079071,
+            0.800000011920929
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
@@ -3523,6 +5023,7 @@
         4.0,
         4.0
       ],
+      "mAnimationName": "Spell1a",
       "mCantCancelWhileWindingUp": true,
       "mCastTime": 0.20000000298023224,
       "mClientData": {
@@ -3594,6 +5095,128 @@
       },
       "mCoefficient": 0.6000000238418579,
       "mCoefficient2": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            0.0,
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0,
+            150.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0,
+            3.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
@@ -4064,6 +5687,7 @@
       "flags": 4,
       "mAffectsTypeFlags": 9221,
       "mAlternateName": "RengarR",
+      "mAnimationName": "Spell1",
       "mCantCancelWhileWindingUp": true,
       "mClientData": {
         "mTargeterDefinitions": [
@@ -4127,6 +5751,8 @@
         },
         "~class": "SpellDataResourceClient"
       },
+      "mCoefficient": 0.5,
+      "mCoefficient2": 0.6000000238418579,
       "mFloatVarsDecimals": [
         0,
         0,
@@ -4184,6 +5810,182 @@
       "~class": "BuffData"
     },
     "mScriptName": "RengarRBuff",
+    "~class": "SpellObject"
+  },
+  "Characters/Rengar/Spells/RengarRLeap": {
+    "ObjectName": "RengarRLeap",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_RengarR",
+      "~class": "BuffData"
+    },
+    "mScriptName": "RengarRLeap",
+    "mSpell": {
+      "bIsToggleSpell": true,
+      "castConeDistance": 100.0,
+      "castFrame": 0.14499999582767487,
+      "castRadius": [
+        75.0,
+        75.0,
+        75.0,
+        75.0,
+        75.0,
+        75.0,
+        75.0
+      ],
+      "castRange": [
+        2000.0,
+        2000.0,
+        3000.0,
+        4000.0,
+        4000.0,
+        4000.0,
+        4000.0
+      ],
+      "cooldownTime": [
+        130.0,
+        130.0,
+        100.0,
+        70.0,
+        70.0,
+        70.0,
+        70.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": 0.18330000340938568,
+      "flags": 4,
+      "mAffectsTypeFlags": 9221,
+      "mAlternateName": "RengarR",
+      "mAnimationName": "Spell1",
+      "mCantCancelWhileWindingUp": true,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionMinimap"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.10000000149011612,
+      "mEffectAmount": [
+        {
+          "value": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            14.0,
+            14.0,
+            22.0,
+            30.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2000.0,
+            2000.0,
+            3000.0,
+            4000.0,
+            4000.0,
+            4000.0,
+            4000.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0,
+            750.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            725.0,
+            725.0,
+            725.0,
+            725.0,
+            725.0,
+            725.0,
+            725.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Rengar/HUD/Icons2D/Rengar_R.dds"
+      ],
+      "mRequiredUnitTags": {
+        "mObjectTagList": [
+          "champion"
+        ],
+        "~class": "ObjectTags"
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mUseMinimapTargeting": true,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
     "~class": "SpellObject"
   },
   "Characters/Rengar/Spells/RengarRShred": {
@@ -4254,6 +6056,83 @@
         "~class": "SpellDataResourceClient"
       },
       "mCoefficient": 1.0,
+      "mEffectAmount": [
+        {
+          "value": [
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            0.0,
+            0.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1000.0,
+            2000.0,
+            3000.0,
+            4000.0,
+            0.0,
+            0.0,
+            1000.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            0.0,
+            0.0,
+            5.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            15.0,
+            15.0,
+            15.0,
+            15.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
@@ -4385,45 +6264,6 @@
             0.800000011920929,
             0.800000011920929,
             0.800000011920929
-          ],
-          "~class": "SpellDataValue"
-        },
-        {
-          "mName": "HealingWindow",
-          "mValues": [
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5
-          ],
-          "~class": "SpellDataValue"
-        },
-        {
-          "mName": "CCImmuneDuration",
-          "mValues": [
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5,
-            1.5
-          ],
-          "~class": "SpellDataValue"
-        },
-        {
-          "mName": "MonsterHealingMod",
-          "mValues": [
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0
           ],
           "~class": "SpellDataValue"
         }
@@ -4576,6 +6416,75 @@
         },
         "~class": "SpellDataResourceClient"
       },
+      "mCoefficient": 0.800000011920929,
+      "mEffectAmount": [
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
@@ -4735,12 +6644,12 @@
       "mAmmoCountHiddenInUI": true,
       "mAmmoRechargeTime": [
         22.0,
+        20.0,
+        18.0,
         16.0,
-        14.5,
-        13.0,
-        11.5,
-        10.0,
-        10.0
+        14.0,
+        12.0,
+        12.0
       ],
       "mAnimationName": "Spell2",
       "mCantCancelWhileWindingUp": true,
@@ -4755,6 +6664,84 @@
         "mUseTooltipFromAnotherSpell": "Characters/Rengar/Spells/RengarWAbility/RengarW",
         "~class": "SpellDataResourceClient"
       },
+      "mCoefficient": 0.699999988079071,
+      "mEffectAmount": [
+        {
+          "value": [
+            20.0,
+            50.0,
+            80.0,
+            110.0,
+            140.0,
+            170.0,
+            200.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
       "mFloatVarsDecimals": [
         0,
         0,
