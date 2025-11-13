@@ -2612,10 +2612,6 @@
             "LevelUp": {
               "Elements": [
                 {
-                  "type": "Cooldown",
-                  "~class": "TooltipInstanceListElement"
-                },
-                {
                   "nameOverride": "Spell_AmbessaQ_Rankup_CunningSweep_Damage",
                   "type": "Damage_1_Base",
                   "~class": "TooltipInstanceListElement"
@@ -2625,6 +2621,10 @@
                   "multiplier": 100.0,
                   "nameOverride": "Spell_AmbessaQ_Rankup_CunningSweep_MaxHealthDamage",
                   "type": "Damage_1_Percent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
                   "~class": "TooltipInstanceListElement"
                 },
                 {
@@ -2791,7 +2791,7 @@
           "mExpandedTooltipCalculationDisplay": 5,
           "mFormulaParts": [
             {
-              "mNumber": 125.0,
+              "mNumber": 150.0,
               "~class": "NumberCalculationPart"
             }
           ],

@@ -295,83 +295,6 @@
     "stoneName": "SwainStructuresDestroyed",
     "~class": "StatStoneData"
   },
-  "0x5bdfb55f": {
-    "ObjectName": "SwainESoulCollectAudio",
-    "mScriptName": "SwainESoulCollectAudio",
-    "mSpell": {
-      "castConeDistance": 100.0,
-      "castFrame": 1.0,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "flags": 4,
-      "mAffectsTypeFlags": 4106,
-      "mAlternateName": "VladimirTransfusionHeal",
-      "mCastType": 3,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "~class": "TargeterDefinitionRange"
-          }
-        ],
-        "~class": "SpellDataResourceClient"
-      },
-      "mDoesntBreakChannels": true,
-      "mLineWidth": 60.0,
-      "mMissileEffectKey": "Swain_R_DmgMis",
-      "mMissileSpec": {
-        "behaviors": [
-          {
-            "~class": "CastOnHit"
-          },
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "heightSolver": {
-          "~class": "BlendedLinearHeightSolver"
-        },
-        "mMissileWidth": 60.0,
-        "movementComponent": {
-          "mSpeed": 4000.0,
-          "mStartBoneName": "spine",
-          "mTracksTarget": false,
-          "mUseHeightOffsetAtEnd": true,
-          "~class": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "~class": "VerticalFacingFaceTarget"
-        },
-        "~class": "MissileSpecification"
-      },
-      "mProjectTargetToCastRange": true,
-      "mRequiredUnitTags": {
-        "mObjectTagList": [
-          "champion"
-        ],
-        "~class": "ObjectTags"
-      },
-      "missileSpeed": 4000.0,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
   "0x6a922732": {
     "EventsToTrack": [
       {
@@ -1280,8 +1203,7 @@
       "Characters/Swain/Spells/SwainEAbility/SwainE",
       "Characters/Swain/Spells/SwainEAbility/SwainE2",
       "0x51330b76",
-      "0x51eae544",
-      "0x5bdfb55f"
+      "0x51eae544"
     ],
     "mName": "SwainEAbility",
     "mRootSpell": "Characters/Swain/Spells/SwainEAbility/SwainE",
@@ -1330,13 +1252,13 @@
         {
           "mName": "E2Damage",
           "mValues": [
-            40.0,
-            80.0,
-            120.0,
-            160.0,
-            200.0,
-            240.0,
-            280.0
+            50.0,
+            90.0,
+            130.0,
+            170.0,
+            210.0,
+            250.0,
+            290.0
           ],
           "~class": "SpellDataValue"
         },
@@ -1600,12 +1522,12 @@
         "~class": "direction"
       },
       "mana": [
+        50.0,
+        55.0,
         60.0,
         65.0,
         70.0,
-        75.0,
-        80.0,
-        80.0
+        70.0
       ],
       "missileSpeed": 935.0,
       "selectionPriority": 2,

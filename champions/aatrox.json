@@ -1550,6 +1550,16 @@
         "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Passive.dds"
       ],
       "mSpellCalculations": {
+        "MonsterDamageCap": {
+          "mFormulaParts": [
+            {
+              "mEndValue": 320.0,
+              "mStartValue": 100.0,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
         "PCooldown": {
           "mFormulaParts": [
             {
@@ -1665,7 +1675,6 @@
       "Characters/Aatrox/Spells/AatroxQAbility/AatroxQ",
       "Characters/Aatrox/Spells/AatroxQAbility/AatroxQ2",
       "Characters/Aatrox/Spells/AatroxQAbility/AatroxQ3",
-      "Characters/Aatrox/Spells/AatroxQAbility/AatroxQChannel1",
       "Characters/Aatrox/Spells/AatroxQAbility/AatroxQWrapperCast"
     ],
     "mName": "AatroxQAbility",
@@ -1768,6 +1777,15 @@
         },
         {
           "mName": "QMonsterBonus",
+          "mValues": [
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
           "~class": "SpellDataValue"
         },
         {
@@ -1910,16 +1928,6 @@
         "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Q.dds"
       ],
       "mSpellCalculations": {
-        "0x46898f30": {
-          "mFormulaParts": [
-            {
-              "mDataValue": "QMonsterBonus",
-              "mStat": 2,
-              "~class": "StatByNamedDataValueCalculationPart"
-            }
-          ],
-          "~class": "GameCalculation"
-        },
         "QDamage": {
           "mFormulaParts": [
             {
@@ -2324,11 +2332,6 @@
       },
       "~class": "SpellDataResource"
     },
-    "~class": "SpellObject"
-  },
-  "Characters/Aatrox/Spells/AatroxQAbility/AatroxQChannel1": {
-    "ObjectName": "AatroxQChannel1",
-    "mScriptName": "AatroxQChannel1",
     "~class": "SpellObject"
   },
   "Characters/Aatrox/Spells/AatroxQAbility/AatroxQWrapperCast": {

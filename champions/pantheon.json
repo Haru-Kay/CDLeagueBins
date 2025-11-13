@@ -1926,7 +1926,6 @@
     "mChildSpells": [
       "Characters/Pantheon/Spells/PantheonQAbility/PantheonQ",
       "Characters/Pantheon/Spells/PantheonQAbility/PantheonQMissile",
-      "Characters/Pantheon/Spells/PantheonQAbility/PantheonQSlow",
       "Characters/Pantheon/Spells/PantheonQAbility/PantheonQTap"
     ],
     "mName": "PantheonQAbility",
@@ -2755,87 +2754,6 @@
       },
       "missileSpeed": 1500.0,
       "useAnimatorFramerate": true,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Pantheon/Spells/PantheonQAbility/PantheonQSlow": {
-    "ObjectName": "PantheonQSlow",
-    "mBuff": {
-      "mTooltipData": {
-        "mFormat": "0xb34f999a",
-        "mLocKeys": {
-          "keyName": "Buff_PantheonQSlow_Name",
-          "keyTooltip": "Buff_PantheonQSlow_Tooltip"
-        },
-        "mObjectName": "PantheonQSlow",
-        "~class": "TooltipInstanceBuff"
-      },
-      "~class": "BuffData"
-    },
-    "mScriptName": "PantheonQSlow",
-    "mSpell": {
-      "0x8958fee2": {
-        "~class": "0x8958fee2"
-      },
-      "castConeDistance": 100.0,
-      "castFrame": 20.15999984741211,
-      "castRadius": [
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0
-      ],
-      "castRange": [
-        650.0,
-        650.0,
-        650.0,
-        650.0,
-        650.0,
-        650.0,
-        650.0
-      ],
-      "cooldownTime": [
-        9.0,
-        9.0,
-        9.0,
-        9.0,
-        9.0,
-        9.0,
-        9.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "flags": 4,
-      "mAffectsTypeFlags": 1029,
-      "mAnimationName": "Spell2",
-      "mCantCancelWhileWindingUp": true,
-      "mCoefficient": 1.0,
-      "mImgIconName": [
-        "ASSETS/Characters/Pantheon/HUD/Icons2D/Pantheon_Q2.dds"
-      ],
-      "mRequiredUnitTags": {
-        "mObjectTagList": [
-          "champion"
-        ],
-        "~class": "ObjectTags"
-      },
-      "mTargetingTypeData": {
-        "~class": "Self"
-      },
-      "mana": [
-        80.0,
-        100.0,
-        120.0,
-        140.0,
-        160.0,
-        180.0
-      ],
-      "missileSpeed": 0.0,
-      "selectionPriority": 2,
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"

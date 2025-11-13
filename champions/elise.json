@@ -2685,8 +2685,7 @@
   "Characters/Elise/Spells/EliseRAbility": {
     "mChildSpells": [
       "Characters/Elise/Spells/EliseRAbility/EliseR",
-      "Characters/Elise/Spells/EliseRAbility/EliseRSpider",
-      "Characters/Elise/Spells/EliseRAbility/EliseRDummy"
+      "Characters/Elise/Spells/EliseRAbility/EliseRSpider"
     ],
     "mLifetimeManuallyManaged": true,
     "mName": "EliseRAbility",
@@ -2698,6 +2697,19 @@
     "ObjectName": "EliseR",
     "mScriptName": "EliseR",
     "mSpell": {
+      "0xfe87f21e": [
+        {
+          "0x1987941": [
+            {
+              "0x7b66f15d": false,
+              "mBuffName": "0x93251bfb",
+              "~class": "HasBuffCastRequirement"
+            }
+          ],
+          "0x6166b756": "PassiveTotalDamage",
+          "~class": "0xfe87f21e"
+        }
+      ],
       "DataValues": [
         {
           "mName": "PassiveBonusDamage",
@@ -3000,6 +3012,41 @@
         "~class": "ObjectTags"
       },
       "mSpellCalculations": {
+        "0x60195651": {
+          "mConditionalCalculationRequirements": {
+            "mBuffName": "0xe6fdcc5d",
+            "~class": "HasBuffCastRequirement"
+          },
+          "mConditionalGameCalculation": "0xe5407a95",
+          "mDefaultGameCalculation": "PassiveTotalDamage",
+          "~class": "GameCalculationConditional"
+        },
+        "0x84a53877": {
+          "mConditionalCalculationRequirements": {
+            "mBuffName": "0x93251bfb",
+            "~class": "HasBuffCastRequirement"
+          },
+          "mConditionalGameCalculation": "0x60195651",
+          "~class": "GameCalculationConditional"
+        },
+        "0xe5407a95": {
+          "mModifiedGameCalculation": "PassiveTotalDamage",
+          "mMultiplier": {
+            "mSubparts": [
+              {
+                "0x137cf12a": "0x80d12992",
+                "SourceObject": "Characters/Elise/Spells/EliseSpiderEAbility/EliseSpiderEInitial",
+                "~class": "0x9e9e2e5c"
+              },
+              {
+                "mNumber": 1.0,
+                "~class": "NumberCalculationPart"
+              }
+            ],
+            "~class": "SumOfSubPartsCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
         "PassiveTotalDamage": {
           "mFormulaParts": [
             {
@@ -3046,147 +3093,6 @@
         "Trait_Transformation",
         "Trait_Ultimate"
       ],
-      "mTargetingTypeData": {
-        "~class": "Self"
-      },
-      "missileSpeed": 943.7999877929688,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Elise/Spells/EliseRAbility/EliseRDummy": {
-    "ObjectName": "EliseRDummy",
-    "mScriptName": "EliseRDummy",
-    "mSpell": {
-      "bHaveHitBone": true,
-      "bHaveHitEffect": true,
-      "bIsToggleSpell": true,
-      "castConeDistance": 100.0,
-      "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "castRange": [
-        20.0,
-        20.0,
-        20.0,
-        20.0,
-        20.0,
-        20.0,
-        20.0
-      ],
-      "cooldownTime": [
-        4.0,
-        4.0,
-        4.0,
-        4.0,
-        4.0,
-        4.0,
-        4.0
-      ],
-      "delayCastOffsetPercent": 0.05739999935030937,
-      "flags": 4,
-      "mAffectsTypeFlags": 9221,
-      "mAlternateName": "EliseR",
-      "mAnimationName": "Spell2",
-      "mCantCancelWhileWindingUp": true,
-      "mCoefficient": 0.10000000149011612,
-      "mCoefficient2": 0.10000000149011612,
-      "mEffectAmount": [
-        {
-          "value": [
-            0.0,
-            10.0,
-            25.0,
-            40.0,
-            55.0,
-            0.0,
-            15.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            5.0,
-            10.0,
-            15.0,
-            20.0,
-            25.0,
-            0.0,
-            5.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            10.0,
-            10.0,
-            10.0,
-            10.0,
-            10.0,
-            0.0,
-            0.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.0,
-            10.0,
-            20.0,
-            30.0,
-            40.0,
-            0.0,
-            10.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            1.0,
-            2.0,
-            3.0,
-            4.0,
-            5.0,
-            0.0,
-            1.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        }
-      ],
-      "mHitBoneName": "root",
-      "mHitEffectName": "swain_metamorph.troy",
-      "mImgIconName": [
-        "ASSETS/Characters/Elise/HUD/Icons2D/EliseR.DDS",
-        "ASSETS/Characters/Elise/HUD/Icons2D/EliseR.DDS"
-      ],
-      "mRequiredUnitTags": {
-        "mObjectTagList": [
-          "champion"
-        ],
-        "~class": "ObjectTags"
-      },
-      "mSpellRevealsChampion": false,
       "mTargetingTypeData": {
         "~class": "Self"
       },

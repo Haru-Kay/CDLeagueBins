@@ -1017,6 +1017,13 @@
     },
     "mScriptName": "AshePassive",
     "mSpell": {
+      "0xfe87f21e": [
+        {
+          "0x6166b756": "0xda9201cc",
+          "0x7a9d64ea": true,
+          "~class": "0xfe87f21e"
+        }
+      ],
       "DataValues": [
         {
           "mName": "SlowDuration",
@@ -1097,6 +1104,15 @@
         "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_P.dds"
       ],
       "mSpellCalculations": {
+        "0xda9201cc": {
+          "mModifiedGameCalculation": "DamageBonus",
+          "mMultiplier": {
+            "mCoefficient": 1.0,
+            "mStat": 2,
+            "~class": "StatByCoefficientCalculationPart"
+          },
+          "~class": "GameCalculationModified"
+        },
         "DamageBonus": {
           "mDisplayAsPercent": true,
           "mFormulaParts": [
@@ -1342,13 +1358,13 @@
         },
         {
           "value": [
-            25.0,
-            25.0,
-            37.5,
+            20.0,
+            20.0,
+            30.0,
+            40.0,
             50.0,
-            62.5,
-            75.0,
-            75.0
+            60.0,
+            60.0
           ],
           "~class": "SpellEffectAmount"
         },
@@ -1808,8 +1824,7 @@
   },
   "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility": {
     "mChildSpells": [
-      "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawk",
-      "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawkCast"
+      "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawk"
     ],
     "mName": "AsheSpiritOfTheHawkAbility",
     "mRootSpell": "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawk",
@@ -2073,133 +2088,10 @@
     },
     "~class": "SpellObject"
   },
-  "Characters/Ashe/Spells/AsheSpiritOfTheHawkAbility/AsheSpiritOfTheHawkCast": {
-    "ObjectName": "AsheSpiritOfTheHawkCast",
-    "mScriptName": "AsheSpiritOfTheHawkCast",
-    "mSpell": {
-      "bHaveHitBone": true,
-      "castConeDistance": 100.0,
-      "castFrame": 11.3100004196167,
-      "castRadius": [
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875,
-        299.29998779296875
-      ],
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "cooldownTime": [
-        60.0,
-        60.0,
-        60.0,
-        60.0,
-        60.0,
-        60.0,
-        60.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mAffectsTypeFlags": 8192,
-      "mAlternateName": "AsheSpiritOfTheHawk",
-      "mAnimationName": "Spell3",
-      "mCantCancelWhileWindingUp": true,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "~class": "TargeterDefinitionRange"
-          }
-        ],
-        "~class": "SpellDataResourceClient"
-      },
-      "mCoefficient": 0.75,
-      "mEffectAmount": [
-        {
-          "value": [
-            0.0,
-            1.0,
-            2.0,
-            3.0,
-            4.0,
-            5.0,
-            6.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            10.0,
-            50.0,
-            90.0,
-            130.0,
-            170.0,
-            210.0,
-            250.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0,
-            25000.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        }
-      ],
-      "mImgIconName": [
-        "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_E.dds"
-      ],
-      "mProjectTargetToCastRange": true,
-      "mSpellRevealsChampion": false,
-      "mTargetingTypeData": {
-        "~class": "Location"
-      },
-      "missileSpeed": 1500.0,
-      "selectionPriority": 1,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
   "Characters/Ashe/Spells/EnchantedCrystalArrowAbility": {
     "AbilityTraits": 2049,
     "mChildSpells": [
       "Characters/Ashe/Spells/EnchantedCrystalArrowAbility/EnchantedCrystalArrow",
-      "Characters/Ashe/Spells/EnchantedCrystalArrowAbility/Enchanted_Crystal_Arrow",
       "Characters/Ashe/Spells/EnchantedCrystalArrowAbility/EnchantedCrystalArrowSlow"
     ],
     "mName": "EnchantedCrystalArrowAbility",
@@ -2619,15 +2511,6 @@
       "~class": "BuffData"
     },
     "mScriptName": "EnchantedCrystalArrowSlow",
-    "~class": "SpellObject"
-  },
-  "Characters/Ashe/Spells/EnchantedCrystalArrowAbility/Enchanted_Crystal_Arrow": {
-    "ObjectName": "Enchanted_Crystal_Arrow",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_Enchanted_Crystal_Arrow",
-      "~class": "BuffData"
-    },
-    "mScriptName": "Enchanted_Crystal_Arrow",
     "~class": "SpellObject"
   },
   "Characters/Ashe/Spells/ItemHurricaneAsheAttack": {

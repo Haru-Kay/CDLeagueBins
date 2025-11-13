@@ -1447,8 +1447,6 @@
   "Characters/Zeri/Spells/ZeriPassiveAbility": {
     "mChildSpells": [
       "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPassive",
-      "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriEnergized",
-      "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriEnergizedShieldTracker",
       "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPShieldMissile",
       "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPassiveShield"
     ],
@@ -1456,20 +1454,6 @@
     "mRootSpell": "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPassive",
     "mType": 3,
     "~class": "AbilityObject"
-  },
-  "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriEnergized": {
-    "ObjectName": "ZeriEnergized",
-    "mScriptName": "ZeriEnergized",
-    "~class": "SpellObject"
-  },
-  "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriEnergizedShieldTracker": {
-    "ObjectName": "ZeriEnergizedShieldTracker",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_RengarWEmp",
-      "~class": "BuffData"
-    },
-    "mScriptName": "ZeriEnergizedShieldTracker",
-    "~class": "SpellObject"
   },
   "Characters/Zeri/Spells/ZeriPassiveAbility/ZeriPShieldMissile": {
     "ObjectName": "ZeriPShieldMissile",
@@ -1734,6 +1718,13 @@
     "ObjectName": "ZeriQ",
     "mScriptName": "ZeriQ",
     "mSpell": {
+      "0xfe87f21e": [
+        {
+          "0x6166b756": "PassiveExecuteThreshold",
+          "0x7a9d64ea": true,
+          "~class": "0xfe87f21e"
+        }
+      ],
       "DataValues": [
         {
           "mName": "MinCooldown",
@@ -3556,13 +3547,13 @@
         {
           "mName": "MSPercent",
           "mValues": [
-            0.004999999888241291,
-            0.004999999888241291,
-            0.004999999888241291,
-            0.004999999888241291,
-            0.004999999888241291,
-            0.004999999888241291,
-            0.004999999888241291
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582
           ],
           "~class": "SpellDataValue"
         },

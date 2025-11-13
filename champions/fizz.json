@@ -411,7 +411,7 @@
     "attackSpeed": 0.6579999923706055,
     "attackSpeedPerLevel": 3.0999999046325684,
     "attackSpeedRatio": 0.6579999923706055,
-    "baseArmor": 22.0,
+    "baseArmor": 26.0,
     "baseDamage": 58.0,
     "baseHP": 640.0,
     "baseMoveSpeed": 335.0,
@@ -1698,6 +1698,32 @@
             0.5
           ],
           "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterDamageReduction",
+          "mValues": [
+            14.0,
+            14.0,
+            14.0,
+            14.0,
+            14.0,
+            14.0,
+            14.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "APRatio",
+          "mValues": [
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "~class": "SpellDataValue"
         }
       ],
       "castConeDistance": 100.0,
@@ -1834,6 +1860,19 @@
         "ASSETS/Characters/Fizz/HUD/Icons2D/Fizz_P.dds"
       ],
       "mSpellCalculations": {
+        "0x7439f884": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "0x5609bf75",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
         "DamageReductionCalc": {
           "mFormulaParts": [
             {
@@ -1841,8 +1880,8 @@
               "~class": "NamedDataValueCalculationPart"
             },
             {
-              "mCoefficient": 0.009999999776482582,
-              "~class": "StatByCoefficientCalculationPart"
+              "mDataValue": "APRatio",
+              "~class": "StatByNamedDataValueCalculationPart"
             }
           ],
           "~class": "GameCalculation"
@@ -2456,13 +2495,13 @@
         1300.0
       ],
       "cooldownTime": [
+        120.0,
+        120.0,
         100.0,
-        100.0,
-        85.0,
-        70.0,
-        70.0,
-        70.0,
-        40.0
+        80.0,
+        80.0,
+        80.0,
+        80.0
       ],
       "delayCastOffsetPercent": -0.5,
       "delayTotalTimePercent": -0.5,
@@ -3054,7 +3093,6 @@
       "Characters/Fizz/Spells/FizzWAbility/FizzWActive",
       "Characters/Fizz/Spells/FizzWAbility/FizzWAttack",
       "Characters/Fizz/Spells/FizzWAbility/FizzWBasicAttack",
-      "Characters/Fizz/Spells/FizzWAbility/FizzWDebuff",
       "Characters/Fizz/Spells/FizzWAbility/FizzWDOT",
       "Characters/Fizz/Spells/FizzWAbility/FizzWPassive"
     ],
@@ -3278,6 +3316,19 @@
             0.5,
             0.5,
             0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BonusMonsterDamage",
+          "mValues": [
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0,
+            60.0
           ],
           "~class": "SpellDataValue"
         }
@@ -3671,15 +3722,6 @@
       "~class": "BuffData"
     },
     "mScriptName": "FizzWDOT",
-    "~class": "SpellObject"
-  },
-  "Characters/Fizz/Spells/FizzWAbility/FizzWDebuff": {
-    "ObjectName": "FizzWDebuff",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_FizzWDebuff",
-      "~class": "BuffData"
-    },
-    "mScriptName": "FizzWDebuff",
     "~class": "SpellObject"
   },
   "Characters/Fizz/Spells/FizzWAbility/FizzWPassive": {

@@ -1,0 +1,2501 @@
+{
+  "0x3dd1507b": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      99999,
+      99999,
+      99999,
+      99999,
+      99999
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "1d7bfd89-3cb3-4924-938c-24a1f6c25a27",
+      "itemID": 126699,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_ZaahenESweetSpots",
+    "mNameTraKey": "stat_stone_name_ZaahenESweetSpots",
+    "stoneName": "ZaahenESweetSpots",
+    "~class": "StatStoneData"
+  },
+  "0x4c6e6c43": {
+    "ObjectName": "ZaahenPassive",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ZaahenPassive_Name",
+          "keyTooltip": "Buff_ZaahenPassive_Tooltip"
+        },
+        "mObjectName": "ZaahenPassive",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenPassive",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "PercentBonusAD",
+          "mValues": [
+            0.02500000037252903,
+            0.02500000037252903,
+            0.02500000037252903,
+            0.02500000037252903,
+            0.02500000037252903,
+            0.02500000037252903,
+            0.02500000037252903
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "FallOffDuration",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RevivePercent",
+          "mValues": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxStacks",
+          "mValues": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ReviveDuration",
+          "mValues": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "NumberOfTicks",
+          "mValues": [
+            32.0,
+            32.0,
+            32.0,
+            32.0,
+            32.0,
+            32.0,
+            32.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaxStacksMultiplier",
+          "mValues": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "ImgIconPath": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_Passive.dds",
+      "castRange": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cooldownTime": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mAnimationName": "",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_ZaahenP_Name",
+            "keySummary": "Spell_ZaahenP_Summary",
+            "keyTooltip": "Spell_ZaahenP_Tooltip",
+            "keyTooltipExtended": "Spell_ZaahenP_TooltipExtended"
+          },
+          "mObjectName": "ZaahenPassive",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCooldownNotAffectedByCDR": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Zaahen/HUD/Icons2D/ZaahenP.Zaahen.dds"
+      ],
+      "mSpellCalculations": {
+        "0x3e4849d8": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": 0.15000000596046448,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.15000000596046448,
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": 0.15000000596046448,
+                  "mLevel": 16,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 0.30000001192092896,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "0x7b62723d": {
+          "mDisplayAsPercent": true,
+          "mFormulaParts": [
+            {
+              "mEndValue": 0.032999999821186066,
+              "mStartValue": 0.014999999664723873,
+              "~class": "ByCharLevelInterpolationCalculationPart"
+            }
+          ],
+          "mPrecision": 1,
+          "~class": "GameCalculation"
+        },
+        "0xcb417a78": {
+          "mFormulaParts": [
+            {
+              "mBreakpoints": [
+                {
+                  "mAdditionalBonusAtThisLevel": -60.0,
+                  "mLevel": 6,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -60.0,
+                  "mLevel": 11,
+                  "~class": "Breakpoint"
+                },
+                {
+                  "mAdditionalBonusAtThisLevel": -60.0,
+                  "mLevel": 16,
+                  "~class": "Breakpoint"
+                }
+              ],
+              "mLevel1Value": 300.0,
+              "~class": "ByCharLevelBreakpointsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x5b7c946f": {
+    "ObjectName": "ZaahenQ2Attack",
+    "mScriptName": "ZaahenQ2Attack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.100000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "flags": 128,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Spell1_Attack2",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Zaahen_BA_Tar3",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x679696e": {
+    "ObjectName": "ZaahenPassiveBuff",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "Third_eye",
+              "effectKey": "Zaahen_P_buf",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        },
+        {
+          "OwnerCondition": {
+            "mOperator": 2,
+            "mValueA": {
+              "slot": 1,
+              "~class": "AbilityResourceDynamicMaterialFloatDriver"
+            },
+            "mValueB": {
+              "mValue": 1.0,
+              "~class": "FloatLiteralMaterialDriver"
+            },
+            "~class": "FloatComparisonMaterialDriver"
+          },
+          "PersistentVfxs": [
+            {
+              "boneName": "C_Buffbone_GLB_Layout_Loc",
+              "effectKey": "Zaahen_P_MaxStacks_Avatar",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenPassiveBuff",
+    "~class": "SpellObject"
+  },
+  "0x6d860387": {
+    "ObjectName": "ZaahenQAttack",
+    "mScriptName": "ZaahenQAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "canCastWhileDisabled": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.100000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "flags": 128,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Spell1_Attack1",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Zaahen_Q_1_Tar",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x718be9d": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      99999,
+      99999,
+      99999,
+      99999,
+      99999
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "b6323f96-8581-436d-8506-62c90850f8a7",
+      "itemID": 126703,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_ZaahenRDamageBlockedDesc",
+    "mNameTraKey": "stat_stone_name_ZaahenRDamageBlocked",
+    "stoneName": "ZaahenRDamageBlocked",
+    "~class": "StatStoneData"
+  },
+  "0x71b412a5": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      99999,
+      99999,
+      99999,
+      99999,
+      99999
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f9637841-4ffc-4da1-afd7-86ca9384ec33",
+      "itemID": 126698,
+      "~class": "catalogEntry"
+    },
+    "category": "0x899c06d",
+    "mDescriptionTraKey": "stat_stone_description_ZaahenPRevives",
+    "mNameTraKey": "stat_stone_name_ZaahenPRevives",
+    "stoneName": "ZaahenPRevives",
+    "~class": "StatStoneData"
+  },
+  "0x777c8b9": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      99999,
+      99999,
+      99999,
+      99999,
+      99999
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "d53d5a24-baea-4575-ba28-486a57797f6d",
+      "itemID": 126702,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_ZaahenQPullsDesc",
+    "mNameTraKey": "stat_stone_name_ZaahenQPulls",
+    "stoneName": "ZaahenQKnockups",
+    "~class": "StatStoneData"
+  },
+  "0x85ed8107": {
+    "ObjectName": "ZaahenQ2",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "Weapon_Eye",
+              "effectKey": "Zaahen_Q_2_Buff",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ZaahenQ_Name",
+          "keyTooltip": "Buff_ZaahenQ_Tooltip"
+        },
+        "mObjectName": "ZaahenQ2",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenQ2",
+    "mSpell": {
+      "ImgIconPath": "ASSETS/Characters/XinZhaoRework/HUD/Icons2D/XinZhaoReworkW.XinZhaoRework.dds",
+      "ShouldReceiveInputEvents": true,
+      "alwaysSnapFacing": true,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 14336,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mClientData": {
+        "mUseDeathRecapTooltipFromAnotherSpell": "Characters/Zaahen/Spells/ZaahenQAbility/ZaahenQ",
+        "mUseTooltipFromAnotherSpell": "Characters/Zaahen/Spells/ZaahenQAbility/ZaahenQ",
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mHideRangeIndicatorWhenCasting": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Zaahen/HUD/Icons2D/ZaahenQ2.Zaahen.dds"
+      ],
+      "mRollForCriticalHit": true,
+      "mShowChannelBar": false,
+      "mSpellTags": [
+        "Trait_AttackReset",
+        "PositiveEffect_EmpowerAttack"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "0x8f26f7ae": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      99999,
+      99999,
+      99999,
+      99999,
+      99999
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "f28496ed-f29a-49c4-8805-5efe929056c6",
+      "itemID": 126700,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_ZaahenRMultiHits",
+    "mNameTraKey": "stat_stone_name_ZaahenRMultiHits",
+    "stoneName": "ZaahenRMultiHits",
+    "~class": "StatStoneData"
+  },
+  "0xa704d85e": {
+    "ObjectName": "ZaahenQ2ReadyVFX",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "Weapon_Eye",
+              "effectKey": "Zaahen_Q_2_Warning",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenQ2ReadyVFX",
+    "~class": "SpellObject"
+  },
+  "0xacaa485": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      25,
+      65,
+      125,
+      150,
+      185
+    ],
+    "catalogEntry": {
+      "contentId": "5991aaa6-4cba-4471-89c9-0819a0c61b7b",
+      "itemID": 126697,
+      "~class": "catalogEntry"
+    },
+    "category": "0x5c6e96a2",
+    "mDescriptionTraKey": "stat_stone_description_ZaahenTakedowns",
+    "mNameTraKey": "stat_stone_name_ZaahenTakedowns",
+    "stoneName": "ZaahenTakedowns",
+    "~class": "StatStoneData"
+  },
+  "0xb18db23b": {
+    "catalogEntry": {
+      "contentId": "b5371315-ddd6-4925-b691-4e7972f3995b",
+      "itemID": 66600585,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_1",
+    "statStones": [
+      "0x3dd1507b",
+      "0x71b412a5",
+      "0x8f26f7ae"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xb27e4830": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      3,
+      10,
+      20,
+      22,
+      25
+    ],
+    "catalogEntry": {
+      "contentId": "b65158f3-5390-4762-a2ad-883566073a7b",
+      "itemID": 126695,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_ZaahenEpicMonstersKilled",
+    "mNameTraKey": "stat_stone_name_ZaahenEpicMonstersKilled",
+    "stoneName": "ZaahenEpicMonstersKilled",
+    "~class": "StatStoneData"
+  },
+  "0xb28db3ce": {
+    "catalogEntry": {
+      "contentId": "4f9e214d-7ca3-448c-9979-b315ace80d8f",
+      "itemID": 66600586,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_2",
+    "statStones": [
+      "0x777c8b9",
+      "0x718be9d",
+      "0xbc9a7287"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xbc9a7287": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      99999,
+      99999,
+      99999,
+      99999,
+      99999
+    ],
+    "TriggeredFromScript": true,
+    "catalogEntry": {
+      "contentId": "bceebb98-3e1a-4d91-a8ca-951e4b00027a",
+      "itemID": 126701,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6fc9407",
+    "mDescriptionTraKey": "stat_stone_description_ZaahenWPullsDesc",
+    "mNameTraKey": "stat_stone_name_ZaahenWPulls",
+    "stoneName": "ZaahenWPulls",
+    "~class": "StatStoneData"
+  },
+  "0xcb1cfc0c": {
+    "ObjectName": "ZaahenQKnockup",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ZaahenQ_Name",
+          "keyTooltip": "Buff_ZaahenQKnockup_Tooltip"
+        },
+        "mObjectName": "ZaahenQKnockup",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenQKnockup",
+    "~class": "SpellObject"
+  },
+  "0xd21ae14a": {
+    "ObjectName": "ZaahenPassiveRevive",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ZaahenPassiveRevive_Name",
+          "keyTooltip": "Buff_ZaahenPassiveRevive_Tooltip"
+        },
+        "mObjectName": "ZaahenPassiveRevive",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenPassiveRevive",
+    "~class": "SpellObject"
+  },
+  "0xd88a1424": {
+    "ObjectName": "ZaahenPassiveResourceTimer",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenPassiveResourceTimer",
+    "~class": "SpellObject"
+  },
+  "0xdb894f26": {
+    "ObjectName": "ZaahenRSpellPassive",
+    "mBuff": {
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenRSpellPassive",
+    "~class": "SpellObject"
+  },
+  "0xdee84951": {
+    "ObjectName": "ZaahenPassiveReviveReady",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "C_Buffbone_GLB_Layout_Loc",
+              "effectKey": "Zaahen_P_MaxStacks_Will_Revive",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        },
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "L_Buffbone_Glb_Sleeve_Loc",
+              "effectKey": "Zaahen_P_WillRevive_ShoulderL",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        },
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "R_Buffbone_Glb_Sleeve_Loc",
+              "effectKey": "Zaahen_P_WillRevive_ShoulderR",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ZaahenPassiveReviveReady_Name",
+          "keyTooltip": "Buff_ZaahenPassiveReviveReady_Tooltip"
+        },
+        "mObjectName": "ZaahenPassiveReviveReady",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenPassiveReviveReady",
+    "~class": "SpellObject"
+  },
+  "0xe706f408": {
+    "DataCollectionOnly": true,
+    "EpicStatStone": true,
+    "EventsToTrack": [
+      {
+        "EventToTrack": 244,
+        "~class": "StatStoneEventToTrack"
+      }
+    ],
+    "Milestones": [
+      5,
+      15,
+      25,
+      30,
+      40
+    ],
+    "catalogEntry": {
+      "contentId": "4059392e-b1ce-4779-9004-ae547629fa5c",
+      "itemID": 126696,
+      "~class": "catalogEntry"
+    },
+    "category": "0x6ce57a50",
+    "mDescriptionTraKey": "stat_stone_description_ZaahenStructuresDestroyed",
+    "mNameTraKey": "stat_stone_name_ZaahenStructuresDestroyed",
+    "stoneName": "ZaahenStructuresDestroyed",
+    "~class": "StatStoneData"
+  },
+  "0xe95651a3": {
+    "catalogEntry": {
+      "contentId": "e12e76d2-a307-4967-b3f9-c93f335f1ffb",
+      "itemID": 66600584,
+      "~class": "catalogEntry"
+    },
+    "name": "stat_stone_set_name_starter",
+    "statStones": [
+      "0xb27e4830",
+      "0xe706f408",
+      "0xacaa485"
+    ],
+    "~class": "StatStoneSet"
+  },
+  "0xea20784": {
+    "mChildSpells": [
+      "0x4c6e6c43",
+      "0xdee84951",
+      "0xd21ae14a",
+      "0xec8aa7db",
+      "0xd88a1424"
+    ],
+    "mName": "ZaahenPassiveAbility",
+    "mRootSpell": "0x4c6e6c43",
+    "mType": 3,
+    "~class": "AbilityObject"
+  },
+  "0xeb1fee18": {
+    "RecSpellRankUpInfos": [
+      {
+        "IsDefaultRecommendation": true,
+        "MapId": 11,
+        "Position": "Top",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1
+        ],
+        "~class": "recSpellRankUpInfo"
+      }
+    ],
+    "~class": "RecSpellRankUpInfolist"
+  },
+  "0xec8aa7db": {
+    "ObjectName": "ZaahenPassiveReviveCooldown",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ZaahenPassiveReviveCooldown_Name",
+          "keyTooltip": "Buff_ZaahenPassiveReviveCooldown_Tooltip"
+        },
+        "mObjectName": "ZaahenPassiveReviveCooldown",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenPassiveReviveCooldown",
+    "~class": "SpellObject"
+  },
+  "Characters/Zaahen/CharacterRecords/Root": {
+    "0xc5c48b41": 1,
+    "acquisitionRange": 600.0,
+    "armorPerLevel": 5.0,
+    "attackRange": 175.0,
+    "attackSpeed": 0.625,
+    "attackSpeedPerLevel": 2.5,
+    "attackSpeedRatio": 0.625,
+    "baseArmor": 36.0,
+    "baseDamage": 63.0,
+    "baseHP": 640.0,
+    "baseMoveSpeed": 345.0,
+    "baseSpellBlock": 32.0,
+    "baseStaticHPRegen": 1.5,
+    "basicAttack": {
+      "mAttackCastTime": 0.25,
+      "mAttackName": "ZaahenBasicAttack",
+      "mAttackTotalTime": 1.600000023841858,
+      "~class": "AttackSlotData"
+    },
+    "characterToolData": {
+      "0xaa75da9d": false,
+      "ChasingAttackRangePercent": 0.30000001192092896,
+      "attackRank": 8,
+      "championId": 904,
+      "classification": "Deadly",
+      "defenseRank": 6,
+      "description": "game_character_description_Zaahen",
+      "difficultyRank": 2,
+      "magicRank": 1,
+      "passiveData": [
+        {
+          "name": "Spell_ZaahenP_Name",
+          "~class": "ToolPassiveData"
+        }
+      ],
+      "roles": "SUPPORT",
+      "searchTags": "fighter",
+      "searchTagsSecondary": "assassin",
+      "~class": "characterToolData"
+    },
+    "critAttacks": [
+      {
+        "mAttackCastTime": 0.3199999928474426,
+        "mAttackName": "ZaahenCritAttack",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "damagePerLevel": 4.0,
+    "extraAttacks": [
+      {
+        "mAttackCastTime": 0.28999999165534973,
+        "mAttackName": "ZaahenBasicAttack2",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      },
+      {
+        "mAttackCastTime": 0.28999999165534973,
+        "mAttackName": "ZaahenBasicAttack3",
+        "mAttackTotalTime": 1.5499999523162842,
+        "~class": "AttackSlotData"
+      }
+    ],
+    "flags": 8414472,
+    "healthBarHeight": 92.0,
+    "hpPerLevel": 114.0,
+    "hpRegenPerLevel": 0.1599999964237213,
+    "mAbilities": [
+      "0xea20784",
+      "Characters/Zaahen/Spells/ZaahenQAbility",
+      "Characters/Zaahen/Spells/ZaahenEAbility",
+      "Characters/Zaahen/Spells/ZaahenRAbility",
+      "Characters/Zaahen/Spells/ZaahenWAbility"
+    ],
+    "mCharacterName": "Zaahen",
+    "mCharacterPassiveBuffs": [
+      {
+        "mParentPassiveBuff": "0x4c6e6c43",
+        "~class": "CharacterPassiveData"
+      }
+    ],
+    "mCharacterPassiveSpell": "0x4c6e6c43",
+    "mPreferredPerkStyle": "Perks/Styles/Domination",
+    "mUseCCAnimations": true,
+    "name": "game_character_displayname_Zaahen",
+    "passive1IconName": "ASSETS/Characters/Zaahen/HUD/Icons2D/ZaahenP.Zaahen.dds",
+    "passiveLuaName": "ZaahenPassive",
+    "passiveName": "Spell_ZaahenP_Name",
+    "passiveSpell": "ZaahenPassive",
+    "passiveToolTip": "Spell_ZaahenP_Summary",
+    "pathfindingCollisionRadius": 35.0,
+    "platformEnabled": true,
+    "primaryAbilityResource": {
+      "arBase": 350.0,
+      "arBaseStaticRegen": 1.6299999952316284,
+      "arPerLevel": 55.0,
+      "arRegenPerLevel": 0.15000000596046448,
+      "arType": 0,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "purchaseIdentities": [
+      "Melee"
+    ],
+    "secondaryAbilityResource": {
+      "0x4eb6a404": 2,
+      "arBase": 12.0,
+      "arBaseStaticRegen": 0.0,
+      "arHasRegenText": false,
+      "arIncrements": 1.0,
+      "arMaxSegments": 5,
+      "arOverrideEmptyPipName": "SamiraStyleEmpty",
+      "arOverrideLargePipName": "SamiraStyleLarge",
+      "arOverrideMediumPipName": "SamiraStyleMedium",
+      "arOverrideSmallPipName": "SamiraStyleSmall",
+      "arOverrideSpacerName": "PipSpacerSamira",
+      "arType": 7,
+      "~class": "AbilityResourceSlotInfo"
+    },
+    "selectionHeight": 0.0,
+    "selectionRadius": 100.0,
+    "spellBlockPerLevel": 2.049999952316284,
+    "spellNames": [
+      "ZaahenQAbility/ZaahenQ",
+      "ZaahenWAbility/ZaahenW",
+      "ZaahenEAbility/ZaahenE",
+      "ZaahenRAbility/ZaahenR"
+    ],
+    "spells": [
+      "Characters/Zaahen/Spells/ZaahenQAbility/ZaahenQ",
+      "Characters/Zaahen/Spells/ZaahenWAbility/ZaahenW",
+      "Characters/Zaahen/Spells/ZaahenEAbility/ZaahenE",
+      "Characters/Zaahen/Spells/ZaahenRAbility/ZaahenR"
+    ],
+    "unitTagsString": "Champion",
+    "useRiotRelationships": true,
+    "weaponMaterials": [
+      "XenZhaoBasicAttack"
+    ],
+    "~class": "CharacterRecord"
+  },
+  "Characters/Zaahen/Skins/Meta": {
+    "~class": "SkinCharacterMetaDataProperties"
+  },
+  "Characters/Zaahen/Spells/ZaahenBasicAttack": {
+    "ObjectName": "ZaahenBasicAttack",
+    "mScriptName": "ZaahenBasicAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.100000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "BasicAttack_1",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Zaahen_BA_Tar",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenBasicAttack2": {
+    "ObjectName": "ZaahenBasicAttack2",
+    "mScriptName": "ZaahenBasicAttack2",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.100000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "BasicAttack_2",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Zaahen_BA_Tar2",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenBasicAttack3": {
+    "ObjectName": "ZaahenBasicAttack3",
+    "mScriptName": "ZaahenBasicAttack3",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 8.100000381469727,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "BasicAttack_3",
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Zaahen_BA_Tar3",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 20.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenCritAttack": {
+    "ObjectName": "ZaahenCritAttack",
+    "mScriptName": "ZaahenCritAttack",
+    "mSpell": {
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.360000133514404,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delayCastOffsetPercent": -0.30000001192092896,
+      "mAffectsTypeFlags": 5327,
+      "mAnimationName": "Crit",
+      "mCantCancelWhileChanneling": true,
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_LAYOUT_LOC",
+      "mHitEffectKey": "Zaahen_BA_Crit_Tar",
+      "mHitEffectOrientType": 2,
+      "missileSpeed": 0.0,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenEAbility": {
+    "mName": "ZaahenEAbility",
+    "mRootSpell": "Characters/Zaahen/Spells/ZaahenEAbility/ZaahenE",
+    "~class": "AbilityObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenEAbility/ZaahenE": {
+    "ObjectName": "ZaahenE",
+    "mScriptName": "ZaahenE",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Damage_Base",
+          "mValues": [
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashDistance",
+          "mValues": [
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0,
+            350.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageBonusBase",
+          "mValues": [
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0,
+            210.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaximumRadius",
+          "mValues": [
+            375.0,
+            375.0,
+            375.0,
+            375.0,
+            375.0,
+            375.0,
+            375.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinimumRadius",
+          "mValues": [
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0,
+            200.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PercentHPDamage",
+          "mValues": [
+            0.029999999329447746,
+            0.03999999910593033,
+            0.05000000074505806,
+            0.05999999865889549,
+            0.07000000029802322,
+            0.07999999821186066,
+            0.09000000357627869
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterDamageCap",
+          "mValues": [
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0,
+            400.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterDamageBonus",
+          "mValues": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "alwaysSnapFacing": true,
+      "cantCastWhileRooted": true,
+      "castConeDistance": 100.0,
+      "castFrame": 12.0,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        10.0,
+        10.0,
+        9.5,
+        9.0,
+        8.5,
+        8.0,
+        8.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -0.875,
+      "mAffectsTypeFlags": 22543,
+      "mAnimationName": "Spell3",
+      "mCastingBreaksStealth": true,
+      "mChannelIsInterruptedByAttacking": false,
+      "mChannelIsInterruptedByDisables": false,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "overrideBaseRange": {
+              "mPerLevelValues": [
+                350.0,
+                350.0,
+                350.0,
+                350.0,
+                350.0,
+                350.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                350.0,
+                350.0,
+                350.0,
+                350.0,
+                350.0,
+                350.0
+              ],
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                375.0,
+                375.0,
+                375.0,
+                375.0,
+                375.0,
+                375.0
+              ],
+              "mValueType": 2,
+              "~class": "FloatPerSpellLevel"
+            },
+            "textureRadiusOverrideName": "ASSETS/Spells/Textures/darius_cleave_outside.tex",
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_BaseDamage",
+                  "type": "Damage_Base",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ZaahenE_SweetSpotDamage",
+                  "type": "DamageBonusBase",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_PercentHealthDamage",
+                  "type": "PercentHPDamage",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_ZaahenE_Name",
+            "keySummary": "Spell_ZaahenE_Summary",
+            "keyTooltip": "Spell_ZaahenE_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ZaahenE_TooltipExtended"
+          },
+          "mObjectName": "ZaahenE",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Zaahen/HUD/Icons2D/ZaahenE.Zaahen.dds"
+      ],
+      "mLineWidth": 15.0,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "BaseDamageCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "0x863f1bc0",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "BonusDamageCalc": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "0x211534da",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 1.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "missileSpeed": 0.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenQAbility": {
+    "mChildSpells": [
+      "0x6d860387",
+      "0x5b7c946f",
+      "0x85ed8107"
+    ],
+    "mName": "ZaahenQAbility",
+    "mRootSpell": "Characters/Zaahen/Spells/ZaahenQAbility/ZaahenQ",
+    "~class": "AbilityObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenQAbility/ZaahenQ": {
+    "ObjectName": "ZaahenQ",
+    "mBuff": {
+      "PersistentEffectConditions": [
+        {
+          "PersistentVfxs": [
+            {
+              "boneName": "Weapon_Eye",
+              "effectKey": "Zaahen_Q_1_Buff",
+              "~class": "PersistentVfxData"
+            }
+          ],
+          "~class": "PersistentEffectConditionData"
+        }
+      ],
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ZaahenQ_Name",
+          "keyTooltip": "Buff_ZaahenQ_Tooltip"
+        },
+        "mObjectName": "ZaahenQ",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenQ",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "Q1BaseDamage",
+          "mValues": [
+            0.0,
+            15.0,
+            30.0,
+            45.0,
+            60.0,
+            75.0,
+            90.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "KnockUpDuration",
+          "mValues": [
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "RecastWindow",
+          "mValues": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "TimeBetweenAttacks",
+          "mValues": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealPercent",
+          "mValues": [
+            0.03999999910593033,
+            0.05000000074505806,
+            0.05999999865889549,
+            0.07000000029802322,
+            0.07999999821186066,
+            0.09000000357627869,
+            0.10000000149011612
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MinionHealPercent",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "Q2BaseDamage",
+          "mValues": [
+            0.0,
+            30.0,
+            60.0,
+            90.0,
+            120.0,
+            150.0,
+            180.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QBonusRange",
+          "mValues": [
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0,
+            25.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "QCoeff",
+          "mValues": [
+            0.20000000298023224,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.5,
+            0.6000000238418579,
+            0.699999988079071,
+            0.800000011920929
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MonsterDamagePercent",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "ImgIconPath": "ASSETS/Characters/XinZhaoRework/HUD/Icons2D/XinZhaoReworkW.XinZhaoRework.dds",
+      "ShouldReceiveInputEvents": true,
+      "alwaysSnapFacing": true,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        9.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        7.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "flags": 4,
+      "mAffectsTypeFlags": 14336,
+      "mAnimationName": "",
+      "mCantCancelWhileWindingUp": true,
+      "mCantCancelWhileWindingUpTargetingChampion": true,
+      "mClientData": {
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "Q1BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_RecastDamage",
+                  "type": "Q2BaseDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_HealPercentOfDamageDealt",
+                  "type": "HealPercent",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_BonusADRatio",
+                  "type": "QCoeff",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_ZaahenQ_Name",
+            "keySummary": "Spell_ZaahenQ_Summary",
+            "keyTooltip": "Spell_ZaahenQ_Tooltip",
+            "keyTooltipExtendedBelowLine": "Spell_ZaahenQ_TooltipExtended"
+          },
+          "mObjectName": "ZaahenQ",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mDisableCastBar": true,
+      "mDoesNotConsumeCooldown": true,
+      "mHideRangeIndicatorWhenCasting": true,
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Zaahen/HUD/Icons2D/ZaahenQ.Zaahen.dds",
+        "ASSETS/Characters/Zaahen/HUD/Icons2D/ZaahenQ2.Zaahen.dds"
+      ],
+      "mRollForCriticalHit": true,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "InitialDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Q1BaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "0xff9784f1",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "SecondHitDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "Q2BaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mDataValue": "0xff9784f1",
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByNamedDataValueCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_AttackReset",
+        "PositiveEffect_EmpowerAttack"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "mana": [
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0
+      ],
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenRAbility": {
+    "mChildSpells": [
+      "Characters/Zaahen/Spells/ZaahenRAbility/ZaahenR"
+    ],
+    "mLifetimeManuallyManaged": true,
+    "mName": "ZaahenRAbility",
+    "mRootSpell": "Characters/Zaahen/Spells/ZaahenRAbility/ZaahenR",
+    "mType": 2,
+    "~class": "AbilityObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenRAbility/ZaahenR": {
+    "ObjectName": "ZaahenR",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ZaahenR_Name",
+          "keyTooltip": "Buff_ZaahenR_Tooltip"
+        },
+        "mObjectName": "ZaahenR",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenR",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "DashMaxDistance",
+          "mValues": [
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0,
+            600.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashMinDistance",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "EndDamage",
+          "mValues": [
+            100.0,
+            250.0,
+            400.0,
+            550.0,
+            700.0,
+            850.0,
+            1000.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DashSpeed",
+          "mValues": [
+            2800.0,
+            2800.0,
+            2800.0,
+            2800.0,
+            2800.0,
+            2800.0,
+            2800.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "HealPercent",
+          "mValues": [
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185,
+            0.33000001311302185
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "AoESize",
+          "mValues": [
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0,
+            550.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "DamageReduction",
+          "mValues": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "ArmorPen",
+          "mValues": [
+            0.0,
+            0.10000000149011612,
+            0.20000000298023224,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.5,
+            0.6000000238418579
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "ImgIconPath": "ASSETS/Characters/Viego/HUD/Icons2D/Viego_W.dds",
+      "ShouldReceiveInputEvents": true,
+      "alwaysSnapFacing": true,
+      "cantCastWhileRooted": true,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0,
+        600.0
+      ],
+      "cooldownTime": [
+        110.0,
+        110.0,
+        95.0,
+        80.0,
+        65.0,
+        60.0,
+        20.0
+      ],
+      "delayCastOffsetPercent": -1.0,
+      "delayTotalTimePercent": -1.0,
+      "mAffectsTypeFlags": 17431,
+      "mAnimationName": "Spell4_Intro",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "~class": "TargeterDefinitionRange"
+          },
+          {
+            "centerLocator": {
+              "basePosition": 3,
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintPosLocator": {
+              "orientationType": 3,
+              "~class": "DrawablePositionLocator"
+            },
+            "constraintRange": {
+              "mPerLevelValues": [
+                600.0,
+                600.0,
+                600.0,
+                600.0,
+                600.0,
+                600.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "isConstrainedToRange": true,
+            "overrideRadius": {
+              "mPerLevelValues": [
+                550.0,
+                550.0,
+                550.0,
+                550.0,
+                550.0,
+                550.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "~class": "TargeterDefinitionAoe"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "EndDamage",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "Style": 1,
+                  "multiplier": 100.0,
+                  "nameOverride": "Spell_ListType_ArmorPenetration",
+                  "type": "ArmorPen",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 3,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_ZaahenR_Name",
+            "keySummary": "Spell_ZaahenR_Summary",
+            "keyTooltip": "Spell_ZaahenR_Tooltip"
+          },
+          "mObjectName": "ZaahenR",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Zaahen/HUD/Icons2D/ZaahenR.Zaahen.dds"
+      ],
+      "mRollForCriticalHit": true,
+      "mShowChannelBar": false,
+      "mSpellCalculations": {
+        "0x197e9fb4": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "EndDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 2.0,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellTags": [
+        "Trait_Ultimate"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mana": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "missileSpeed": 8700.0,
+      "selectionPriority": 1,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenWAbility": {
+    "mChildSpells": [
+      "Characters/Zaahen/Spells/ZaahenWAbility/ZaahenW"
+    ],
+    "mName": "ZaahenWAbility",
+    "mRootSpell": "Characters/Zaahen/Spells/ZaahenWAbility/ZaahenW",
+    "~class": "AbilityObject"
+  },
+  "Characters/Zaahen/Spells/ZaahenWAbility/ZaahenW": {
+    "ObjectName": "ZaahenW",
+    "mBuff": {
+      "mTooltipData": {
+        "mFormat": "0xb34f999a",
+        "mLocKeys": {
+          "keyName": "Buff_ZaahenW_Name",
+          "keyTooltip": "Buff_ZaahenW_Tooltip"
+        },
+        "mObjectName": "ZaahenW",
+        "~class": "TooltipInstanceBuff"
+      },
+      "~class": "BuffData"
+    },
+    "mScriptName": "ZaahenW",
+    "mSpell": {
+      "DataValues": [
+        {
+          "mName": "InitialBaseDamage",
+          "mValues": [
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "SecondaryBaseDamage",
+          "mValues": [
+            20.0,
+            40.0,
+            60.0,
+            80.0,
+            100.0,
+            120.0,
+            140.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "MaximumPullDistance",
+          "mValues": [
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0,
+            225.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "PullSpeed",
+          "mValues": [
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0,
+            900.0
+          ],
+          "~class": "SpellDataValue"
+        }
+      ],
+      "bHaveHitBone": true,
+      "bHaveHitEffect": true,
+      "castConeDistance": 100.0,
+      "castFrame": 7.5,
+      "castRadius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "castRange": [
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0,
+        850.0
+      ],
+      "cooldownTime": [
+        16.0,
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "luaOnMissileUpdateDistanceInterval": 10.0,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell4",
+      "mCantCancelWhileWindingUp": true,
+      "mCastTime": 0.5,
+      "mCastType": 1,
+      "mCasterPositionEndOfCastUpdate": 2,
+      "mCastingBreaksStealth": true,
+      "mClientData": {
+        "mTargeterDefinitions": [
+          {
+            "endLocator": {
+              "basePosition": 3,
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "lineWidth": {
+              "mPerLevelValues": [
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0,
+                80.0
+              ],
+              "mValueType": 1,
+              "~class": "FloatPerSpellLevel"
+            },
+            "startLocator": {
+              "orientationType": 2,
+              "~class": "DrawablePositionLocator"
+            },
+            "~class": "TargeterDefinitionLine"
+          },
+          {
+            "hideWithLineIndicator": true,
+            "useCasterBoundingBox": false,
+            "~class": "TargeterDefinitionRange"
+          }
+        ],
+        "mTooltipData": {
+          "mFormat": "0xd7c27163",
+          "mLists": {
+            "LevelUp": {
+              "Elements": [
+                {
+                  "nameOverride": "Spell_ListType_Damage",
+                  "type": "InitialBaseDamage",
+                  "typeIndex": 1,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "type": "Cooldown",
+                  "~class": "TooltipInstanceListElement"
+                }
+              ],
+              "levelCount": 5,
+              "~class": "TooltipInstanceList"
+            }
+          },
+          "mLocKeys": {
+            "keyName": "Spell_ZaahenW_Name",
+            "keySummary": "Spell_ZaahenW_Summary",
+            "keyTooltip": "Spell_ZaahenW_Tooltip"
+          },
+          "mObjectName": "ZaahenW",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mHitBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
+      "mHitEffectKey": "Zaahen_W_Mis_Tar",
+      "mIgnoreRangeCheck": true,
+      "mImgIconName": [
+        "ASSETS/Characters/Zaahen/HUD/Icons2D/ZaahenW.Zaahen.dds"
+      ],
+      "mLineWidth": 70.0,
+      "mMinimapIconName": "ASSETS/Characters/Ashe/HUD/Icons2D/Bowmaster_EnchantedArrow_Circle.tex",
+      "mMinimapIconRotation": true,
+      "mMissileEffectKey": "Zaahen_w_mis",
+      "mMissileSpec": {
+        "behaviors": [
+          {
+            "~class": "CastOnHit"
+          },
+          {
+            "~class": "DestroyOnMovementComplete"
+          }
+        ],
+        "heightSolver": {
+          "~class": "BlendedLinearHeightSolver"
+        },
+        "mMissileWidth": 70.0,
+        "movementComponent": {
+          "mProjectTargetToCastRange": true,
+          "mSpeed": 2900.0,
+          "mStartBoneName": "C_Buffbone_Glb_Layout_Loc",
+          "mTracksTarget": false,
+          "mUseHeightOffsetAtEnd": true,
+          "~class": "FixedSpeedMovement"
+        },
+        "verticalFacing": {
+          "~class": "VerticalFacingFaceTarget"
+        },
+        "visibilityComponent": {
+          "mPerceptionBubbleRadius": 750.0,
+          "~class": "Defaultvisibility"
+        },
+        "~class": "MissileSpecification"
+      },
+      "mSpellCalculations": {
+        "InitialDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "InitialBaseDamage",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
+        "SecondaryDamage": {
+          "mFormulaParts": [
+            {
+              "mDataValue": "0x96bfc63d",
+              "~class": "NamedDataValueCalculationPart"
+            },
+            {
+              "mCoefficient": 0.5,
+              "mStat": 2,
+              "mStatFormula": 2,
+              "~class": "StatByCoefficientCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        }
+      },
+      "mSpellRevealsChampion": false,
+      "mTargetingTypeData": {
+        "~class": "Location"
+      },
+      "mUseMinimapTargeting": true,
+      "mana": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "missileSpeed": 1600.0,
+      "useAnimatorFramerate": true,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  }
+}

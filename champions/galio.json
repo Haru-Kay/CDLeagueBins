@@ -410,6 +410,7 @@
       "Shared/Spells/BaseSpell",
       "Shared/Spells/BaseSpell"
     ],
+    "0xc5c48b41": 1,
     "acquisitionRange": 400.0,
     "armorPerLevel": 4.699999809265137,
     "attackRange": 150.0,
@@ -1930,7 +1931,6 @@
     "AbilityTraits": 2059,
     "mChildSpells": [
       "Characters/Galio/Spells/GalioRAbility/GalioR",
-      "Characters/Galio/Spells/GalioRAbility/GalioRAllyBuff",
       "Characters/Galio/Spells/GalioRAbility/GalioRShield",
       "Characters/Galio/Spells/GalioRAbility/GalioRSpellPassive"
     ],
@@ -2270,39 +2270,6 @@
       ],
       "missileSpeed": 0.0,
       "selectionPriority": 2,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Galio/Spells/GalioRAbility/GalioRAllyBuff": {
-    "ObjectName": "GalioRAllyBuff",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_GalioRAllyBuff",
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "~class": "BuffData"
-    },
-    "mScriptName": "GalioRAllyBuff",
-    "mSpell": {
-      "mSpellTags": [
-        "PositiveEffect_Boon"
-      ],
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"

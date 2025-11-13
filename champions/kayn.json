@@ -3927,8 +3927,7 @@
     "AbilityTraits": 2048,
     "mChildSpells": [
       "Characters/Kayn/Spells/KaynWAbility/KaynW",
-      "Characters/Kayn/Spells/KaynWAbility/KaynAssW",
-      "Characters/Kayn/Spells/KaynWAbility/KaynAssWJumpOut"
+      "Characters/Kayn/Spells/KaynWAbility/KaynAssW"
     ],
     "mName": "KaynWAbility",
     "mRootSpell": "Characters/Kayn/Spells/KaynWAbility/KaynW",
@@ -4153,69 +4152,6 @@
         60.0,
         65.0
       ],
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Kayn/Spells/KaynWAbility/KaynAssWJumpOut": {
-    "ObjectName": "KaynAssWJumpOut",
-    "mScriptName": "KaynAssWJumpOut",
-    "mSpell": {
-      "castRange": [
-        650.0,
-        650.0,
-        650.0,
-        650.0,
-        650.0,
-        650.0,
-        650.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "flags": 36,
-      "mCantCancelWhileWindingUp": true,
-      "mClientData": {
-        "mRightClickSpellAction": 1,
-        "mTargeterDefinitions": [
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "~class": "DrawablePositionLocator"
-            },
-            "lineStopsAtEndPosition": true,
-            "lineWidth": {
-              "mPerLevelValues": [
-                75.0,
-                75.0,
-                75.0,
-                75.0,
-                75.0,
-                75.0
-              ],
-              "mValueType": 1,
-              "~class": "FloatPerSpellLevel"
-            },
-            "minimumDisplayedRange": 10.0,
-            "~class": "TargeterDefinitionLine"
-          }
-        ],
-        "~class": "SpellDataResourceClient"
-      },
-      "mImgIconName": [
-        "Kayn_WGTFO.dds"
-      ],
-      "mLineWidth": 100.0,
-      "mSpellRevealsChampion": false,
-      "mTargetingTypeData": {
-        "~class": "LocationClamped"
-      },
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"

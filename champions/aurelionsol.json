@@ -2656,8 +2656,7 @@
       "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolRManager",
       "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolRMissile",
       "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR2",
-      "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR2Missile",
-      "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR2ShockwaveMinimap"
+      "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR2Missile"
     ],
     "mName": "AurelionSolRAbility",
     "mRootSpell": "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR",
@@ -3622,55 +3621,6 @@
       "mSpellRevealsChampion": false,
       "mTargetingTypeData": {
         "~class": "Location"
-      },
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/AurelionSol/Spells/AurelionSolRAbility/AurelionSolR2ShockwaveMinimap": {
-    "ObjectName": "AurelionSolR2ShockwaveMinimap",
-    "mScriptName": "AurelionSolR2ShockwaveMinimap",
-    "mSpell": {
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "flags": 4194340,
-      "luaOnMissileUpdateDistanceInterval": 500.0,
-      "mAffectsTypeFlags": 9216,
-      "mCastType": 7,
-      "mIgnoreRangeCheck": true,
-      "mMinimapIconDisplayFlag": 3,
-      "mMinimapIconName": "ASSETS/Characters/AurelionSol/HUD/MiniMapShockwave.tex",
-      "mMinimapIconRotation": true,
-      "mMissileSpec": {
-        "behaviors": [
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "movementComponent": {
-          "mAngularVelocity": 1.0,
-          "mLifetime": 12.0,
-          "mVisualsTrackHiddenTargets": true,
-          "~class": "SyncCircleMovement"
-        },
-        "verticalFacing": {
-          "~class": "VeritcalFacingMatchVelocity"
-        },
-        "visibilityComponent": {
-          "mPerceptionBubbleRadius": 25.0,
-          "~class": "Defaultvisibility"
-        },
-        "~class": "MissileSpecification"
-      },
-      "mTargetingTypeData": {
-        "~class": "TargetOrLocation"
       },
       "~class": "SpellDataResource"
     },

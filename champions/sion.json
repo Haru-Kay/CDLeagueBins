@@ -83,6 +83,180 @@
     },
     "~class": "SpellObject"
   },
+  "0x302032d8": {
+    "ObjectName": "SionPassiveSpeed",
+    "mBuff": {
+      "mDescription": "game_buff_tooltip_SionPassiveSpeed",
+      "~class": "BuffData"
+    },
+    "mScriptName": "SionPassiveSpeed",
+    "mSpell": {
+      "castConeDistance": 100.0,
+      "castFrame": 19.139999389648438,
+      "castRadius": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0
+      ],
+      "castRange": [
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0,
+        25000.0
+      ],
+      "cooldownTime": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "delayCastOffsetPercent": -0.5,
+      "delayTotalTimePercent": -0.5,
+      "flags": 4,
+      "mAffectsTypeFlags": 6154,
+      "mAnimationName": "Spell2",
+      "mCantCancelWhileWindingUp": true,
+      "mClientData": {
+        "mTooltipData": {
+          "EnableExtendedTooltip": false,
+          "mFormat": "0x476ec0b8",
+          "mLocKeys": {
+            "keyName": "Spell_SionPassiveSpeed_Name",
+            "keyTooltip": "Spell_SionPassiveSpeed_Tooltip"
+          },
+          "mObjectName": "SionPassiveSpeed",
+          "~class": "TooltipInstanceSpell"
+        },
+        "~class": "SpellDataResourceClient"
+      },
+      "mCoefficient": 0.4000000059604645,
+      "mEffectAmount": [
+        {
+          "value": [
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            10.0,
+            30.0,
+            50.0,
+            70.0,
+            90.0,
+            110.0,
+            130.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "value": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        },
+        {
+          "~class": "SpellEffectAmount"
+        }
+      ],
+      "mFloatVarsDecimals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "mImgIconName": [
+        "ASSETS/Characters/Sion/HUD/Icons2D/Sion_Passive2.dds",
+        "ASSETS/Characters/Sion/HUD/Icons2D/Sion_Passive2.dds"
+      ],
+      "mTargetingTypeData": {
+        "~class": "Self"
+      },
+      "missileSpeed": 0.0,
+      "selectionPriority": 2,
+      "~class": "SpellDataResource"
+    },
+    "~class": "SpellObject"
+  },
   "0x438789ca": {
     "EventsToTrack": [
       {
@@ -1788,7 +1962,8 @@
   "Characters/Sion/Spells/SionPassiveAbility": {
     "AbilityTraits": 64,
     "mChildSpells": [
-      "Characters/Sion/Spells/SionPassiveAbility/SionPassive"
+      "Characters/Sion/Spells/SionPassiveAbility/SionPassive",
+      "0x302032d8"
     ],
     "mName": "SionPassiveAbility",
     "mRootSpell": "Characters/Sion/Spells/SionPassiveAbility/SionPassive",
@@ -2121,13 +2296,13 @@
         {
           "mName": "MonsterRatio",
           "mValues": [
-            150.0,
-            150.0,
-            150.0,
-            150.0,
-            150.0,
-            150.0,
-            150.0
+            165.0,
+            165.0,
+            165.0,
+            165.0,
+            165.0,
+            165.0,
+            165.0
           ],
           "~class": "SpellDataValue"
         },
@@ -3678,188 +3853,13 @@
   "Characters/Sion/Spells/SionRAbility": {
     "AbilityTraits": 2049,
     "mChildSpells": [
-      "Characters/Sion/Spells/SionRAbility/SionR",
-      "Characters/Sion/Spells/SionRAbility/SionPassiveSpeed"
+      "Characters/Sion/Spells/SionRAbility/SionR"
     ],
     "mLifetimeManuallyManaged": true,
     "mName": "SionRAbility",
     "mRootSpell": "Characters/Sion/Spells/SionRAbility/SionR",
     "mType": 2,
     "~class": "AbilityObject"
-  },
-  "Characters/Sion/Spells/SionRAbility/SionPassiveSpeed": {
-    "ObjectName": "SionPassiveSpeed",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_SionPassiveSpeed",
-      "~class": "BuffData"
-    },
-    "mScriptName": "SionPassiveSpeed",
-    "mSpell": {
-      "castConeDistance": 100.0,
-      "castFrame": 19.139999389648438,
-      "castRadius": [
-        400.0,
-        400.0,
-        400.0,
-        400.0,
-        400.0,
-        400.0,
-        400.0
-      ],
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "cooldownTime": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "flags": 4,
-      "mAffectsTypeFlags": 6154,
-      "mAnimationName": "Spell2",
-      "mCantCancelWhileWindingUp": true,
-      "mClientData": {
-        "mTooltipData": {
-          "EnableExtendedTooltip": false,
-          "mFormat": "0x476ec0b8",
-          "mLocKeys": {
-            "keyName": "Spell_SionPassiveSpeed_Name",
-            "keyTooltip": "Spell_SionPassiveSpeed_Tooltip"
-          },
-          "mObjectName": "SionPassiveSpeed",
-          "~class": "TooltipInstanceSpell"
-        },
-        "~class": "SpellDataResourceClient"
-      },
-      "mCoefficient": 0.4000000059604645,
-      "mEffectAmount": [
-        {
-          "value": [
-            50.0,
-            100.0,
-            150.0,
-            200.0,
-            250.0,
-            300.0,
-            350.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            10.0,
-            30.0,
-            50.0,
-            70.0,
-            90.0,
-            110.0,
-            130.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.15000000596046448,
-            0.15000000596046448,
-            0.15000000596046448,
-            0.15000000596046448,
-            0.15000000596046448,
-            0.15000000596046448,
-            0.15000000596046448
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.10000000149011612,
-            0.10000000149011612,
-            0.10000000149011612,
-            0.10000000149011612,
-            0.10000000149011612,
-            0.10000000149011612,
-            0.10000000149011612
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            8.0,
-            8.0,
-            8.0,
-            8.0,
-            8.0,
-            8.0,
-            8.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        }
-      ],
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "mImgIconName": [
-        "ASSETS/Characters/Sion/HUD/Icons2D/Sion_Passive2.dds",
-        "ASSETS/Characters/Sion/HUD/Icons2D/Sion_Passive2.dds"
-      ],
-      "mTargetingTypeData": {
-        "~class": "Self"
-      },
-      "missileSpeed": 0.0,
-      "selectionPriority": 2,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
   },
   "Characters/Sion/Spells/SionRAbility/SionR": {
     "BotData": {

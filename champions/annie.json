@@ -852,8 +852,7 @@
     "AbilityTraits": 8,
     "mChildSpells": [
       "Characters/Annie/Spells/AnnieEAbility/AnnieE",
-      "Characters/Annie/Spells/AnnieEAbility/AnnieESpeedBuff",
-      "Characters/Annie/Spells/AnnieEAbility/MoltenShield"
+      "Characters/Annie/Spells/AnnieEAbility/AnnieESpeedBuff"
     ],
     "mName": "AnnieEAbility",
     "mRootSpell": "Characters/Annie/Spells/AnnieEAbility/AnnieE",
@@ -1179,122 +1178,6 @@
       "~class": "BuffData"
     },
     "mScriptName": "AnnieESpeedBuff",
-    "~class": "SpellObject"
-  },
-  "Characters/Annie/Spells/AnnieEAbility/MoltenShield": {
-    "ObjectName": "MoltenShield",
-    "mScriptName": "MoltenShield",
-    "mSpell": {
-      "bHaveHitBone": true,
-      "castConeDistance": 100.0,
-      "castFrame": 25.0,
-      "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "castRange": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "flags": 4,
-      "mAffectsTypeFlags": 9221,
-      "mAnimationName": "Spell1",
-      "mCantCancelWhileWindingUp": true,
-      "mCoefficient": 0.20000000298023224,
-      "mEffectAmount": [
-        {
-          "value": [
-            10.0,
-            16.0,
-            22.0,
-            28.0,
-            34.0,
-            40.0,
-            46.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            10.0,
-            20.0,
-            30.0,
-            40.0,
-            50.0,
-            60.0,
-            70.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0,
-            3.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        }
-      ],
-      "mHitBoneName": "head",
-      "mImgIconName": [
-        "ASSETS/Characters/Annie/HUD/Icons2D/Annie_E.dds"
-      ],
-      "mRequiredUnitTags": {
-        "mObjectTagList": [
-          "champion"
-        ],
-        "~class": "ObjectTags"
-      },
-      "mTargetingTypeData": {
-        "~class": "Self"
-      },
-      "mana": [
-        20.0,
-        20.0,
-        20.0,
-        20.0,
-        20.0,
-        20.0
-      ],
-      "missileSpeed": 20.0,
-      "selectionPriority": 1,
-      "~class": "SpellDataResource"
-    },
     "~class": "SpellObject"
   },
   "Characters/Annie/Spells/AnniePassiveAbility": {

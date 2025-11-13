@@ -854,7 +854,6 @@
       "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnE",
       "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnE2",
       "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnE2Dash",
-      "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnE2DummyCast",
       "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnEHaste"
     ],
     "mName": "EvelynnEAbility",
@@ -1662,43 +1661,6 @@
         "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_Ravage.dds"
       ],
       "mShowChannelBar": false,
-      "useAnimatorFramerate": true,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Evelynn/Spells/EvelynnEAbility/EvelynnE2DummyCast": {
-    "ObjectName": "EvelynnE2DummyCast",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_RengarPassiveBuff",
-      "~class": "BuffData"
-    },
-    "mScriptName": "EvelynnE2DummyCast",
-    "mSpell": {
-      "castRange": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "flags": 4,
-      "mAffectsTypeFlags": 8192,
-      "mAnimationName": "Spell3_Empowered",
-      "mTargetingTypeData": {
-        "~class": "Self"
-      },
       "useAnimatorFramerate": true,
       "~class": "SpellDataResource"
     },
@@ -3427,7 +3389,6 @@
     "mChildSpells": [
       "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnW",
       "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnWApplyMark",
-      "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnWDebuff",
       "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnWMissile",
       "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnWShred"
     ],
@@ -3976,146 +3937,6 @@
       "mTargetingTypeData": {
         "~class": "Self"
       },
-      "missileSpeed": 2400.0,
-      "selectionPriority": 1,
-      "useAnimatorFramerate": true,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Evelynn/Spells/EvelynnWAbility/EvelynnWDebuff": {
-    "ObjectName": "EvelynnWDebuff",
-    "mScriptName": "EvelynnWDebuff",
-    "mSpell": {
-      "castConeDistance": 100.0,
-      "castFrame": 7.5,
-      "castRange": [
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0
-      ],
-      "cooldownTime": [
-        17.0,
-        17.0,
-        15.0,
-        13.0,
-        11.0,
-        9.0,
-        9.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mAffectsTypeFlags": 2050,
-      "mAnimationName": "Spell4",
-      "mCantCancelWhileWindingUp": true,
-      "mCastTime": 0.15000000596046448,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "~class": "TargeterDefinitionRange"
-          }
-        ],
-        "~class": "SpellDataResourceClient"
-      },
-      "mCoefficient": 0.5,
-      "mCoefficient2": 0.800000011920929,
-      "mEffectAmount": [
-        {
-          "value": [
-            70.0,
-            70.0,
-            100.0,
-            130.0,
-            160.0,
-            200.0,
-            200.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            -0.30000001192092896,
-            -0.30000001192092896,
-            -0.30000001192092896,
-            -0.30000001192092896,
-            -0.30000001192092896,
-            -0.30000001192092896,
-            -0.30000001192092896
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        }
-      ],
-      "mFloatVarsDecimals": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "mImgIconName": [
-        "Ahri_Charm.dds"
-      ],
-      "mLineWidth": 100.0,
-      "mSpellTags": [
-        ""
-      ],
-      "mana": [
-        50.0,
-        50.0,
-        50.0,
-        50.0,
-        50.0,
-        50.0
-      ],
       "missileSpeed": 2400.0,
       "selectionPriority": 1,
       "useAnimatorFramerate": true,

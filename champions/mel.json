@@ -1508,12 +1508,12 @@
         "PassiveBonusMissileDamage": {
           "mFormulaParts": [
             {
-              "mEndValue": 33.0,
+              "mEndValue": 50.0,
               "mStartValue": 8.0,
               "~class": "ByCharLevelInterpolationCalculationPart"
             },
             {
-              "mCoefficient": 0.029999999329447746,
+              "mCoefficient": 0.05000000074505806,
               "~class": "StatByCoefficientCalculationPart"
             }
           ],
@@ -1813,23 +1813,6 @@
           0,
           1,
           2,
-          0
-        ],
-        "~class": "recSpellRankUpInfo"
-      },
-      {
-        "MapId": 11,
-        "Position": "bottom",
-        "mDefaultPriority": [
-          3,
-          0,
-          2,
-          1
-        ],
-        "mEarlyLevelOverrides": [
-          0,
-          2,
-          1,
           0
         ],
         "~class": "recSpellRankUpInfo"
@@ -2467,13 +2450,13 @@
         {
           "mName": "RootDuration",
           "mValues": [
-            1.0,
-            1.25,
+            1.100000023841858,
+            1.2000000476837158,
+            1.2999999523162842,
+            1.399999976158142,
             1.5,
-            1.75,
-            2.0,
-            2.25,
-            2.5
+            1.600000023841858,
+            1.7000000476837158
           ],
           "~class": "SpellDataValue"
         },

@@ -339,72 +339,6 @@
     },
     "~class": "SpellObject"
   },
-  "0x8ddd8593": {
-    "ObjectName": "VladimirE_Temp2",
-    "mScriptName": "VladimirE_Temp2",
-    "mSpell": {
-      "castConeDistance": 100.0,
-      "castFrame": 1.0,
-      "castRange": [
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "flags": 4,
-      "mAffectsTypeFlags": 7375,
-      "mAlternateName": "VladimirTransfusionHeal",
-      "mCastType": 1,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "~class": "TargeterDefinitionRange"
-          }
-        ],
-        "~class": "SpellDataResourceClient"
-      },
-      "mDimensionBehavior": 1,
-      "mDoesntBreakChannels": true,
-      "mMissileEffectKey": "Vladimir_Q_heal_mis",
-      "mMissileSpec": {
-        "behaviors": [
-          {
-            "~class": "CastOnMovementComplete"
-          },
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "movementComponent": {
-          "mOffsetInitialTargetHeight": 100.0,
-          "mSpeed": 1500.0,
-          "mStartBoneName": "spine",
-          "mTargetHeightAugment": 100.0,
-          "~class": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "~class": "VeritcalFacingMatchVelocity"
-        },
-        "~class": "MissileSpecification"
-      },
-      "missileSpeed": 1500.0,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
   "0x8e865fe5": {
     "EventsToTrack": [
       {
@@ -578,9 +512,9 @@
     "attackSpeed": 0.6579999923706055,
     "attackSpeedPerLevel": 2.0,
     "attackSpeedRatio": 0.6579999923706055,
-    "baseArmor": 27.0,
+    "baseArmor": 24.0,
     "baseDamage": 55.0,
-    "baseHP": 607.0,
+    "baseHP": 600.0,
     "baseMoveSpeed": 330.0,
     "baseSpellBlock": 30.0,
     "baseStaticHPRegen": 1.399999976158142,
@@ -1323,7 +1257,6 @@
     "mChildSpells": [
       "Characters/Vladimir/Spells/VladimirEAbility/VladimirE",
       "0x8606bf4",
-      "0x8ddd8593",
       "0xd3a3b479"
     ],
     "mName": "VladimirEAbility",

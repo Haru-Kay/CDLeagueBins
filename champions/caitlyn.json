@@ -1255,6 +1255,29 @@
     "ObjectName": "CaitlynPassive",
     "mScriptName": "CaitlynPassive",
     "mSpell": {
+      "0xfe87f21e": [
+        {
+          "0x1987941": [
+            {
+              "mSubRequirements": [
+                {
+                  "0x7b66f15d": false,
+                  "0xd6b6109c": "Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveDriver",
+                  "~class": "HasBuffCastRequirement"
+                },
+                {
+                  "0xd6b6109c": "Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveRangeMarker",
+                  "~class": "HasBuffCastRequirement"
+                }
+              ],
+              "mSuccessesRequired": 1,
+              "~class": "HasAtleastNSubRequirementsCastRequirement"
+            }
+          ],
+          "0x6166b756": "0x42962485",
+          "~class": "0xfe87f21e"
+        }
+      ],
       "DataValues": [
         {
           "mName": "CritChanceMultiplier",
@@ -1329,7 +1352,26 @@
         "ASSETS/Characters/Caitlyn/HUD/Icons2D/CaitlynPGrey.dds"
       ],
       "mSpellCalculations": {
+        "0x42962485": {
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mSpellCalculationKey": "HeadShotMinionBonusDamage",
+                  "~class": "0xf3cbe7b2"
+                },
+                {
+                  "mSpellCalculationKey": "HeadShotBonusDamage",
+                  "~class": "0xf3cbe7b2"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
         "BrushAttackTotal": {
+          "mExpandedTooltipCalculationDisplay": 5,
           "mFormulaParts": [
             {
               "mSubparts": [
@@ -1345,6 +1387,7 @@
               "~class": "SumOfSubPartsCalculationPart"
             }
           ],
+          "mSimpleTooltipCalculationDisplay": 5,
           "~class": "GameCalculation"
         },
         "HeadShotBonusDamage": {
@@ -1356,12 +1399,12 @@
                   {
                     "mBreakpoints": [
                       {
-                        "mAdditionalBonusAtThisLevel": 0.30000001192092896,
+                        "mAdditionalBonusAtThisLevel": 0.20000000298023224,
                         "mLevel": 7,
                         "~class": "Breakpoint"
                       },
                       {
-                        "mAdditionalBonusAtThisLevel": 0.30000001192092896,
+                        "mAdditionalBonusAtThisLevel": 0.20000000298023224,
                         "mLevel": 13,
                         "~class": "Breakpoint"
                       }
@@ -1408,12 +1451,12 @@
                     "mPart2": {
                       "mBreakpoints": [
                         {
-                          "mAdditionalBonusAtThisLevel": 0.25,
+                          "mAdditionalBonusAtThisLevel": 0.20000000298023224,
                           "mLevel": 7,
                           "~class": "Breakpoint"
                         },
                         {
-                          "mAdditionalBonusAtThisLevel": 0.25,
+                          "mAdditionalBonusAtThisLevel": 0.20000000298023224,
                           "mLevel": 13,
                           "~class": "Breakpoint"
                         }

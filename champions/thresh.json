@@ -924,6 +924,18 @@
     "ObjectName": "ThreshE",
     "mScriptName": "ThreshE",
     "mSpell": {
+      "0xfe87f21e": [
+        {
+          "0x1987941": [
+            {
+              "level": 1,
+              "~class": "SpellSlotEqualOrGreaterThanLevelRequirement"
+            }
+          ],
+          "0x6166b756": "PAttackDamageMin",
+          "~class": "0xfe87f21e"
+        }
+      ],
       "DataValues": [
         {
           "mName": "PassiveADRatioTT",
@@ -4002,7 +4014,6 @@
     "AbilityTraits": 8,
     "mChildSpells": [
       "Characters/Thresh/Spells/ThreshWAbility/ThreshW",
-      "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternIn",
       "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternOut",
       "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternReturn",
       "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternVisibility",
@@ -4304,140 +4315,6 @@
         75.0
       ],
       "missileSpeed": 150.0,
-      "selectionPriority": 1,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternIn": {
-    "ObjectName": "ThreshWLanternIn",
-    "mScriptName": "ThreshWLanternIn",
-    "mSpell": {
-      "canCastWhileDisabled": true,
-      "castConeDistance": 100.0,
-      "castFrame": 20.0,
-      "castRadius": [
-        8000.0,
-        8000.0,
-        8000.0,
-        8000.0,
-        8000.0,
-        8000.0,
-        8000.0
-      ],
-      "castRange": [
-        5000.0,
-        5000.0,
-        5000.0,
-        5000.0,
-        5000.0,
-        20000.0,
-        20000.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "flags": 4,
-      "mAffectsTypeFlags": 7183,
-      "mAlternateName": "game_spell_displayname_TalonShadowAssault",
-      "mAnimationName": "Spell1",
-      "mCantCancelWhileWindingUp": true,
-      "mCastType": 3,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "~class": "TargeterDefinitionRange"
-          }
-        ],
-        "~class": "SpellDataResourceClient"
-      },
-      "mCoefficient": 0.6000000238418579,
-      "mEffectAmount": [
-        {
-          "value": [
-            50.0,
-            90.0,
-            130.0,
-            170.0,
-            215.0,
-            260.0,
-            300.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        }
-      ],
-      "mImgIconName": [
-        "ASSETS/Spells/Icons2D/Caitlyn_AceintheHole.dds"
-      ],
-      "mLineWidth": 250.0,
-      "mMissileEffectName": "Talon_Base_R_Mis_02.troy",
-      "mMissileSpec": {
-        "0xc195fba6": true,
-        "behaviors": [
-          {
-            "~class": "CastOnHit"
-          },
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "heightSolver": {
-          "~class": "BlendedLinearHeightSolver"
-        },
-        "mMissileWidth": 250.0,
-        "movementComponent": {
-          "mOffsetInitialTargetHeight": 100.0,
-          "mProjectTargetToCastRange": true,
-          "mSpeed": 1850.0,
-          "mStartBoneName": "R_hand",
-          "mUseHeightOffsetAtEnd": true,
-          "~class": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "~class": "VerticalFacingFaceTarget"
-        },
-        "visibilityComponent": {
-          "~class": "EnterFOWVisibility"
-        },
-        "~class": "MissileSpecification"
-      },
-      "missileSpeed": 1850.0,
       "selectionPriority": 1,
       "~class": "SpellDataResource"
     },
