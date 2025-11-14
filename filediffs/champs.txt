@@ -1,3 +1,184 @@
+jayce:
+ADDED:
+"spell_jayceshockblast_tooltipextended" = "{{Spell_JayceShockBlast_Tooltip}}<br><br>{{Spell_JayceToTheSkies_Tooltip}}"
+ADDED:
+"spell_jaycetotheskies_tooltipextendedbelowline" = "<rules>Deals @MonsterBonusDamage@ bonus damage to jungle monsters.</rules>"
+CHANGED:
+"spell_jayceshockblast_tooltipextendedbelowline" =
+""...
+  ..."{{Spell_JayceShockBlast_Tooltip}}<br><br>{{Spell_JayceToTheSkies_Tooltip}}"...
+  -->
+  ..."<rules>Deals @MonsterBonusDamage@ bonus damage to jungle monsters.</rules>"...
+""
+
+zaahen:
+ADDED:
+"spell_zaahenp_summary" = "Zaahen's attacks and abilities against enemy champions  grant him stacks of Determination, gaining bonus Attack Damage per stack. When filled with Determination, Zaahen gains increased Attack Damage and can revive."
+ADDED:
+"spell_zaahenp_tooltipextended" = "Zaahen gains a stack of <keyword>Determination</keyword> when he hits an enemy champion with an Attack or Ability (max @MaxStacks@). He gains <physicalDamage>@PercentBonusADCalc@ increased Attack Damage</physicalDamage> per stack.<br><br>When filled with <keyword>Determination</keyword>, Zaahen doubles the granted <physicalDamage>Attack Damage</physicalDamage>, and if he would die, he instead enters Stasis for @ReviveDuration@ seconds then revives with <healing>@RevivePercentCalc@ of his max Health</healing>.<br><br>Zaahen's revive has a @ReviveCooldownCalc@ second Cooldown.<br><br><rules>{{Reminder_Stasis}}</rules>"
+ADDED:
+"buff_zaahenpassive_name" = "Cultivation of War"
+ADDED:
+"spell_zaahenw_tooltip" = "Zaahen stabs in a direction, dealing <physicalDamage>@InitialDamage@ physical damage</physicalDamage> to enemies hit, then <status>Pulls</status> them toward him, dealing <physicalDamage>@SecondaryDamage@ physical damage</physicalDamage>."
+ADDED:
+"spell_zaahene_tooltip" = "Zaahen dashes then slices around himself, dealing <physicalDamage>@BaseDamageCalc@ physical damage</physicalDamage> to nearby enemies.<br><br>Enemies at the edge of the slice take <physicalDamage>@BonusDamageCalc@ physical damage</physicalDamage> <magicDamage>+@PercentHPDamage*100@% of their maximum Health as magic damage</magicDamage> instead."
+ADDED:
+"game_character_skin_displayname_zaahen_4" = "Immortal Journey Zaahen"
+ADDED:
+"spell_zaahenr_name" = "Grim Deliverance"
+ADDED:
+"game_character_displayname_zaahen" = "Zaahen"
+ADDED:
+"spell_zaahenw_name" = "Dreaded Return"
+ADDED:
+"buff_zaahenq_tooltip" = "Zaahen can use The Darkin Glaive."
+ADDED:
+"spell_zaahenq_summary" = "Zaahen slashes twice on his next attack, dealing bonus damage and healing himself. Zaahen can recast this ability to have his next attack deal bonus damage and knock up his target.<br>"
+ADDED:
+"buff_zaahenw_tooltip" = "This unit is being pulled in."
+ADDED:
+"buff_zaahenr_name" = "Grim Deliverance"
+ADDED:
+"game_character_skin_displayname_zaahen_8" = "Immortal Journey Zaahen"
+ADDED:
+"spell_zaahenq_name" = "The Darkin Glaive"
+ADDED:
+"spell_zaahenp_tooltip" = "Zaahen gains a stack of <keyword>Determination</keyword> when he hits an enemy champion with an Attack or Ability (max @MaxStacks@). He gains <physicalDamage>@PercentBonusADCalc@ increased Attack Damage</physicalDamage> per stack.<br><br>When filled with <keyword>Determination</keyword>, Zaahen doubles the granted <physicalDamage>Attack Damage</physicalDamage>, and if he would die, he instead enters Stasis for @ReviveDuration@ seconds then revives with <healing>@RevivePercentCalc@ of his max Health</healing>.<br><br>Zaahen's revive has a @ReviveCooldownCalc@ second Cooldown.<br>"
+ADDED:
+"buff_zaahenr_tooltip" = "Salvation in bloodshed."
+ADDED:
+"game_character_skin_displayname_zaahen_6" = "Immortal Journey Zaahen"
+ADDED:
+"game_character_skin_displayname_zaahen_2" = "Immortal Journey Zaahen"
+ADDED:
+"spell_zaahene_summary" = "Zaahen dashes to a location and slices around himself."
+ADDED:
+"buff_zaahenqknockup_tooltip" = "This unit has been knocked up."
+ADDED:
+"spell_zaahenq_tooltip" = "Zaahen slashes twice on his next Attack, dealing <physicalDamage>@InitialDamage@ bonus physical damage</physicalDamage> and restoring <healing>@HealPercent*100@% of his max Health</healing>.<br><br><recast>Recast:</recast> Zaahen's next Attack deals <physicalDamage>@SecondHitDamage@ bonus physical damage</physicalDamage> and <status>Knocks</status> the target Up for @KnockUpDuration@ seconds."
+ADDED:
+"spell_zaahenr_tooltip" = "<spellPassive>Passive</spellPassive>: Zaahen gains <armorPen>@ArmorPen*100@% %i:scaleAPen% Armor Penetration</armorPen>.<br><br><spellActive>Active</spellActive>: Zaahen rises, gaining @DamageReduction*100@% Damage Reduction while casting.<br><br>Zaahen then stabs downward, dealing <physicalDamage>@DamageEndCalc@ physical damage</physicalDamage> and restoring <healing>@HealPercent*100@% of the damage dealt to enemy champions as Health</healing>."
+ADDED:
+"buff_zaahenq_name" = "The Darkin Glaive"
+ADDED:
+"spell_zaahenp_name" = "Cultivation of War"
+ADDED:
+"spell_zaahenw_summary" = "Zaahen stabs in a direction, damaging enemies hit, then pulls them toward him."
+ADDED:
+"spell_zaahene_tooltipextended" = "<rules>Deals an additional <physicalDamage>@MonsterDamageBonus@ bonus physical damage</physicalDamage> to monsters.</rules><br><rules>Additional Maximum Health damage capped to @MonsterDamageCap@ against monsters.</rules><br>"
+ADDED:
+"game_character_skin_displayname_zaahen_1" = "Immortal Journey Zaahen"
+ADDED:
+"spell_zaahene_name" = "Aureate Rush"
+ADDED:
+"game_character_skin_displayname_zaahen_7" = "Immortal Journey Zaahen"
+ADDED:
+"game_character_description_zaahen" = "The Unsundered"
+ADDED:
+"spell_zaahenq_tooltipextended" = "<rules>Healing reduced to @MinionHealPercent*100@% against non-champions.</rules><br><rules>Deals an additional @MonsterDamagePercent*100@% bonus damage to monsters.</rules>"
+ADDED:
+"buff_zaahenpassive_tooltip" = "Knowing your passive is stacking fills you with Determination."
+ADDED:
+"game_character_skin_displayname_zaahen_5" = "Immortal Journey Zaahen"
+ADDED:
+"spell_zaahenr_summary" = "Zaahen rises then stabs downward, damaging enemies and healing for a portion of the damage dealt."
+ADDED:
+"buff_zaahenw_name" = "Dreaded Return"
+ADDED:
+"game_character_skin_displayname_zaahen_9" = "Immortal Journey Zaahen"
+ADDED:
+"spell_zaahene_sweetspotdamage" = "Edge Damage"
+ADDED:
+"game_character_skin_displayname_zaahen_3" = "Immortal Journey Zaahen"
+
+monkeyking:
+ADDED:
+"game_character_skin_displayname_monkeyking_33" = "Mecha Kingdoms Wukong"
+ADDED:
+"game_character_skin_displayname_monkeyking_30" = "Mecha Kingdoms Wukong"
+ADDED:
+"game_character_skin_displayname_monkeyking_26" = "Mecha Kingdoms Wukong"
+ADDED:
+"game_character_skin_displayname_monkeyking_29" = "Mecha Kingdoms Wukong"
+ADDED:
+"game_character_skin_displayname_monkeyking_34" = "Mecha Kingdoms Wukong"
+ADDED:
+"game_character_skin_displayname_monkeyking_31" = "Mecha Kingdoms Wukong"
+ADDED:
+"game_character_skin_displayname_monkeyking_36" = "Mecha Kingdoms Wukong"
+ADDED:
+"game_character_skin_displayname_monkeyking_35" = "Mecha Kingdoms Wukong"
+ADDED:
+"game_character_skin_displayname_monkeyking_32" = "Mecha Kingdoms Wukong"
+
+gwen:
+ADDED:
+"game_character_skin_displayname_gwen_47" = "Rain Shepherd Gwen"
+ADDED:
+"game_character_skin_displayname_gwen_43" = "Rain Shepherd Gwen"
+ADDED:
+"game_character_skin_displayname_gwen_40" = "Rain Shepherd Gwen"
+ADDED:
+"game_character_skin_displayname_gwen_45" = "Rain Shepherd Gwen"
+ADDED:
+"game_character_skin_displayname_gwen_42" = "Rain Shepherd Gwen"
+ADDED:
+"game_character_skin_displayname_gwen_46" = "Rain Shepherd Gwen"
+ADDED:
+"game_character_skin_displayname_gwen_44" = "Rain Shepherd Gwen"
+ADDED:
+"game_character_skin_displayname_gwen_41" = "Rain Shepherd Gwen"
+ADDED:
+"game_character_skin_displayname_gwen_39" = "Rain Shepherd Gwen"
+
+tristana:
+ADDED:
+"game_character_skin_displayname_tristana_70" = "Rain Shepherd Tristana"
+ADDED:
+"game_character_skin_displayname_tristana_76" = "Rain Shepherd Tristana"
+ADDED:
+"game_character_skin_displayname_tristana_77" = "Rain Shepherd Tristana"
+ADDED:
+"game_character_skin_displayname_tristana_74" = "Rain Shepherd Tristana"
+ADDED:
+"game_character_skin_displayname_tristana_73" = "Rain Shepherd Tristana"
+ADDED:
+"game_character_skin_displayname_tristana_75" = "Rain Shepherd Tristana"
+ADDED:
+"game_character_skin_displayname_tristana_71" = "Rain Shepherd Tristana"
+ADDED:
+"game_character_skin_displayname_tristana_72" = "Rain Shepherd Tristana"
+ADDED:
+"game_character_skin_displayname_tristana_78" = "Rain Shepherd Tristana"
+
+vi:
+ADDED:
+"buff_zaahenpassiverevivecooldown_tooltip" = "Zaahen cannot revive."
+ADDED:
+"buff_zaahenpassivereviveready_tooltip" = "Zaahen refuses to die."
+ADDED:
+"buff_zaahenpassiverevivecooldown_name" = "Cultivation of War"
+ADDED:
+"kiwi_statanvil_critchance_tooltip" = "+%i:scaleCrit% @MinCritChance*100@% Crit Chance"
+ADDED:
+"buff_zaahenpassivereviveready_name" = "Pinnacle of War"
+ADDED:
+"buff_zaahenpassiverevive_tooltip" = "Zaahen is reviving."
+ADDED:
+"buff_zaahenpassiverevive_name" = "War Eternal"
+
+nami:
+ADDED:
+"dynamiccamera_scoutahead_enable_popout" = "Enable Scout Ahead Pop Out"
+ADDED:
+"game_cheats_dynamic_tooltip_toggleattackoverlays" = "<titleLeft>Toggle auto-attack range markers</titleLeft><titleRight>@Hotkey@</titleRight><mainText><unique>Toggle</unique> attack range markers on champions. Opposite teams will have different colors.</mainText>"
+ADDED:
+"dynamiccamera_scoutahead_enablefollowcharacter_label" = "Scout Ahead Follow Character Movement"
+ADDED:
+"dynamiccamera_scoutahead_drag_speed_label" = "Scout Ahead Drag Speed"
+ADDED:
+"dynamiccamera_scoutahead_edgepan_speed_label" = "Scout Ahead Edgepan Speed"
+
 aatrox:
 CHANGED:
 "passive_aatroxpassive_tooltipextended" =
@@ -13,50 +194,6 @@ CHANGED:
   -->
   ..." and it deals @QMonsterBonus@ bonus damage"...
 ".</rules>"
-
-rengar:
-CHANGED:
-"spell_rengarq_tooltip" =
-"Rengar's next 2 Attacks gain <attackSpeed>@"...
-  ..."Effect5Amount@% Attack Speed</attackSpeed>. The first Attack critically strikes for <physicalDamage>@F4@ (%i:scaleAD%%i:scaleCrit%) physical damage</physicalDamage>.<br><br><keywordMajor>Max Ferocity:</keywordMajor> The first Attack critically strikes for <physicalDamage>@F5@ ({{ Item_Scale_Level_Icon }}%i:scaleAD%%i:scaleCrit%) physical damage</physicalDamage> and grants Rengar <attackSpeed>@EmpoweredQAS@ Attack Speed</attackSpeed> for @Effect3Amount"...
-  -->
-  ..."ASBonus@% Attack Speed</attackSpeed>. The first Attack deals bonus <physicalDamage>@QDamage@ physical damage</physicalDamage>.<br><br><keywordMajor>Max Ferocity:</keywordMajor> The first Attack deals bonus <physicalDamage>@EmpoweredQDamage@ physical damage</physicalDamage> and grants Rengar <attackSpeed>@EmpoweredQAS@ Attack Speed</attackSpeed> for @ASDuration"...
-"@ seconds."
-CHANGED:
-"spell_rengarw_tooltipextendedbelowline" =
-"<rules>Deals an additional <magicDamage>@BonusMonsterDamage@ magic damage</magicDamage> to jungle monsters. Restores <healing>@"...
-  ..."Effect5Amount"...
-  -->
-  ..."MonsterHealingMod"...
-"@%</healing> of damage taken from jungle monsters.</rules>"
-CHANGED:
-"spell_rengarq_tooltipextended" =
-"Rengar's next 2 Attacks gain <attackSpeed>@"...
-  ..."Effect5Amount@% Attack Speed</attackSpeed>. The first Attack critically strikes for <physicalDamage>@TotalDamageTT@ physical damage</physicalDamage>.<br><br><keywordMajor>Max Ferocity:</keywordMajor> The first Attack critically strikes for <physicalDamage>@EmpoweredQdamageTT@ physical damage</physicalDamage> and grants Rengar <attackSpeed>@EmpoweredQAS@ Attack Speed</attackSpeed> for @Effect3Amount@ seconds.<br><br><rules>Autoattack damage increases to up to @CritDamageScalar@ based on Critical Strike Chanc"...
-  -->
-  ..."ASBonus@% Attack Speed</attackSpeed>. The first Attack deals bonus <physicalDamage>@QDamage@ physical damage</physicalDamage>.<br><br><keywordMajor>Max Ferocity:</keywordMajor> The first Attack deals bonus <physicalDamage>@EmpoweredQDamage@ physical damage</physicalDamage> and grants Rengar <attackSpeed>@EmpoweredQAS@ Attack Speed</attackSpeed> for @ASDuration@ seconds.<br><br><rules>The bonus damage on this attack cannot critically strik"...
-"e.</rules><br><rules>This Ability's bonus damage is reduced by @TowerMod*100@% against structures.</rules>"
-CHANGED:
-"spell_rengarw_tooltip" =
-"Rengar roars, dealing <magicDamage>@TotalDamage@ magic damage</magicDamage> to nearby enemies and restoring <healing>@DamagePercentageHealed@%</healing> of the damage taken in the last @"...
-  ..."Effect3Amount"...
-  -->
-  ..."HealingWindow"...
-"@ seconds as Health.<br><br><keywordMajor>Max Ferocity:</keywordMajor> Deals <magicDamage>@TotalDamageEmpowered@ magic damage</magicDamage> and additionally cleanses Rengar of crowd control."
-CHANGED:
-"spell_rengarpassive_tooltip" =
-"While in Brush, Rengar leaps to enemies he Attacks.<br><br>Rengar generates <keywordMajor>1 Ferocity</keywordMajor> when he uses a non-ultimate Ability. "...
-  ..."Whenever Rengar reaches <keywordMajor>0 Ferocity</keywordMajor> his next leap generates <keywordMajor>1 Ferocity</keywordMajor>.<br> <br>At <keywordMajor>@MaxFerocity@ Ferocity</keywordMajor>, his next non-ultimate Ability is empowered. Casting an empowered Ability grants Rengar <speed>@EmpoweredMS@ Move Speed</speed> for a few"...
-  -->
-  ..."At the start of the leap Unseen Predator will generate <keywordMajor>1 Ferocity</keywordMajor> if none of his current Ferocity was generated this way.<br> <br>At <keywordMajor>@MaxFerocity@ Ferocity</keywordMajor>, his next non-ultimate Ability is empowered. Casting an empowered Ability grants Rengar <speed>@EmpoweredMS@ Move Speed</speed> for @EmpoweredMSDuration@"...
-" seconds.<br><br>Unique takedowns increase Rengar's <physicalDamage>Attack Damage</physicalDamage> from <keywordMajor>Bonetooth Necklace</keywordMajor>."
-CHANGED:
-"spell_rengare_tooltip" =
-"Rengar throws a bola, dealing <physicalDamage>@TotalDamage@ physical damage</physicalDamage> to the first enemy hit, revealing and <status>Slowing</status> them by @"...
-  ..."Effect2Amount@% for @Effect3Amount@ seconds.<br><br><keywordMajor>Max Ferocity:</keywordMajor> Deals <physicalDamage>@TotalEmpoweredDamage@ physical damage</physicalDamage> and <status>Roots</status> for @Effect4Amount"...
-  -->
-  ..."SlowAmount@% for @CCDuration@ seconds.<br><br><keywordMajor>Max Ferocity:</keywordMajor> Deals <physicalDamage>@TotalEmpoweredDamage@ physical damage</physicalDamage> and <status>Roots</status> for @CCDuration"...
-"@ seconds."
 
 fizz:
 CHANGED:
@@ -82,13 +219,4 @@ CHANGED:
   -->
   ..."br>Deals @MonsterBonusDamage@ bonus damage to monsters.<"...
 "/rules>"
-
-jayce:
-CHANGED:
-"spell_jayceshockblast_tooltipextendedbelowline" =
-""...
-  ..."{{Spell_JayceShockBlast_Tooltip}}<br><br>{{Spell_JayceToTheSkies_Tooltip}}"...
-  -->
-  ..."<rules>Deals @MonsterBonusDamage@ bonus damage to jungle monsters.</rules>"...
-""
 
