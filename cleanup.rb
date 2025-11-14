@@ -176,6 +176,7 @@ def diff
     oldLang = oldLang["entries"] || oldLang
     print "done.\n"
 
+    print "Finding file diffs..."
     newStrings = {}
     removedStrings = {}
     changedStrings = {}
@@ -302,8 +303,9 @@ def diff
         output2 += "\n"
     }
 
-    File.open("lang/langdiff.txt", 'wb') { |f| f.write(output) }
-    File.open("lang/champ.txt", 'wb') { |f| f.write(output2) }
+    File.open("filediffs/lang.txt", 'wb') { |f| f.write(output) }
+    File.open("filediffs/champs.txt", 'wb') { |f| f.write(output2) }
+    print "done.\n"
 end
 
 print "Loading and formatting stringtable..."
@@ -343,9 +345,7 @@ queues.each { |queue|
 File.open("game-data/queues.json", 'wb') { |f| f.write(JSON.pretty_generate(queues)) }
 print "done.\n"
 
-#sortLang()
 diff()
-exit
 
 print "Loading and formatting map data..."
 $maps = {}
