@@ -138,14 +138,14 @@ def badString?(key, value)
     badKeys = [
         "GeneratedTip",
         "TFT",
-        "Cherry",
-        "Kiwi",
-        "Ruby",
-        "Strawberry",
-        "Brawl",
-        "Crepe",
-        "Slime",
-        "Awesome",
+        #"Cherry",
+        #"Kiwi",
+        #"Ruby",
+        #"Strawberry",
+        #"Brawl",
+        #"Crepe",
+        #"Slime",
+        #"Awesome",
         "aprilfools",
         "ultbook",
         "companion"
@@ -155,11 +155,11 @@ def badString?(key, value)
         #going to assume that no normal English words will contain this
         #a string containing a {{GeneratedTip_XXX}} reference is not guaranteed to be invalid however
         "TFT",
-        "Cherry",
-        "Kiwi",
-        "Ruby",
-        "Strawberry",
-        "Crepe",
+        #"Cherry",
+        #"Kiwi",
+        #"Ruby",
+        #"Strawberry",
+        #"Crepe",
         "aprilfools",
         "ultbook",
     ]
@@ -214,7 +214,7 @@ def diff
         output += str
         if champion
             champDiff[champion] ||= [] if champion
-            champDiff.push(str)
+            champDiff[champion].push(str)
         end
     }
     newStrings.each { |key, tl|
@@ -230,7 +230,7 @@ def diff
         output += str
         if champion
             champDiff[champion] ||= [] if champion
-            champDiff.push(str)
+            champDiff[champion].push(str)
         end
     }
     changedStrings.each { |key, tl|
@@ -264,15 +264,15 @@ def diff
         else
             i = oldStr.length - 1
             j = newStr.length - 1
-            while i > oldLastDiff && j > newLastDiff
+            while i >= firstDiff && j >= firstDiff
                 if oldStr[i] != newStr[j]
                     oldLastDiff = i
                     newLastDiff = j
                     break
                 end
                 if i == firstDiff || j == firstDiff
-                    oldLastDiff = i
-                    newLastDiff = j
+                    oldLastDiff = i - 1
+                    newLastDiff = j - 1
                     break
                 end
                 i -= 1
