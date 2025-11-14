@@ -134,6 +134,178 @@ def sortLang
 
 end
 
+def badString?(key, value) 
+    badKeys = [
+        "GeneratedTip",
+        "TFT",
+        "Cherry",
+        "Kiwi",
+        "Ruby",
+        "Strawberry",
+        "Brawl",
+        "Crepe",
+        "Slime",
+        "Awesome",
+        "aprilfools",
+        "ultbook",
+        "companion"
+    ]
+
+    badValues = [
+        #going to assume that no normal English words will contain this
+        #a string containing a {{GeneratedTip_XXX}} reference is not guaranteed to be invalid however
+        "TFT",
+        "Cherry",
+        "Kiwi",
+        "Ruby",
+        "Strawberry",
+        "Crepe",
+        "aprilfools",
+        "ultbook",
+    ]
+
+    return true if badKeys.any? { |str| key.include?(str.downcase) }
+    return true if badValues.any? { |str| value.include?(str.downcase) }
+    return false
+end
+
+def diff
+    print "Loading previous patch stringtable..."
+    oldLang = {}
+    File.open("lang/live.lol.stringtable.json", 'rb') { |f| oldLang = JSON.parse(f.read()) }
+    oldLang = oldLang["entries"] || oldLang
+    print "done.\n"
+
+    newStrings = {}
+    removedStrings = {}
+    changedStrings = {}
+
+    oldLang.each { |key, tl|
+        next if badString?(key, tl)
+        newTl = $lang[key]
+
+        if newTl.nil?
+            removedStrings.store(key, tl)
+        else
+            changedStrings.store(key, [tl, newTl]) if tl != newTl
+        end
+    }
+
+    $lang.each { |key, newTl|
+        next if badString?(key, newTl)
+        tl = oldLang[key]
+        if tl.nil?
+            newStrings.store(key, newTl)
+        end
+    }
+    
+    output = ""
+    champDiff = {}
+    removedStrings.each { |key, tl|
+        champion = nil
+        $champLang.each { |c| 
+            if key.include?(c)
+                champion = c
+                break
+            end
+        }
+
+        str = "REMOVED:\n#{key.inspect} = #{tl.inspect}\n"
+        output += str
+        if champion
+            champDiff[champion] ||= [] if champion
+            champDiff.push(str)
+        end
+    }
+    newStrings.each { |key, tl|
+        champion = nil
+        $champLang.each { |c| 
+            if key.include?(c)
+                champion = c
+                break
+            end
+        }
+        
+        str = "ADDED:\n#{key.inspect} = #{tl.inspect}\n"
+        output += str
+        if champion
+            champDiff[champion] ||= [] if champion
+            champDiff.push(str)
+        end
+    }
+    changedStrings.each { |key, tl|
+        champion = nil
+        $champLang.each { |c| 
+            if key.include?(c)
+                champion = c
+                break
+            end
+        }
+        
+        oldStr, newStr = tl
+
+        firstDiff = -1
+        i = 0
+        while i < oldStr.length && i < newStr.length
+            if oldStr[i] != newStr[i]
+                firstDiff = i
+                break
+            end
+            i += 1
+        end
+
+        oldLastDiff = 0
+        newLastDiff = 0
+        if firstDiff < 0
+            # append/removal. strings were equal until one ended
+            firstDiff = oldStr.length < newStr.length ? oldStr.length : newStr.length
+            oldLastDiff = firstDiff
+            newLastDiff = firstDiff
+        else
+            i = oldStr.length - 1
+            j = newStr.length - 1
+            while i > oldLastDiff && j > newLastDiff
+                if oldStr[i] != newStr[j]
+                    oldLastDiff = i
+                    newLastDiff = j
+                    break
+                end
+                if i == firstDiff || j == firstDiff
+                    oldLastDiff = i
+                    newLastDiff = j
+                    break
+                end
+                i -= 1
+                j -= 1
+            end
+        end
+        
+        prefix = oldStr[0, firstDiff]
+        oldInfix = oldStr[firstDiff, oldLastDiff - firstDiff + 1]
+        newInfix = newStr[firstDiff, newLastDiff - firstDiff + 1]
+        suffix = oldStr[oldLastDiff + 1...]
+
+        str = "CHANGED:\n#{key.inspect} =\n#{prefix.inspect}...\n  ...#{oldInfix.inspect}...\n  -->\n  ...#{newInfix.inspect}...\n#{suffix.inspect}\n"
+        output += str
+        if champion
+            champDiff[champion] ||= [] if champion
+            champDiff[champion].push(str)
+        end
+    }
+
+    output2 = ""
+    champDiff.each { |champ, changes|
+        output2 += "#{champ}:\n"
+        changes.each { |change|
+            output2 += change
+        }
+        output2 += "\n"
+    }
+
+    File.open("lang/langdiff.txt", 'wb') { |f| f.write(output) }
+    File.open("lang/champ.txt", 'wb') { |f| f.write(output2) }
+end
+
 print "Loading and formatting stringtable..."
 $lang = {}
 File.open("lang/lol.stringtable.json", 'rb') { |f| $lang = JSON.parse(f.read()) }
@@ -171,9 +343,9 @@ queues.each { |queue|
 File.open("game-data/queues.json", 'wb') { |f| f.write(JSON.pretty_generate(queues)) }
 print "done.\n"
 
-print "Extracting and sorting lang data..."
-sortLang()
-print "done.\n"
+#sortLang()
+diff()
+exit
 
 print "Loading and formatting map data..."
 $maps = {}
