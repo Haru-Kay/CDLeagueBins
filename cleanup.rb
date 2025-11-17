@@ -172,7 +172,7 @@ end
 def diff
     print "Loading previous patch stringtable..."
     oldLang = {}
-    File.open("lang/live.lol.stringtable.json", 'rb') { |f| oldLang = JSON.parse(f.read()) }
+    File.open("live.lol.stringtable.json", 'rb') { |f| oldLang = JSON.parse(f.read()) }
     oldLang = oldLang["entries"] || oldLang
     print "done.\n"
 
