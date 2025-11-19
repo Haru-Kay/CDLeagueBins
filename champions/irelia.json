@@ -1376,7 +1376,6 @@
   "Characters/Irelia/Spells/IreliaPassiveAbility": {
     "mChildSpells": [
       "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassive",
-      "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassiveMissile",
       "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassiveStacks",
       "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassiveStacksMax"
     ],
@@ -1559,65 +1558,6 @@
           "~class": "GameCalculation"
         }
       },
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Irelia/Spells/IreliaPassiveAbility/IreliaPassiveMissile": {
-    "ObjectName": "IreliaPassiveMissile",
-    "mScriptName": "IreliaPassiveMissile",
-    "mSpell": {
-      "castConeAngle": 0.0,
-      "castConeDistance": 0.0,
-      "castFrame": 9.0,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.3999999761581421,
-      "delayTotalTimePercent": -0.25,
-      "flags": 4,
-      "mAffectsTypeFlags": 6826,
-      "mAnimationName": "",
-      "mCantCancelWhileWindingUp": true,
-      "mCastType": 1,
-      "mDisableCastBar": true,
-      "mMissileSpec": {
-        "behaviors": [
-          {
-            "~class": "CastOnMovementComplete"
-          },
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "movementComponent": {
-          "mOffsetInitialTargetHeight": 100.0,
-          "mSpeed": 2000.0,
-          "mTargetHeightAugment": 100.0,
-          "~class": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "~class": "VeritcalFacingMatchVelocity"
-        },
-        "~class": "MissileSpecification"
-      },
-      "missileSpeed": 2000.0,
-      "selectionPriority": 1,
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"

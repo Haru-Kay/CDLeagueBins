@@ -1491,8 +1491,7 @@
   "Characters/Katarina/Spells/KatarinaPassiveAbility": {
     "mChildSpells": [
       "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPassive",
-      "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaDaggerPickupPBAoE",
-      "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPickupPBAoE"
+      "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaDaggerPickupPBAoE"
     ],
     "mName": "KatarinaPassiveAbility",
     "mRootSpell": "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPassive",
@@ -1824,77 +1823,6 @@
           "~class": "GameCalculation"
         }
       },
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Katarina/Spells/KatarinaPassiveAbility/KatarinaPickupPBAoE": {
-    "ObjectName": "KatarinaPickupPBAoE",
-    "mScriptName": "KatarinaPickupPBAoE",
-    "mSpell": {
-      "castConeDistance": 100.0,
-      "castFrame": 15.0,
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "flags": 4,
-      "mAffectsTypeFlags": 6144,
-      "mAnimationName": "Spell2",
-      "mCantCancelWhileWindingUp": true,
-      "mCastTime": 0.25,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "~class": "TargeterDefinitionRange"
-          }
-        ],
-        "~class": "SpellDataResourceClient"
-      },
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "mImgIconName": [
-        "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_DaggerSpin.dds"
-      ],
-      "mTargetingTypeData": {
-        "~class": "Location"
-      },
-      "missileSpeed": 1800.0,
-      "selectionPriority": 1,
-      "useAnimatorFramerate": true,
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"
@@ -2870,30 +2798,6 @@
       "mAffectsTypeFlags": 4106,
       "mAnimationName": "",
       "mCantCancelWhileWindingUp": true,
-      "mCastRequirementsCaster": [
-        {
-          "mDistanceType": 1,
-          "mRange": 500.0,
-          "mUnitsRequired": 1,
-          "mUnitsRequirements": [
-            {
-              "mAffectsTypeFlags": 6154,
-              "~class": "HasTypeAndStatusFlags"
-            },
-            {
-              "mUnitTags": {
-                "mObjectTagList": [
-                  "champion",
-                  "0xc02a7870"
-                ],
-                "~class": "ObjectTags"
-              },
-              "~class": "HasUnitTagsCastRequirement"
-            }
-          ],
-          "~class": "HasNNearbyUnitsRequirement"
-        }
-      ],
       "mCastingBreaksStealth": true,
       "mClientData": {
         "mTargeterDefinitions": [

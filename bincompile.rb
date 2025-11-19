@@ -3,7 +3,7 @@ loc, fluff = *ARGV
 loc = "C:/Program Files (x86)/Riot Games/League of Legends/League of Legends" if !loc
 loc = "D:/Games/Riot Games/League of Legends (PBE)" if loc.to_i == 1
 
-path = "#{loc}/Game/DATA/FINAL/Champions/"
+path = "#{loc}/Game/DATA/FINAL/"
 champs = []
 
 filter = [
@@ -31,7 +31,7 @@ filter = [
     "ultbook",
     "urf_"
 ]
-Dir.each_child(path) { |d|
+Dir.each_child(path+"Champions") { |d|
     next if filter.any? { |f| d.downcase.start_with?(f) }
     champs.push(d.split(".")[0])
     champs.uniq!
@@ -39,9 +39,26 @@ Dir.each_child(path) { |d|
 
 pool = Concurrent::FixedThreadPool.new(7)
 champs.each { |champ|
-    puts "Starting #{champ}"
-    pool.post { system("wadtools -L error --progress false e -i \"#{path}#{champ}.wad.client\" -o \"#{Dir.getwd}/bins\" -x \"^data/characters/(.*?)/\\1\\.bin$\""); puts "Finished #{champ}" }
+    pool.post { 
+        system("wadtools -L error --progress false e -i \"#{path}Champions/#{champ}.wad.client\" -o \"#{Dir.getwd}/bins\" -x \"^data/characters/(.*?)/\\1\\.bin$\"")
+        puts "Generated #{champ}"
+    }
 }
+
+pool.post {
+    system("wadtools -L error --progress false e -i \"#{path}Maps/Shipping/Map30.wad.client\" -o \"#{Dir.getwd}/bins\" -x \"^data/maps/shipping/map30/map30.bin$\"")
+    puts "Generated arena"
+}
+pool.post {
+    system("wadtools -L error --progress false e -i \"#{path}Maps/Shipping/Map12.wad.client\" -o \"#{Dir.getwd}/bins/data\" -x \"^maps/modespecificdata/augments.bin$\"")
+    puts "Generated mayhem"
+}
+pool.post {
+    system("wadtools -L error --progress false e -i \"#{path}Global.wad.client\" -o \"#{Dir.getwd}/bins/data\" -x \"^items$\"")
+    puts "Generated items"
+}
+# Map30.wad.client data/maps/shipping/map30/map30.bin
+# Map12.wad.client data/maps/augments.bin
 
 pool.shutdown
 pool.wait_for_termination

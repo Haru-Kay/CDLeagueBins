@@ -465,29 +465,6 @@
     ],
     "~class": "RecSpellRankUpInfolist"
   },
-  "0xeece602c": {
-    "ObjectName": "DrMundoQSlow",
-    "mBuff": {
-      "mTooltipData": {
-        "mFormat": "0xb34f999a",
-        "mLocKeys": {
-          "keyName": "Spell_DrMundoQ_Name",
-          "keyTooltip": "Buff_DrMundoQAbility_Tooltip"
-        },
-        "mObjectName": "DrMundoQSlow",
-        "~class": "TooltipInstanceBuff"
-      },
-      "~class": "BuffData"
-    },
-    "mScriptName": "DrMundoQSlow",
-    "mSpell": {
-      "mImgIconName": [
-        "ASSETS/Characters/DrMundo/HUD/Icons2D/DrMundo_Q.dds"
-      ],
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
   "0xf5067077": {
     "EpicStatStone": true,
     "EventsToTrack": [
@@ -1273,13 +1250,13 @@
         {
           "mName": "HealthToADRatio",
           "mValues": [
-            0.017999999225139618,
-            0.019999999552965164,
-            0.02199999988079071,
-            0.024000000208616257,
-            0.026000000536441803,
-            0.02800000086426735,
-            0.029999999329447746
+            1.7000000476837158,
+            2.0,
+            2.299999952316284,
+            2.5999999046325684,
+            2.9000000953674316,
+            3.200000047683716,
+            3.5
           ],
           "~class": "SpellDataValue"
         }
@@ -1334,7 +1311,6 @@
                 },
                 {
                   "Style": 1,
-                  "multiplier": 100.0,
                   "nameOverride": "Spell_DrMundoR_ListType_HealthIntoAttackDamage",
                   "type": "HealthToADRatio",
                   "~class": "TooltipInstanceListElement"
@@ -1400,6 +1376,10 @@
               "~class": "StatByNamedDataValueCalculationPart"
             }
           ],
+          "mMultiplier": {
+            "mNumber": 0.009999999776482582,
+            "~class": "NumberCalculationPart"
+          },
           "~class": "GameCalculation"
         }
       },
@@ -1891,8 +1871,7 @@
   "Characters/DrMundo/Spells/DrMundoQAbility": {
     "AbilityTraits": 256,
     "mChildSpells": [
-      "Characters/DrMundo/Spells/DrMundoQAbility/DrMundoQ",
-      "0xeece602c"
+      "Characters/DrMundo/Spells/DrMundoQAbility/DrMundoQ"
     ],
     "mName": "DrMundoQAbility",
     "mRootSpell": "Characters/DrMundo/Spells/DrMundoQAbility/DrMundoQ",

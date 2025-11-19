@@ -1,4 +1,9 @@
 {
+  "0x617a0025": {
+    "ObjectName": "JinxMineSkin60Manager",
+    "mScriptName": "JinxMineSkin60Manager",
+    "~class": "SpellObject"
+  },
   "Characters/JinxMine/CharacterRecords/Root": {
     "baseHP": 1.0,
     "characterToolData": {
@@ -17,6 +22,18 @@
     },
     "flags": 8398272,
     "mCharacterName": "JinxMine",
+    "mCharacterPassiveBuffs": [
+      {
+        "SkinFilter": {
+          "skinIds": [
+            60
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x617a0025",
+        "~class": "CharacterPassiveData"
+      }
+    ],
     "mFallbackCharacterName": "Jinx",
     "minimapIconOverride": "NoIcon",
     "perceptionBubbleRadius": 550.0,

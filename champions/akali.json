@@ -3123,7 +3123,6 @@
       "Characters/Akali/Spells/AkaliQAbility/AkaliQMis3",
       "Characters/Akali/Spells/AkaliQAbility/AkaliQMis4",
       "Characters/Akali/Spells/AkaliQAbility/AkaliQMis5",
-      "Characters/Akali/Spells/AkaliQAbility/AkaliQMisParent",
       "Characters/Akali/Spells/AkaliQAbility/AkaliQSpellPassive"
     ],
     "mName": "AkaliQAbility",
@@ -4213,106 +4212,6 @@
     },
     "~class": "SpellObject"
   },
-  "Characters/Akali/Spells/AkaliQAbility/AkaliQMisParent": {
-    "ObjectName": "AkaliQMisParent",
-    "mScriptName": "AkaliQMisParent",
-    "mSpell": {
-      "bHaveHitBone": true,
-      "castConeDistance": 100.0,
-      "castFrame": 7.53000020980835,
-      "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "castRange": [
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0
-      ],
-      "castRangeDisplayOverride": [
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -1.0,
-      "delayTotalTimePercent": -1.0,
-      "flags": 4,
-      "luaOnMissileUpdateDistanceInterval": 51.0,
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "EzrealMysticShotMissile",
-      "mAnimationName": "",
-      "mCantCancelWhileWindingUp": true,
-      "mCastType": 3,
-      "mHitBoneName": "root",
-      "mHitEffectName": "Ezreal_base_Q_tar.troy",
-      "mLineWidth": 10.0,
-      "mMissileEffectKey": "Akali_Q_Mis",
-      "mMissileSpec": {
-        "behaviors": [
-          {
-            "~class": "CastOnHit"
-          },
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "heightSolver": {
-          "~class": "BlendedLinearHeightSolver"
-        },
-        "mMissileWidth": 10.0,
-        "missileGroupSpawners": [
-          {
-            "mChildMissileSpell": "Characters/Akali/Spells/AkaliQAbility/AkaliQMis",
-            "~class": "MissileGroupSpawnerSpec"
-          }
-        ],
-        "movementComponent": {
-          "mOffsetInitialTargetHeight": 300.0,
-          "mSpeed": 3200.0,
-          "mStartBoneName": "root",
-          "mTargetHeightAugment": -100.0,
-          "mTracksTarget": false,
-          "mUseHeightOffsetAtEnd": true,
-          "~class": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "~class": "VerticalFacingFaceTarget"
-        },
-        "~class": "MissileSpecification"
-      },
-      "mProjectTargetToCastRange": true,
-      "mTargetingTypeData": {
-        "~class": "Location"
-      },
-      "missileSpeed": 3200.0,
-      "selectionPriority": 2,
-      "useAnimatorFramerate": true,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
   "Characters/Akali/Spells/AkaliQAbility/AkaliQSpellPassive": {
     "ObjectName": "AkaliQSpellPassive",
     "mBuff": {
@@ -5228,7 +5127,6 @@
     "mChildSpells": [
       "Characters/Akali/Spells/AkaliWAbility/AkaliW",
       "Characters/Akali/Spells/AkaliWAbility/AkaliWHaste",
-      "Characters/Akali/Spells/AkaliWAbility/AkaliWMisVis",
       "Characters/Akali/Spells/AkaliWAbility/AkaliWSmokeMissile",
       "Characters/Akali/Spells/AkaliWAbility/AkaliWSmokeMissileRiver",
       "Characters/Akali/Spells/AkaliWAbility/AkaliWSmokeParent",
@@ -5689,152 +5587,6 @@
       "mImgIconName": [
         "ASSETS/Characters/Akali/HUD/Icons2D/Akali_W.dds"
       ],
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Akali/Spells/AkaliWAbility/AkaliWMisVis": {
-    "ObjectName": "AkaliWMisVis",
-    "mScriptName": "AkaliWMisVis",
-    "mSpell": {
-      "bHaveHitBone": true,
-      "castConeDistance": 100.0,
-      "castFrame": 7.53000020980835,
-      "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castRangeDisplayOverride": [
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0,
-        1175.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -1.0,
-      "delayTotalTimePercent": -1.0,
-      "flags": 4,
-      "luaOnMissileUpdateDistanceInterval": 51.0,
-      "mAffectsTypeFlags": 6154,
-      "mAlternateName": "EzrealMysticShotMissile",
-      "mAnimationName": "Spell1",
-      "mCantCancelWhileWindingUp": true,
-      "mCastType": 3,
-      "mCoefficient": 1.2000000476837158,
-      "mEffectAmount": [
-        {
-          "value": [
-            30.0,
-            90.0,
-            150.0,
-            245.0,
-            315.0,
-            440.0,
-            565.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            2.25,
-            2.5,
-            2.75,
-            3.0,
-            3.25,
-            3.5,
-            3.75
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        }
-      ],
-      "mHitBoneName": "root",
-      "mIgnoreRangeCheck": true,
-      "mImgIconName": [
-        "FallenAngel_DarkBinding.dds"
-      ],
-      "mLineWidth": 60.0,
-      "mMissileEffectKey": "Akali_E_Mis",
-      "mMissileSpec": {
-        "behaviors": [
-          {
-            "~class": "CastOnHit"
-          },
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "heightSolver": {
-          "~class": "BlendedLinearHeightSolver"
-        },
-        "mMissileWidth": 60.0,
-        "movementComponent": {
-          "mSpeed": 200.0,
-          "mStartBoneName": "root",
-          "mTracksTarget": false,
-          "mUseHeightOffsetAtEnd": true,
-          "~class": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "~class": "VerticalFacingFaceTarget"
-        },
-        "~class": "MissileSpecification"
-      },
-      "mProjectTargetToCastRange": true,
-      "mTargetingTypeData": {
-        "~class": "Location"
-      },
-      "missileSpeed": 1800.0,
-      "selectionPriority": 2,
-      "useAnimatorFramerate": true,
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"

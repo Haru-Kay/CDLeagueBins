@@ -1144,8 +1144,7 @@
   "Characters/Belveth/Spells/BelvethEAbility": {
     "AbilityTraits": 32,
     "mChildSpells": [
-      "Characters/Belveth/Spells/BelvethEAbility/BelvethE",
-      "Characters/Belveth/Spells/BelvethEAbility/BelvethEMissile"
+      "Characters/Belveth/Spells/BelvethEAbility/BelvethE"
     ],
     "mLifetimeManuallyManaged": true,
     "mName": "BelvethEAbility",
@@ -1479,154 +1478,6 @@
       "mTargetingTypeData": {
         "~class": "Self"
       },
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Belveth/Spells/BelvethEAbility/BelvethEMissile": {
-    "ObjectName": "BelvethEMissile",
-    "mScriptName": "BelvethEMissile",
-    "mSpell": {
-      "castConeDistance": 100.0,
-      "castFrame": 14.800000190734863,
-      "castRadius": [
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0,
-        210.0
-      ],
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "cooldownTime": [
-        0.0,
-        12.0,
-        11.0,
-        10.0,
-        9.0,
-        8.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "flags": 4194308,
-      "mAffectsTypeFlags": 6154,
-      "mAnimationName": "Spell3",
-      "mCantCancelWhileChanneling": true,
-      "mCantCancelWhileWindingUp": true,
-      "mCastType": 1,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "~class": "TargeterDefinitionRange"
-          }
-        ],
-        "~class": "SpellDataResourceClient"
-      },
-      "mCoefficient": 0.6000000238418579,
-      "mEffectAmount": [
-        {
-          "value": [
-            0.0,
-            80.0,
-            110.0,
-            140.0,
-            170.0,
-            200.0,
-            0.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            0.0,
-            12.0,
-            11.0,
-            10.0,
-            9.0,
-            8.0,
-            0.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        }
-      ],
-      "mHitBoneName": "C_Buffbone_Glb_Center_Loc",
-      "mHitEffectOrientType": 2,
-      "mIsDisabledWhileDead": false,
-      "mLineWidth": 120.0,
-      "mMissileEffectKey": "0xfe005efa",
-      "mMissileSpec": {
-        "behaviors": [
-          {
-            "~class": "CastOnMovementComplete"
-          },
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "heightSolver": {
-          "mAmplitude": 50.0,
-          "mNumberOfPeriods": 0.699999988079071,
-          "~class": "SinusoidalHeightSolver"
-        },
-        "movementComponent": {
-          "mSplineInfo": {
-            "mControlPoint1": [
-              -1.171246886253357,
-              -0.49999988079071045,
-              -0.5080956220626831
-            ],
-            "mControlPoint2": [
-              0.08420729637145996,
-              -0.9999997615814209,
-              1.268193244934082
-            ],
-            "~class": "HermiteSplineInfo"
-          },
-          "mStartBoneName": "L_Buffbone_Engine",
-          "mTargetBoneName": "C_Buffbone_Glb_Center_Loc",
-          "mTravelTime": 0.4000000059604645,
-          "~class": "FixedTimeSplineMovement"
-        },
-        "verticalFacing": {
-          "~class": "VerticalFacingFaceTarget"
-        },
-        "~class": "MissileSpecification"
-      },
-      "missileSpeed": 1800.0,
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"
@@ -3502,6 +3353,12 @@
             }
           ],
           "~class": "HasNNearbyUnitsRequirement"
+        }
+      ],
+      "mCastRequirementsTarget": [
+        {
+          "mBuffName": "0x29bbff95",
+          "~class": "HasBuffCastRequirement"
         }
       ],
       "mCastTime": 1.0,

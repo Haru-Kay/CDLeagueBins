@@ -1518,7 +1518,6 @@
       "Characters/Ornn/Spells/OrnnPAbility/OrnnP",
       "Characters/Ornn/Spells/OrnnPAbility/OrnnPAllyItemGive",
       "Characters/Ornn/Spells/OrnnPAbility/OrnnPAllyItemReady",
-      "Characters/Ornn/Spells/OrnnPAbility/OrnnPItemCurrency",
       "Characters/Ornn/Spells/OrnnPAbility/OrnnPGrantItem"
     ],
     "mName": "OrnnPAbility",
@@ -2504,248 +2503,6 @@
         "~class": "MissileSpecification"
       },
       "missileSpeed": 0.0,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Ornn/Spells/OrnnPAbility/OrnnPItemCurrency": {
-    "ObjectName": "OrnnPItemCurrency",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_OrnnPItemCurrency",
-      "~class": "BuffData"
-    },
-    "mScriptName": "OrnnPItemCurrency",
-    "mSpell": {
-      "alwaysSnapFacing": true,
-      "castConeDistance": 100.0,
-      "castFrame": 7.5,
-      "castRadius": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "castRange": [
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0,
-        25000.0
-      ],
-      "castRangeDisplayOverride": [
-        2500.0,
-        2500.0,
-        2500.0,
-        2500.0,
-        2500.0,
-        2500.0,
-        2500.0
-      ],
-      "cooldownTime": [
-        150.0,
-        150.0,
-        115.0,
-        80.0,
-        80.0,
-        80.0,
-        80.0
-      ],
-      "delayCastOffsetPercent": -0.5,
-      "delayTotalTimePercent": -0.5,
-      "mAffectsTypeFlags": 15567,
-      "mAnimationName": "Spell4",
-      "mCantCancelWhileWindingUp": true,
-      "mCastTime": 0.5,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "useCasterBoundingBox": false,
-            "~class": "TargeterDefinitionRange"
-          },
-          {
-            "centerLocator": {
-              "basePosition": 3,
-              "~class": "DrawablePositionLocator"
-            },
-            "length": {
-              "mPerLevelValues": [
-                600.0,
-                600.0,
-                600.0,
-                600.0,
-                600.0,
-                600.0
-              ],
-              "mValueType": 2,
-              "~class": "FloatPerSpellLevel"
-            },
-            "thickness": {
-              "mPerLevelValues": [
-                150.0,
-                150.0,
-                150.0,
-                150.0,
-                150.0,
-                0.0
-              ],
-              "mValueType": 2,
-              "~class": "FloatPerSpellLevel"
-            },
-            "~class": "TargeterDefinitionWall"
-          },
-          {
-            "useCasterBoundingBox": false,
-            "~class": "TargeterDefinitionMinimap"
-          },
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "~class": "DrawablePositionLocator"
-            },
-            "lineStopsAtEndPosition": false,
-            "lineWidth": {
-              "mPerLevelValues": [
-                340.0,
-                340.0,
-                340.0,
-                340.0,
-                340.0,
-                340.0
-              ],
-              "mValueType": 2,
-              "~class": "FloatPerSpellLevel"
-            },
-            "overrideBaseRange": {
-              "mPerLevelValues": [
-                2550.0,
-                2550.0,
-                2550.0,
-                2550.0,
-                2550.0,
-                2550.0
-              ],
-              "mValueType": 2,
-              "~class": "FloatPerSpellLevel"
-            },
-            "startLocator": {
-              "basePosition": 1,
-              "~class": "DrawablePositionLocator"
-            },
-            "textureBaseOverrideName": "ASSETS/Spells/Textures/skillshot_Rectangle_Base_r01_v01.tex",
-            "textureTargetOverrideName": "ASSETS/Spells/Textures/skillshot_Rectangle_tip_r01_v01.tex",
-            "~class": "TargeterDefinitionLine"
-          }
-        ],
-        "~class": "SpellDataResourceClient"
-      },
-      "mEffectAmount": [
-        {
-          "value": [
-            2500.0,
-            2500.0,
-            2500.0,
-            2500.0,
-            2500.0,
-            2500.0,
-            2500.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            125.0,
-            125.0,
-            175.0,
-            225.0,
-            275.0,
-            325.0,
-            375.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            1050.0,
-            1050.0,
-            1050.0,
-            1050.0,
-            1050.0,
-            1050.0,
-            1050.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0,
-            100.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            40.0,
-            40.0,
-            60.0,
-            80.0,
-            50.0,
-            50.0,
-            50.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "value": [
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0,
-            2.0
-          ],
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        },
-        {
-          "~class": "SpellEffectAmount"
-        }
-      ],
-      "mImgIconName": [
-        "ASSETS/Characters/Ornn/HUD/Icons2D/OrnnR1.dds"
-      ],
-      "mTargetingTypeData": {
-        "~class": "Location"
-      },
-      "mUseMinimapTargeting": true,
-      "mana": [
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0,
-        100.0
-      ],
-      "missileSpeed": 1600.0,
-      "useAnimatorFramerate": true,
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"
@@ -4678,13 +4435,13 @@
         {
           "mName": "MonsterDamagePerTickCap",
           "mValues": [
-            26.0,
-            31.0,
-            36.0,
-            41.0,
-            46.0,
-            51.0,
-            56.0
+            40.0,
+            52.0,
+            64.0,
+            76.0,
+            88.0,
+            100.0,
+            112.0
           ],
           "~class": "SpellDataValue"
         },
@@ -4823,6 +4580,18 @@
                   "nameOverride": "Spell_ListType_PercentHealthDamage",
                   "type": "MaxPercentHPPerTickTooltip",
                   "typeIndex": 10,
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "multiplier": 5.0,
+                  "nameOverride": "Spell_ListType_MinimumDamage",
+                  "type": "MinimumDamagePerTick",
+                  "~class": "TooltipInstanceListElement"
+                },
+                {
+                  "multiplier": 5.0,
+                  "nameOverride": "Spell_ListType_MaximumDamage",
+                  "type": "MonsterDamagePerTickCap",
                   "~class": "TooltipInstanceListElement"
                 },
                 {

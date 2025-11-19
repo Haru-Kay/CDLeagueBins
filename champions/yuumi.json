@@ -2188,7 +2188,6 @@
     "mChildSpells": [
       "Characters/Yuumi/Spells/YuumiPAbility/YuumiP",
       "Characters/Yuumi/Spells/YuumiPAbility/YuumiPAttack",
-      "Characters/Yuumi/Spells/YuumiPAbility/YuumiPAttackMissile",
       "Characters/Yuumi/Spells/YuumiPAbility/YuumiPHealMis",
       "Characters/Yuumi/Spells/YuumiPAbility/YuumiPMat",
       "Characters/Yuumi/Spells/YuumiPAbility/YuumiPShield",
@@ -2430,67 +2429,6 @@
         ],
         "~class": "SpellDataResourceClient"
       },
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Yuumi/Spells/YuumiPAbility/YuumiPAttackMissile": {
-    "ObjectName": "YuumiPAttackMissile",
-    "mScriptName": "YuumiPAttackMissile",
-    "mSpell": {
-      "bHaveHitBone": true,
-      "canCastWhileDisabled": true,
-      "cannotBeSuppressed": true,
-      "castConeDistance": 100.0,
-      "castRange": [
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0,
-        1500.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "flags": 4,
-      "mAffectsStatusFlags": 48,
-      "mAffectsTypeFlags": 7375,
-      "mDoesntBreakChannels": true,
-      "mMissileEffectKey": "Yuumi_BA_mis",
-      "mMissileSpec": {
-        "behaviors": [
-          {
-            "~class": "CastOnMovementComplete"
-          },
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "heightSolver": {
-          "~class": "BlendedLinearHeightSolver"
-        },
-        "movementComponent": {
-          "mOffsetInitialTargetHeight": 50.0,
-          "mSpeed": 2000.0,
-          "mStartBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-          "mTargetBoneName": "C_BUFFBONE_GLB_CHEST_LOC",
-          "mTargetHeightAugment": 50.0,
-          "~class": "FixedSpeedMovement"
-        },
-        "verticalFacing": {
-          "~class": "VeritcalFacingMatchVelocity"
-        },
-        "~class": "MissileSpecification"
-      },
-      "missileSpeed": 3500.0,
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"

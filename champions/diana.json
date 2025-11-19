@@ -406,8 +406,8 @@
         "Position": "middle",
         "mEarlyLevelOverrides": [
           0,
-          1,
           2,
+          1,
           0
         ],
         "~class": "recSpellRankUpInfo"
@@ -1473,7 +1473,6 @@
     "mChildSpells": [
       "Characters/Diana/Spells/DianaPassiveAbility/DianaPassive",
       "Characters/Diana/Spells/DianaPassiveAbility/DianaAttackSpeed",
-      "Characters/Diana/Spells/DianaPassiveAbility/DianaPassiveDeathRecap",
       "Characters/Diana/Spells/DianaPassiveAbility/DianaPassiveMarker"
     ],
     "mName": "DianaPassiveAbility",
@@ -1725,21 +1724,6 @@
       "mTargetingTypeData": {
         "~class": "Self"
       },
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Diana/Spells/DianaPassiveAbility/DianaPassiveDeathRecap": {
-    "ObjectName": "DianaPassiveDeathRecap",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_DianaPassive",
-      "~class": "BuffData"
-    },
-    "mScriptName": "DianaPassiveDeathRecap",
-    "mSpell": {
-      "mImgIconName": [
-        "ASSETS/Characters/Diana/HUD/Icons2D/Diana_Passive_LunarBlade.dds"
-      ],
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"
@@ -2322,8 +2306,7 @@
   "Characters/Diana/Spells/DianaRAbility": {
     "AbilityTraits": 2050,
     "mChildSpells": [
-      "Characters/Diana/Spells/DianaRAbility/DianaR",
-      "Characters/Diana/Spells/DianaRAbility/DianaVortex"
+      "Characters/Diana/Spells/DianaRAbility/DianaR"
     ],
     "mName": "DianaRAbility",
     "mRootSpell": "Characters/Diana/Spells/DianaRAbility/DianaR",
@@ -2721,11 +2704,6 @@
       "useAnimatorFramerate": true,
       "~class": "SpellDataResource"
     },
-    "~class": "SpellObject"
-  },
-  "Characters/Diana/Spells/DianaRAbility/DianaVortex": {
-    "ObjectName": "DianaVortex",
-    "mScriptName": "DianaVortex",
     "~class": "SpellObject"
   },
   "Characters/Diana/Spells/DianaSkin47Manager": {

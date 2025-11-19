@@ -997,7 +997,6 @@
     "AbilityTraits": 2048,
     "mChildSpells": [
       "Characters/Rell/Spells/RellEAbility/RellE",
-      "Characters/Rell/Spells/RellEAbility/RellE_AllySpellCast",
       "Characters/Rell/Spells/RellEAbility/RellE_Passive",
       "Characters/Rell/Spells/RellEAbility/RellE_VFXMis",
       "Characters/Rell/Spells/RellEAbility/RellE_VFXMis2",
@@ -1331,50 +1330,6 @@
     },
     "~class": "SpellObject"
   },
-  "Characters/Rell/Spells/RellEAbility/RellE_AllySpellCast": {
-    "ObjectName": "RellE_AllySpellCast",
-    "mScriptName": "RellE_AllySpellCast",
-    "mSpell": {
-      "canCastOrQueueWhileCasting": true,
-      "castFrame": 9.0,
-      "castRange": [
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "delayCastOffsetPercent": -1.0,
-      "delayTotalTimePercent": -1.0,
-      "mAffectsStatusFlags": 32,
-      "mAffectsTypeFlags": 16385,
-      "mAnimationName": "Spell3_Cast",
-      "mCanMoveWhileChanneling": true,
-      "mCantCancelWhileWindingUp": true,
-      "mCantCancelWhileWindingUpTargetingChampion": true,
-      "mCastTime": 0.25,
-      "mClientData": {
-        "mUseTooltipFromAnotherSpell": "Characters/Rell/Spells/RellEAbility/RellE",
-        "~class": "SpellDataResourceClient"
-      },
-      "mDoNotNeedToFaceTarget": true,
-      "mIgnoreRangeCheck": true,
-      "mProjectTargetToCastRange": true,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
   "Characters/Rell/Spells/RellEAbility/RellE_Passive": {
     "ObjectName": "RellE_Passive",
     "mScriptName": "RellE_Passive",
@@ -1528,8 +1483,7 @@
     "mChildSpells": [
       "Characters/Rell/Spells/RellPAbility/RellP",
       "Characters/Rell/Spells/RellPAbility/RellP_Buff",
-      "Characters/Rell/Spells/RellPAbility/RellP_Debuff",
-      "Characters/Rell/Spells/RellPAbility/RellP_VFXMis"
+      "Characters/Rell/Spells/RellPAbility/RellP_Debuff"
     ],
     "mName": "RellPAbility",
     "mRootSpell": "Characters/Rell/Spells/RellPAbility/RellP",
@@ -1699,56 +1653,6 @@
       "~class": "BuffData"
     },
     "mScriptName": "RellP_Debuff",
-    "~class": "SpellObject"
-  },
-  "Characters/Rell/Spells/RellPAbility/RellP_VFXMis": {
-    "ObjectName": "RellP_VFXMis",
-    "mScriptName": "RellP_VFXMis",
-    "mSpell": {
-      "canCastOrQueueWhileCasting": true,
-      "castRange": [
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0,
-        2000.0
-      ],
-      "flags": 4,
-      "luaOnMissileUpdateDistanceInterval": 80.0,
-      "mAffectsTypeFlags": 3,
-      "mAnimationName": "",
-      "mCantCancelWhileWindingUp": true,
-      "mCantCancelWhileWindingUpTargetingChampion": true,
-      "mCastType": 1,
-      "mDoesNotConsumeCooldown": true,
-      "mDoesNotConsumeMana": true,
-      "mMissileSpec": {
-        "behaviors": [
-          {
-            "~class": "CastOnHit"
-          },
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "heightSolver": {
-          "~class": "GravityHeightSolver"
-        },
-        "mMissileWidth": 90.0,
-        "movementComponent": {
-          "mProjectTargetToCastRange": true,
-          "mTravelTime": 0.4000000059604645,
-          "~class": "FixedTimeMovement"
-        },
-        "verticalFacing": {
-          "~class": "VeritcalFacingMatchVelocity"
-        },
-        "~class": "MissileSpecification"
-      },
-      "~class": "SpellDataResource"
-    },
     "~class": "SpellObject"
   },
   "Characters/Rell/Spells/RellQAbility": {

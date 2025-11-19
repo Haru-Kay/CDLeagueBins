@@ -796,7 +796,6 @@
       "Characters/Maokai/Spells/MaokaiEAbility/MaokaiEMissileBrush",
       "Characters/Maokai/Spells/MaokaiEAbility/MaokaiEMissileBrushTiny",
       "Characters/Maokai/Spells/MaokaiEAbility/MaokaiEMissileBrushTiny2",
-      "Characters/Maokai/Spells/MaokaiEAbility/MaokaiESlow",
       "Characters/Maokai/Spells/MaokaiEAbility/MaokaiSapling2",
       "Characters/Maokai/Spells/MaokaiEAbility/TrapLimiter_Maokai"
     ],
@@ -1618,15 +1617,6 @@
     },
     "~class": "SpellObject"
   },
-  "Characters/Maokai/Spells/MaokaiEAbility/MaokaiESlow": {
-    "ObjectName": "MaokaiESlow",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_Slow",
-      "~class": "BuffData"
-    },
-    "mScriptName": "MaokaiESlow",
-    "~class": "SpellObject"
-  },
   "Characters/Maokai/Spells/MaokaiEAbility/MaokaiSapling2": {
     "ObjectName": "MaokaiSapling2",
     "mScriptName": "MaokaiSapling2",
@@ -1645,8 +1635,7 @@
     "mChildSpells": [
       "Characters/Maokai/Spells/MaokaiPassiveAbility/MaokaiPassive",
       "Characters/Maokai/Spells/MaokaiPassiveAbility/MaokaiPassiveAttack",
-      "Characters/Maokai/Spells/MaokaiPassiveAbility/MaokaiPassiveReady",
-      "Characters/Maokai/Spells/MaokaiPassiveAbility/MaokaiPassiveStack"
+      "Characters/Maokai/Spells/MaokaiPassiveAbility/MaokaiPassiveReady"
     ],
     "mName": "MaokaiPassiveAbility",
     "mRootSpell": "Characters/Maokai/Spells/MaokaiPassiveAbility/MaokaiPassive",
@@ -1907,33 +1896,6 @@
       "~class": "BuffData"
     },
     "mScriptName": "MaokaiPassiveReady",
-    "~class": "SpellObject"
-  },
-  "Characters/Maokai/Spells/MaokaiPassiveAbility/MaokaiPassiveStack": {
-    "ObjectName": "MaokaiPassiveStack",
-    "mBuff": {
-      "mDescription": "game_buff_tooltip_MaokaiPassiveStack",
-      "mFloatVarsDecimals": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ],
-      "~class": "BuffData"
-    },
-    "mScriptName": "MaokaiPassiveStack",
     "~class": "SpellObject"
   },
   "Characters/Maokai/Spells/MaokaiQAbility": {

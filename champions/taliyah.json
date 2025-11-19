@@ -1617,7 +1617,6 @@
       "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQ",
       "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQFloatyMissile",
       "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQMis",
-      "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQReturnMis",
       "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQSlow",
       "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQMisBig"
     ],
@@ -2263,99 +2262,6 @@
         "~class": "direction"
       },
       "missileSpeed": 3600.0,
-      "~class": "SpellDataResource"
-    },
-    "~class": "SpellObject"
-  },
-  "Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQReturnMis": {
-    "ObjectName": "TaliyahQReturnMis",
-    "mScriptName": "TaliyahQReturnMis",
-    "mSpell": {
-      "castFrame": 7.5,
-      "castRange": [
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0,
-        1200.0
-      ],
-      "cooldownTime": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "mAnimationName": "Spell1",
-      "mCantCancelWhileWindingUp": true,
-      "mCastTime": 0.25,
-      "mCastType": 3,
-      "mClientData": {
-        "mTargeterDefinitions": [
-          {
-            "endLocator": {
-              "basePosition": 3,
-              "~class": "DrawablePositionLocator"
-            },
-            "lineWidth": {
-              "mPerLevelValues": [
-                60.0,
-                60.0,
-                60.0,
-                60.0,
-                60.0,
-                60.0
-              ],
-              "mValueType": 2,
-              "~class": "FloatPerSpellLevel"
-            },
-            "~class": "TargeterDefinitionLine"
-          }
-        ],
-        "~class": "SpellDataResourceClient"
-      },
-      "mHitBoneName": "root",
-      "mImgIconName": [
-        "ASSETS/Characters/Taliyah/HUD/Icons2D/Taliyah_Q.dds"
-      ],
-      "mLineWidth": 60.0,
-      "mMissileEffectName": "Taliyah_Q_ReturnLines.troy",
-      "mMissileSpec": {
-        "behaviors": [
-          {
-            "~class": "CastOnHit"
-          },
-          {
-            "~class": "DestroyOnMovementComplete"
-          }
-        ],
-        "heightSolver": {
-          "mGravity": 4000.0,
-          "~class": "GravityHeightSolver"
-        },
-        "mMissileWidth": 60.0,
-        "movementComponent": {
-          "mOffsetInitialTargetHeight": 100.0,
-          "mStartBoneName": "L_hand",
-          "mTargetHeightAugment": 100.0,
-          "mTracksTarget": false,
-          "mTravelTime": 0.4000000059604645,
-          "~class": "FixedTimeMovement"
-        },
-        "verticalFacing": {
-          "~class": "VerticalFacingFaceTarget"
-        },
-        "~class": "MissileSpecification"
-      },
-      "mProjectTargetToCastRange": true,
-      "mTargetingTypeData": {
-        "~class": "LocationClamped"
-      },
-      "missileSpeed": 10.0,
       "~class": "SpellDataResource"
     },
     "~class": "SpellObject"

@@ -4,8 +4,11 @@ import json
 import cdtb
 from cdtb.storage import PatchVersion
 from cdtb.binfile import BinFile
-from cdtb.rstfile import RstFile
+#from cdtb.rstfile import RstFile
 from cdtb.tools import convert_cdragon_path, json_dump, stringtable_paths
+from base64 import b64encode
+from xxhash import xxh3_64_intdigest, xxh64_intdigest
+from cdtb.tools import BinaryParser
 
 
 class ArenaTransformer:
@@ -92,5 +95,70 @@ class ArenaTransformer:
         return augments
 
 
-arena_transformer = ArenaTransformer()
-arena_transformer.export("D:/CommunityDragon/Data")
+
+def parse_rst(f):
+    parser = BinaryParser(f)
+
+    font_config = None
+    hash_bits = 40
+    game_version = 1502
+
+    magic, version = parser.unpack("<3sB")
+    if magic != b'RST':
+        raise ValueError("invalid magic code")
+
+    if version == 2:
+        if parser.unpack("<B")[0]:
+            n, = parser.unpack("<L")
+            font_config = parser.raw(n).decode("utf-8")
+        else:
+            font_config = None
+    elif version == 3:
+        pass
+    elif version in (4, 5):
+        hash_bits = 39
+        if game_version >= 1502:
+            hash_bits = 38
+    else:
+        raise ValueError(f"unsupported RST version: {version}")
+
+    hash_mask = (1 << hash_bits) - 1
+    count, = parser.unpack("<L")
+    entries = []
+    for _ in range(count):
+        v, = parser.unpack("<Q")
+        entries.append((v >> hash_bits, v & hash_mask))
+
+    print(sum(1 for e in entries if e[0] == 0x0000ef441f))
+
+    has_trenc = False
+    if version < 5:
+        has_trenc = parser.unpack("<B")[0]
+
+    data = parser.f.read()
+
+    # Files are sometimes messed-up (e.g. windows-1252 quote)
+    # Don't fail on UTF-8 decoding errors
+    for i, h in entries:
+        if has_trenc and data[i] == 0xFF:
+            size = int.from_bytes(data[i+1:][:2], 'little')
+            d = b64encode(data[i+3:][:size])
+            entries[h] = d.decode('utf-8', 'replace')
+        else:
+            end = data.find(b"\0", i)
+            d = data[i:end]
+            entries[h] = d.decode('utf-8', 'replace')
+    
+    return entries
+
+rstfile = None
+with open("bins/data/menu/en_us/lol.stringtable", "rb") as f:
+    rstfile = parse_rst(f)
+rst_json = {}
+
+for key, value in rstfile:
+    key = f"{{{key:010x}}}"
+    rst_json[key] = value
+    
+with write_file_or_remove("temp/stringtable.json", False) as fout:
+    json_dump(rst_json, ensure_ascii=False)

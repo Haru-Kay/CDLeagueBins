@@ -134,6 +134,274 @@ def sortLang
 
 end
 
+def badString?(key, value) 
+    badKeys = [
+        "GeneratedTip",
+        "TFT",
+        #"Cherry",
+        #"Kiwi",
+        #"Ruby",
+        #"Strawberry",
+        #"Brawl",
+        #"Crepe",
+        #"Slime",
+        #"Awesome",
+        "aprilfools",
+        "ultbook",
+        "companion"
+    ]
+
+    badValues = [
+        #going to assume that no normal English words will contain this
+        #a string containing a {{GeneratedTip_XXX}} reference is not guaranteed to be invalid however
+        "TFT",
+        #"Cherry",
+        #"Kiwi",
+        #"Ruby",
+        #"Strawberry",
+        #"Crepe",
+        "aprilfools",
+        "ultbook",
+    ]
+
+    return true if badKeys.any? { |str| key.include?(str.downcase) }
+    return true if badValues.any? { |str| value.include?(str.downcase) }
+    return false
+end
+
+def diff
+    print "Loading previous patch stringtable..."
+    oldLang = {}
+    File.open("live.lol.stringtable.json", 'rb') { |f| oldLang = JSON.parse(f.read()) }
+    oldLang = oldLang["entries"] || oldLang
+    print "done.\n"
+
+    print "Finding file diffs..."
+    newStrings = {}
+    removedStrings = {}
+    changedStrings = {}
+
+    oldLang.each { |key, tl|
+        next if badString?(key, tl)
+        newTl = $lang[key]
+
+        if newTl.nil?
+            removedStrings.store(key, tl)
+        else
+            changedStrings.store(key, [tl, newTl]) if tl != newTl
+        end
+    }
+
+    $lang.each { |key, newTl|
+        next if badString?(key, newTl)
+        tl = oldLang[key]
+        if tl.nil?
+            newStrings.store(key, newTl)
+        end
+    }
+    
+    output = ""
+    champDiff = {}
+    removedStrings.each { |key, tl|
+        champion = nil
+        $champLang.each { |c| 
+            if key.include?(c)
+                champion = c
+                break
+            end
+        }
+
+        str = "REMOVED:\n#{key.inspect} = #{tl.inspect}\n"
+        output += str
+        if champion
+            champDiff[champion] ||= [] if champion
+            champDiff[champion].push(str)
+        end
+    }
+    newStrings.each { |key, tl|
+        champion = nil
+        $champLang.each { |c| 
+            if key.include?(c)
+                champion = c
+                break
+            end
+        }
+        
+        str = "ADDED:\n#{key.inspect} = #{tl.inspect}\n"
+        output += str
+        if champion
+            champDiff[champion] ||= [] if champion
+            champDiff[champion].push(str)
+        end
+    }
+    changedStrings.each { |key, tl|
+        champion = nil
+        $champLang.each { |c| 
+            if key.include?(c)
+                champion = c
+                break
+            end
+        }
+        
+        oldStr, newStr = tl
+
+        firstDiff = -1
+        i = 0
+        while i < oldStr.length && i < newStr.length
+            if oldStr[i] != newStr[i]
+                firstDiff = i
+                break
+            end
+            i += 1
+        end
+
+        oldLastDiff = 0
+        newLastDiff = 0
+        if firstDiff < 0
+            # append/removal. strings were equal until one ended
+            firstDiff = oldStr.length < newStr.length ? oldStr.length : newStr.length
+            oldLastDiff = firstDiff
+            newLastDiff = firstDiff
+        else
+            i = oldStr.length - 1
+            j = newStr.length - 1
+            while i >= firstDiff && j >= firstDiff
+                if oldStr[i] != newStr[j]
+                    oldLastDiff = i
+                    newLastDiff = j
+                    break
+                end
+                if i == firstDiff || j == firstDiff
+                    oldLastDiff = i - 1
+                    newLastDiff = j - 1
+                    break
+                end
+                i -= 1
+                j -= 1
+            end
+        end
+        
+        prefix = oldStr[0, firstDiff]
+        oldInfix = oldStr[firstDiff, oldLastDiff - firstDiff + 1]
+        newInfix = newStr[firstDiff, newLastDiff - firstDiff + 1]
+        suffix = oldStr[oldLastDiff + 1...]
+
+        str = "CHANGED:\n#{key.inspect} =\n#{prefix.inspect}...\n  ...#{oldInfix.inspect}...\n  -->\n  ...#{newInfix.inspect}...\n#{suffix.inspect}\n"
+        output += str
+        if champion
+            champDiff[champion] ||= [] if champion
+            champDiff[champion].push(str)
+        end
+    }
+
+    output2 = ""
+    champDiff.each { |champ, changes|
+        output2 += "#{champ}:\n"
+        changes.each { |change|
+            output2 += change
+        }
+        output2 += "\n"
+    }
+
+    File.open("filediffs/lang.txt", 'wb') { |f| f.write(output) }
+    File.open("filediffs/champs.txt", 'wb') { |f| f.write(output2) }
+    print "done.\n"
+end
+
+def augmentSearcher(key, data, version=0)
+    if data["~class"]&.eql?("AugmentData")
+        aug = {
+            "id" => data.fetch("AugmentPlatformId", -1),
+            "apiName" => data.fetch("AugmentNameId", ""),
+            "name" => data.fetch("NameTra", ""),
+            "rarity" => ["Silver", "Gold", "Prismatic"][data.fetch("rarity", 0).to_i.clamp(0, 2)],
+            "disabled" => data.dig("Enabled") == false,
+            "desc" => data.fetch("DescriptionTra", ""),
+            "tooltip" => data.fetch("AugmentTooltipTra", ""),
+            "dataValues" => {},
+            "calculations" => {},
+            "icons" => [
+                data.fetch("AugmentSmallIconPath", ""),
+                data.fetch("AugmentLargeIconPath", "")            
+            ]
+        }
+
+        spellName = data.dig("RootSpell")
+        if spellName
+            spellObject = (version == 0 ? $arena : $aram).dig(spellName)
+            if spellObject
+                mSpell = spellObject.fetch("mSpell", {})
+                dataValues = mSpell.fetch("DataValues", [])
+
+                dataValues.each { |component|
+                    name = component["mName"]
+                    values = component["mValues"] || []
+                    puts "#{spellName} ::: #{name}" if !values
+                    values = values[0] if values.uniq.length == 1
+                    aug["dataValues"].store(name, values)
+                }
+
+                calcs = mSpell.fetch("mSpellCalculations", {})
+                aug["calculations"] = calcs
+                
+            end
+        end
+        aug.delete_if { |augKey, augValue|
+            (augKey == "disabled" && augValue == false) ||
+            (["dataValues", "calculations"].any? { |a| augKey == a } && augValue.empty?)
+        }
+        aug["name"] = $lang.fetch(aug["name"].downcase, aug["name"])
+        aug["desc"] = $lang.fetch(aug["desc"].downcase, aug["desc"])
+        aug["tooltip"] = $lang.fetch(aug["tooltip"].downcase, aug["tooltip"])
+        return aug
+    end
+    return nil
+end
+
+def applyLang(obj)
+    case obj
+        when Hash
+            obj.transform_values { |v| applyLang(v) }
+        when Array
+            obj.map { |v| applyLang(v) }
+        when String
+            return itemNameLangFix($lang.fetch(obj.downcase, obj))
+        else
+            return obj
+    end
+end
+def itemNameLangFix(value)
+    return value if !value.is_a?(String) && !value =~ "^Items/[0-9]+$"
+    return "DoomBots/The Collector" if value == "Items/667666" # riot typo. collector id 6676, should be 666676.
+    #game_item_displayname_//
+    #item_//_name\
+    #generatedtip
+    strings = value.split("/")
+    id = strings.find { |str| str.match?(/\A[+-]?\d+\z/) }
+    ret = $lang.fetch("game_item_displayname_#{id}", $lang.fetch("item_#{id}_name", $lang.fetch("generatedtip_item_#{id}_displayname", value)))
+    if ret.include?("Items") && id&.length == 6
+        newid = id[2...]
+        ret = $lang.fetch("game_item_displayname_#{newid}", $lang.fetch("item_#{newid}_name", $lang.fetch("generatedtip_item_#{newid}_displayname", value)))
+        if ret.include?("Items")
+            # Arena specific items moved to other modes
+            newid = "44#{newid}"
+            ret = $lang.fetch("game_item_displayname_#{newid}", $lang.fetch("item_#{newid}_name", $lang.fetch("generatedtip_item_#{newid}_displayname", value)))
+        end
+    end
+    
+    if id&.length == 4
+        ret = "Swarm/#{ret}" if id.start_with?("9")
+    end
+    if id&.length == 6
+        ret = "ARAMMayhem/#{ret}" if id.start_with?("12")
+        ret = "TFT/#{ret}" if id.start_with?("22")
+        ret = "Arena/#{ret}" if id.start_with?("44")
+        ret = "DoomBots/#{ret}" if id.start_with?("66")
+        ret = "99/#{ret}" if id.start_with?("99")
+    end
+    return ret
+end
+
 print "Loading and formatting stringtable..."
 $lang = {}
 File.open("lang/lol.stringtable.json", 'rb') { |f| $lang = JSON.parse(f.read()) }
@@ -171,9 +439,7 @@ queues.each { |queue|
 File.open("game-data/queues.json", 'wb') { |f| f.write(JSON.pretty_generate(queues)) }
 print "done.\n"
 
-print "Extracting and sorting lang data..."
-sortLang()
-print "done.\n"
+diff()
 
 print "Loading and formatting map data..."
 $maps = {}
@@ -183,16 +449,29 @@ print "done.\n"
 
 # Arena handling
 print "Loading and formatting Arena augment data..."
-arena = {}
-File.open("arena/en_us.json", 'rb') { |f| arena = JSON.parse(f.read()) }
-File.open("arena/en_us.json", 'wb') { |f| f.write(JSON.pretty_generate(arena)) }
+$arena = {}
+File.open("temp/data/maps/shipping/map30/map30.json", 'rb') { |f| $arena = JSON.parse(f.read()) }
+$arena = $arena.fetch("entries", $arena)
+augments = []
+$arena.each{ |key, data|
+    v = augmentSearcher(key, data)
+    augments.push(v) if !v.nil?
+}
+
+File.open("arena/augments.json", 'wb') { |f| f.write(JSON.pretty_generate(augments.sort_by { |a| a["id"] })) }
 print "done.\n"
 
 # ARAM: Mayhem Augment handling
 print "Loading and formatting ARAM: Mayhem augment data..."
-aram = {}
-File.open("mayhem/augments.bin.json", 'rb') { |f| aram = JSON.parse(f.read()) }
-File.open("mayhem/augments.bin.json", 'wb') { |f| f.write(JSON.pretty_generate(aram)) }
+$aram = {}
+File.open("temp/data/maps/modespecificdata/augments.json", 'rb') { |f| $aram = JSON.parse(f.read()) }
+$aram = $aram.fetch("entries", $aram)
+aramAugments = []
+$aram.each { |key, data|
+    v = augmentSearcher(key, data, 1)
+    aramAugments.push(v) if !v.nil?
+}
+File.open("mayhem/augments.json", 'wb') { |f| f.write(JSON.pretty_generate(aramAugments.sort_by { |a| a["id"] })) }
 print "done.\n"
 
 print "Loading and formatting champion data..."
@@ -210,17 +489,39 @@ Dir.each_child("temp/data/characters") { |path|
 print "done.\n"
 
 print "Loading and formatting item data..."
+itemBin = {}
 items = {}
-File.open("items/items.cdtb.bin.json", 'rb') { |f| items = JSON.parse(f.read()) }
-
-items.each { |item, itemObj|
-    if itemObj.is_a?(Hash)
-        itemObj.each { |k, v|
-            next if !v.is_a?(String)
-            itemObj[k] = $lang.fetch(v.downcase, v) if v.include?("_") && k == "mDisplayName"
-        }
+itemsSpells = {}
+itemsVFX = {}
+itemsTFT = {}
+itemsMisc = {}
+File.open("temp/data/items.ltk.json", 'rb') { |f| itemBin = JSON.parse(f.read()) }
+itemBin = itemBin.fetch("entries", itemBin)
+itemBin.each { |item, itemObj|
+    transObj = applyLang(itemObj)
+    transItem = itemNameLangFix(item)
+    if transItem.include?("TFT")
+        itemsTFT.store(transItem, transObj)
+        next
+    end
+    if transObj["~class"]
+        case transObj["~class"]
+            when "ItemData"
+                items.store(transItem, transObj)
+            when "SpellObject"
+                itemsSpells.store(transItem, transObj)
+            when "VfxSystemDefinitionData"
+                itemsVFX.store(transItem, transObj)
+            else
+                itemsMisc.store(transItem, transObj)
+        end
+    else
+        itemsMisc.store(transItem, transObj)
     end
 }
 
-File.open("items/items.cdtb.bin.json", 'wb') { |f| f.write(JSON.pretty_generate(items)) }
+File.open("items/items.json", 'wb') { |f| f.write(JSON.pretty_generate(items)) }
+File.open("items/itemsMisc.json", 'wb') { |f| f.write(JSON.pretty_generate(itemsMisc)) }
+File.open("items/itemsVFX.json", 'wb') { |f| f.write(JSON.pretty_generate(itemsVFX)) }
+File.open("items/itemsSpells.json", 'wb') { |f| f.write(JSON.pretty_generate(itemsSpells)) }
 print "done.\n"
