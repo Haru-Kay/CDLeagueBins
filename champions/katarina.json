@@ -2798,6 +2798,30 @@
       "mAffectsTypeFlags": 4106,
       "mAnimationName": "",
       "mCantCancelWhileWindingUp": true,
+      "mCastRequirementsCaster": [
+        {
+          "mDistanceType": 1,
+          "mRange": 500.0,
+          "mUnitsRequired": 1,
+          "mUnitsRequirements": [
+            {
+              "mAffectsTypeFlags": 6154,
+              "~class": "HasTypeAndStatusFlags"
+            },
+            {
+              "mUnitTags": {
+                "mObjectTagList": [
+                  "champion",
+                  "0xc02a7870"
+                ],
+                "~class": "ObjectTags"
+              },
+              "~class": "HasUnitTagsCastRequirement"
+            }
+          ],
+          "~class": "HasNNearbyUnitsRequirement"
+        }
+      ],
       "mCastingBreaksStealth": true,
       "mClientData": {
         "mTargeterDefinitions": [
@@ -2955,6 +2979,7 @@
           "~class": "GameCalculationModified"
         }
       },
+      "mSpellCooldownOrSealedQueueThreshold": 0.25,
       "mSpellTags": [
         "Trait_Ultimate",
         "Trait_ChannelSpell"

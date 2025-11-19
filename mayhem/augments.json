@@ -280,7 +280,7 @@
     "dataValues": {
       "ExplosionRadius": 300.0,
       "ExplosionDelayTime": 0.75,
-      "APRatio": 0.4000000059604645,
+      "APRatio": 0.6000000238418579,
       "BonusADRatio": 1.25,
       "PerwaveDamageCD": 1.0,
       "MaxRange": 2000.0,
@@ -1582,7 +1582,7 @@
   {
     "id": 1086,
     "apiName": "ARAM_TrueshotProdigy",
-    "name": "Kiwi_ARAM_TrueshotProdigy",
+    "name": "Kiwi_ARAM_TrueshotProdigy_Name",
     "rarity": "Prismatic",
     "desc": "When you damage a champion from far away, fire a <abilityName>Trueshot Barrage</abilityName> at them.",
     "tooltip": "Kiwi_TrueshotProdigy_Tooltip",
@@ -2013,11 +2013,11 @@
   {
     "id": 1135,
     "apiName": "ARAM_Spellwake",
-    "name": "Kiwi_ARAM_Spellwake",
+    "name": "Spellwake",
     "rarity": "Prismatic",
     "disabled": true,
     "desc": "Hitting enemies with Abilities creates a blast that deals <magicDamage>magic damage</magicDamage> from you to the location you hit them.",
-    "tooltip": "Kiwi_SpellWake_Tooltip",
+    "tooltip": "Hitting enemies with Abilities creates a blast that deals <magicDamage>@Damage@ magic damage</magicDamage> from you to the location you hit them.<br><br>Damage Dealt This Round: @f1@<br>Damage Dealt Total: @f2@",
     "dataValues": {
       "ExplosionRadius": 100.0,
       "ExplosionDelayTime": 0.75,
@@ -2243,11 +2243,11 @@
   {
     "id": 1174,
     "apiName": "ARAM_LaserEyes",
-    "name": "Kiwi_ARAM_LaserEyes",
+    "name": "Laser Eyes",
     "rarity": "Prismatic",
     "disabled": true,
     "desc": "There is a laser in the direction you are facing that deals continuous <magicDamage>magic damage</magicDamage>.",
-    "tooltip": "Kiwi_LaserEyes_Tooltip",
+    "tooltip": "There is a laser in the direction you are facing that deals <magicDamage>@LaserEyesTooltip@ magic damage</magicDamage> per second.<br><br>Damage Dealt This Round: @f1@<br>Damage Dealt Total: @f2@",
     "dataValues": {
       "LaserLength": 700.0,
       "RectHalfWidth": 60.0,
@@ -2474,7 +2474,7 @@
   {
     "id": 1204,
     "apiName": "ARAM_StackosaurusRex",
-    "name": "Kiwi_ARAM_StackosaurusRex",
+    "name": "Kiwi_ARAM_StackosaurusRex_Name",
     "rarity": "Silver",
     "desc": "When you gain permanent <keywordMajor>Stacks</keywordMajor> of an Ability, gain @StackModifier*100@% more!",
     "tooltip": "When you gain permanent <keywordMajor>Stacks</keywordMajor> of an Ability, gain @StackModifier*100@% more!",
@@ -3006,6 +3006,18 @@
     ]
   },
   {
+    "id": 1317,
+    "apiName": "ARAM_PandorasBox",
+    "name": "Kiwi_ARAM_PandorasBox_Name",
+    "rarity": "Prismatic",
+    "desc": "Transmute all of your augments into random Prismatic augments.",
+    "tooltip": "Transmute all of your augments into random Prismatic augments.",
+    "icons": [
+      "ASSETS/UX/Cherry/Augments/Icons/Pandoras_Box_Small.tex",
+      "ASSETS/UX/Cherry/Augments/Icons/Pandoras_Box_Large.tex"
+    ]
+  },
+  {
     "id": 1318,
     "apiName": "ARAM_Upgrade_ZH",
     "name": "Upgrade Zhonya's",
@@ -3187,6 +3199,43 @@
     "icons": [
       "ASSETS/UX/Kiwi/Augments/Icons/Cruelty_small.tex",
       "ASSETS/UX/Kiwi/Augments/Icons/Cruelty_large.tex"
+    ]
+  },
+  {
+    "id": 1323,
+    "apiName": "ARAM_Cerberus",
+    "name": "Kiwi_ARAM_Cerberus_Name",
+    "rarity": "Prismatic",
+    "desc": "Gain the <spellName>Hail of Blades</spellName> and <spellName>Press the Attack</spellName> Keystone Runes.",
+    "tooltip": "Gain the <spellName>Hail of Blades</spellName> and <spellName>Press the Attack</spellName> Keystone Runes.",
+    "dataValues": {
+      "Cooldown": 6.0,
+      "MinDamage": 120.0,
+      "MaxDamage": 360.0,
+      "BonusADRatio": [
+
+      ],
+      "APRatio": [
+
+      ],
+      "HitsRequired": 3.0,
+      "TimeBetweenHits": 4.0,
+      "AmpPotencyMaxSelf": 0.15000000596046448,
+      "AmpPotencyMaxOthers": 0.15000000596046448,
+      "AmpPotencyStartSelf": 0.15000000596046448,
+      "AmpPotencyStartOthers": 0.15000000596046448,
+      "AmpDuration": 5.0,
+      "OutOfCombatTimer": 5.0,
+      "BonusPercentDamage": 0.15000000596046448,
+      "NumHits": 3.0,
+      "Duration": 3.0,
+      "ASBoostMin": 1.399999976158142,
+      "ASBoostMax": 1.399999976158142,
+      "ASBoostRanged": 0.800000011920929
+    },
+    "icons": [
+      "ASSETS/UX/Cherry/Augments/Icons/Cerberus_Small.tex",
+      "ASSETS/UX/Cherry/Augments/Icons/Cerberus_Large.tex"
     ]
   },
   {
@@ -3933,55 +3982,6 @@
     "icons": [
       "ASSETS/UX/Kiwi/Augments/Icons/Fetch_small.tex",
       "ASSETS/UX/Kiwi/Augments/Icons/Fetch_large.tex"
-    ]
-  },
-  {
-    "id": 1400,
-    "apiName": "ARAM_Cerberus",
-    "name": "Kiwi_ARAM_Cerberus_Name",
-    "rarity": "Prismatic",
-    "desc": "Gain the <spellName>Hail of Blades</spellName> and <spellName>Press the Attack</spellName> Keystone Runes.",
-    "tooltip": "Gain the <spellName>Hail of Blades</spellName> and <spellName>Press the Attack</spellName> Keystone Runes.",
-    "dataValues": {
-      "Cooldown": 6.0,
-      "MinDamage": 120.0,
-      "MaxDamage": 360.0,
-      "BonusADRatio": [
-
-      ],
-      "APRatio": [
-
-      ],
-      "HitsRequired": 3.0,
-      "TimeBetweenHits": 4.0,
-      "AmpPotencyMaxSelf": 0.15000000596046448,
-      "AmpPotencyMaxOthers": 0.15000000596046448,
-      "AmpPotencyStartSelf": 0.15000000596046448,
-      "AmpPotencyStartOthers": 0.15000000596046448,
-      "AmpDuration": 5.0,
-      "OutOfCombatTimer": 5.0,
-      "BonusPercentDamage": 0.15000000596046448,
-      "NumHits": 3.0,
-      "Duration": 3.0,
-      "ASBoostMin": 1.399999976158142,
-      "ASBoostMax": 1.399999976158142,
-      "ASBoostRanged": 0.800000011920929
-    },
-    "icons": [
-      "ASSETS/UX/Cherry/Augments/Icons/Cerberus_Small.tex",
-      "ASSETS/UX/Cherry/Augments/Icons/Cerberus_Large.tex"
-    ]
-  },
-  {
-    "id": 1401,
-    "apiName": "ARAM_PandorasBox",
-    "name": "Kiwi_ARAM_PandorasBox_Name",
-    "rarity": "Prismatic",
-    "desc": "Transmute all of your augments into random Prismatic augments.",
-    "tooltip": "Transmute all of your augments into random Prismatic augments.",
-    "icons": [
-      "ASSETS/UX/Cherry/Augments/Icons/Pandoras_Box_Small.tex",
-      "ASSETS/UX/Cherry/Augments/Icons/Pandoras_Box_Large.tex"
     ]
   },
   {
