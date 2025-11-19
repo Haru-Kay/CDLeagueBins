@@ -308,6 +308,100 @@ def diff
     print "done.\n"
 end
 
+def augmentSearcher(key, data, version=0)
+    if data["~class"]&.eql?("AugmentData")
+        aug = {
+            "id" => data.fetch("AugmentPlatformId", -1),
+            "apiName" => data.fetch("AugmentNameId", ""),
+            "name" => data.fetch("NameTra", ""),
+            "rarity" => ["Silver", "Gold", "Prismatic"][data.fetch("rarity", 0).to_i.clamp(0, 2)],
+            "disabled" => data.dig("Enabled") == false,
+            "desc" => data.fetch("DescriptionTra", ""),
+            "tooltip" => data.fetch("AugmentTooltipTra", ""),
+            "dataValues" => {},
+            "calculations" => {},
+            "icons" => [
+                data.fetch("AugmentSmallIconPath", ""),
+                data.fetch("AugmentLargeIconPath", "")            
+            ]
+        }
+
+        spellName = data.dig("RootSpell")
+        if spellName
+            spellObject = (version == 0 ? $arena : $aram).dig(spellName)
+            if spellObject
+                mSpell = spellObject.fetch("mSpell", {})
+                dataValues = mSpell.fetch("DataValues", [])
+
+                dataValues.each { |component|
+                    name = component["mName"]
+                    values = component["mValues"] || []
+                    puts "#{spellName} ::: #{name}" if !values
+                    values = values[0] if values.uniq.length == 1
+                    aug["dataValues"].store(name, values)
+                }
+
+                calcs = mSpell.fetch("mSpellCalculations", {})
+                aug["calculations"] = calcs
+                
+            end
+        end
+        aug.delete_if { |augKey, augValue|
+            (augKey == "disabled" && augValue == false) ||
+            (["dataValues", "calculations"].any? { |a| augKey == a } && augValue.empty?)
+        }
+        aug["name"] = $lang.fetch(aug["name"].downcase, aug["name"])
+        aug["desc"] = $lang.fetch(aug["desc"].downcase, aug["desc"])
+        aug["tooltip"] = $lang.fetch(aug["tooltip"].downcase, aug["tooltip"])
+        return aug
+    end
+    return nil
+end
+
+def applyLang(obj)
+    case obj
+        when Hash
+            obj.transform_values { |v| applyLang(v) }
+        when Array
+            obj.map { |v| applyLang(v) }
+        when String
+            return itemNameLangFix($lang.fetch(obj.downcase, obj))
+        else
+            return obj
+    end
+end
+def itemNameLangFix(value)
+    return value if !value.is_a?(String) && !value =~ "^Items/[0-9]+$"
+    return "DoomBots/The Collector" if value == "Items/667666" # riot typo. collector id 6676, should be 666676.
+    #game_item_displayname_//
+    #item_//_name\
+    #generatedtip
+    strings = value.split("/")
+    id = strings.find { |str| str.match?(/\A[+-]?\d+\z/) }
+    ret = $lang.fetch("game_item_displayname_#{id}", $lang.fetch("item_#{id}_name", $lang.fetch("generatedtip_item_#{id}_displayname", value)))
+    if ret.include?("Items") && id&.length == 6
+        newid = id[2...]
+        ret = $lang.fetch("game_item_displayname_#{newid}", $lang.fetch("item_#{newid}_name", $lang.fetch("generatedtip_item_#{newid}_displayname", value)))
+        if ret.include?("Items")
+            # Arena specific items moved to other modes
+            newid = "44#{newid}"
+            ret = $lang.fetch("game_item_displayname_#{newid}", $lang.fetch("item_#{newid}_name", $lang.fetch("generatedtip_item_#{newid}_displayname", value)))
+        end
+    end
+    
+    if id&.length == 4
+        ret = "Swarm/#{ret}" if id.start_with?("9")
+    end
+    if id&.length == 6
+        ret = "ARAMMayhem/#{ret}" if id.start_with?("12")
+        ret = "TFT/#{ret}" if id.start_with?("22")
+        ret = "Arena/#{ret}" if id.start_with?("44")
+        ret = "DoomBots/#{ret}" if id.start_with?("66")
+        ret = "99/#{ret}" if id.start_with?("99")
+    end
+    return ret
+end
+
 print "Loading and formatting stringtable..."
 $lang = {}
 File.open("lang/lol.stringtable.json", 'rb') { |f| $lang = JSON.parse(f.read()) }
@@ -355,16 +449,29 @@ print "done.\n"
 
 # Arena handling
 print "Loading and formatting Arena augment data..."
-arena = {}
-File.open("arena/en_us.json", 'rb') { |f| arena = JSON.parse(f.read()) }
-File.open("arena/en_us.json", 'wb') { |f| f.write(JSON.pretty_generate(arena)) }
+$arena = {}
+File.open("temp/data/maps/shipping/map30/map30.json", 'rb') { |f| $arena = JSON.parse(f.read()) }
+$arena = $arena.fetch("entries", $arena)
+augments = []
+$arena.each{ |key, data|
+    v = augmentSearcher(key, data)
+    augments.push(v) if !v.nil?
+}
+
+File.open("arena/augments.json", 'wb') { |f| f.write(JSON.pretty_generate(augments.sort_by { |a| a["id"] })) }
 print "done.\n"
 
 # ARAM: Mayhem Augment handling
 print "Loading and formatting ARAM: Mayhem augment data..."
-aram = {}
-File.open("mayhem/augments.bin.json", 'rb') { |f| aram = JSON.parse(f.read()) }
-File.open("mayhem/augments.bin.json", 'wb') { |f| f.write(JSON.pretty_generate(aram)) }
+$aram = {}
+File.open("temp/data/maps/modespecificdata/augments.json", 'rb') { |f| $aram = JSON.parse(f.read()) }
+$aram = $aram.fetch("entries", $aram)
+aramAugments = []
+$aram.each { |key, data|
+    v = augmentSearcher(key, data, 1)
+    aramAugments.push(v) if !v.nil?
+}
+File.open("mayhem/augments.json", 'wb') { |f| f.write(JSON.pretty_generate(aramAugments.sort_by { |a| a["id"] })) }
 print "done.\n"
 
 print "Loading and formatting champion data..."
@@ -382,17 +489,39 @@ Dir.each_child("temp/data/characters") { |path|
 print "done.\n"
 
 print "Loading and formatting item data..."
+itemBin = {}
 items = {}
-File.open("items/items.cdtb.bin.json", 'rb') { |f| items = JSON.parse(f.read()) }
-
-items.each { |item, itemObj|
-    if itemObj.is_a?(Hash)
-        itemObj.each { |k, v|
-            next if !v.is_a?(String)
-            itemObj[k] = $lang.fetch(v.downcase, v) if v.include?("_") && k == "mDisplayName"
-        }
+itemsSpells = {}
+itemsVFX = {}
+itemsTFT = {}
+itemsMisc = {}
+File.open("temp/data/items.ltk.json", 'rb') { |f| itemBin = JSON.parse(f.read()) }
+itemBin = itemBin.fetch("entries", itemBin)
+itemBin.each { |item, itemObj|
+    transObj = applyLang(itemObj)
+    transItem = itemNameLangFix(item)
+    if transItem.include?("TFT")
+        itemsTFT.store(transItem, transObj)
+        next
+    end
+    if transObj["~class"]
+        case transObj["~class"]
+            when "ItemData"
+                items.store(transItem, transObj)
+            when "SpellObject"
+                itemsSpells.store(transItem, transObj)
+            when "VfxSystemDefinitionData"
+                itemsVFX.store(transItem, transObj)
+            else
+                itemsMisc.store(transItem, transObj)
+        end
+    else
+        itemsMisc.store(transItem, transObj)
     end
 }
 
-File.open("items/items.cdtb.bin.json", 'wb') { |f| f.write(JSON.pretty_generate(items)) }
+File.open("items/items.json", 'wb') { |f| f.write(JSON.pretty_generate(items)) }
+File.open("items/itemsMisc.json", 'wb') { |f| f.write(JSON.pretty_generate(itemsMisc)) }
+File.open("items/itemsVFX.json", 'wb') { |f| f.write(JSON.pretty_generate(itemsVFX)) }
+File.open("items/itemsSpells.json", 'wb') { |f| f.write(JSON.pretty_generate(itemsSpells)) }
 print "done.\n"
