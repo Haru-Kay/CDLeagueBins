@@ -206,7 +206,7 @@ def diff
         champion = nil
         $champLang.each { |c| 
             if key.include?(c)
-                champion = c
+                champion = c unless key.include?("anticheat")
                 break
             end
         }
@@ -222,7 +222,7 @@ def diff
         champion = nil
         $champLang.each { |c| 
             if key.include?(c)
-                champion = c
+                champion = c unless key.include?("anticheat")
                 break
             end
         }
@@ -238,7 +238,7 @@ def diff
         champion = nil
         $champLang.each { |c| 
             if key.include?(c)
-                champion = c
+                champion = c unless key.include?("anticheat")
                 break
             end
         }
@@ -285,7 +285,7 @@ def diff
         oldInfix = oldStr[firstDiff, oldLastDiff - firstDiff + 1]
         newInfix = newStr[firstDiff, newLastDiff - firstDiff + 1]
         suffix = oldStr[oldLastDiff + 1...]
-
+        next if suffix.nil?
         str = "CHANGED:\n#{key.inspect} =\n#{prefix.inspect}...\n  ...#{oldInfix.inspect}...\n  -->\n  ...#{newInfix.inspect}...\n#{suffix.inspect}\n"
         output += str
         if champion
