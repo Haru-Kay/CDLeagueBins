@@ -200,8 +200,67 @@
             1.5
           ],
           "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamageStart",
+          "mValues": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ],
+          "~class": "SpellDataValue"
+        },
+        {
+          "mName": "BaseDamageEnd",
+          "mValues": [
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0,
+            50.0
+          ],
+          "~class": "SpellDataValue"
         }
       ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "BaseDamageStart",
+              "mValues": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+              ],
+              "~class": "SpellDataValue"
+            },
+            {
+              "mName": "BaseDamageEnd",
+              "mValues": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
       "canCastOrQueueWhileCasting": true,
       "canCastWhileDisabled": true,
       "cannotBeSuppressed": true,
@@ -295,9 +354,9 @@
         "BurnDamage": {
           "mFormulaParts": [
             {
-              "mEndValue": 50.0,
-              "mStartValue": 10.0,
-              "~class": "ByCharLevelInterpolationCalculationPart"
+              "0x589a59c": "0xfd8eae9b",
+              "0xb65bc23": "0x6470985e",
+              "~class": "0xee18a47b"
             },
             {
               "mCoefficient": 0.20000000298023224,
@@ -742,8 +801,8 @@
         ],
         "mEarlyLevelOverrides": [
           2,
-          0,
           1,
+          0,
           2
         ],
         "~class": "recSpellRankUpInfo"
@@ -2076,6 +2135,20 @@
     },
     "mScriptName": "MilioQ",
     "mSpell": {
+      "0xf9c2333e": {
+        "cherry": {
+          "value": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ],
+          "~class": "SpellEffectAmount"
+        }
+      },
       "DataValues": [
         {
           "mName": "SlowAmount",
@@ -2597,6 +2670,26 @@
           "~class": "SpellDataValue"
         }
       ],
+      "DataValuesModeOverride": {
+        "cherry": {
+          "SpellDataValues": [
+            {
+              "mName": "HealBase",
+              "mValues": [
+                50.0,
+                200.0,
+                350.0,
+                500.0,
+                650.0,
+                800.0,
+                950.0
+              ],
+              "~class": "SpellDataValue"
+            }
+          ],
+          "~class": "SpellDataValueVector"
+        }
+      },
       "TargetingForgivenessDefinitions": [
         {
           "ForgivenessRange": 100.0,

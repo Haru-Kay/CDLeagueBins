@@ -1255,6 +1255,29 @@
     "ObjectName": "CaitlynPassive",
     "mScriptName": "CaitlynPassive",
     "mSpell": {
+      "0xfe87f21e": [
+        {
+          "0x1987941": [
+            {
+              "mSubRequirements": [
+                {
+                  "0x7b66f15d": false,
+                  "0xd6b6109c": "Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveDriver",
+                  "~class": "HasBuffCastRequirement"
+                },
+                {
+                  "0xd6b6109c": "Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveRangeMarker",
+                  "~class": "HasBuffCastRequirement"
+                }
+              ],
+              "mSuccessesRequired": 1,
+              "~class": "HasAtleastNSubRequirementsCastRequirement"
+            }
+          ],
+          "0x6166b756": "0x42962485",
+          "~class": "0xfe87f21e"
+        }
+      ],
       "DataValues": [
         {
           "mName": "CritChanceMultiplier",
@@ -1329,6 +1352,24 @@
         "ASSETS/Characters/Caitlyn/HUD/Icons2D/CaitlynPGrey.dds"
       ],
       "mSpellCalculations": {
+        "0x42962485": {
+          "mFormulaParts": [
+            {
+              "mSubparts": [
+                {
+                  "mSpellCalculationKey": "HeadShotMinionBonusDamage",
+                  "~class": "0xf3cbe7b2"
+                },
+                {
+                  "mSpellCalculationKey": "HeadShotBonusDamage",
+                  "~class": "0xf3cbe7b2"
+                }
+              ],
+              "~class": "SumOfSubPartsCalculationPart"
+            }
+          ],
+          "~class": "GameCalculation"
+        },
         "BrushAttackTotal": {
           "mExpandedTooltipCalculationDisplay": 5,
           "mFormulaParts": [

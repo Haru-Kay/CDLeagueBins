@@ -9,11 +9,12 @@
       }
     ],
     "Milestones": [
-      99999,
-      99999,
-      99999,
-      99999,
-      99999
+      20,
+      50,
+      100,
+      125,
+      150,
+      75
     ],
     "TriggeredFromScript": true,
     "catalogEntry": {
@@ -420,11 +421,12 @@
       }
     ],
     "Milestones": [
-      99999,
-      99999,
-      99999,
-      99999,
-      99999
+      2000,
+      3500,
+      5000,
+      6500,
+      8000,
+      4000
     ],
     "TriggeredFromScript": true,
     "catalogEntry": {
@@ -448,11 +450,12 @@
       }
     ],
     "Milestones": [
-      99999,
-      99999,
-      99999,
-      99999,
-      99999
+      7,
+      15,
+      35,
+      40,
+      50,
+      25
     ],
     "TriggeredFromScript": true,
     "catalogEntry": {
@@ -476,11 +479,12 @@
       }
     ],
     "Milestones": [
-      99999,
-      99999,
-      99999,
-      99999,
-      99999
+      20,
+      55,
+      100,
+      125,
+      175,
+      90
     ],
     "TriggeredFromScript": true,
     "catalogEntry": {
@@ -596,11 +600,12 @@
       }
     ],
     "Milestones": [
-      99999,
-      99999,
-      99999,
-      99999,
-      99999
+      30,
+      75,
+      125,
+      150,
+      175,
+      90
     ],
     "TriggeredFromScript": true,
     "catalogEntry": {
@@ -635,11 +640,23 @@
     "~class": "SpellObject"
   },
   "0xacaa485": {
-    "DataCollectionOnly": true,
-    "EpicStatStone": true,
     "EventsToTrack": [
       {
-        "EventToTrack": 244,
+        "EventToTrack": 7,
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "MinionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 225,
         "~class": "StatStoneEventToTrack"
       }
     ],
@@ -648,7 +665,8 @@
       65,
       125,
       150,
-      185
+      185,
+      75
     ],
     "catalogEntry": {
       "contentId": "5991aaa6-4cba-4471-89c9-0819a0c61b7b",
@@ -676,11 +694,54 @@
     "~class": "StatStoneSet"
   },
   "0xb27e4830": {
-    "DataCollectionOnly": true,
-    "EpicStatStone": true,
     "EventsToTrack": [
       {
-        "EventToTrack": 244,
+        "EventToTrack": 65,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 85,
+        "StatFilters": [
+          {
+            "ChampionsAreValid": false,
+            "~class": "TargetTypeFilter"
+          },
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
+        "~class": "StatStoneEventToTrack"
+      },
+      {
+        "EventToTrack": 64,
+        "StatFilters": [
+          {
+            "UnitTags": {
+              "mObjectTagList": [
+                "0x592aa99b"
+              ],
+              "~class": "ObjectTags"
+            },
+            "~class": "TargetHasUnitTagFilter"
+          }
+        ],
         "~class": "StatStoneEventToTrack"
       }
     ],
@@ -689,7 +750,8 @@
       10,
       20,
       22,
-      25
+      25,
+      10
     ],
     "catalogEntry": {
       "contentId": "b65158f3-5390-4762-a2ad-883566073a7b",
@@ -726,11 +788,12 @@
       }
     ],
     "Milestones": [
-      99999,
-      99999,
-      99999,
-      99999,
-      99999
+      15,
+      30,
+      65,
+      75,
+      95,
+      40
     ],
     "TriggeredFromScript": true,
     "catalogEntry": {
@@ -844,11 +907,9 @@
     "~class": "SpellObject"
   },
   "0xe706f408": {
-    "DataCollectionOnly": true,
-    "EpicStatStone": true,
     "EventsToTrack": [
       {
-        "EventToTrack": 244,
+        "EventToTrack": 62,
         "~class": "StatStoneEventToTrack"
       }
     ],
@@ -857,7 +918,8 @@
       15,
       25,
       30,
-      40
+      40,
+      15
     ],
     "catalogEntry": {
       "contentId": "4059392e-b1ce-4779-9004-ae547629fa5c",

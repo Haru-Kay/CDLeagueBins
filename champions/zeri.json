@@ -1,4 +1,9 @@
 {
+  "0x1232dcbb": {
+    "ObjectName": "ZeriSkin40Manager",
+    "mScriptName": "ZeriSkin40Manager",
+    "~class": "SpellObject"
+  },
   "0x154bd8ef": {
     "EpicStatStone": true,
     "EventsToTrack": [
@@ -595,6 +600,16 @@
       },
       {
         "mParentPassiveBuff": "Characters/Zeri/Spells/ZeriBackpackVFXManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            40
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x1232dcbb",
         "~class": "CharacterPassiveData"
       }
     ],
@@ -1718,6 +1733,13 @@
     "ObjectName": "ZeriQ",
     "mScriptName": "ZeriQ",
     "mSpell": {
+      "0xfe87f21e": [
+        {
+          "0x6166b756": "PassiveExecuteThreshold",
+          "0x7a9d64ea": true,
+          "~class": "0xfe87f21e"
+        }
+      ],
       "DataValues": [
         {
           "mName": "MinCooldown",
@@ -1890,6 +1912,7 @@
         }
       ],
       "alwaysSnapFacing": true,
+      "canCastWhileDisabled": true,
       "castFrame": 15.0,
       "castRange": [
         25000.0,

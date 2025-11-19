@@ -1278,6 +1278,12 @@
     "~class": "ItemData"
   },
   "Recurve Bow": {
+    "0xfe87f21e": [
+      {
+        "0x6166b756": "0xe4493c5b",
+        "~class": "0xfe87f21e"
+      }
+    ],
     "epicness": 4,
     "itemID": 1043,
     "mCanBeSold": true,
@@ -1301,6 +1307,17 @@
       2,
       1
     ],
+    "mItemCalculations": {
+      "0xe4493c5b": {
+        "mFormulaParts": [
+          {
+            "mDataValue": "OnHitDamage",
+            "~class": "NamedDataValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      }
+    },
     "mItemDataAvailability": {
       "mInStore": true,
       "~class": "ItemDataAvailability"
@@ -1462,6 +1479,12 @@
     "~class": "ItemData"
   },
   "Doran's Shield": {
+    "0xfe87f21e": [
+      {
+        "0x6166b756": "0x592c02e8",
+        "~class": "0xfe87f21e"
+      }
+    ],
     "StringCalculations": {
       "MeleeRangeSplitRegen": {
         "DefaultResult": "@MaxRegenAmount@",
@@ -1521,6 +1544,17 @@
       4,
       16
     ],
+    "mItemCalculations": {
+      "0x592c02e8": {
+        "mFormulaParts": [
+          {
+            "mDataValue": "BonusDamageToMinions",
+            "~class": "NamedDataValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      }
+    },
     "mItemDataAvailability": {
       "mInStore": true,
       "~class": "ItemDataAvailability"
@@ -1649,6 +1683,12 @@
     "~class": "ItemData"
   },
   "Doran's Ring": {
+    "0xfe87f21e": [
+      {
+        "0x6166b756": "0x592c02e8",
+        "~class": "0xfe87f21e"
+      }
+    ],
     "epicness": 1,
     "itemID": 1056,
     "mCanBeSold": true,
@@ -1706,6 +1746,17 @@
     "mItemAttributes": [
       16
     ],
+    "mItemCalculations": {
+      "0x592c02e8": {
+        "mFormulaParts": [
+          {
+            "mDataValue": "BonusDamage",
+            "~class": "NamedDataValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      }
+    },
     "mItemDataAvailability": {
       "mInStore": true,
       "~class": "ItemDataAvailability"
@@ -2777,15 +2828,11 @@
       16,
       32
     ],
-    "mItemDataAvailability": {
-      "mInStore": true,
-      "~class": "ItemDataAvailability"
-    },
     "mItemDataClient": {
-      "InventoryIconLarge": "ASSETS/Items/Icons2D/AutoAtlas/LargeIcons/3013_Voidwalkers88.png",
-      "InventoryIconSmall": "ASSETS/Items/Icons2D/AutoAtlas/SmallIcons/3013_Voidwalkers44.png",
+      "InventoryIconLarge": "ASSETS/Items/Icons2D/AutoAtlas/LargeIcons/1111_JarvanIs.Kiwi_15_24_Balance.png",
+      "InventoryIconSmall": "ASSETS/Items/Icons2D/AutoAtlas/SmallIcons/1111_JarvanIs.Kiwi_15_24_Balance.png",
       "epicness": 4,
-      "inventoryIcon": "ASSETS/Items/Icons2D/3013_Voidwalkers.dds",
+      "inventoryIcon": "ASSETS/Items/Icons2D/1111_JarvanIs.Kiwi_15_24_Balance.dds",
       "mDescription": "<section></section><section><attention>%i:scaleAS% @PercentAttackSpeedMod*100@%</attention> Attack Speed<br><attention>%i:scaleMS% @FlatMovementSpeedMod@</attention> Move Speed<br><attention>%i:scaleCooldown% @AbilityHasteMod@</attention> Ability Haste<br><attention>%i:scaleMPen% @FlatMagicPenetrationMod@</attention> Magic Penetration<br><attention>%i:scaleArmor% @FlatArmorMod@</attention> Armor<br><attention>%i:scaleMR% @FlatSpellBlockMod@</attention> Magic Resist<br><attention>%i:scaleTenacity% @PercentTenacityItemMod*100@%</attention> Tenacity</section><section><passive>Jarvan One</passive><br>Give you stats and passives from all boots.<br><br><b>Requires Augment: <prismatic>Quest: SneakerHead</prismatic></b></section><section></section><section><flavorText>The finest footwear - allegedly worn by the first King Jarvan at the time of his death.</flavorText></section>",
       "mDynamicTooltip": "<titleLeft><itemName@ItemActiveness@>Jarvan I's</itemName@ItemActiveness@></titleLeft><titleRight>{{ Item_Gold_Value_Sell }} <rules>(@SellBackModifier*100@%)</rules></titleRight><subtitleLeft>{{ Item_BriefIcon_@ItemActiveness@ }}</subtitleLeft><subtitleRight></subtitleRight><mainText><section><attention>%i:scaleAS% @PercentAttackSpeedMod*100@%</attention> Attack Speed<br><attention>%i:scaleMS% @FlatMovementSpeedMod@</attention> Move Speed<br><attention>%i:scaleCooldown% @AbilityHasteMod@</attention> Ability Haste<br><attention>%i:scaleMPen% @FlatMagicPenetrationMod@</attention> Magic Penetration<br><attention>%i:scaleArmor% @FlatArmorMod@</attention> Armor<br><attention>%i:scaleMR% @FlatSpellBlockMod@</attention> Magic Resist<br><attention>%i:scaleTenacity% @PercentTenacityItemMod*100@%</attention> Tenacity</section><section><passive>Jarvan One</passive><br>Give you stats and passives from all boots.</section><section></section><section><flavorText>The finest footwear - allegedly worn by the first King Jarvan at the time of his death.</flavorText></section></mainText><postScriptLeft></postScriptLeft>",
       "mShopTooltip": "<titleLeft><itemName@ItemActiveness@>Jarvan I's</itemName@ItemActiveness@></titleLeft><titleRight>{{ Item_Gold_Value }}</titleRight><subtitleLeft>{{ Item_BriefIcon_@ItemActiveness@ }}</subtitleLeft><subtitleRight></subtitleRight><mainText><section></section><section><attention>%i:scaleAS% @PercentAttackSpeedMod*100@%</attention> Attack Speed<br><attention>%i:scaleMS% @FlatMovementSpeedMod@</attention> Move Speed<br><attention>%i:scaleCooldown% @AbilityHasteMod@</attention> Ability Haste<br><attention>%i:scaleMPen% @FlatMagicPenetrationMod@</attention> Magic Penetration<br><attention>%i:scaleArmor% @FlatArmorMod@</attention> Armor<br><attention>%i:scaleMR% @FlatSpellBlockMod@</attention> Magic Resist<br><attention>%i:scaleTenacity% @PercentTenacityItemMod*100@%</attention> Tenacity</section><section><passive>Jarvan One</passive><br>Give you stats and passives from all boots.<br><br><b>Requires Augment: <prismatic>Quest: SneakerHead</prismatic></b></section><section></section><section><flavorText>The finest footwear - allegedly worn by the first King Jarvan at the time of his death.</flavorText></section></mainText><br>",
@@ -11960,6 +12007,12 @@
   },
   "Tear of the Goddess": {
     "0x4f958685": 3070,
+    "0xfe87f21e": [
+      {
+        "0x6166b756": "0x592c02e8",
+        "~class": "0xfe87f21e"
+      }
+    ],
     "DataValuesModeOverride": {
       "0xa110bc47": {
         "DataValues": [
@@ -12106,6 +12159,17 @@
       4,
       8
     ],
+    "mItemCalculations": {
+      "0x592c02e8": {
+        "mFormulaParts": [
+          {
+            "mDataValue": "BonusMinionDamage",
+            "~class": "NamedDataValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      }
+    },
     "mItemDataAvailability": {
       "mInStore": true,
       "~class": "ItemDataAvailability"
@@ -14095,6 +14159,12 @@
     "~class": "ItemData"
   },
   "Wit's End": {
+    "0xfe87f21e": [
+      {
+        "0x6166b756": "OnHitDamage",
+        "~class": "0xfe87f21e"
+      }
+    ],
     "epicness": 5,
     "itemID": 3091,
     "mCanBeSold": true,
@@ -15560,6 +15630,12 @@
     "~class": "ItemData"
   },
   "Nashor's Tooth": {
+    "0xfe87f21e": [
+      {
+        "0x6166b756": "TotalOnHitDamage",
+        "~class": "0xfe87f21e"
+      }
+    ],
     "epicness": 5,
     "itemID": 3115,
     "mAbilityHasteMod": 15.0,
@@ -16484,6 +16560,12 @@
     "~class": "ItemData"
   },
   "Guinsoo's Rageblade": {
+    "0xfe87f21e": [
+      {
+        "0x6166b756": "0x592c02e8",
+        "~class": "0xfe87f21e"
+      }
+    ],
     "epicness": 5,
     "itemID": 3124,
     "mCanBeSold": true,
@@ -16558,6 +16640,15 @@
       2
     ],
     "mItemCalculations": {
+      "0x592c02e8": {
+        "mFormulaParts": [
+          {
+            "mDataValue": "OnHitDamage",
+            "~class": "NamedDataValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
       "MaxAttackSpeedCalc": {
         "mDisplayAsPercent": true,
         "mFormulaParts": [
@@ -18434,6 +18525,12 @@
     "~class": "ItemData"
   },
   "Blade of the Ruined King": {
+    "0xfe87f21e": [
+      {
+        "0x6166b756": "0x405deeb1",
+        "~class": "0xfe87f21e"
+      }
+    ],
     "DataValuesModeOverride": {
       "0xaecea60c": {
         "DataValues": [
@@ -18596,6 +18693,30 @@
       2
     ],
     "mItemCalculations": {
+      "0x405deeb1": {
+        "mFormulaParts": [
+          {
+            "0xa8cb9c14": true,
+            "mCoefficient": 1.0,
+            "mStat": 13,
+            "~class": "StatByCoefficientCalculationPart"
+          }
+        ],
+        "mMultiplier": {
+          "mSpellCalculationKey": "0x79b6144b",
+          "~class": "0xf3cbe7b2"
+        },
+        "~class": "GameCalculation"
+      },
+      "0x42565e68": {
+        "mFormulaParts": [
+          {
+            "mDataValue": "RangedValue",
+            "~class": "NamedDataValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
       "0x6387172": {
         "mFormulaParts": [
           {
@@ -18614,10 +18735,27 @@
         ],
         "~class": "GameCalculation"
       },
+      "0x79b6144b": {
+        "mConditionalCalculationRequirements": {
+          "~class": "IsRangedCastRequirement"
+        },
+        "mConditionalGameCalculation": "0x42565e68",
+        "mDefaultGameCalculation": "0xd96e60e3",
+        "~class": "GameCalculationConditional"
+      },
       "0xc0b34d7a": {
         "mFormulaParts": [
           {
             "mDataValue": "MoveSpeedMod",
+            "~class": "NamedDataValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xd96e60e3": {
+        "mFormulaParts": [
+          {
+            "mDataValue": "MeleeValue",
             "~class": "NamedDataValueCalculationPart"
           }
         ],
@@ -26109,6 +26247,15 @@
       8
     ],
     "mItemCalculations": {
+      "0x1755c90e": {
+        "mFormulaParts": [
+          {
+            "mDataValue": "0x9f631779",
+            "~class": "NamedDataValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
       "0x6387172": {
         "mFormulaParts": [
           {
@@ -26127,6 +26274,57 @@
         ],
         "~class": "GameCalculation"
       },
+      "0x79b6144b": {
+        "0x353099b0": true,
+        "mConditionalCalculationRequirements": {
+          "mSubRequirements": [
+            {
+              "0x6166b756": "ExecutePercent",
+              "mInvertResult": true,
+              "~class": "AboveHealthPercentCastRequirement"
+            },
+            {
+              "mRange": 1300.0,
+              "mUnitsRequirements": [
+                {
+                  "~class": "SameTeamCastRequirement"
+                },
+                {
+                  "mUnitTags": {
+                    "mObjectTagList": [
+                      "champion"
+                    ],
+                    "~class": "ObjectTags"
+                  },
+                  "~class": "HasUnitTagsCastRequirement"
+                }
+              ],
+              "~class": "HasNNearbyVisibleUnitsRequirement"
+            }
+          ],
+          "~class": "HasAllSubRequirementsCastRequirement"
+        },
+        "mConditionalGameCalculation": "ExecuteDamage",
+        "~class": "GameCalculationConditional"
+      },
+      "0xbdd8f3f7": {
+        "mFormulaParts": [
+          {
+            "mDataValue": "0xd4217cda",
+            "~class": "NamedDataValueCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xbf4d7d10": {
+        "mConditionalCalculationRequirements": {
+          "0xd6b6109c": "Shared/Spells/S14_Support_Charge_Display",
+          "0xfbd4eefd": 2,
+          "~class": "0xbf62176c"
+        },
+        "mConditionalGameCalculation": "0x79b6144b",
+        "~class": "GameCalculationConditional"
+      },
       "ChampRange": {
         "mConditionalCalculationRequirements": {
           "~class": "IsRangedCastRequirement"
@@ -26135,6 +26333,25 @@
         "mDefaultGameCalculation": "0x792cf56b",
         "mExpandedTooltipCalculationDisplay": 5,
         "mSimpleTooltipCalculationDisplay": 5,
+        "~class": "GameCalculationConditional"
+      },
+      "ExecuteDamage": {
+        "mFormulaParts": [
+          {
+            "0xa8cb9c14": true,
+            "mCoefficient": 1.0,
+            "mStat": 12,
+            "~class": "StatByCoefficientCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "ExecutePercent": {
+        "mConditionalCalculationRequirements": {
+          "~class": "IsRangedCastRequirement"
+        },
+        "mConditionalGameCalculation": "0x1755c90e",
+        "mDefaultGameCalculation": "0xbdd8f3f7",
         "~class": "GameCalculationConditional"
       },
       "MeleeItemCalcValue": {
@@ -29640,7 +29857,7 @@
     "mDataValues": [
       {
         "mName": "TargetCurrentHealthRatio",
-        "mValue": 0.10000000149011612,
+        "mValue": 0.12999999523162842,
         "~class": "ItemDataValue"
       }
     ],
@@ -29751,7 +29968,7 @@
       },
       {
         "mName": "AmpGain",
-        "mValue": 0.009999999776482582,
+        "mValue": 0.012000000104308128,
         "~class": "ItemDataValue"
       }
     ],
@@ -30889,12 +31106,12 @@
     "mDataValues": [
       {
         "mName": "AmpBase",
-        "mValue": 0.15000000596046448,
+        "mValue": 0.20000000298023224,
         "~class": "ItemDataValue"
       },
       {
         "mName": "AmpGain",
-        "mValue": 0.30000001192092896,
+        "mValue": 0.3499999940395355,
         "~class": "ItemDataValue"
       },
       {
@@ -31013,8 +31230,8 @@
       "TotalDamage": {
         "mFormulaParts": [
           {
-            "mEndValue": 60.0,
-            "mStartValue": 20.0,
+            "mEndValue": 100.0,
+            "mStartValue": 50.0,
             "~class": "ByCharLevelInterpolationCalculationPart"
           }
         ],
@@ -31863,7 +32080,7 @@
       },
       {
         "mName": "ShieldDRPercentage",
-        "mValue": 0.4000000059604645,
+        "mValue": 0.5,
         "~class": "ItemDataValue"
       },
       {
@@ -31888,7 +32105,7 @@
       }
     ],
     "mDisplayName": "Crown of the Shattered Queen",
-    "mFlatHPPoolMod": 300.0,
+    "mFlatHPPoolMod": 350.0,
     "mFlatMagicDamageMod": 85.0,
     "mItemAdviceAttributes": [
       "0xdfe0e8e4"
@@ -32289,7 +32506,7 @@
       "DamageAmount": {
         "mFormulaParts": [
           {
-            "mNumber": 250.0,
+            "mNumber": 300.0,
             "~class": "NumberCalculationPart"
           },
           {
@@ -32428,7 +32645,7 @@
       },
       {
         "mName": "PercentMaxHealthPeriodicHeal",
-        "mValue": 0.02500000037252903,
+        "mValue": 0.029999999329447746,
         "~class": "ItemDataValue"
       },
       {
@@ -33402,7 +33619,7 @@
       },
       {
         "mName": "Cooldown",
-        "mValue": 15.0,
+        "mValue": 12.0,
         "~class": "ItemDataValue"
       },
       {
@@ -33573,7 +33790,7 @@
       }
     ],
     "mDisplayName": "Hemomancer's Helm",
-    "mFlatPhysicalDamageMod": 60.0,
+    "mFlatPhysicalDamageMod": 70.0,
     "mItemAttributes": [
       2,
       1,
@@ -34148,7 +34365,7 @@
       "0x8620ca16"
     ],
     "mPercentAttackSpeedMod": 0.5,
-    "mPercentMovementSpeedMod": 0.05999999865889549,
+    "mPercentMovementSpeedMod": 0.07999999821186066,
     "mRequiredLevel": 99,
     "mVFXResourceResolver": {
       "resourceMap": {
@@ -35227,7 +35444,7 @@
       },
       {
         "mName": "AdaptiveForce",
-        "mValue": 70.0,
+        "mValue": 85.0,
         "~class": "ItemDataValue"
       },
       {
@@ -35268,7 +35485,7 @@
         "mFormulaParts": [
           {
             "mEndValue": 0.75,
-            "mStartValue": 0.30000001192092896,
+            "mStartValue": 0.5,
             "~class": "ByCharLevelInterpolationCalculationPart"
           }
         ],
@@ -36064,12 +36281,12 @@
       },
       {
         "mName": "SpiritWorldAP",
-        "mValue": 0.20000000298023224,
+        "mValue": 0.25,
         "~class": "ItemDataValue"
       },
       {
         "mName": "MaterialWorldAD",
-        "mValue": 0.20000000298023224,
+        "mValue": 0.25,
         "~class": "ItemDataValue"
       }
     ],

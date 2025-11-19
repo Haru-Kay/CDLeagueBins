@@ -69,6 +69,11 @@
     "stoneName": "LucianRKills",
     "~class": "StatStoneData"
   },
+  "0x75f26df0": {
+    "ObjectName": "LucianSkin72Manager",
+    "mScriptName": "LucianSkin72Manager",
+    "~class": "SpellObject"
+  },
   "0x822f3de7": {
     "EpicStatStone": true,
     "EventsToTrack": [
@@ -558,6 +563,16 @@
       },
       {
         "mParentPassiveBuff": "Characters/Lucian/Spells/LucianRunCycleManager",
+        "~class": "CharacterPassiveData"
+      },
+      {
+        "SkinFilter": {
+          "skinIds": [
+            72
+          ],
+          "~class": "SkinFilterData"
+        },
+        "mParentPassiveBuff": "0x75f26df0",
         "~class": "CharacterPassiveData"
       }
     ],
