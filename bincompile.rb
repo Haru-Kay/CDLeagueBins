@@ -57,8 +57,10 @@ pool.post {
     system("wadtools -L error --progress false e -i \"#{path}Global.wad.client\" -o \"#{Dir.getwd}/bins/data\" -x \"^items$\"")
     puts "Generated items"
 }
-# Map30.wad.client data/maps/shipping/map30/map30.bin
-# Map12.wad.client data/maps/augments.bin
+pool.post {
+    system("wadtools -L error --progress false e -i \"#{path}Global.wad.client\" -o \"#{Dir.getwd}/bins\" -x \"^globals$\"")
+    puts "Generated loadtip info"
+}
 
 pool.shutdown
 pool.wait_for_termination

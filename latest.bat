@@ -1,6 +1,7 @@
 @echo off
 
-start /b /wait snip-snip https://raw.communitydragon.org/latest/game/en_us/data/menu/en_us/ --filter "lol.stringtable.json" -o "lang" -f false
+start /b /wait snip-snip https://raw.communitydragon.org/latest/game/en_us/data/menu/en_us/ --filter "lol.stringtable.json" --overwrite=false -o "lang"
+start /b /wait snip-snip https://raw.communitydragon.org/latest/game/en_us/data/menu/en_us/ --filter "tft.stringtable.json" --overwrite=false -o "lang"
 ::start /b /wait snip-snip https://raw.communitydragon.org/latest/cdragon/arena/ --filter "en_us.json" -o "arena"
 
 ::start /b /wait snip-snip https://raw.communitydragon.org/latest/game/ --filter "items.cdtb.bin.json" -o "items" --max-depth 1

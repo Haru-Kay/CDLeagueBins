@@ -525,3 +525,85 @@ File.open("items/itemsMisc.json", 'wb') { |f| f.write(JSON.pretty_generate(items
 File.open("items/itemsVFX.json", 'wb') { |f| f.write(JSON.pretty_generate(itemsVFX)) }
 File.open("items/itemsSpells.json", 'wb') { |f| f.write(JSON.pretty_generate(itemsSpells)) }
 print "done.\n"
+
+print "Loading and formatting tft.stringtable..."
+tft = {}
+File.open("lang/tft.stringtable.json", 'rb') { |f| tft = JSON.parse(f.read()) }
+tft = tft["entries"] || tft
+File.open("lang/tft.stringtable.json", 'wb') { |f| f.write(JSON.pretty_generate(tft)) }
+
+print "done.\n"
+
+print "Loading and formatting loadtips..."
+loadtips1 = {}
+$lang.each { |key, string|
+    next if !key.start_with?("game_startup_tip_") || key.start_with?("game_startup_tip_category")
+    id, category = key.split("game_startup_tip_")[1].split("_")
+    loadtips1[category] ||= {}
+    loadtips1[category].store(id, string)
+}
+
+globals = {}
+File.open("temp/globals.ltk.json") { |f| globals = JSON.parse(f.read()) }
+globals = globals.fetch("entries", globals)
+loadtipSets = {}
+globals.each { |key, value|
+    if value.is_a?(Hash)
+        loadtipSets.store(key, value) if value["~class"] == "LoadScreenTipSet"
+    end
+}
+
+loadtips = {}
+loadtipSets.each { |key, value|
+    name = value["mName"]
+    case name.downcase
+        when "gamemodex"
+            name = "Nexus Blitz"
+        when "cherry"
+            name = "Arena"
+        when "strawberry"
+            name = "Swarm"
+        when "0xa110bc47"
+            name = "Brawl"
+        when "0x28ba866a"
+            name = "Worlds"
+        when "0x56b5590"
+            name = "Battle of the God-Kings"
+        else
+            # do nothing
+    end
+    list = value["mTips"]
+    loadtips[name] = []
+    list.each { |tip|
+        d = {}
+        tipData = globals[tip]
+        next if !tipData
+        text = tipData.dig("mLocalizationKey") || tip
+        next if text == "unused"
+        prefix = tipData.dig("mHeaderLocalizationKey")
+        d.store("prefix", $lang.fetch(prefix&.downcase, prefix))
+        d.store("text", $lang.fetch(text.downcase, tft.fetch(text.downcase, text)))
+        d.store("minimumLevel", tipData["mMinimumSummonerLevel"])
+        d.store("maximumLevel", tipData["mMaximumSummonerLevel"])
+        d.delete_if { |k, v| v.nil? }
+        loadtips[name].push(d)
+    }
+}
+loadtips.delete_if { |k, v| v.empty? || v.nil? }
+usedStrings = []
+loadtips.each { |name, tips|
+    usedStrings += tips.map { |t| t["text"] }
+}
+for cat in loadtips1.keys
+    for key in loadtips1[cat].keys
+        loadtips1[cat].delete(key) if usedStrings.include?(loadtips1[cat][key])
+    end
+end
+loadtips1.delete_if { |k, v| v.empty? || v.nil? }
+loadtips.store("Unused", loadtips1)
+
+
+
+File.open("loadtips/loadtips.json", 'wb') { |f| f.write(JSON.pretty_generate(loadtips)) }
+
+print "done.\n"
