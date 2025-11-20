@@ -540,7 +540,7 @@ $lang.each { |key, string|
     next if !key.start_with?("game_startup_tip_") || key.start_with?("game_startup_tip_category")
     id, category = key.split("game_startup_tip_")[1].split("_")
     loadtips1[category] ||= {}
-    loadtips1[category].store(id, string)
+    loadtips1[category].store(key, string)
 }
 
 globals = {}
@@ -581,7 +581,7 @@ loadtipSets.each { |key, value|
         text = tipData.dig("mLocalizationKey") || tip
         next if text == "unused"
         prefix = tipData.dig("mHeaderLocalizationKey")
-        d.store("prefix", $lang.fetch(prefix&.downcase, prefix))
+        d.store("type", $lang.fetch(prefix&.downcase, prefix))
         d.store("text", $lang.fetch(text.downcase, tft.fetch(text.downcase, text)))
         d.store("minimumLevel", tipData["mMinimumSummonerLevel"])
         d.store("maximumLevel", tipData["mMaximumSummonerLevel"])
