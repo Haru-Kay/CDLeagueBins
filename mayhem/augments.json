@@ -3743,8 +3743,8 @@
     "apiName": "SnowballRoulette",
     "name": "Snowball Roulette",
     "rarity": "Prismatic",
-    "desc": "Gain @AbilityHaste@ Ability Haste on <spellName>Snowball</spellName>. Hitting enemy with <spellName>Snowball</spellName> will cast a random beneficial Summoner Spell on yourself or a harmful one on your target.<br><br><rules>If you don't have one, gain a <spellName>Snowball</spellName>.</rules>",
-    "tooltip": "Gain @AbilityHaste@ Ability Haste on <spellName>Snowball</spellName>. Hitting enemy with <spellName>Snowball</spellName> will cast a random beneficial Summoner Spell on yourself or a harmful one on your target.<br><br><rules>If you don't have one, gain a <spellName>Snowball</spellName>.</rules>",
+    "desc": "Gain @AbilityHaste@ Ability Haste on <spellName>Snowball</spellName>. Hitting an enemy casts a random beneficial Summoner Spell on you and a harmful one on them. Following up recast the beneficial one on yourself.<br><br><rules>If you don't have one, gain a <spellName>Snowball</spellName>.</rules>",
+    "tooltip": "Gain @AbilityHaste@ Ability Haste on <spellName>Snowball</spellName>. Hitting an enemy casts a random beneficial Summoner Spell on you and a harmful one on them. Following up recast the beneficial one on yourself.<br><br><rules>If you don't have one, gain a <spellName>Snowball</spellName>.</rules>",
     "dataValues": {
       "AbilityHaste": 100.0
     },
@@ -3859,8 +3859,8 @@
     "apiName": "ARAM_SpiritualPurification",
     "name": "Spiritual Purification",
     "rarity": "Gold",
-    "desc": "On takedown, creates an explosion that deals <scaleHealth>enemy's current health damage</scaleHealth> and <status>slows</status> them by @SlowAmount*100@%.",
-    "tooltip": "On champion takedown, create explotion upon the location, dealing damage to enemies within equal to @PercentCurrentHealthDamage*100@% of their <scaleHealth>current health</scaleHealth>. It then lingers for @SlowDuration@ seconds, <status>slowing</status> enemies within by @SlowAmount*100@%.",
+    "desc": "On takedown, creates an explosion that <status>slows</status> other nearby enemies by @SlowAmount*100@%, and deals damage based on their <scaleHealth>current Health</scaleHealth>.<br>",
+    "tooltip": "Takedowns create an explosion that deals damage to nearby enemies equal to @PercentCurrentHealthDamage*100@% of their <scaleHealth>current health</scaleHealth> and leave a slowing area. Enemies within are <status>slowed</status> by @SlowAmount*100@% for @SlowDuration@ seconds.",
     "dataValues": {
       "SlowAmount": 0.6000000238418579,
       "SlowDuration": 1.5,
