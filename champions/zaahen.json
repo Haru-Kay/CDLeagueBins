@@ -212,7 +212,7 @@
           "mDisplayAsPercent": true,
           "mFormulaParts": [
             {
-              "mEndValue": 0.032999999821186066,
+              "mEndValue": 0.02800000086426735,
               "mStartValue": 0.014999999664723873,
               "~class": "ByCharLevelInterpolationCalculationPart"
             }
@@ -962,6 +962,23 @@
   "0xeb1fee18": {
     "RecSpellRankUpInfos": [
       {
+        "MapId": 11,
+        "Position": "jungle",
+        "mDefaultPriority": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "mEarlyLevelOverrides": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "~class": "recSpellRankUpInfo"
+      },
+      {
         "IsDefaultRecommendation": true,
         "MapId": 11,
         "Position": "Top",
@@ -974,7 +991,8 @@
         "mEarlyLevelOverrides": [
           0,
           2,
-          1
+          1,
+          0
         ],
         "~class": "recSpellRankUpInfo"
       }
@@ -1797,12 +1815,12 @@
           "mName": "Q2BaseDamage",
           "mValues": [
             0.0,
-            30.0,
-            60.0,
-            90.0,
-            120.0,
-            150.0,
-            180.0
+            25.0,
+            50.0,
+            75.0,
+            100.0,
+            125.0,
+            150.0
           ],
           "~class": "SpellDataValue"
         },
@@ -1822,13 +1840,13 @@
         {
           "mName": "QCoeff",
           "mValues": [
+            0.10000000149011612,
             0.20000000298023224,
             0.30000001192092896,
             0.4000000059604645,
             0.5,
             0.6000000238418579,
-            0.699999988079071,
-            0.800000011920929
+            0.699999988079071
           ],
           "~class": "SpellDataValue"
         },

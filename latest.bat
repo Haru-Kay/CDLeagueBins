@@ -1,4 +1,6 @@
 @echo off
+start /b /wait cdtb fetch-hashes
+start /b /wait ruby copyhashes.rb
 
 start /b /wait snip-snip https://raw.communitydragon.org/latest/game/en_us/data/menu/en_us/ --filter "lol.stringtable.json" --overwrite=false -o "lang"
 start /b /wait snip-snip https://raw.communitydragon.org/latest/game/en_us/data/menu/en_us/ --filter "tft.stringtable.json" --overwrite=false -o "lang"
