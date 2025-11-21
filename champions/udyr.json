@@ -271,8 +271,111 @@
     "~class": "RecSpellRankUpInfolist"
   },
   "0x482a7bc2": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "0x3de6ce2d": "RecastShield",
+                "SourceObject": "Characters/Udyr/Spells/UdyrWAbility/UdyrW",
+                "~class": "0xba007871"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 524288,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mPart1": {
+                  "0x3de6ce2d": "RecastHeal",
+                  "SourceObject": "Characters/Udyr/Spells/UdyrWAbility/UdyrW",
+                  "~class": "0xba007871"
+                },
+                "mPart2": {
+                  "0x137cf12a": "ShieldDuration",
+                  "SourceObject": "Characters/Udyr/Spells/UdyrWAbility/UdyrW",
+                  "~class": "0x9e9e2e5c"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mPart1": {
+                  "0x3de6ce2d": "LifeOnHitAwakened",
+                  "SourceObject": "Characters/Udyr/Spells/UdyrWAbility/UdyrW",
+                  "~class": "0xba007871"
+                },
+                "mPart2": {
+                  "mNumber": 2.0,
+                  "~class": "NumberCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mPart1": {
+                  "mPart1": {
+                    "mPart1": {
+                      "0x137cf12a": "LifeSteal",
+                      "SourceObject": "Characters/Udyr/Spells/UdyrWAbility/UdyrW",
+                      "~class": "0x9e9e2e5c"
+                    },
+                    "mPart2": {
+                      "mNumber": 200.0,
+                      "~class": "NumberCalculationPart"
+                    },
+                    "~class": "ProductOfSubPartsCalculationPart"
+                  },
+                  "mPart2": {
+                    "mCoefficient": 1.0,
+                    "mStat": 2,
+                    "~class": "StatByCoefficientCalculationPart"
+                  },
+                  "~class": "ProductOfSubPartsCalculationPart"
+                },
+                "mPart2": {
+                  "mNumber": 2.0,
+                  "~class": "NumberCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
     "ObjectName": "UdyrW2Activation",
     "mBuff": {
+      "mBuffAttributeFlag": 32,
       "mDescription": "buff_desc_UdyrW2Activation",
       "~class": "BuffData"
     },
@@ -508,8 +611,88 @@
     "~class": "SpellObject"
   },
   "0x7dcaf9a2": {
+    "BotData": {
+      "0x6d548702": {
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "0x137cf12a": "MoveSpeedDuration",
+                "SourceObject": "Characters/Udyr/Spells/UdyrEAbility/UdyrE",
+                "~class": "0x9e9e2e5c"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "0x137cf12a": "StunDuration",
+                "SourceObject": "Characters/Udyr/Spells/UdyrEAbility/UdyrE",
+                "~class": "0x9e9e2e5c"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2048,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "0x137cf12a": "StunDuration",
+                "SourceObject": "Characters/Udyr/Spells/UdyrEAbility/UdyrE",
+                "~class": "0x9e9e2e5c"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 16384,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "0x137cf12a": "StunDuration",
+                "SourceObject": "Characters/Udyr/Spells/UdyrEAbility/UdyrE",
+                "~class": "0x9e9e2e5c"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 4096,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "0x137cf12a": "0x91d67c06",
+                "SourceObject": "Characters/Udyr/Spells/UdyrEAbility/UdyrE",
+                "~class": "0x9e9e2e5c"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 2097152,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 0,
+      "~class": "BotsSpellData"
+    },
     "ObjectName": "UdyrE2Activation",
     "mBuff": {
+      "mBuffAttributeFlag": 32,
       "mDescription": "buff_desc_UdyrE2Activation",
       "~class": "BuffData"
     },
@@ -563,8 +746,38 @@
     "~class": "StatStoneData"
   },
   "0x927ba862": {
+    "BotData": {
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "0x3de6ce2d": "Q2TotalOnHitHPDamage",
+            "SourceObject": "Characters/Udyr/Spells/UdyrQAbility/UdyrQ",
+            "~class": "0xba007871"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "0x3de6ce2d": "EmpoweredLightningBonusMax",
+                "SourceObject": "Characters/Udyr/Spells/UdyrQAbility/UdyrQ",
+                "~class": "0xba007871"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 33554432,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "~class": "BotsSpellData"
+    },
     "ObjectName": "UdyrQ2Activation",
     "mBuff": {
+      "mBuffAttributeFlag": 32,
       "mDescription": "buff_desc_UdyrQ2Activation",
       "~class": "BuffData"
     },
@@ -673,7 +886,6 @@
       "~class": "AttackSlotData"
     },
     "characterToolData": {
-      "0xaa75da9d": false,
       "ChasingAttackRangePercent": 0.5,
       "LevelSpellEffectiveness": 1.0,
       "alternateForms": [
@@ -697,6 +909,8 @@
         }
       ],
       "attackRank": 8,
+      "botEnabled": true,
+      "botEnabledMM": true,
       "championId": 77,
       "defenseRank": 7,
       "description": "game_character_description_Udyr",
@@ -704,12 +918,39 @@
       "magicRank": 4,
       "mapAIPresence": {
         "0": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "easy": true,
+          "hard": true,
+          "medium": true,
           "~class": "ToolAiPresence"
         },
         "3": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "easy": true,
+          "hard": true,
+          "medium": true,
           "~class": "ToolAiPresence"
         },
         "4": {
+          "0x6175bb7b": true,
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "~class": "ToolAiPresence"
+        },
+        "5": {
+          "0xb66d0e47": true,
+          "0xb75b2ab8": true,
+          "0xca762bfc": true,
+          "easy": true,
+          "hard": true,
+          "medium": true,
           "~class": "ToolAiPresence"
         }
       },
@@ -1322,10 +1563,12 @@
           "~class": "0xb09016f6"
         }
       ],
+      "DamageTag": 0,
       "~class": "BotsSpellData"
     },
     "ObjectName": "UdyrE",
     "mBuff": {
+      "mBuffAttributeFlag": 32,
       "mDescription": "buff_desc_UdyrE",
       "~class": "BuffData"
     },
@@ -2043,6 +2286,7 @@
     },
     "ObjectName": "UdyrQ",
     "mBuff": {
+      "mBuffAttributeFlag": 32,
       "mDescription": "game_buff_tooltip_UdyrTigerStance",
       "~class": "BuffData"
     },
@@ -2958,8 +3202,15 @@
       "0x6d548702": {
         "mFormulaParts": [
           {
-            "mSpellCalculationKey": "StormDamage",
-            "~class": "0xf3cbe7b2"
+            "mPart1": {
+              "mSpellCalculationKey": "PulseDamage",
+              "~class": "0xf3cbe7b2"
+            },
+            "mPart2": {
+              "mNumber": 2.0,
+              "~class": "NumberCalculationPart"
+            },
+            "~class": "ProductOfSubPartsCalculationPart"
           }
         ],
         "~class": "GameCalculation"
@@ -2982,8 +3233,8 @@
           "EffectCalculation": {
             "mFormulaParts": [
               {
-                "mDataValue": "StormBaseDamage",
-                "~class": "NamedDataValueCalculationPart"
+                "mSpellCalculationKey": "StormDamage",
+                "~class": "0xf3cbe7b2"
               }
             ],
             "~class": "GameCalculation"
@@ -3009,6 +3260,7 @@
           "~class": "PersistentEffectConditionData"
         }
       ],
+      "mBuffAttributeFlag": 32,
       "mDescription": "game_buff_tooltip_UdyrPhoenixStance",
       "~class": "BuffData"
     },
@@ -3336,8 +3588,86 @@
     "~class": "SpellObject"
   },
   "Characters/Udyr/Spells/UdyrRAbility/UdyrR2Activation": {
+    "BotData": {
+      "0x38382c53": [
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        }
+      ],
+      "0x6d548702": {
+        "mFormulaParts": [
+          {
+            "mPart1": {
+              "0x3de6ce2d": "PulseDamage",
+              "SourceObject": "Characters/Udyr/Spells/UdyrRAbility/UdyrR",
+              "~class": "0xba007871"
+            },
+            "mPart2": {
+              "mNumber": 2.0,
+              "~class": "NumberCalculationPart"
+            },
+            "~class": "ProductOfSubPartsCalculationPart"
+          }
+        ],
+        "~class": "GameCalculation"
+      },
+      "0xec17e271": [
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "0x137cf12a": "SlowDuration",
+                "SourceObject": "Characters/Udyr/Spells/UdyrRAbility/UdyrR",
+                "~class": "0x9e9e2e5c"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 1,
+          "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mSubparts": [
+                  {
+                    "0x3de6ce2d": "StormDamage",
+                    "SourceObject": "Characters/Udyr/Spells/UdyrRAbility/UdyrR",
+                    "~class": "0xba007871"
+                  },
+                  {
+                    "mPart1": {
+                      "0x3de6ce2d": "PercentHPBlast",
+                      "SourceObject": "Characters/Udyr/Spells/UdyrRAbility/UdyrR",
+                      "~class": "0xba007871"
+                    },
+                    "mPart2": {
+                      "0xa8cb9c14": true,
+                      "mCoefficient": 1.0,
+                      "mStat": 12,
+                      "~class": "StatByCoefficientCalculationPart"
+                    },
+                    "~class": "ProductOfSubPartsCalculationPart"
+                  }
+                ],
+                "~class": "SumOfSubPartsCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 33554432,
+          "~class": "0xb09016f6"
+        }
+      ],
+      "DamageTag": 1,
+      "~class": "BotsSpellData"
+    },
     "ObjectName": "UdyrR2Activation",
     "mBuff": {
+      "mBuffAttributeFlag": 32,
       "mDescription": "game_buff_tooltip_UdyrPhoenixActivation",
       "~class": "BuffData"
     },
@@ -3723,6 +4053,32 @@
   },
   "Characters/Udyr/Spells/UdyrWAbility/UdyrW": {
     "BotData": {
+      "0x38382c53": [
+        {
+          "0xe38f54f7": 8192,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 2,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 8,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 2048,
+          "~class": "0x150d1b92"
+        },
+        {
+          "0x717e686": false,
+          "0xe38f54f7": 4096,
+          "~class": "0x150d1b92"
+        }
+      ],
       "0x6d548702": {
         "~class": "GameCalculation"
       },
@@ -3731,8 +4087,15 @@
           "EffectCalculation": {
             "mFormulaParts": [
               {
-                "mDataValue": "LifeSteal",
-                "~class": "NamedDataValueCalculationPart"
+                "mPart1": {
+                  "mSpellCalculationKey": "LifeOnHit",
+                  "~class": "0xf3cbe7b2"
+                },
+                "mPart2": {
+                  "mNumber": 2.0,
+                  "~class": "NumberCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
               }
             ],
             "~class": "GameCalculation"
@@ -3752,6 +4115,41 @@
           },
           "EffectTag": 524288,
           "~class": "0xb09016f6"
+        },
+        {
+          "EffectCalculation": {
+            "mFormulaParts": [
+              {
+                "mPart1": {
+                  "mPart1": {
+                    "mPart1": {
+                      "mDataValue": "LifeSteal",
+                      "~class": "NamedDataValueCalculationPart"
+                    },
+                    "mPart2": {
+                      "mNumber": 100.0,
+                      "~class": "NumberCalculationPart"
+                    },
+                    "~class": "ProductOfSubPartsCalculationPart"
+                  },
+                  "mPart2": {
+                    "mCoefficient": 1.0,
+                    "mStat": 2,
+                    "~class": "StatByCoefficientCalculationPart"
+                  },
+                  "~class": "ProductOfSubPartsCalculationPart"
+                },
+                "mPart2": {
+                  "mNumber": 2.0,
+                  "~class": "NumberCalculationPart"
+                },
+                "~class": "ProductOfSubPartsCalculationPart"
+              }
+            ],
+            "~class": "GameCalculation"
+          },
+          "EffectTag": 32,
+          "~class": "0xb09016f6"
         }
       ],
       "DamageTag": 1,
@@ -3759,6 +4157,7 @@
     },
     "ObjectName": "UdyrW",
     "mBuff": {
+      "mBuffAttributeFlag": 32,
       "mDescription": "game_buff_tooltip_UdyrTurtleStance",
       "~class": "BuffData"
     },
